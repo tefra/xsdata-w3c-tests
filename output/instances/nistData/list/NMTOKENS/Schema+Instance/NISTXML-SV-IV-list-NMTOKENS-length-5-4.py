@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength5(
     value=[
-        "find-tests.an",
-        "in:industry:t",
-        "who.would:int",
-        "the.use:of.XM",
-        "of-focusing-s",
-        "methods-Altho",
-        "Provide.manip",
-        "vocabularies_",
-        "addressing.ve",
-        "offer-applica",
+        'find-tests.an',
+        'in:industry:t',
+        'who.would:int',
+        'the.use:of.XM',
+        'of-focusing-s',
+        'methods-Altho',
+        'Provide.manip',
+        'vocabularies_',
+        'addressing.ve',
+        'offer-applica',
     ]
 )

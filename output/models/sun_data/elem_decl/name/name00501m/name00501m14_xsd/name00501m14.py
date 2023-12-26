@@ -15,7 +15,7 @@ class Global:
             "name": "Main",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Main:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -43,5 +43,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

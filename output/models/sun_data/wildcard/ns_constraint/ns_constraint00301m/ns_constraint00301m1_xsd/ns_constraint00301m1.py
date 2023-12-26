@@ -18,7 +18,7 @@ class A:
             "namespace": "ns_test1 ns_test2",
             "max_occurs": 2,
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Date:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

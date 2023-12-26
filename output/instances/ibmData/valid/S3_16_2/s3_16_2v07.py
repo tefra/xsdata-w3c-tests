@@ -6,7 +6,7 @@ obj = Root(
     union_element=[
         28,
         33,
-        "az",
+        'az',
         -123,
         XmlDate(1999, 12, 31),
     ]

@@ -18,7 +18,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "sequence": 1,
-        }
+        },
     )
     name: List[str] = field(
         default_factory=list,
@@ -28,7 +28,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "sequence": 1,
-        }
+        },
     )
     manager: List[str] = field(
         default_factory=list,
@@ -38,5 +38,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "sequence": 1,
-        }
+        },
     )

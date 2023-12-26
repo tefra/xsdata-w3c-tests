@@ -14,5 +14,5 @@ class Root:
         default=Decimal("12"),
         metadata={
             "required": True,
-        }
+        },
     )

@@ -25,7 +25,7 @@ class Base:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class Testing(Base):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 

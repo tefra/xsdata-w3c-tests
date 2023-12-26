@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern1(
-    value="finteroperability-these_files-print:a_into_or:"
+    value='finteroperability-these_files-print:a_into_or:'
 )

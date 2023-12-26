@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 999999,
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -8,9 +8,7 @@ class Date:
     class Meta:
         name = "date"
 
-    value: Optional[XmlDate] = field(
-        default=None
-    )
+    value: Optional[XmlDate] = field(default=None)
 
 
 @dataclass
@@ -23,5 +21,5 @@ class Outer:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

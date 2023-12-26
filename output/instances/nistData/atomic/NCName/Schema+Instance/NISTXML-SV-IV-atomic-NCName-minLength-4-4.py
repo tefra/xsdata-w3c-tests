@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength4(
-    value="ftools_based-systems-to-widely_using_industry.development-and-f"
+    value='ftools_based-systems-to-widely_using_industry.development-and-f'
 )

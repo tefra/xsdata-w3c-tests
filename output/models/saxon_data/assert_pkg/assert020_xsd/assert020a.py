@@ -14,5 +14,5 @@ class Temp:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )

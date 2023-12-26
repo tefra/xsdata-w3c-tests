@@ -24,5 +24,5 @@ class Doc:
                     "type": object,
                 },
             ),
-        }
+        },
     )

@@ -12,14 +12,14 @@ class Appendix:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -32,14 +32,14 @@ class Chap:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    appendix_or_chap: List[Union[Chap, Appendix]] = field(
+    appendix_or_chap: List[Union[Appendix, Chap]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -62,5 +62,5 @@ class Doc:
                     "type": Chap,
                 },
             ),
-        }
+        },
     )

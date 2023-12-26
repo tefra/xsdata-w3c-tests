@@ -9,7 +9,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: Union[XmlPeriod, int, bytes, QName] = field(
-        init=False,
-        default=-25
-    )
+    value: Union[XmlPeriod, int, bytes, QName] = field(init=False, default=-25)

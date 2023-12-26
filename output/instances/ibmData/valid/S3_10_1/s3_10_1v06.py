@@ -5,13 +5,13 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     d_or_b=DerivedElement(
-        qname="{a}b",
+        qname='{a}b',
         value=1
     ),
     any_element=[
         AnyElement(
-            qname="{a}x",
-            text="1"
+            qname='{a}x',
+            text='1'
         ),
     ],
     c=1

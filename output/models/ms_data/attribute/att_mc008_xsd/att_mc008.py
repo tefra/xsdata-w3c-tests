@@ -13,13 +13,13 @@ class AttRef:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     aga2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,5 +34,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

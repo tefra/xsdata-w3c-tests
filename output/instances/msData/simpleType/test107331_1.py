@@ -12,52 +12,52 @@ from xsdata.models.datatype import XmlTime
 obj = Root(
     choice=[
         Item(
-            value="abc"
+            value='abc'
         ),
         123,
         -123,
         DerivedElement(
-            qname="string",
-            value="this is a string"
+            qname='string',
+            value='this is a string'
         ),
         True,
         False,
         DerivedElement(
-            qname="float",
+            qname='float',
             value=1.2
         ),
         DerivedElement(
-            qname="float",
+            qname='float',
             value=5.24276
         ),
         DerivedElement(
-            qname="float",
+            qname='float',
             value=5.24276
         ),
-        Decimal("56"),
-        Decimal("-56"),
-        Decimal("-562135"),
+        Decimal('56'),
+        Decimal('-56'),
+        Decimal('-562135'),
         XmlDuration("P1347Y"),
         XmlDateTime(1999, 5, 31, 13, 20, 0, 0, -300),
         XmlTime(13, 20, 0, 0, -300),
         XmlDate(1999, 5, 31),
         DerivedElement(
-            qname="year",
+            qname='year',
             value=XmlPeriod("2004")
         ),
         DerivedElement(
-            qname="monthday",
+            qname='monthday',
             value=XmlPeriod("--02-13")
         ),
         DerivedElement(
-            qname="day",
+            qname='day',
             value=XmlPeriod("---15")
         ),
         XmlPeriod("--12"),
-        b"\xab\xcd",
+        b'\xab\xcd',
         DerivedElement(
-            qname="anyuri",
-            value="http://tempuri"
+            qname='anyuri',
+            value='http://tempuri'
         ),
     ]
 )

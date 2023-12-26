@@ -16,7 +16,7 @@ class Base:
             "namespace": "http://xsdtesting",
             "min_occurs": 2,
             "max_occurs": 6,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -25,7 +25,7 @@ class Base:
             "namespace": "http://xsdtesting",
             "min_occurs": 2,
             "max_occurs": 6,
-        }
+        },
     )
 
 

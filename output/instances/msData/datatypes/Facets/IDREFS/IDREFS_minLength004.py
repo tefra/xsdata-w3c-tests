@@ -5,10 +5,10 @@ from output.models.ms_data.datatypes.facets.idrefs.idrefs_min_length004_xsd.idre
 obj = Test(
     foo=Foo(
         idrefs_attr=[
-            "foofo",
-            "more",
+            'foofo',
+            'more',
         ],
-        id1_attr="foofo"
+        id1_attr='foofo'
     ),
-    id2_attr="more"
+    id2_attr='more'
 )

@@ -17,7 +17,7 @@ class A:
             "type": "Wildcard",
             "namespace": "##other",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Date:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

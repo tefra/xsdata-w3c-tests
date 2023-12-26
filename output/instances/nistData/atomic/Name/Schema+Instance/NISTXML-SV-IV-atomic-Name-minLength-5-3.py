@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength5(
-    value="ghelp.of-into:used-alike-performance-contains.the_the_back_coope"
+    value='ghelp.of-into:used-alike-performance-contains.the_the_back_coope'
 )

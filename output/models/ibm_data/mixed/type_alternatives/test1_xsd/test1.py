@@ -10,7 +10,7 @@ class Triangular:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[int] = field(
         default=None,
@@ -18,7 +18,7 @@ class Triangular:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[int] = field(
         default=None,
@@ -26,14 +26,14 @@ class Triangular:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Quadrilateral(Triangular):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -60,5 +60,5 @@ class Shapes:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

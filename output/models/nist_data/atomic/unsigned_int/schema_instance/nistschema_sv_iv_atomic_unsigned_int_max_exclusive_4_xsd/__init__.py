@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.unsigned_int.schema_instance.nistschema_sv_iv_atomic_unsigned_int_max_exclusive_4_xsd.nistschema_sv_iv_atomic_unsigned_int_max_exclusive_4 import NistschemaSvIvAtomicUnsignedIntMaxExclusive4
+from output.models.nist_data.atomic.unsigned_int.schema_instance.nistschema_sv_iv_atomic_unsigned_int_max_exclusive_4_xsd.nistschema_sv_iv_atomic_unsigned_int_max_exclusive_4 import (
+    NistschemaSvIvAtomicUnsignedIntMaxExclusive4,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicUnsignedIntMaxExclusive4",

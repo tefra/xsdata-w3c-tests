@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.base64_binary.schema_instance.nistschema_sv_
 
 
 obj = NistschemaSvIvAtomicBase64BinaryPattern1(
-    value="ZHFrcWt4eWRjZ2d4YnR0"
+    value='ZHFrcWt4eWRjZ2d4YnR0'
 )

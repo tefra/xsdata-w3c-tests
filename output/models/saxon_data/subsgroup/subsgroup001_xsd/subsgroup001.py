@@ -11,7 +11,7 @@ class Back:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class Body:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -37,7 +37,7 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -51,12 +51,12 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     back: Optional[Back] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

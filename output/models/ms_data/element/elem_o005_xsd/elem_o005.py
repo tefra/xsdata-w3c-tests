@@ -14,7 +14,7 @@ class FooTest:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_elem_2: Optional[int] = field(
         default=None,
@@ -23,14 +23,14 @@ class FooTest:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_attr: Optional[str] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

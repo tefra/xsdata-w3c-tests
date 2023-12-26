@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicLongTotalDigits5:
         metadata={
             "required": True,
             "total_digits": 18,
-        }
+        },
     )

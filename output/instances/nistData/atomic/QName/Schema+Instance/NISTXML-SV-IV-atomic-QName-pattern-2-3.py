@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern2(
-    value="uknow_provide.must_in"
+    value='uknow_provide.must_in'
 )

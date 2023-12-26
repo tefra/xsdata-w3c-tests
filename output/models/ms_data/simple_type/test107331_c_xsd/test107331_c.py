@@ -21,7 +21,7 @@ class A2:
             "required": True,
             "min_exclusive": 0,
             "max_inclusive": 10,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class B2:
             "required": True,
             "min_length": 0,
             "max_length": 10,
-        }
+        },
     )
 
 
@@ -73,9 +73,7 @@ class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
 
 
 @dataclass
@@ -87,7 +85,7 @@ class A3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -100,7 +98,7 @@ class B3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -113,7 +111,7 @@ class La:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -126,7 +124,7 @@ class Lab:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -139,7 +137,7 @@ class Ra:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -148,7 +146,9 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[A1, UnionA, RA1, str, int, object, B1, UnionAb]] = field(
+    choice: List[
+        Union[RA1, UnionAb, A1, UnionA, B1, str, int, object]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -202,7 +202,7 @@ class Root:
                     "type": object,
                 },
             ),
-        }
+        },
     )
 
 
@@ -215,7 +215,7 @@ class Ua:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -228,5 +228,5 @@ class Uab:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

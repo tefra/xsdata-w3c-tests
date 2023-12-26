@@ -16,7 +16,7 @@ class Root:
             "name": "Element",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -26,14 +26,14 @@ class Root:
             metadata={
                 "name": "ID",
                 "type": "Attribute",
-            }
+            },
         )
         idref: Optional[str] = field(
             default=None,
             metadata={
                 "name": "IDREF",
                 "type": "Attribute",
-            }
+            },
         )
         idrefs: List[str] = field(
             default_factory=list,
@@ -41,5 +41,5 @@ class Root:
                 "name": "IDREFS",
                 "type": "Attribute",
                 "tokens": True,
-            }
+            },
         )

@@ -25,12 +25,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple use of targetNamespace on a local element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple use of targetNamespace on a local element declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple use of targetNamespace on a local element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple use of targetNamespace on a local element declaration'
                                 ),
                             ]
                         ),
@@ -39,16 +39,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/TargetNS/target001.xsd"
+                        href='../saxonData/TargetNS/target001.xsd'
                     ),
                 ],
                 expected=[
@@ -60,7 +60,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 2, 18)
                 ),
-                name="target001.xsd"
+                name='target001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -69,14 +69,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/TargetNS/target001.v1.xml"
+                        href='../saxonData/TargetNS/target001.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -87,7 +87,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 18)
                     ),
-                    name="target001.v1.xml"
+                    name='target001.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -95,14 +95,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child element is in wrong namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child element is in wrong namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/TargetNS/target001.n1.xml"
+                        href='../saxonData/TargetNS/target001.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -113,10 +113,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 18)
                     ),
-                    name="target001.n1.xml"
+                    name='target001.n1.xml'
                 ),
             ],
-            name="target001"
+            name='target001'
         ),
         TestGroup(
             annotation=[
@@ -125,12 +125,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid use of targetNamespace on a local element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid use of targetNamespace on a local element declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid because not part of an xs:restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid because not part of an xs:restriction'
                                 ),
                             ]
                         ),
@@ -139,16 +139,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/TargetNS/target002.n.xsd"
+                        href='../saxonData/TargetNS/target002.n.xsd'
                     ),
                 ],
                 expected=[
@@ -160,9 +160,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 2, 18)
                 ),
-                name="target002.xsd"
+                name='target002.xsd'
             ),
-            name="target002"
+            name='target002'
         ),
         TestGroup(
             annotation=[
@@ -171,15 +171,15 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple use of targetNamespace on a local attribute declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple use of targetNamespace on a local attribute declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple use of targetNamespace on a local attribute declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple use of targetNamespace on a local attribute declaration'
                                 ),
                                 DocumentationReference(
-                                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                                 ),
                             ]
                         ),
@@ -188,13 +188,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/TargetNS/target003.xsd"
+                        href='../saxonData/TargetNS/target003.xsd'
                     ),
                 ],
                 expected=[
@@ -206,7 +206,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 2, 18)
                 ),
-                name="target003.xsd"
+                name='target003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -215,14 +215,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the schema.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/TargetNS/target003.v1.xml"
+                        href='../saxonData/TargetNS/target003.v1.xml'
                     ),
                     expected=[
                         Expected(
@@ -233,7 +233,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 18)
                     ),
-                    name="target003.v1.xml"
+                    name='target003.v1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -241,14 +241,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is in wrong namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/TargetNS/target003.n1.xml"
+                        href='../saxonData/TargetNS/target003.n1.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,7 +259,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 18)
                     ),
-                    name="target003.n1.xml"
+                    name='target003.n1.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -267,14 +267,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, attribute is in wrong namespace.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, attribute is in wrong namespace.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/TargetNS/target003.n2.xml"
+                        href='../saxonData/TargetNS/target003.n2.xml'
                     ),
                     expected=[
                         Expected(
@@ -285,10 +285,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 2, 18)
                     ),
-                    name="target003.n2.xml"
+                    name='target003.n2.xml'
                 ),
             ],
-            name="target003"
+            name='target003'
         ),
         TestGroup(
             annotation=[
@@ -297,12 +297,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid use of targetNamespace on a local attribute declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid use of targetNamespace on a local attribute declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid because not part of an xs:restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid because not part of an xs:restriction'
                                 ),
                             ]
                         ),
@@ -311,16 +311,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
+                    href='http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/TargetNS/target004.n.xsd"
+                        href='../saxonData/TargetNS/target004.n.xsd'
                     ),
                 ],
                 expected=[
@@ -332,9 +332,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2008, 2, 18)
                 ),
-                name="target004.xsd"
+                name='target004.xsd'
             ),
-            name="target004"
+            name='target004'
         ),
         TestGroup(
             annotation=[
@@ -343,12 +343,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid xs:import - targetNamespace does not match"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Invalid xs:import - targetNamespace does not match'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Should report an error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Should report an error'
                                 ),
                             ]
                         ),
@@ -358,7 +358,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/TargetNS/target007.xsd"
+                        href='../saxonData/TargetNS/target007.xsd'
                     ),
                 ],
                 expected=[
@@ -370,20 +370,20 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2018, 10, 1)
                 ),
-                name="target007.xsd"
+                name='target007.xsd'
             ),
-            name="target007",
+            name='target007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="TargetNS",
+    contributor='Saxonica',
+    name='TargetNS',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

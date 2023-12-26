@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDurationMinInclusive1:
         metadata={
             "required": True,
             "min_inclusive": XmlDuration("P1970Y01M01DT00H00M00S"),
-        }
+        },
     )

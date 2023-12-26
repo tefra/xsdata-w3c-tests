@@ -15,5 +15,5 @@ class NistschemaSvIvListLanguageWhiteSpace1:
         metadata={
             "white_space": "collapse",
             "tokens": True,
-        }
+        },
     )

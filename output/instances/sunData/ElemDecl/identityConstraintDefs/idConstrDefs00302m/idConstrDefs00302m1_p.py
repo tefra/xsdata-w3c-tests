@@ -4,18 +4,18 @@ from output.models.sun_data.elem_decl.identity_constraint_defs.id_constr_defs003
 obj = Root(
     element=[
         Root.Element(
-            id="e001",
-            idref="e001",
+            id='e001',
+            idref='e001',
             idrefs=[
-                "e001",
+                'e001',
             ]
         ),
         Root.Element(
-            id="e002",
-            idref="e001",
+            id='e002',
+            idref='e001',
             idrefs=[
-                "e001",
-                "e002",
+                'e001',
+                'e002',
             ]
         ),
     ]

@@ -10,29 +10,29 @@ from xsdata.models.datatype import XmlDate
 obj = PurchaseOrder(
     ship_to_or_bill_to_or_single_address=[
         DerivedElement(
-            qname="singleAddress",
+            qname='singleAddress',
             value=Ukaddress(
-                name="Helen Zoe",
-                street="47 Eden Street",
-                city="Cambridge",
-                postcode="CB1 1JR"
+                name='Helen Zoe',
+                street='47 Eden Street',
+                city='Cambridge',
+                postcode='CB1 1JR'
             ),
-            type="{http://www.example.com/add}UKAddress"
+            type='{http://www.example.com/add}UKAddress'
         ),
     ],
     customer_comment_or_ship_comment_or_comment=DerivedElement(
-        qname="{http://www.example.com/IPO}comment",
-        value="I love Boeing too!"
+        qname='{http://www.example.com/IPO}comment',
+        value='I love Boeing too!'
     ),
     items=ItemsType(
         content=[
             ItemsType.Item(
-                product_name="777 Model",
+                product_name='777 Model',
                 quantity=1,
-                usprice=Decimal("99.95"),
+                usprice=Decimal('99.95'),
                 ship_date=XmlDate(1999, 12, 5),
-                part_num="777-AB",
-                weight_kg=Decimal("4.5"),
+                part_num='777-AB',
+                weight_kg=Decimal('4.5'),
                 ship_by=ItemShipBy.AIR
             ),
         ]

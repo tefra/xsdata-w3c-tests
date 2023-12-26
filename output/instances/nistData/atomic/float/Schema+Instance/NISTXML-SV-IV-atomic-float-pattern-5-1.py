@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.float_pkg.schema_instance.nistschema_sv_iv_a
 
 
 obj = NistschemaSvIvAtomicFloatPattern5(
-    value="2.7821581E-24"
+    value='2.7821581E-24'
 )

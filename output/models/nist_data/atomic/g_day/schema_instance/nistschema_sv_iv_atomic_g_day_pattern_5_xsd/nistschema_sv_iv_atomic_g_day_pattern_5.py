@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicGDayPattern5:
         metadata={
             "required": True,
             "pattern": r"---1\d",
-        }
+        },
     )

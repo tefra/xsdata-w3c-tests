@@ -16,13 +16,13 @@ class Foo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class FooType:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 

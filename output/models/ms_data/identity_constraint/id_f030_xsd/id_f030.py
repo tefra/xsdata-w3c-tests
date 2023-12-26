@@ -13,7 +13,7 @@ class Tabletype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
@@ -21,7 +21,7 @@ class Tabletype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

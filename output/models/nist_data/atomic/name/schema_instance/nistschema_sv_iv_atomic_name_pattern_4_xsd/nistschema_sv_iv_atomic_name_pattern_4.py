@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNamePattern4:
         metadata={
             "required": True,
             "pattern": r"\i\c{14}",
-        }
+        },
     )

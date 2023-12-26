@@ -16,12 +16,12 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "tokens": True,
-        }
+        },
     )
     idref_element: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

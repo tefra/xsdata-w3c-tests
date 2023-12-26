@@ -15,21 +15,21 @@ class Doc:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     abc: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -37,5 +37,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

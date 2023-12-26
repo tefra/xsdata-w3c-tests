@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDecimalMaxInclusive1:
         metadata={
             "required": True,
             "max_inclusive": Decimal("-999999999999999999"),
-        }
+        },
     )

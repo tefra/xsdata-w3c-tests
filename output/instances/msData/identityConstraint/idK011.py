@@ -6,9 +6,9 @@ obj = Root(
     uid=[
         Uid(
             pid=[
-                "abc",
+                'abc',
             ],
-            val="1"
+            val='1'
         ),
     ]
 )

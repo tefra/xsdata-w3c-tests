@@ -3,18 +3,18 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Computer(
-    cpu="Intel",
-    memory="4Gb",
-    monitor="17inch",
-    speaker="loud",
+    cpu='Intel',
+    memory='4Gb',
+    monitor='17inch',
+    speaker='loud',
     any_element=[
         AnyElement(
-            qname="disk",
-            text="Seagate"
+            qname='disk',
+            text='Seagate'
         ),
         AnyElement(
-            qname="mouse",
-            text="USB"
+            qname='mouse',
+            text='USB'
         ),
     ]
 )

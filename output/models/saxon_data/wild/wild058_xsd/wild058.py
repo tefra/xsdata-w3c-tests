@@ -12,12 +12,12 @@ class Zing:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )

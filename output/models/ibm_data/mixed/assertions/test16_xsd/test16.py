@@ -11,13 +11,13 @@ class MyBase:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     a: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

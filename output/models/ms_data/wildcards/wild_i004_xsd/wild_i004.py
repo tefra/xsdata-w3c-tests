@@ -12,7 +12,7 @@ class Elt1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class Elt2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

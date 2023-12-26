@@ -12,7 +12,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##local ##targetNamespace nsFoo nsBar",
             "max_occurs": 10,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class R(B):
             "namespace": "http://xsdtesting",
             "min_occurs": 2,
             "max_occurs": 9,
-        }
+        },
     )
 
 
@@ -56,5 +56,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

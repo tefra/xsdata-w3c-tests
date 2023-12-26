@@ -12,5 +12,5 @@ class NewSize:
         metadata={
             "required": True,
             "max_inclusive": 16,
-        }
+        },
     )

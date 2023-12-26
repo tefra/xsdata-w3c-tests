@@ -13,7 +13,7 @@ class AttRef:
             "type": "Attribute",
             "min_length": 2,
             "max_length": 3,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

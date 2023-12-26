@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenWhiteSpace1(
-    value="and_is_that_use:issues:data.t"
+    value='and_is_that_use:issues:data.t'
 )

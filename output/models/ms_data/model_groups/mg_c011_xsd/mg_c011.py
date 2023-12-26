@@ -12,5 +12,5 @@ class Test:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

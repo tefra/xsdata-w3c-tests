@@ -4,10 +4,10 @@ from output.models.ms_data.datatypes.facets.nmtokens.nmtokens_min_length002_xsd.
 
 obj = Test(
     foo=FooType.Foo(
-        value="special test for datatypes that are attribute only",
+        value='special test for datatypes that are attribute only',
         attr_test=[
-            "foofo",
-            "more",
+            'foofo',
+            'more',
         ]
     )
 )

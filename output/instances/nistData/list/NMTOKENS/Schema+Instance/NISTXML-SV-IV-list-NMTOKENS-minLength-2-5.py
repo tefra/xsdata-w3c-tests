@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMinLength2(
     value=[
-        "applications_with",
-        "to:files:United_G",
-        "OASIS:software.fo",
-        "technology_of_wou",
-        "products:that:A-E",
-        "wide:allows-imple",
-        "to-discussions.re",
+        'applications_with',
+        'to:files:United_G',
+        'OASIS:software.fo',
+        'technology_of_wou',
+        'products:that:A-E',
+        'wide:allows-imple',
+        'to-discussions.re',
     ]
 )

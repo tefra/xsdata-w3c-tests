@@ -15,14 +15,14 @@ class Emptywc:
         metadata={
             "type": "Attributes",
             "namespace": "urn:a",
-        }
+        },
     )
     b_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "urn:b",
-        }
+        },
     )
 
 
@@ -37,12 +37,12 @@ class JustA:
         metadata={
             "type": "Attributes",
             "namespace": "urn:a",
-        }
+        },
     )
     a_b_c_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "urn:a urn:b urn:c",
-        }
+        },
     )

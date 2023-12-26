@@ -6,8 +6,8 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     target_namespace_foo_element=[
         AnyElement(
-            qname="{foo}elem",
-            text="&#10;&#9;"
+            qname='{foo}elem',
+            text='\n\t'
         ),
         Foo(
 

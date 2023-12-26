@@ -4,7 +4,7 @@ from output.models.ms_data.datatypes.string_xsd.string import Root
 
 obj = Root(
     complex_test=ComplexTest(
-        comp_foo=""
+        comp_foo=''
     ),
-    simple_test=""
+    simple_test=''
 )

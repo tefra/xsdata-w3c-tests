@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMaxLength3(
-    value="The advent of Internet-enabled browsers and a first-generation language f"
+    value='The advent of Internet-enabled browsers and a first-generation language f'
 )

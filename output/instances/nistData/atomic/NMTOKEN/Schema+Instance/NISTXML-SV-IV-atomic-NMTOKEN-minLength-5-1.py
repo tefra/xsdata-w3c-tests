@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength5(
-    value="languages-computing_specifications_way:for.chain:organization:fo"
+    value='languages-computing_specifications_way:for.chain:organization:fo'
 )

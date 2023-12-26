@@ -13,7 +13,7 @@ class Root:
         default=None,
         metadata={
             "nillable": True,
-        }
+        },
     )
     nil: str = field(
         init=False,
@@ -21,5 +21,5 @@ class Root:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
-        }
+        },
     )

@@ -8,5 +8,5 @@ class Example:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

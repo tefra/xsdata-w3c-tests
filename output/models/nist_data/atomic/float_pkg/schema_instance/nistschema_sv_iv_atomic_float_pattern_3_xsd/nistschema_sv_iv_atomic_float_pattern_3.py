@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicFloatPattern3:
         metadata={
             "required": True,
             "pattern": r"\d{1}\.\d{2}E\d{1}",
-        }
+        },
     )

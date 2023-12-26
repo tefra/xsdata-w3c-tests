@@ -25,13 +25,13 @@ class AddressType:
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
     country: Optional[CountryType] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -39,7 +39,7 @@ class AddressType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class ItemType:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -82,5 +82,5 @@ class Invoice:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

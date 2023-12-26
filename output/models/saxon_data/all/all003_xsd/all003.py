@@ -13,5 +13,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

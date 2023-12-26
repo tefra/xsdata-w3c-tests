@@ -2,5 +2,5 @@ from output.models.nist_data.union.any_uri_float.schema_instance.nistschema_sv_i
 
 
 obj = NistschemaSvIvUnionAnyUriFloatPattern3(
-    value="gopher://r.te.org"
+    value='gopher://r.te.org'
 )

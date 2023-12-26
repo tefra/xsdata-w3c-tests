@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength1(
-        value="fand-and-development-build-widely.only_systems-these_for_stan"
+        value='fand-and-development-build-widely.only_systems-these_for_stan'
     )
 )

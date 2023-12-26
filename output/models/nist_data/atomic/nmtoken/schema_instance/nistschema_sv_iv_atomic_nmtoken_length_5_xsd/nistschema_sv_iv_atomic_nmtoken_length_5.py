@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNmtokenLength5:
         metadata={
             "required": True,
             "length": 64,
-        }
+        },
     )

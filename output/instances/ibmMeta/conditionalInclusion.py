@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#cip",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#cip',
                     },
                     content=[
-                        "ConditionalInclusion ",
+                        'ConditionalInclusion ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "vc: conditional inclusion Testing version ",
+                                'vc: conditional inclusion Testing version ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S4_2_2/s4_2_2v01.xsd"
+                        href='../ibmData/valid/S4_2_2/s4_2_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s4_2_2v01s"
+                name='s4_2_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S4_2_2/s4_2_2v01.xml"
+                        href='../ibmData/valid/S4_2_2/s4_2_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s4_2_2v01i"
+                    name='s4_2_2v01i'
                 ),
             ],
-            name="s4_2_2v01",
+            name='s4_2_2v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance vc: conditional inclusion Testing version ",
+                                'invalid instance vc: conditional inclusion Testing version ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xsd"
+                        href='../ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s4_2_2ii01s"
+                name='s4_2_2ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xml"
+                        href='../ibmData/instance_invalid/S4_2_2/s4_2_2ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s4_2_2ii01i"
+                    name='s4_2_2ii01i'
                 ),
             ],
-            name="s4_2_2ii01",
+            name='s4_2_2ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid schema vc: conditional inclusion Testing version ",
+                                'invalid schema vc: conditional inclusion Testing version ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S4_2_2/s4_2_2si01.xsd"
+                        href='../ibmData/schema_invalid/S4_2_2/s4_2_2si01.xsd'
                     ),
                 ],
                 expected=[
@@ -184,17 +184,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s4_2_2si01s"
+                name='s4_2_2si01s'
             ),
-            name="s4_2_2si01",
+            name='s4_2_2si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="ConditionalInclusion",
+    contributor='IBM',
+    name='ConditionalInclusion',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

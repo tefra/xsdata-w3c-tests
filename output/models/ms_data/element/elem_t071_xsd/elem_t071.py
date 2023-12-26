@@ -19,7 +19,7 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Test:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

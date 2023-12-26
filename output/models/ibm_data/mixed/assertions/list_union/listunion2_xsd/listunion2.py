@@ -5,6 +5,4 @@ from xsdata.models.datatype import XmlDate
 
 @dataclass
 class Example:
-    value: Optional[Union[int, XmlDate]] = field(
-        default=None
-    )
+    value: Optional[Union[int, XmlDate]] = field(default=None)

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.any_uri.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListAnyUriMaxLength4(
     value=[
-        "ftp://NISTgrap.XMLportab.managein.com",
-        "ftp://lackin.net",
-        "http://testwi.Thei.gre.OA.org",
-        "ftp://ensure.ainvesti.gov",
-        "http://andissuest.Furth.gov",
-        "news://bechai.rang.org",
-        "gopher://signif.toaccess.gov",
-        "http://afi.linkk.themus.org",
+        'ftp://NISTgrap.XMLportab.managein.com',
+        'ftp://lackin.net',
+        'http://testwi.Thei.gre.OA.org',
+        'ftp://ensure.ainvesti.gov',
+        'http://andissuest.Furth.gov',
+        'news://bechai.rang.org',
+        'gopher://signif.toaccess.gov',
+        'http://afi.linkk.themus.org',
     ]
 )

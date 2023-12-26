@@ -12,5 +12,5 @@ class Computer:
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )

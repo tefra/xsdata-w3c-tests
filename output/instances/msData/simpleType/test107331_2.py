@@ -11,27 +11,27 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Root(
     choice=[
         Item(
-            value="abc"
+            value='abc'
         ),
         5,
         10,
         1,
-        "",
-        "1234567890",
+        '',
+        '1234567890',
         DerivedElement(
-            qname="a",
+            qname='a',
             value=A1.VALUE_1
         ),
         DerivedElement(
-            qname="a",
+            qname='a',
             value=A1.VALUE_2
         ),
         DerivedElement(
-            qname="a",
+            qname='a',
             value=A1.VALUE_3
         ),
         DerivedElement(
-            qname="a",
+            qname='a',
             value=A1.VALUE_4
         ),
         B1.A,
@@ -40,11 +40,11 @@ obj = Root(
         UnionA.VALUE_1,
         UnionA.VALUE_4,
         DerivedElement(
-            qname="uab",
+            qname='uab',
             value=UnionAb.C123456789
         ),
         DerivedElement(
-            qname="uab",
+            qname='uab',
             value=UnionAb.VALUE_4
         ),
         [

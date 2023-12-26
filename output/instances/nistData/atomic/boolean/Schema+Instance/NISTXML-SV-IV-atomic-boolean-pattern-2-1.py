@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.boolean.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicBooleanPattern2(
-    value="false"
+    value='false'
 )

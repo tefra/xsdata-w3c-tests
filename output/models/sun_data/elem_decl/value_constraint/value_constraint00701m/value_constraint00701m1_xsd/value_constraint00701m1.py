@@ -14,7 +14,7 @@ class Root:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -22,5 +22,5 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

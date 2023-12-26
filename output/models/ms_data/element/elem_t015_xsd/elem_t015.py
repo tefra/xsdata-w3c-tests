@@ -12,7 +12,7 @@ class FooTest:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -27,5 +27,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicDecimalPattern3:
         metadata={
             "required": True,
             "pattern": r"\-\d{1}\.\d{8}",
-        }
+        },
     )

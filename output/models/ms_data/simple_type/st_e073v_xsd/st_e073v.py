@@ -6,7 +6,4 @@ class Root:
     class Meta:
         name = "root"
 
-    value: str = field(
-        init=False,
-        default="abcdef"
-    )
+    value: str = field(init=False, default="abcdef")

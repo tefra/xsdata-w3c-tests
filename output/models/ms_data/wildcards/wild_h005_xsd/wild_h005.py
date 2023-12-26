@@ -16,5 +16,5 @@ class Foo:
             "type": "Wildcard",
             "namespace": "##targetNamespace",
             "process_contents": "skip",
-        }
+        },
     )

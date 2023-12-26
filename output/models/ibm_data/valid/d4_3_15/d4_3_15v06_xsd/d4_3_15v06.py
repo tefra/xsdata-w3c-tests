@@ -13,14 +13,14 @@ class BaseType:
             "name": "baseEly",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     base_attr: Optional[str] = field(
         default=None,
         metadata={
             "name": "baseAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class DerivedType(BaseType):
         metadata={
             "name": "derivedAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 

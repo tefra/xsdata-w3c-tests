@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength4(
-    value="transactions-and-are:that.link:is_good-retrieve.for_are:Only"
+    value='transactions-and-are:that.link:is_good-retrieve.for_are:Only'
 )

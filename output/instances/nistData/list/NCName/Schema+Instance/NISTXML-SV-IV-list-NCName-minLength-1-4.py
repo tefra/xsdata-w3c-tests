@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMinLength1(
     value=[
-        "ibe-it.second-gen",
-        "pdisplay-maintain",
-        "ymust.to_interope",
-        "hcommerce_the-blo",
-        "spervasive.neutra",
-        "qembedded.the_tar",
+        'ibe-it.second-gen',
+        'pdisplay-maintain',
+        'ymust.to_interope',
+        'hcommerce_the-blo',
+        'spervasive.neutra',
+        'qembedded.the_tar',
     ]
 )

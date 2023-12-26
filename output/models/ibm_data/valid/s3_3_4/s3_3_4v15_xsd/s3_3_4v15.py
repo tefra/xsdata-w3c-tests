@@ -11,13 +11,13 @@ class Root:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
     idref_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Wrapper:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

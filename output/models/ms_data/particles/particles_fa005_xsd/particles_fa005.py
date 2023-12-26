@@ -15,7 +15,7 @@ class Base:
             "type": "Wildcard",
             "namespace": "##targetNamespace foo",
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

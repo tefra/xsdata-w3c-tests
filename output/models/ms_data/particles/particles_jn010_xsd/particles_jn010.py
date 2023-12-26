@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "foo http://importedXSD bar",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

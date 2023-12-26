@@ -15,7 +15,7 @@ class CtB:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
     b2: Optional[int] = field(
         default=None,
@@ -23,7 +23,7 @@ class CtB:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
 
 

@@ -11,7 +11,7 @@ class Uid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -25,5 +25,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

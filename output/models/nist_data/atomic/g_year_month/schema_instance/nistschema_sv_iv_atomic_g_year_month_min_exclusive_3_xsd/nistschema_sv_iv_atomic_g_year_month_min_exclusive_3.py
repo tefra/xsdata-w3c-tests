@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGYearMonthMinExclusive3:
         metadata={
             "required": True,
             "min_exclusive": XmlPeriod("2029-04"),
-        }
+        },
     )

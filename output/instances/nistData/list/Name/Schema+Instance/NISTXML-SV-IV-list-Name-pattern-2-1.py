@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNamePattern2(
     value=[
-        "sof.methods-assuring-for_act_tests",
-        "yhelp.are.and.languages.browsers:for.influence-vocabu",
-        "grecognition:has:both:these.building:requires-tools-newco",
-        "oand:to",
-        "itheir-will:reference.t",
+        'sof.methods-assuring-for_act_tests',
+        'yhelp.are.and.languages.browsers:for.influence-vocabu',
+        'grecognition:has:both:these.building:requires-tools-newco',
+        'oand:to',
+        'itheir-will:reference.t',
     ]
 )

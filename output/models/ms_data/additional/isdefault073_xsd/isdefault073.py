@@ -12,7 +12,7 @@ class Ct:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: str = field(
         init=False,
@@ -21,7 +21,7 @@ class Ct:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

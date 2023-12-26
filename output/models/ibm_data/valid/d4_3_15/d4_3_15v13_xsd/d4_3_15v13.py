@@ -15,7 +15,7 @@ class RootType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

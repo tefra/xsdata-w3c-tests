@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriWhiteSpace1(
-    value="ftp://ftp.ofknownOrga.izationint.olsfiveinc.udeinforma.io.org"
+    value='ftp://ftp.ofknownOrga.izationint.olsfiveinc.udeinforma.io.org'
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.union.duration_decimal.schema_instance.nistschema_s
 
 
 obj = NistschemaSvIvUnionDurationDecimalPattern3(
-    value="-7534533346.176"
+    value='-7534533346.176'
 )

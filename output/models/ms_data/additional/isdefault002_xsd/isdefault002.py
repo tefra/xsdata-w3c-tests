@@ -14,7 +14,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     number: int = field(
         init=False,
@@ -23,7 +23,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     bool_value: bool = field(
         init=False,
@@ -33,5 +33,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

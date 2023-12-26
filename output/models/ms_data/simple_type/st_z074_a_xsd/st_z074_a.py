@@ -15,5 +15,5 @@ class Root:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )

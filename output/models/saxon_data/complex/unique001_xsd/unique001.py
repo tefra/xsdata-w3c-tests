@@ -12,7 +12,7 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -23,7 +23,7 @@ class Root:
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            }
+            },
         )
 
         @dataclass
@@ -32,11 +32,11 @@ class Root:
                 default=None,
                 metadata={
                     "required": True,
-                }
+                },
             )
             attr: Optional[object] = field(
                 default=None,
                 metadata={
                     "type": "Attribute",
-                }
+                },
             )

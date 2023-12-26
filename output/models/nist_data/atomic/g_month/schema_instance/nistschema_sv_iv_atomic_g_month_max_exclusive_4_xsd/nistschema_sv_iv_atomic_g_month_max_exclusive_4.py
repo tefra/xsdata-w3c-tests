@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGMonthMaxExclusive4:
         metadata={
             "required": True,
             "max_exclusive": XmlPeriod("--09"),
-        }
+        },
     )

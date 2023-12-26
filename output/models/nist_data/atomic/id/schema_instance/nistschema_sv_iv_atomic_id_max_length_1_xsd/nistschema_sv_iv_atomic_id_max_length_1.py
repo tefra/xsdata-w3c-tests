@@ -15,7 +15,7 @@ class NistschemaSvIvAtomicIdMaxLength1:
         metadata={
             "required": True,
             "max_length": 1,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

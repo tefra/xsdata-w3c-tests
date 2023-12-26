@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.decimal.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicDecimalPattern5(
-    value="55217.9736118850526"
+    value='55217.9736118850526'
 )

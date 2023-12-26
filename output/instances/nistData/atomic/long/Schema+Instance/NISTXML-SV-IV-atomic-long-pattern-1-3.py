@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.long.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicLongPattern1(
-    value="-973221252533651368"
+    value='-973221252533651368'
 )

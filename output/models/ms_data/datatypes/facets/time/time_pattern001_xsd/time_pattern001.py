@@ -14,7 +14,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "pattern": r"[0-9]{1,2}:[0-9]{2}:[0-9]{2}-[0-9]{2}:[0-9]{2}",
-        }
+        },
     )
 
 

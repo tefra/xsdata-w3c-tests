@@ -13,7 +13,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     idref: Optional[str] = field(
         default=None,
@@ -21,5 +21,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

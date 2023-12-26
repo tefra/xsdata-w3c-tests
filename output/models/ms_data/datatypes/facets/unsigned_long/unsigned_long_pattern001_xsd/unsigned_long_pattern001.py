@@ -14,7 +14,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "pattern": r"\p{Nd}{1,3}",
-        }
+        },
     )
 
 

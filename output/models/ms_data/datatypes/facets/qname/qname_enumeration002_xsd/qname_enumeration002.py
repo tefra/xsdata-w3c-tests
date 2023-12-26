@@ -19,7 +19,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

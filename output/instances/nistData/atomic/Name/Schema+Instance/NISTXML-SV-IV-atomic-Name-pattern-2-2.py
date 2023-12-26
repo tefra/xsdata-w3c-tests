@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern2(
-    value="rsignatures:the_are:degree_over_is:tests_technologies"
+    value='rsignatures:the_are:degree_over_is:tests_technologies'
 )

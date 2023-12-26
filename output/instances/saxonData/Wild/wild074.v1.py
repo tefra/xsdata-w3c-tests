@@ -7,22 +7,22 @@ obj = Root(
     any_element=AnyElement(
         children=[
             AnyElement(
-                qname="zizz",
-                text=""
+                qname='zizz',
+                text=''
             ),
             AnyElement(
-                qname="d",
-                text=""
+                qname='d',
+                text=''
             ),
             AnyElement(
-                qname="e",
-                text=""
+                qname='e',
+                text=''
             ),
         ]
     ),
     a_or_a=A1(
 
     ),
-    b="",
-    c=""
+    b='',
+    c=''
 )

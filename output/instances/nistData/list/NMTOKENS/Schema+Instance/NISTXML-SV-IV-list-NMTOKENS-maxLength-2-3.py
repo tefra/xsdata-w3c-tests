@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength2(
     value=[
-        "due.acting.with-processes_older",
-        "Investigators.of_the.and_The:as",
-        "XML:information.users_XML-relat",
-        "NSRL:and.web_and.a.as:informati",
-        "be.a.files.aspects-are.uses-dat",
+        'due.acting.with-processes_older',
+        'Investigators.of_the.and_The:as',
+        'XML:information.users_XML-relat',
+        'NSRL:and.web_and.a.as:informati',
+        'be.a.files.aspects-are.uses-dat',
     ]
 )

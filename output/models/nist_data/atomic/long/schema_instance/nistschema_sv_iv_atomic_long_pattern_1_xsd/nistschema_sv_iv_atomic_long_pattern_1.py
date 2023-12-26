@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicLongPattern1:
         metadata={
             "required": True,
             "pattern": r"\-\d{18}",
-        }
+        },
     )

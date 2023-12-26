@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMaxLength1(
     value=[
-        "to-and.to:Simulation.sys",
-        "known:related.etc_many-a",
-        "in.the_test:reputation:d",
-        "that_specifications_serv",
-        "voiced.these-define-cont",
+        'to-and.to:Simulation.sys',
+        'known:related.etc_many-a',
+        'in.the_test:reputation:d',
+        'that_specifications_serv',
+        'voiced.these-define-cont',
     ]
 )

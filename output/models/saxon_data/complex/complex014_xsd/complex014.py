@@ -13,12 +13,12 @@ class Root:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     f: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

@@ -4,7 +4,7 @@ from output.models.ms_data.datatypes.facets.nmtoken.nmtoken_pattern001_xsd.nmtok
 
 obj = Test(
     foo=FooType.Foo(
-        value="special test for datatypes that are attribute only",
-        attr_test="abc"
+        value='special test for datatypes that are attribute only',
+        attr_test='abc'
     )
 )

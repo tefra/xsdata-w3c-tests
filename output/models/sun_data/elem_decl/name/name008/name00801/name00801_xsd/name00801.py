@@ -14,7 +14,7 @@ class AA:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class BB:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class CC:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class DD:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -70,7 +70,7 @@ class EE:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -84,7 +84,7 @@ class FF:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -98,7 +98,7 @@ class GG:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -114,7 +114,7 @@ class Root:
             "name": "a--a",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     b_b: Optional[int] = field(
         default=None,
@@ -122,7 +122,7 @@ class Root:
             "name": "b..b",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     c_c: Optional[int] = field(
         default=None,
@@ -130,7 +130,7 @@ class Root:
             "name": "c__c",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     d_d: Optional[int] = field(
         default=None,
@@ -138,7 +138,7 @@ class Root:
             "name": "d··d",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     e_e: Optional[int] = field(
         default=None,
@@ -146,7 +146,7 @@ class Root:
             "name": "e··e",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     f_f: Optional[int] = field(
         default=None,
@@ -154,7 +154,7 @@ class Root:
             "name": "f۝۝f",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     g_g: Optional[int] = field(
         default=None,
@@ -162,5 +162,5 @@ class Root:
             "name": "g۞۞g",
             "type": "Element",
             "required": True,
-        }
+        },
     )

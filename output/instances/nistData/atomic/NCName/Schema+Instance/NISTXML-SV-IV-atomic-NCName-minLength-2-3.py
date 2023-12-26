@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength2(
-    value="sand.of.of_discussions-data_has.chain.industry-computed"
+    value='sand.of.of_discussions-data_has.chain.industry-computed'
 )

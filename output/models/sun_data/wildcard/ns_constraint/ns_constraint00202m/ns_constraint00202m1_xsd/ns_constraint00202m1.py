@@ -15,5 +15,5 @@ class A:
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )

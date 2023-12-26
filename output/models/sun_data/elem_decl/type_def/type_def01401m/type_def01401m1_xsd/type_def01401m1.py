@@ -15,5 +15,5 @@ class Root:
         default=None,
         metadata={
             "nillable": True,
-        }
+        },
     )

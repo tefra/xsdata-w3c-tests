@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenLength5(
     value=[
-        "solve_open.I",
-        "developed-le",
-        "to.the.effec",
-        "This:informa",
-        "is.embedded_",
-        "OASIS.By_as_",
-        "Delaware:bec",
-        "that:pervasi",
-        "XML.offer_XM",
-        "discovery:ap",
+        'solve_open.I',
+        'developed-le',
+        'to.the.effec',
+        'This:informa',
+        'is.embedded_',
+        'OASIS.By_as_',
+        'Delaware:bec',
+        'that:pervasi',
+        'XML.offer_XM',
+        'discovery:ap',
     ]
 )

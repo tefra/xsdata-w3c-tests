@@ -14,5 +14,5 @@ class Test:
         metadata={
             "required": True,
             "pattern": r"1|2",
-        }
+        },
     )

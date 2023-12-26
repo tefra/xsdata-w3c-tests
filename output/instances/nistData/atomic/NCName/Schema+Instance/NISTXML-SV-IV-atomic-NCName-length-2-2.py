@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength2(
-    value="ufirst.set_and_20_methods_well_from_and-and_and.adoption_such"
+    value='ufirst.set_and_20_methods_well_from_and-and_and.adoption_such'
 )

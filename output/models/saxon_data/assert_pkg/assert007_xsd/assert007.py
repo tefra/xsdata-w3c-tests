@@ -16,7 +16,7 @@ class T1:
             "namespace": "http://chess/ns/",
             "min_occurs": 1,
             "sequence": 1,
-        }
+        },
     )
     black: List[str] = field(
         default_factory=list,
@@ -24,7 +24,7 @@ class T1:
             "type": "Element",
             "namespace": "http://chess/ns/",
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class T3(T2):
             "type": "Element",
             "namespace": "http://chess/ns/",
             "required": True,
-        }
+        },
     )
 
 

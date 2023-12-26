@@ -6,23 +6,23 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Array(
     item=[
         AnyElement(
-            qname="Item",
+            qname='Item',
             children=[
                 AnyElement(
-                    qname="{http://tempuri.org/Suites/Serialization}color",
+                    qname='{http://tempuri.org/Suites/Serialization}color',
                     children=[
                         AnyElement(
-                            qname="{http://tempuri.org/Suites/Serialization}colorId",
-                            text="1"
+                            qname='{http://tempuri.org/Suites/Serialization}colorId',
+                            text='1'
                         ),
                     ],
                     attributes={
-                        "{http://schemas.microsoft.com/2003/10/Serialization/}Id": "3",
+                        '{http://schemas.microsoft.com/2003/10/Serialization/}Id': '3',
                     }
                 ),
             ],
             attributes={
-                "{http://schemas.microsoft.com/2003/10/Serialization/}Id": "2",
+                '{http://schemas.microsoft.com/2003/10/Serialization/}Id': '2',
             }
         ),
     ],

@@ -15,13 +15,13 @@ class Ttype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "min_occurs": 1,
-        }
+        },
     )
     col: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -43,12 +43,12 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

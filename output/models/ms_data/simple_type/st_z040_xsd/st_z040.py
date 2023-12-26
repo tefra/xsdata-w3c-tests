@@ -17,6 +17,4 @@ class Info2:
         name = "info2"
         namespace = "urn:test"
 
-    value: Optional[Union[Decimal, Myunion2Value]] = field(
-        default=None
-    )
+    value: Optional[Union[Decimal, Myunion2Value]] = field(default=None)

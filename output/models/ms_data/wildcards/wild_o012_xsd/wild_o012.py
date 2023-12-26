@@ -14,12 +14,12 @@ class Foo:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     target_namespace_w3_org_1999_xhtml_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##targetNamespace http://www.w3.org/1999/xhtml",
-        }
+        },
     )

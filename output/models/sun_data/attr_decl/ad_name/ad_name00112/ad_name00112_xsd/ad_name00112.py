@@ -15,12 +15,12 @@ class Root:
         metadata={
             "name": "a-1.2_3·4·5۝6۞",
             "type": "Attribute",
-        }
+        },
     )
     a123456_attribute: Optional[int] = field(
         default=None,
         metadata={
             "name": "a123456",
             "type": "Attribute",
-        }
+        },
     )

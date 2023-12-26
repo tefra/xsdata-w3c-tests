@@ -11,5 +11,5 @@ class Example:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -23,21 +23,21 @@ class Root:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     ay_mdtype: Optional[XmlDuration] = field(
         default=None,
         metadata={
             "name": "ayMDType",
             "type": "Attribute",
-        }
+        },
     )
     ay_mdenumeration: Optional[YMdenumeration] = field(
         default=None,
         metadata={
             "name": "ayMDEnumeration",
             "type": "Attribute",
-        }
+        },
     )
     ay_mdmin_max_inclusive: Optional[XmlDuration] = field(
         default=None,
@@ -46,7 +46,7 @@ class Root:
             "type": "Attribute",
             "min_inclusive": XmlDuration("-P2D"),
             "max_inclusive": XmlDuration("P30DT400H"),
-        }
+        },
     )
     ay_mdmin_max_exclusive: Optional[XmlDuration] = field(
         default=None,
@@ -55,5 +55,5 @@ class Root:
             "type": "Attribute",
             "min_exclusive": XmlDuration("-P2D"),
             "max_exclusive": XmlDuration("P30DT400H"),
-        }
+        },
     )

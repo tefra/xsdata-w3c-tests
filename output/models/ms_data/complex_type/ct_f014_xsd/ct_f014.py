@@ -23,14 +23,14 @@ class MyType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNormalizedStringLength4:
         metadata={
             "required": True,
             "length": 645,
-        }
+        },
     )

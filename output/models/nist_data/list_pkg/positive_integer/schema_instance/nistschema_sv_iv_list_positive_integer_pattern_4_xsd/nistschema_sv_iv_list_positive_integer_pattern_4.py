@@ -15,5 +15,5 @@ class NistschemaSvIvListPositiveIntegerPattern4:
         metadata={
             "pattern": r"\d{1} \d{3} \d{5} \d{7} \d{9} \d{11} \d{18}",
             "tokens": True,
-        }
+        },
     )

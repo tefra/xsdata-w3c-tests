@@ -5,7 +5,7 @@ from output.models.ibm_data.valid.s3_3_4.s3_3_4v08_xsd.s3_3_4v08 import Root
 
 obj = Root(
     a=Ids(
-        id="asd"
+        id='asd'
     ),
     b=Idrefs(
 

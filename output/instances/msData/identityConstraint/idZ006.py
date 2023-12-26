@@ -16,21 +16,21 @@ obj = Root(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="c"
+                                        att_c='c'
                                     )
                                 ),
                             ],
-                            att_b="a"
+                            att_b='a'
                         ),
                         BType(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="cc"
+                                        att_c='cc'
                                     )
                                 ),
                             ],
-                            att_b="aa"
+                            att_b='aa'
                         ),
                     ]
                 ),
@@ -40,31 +40,31 @@ obj = Root(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="c"
+                                        att_c='c'
                                     )
                                 ),
                             ],
-                            att_b="a"
+                            att_b='a'
                         ),
                         BType(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="cc"
+                                        att_c='cc'
                                     )
                                 ),
                             ],
-                            att_b="aa"
+                            att_b='aa'
                         ),
                     ]
                 ),
             ],
             cs=CsType(
                 c=CType(
-                    att_c="c"
+                    att_c='c'
                 )
             ),
-            att_a="a"
+            att_a='a'
         ),
         AType(
             bs=[
@@ -74,21 +74,21 @@ obj = Root(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="c"
+                                        att_c='c'
                                     )
                                 ),
                             ],
-                            att_b="a"
+                            att_b='a'
                         ),
                         BType(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="cc"
+                                        att_c='cc'
                                     )
                                 ),
                             ],
-                            att_b="aa"
+                            att_b='aa'
                         ),
                     ]
                 ),
@@ -98,31 +98,31 @@ obj = Root(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="c"
+                                        att_c='c'
                                     )
                                 ),
                             ],
-                            att_b="a"
+                            att_b='a'
                         ),
                         BType(
                             cs=[
                                 CsType(
                                     c=CType(
-                                        att_c="cc"
+                                        att_c='cc'
                                     )
                                 ),
                             ],
-                            att_b="aa"
+                            att_b='aa'
                         ),
                     ]
                 ),
             ],
             cs=CsType(
                 c=CType(
-                    att_c="c"
+                    att_c='c'
                 )
             ),
-            att_a="a"
+            att_a='a'
         ),
     ]
 )

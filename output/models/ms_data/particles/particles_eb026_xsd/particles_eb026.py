@@ -17,7 +17,7 @@ class Doc:
             "min_occurs": 1,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     a2: List[object] = field(
         default_factory=list,
@@ -26,5 +26,5 @@ class Doc:
             "min_occurs": 1,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )

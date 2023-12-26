@@ -22,10 +22,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent',
                     },
                     content=[
-                        "&#10;        tighter rule for EDC as regards the type of an element that matches a wildcard&#10;        ",
+                        '\n        tighter rule for EDC as regards the type of an element that matches a wildcard\n        ',
                     ]
                 ),
             ]
@@ -38,7 +38,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tighter rule for EDC as regards the type of an element that matches a wildcard ",
+                                'tighter rule for EDC as regards the type of an element that matches a wildcard ',
                             ]
                         ),
                     ]
@@ -46,16 +46,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_8_6/s3_8_6v01.xsd"
+                        href='../ibmData/valid/S3_8_6/s3_8_6v01.xsd'
                     ),
                 ],
                 expected=[
@@ -67,12 +67,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_8_6v01s"
+                name='s3_8_6v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_8_6/s3_8_6v01.xml"
+                        href='../ibmData/valid/S3_8_6/s3_8_6v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -85,7 +85,7 @@ obj = TestSet(
                                 appinfo_or_documentation=[
                                     Documentation(
                                         content=[
-                                            '&#10;                        Changed the status to "invalid" in response to bug #12130&#10;                    ',
+                                            '\n                        Changed the status to "invalid" in response to bug #12130\n                    ',
                                         ]
                                     ),
                                 ]
@@ -100,10 +100,10 @@ obj = TestSet(
                             date=XmlDate(2010, 12, 1)
                         ),
                     ],
-                    name="s3_8_6v01i"
+                    name='s3_8_6v01i'
                 ),
             ],
-            name="s3_8_6v01",
+            name='s3_8_6v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -114,7 +114,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "tighter rule for EDC as regards the type of an element that matches a wildcard ",
+                                'tighter rule for EDC as regards the type of an element that matches a wildcard ',
                             ]
                         ),
                     ]
@@ -122,16 +122,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-element-consistent'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -143,12 +143,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_8_6ii01s"
+                name='s3_8_6ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xml"
+                        href='../ibmData/instance_invalid/S3_8_6/s3_8_6ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -159,18 +159,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_8_6ii01i"
+                    name='s3_8_6ii01i'
                 ),
             ],
-            name="s3_8_6ii01",
+            name='s3_8_6ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="EDCWildcard",
+    contributor='IBM',
+    name='EDCWildcard',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -6,12 +6,12 @@ obj = Root(
     number=[
         Keyname(
             numid=1,
-            numname="a",
+            numname='a',
             id=100
         ),
         Keyname(
             numid=1,
-            numname="ab",
+            numname='ab',
             id=200
         ),
     ]

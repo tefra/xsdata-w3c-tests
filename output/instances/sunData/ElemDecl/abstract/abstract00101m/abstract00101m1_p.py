@@ -5,12 +5,12 @@ from output.models.sun_data.elem_decl.abstract.abstract00101m.abstract00101m_xsd
 obj = Root(
     member1=[
         Member1(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
         Member1(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
     ]
 )

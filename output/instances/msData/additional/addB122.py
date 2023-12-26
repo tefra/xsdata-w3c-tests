@@ -8,16 +8,16 @@ obj = Root(
         E6(
             any_element=[
                 AnyElement(
-                    qname="e3",
-                    text="",
+                    qname='e3',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="e31",
-                            text=""
+                            qname='e31',
+                            text=''
                         ),
                     ],
                     attributes={
-                        "att": "123",
+                        'att': '123',
                     }
                 ),
             ]

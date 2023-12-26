@@ -12,20 +12,20 @@ class Temp:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     x: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
     @dataclass
@@ -34,5 +34,5 @@ class Temp:
             default=None,
             metadata={
                 "type": "Element",
-            }
+            },
         )

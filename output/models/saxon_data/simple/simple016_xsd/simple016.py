@@ -16,7 +16,7 @@ class DocType:
             "type": "Element",
             "namespace": "http://simple016.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class Book:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

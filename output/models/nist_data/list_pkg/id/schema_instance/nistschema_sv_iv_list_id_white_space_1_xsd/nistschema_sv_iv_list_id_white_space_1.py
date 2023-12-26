@@ -15,7 +15,7 @@ class NistschemaSvIvListIdWhiteSpace1:
         metadata={
             "white_space": "collapse",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Out:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

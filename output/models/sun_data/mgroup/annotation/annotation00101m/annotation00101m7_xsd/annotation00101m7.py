@@ -16,7 +16,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class TheType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

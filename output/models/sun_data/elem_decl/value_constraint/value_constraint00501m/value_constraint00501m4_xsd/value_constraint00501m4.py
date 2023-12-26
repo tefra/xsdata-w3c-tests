@@ -13,7 +13,7 @@ class Element:
         metadata={
             "required": True,
             "pattern": r"...[Ee]..",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Root:
             "type": "Element",
             "required": True,
             "pattern": r"...[Ee]..",
-        }
+        },
     )

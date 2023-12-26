@@ -11,7 +11,7 @@ class XType:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     a: Optional[str] = field(
         default=None,
@@ -20,7 +20,7 @@ class XType:
             "required": True,
             "max_length": 20,
             "pattern": r"val[1-9][0-9]*",
-        }
+        },
     )
 
 
@@ -32,12 +32,12 @@ class Example:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     x_count: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )

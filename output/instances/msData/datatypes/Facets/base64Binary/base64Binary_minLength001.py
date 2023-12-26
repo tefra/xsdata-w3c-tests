@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.base64_binary.base64_binary_min_leng
 
 
 obj = Test(
-    foo=b"1-2-3"
+    foo=b'1-2-3'
 )

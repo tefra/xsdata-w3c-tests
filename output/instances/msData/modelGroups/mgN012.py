@@ -3,16 +3,16 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    e1="",
-    e2="",
-    f1="",
-    f2="",
+    e1='',
+    e2='',
+    f1='',
+    f2='',
     c1_or_c2=AnyElement(
-        qname="c1",
-        text=""
+        qname='c1',
+        text=''
     ),
     d1_or_d2=AnyElement(
-        qname="d1",
-        text=""
+        qname='d1',
+        text=''
     )
 )

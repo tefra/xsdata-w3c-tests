@@ -2,8 +2,8 @@ from output.models.sun_data.elem_decl.value_constraint.value_constraint00701m.va
 
 
 obj = Root(
-    attr="xxx",
+    attr='xxx',
     content=[
-        "part1 part2",
+        'part1 part2',
     ]
 )

@@ -14,7 +14,7 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

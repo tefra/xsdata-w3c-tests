@@ -23,7 +23,7 @@ class Test:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

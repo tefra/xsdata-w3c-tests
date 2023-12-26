@@ -13,7 +13,7 @@ class ACt:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: str = field(
         init=False,
@@ -21,7 +21,7 @@ class ACt:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class E2:
         metadata={
             "required": True,
             "total_digits": 2,
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

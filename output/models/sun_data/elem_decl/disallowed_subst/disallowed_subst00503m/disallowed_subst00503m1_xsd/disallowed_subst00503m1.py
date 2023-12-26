@@ -48,5 +48,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMaxLength5(
-    value="wfrom.related.that-which-dynamic-of.registry_b"
+    value='wfrom.related.that-which-dynamic-of.registry_b'
 )

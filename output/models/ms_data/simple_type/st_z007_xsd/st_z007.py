@@ -14,7 +14,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -23,5 +23,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )

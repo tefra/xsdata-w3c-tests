@@ -14,5 +14,5 @@ class E1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

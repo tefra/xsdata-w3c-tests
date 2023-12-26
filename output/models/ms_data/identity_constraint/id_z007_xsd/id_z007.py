@@ -20,7 +20,7 @@ class NewDataSet:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -32,7 +32,7 @@ class NewDataSet:
                 "type": "Element",
                 "namespace": "",
                 "max_length": 5,
-            }
+            },
         )
 
     @dataclass
@@ -44,5 +44,5 @@ class NewDataSet:
                 "type": "Element",
                 "namespace": "",
                 "max_length": 5,
-            }
+            },
         )

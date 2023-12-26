@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength2(
-    value="dynamic:registries_file_A.be.as_would-"
+    value='dynamic:registries_file_A.be.as_would-'
 )

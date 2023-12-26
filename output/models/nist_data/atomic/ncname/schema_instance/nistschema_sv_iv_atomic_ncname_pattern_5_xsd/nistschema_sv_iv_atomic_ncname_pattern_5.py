@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNcnamePattern5:
         metadata={
             "required": True,
             "pattern": r"[\i-[:]][\c-[:]]{63}",
-        }
+        },
     )

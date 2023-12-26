@@ -9,7 +9,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*",
-        }
+        },
     )
 
 
@@ -24,5 +24,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

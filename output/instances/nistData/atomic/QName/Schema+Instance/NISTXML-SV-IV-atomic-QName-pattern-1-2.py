@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern1(
-    value="swork_must_and.partners-and:jmanage_and-of_partnerships.industry-prof"
+    value='swork_must_and.partners-and:jmanage_and-of_partnerships.industry-prof'
 )

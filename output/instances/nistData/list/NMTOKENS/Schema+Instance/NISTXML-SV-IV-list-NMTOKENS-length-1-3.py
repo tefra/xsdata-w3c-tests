@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength1(
     value=[
-        "its_define-and-aspects_involved:i",
-        "business:Software-the:being.for:c",
-        "models-application.standardizatio",
-        "documents:to_that:world_business-",
-        "systems-to.involved-applications_",
+        'its_define-and-aspects_involved:i',
+        'business:Software-the:being.for:c',
+        'models-application.standardizatio',
+        'documents:to_that:world_business-',
+        'systems-to.involved-applications_',
     ]
 )

@@ -9,14 +9,14 @@ obj = Doc(
         c1_or_c2=Mixed(
             content=[
                 AnyElement(
-                    qname="foo",
-                    text="testing"
+                    qname='foo',
+                    text='testing'
                 ),
             ]
         ),
         d1_or_d2=AnyElement(
-            qname="d1",
-            text="testing"
+            qname='d1',
+            text='testing'
         )
     )
 )

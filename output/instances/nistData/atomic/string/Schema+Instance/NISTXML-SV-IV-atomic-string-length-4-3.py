@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringLength4(
-    value="plications alike  particularly in those involved in&#10;electronic commerce applications  It is a language that describes&#10;information in a way that allows computers to exchange and automatically&#10;act on the information  Consequently  it can be used"
+    value='plications alike  particularly in those involved in\nelectronic commerce applications  It is a language that describes\ninformation in a way that allows computers to exchange and automatically\nact on the information  Consequently  it can be used'
 )

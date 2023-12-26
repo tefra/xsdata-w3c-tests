@@ -12,7 +12,7 @@ class Zing1:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class ExtendedZing(Zing1):
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 

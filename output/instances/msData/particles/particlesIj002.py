@@ -9,12 +9,12 @@ obj = Doc(
         c1_or_c2=Foo(
             f1_or_f2=[
                 AnyElement(
-                    qname="{http://xsdtesting}f1",
-                    text="&#10;&#9;&#9;&#9;"
+                    qname='{http://xsdtesting}f1',
+                    text='\n\t\t\t'
                 ),
                 AnyElement(
-                    qname="{http://xsdtesting}f1",
-                    text=""
+                    qname='{http://xsdtesting}f1',
+                    text=''
                 ),
             ]
         )

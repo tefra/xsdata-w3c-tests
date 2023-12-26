@@ -10,28 +10,28 @@ class B:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     open_com_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )
 
 
@@ -42,28 +42,28 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     open_com_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )
 
 

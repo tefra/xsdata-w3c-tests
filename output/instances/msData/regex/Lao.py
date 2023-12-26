@@ -2,5 +2,5 @@ from output.models.ms_data.regex.lao_xsd.lao import Doc
 
 
 obj = Doc(
-    value="຀ກຂ຃ຄ຅ຆງຈຉຊ຋ຌຍຎຏຐຑຒຓດຕຖທຘນບປຜຝພຟຠມຢຣ຤ລ຦ວຨຩສຫຬອຮຯະັາຳິີຶື຺ຸູົຼຽ຾຿ເແໂໃໄ໅ໆ໇່້໊໋໌ໍ໎໏໐໑໒໓໔໕໖໗໘໙໚໛ໜໝໞໟ໠໡໢໣໤໥໦໧໨໩໪໫໬໭໮໯໰໱໲໳໴໵໶໷໸໹໺໻໼໽໾໿"
+    value='\u0e80ກຂ\u0e83ຄ\u0e85ຆງຈຉຊ\u0e8bຌຍຎຏຐຑຒຓດຕຖທຘນບປຜຝພຟຠມຢຣ\u0ea4ລ\u0ea6ວຨຩສຫຬອຮຯະັາຳິີຶື຺ຸູົຼຽ\u0ebe\u0ebfເແໂໃໄ\u0ec5ໆ\u0ec7່້໊໋໌ໍ\u0ece\u0ecf໐໑໒໓໔໕໖໗໘໙\u0eda\u0edbໜໝໞໟ\u0ee0\u0ee1\u0ee2\u0ee3\u0ee4\u0ee5\u0ee6\u0ee7\u0ee8\u0ee9\u0eea\u0eeb\u0eec\u0eed\u0eee\u0eef\u0ef0\u0ef1\u0ef2\u0ef3\u0ef4\u0ef5\u0ef6\u0ef7\u0ef8\u0ef9\u0efa\u0efb\u0efc\u0efd\u0efe\u0eff'
 )

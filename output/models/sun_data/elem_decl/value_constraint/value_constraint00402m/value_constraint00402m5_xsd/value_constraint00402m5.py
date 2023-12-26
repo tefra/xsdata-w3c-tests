@@ -13,13 +13,13 @@ class Answer:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     certainty: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

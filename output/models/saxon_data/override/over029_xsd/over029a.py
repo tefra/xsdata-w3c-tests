@@ -13,5 +13,5 @@ class GiftWrap:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

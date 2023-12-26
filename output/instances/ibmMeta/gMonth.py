@@ -19,10 +19,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#gMonth",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#gMonth',
                     },
                     content=[
-                        "gMonth",
+                        'gMonth',
                     ]
                 ),
             ]
@@ -43,16 +43,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#gMonth"
+                    href='http://www.w3.org/TR/xmlschema11-2/#gMonth'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_3_15/d3_3_15si01.xsd"
+                        href='../ibmData/schema_invalid/D3_3_15/d3_3_15si01.xsd'
                     ),
                 ],
                 expected=[
@@ -64,17 +64,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_3_15si01s"
+                name='d3_3_15si01s'
             ),
-            name="d3_3_15si01",
+            name='d3_3_15si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="gMonth",
+    contributor='IBM',
+    name='gMonth',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

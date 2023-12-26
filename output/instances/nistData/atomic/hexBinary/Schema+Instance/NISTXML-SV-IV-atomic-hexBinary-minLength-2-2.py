@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.hex_binary.schema_instance.nistschema_sv_iv_
 
 
 obj = NistschemaSvIvAtomicHexBinaryMinLength2(
-    value=b"nrgjjnawkoglvajwvgnryanpekmkgtfhcttklwn"
+    value=b'nrgjjnawkoglvajwvgnryanpekmkgtfhcttklwn'
 )

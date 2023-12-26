@@ -22,11 +22,15 @@ class NistschemaSvIvAtomicNonPositiveIntegerEnumeration2Type(Enum):
 class NistschemaSvIvAtomicNonPositiveIntegerEnumeration2:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonPositiveInteger-enumeration-2"
-        namespace = "NISTSchema-SV-IV-atomic-nonPositiveInteger-enumeration-2-NS"
+        namespace = (
+            "NISTSchema-SV-IV-atomic-nonPositiveInteger-enumeration-2-NS"
+        )
 
-    value: Optional[NistschemaSvIvAtomicNonPositiveIntegerEnumeration2Type] = field(
+    value: Optional[
+        NistschemaSvIvAtomicNonPositiveIntegerEnumeration2Type
+    ] = field(
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

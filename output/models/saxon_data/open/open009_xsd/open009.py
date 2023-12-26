@@ -14,26 +14,26 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     open_com_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )

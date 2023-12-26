@@ -13,7 +13,7 @@ class BCt:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: str = field(
         init=False,
@@ -21,7 +21,7 @@ class BCt:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 

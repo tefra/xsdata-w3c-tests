@@ -23,7 +23,7 @@ class B:
                 },
             ),
             "max_occurs": 6,
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -45,7 +45,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -61,5 +61,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

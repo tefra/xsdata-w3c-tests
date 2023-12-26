@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.time.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListTimePattern4(
     value=[
-        "18:00:07",
-        "02:26:22",
-        "00:48:25",
-        "09:06:46",
-        "01:40:35",
+        '18:00:07',
+        '02:26:22',
+        '00:48:25',
+        '09:06:46',
+        '01:40:35',
     ]
 )

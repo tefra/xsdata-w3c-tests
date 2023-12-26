@@ -15,5 +15,5 @@ class NistschemaSvIvListLanguageLength1:
         metadata={
             "length": 5,
             "tokens": True,
-        }
+        },
     )

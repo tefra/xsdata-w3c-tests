@@ -13,14 +13,14 @@ class Event:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -44,12 +44,12 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )

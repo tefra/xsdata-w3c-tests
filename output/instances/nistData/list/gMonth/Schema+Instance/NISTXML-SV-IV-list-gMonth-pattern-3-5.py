@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.g_month.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListGMonthPattern3(
     value=[
-        "--11",
-        "--04",
-        "--12",
-        "--02",
-        "--07",
-        "--07",
-        "--08",
+        '--11',
+        '--04',
+        '--12',
+        '--02',
+        '--07',
+        '--07',
+        '--08',
     ]
 )

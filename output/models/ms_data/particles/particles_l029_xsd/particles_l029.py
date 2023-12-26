@@ -15,7 +15,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -37,7 +37,7 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     d1_or_d2: Optional[object] = field(
         default=None,
@@ -55,7 +55,7 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -76,5 +76,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern3(
-    value="_the.the.industry.which.prob"
+    value='_the.the.industry.which.prob'
 )

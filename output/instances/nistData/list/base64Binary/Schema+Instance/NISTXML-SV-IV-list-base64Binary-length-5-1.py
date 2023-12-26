@@ -3,15 +3,15 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListBase64BinaryLength5(
     value=[
-        b"wtknkfitnllyeabuejohkncgvfdtnlcfpgauhypfuocdw",
-        b"fcstvcwjgdeyvhddxxeopnqmjxqfaiomhgecvyvloaver",
-        b"vkwmikpppfxkwjwbvxfoumecbvhvvohbsafoqdxfcbjye",
-        b"otdjwfypchnpsjvqexuvfxgiicksncimiajynupmptprq",
-        b"qranpnvcycwckcgwreywjjdasmprpbttvqvrsvaudsvlq",
-        b"kpanvielellnkfiaopskvipkfnhlhfelhlbymqlkwmcmh",
-        b"qoqdlsrhjvwuvrliaxvcaviygkrwuroppehilscedbvuk",
-        b"twwevfqvvpryhkvidsbpswwcwviqsjrrunvqabqnbxskn",
-        b"jvtklqpwpqigsebosagklpsoqyqnthticnqqlvdylsqrg",
-        b"puptlhekuttgkbvwiqtfripvymvsvjgvkfyiujqilwmhy",
+        b'wtknkfitnllyeabuejohkncgvfdtnlcfpgauhypfuocdw',
+        b'fcstvcwjgdeyvhddxxeopnqmjxqfaiomhgecvyvloaver',
+        b'vkwmikpppfxkwjwbvxfoumecbvhvvohbsafoqdxfcbjye',
+        b'otdjwfypchnpsjvqexuvfxgiicksncimiajynupmptprq',
+        b'qranpnvcycwckcgwreywjjdasmprpbttvqvrsvaudsvlq',
+        b'kpanvielellnkfiaopskvipkfnhlhfelhlbymqlkwmcmh',
+        b'qoqdlsrhjvwuvrliaxvcaviygkrwuroppehilscedbvuk',
+        b'twwevfqvvpryhkvidsbpswwcwviqsjrrunvqabqnbxskn',
+        b'jvtklqpwpqigsebosagklpsoqyqnthticnqqlvdylsqrg',
+        b'puptlhekuttgkbvwiqtfripvymvsvjgvkfyiujqilwmhy',
     ]
 )

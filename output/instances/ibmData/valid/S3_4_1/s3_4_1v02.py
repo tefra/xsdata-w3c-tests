@@ -8,19 +8,19 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     p=C(
         any_element=AnyElement(
-            qname="qwe",
-            text="s"
+            qname='qwe',
+            text='s'
         ),
         x=1
     ),
     q=D(
         any_element=AnyElement(
-            qname="wer",
-            text="",
+            qname='wer',
+            text='',
             children=[
                 AnyElement(
-                    qname="g",
-                    text="123"
+                    qname='g',
+                    text='123'
                 ),
             ]
         ),
@@ -28,8 +28,8 @@ obj = Root(
     ),
     r=E(
         any_element=AnyElement(
-            qname="lj",
-            text="we"
+            qname='lj',
+            text='we'
         ),
         y=1
     )

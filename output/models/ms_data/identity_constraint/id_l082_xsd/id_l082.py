@@ -15,7 +15,7 @@ class Ttype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "required": True,
-        }
+        },
     )
 
 
@@ -37,5 +37,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

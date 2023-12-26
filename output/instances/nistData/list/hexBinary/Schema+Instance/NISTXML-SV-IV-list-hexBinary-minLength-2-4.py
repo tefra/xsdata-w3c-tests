@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.hex_binary.schema_instance.nistschema_sv_i
 
 obj = NistschemaSvIvListHexBinaryMinLength2(
     value=[
-        b"nnlfjixiedu",
-        b"rrrwaybqnao",
-        b"aqivtuhnytr",
-        b"pnbvehxojjv",
-        b"uwuvgwkmgkk",
-        b"ifgigafjkbs",
-        b"engjqrabirw",
-        b"kixmbokgvnw",
-        b"cdkxangacdy",
+        b'nnlfjixiedu',
+        b'rrrwaybqnao',
+        b'aqivtuhnytr',
+        b'pnbvehxojjv',
+        b'uwuvgwkmgkk',
+        b'ifgigafjkbs',
+        b'engjqrabirw',
+        b'kixmbokgvnw',
+        b'cdkxangacdy',
     ]
 )

@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern3(
     value=[
-        "software_for.vocabul",
-        "Extensible-the:a_of-etc:templates:testable_four-",
-        "the",
-        "software.applications.program_set_logic:and:sense:will",
-        "well-degree.o",
-        "for:recommending_Electronic.b",
-        "stimu",
+        'software_for.vocabul',
+        'Extensible-the:a_of-etc:templates:testable_four-',
+        'the',
+        'software.applications.program_set_logic:and:sense:will',
+        'well-degree.o',
+        'for:recommending_Electronic.b',
+        'stimu',
     ]
 )

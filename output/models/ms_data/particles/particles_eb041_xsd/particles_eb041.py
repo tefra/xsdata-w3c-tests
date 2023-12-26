@@ -14,14 +14,14 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     bar: Optional["Foo.Bar"] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
     @dataclass
@@ -31,7 +31,7 @@ class Foo:
             metadata={
                 "type": "Element",
                 "namespace": "",
-            }
+            },
         )
 
 

@@ -15,7 +15,7 @@ class BookStore:
             "name": "Book",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,7 +25,7 @@ class BookStore:
             metadata={
                 "type": "Attribute",
                 "required": True,
-            }
+            },
         )
         title: Optional[str] = field(
             default=None,
@@ -33,7 +33,7 @@ class BookStore:
                 "name": "Title",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )
         author: Optional[str] = field(
             default=None,
@@ -41,7 +41,7 @@ class BookStore:
                 "name": "Author",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )
         date: Optional[str] = field(
             default=None,
@@ -49,7 +49,7 @@ class BookStore:
                 "name": "Date",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )
         isbn: Optional[str] = field(
             default=None,
@@ -57,7 +57,7 @@ class BookStore:
                 "name": "ISBN",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )
         publisher: Optional[str] = field(
             default=None,
@@ -65,5 +65,5 @@ class BookStore:
                 "name": "Publisher",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )

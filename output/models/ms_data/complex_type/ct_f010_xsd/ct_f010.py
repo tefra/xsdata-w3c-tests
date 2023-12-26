@@ -23,14 +23,14 @@ class MyType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 

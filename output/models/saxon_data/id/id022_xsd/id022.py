@@ -11,21 +11,21 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     key: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     ref: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

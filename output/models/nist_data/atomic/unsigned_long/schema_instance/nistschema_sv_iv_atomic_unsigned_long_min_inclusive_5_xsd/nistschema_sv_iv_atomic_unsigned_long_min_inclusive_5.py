@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicUnsignedLongMinInclusive5:
         metadata={
             "required": True,
             "min_inclusive": 999999999999999999,
-        }
+        },
     )

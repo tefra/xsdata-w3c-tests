@@ -11,13 +11,13 @@ class ComType:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

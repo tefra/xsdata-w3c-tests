@@ -12,7 +12,7 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[str] = field(
         default_factory=list,
@@ -20,7 +20,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -33,5 +33,5 @@ class Uid:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

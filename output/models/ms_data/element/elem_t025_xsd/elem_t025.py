@@ -21,14 +21,14 @@ class Ca:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class SA:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class ECa(Ca):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -75,7 +75,7 @@ class Test:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -104,11 +104,11 @@ class Root:
                     "type": A,
                 },
             ),
-        }
+        },
     )
     test2: Optional[Test2] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

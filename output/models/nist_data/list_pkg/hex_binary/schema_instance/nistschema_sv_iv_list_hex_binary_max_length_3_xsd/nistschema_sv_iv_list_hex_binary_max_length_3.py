@@ -16,5 +16,5 @@ class NistschemaSvIvListHexBinaryMaxLength3:
             "max_length": 7,
             "tokens": True,
             "format": "base16",
-        }
+        },
     )

@@ -12,19 +12,19 @@ class Test:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

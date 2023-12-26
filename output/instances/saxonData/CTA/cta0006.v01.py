@@ -17,7 +17,7 @@ obj = Messages(
         ),
         Message(
             kind=QName("{http://www.w3.org/2001/XMLSchema}decimal"),
-            value=Decimal("93.7")
+            value=Decimal('93.7')
         ),
         Message(
             kind=QName("{http://www.w3.org/2001/XMLSchema}QName"),

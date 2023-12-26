@@ -10,7 +10,7 @@ obj = Doc(
         ),
         Beta(
             other_attributes={
-                "{http://www.w3.org/XML/1998/namespace}lang": "jp",
+                '{http://www.w3.org/XML/1998/namespace}lang': 'jp',
             }
         ),
     ]

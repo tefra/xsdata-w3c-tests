@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details',
                     },
                     content=[
-                        "openContent.",
+                        'openContent.',
                     ]
                 ),
             ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v01s"
+                name='s3_4_1v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v01i"
+                    name='s3_4_1v01i'
                 ),
             ],
-            name="s3_4_1v01",
+            name='s3_4_1v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests defaultOpenContent for CT not empty  ",
+                                'Tests defaultOpenContent for CT not empty  ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v02s"
+                name='s3_4_1v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v02i"
+                    name='s3_4_1v02i'
                 ),
             ],
-            name="s3_4_1v02",
+            name='s3_4_1v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests openContent for empty content model ",
+                                'Tests openContent for empty content model ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v03s"
+                name='s3_4_1v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v03i"
+                    name='s3_4_1v03i'
                 ),
             ],
-            name="s3_4_1v03",
+            name='s3_4_1v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests defaultOpenContent in suffix mode ",
+                                'Tests defaultOpenContent in suffix mode ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v04s"
+                name='s3_4_1v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v04i"
+                    name='s3_4_1v04i'
                 ),
             ],
-            name="s3_4_1v04",
+            name='s3_4_1v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests openContent in complexType derived by restriction ",
+                                'Tests openContent in complexType derived by restriction ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v05s"
+                name='s3_4_1v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v05i"
+                    name='s3_4_1v05i'
                 ),
             ],
-            name="s3_4_1v05",
+            name='s3_4_1v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests openContent in complexType derived by extension ",
+                                'Tests openContent in complexType derived by extension ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v06s"
+                name='s3_4_1v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v06i"
+                    name='s3_4_1v06i'
                 ),
             ],
-            name="s3_4_1v06",
+            name='s3_4_1v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by extension with openContent mode suffix in both type and its derived type ",
+                                'Tests derivation by extension with openContent mode suffix in both type and its derived type ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v07s"
+                name='s3_4_1v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v07i"
+                    name='s3_4_1v07i'
                 ),
             ],
-            name="s3_4_1v07",
+            name='s3_4_1v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by extension with openContent mode interleave in derived type and suffix in its base type ",
+                                'Tests derivation by extension with openContent mode interleave in derived type and suffix in its base type ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v08.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v08s"
+                name='s3_4_1v08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v08.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v08i"
+                    name='s3_4_1v08i'
                 ),
             ],
-            name="s3_4_1v08",
+            name='s3_4_1v08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by restriction with openContent mode interleave in base type  ",
+                                'Tests derivation by restriction with openContent mode interleave in base type  ',
                             ]
                         ),
                     ]
@@ -517,16 +517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v09.xsd'
                     ),
                 ],
                 expected=[
@@ -538,12 +538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v09s"
+                name='s3_4_1v09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v09.xml'
                     ),
                     expected=[
                         Expected(
@@ -554,10 +554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v09i"
+                    name='s3_4_1v09i'
                 ),
             ],
-            name="s3_4_1v09",
+            name='s3_4_1v09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -568,7 +568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by extension with openContent mode interleave in both type and its derived type  ",
+                                'Tests derivation by extension with openContent mode interleave in both type and its derived type  ',
                             ]
                         ),
                     ]
@@ -576,16 +576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v10.xsd'
                     ),
                 ],
                 expected=[
@@ -597,12 +597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v10s"
+                name='s3_4_1v10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v10.xml'
                     ),
                     expected=[
                         Expected(
@@ -613,10 +613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v10i"
+                    name='s3_4_1v10i'
                 ),
             ],
-            name="s3_4_1v10",
+            name='s3_4_1v10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -627,7 +627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "complexType/@mixed ",
+                                'complexType/@mixed ',
                             ]
                         ),
                     ]
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xsd"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v11.xsd'
                     ),
                 ],
                 expected=[
@@ -656,12 +656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1v11s"
+                name='s3_4_1v11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xml"
+                        href='../ibmData/valid/S3_4_1/s3_4_1v11.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,10 +672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1v11i"
+                    name='s3_4_1v11i'
                 ),
             ],
-            name="s3_4_1v11",
+            name='s3_4_1v11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -686,7 +686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;            3.4.4.3 Element Sequence Locally valid (Complex Content) Validation rule 2. (openContent)&#10;            mode = suffix BUT wildcard inserted in front of and in between CT group particles &#10;            ",
+                                '\n            3.4.4.3 Element Sequence Locally valid (Complex Content) Validation rule 2. (openContent)\n            mode = suffix BUT wildcard inserted in front of and in between CT group particles \n            ',
                             ]
                         ),
                     ]
@@ -694,16 +694,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -715,12 +715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1ii01s"
+                name='s3_4_1ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xml"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -731,10 +731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1ii01i"
+                    name='s3_4_1ii01i'
                 ),
             ],
-            name="s3_4_1ii01",
+            name='s3_4_1ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -753,16 +753,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -774,12 +774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1ii02s"
+                name='s3_4_1ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xml"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -790,10 +790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1ii02i"
+                    name='s3_4_1ii02i'
                 ),
             ],
-            name="s3_4_1ii02",
+            name='s3_4_1ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -804,7 +804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests defaultOpenContent: when openContent is present in CT, defaultOpenContent should not be used ",
+                                'Tests defaultOpenContent: when openContent is present in CT, defaultOpenContent should not be used ',
                             ]
                         ),
                     ]
@@ -812,16 +812,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xsd"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -833,12 +833,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1ii03s"
+                name='s3_4_1ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xml"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -849,10 +849,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1ii03i"
+                    name='s3_4_1ii03i'
                 ),
             ],
-            name="s3_4_1ii03",
+            name='s3_4_1ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -863,7 +863,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests wildcard in opencontent with restrictions (notQName)  ",
+                                'Tests wildcard in opencontent with restrictions (notQName)  ',
                             ]
                         ),
                     ]
@@ -871,16 +871,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -892,12 +892,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1ii04s"
+                name='s3_4_1ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xml"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -908,10 +908,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1ii04i"
+                    name='s3_4_1ii04i'
                 ),
             ],
-            name="s3_4_1ii04",
+            name='s3_4_1ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -922,7 +922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by restriction with openContent mode suffix in base type ",
+                                'Tests derivation by restriction with openContent mode suffix in base type ',
                             ]
                         ),
                     ]
@@ -930,16 +930,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Suffix"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -951,12 +951,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1ii05s"
+                name='s3_4_1ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xml"
+                        href='../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -967,10 +967,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_4_1ii05i"
+                    name='s3_4_1ii05i'
                 ),
             ],
-            name="s3_4_1ii05",
+            name='s3_4_1ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -981,7 +981,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "3.4.3 Schema Representation Constraint: ComplexType Definition Representation OK&#10;          [openContent] has mode not 'none' AND no [any] in its children&#10;          [openContent] has mode 'none' AND [any] in its children (which is ok) ",
+                                "3.4.3 Schema Representation Constraint: ComplexType Definition Representation OK\n          [openContent] has mode not 'none' AND no [any] in its children\n          [openContent] has mode 'none' AND [any] in its children (which is ok) ",
                             ]
                         ),
                     ]
@@ -989,16 +989,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Interleave"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si01.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si01.xsd'
                     ),
                 ],
                 expected=[
@@ -1010,9 +1010,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si01s"
+                name='s3_4_1si01s'
             ),
-            name="s3_4_1si01",
+            name='s3_4_1si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1023,7 +1023,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "defaultOpenContent in wrong place",
+                                'defaultOpenContent in wrong place',
                             ]
                         ),
                     ]
@@ -1031,16 +1031,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-DefaultOCTopLevel"
+                    href='http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-DefaultOCTopLevel'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si02.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si02.xsd'
                     ),
                 ],
                 expected=[
@@ -1052,9 +1052,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si02s"
+                name='s3_4_1si02s'
             ),
-            name="s3_4_1si02",
+            name='s3_4_1si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1065,7 +1065,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "not wildcard inside openContent",
+                                'not wildcard inside openContent',
                             ]
                         ),
                     ]
@@ -1073,16 +1073,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si03.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si03.xsd'
                     ),
                 ],
                 expected=[
@@ -1094,9 +1094,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si03s"
+                name='s3_4_1si03s'
             ),
-            name="s3_4_1si03",
+            name='s3_4_1si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1107,7 +1107,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests openContent in complexType derived by extension&#10;          Fails because the derived type takes the defaultOpenContent which has&#10;          mode of suffix while base type openContent has mode interleave. And their modes have to be the same.&#10;          According to the spec, for derived types, defaultOpenContent takes&#10;          predecence over base type's openContent. ",
+                                "Tests openContent in complexType derived by extension\n          Fails because the derived type takes the defaultOpenContent which has\n          mode of suffix while base type openContent has mode interleave. And their modes have to be the same.\n          According to the spec, for derived types, defaultOpenContent takes\n          predecence over base type's openContent. ",
                             ]
                         ),
                     ]
@@ -1115,16 +1115,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si04.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si04.xsd'
                     ),
                 ],
                 expected=[
@@ -1136,9 +1136,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si04s"
+                name='s3_4_1si04s'
             ),
-            name="s3_4_1si04",
+            name='s3_4_1si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1149,7 +1149,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests derivation by extension with openContent mode suffix in derived type and mode interleave in base type",
+                                'Tests derivation by extension with openContent mode suffix in derived type and mode interleave in base type',
                             ]
                         ),
                     ]
@@ -1157,16 +1157,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si05.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si05.xsd'
                     ),
                 ],
                 expected=[
@@ -1178,9 +1178,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si05s"
+                name='s3_4_1si05s'
             ),
-            name="s3_4_1si05",
+            name='s3_4_1si05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1199,16 +1199,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si06.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si06.xsd'
                     ),
                 ],
                 expected=[
@@ -1220,9 +1220,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si06s"
+                name='s3_4_1si06s'
             ),
-            name="s3_4_1si06",
+            name='s3_4_1si06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1241,16 +1241,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si08.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si08.xsd'
                     ),
                 ],
                 expected=[
@@ -1262,9 +1262,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si08s"
+                name='s3_4_1si08s'
             ),
-            name="s3_4_1si08",
+            name='s3_4_1si08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1275,7 +1275,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "complexType/@mixed and complexContent/@mixed must not conflict",
+                                'complexType/@mixed and complexContent/@mixed must not conflict',
                             ]
                         ),
                     ]
@@ -1283,16 +1283,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si09.xsd"
+                        href='../ibmData/schema_invalid/S3_4_1/s3_4_1si09.xsd'
                     ),
                 ],
                 expected=[
@@ -1304,17 +1304,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_4_1si09s"
+                name='s3_4_1si09s'
             ),
-            name="s3_4_1si09",
+            name='s3_4_1si09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="PopenContent",
+    contributor='IBM',
+    name='PopenContent',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

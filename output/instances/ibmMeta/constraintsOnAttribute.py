@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl',
                     },
                     content=[
-                        "Attribute constraints",
+                        'Attribute constraints',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the targetNamespace attribute in locally declared element and attribute.",
+                                'Tests the targetNamespace attribute in locally declared element and attribute.',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_2_3/s3_2_3v01.xsd"
+                        href='../ibmData/valid/S3_2_3/s3_2_3v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3v01s"
+                name='s3_2_3v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_2_3/s3_2_3v01.xml"
+                        href='../ibmData/valid/S3_2_3/s3_2_3v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3v01i"
+                    name='s3_2_3v01i'
                 ),
             ],
-            name="s3_2_3v01",
+            name='s3_2_3v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the targetNamespace attribute in locally declared element and attribute. ",
+                                'Tests the targetNamespace attribute in locally declared element and attribute. ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S3_2_3/s3_2_3v04.xsd"
+                        href='../ibmData/valid/S3_2_3/s3_2_3v04.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3v04s"
+                name='s3_2_3v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S3_2_3/s3_2_3v04.xml"
+                        href='../ibmData/valid/S3_2_3/s3_2_3v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3v04i"
+                    name='s3_2_3v04i'
                 ),
             ],
-            name="s3_2_3v04",
+            name='s3_2_3v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the targetNamespace attribute in locally declared element and attribute.",
+                                'Tests the targetNamespace attribute in locally declared element and attribute.',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xsd"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3ii01s"
+                name='s3_2_3ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xml"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3ii01i"
+                    name='s3_2_3ii01i'
                 ),
             ],
-            name="s3_2_3ii01",
+            name='s3_2_3ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for valid derivation of restriction of complexType in other namespace.",
+                                'Tests for valid derivation of restriction of complexType in other namespace.',
                             ]
                         ),
                     ]
@@ -222,19 +222,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xsd"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii02b.xsd"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii02b.xsd'
                     ),
                 ],
                 expected=[
@@ -246,12 +246,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3ii02s"
+                name='s3_2_3ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xml"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -262,10 +262,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3ii02i"
+                    name='s3_2_3ii02i'
                 ),
             ],
-            name="s3_2_3ii02",
+            name='s3_2_3ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -276,7 +276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the targetNamespace attribute in locally declared element and attribute.",
+                                'Tests the targetNamespace attribute in locally declared element and attribute.',
                             ]
                         ),
                     ]
@@ -284,16 +284,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xsd"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -305,12 +305,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3ii04s"
+                name='s3_2_3ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xml"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -321,10 +321,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3ii04i"
+                    name='s3_2_3ii04i'
                 ),
             ],
-            name="s3_2_3ii04",
+            name='s3_2_3ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -335,7 +335,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Named identity constraints on local element declarations ",
+                                'Named identity constraints on local element declarations ',
                             ]
                         ),
                     ]
@@ -343,16 +343,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xsd"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -364,12 +364,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3ii05s"
+                name='s3_2_3ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xml"
+                        href='../ibmData/instance_invalid/S3_2_3/s3_2_3ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -380,10 +380,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s3_2_3ii05i"
+                    name='s3_2_3ii05i'
                 ),
             ],
-            name="s3_2_3ii05",
+            name='s3_2_3ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -394,7 +394,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for valid derivation of restriction of complexType",
+                                'Tests for valid derivation of restriction of complexType',
                             ]
                         ),
                     ]
@@ -402,16 +402,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si01.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si01.xsd'
                     ),
                 ],
                 expected=[
@@ -423,9 +423,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si01s"
+                name='s3_2_3si01s'
             ),
-            name="s3_2_3si01",
+            name='s3_2_3si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -436,7 +436,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for valid derivation of restriction of complexType.",
+                                'Tests for valid derivation of restriction of complexType.',
                             ]
                         ),
                     ]
@@ -444,16 +444,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si02.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si02.xsd'
                     ),
                 ],
                 expected=[
@@ -465,9 +465,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si02s"
+                name='s3_2_3si02s'
             ),
-            name="s3_2_3si02",
+            name='s3_2_3si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -478,7 +478,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for valid derivation of restriction of complexType",
+                                'Tests for valid derivation of restriction of complexType',
                             ]
                         ),
                     ]
@@ -486,16 +486,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si03.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si03.xsd'
                     ),
                 ],
                 expected=[
@@ -507,9 +507,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si03s"
+                name='s3_2_3si03s'
             ),
-            name="s3_2_3si03",
+            name='s3_2_3si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -520,7 +520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Attribute does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]",
+                                'Attribute does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]',
                             ]
                         ),
                     ]
@@ -528,16 +528,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si04.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si04.xsd'
                     ),
                 ],
                 expected=[
@@ -549,9 +549,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si04s"
+                name='s3_2_3si04s'
             ),
-            name="s3_2_3si04",
+            name='s3_2_3si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -562,7 +562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute] ",
+                                'The actual value of the base [attribute] of [restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute] ',
                             ]
                         ),
                     ]
@@ -570,16 +570,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si05.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si05.xsd'
                     ),
                 ],
                 expected=[
@@ -591,9 +591,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si05s"
+                name='s3_2_3si05s'
             ),
-            name="s3_2_3si05"
+            name='s3_2_3si05'
         ),
         TestGroup(
             annotation=[
@@ -601,7 +601,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The form attribute is present when targetAttribute attribute is present.",
+                                'The form attribute is present when targetAttribute attribute is present.',
                             ]
                         ),
                     ]
@@ -609,16 +609,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si06.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si06.xsd'
                     ),
                 ],
                 expected=[
@@ -630,9 +630,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si06s"
+                name='s3_2_3si06s'
             ),
-            name="s3_2_3si06",
+            name='s3_2_3si06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -643,7 +643,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Element does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]",
+                                'Element does not have complexType as an ancestor when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of targetNamespace of [attribute]',
                             ]
                         ),
                     ]
@@ -651,16 +651,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si07.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si07.xsd'
                     ),
                 ],
                 expected=[
@@ -672,9 +672,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si07s"
+                name='s3_2_3si07s'
             ),
-            name="s3_2_3si07",
+            name='s3_2_3si07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -685,7 +685,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The actual value of the base of [attribute][restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of  targetNamespace of [attribute]",
+                                'The actual value of the base of [attribute][restriction] matches the name of xs:anyType when the ancestor [schema] does not have a targetNamespace [attribute] or its actual value is different from the actual value of  targetNamespace of [attribute]',
                             ]
                         ),
                     ]
@@ -693,16 +693,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si08.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si08.xsd'
                     ),
                 ],
                 expected=[
@@ -714,9 +714,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si08s"
+                name='s3_2_3si08s'
             ),
-            name="s3_2_3si08",
+            name='s3_2_3si08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -727,7 +727,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for valid derivation of extension of complexType in other namespace.",
+                                'Tests for valid derivation of extension of complexType in other namespace.',
                             ]
                         ),
                     ]
@@ -735,16 +735,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si09.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si09.xsd'
                     ),
                 ],
                 expected=[
@@ -756,9 +756,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si09s"
+                name='s3_2_3si09s'
             ),
-            name="s3_2_3si09",
+            name='s3_2_3si09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -769,7 +769,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "identity constraints on local element declarations ",
+                                'identity constraints on local element declarations ',
                             ]
                         ),
                     ]
@@ -777,16 +777,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-src-attdecl'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S3_2_3/s3_2_3si10.xsd"
+                        href='../ibmData/schema_invalid/S3_2_3/s3_2_3si10.xsd'
                     ),
                 ],
                 expected=[
@@ -798,17 +798,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s3_2_3si10s"
+                name='s3_2_3si10s'
             ),
-            name="s3_2_3si10",
+            name='s3_2_3si10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="constraintsOnAttribute",
+    contributor='IBM',
+    name='constraintsOnAttribute',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

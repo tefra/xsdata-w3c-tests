@@ -10,7 +10,7 @@ class Regex:
             "type": "Attribute",
             "pattern": r"([0-1]{4}|(0|1){8})",
             "format": "base64",
-        }
+        },
     )
 
 
@@ -25,5 +25,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

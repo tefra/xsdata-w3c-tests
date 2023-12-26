@@ -4,13 +4,13 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    version=Decimal("1.0"),
+    version=Decimal('1.0'),
     content=[
-        "&#10;&#9;&#9;123abc12133b&#10;&#9;&#9;",
+        '\n\t\t123abc12133b\n\t\t',
         AnyElement(
-            qname="{a}element",
-            text="xk"
+            qname='{a}element',
+            text='xk'
         ),
-        "&#10;&#9;&#9;23123124noifew&#10;",
+        '\n\t\t23123124noifew\n',
     ]
 )

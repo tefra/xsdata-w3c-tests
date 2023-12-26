@@ -14,13 +14,13 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     a2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -35,5 +35,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

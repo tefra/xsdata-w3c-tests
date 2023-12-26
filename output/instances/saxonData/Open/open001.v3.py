@@ -1,8 +1,8 @@
-from output.models.saxon_data.open.open002_xsd.open002 import Doc
+from output.models.saxon_data.open.open001_xsd.open001 import Doc
 
 
 obj = Doc(
-    a="",
-    b="",
-    c=""
+    a='',
+    b='',
+    c=''
 )

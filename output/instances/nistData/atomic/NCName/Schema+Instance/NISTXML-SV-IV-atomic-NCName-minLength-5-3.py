@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength5(
-    value="rgeneration_many_in.semantics.around-well_electronic_are.a_to.bu"
+    value='rgeneration_many_in.semantics.around-well_electronic_are.a_to.bu'
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength3(
-    value="iwill-computing.other.software.ambiguities-heterogeneous-bus"
+    value='iwill-computing.other.software.ambiguities-heterogeneous-bus'
 )

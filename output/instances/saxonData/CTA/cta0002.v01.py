@@ -8,17 +8,17 @@ obj = Messages(
     message=[
         Message(
             e=[
-                Decimal("1"),
-                Decimal("2"),
-                Decimal("3"),
+                Decimal('1'),
+                Decimal('2'),
+                Decimal('3'),
             ],
             min=TMin.VALUE_0
         ),
         Message(
             e=[
-                Decimal("1"),
-                Decimal("2"),
-                Decimal("3"),
+                Decimal('1'),
+                Decimal('2'),
+                Decimal('3'),
             ],
             min=TMin.VALUE_1
         ),

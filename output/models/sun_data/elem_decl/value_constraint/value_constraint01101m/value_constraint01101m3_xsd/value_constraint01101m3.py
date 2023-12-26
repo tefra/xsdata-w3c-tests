@@ -17,5 +17,5 @@ class Root:
             "namespace": "",
             "required": True,
             "max_inclusive": 0.0,
-        }
+        },
     )

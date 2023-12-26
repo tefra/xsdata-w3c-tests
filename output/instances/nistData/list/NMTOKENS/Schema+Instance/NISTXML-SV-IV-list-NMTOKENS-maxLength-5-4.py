@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensMaxLength5(
     value=[
-        "organ",
-        "possi",
-        "to:th",
-        "secur",
-        "in.un",
-        "neede",
+        'organ',
+        'possi',
+        'to:th',
+        'secur',
+        'in.un',
+        'neede',
     ]
 )

@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#sec-chdtfacets",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#sec-chdtfacets',
                     },
                     content=[
-                        "&#10;        The description of the lexical spaces of unsignedLong, unsignedInt, unsignedShort, and unsignedByte has been revised to agree with the schema for schemas by allowing for the possibility of a leading sign.&#10;        ",
+                        '\n        The description of the lexical spaces of unsignedLong, unsignedInt, unsignedShort, and unsignedByte has been revised to agree with the schema for schemas by allowing for the possibility of a leading sign.\n        ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test unsignedLong",
+                                'test unsignedLong',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedLong"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedLong'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_21/d3_4_21v01.xsd"
+                        href='../ibmData/valid/D3_4_21/d3_4_21v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_21v01s"
+                name='d3_4_21v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_21/d3_4_21v01.xml"
+                        href='../ibmData/valid/D3_4_21/d3_4_21v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_21v01i"
+                    name='d3_4_21v01i'
                 ),
             ],
-            name="d3_4_21v01",
+            name='d3_4_21v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedInt. ",
+                                'The possibility of a leading sign is allowed for unsignedInt. ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedInt"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedInt'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_22/d3_4_22v01.xsd"
+                        href='../ibmData/valid/D3_4_22/d3_4_22v01.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_22v01s"
+                name='d3_4_22v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_22/d3_4_22v01.xml"
+                        href='../ibmData/valid/D3_4_22/d3_4_22v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_22v01i"
+                    name='d3_4_22v01i'
                 ),
             ],
-            name="d3_4_22v01",
+            name='d3_4_22v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedInt. ",
+                                'The possibility of a leading sign is allowed for unsignedInt. ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedShort"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedShort'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_23/d3_4_23v01.xsd"
+                        href='../ibmData/valid/D3_4_23/d3_4_23v01.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_23v01s"
+                name='d3_4_23v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_23/d3_4_23v01.xml"
+                        href='../ibmData/valid/D3_4_23/d3_4_23v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_23v01i"
+                    name='d3_4_23v01i'
                 ),
             ],
-            name="d3_4_23v01",
+            name='d3_4_23v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedByte. ",
+                                'The possibility of a leading sign is allowed for unsignedByte. ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedByte"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedByte'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_24/d3_4_24v01.xsd"
+                        href='../ibmData/valid/D3_4_24/d3_4_24v01.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_24v01s"
+                name='d3_4_24v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_24/d3_4_24v01.xml"
+                        href='../ibmData/valid/D3_4_24/d3_4_24v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_24v01i"
+                    name='d3_4_24v01i'
                 ),
             ],
-            name="d3_4_24v01",
+            name='d3_4_24v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test unsignedLong invalid instance ",
+                                'test unsignedLong invalid instance ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedLong"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedLong'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_21ii01s"
+                name='d3_4_21ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_21/d3_4_21ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_21ii01i"
+                    name='d3_4_21ii01i'
                 ),
             ],
-            name="d3_4_21ii01",
+            name='d3_4_21ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedInt. ",
+                                'The possibility of a leading sign is allowed for unsignedInt. ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedInt"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedInt'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_22ii01s"
+                name='d3_4_22ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_22/d3_4_22ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_22ii01i"
+                    name='d3_4_22ii01i'
                 ),
             ],
-            name="d3_4_22ii01",
+            name='d3_4_22ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedShort.  ",
+                                'The possibility of a leading sign is allowed for unsignedShort.  ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedShort"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedShort'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_23ii01s"
+                name='d3_4_23ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_23/d3_4_23ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_23ii01i"
+                    name='d3_4_23ii01i'
                 ),
             ],
-            name="d3_4_23ii01",
+            name='d3_4_23ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The possibility of a leading sign is allowed for unsignedByte.   ",
+                                'The possibility of a leading sign is allowed for unsignedByte.   ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#unsignedByte"
+                    href='http://www.w3.org/TR/xmlschema11-2/#unsignedByte'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LeadingPlusInUnsignedTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_24ii01s"
+                name='d3_4_24ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_24/d3_4_24ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,18 +495,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_24ii01i"
+                    name='d3_4_24ii01i'
                 ),
             ],
-            name="d3_4_24ii01",
+            name='d3_4_24ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="unsignedIntegers",
+    contributor='IBM',
+    name='unsignedIntegers',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -12,7 +12,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
 
 

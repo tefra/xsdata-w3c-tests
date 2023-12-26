@@ -4,16 +4,16 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     content=[
-        "&#10;  o-O-o&#10;  ",
+        '\n  o-O-o\n  ',
         AnyElement(
-            qname="{http://open.com/}extra",
-            text="42",
-            tail="&#10;  o-O-o  &#10;  "
+            qname='{http://open.com/}extra',
+            text='42',
+            tail='\n  o-O-o  \n  '
         ),
         AnyElement(
-            qname="{http://open.com/}extra",
-            text="97",
-            tail=" &#10;  o-O-o   &#10;"
+            qname='{http://open.com/}extra',
+            text='97',
+            tail=' \n  o-O-o   \n'
         ),
     ]
 )

@@ -13,5 +13,5 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

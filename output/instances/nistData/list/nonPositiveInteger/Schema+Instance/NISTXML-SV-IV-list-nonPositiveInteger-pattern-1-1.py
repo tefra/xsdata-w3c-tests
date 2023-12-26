@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.non_positive_integer.schema_instance.nists
 
 obj = NistschemaSvIvListNonPositiveIntegerPattern1(
     value=[
-        "-8",
-        "-565",
-        "-53758",
-        "-3643494",
-        "-312496312",
-        "-14432648126",
-        "-953327572783422646",
+        '-8',
+        '-565',
+        '-53758',
+        '-3643494',
+        '-312496312',
+        '-14432648126',
+        '-953327572783422646',
     ]
 )

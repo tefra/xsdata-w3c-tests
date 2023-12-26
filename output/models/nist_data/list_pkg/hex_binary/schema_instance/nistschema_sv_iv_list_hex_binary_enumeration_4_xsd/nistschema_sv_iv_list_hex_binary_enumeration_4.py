@@ -7,76 +7,76 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-enumeration-4-NS"
 
 class NistschemaSvIvListHexBinaryEnumeration4Type(Enum):
     VALUE_7477766D6978756465636F616F7675616B716761757761726476706C727870667062696B6E74646C697176676C706B6866696C6478616578676D7674766575746464676F_76726B62626A726E696D6862687076746567676B766474707064656E65726667616D69647762626C71_77676A6469726D67656865616D76697362637574666A6F6F67656276626F717077666B6275767665707074666A636C626D7176667371_646369676D766D7971736E686762767067706F616B6776616D6E6775696C626B68626D687875706674786D63_747462776B6C6A777571766F786774666E6D_70666B7772716470766C6E757475696E6D706F7475697779656C69746269736A71 = (
-            b"twvmixudecoaovuakqgauwardvplrxpfpbikntdliqvglpkhfildxaexgmvtveutddgo",
-            b"vrkbbjrnimhbhpvteggkvdtppdenerfgamidwbblq",
-            b"wgjdirmgeheamvisbcutfjoogebvboqpwfkbuvvepptfjclbmqvfsq",
-            b"dcigmvmyqsnhgbvpgpoakgvamnguilbkhbmhxupftxmc",
-            b"ttbwkljwuqvoxgtfnm",
-            b"pfkwrqdpvlnutuinmpotuiwyelitbisjq",
-        )
+        b"twvmixudecoaovuakqgauwardvplrxpfpbikntdliqvglpkhfildxaexgmvtveutddgo",
+        b"vrkbbjrnimhbhpvteggkvdtppdenerfgamidwbblq",
+        b"wgjdirmgeheamvisbcutfjoogebvboqpwfkbuvvepptfjclbmqvfsq",
+        b"dcigmvmyqsnhgbvpgpoakgvamnguilbkhbmhxupftxmc",
+        b"ttbwkljwuqvoxgtfnm",
+        b"pfkwrqdpvlnutuinmpotuiwyelitbisjq",
+    )
     VALUE_706F7065737569616279776E6F70766D676C_6A797761647978786D6A706C6B66756569776F746F796F686A6A6E6C667378727074636A616D_697271736C6F75627368686C6764756C67726A766E6365796A77766F777464796F6669696F787863727273786374656E7971_6F646F7762716363647263757766756C6C73736B6C736C6E6D626B787370617163_6A65_6E6772777878736D65626B7679616B6A6D646F6F677868677363677662786365707471646967637470766B7473746663646F75_706F6264786E76786E617068797478686677637564616771 = (
-            b"popesuiabywnopvmgl",
-            b"jywadyxxmjplkfueiwotoyohjjnlfsxrptcjam",
-            b"irqsloubshhlgdulgrjvnceyjwvowtdyofiioxxcrrsxctenyq",
-            b"odowbqccdrcuwfullssklslnmbkxspaqc",
-            b"je",
-            b"ngrwxxsmebkvyakjmdoogxhgscgvbxceptqdigctpvktstfcdou",
-            b"pobdxnvxnaphytxhfwcudagq",
-        )
+        b"popesuiabywnopvmgl",
+        b"jywadyxxmjplkfueiwotoyohjjnlfsxrptcjam",
+        b"irqsloubshhlgdulgrjvnceyjwvowtdyofiioxxcrrsxctenyq",
+        b"odowbqccdrcuwfullssklslnmbkxspaqc",
+        b"je",
+        b"ngrwxxsmebkvyakjmdoogxhgscgvbxceptqdigctpvktstfcdou",
+        b"pobdxnvxnaphytxhfwcudagq",
+    )
     VALUE_7168_777275626C6363707476636B7162706F6B70686B7862676E646E68706F677779726968696B646E656A627472676C6F_626C776F63737665747779736F6B77716B69_61647977697674746762_6977786F707669636D68706F6D7672777370636A666E6E6F627572777778726A6E7975707274636669616B6667646B6F75646774_77666F67626C6A747368676B7969746865666C6679707966756A676168636A6F666C68646F6D77666A69766370766F_70707369796F766B68 = (
-            b"qh",
-            b"wrublccptvckqbpokphkxbgndnhpogwyrihikdnejbtrglo",
-            b"blwocsvetwysokwqki",
-            b"adywivttgb",
-            b"iwxopvicmhpomvrwspcjfnnoburwwxrjnyuprtcfiakfgdkoudgt",
-            b"wfogbljtshgkyitheflfypyfujgahcjoflhdomwfjivcpvo",
-            b"ppsiyovkh",
-        )
+        b"qh",
+        b"wrublccptvckqbpokphkxbgndnhpogwyrihikdnejbtrglo",
+        b"blwocsvetwysokwqki",
+        b"adywivttgb",
+        b"iwxopvicmhpomvrwspcjfnnoburwwxrjnyuprtcfiakfgdkoudgt",
+        b"wfogbljtshgkyitheflfypyfujgahcjoflhdomwfjivcpvo",
+        b"ppsiyovkh",
+    )
     VALUE_776B79716B7066_78626F776E636A69697470686379766965637665656F66617676616464716D63656474706A6D6A6E686477_6B6668757175616E6A7565686E6563797970776167666171_6378676F717164747162626F6C6873646B6A757268617767666E70747065716C6F646272716B7879797174676376_6D776E61626478686F72626C6F7767_627566797277666B6F6475666C6C64 = (
-            b"wkyqkpf",
-            b"xbowncjiitphcyviecveeofavvaddqmcedtpjmjnhdw",
-            b"kfhuquanjuehnecyypwagfaq",
-            b"cxgoqqdtqbbolhsdkjurhawgfnptpeqlodbrqkxyyqtgcv",
-            b"mwnabdxhorblowg",
-            b"bufyrwfkoduflld",
-        )
+        b"wkyqkpf",
+        b"xbowncjiitphcyviecveeofavvaddqmcedtpjmjnhdw",
+        b"kfhuquanjuehnecyypwagfaq",
+        b"cxgoqqdtqbbolhsdkjurhawgfnptpeqlodbrqkxyyqtgcv",
+        b"mwnabdxhorblowg",
+        b"bufyrwfkoduflld",
+    )
     VALUE_6E666B6F6C626F6775626F696C79796370616F7861767177796376706369617578766F61756E7774_6F636F6C6A6A7466616C6669716E6B6C6C7564626E6D74746C726E767478777161786877627961726A70_6E646265_6E64656B70737167676575797162717066777478617078756D716D6463686F6B6C6D6E6973706F65767765616C7275787379707172706E796C6C75717666_667162736B777277756A79626C6E796A6D6E75777465626E6D63_706B6263776767717062766A70726575766D7570736A746F6374707274636461666D637772706E66756765646B736C65757477636E737678686964726E_6E6F6B766E6465686B6D766D7364717468766764617665627869777874776777646B7972667273777276656567636F626167647375656D6E666F6871 = (
-            b"nfkolboguboilyycpaoxavqwycvpciauxvoaunwt",
-            b"ocoljjtfalfiqnklludbnmttlrnvtxwqaxhwbyarjp",
-            b"ndbe",
-            b"ndekpsqggeuyqbqpfwtxapxumqmdchoklmnispoevwealruxsypqrpnylluqvf",
-            b"fqbskwrwujyblnyjmnuwtebnmc",
-            b"pkbcwggqpbvjpreuvmupsjtoctprtcdafmcwrpnfugedksleutwcnsvxhidrn",
-            b"nokvndehkmvmsdqthvgdavebxiwxtwgwdkyrfrswrveegcobagdsuemnfohq",
-        )
+        b"nfkolboguboilyycpaoxavqwycvpciauxvoaunwt",
+        b"ocoljjtfalfiqnklludbnmttlrnvtxwqaxhwbyarjp",
+        b"ndbe",
+        b"ndekpsqggeuyqbqpfwtxapxumqmdchoklmnispoevwealruxsypqrpnylluqvf",
+        b"fqbskwrwujyblnyjmnuwtebnmc",
+        b"pkbcwggqpbvjpreuvmupsjtoctprtcdafmcwrpnfugedksleutwcnsvxhidrn",
+        b"nokvndehkmvmsdqthvgdavebxiwxtwgwdkyrfrswrveegcobagdsuemnfohq",
+    )
     VALUE_6D6271636469786A7572656B707762686265736A72646F786F776370796B67_646372_7178626371616172626A6C776B6779636C6471707868626D7264616A766F686672727478787771796C69796D696B78706F_6578776C63756870696273786C656B6D6B7573726F6A7471766169_6C65626B7868656768636465_616A72667066687663776C716271656672676F78797466_73776A736F6B7465697778707464666B746F616E6C7879766B6768716F686A67626F68696A6A7163666F6564616872 = (
-            b"mbqcdixjurekpwbhbesjrdoxowcpykg",
-            b"dcr",
-            b"qxbcqaarbjlwkgycldqpxhbmrdajvohfrrtxxwqyliymikxpo",
-            b"exwlcuhpibsxlekmkusrojtqvai",
-            b"lebkxheghcde",
-            b"ajrfpfhvcwlqbqefrgoxytf",
-            b"swjsokteiwxptdfktoanlxyvkghqohjgbohijjqcfoedahr",
-        )
+        b"mbqcdixjurekpwbhbesjrdoxowcpykg",
+        b"dcr",
+        b"qxbcqaarbjlwkgycldqpxhbmrdajvohfrrtxxwqyliymikxpo",
+        b"exwlcuhpibsxlekmkusrojtqvai",
+        b"lebkxheghcde",
+        b"ajrfpfhvcwlqbqefrgoxytf",
+        b"swjsokteiwxptdfktoanlxyvkghqohjgbohijjqcfoedahr",
+    )
     VALUE_76726D647076786A7079686563667564706B6F72756F79776A686D767877626A7463656E6165_726675766B65726671776E736A7877776C63786A696C_756A75676169656F6F716671666A70716D787471787169726E6968_7370726169706475716F707167627178647472706862787566646A627964637561737167636D6D756D716476776E7266636A63676A66636C736970736E646E6E_61666B61_646A797761777972777370766873746B6E716F77_79686B736172786D6C666F67746D626E647278726A73716B76756978626B6F6871677562626565767870786978796B6D69_766C747968656F716B6C727167717169716D796C66766267687876727265717777677264746179786768667663746D6A636C70746D74646869746C637371766C616E737167_656F69686A64696C63656C70757373636B766D7773617979776875696468666471687172746773686164796770696F6C75736D6963 = (
-            b"vrmdpvxjpyhecfudpkoruoywjhmvxwbjtcenae",
-            b"rfuvkerfqwnsjxwwlcxjil",
-            b"ujugaieooqfqfjpqmxtqxqirnih",
-            b"spraipduqopqgbqxdtrphbxufdjbydcuasqgcmmumqdvwnrfcjcgjfclsipsndnn",
-            b"afka",
-            b"djywawyrwspvhstknqow",
-            b"yhksarxmlfogtmbndrxrjsqkvuixbkohqgubbeevxpxixykmi",
-            b"vltyheoqklrqgqqiqmylfvbghxvrreqwwgrdtayxghfvctmjclptmtdhitlcsqvlansqg",
-            b"eoihjdilcelpussckvmwsayywhuidhfdqhqrtgshadygpiolusmic",
-        )
+        b"vrmdpvxjpyhecfudpkoruoywjhmvxwbjtcenae",
+        b"rfuvkerfqwnsjxwwlcxjil",
+        b"ujugaieooqfqfjpqmxtqxqirnih",
+        b"spraipduqopqgbqxdtrphbxufdjbydcuasqgcmmumqdvwnrfcjcgjfclsipsndnn",
+        b"afka",
+        b"djywawyrwspvhstknqow",
+        b"yhksarxmlfogtmbndrxrjsqkvuixbkohqgubbeevxpxixykmi",
+        b"vltyheoqklrqgqqiqmylfvbghxvrreqwwgrdtayxghfvctmjclptmtdhitlcsqvlansqg",
+        b"eoihjdilcelpussckvmwsayywhuidhfdqhqrtgshadygpiolusmic",
+    )
     VALUE_616D75786B62706C617571646A726D79777462746E67696C6F666866737669756969_6D647569746C766177676B646F6E6B62796A6362717974627169636463696464797771686D65736A7575737874756C74_67796570627562626B766C7571646A_6F6F66706A6B6F6E646B6363777878666D7076706F6D74_71696B6C786166646E6E6B777270726A796B676B70746379736D676F63656367786C62657071726B6F74756D6A6A7463636176_626C70716D756366797271656A776971666F6E68686D646B776A = (
-            b"amuxkbplauqdjrmywtbtngilofhfsviuii",
-            b"mduitlvawgkdonkbyjcbqytbqicdciddywqhmesjuusxtult",
-            b"gyepbubbkvluqdj",
-            b"oofpjkondkccwxxfmpvpomt",
-            b"qiklxafdnnkwrprjykgkptcysmgocecgxlbepqrkotumjjtccav",
-            b"blpqmucfyrqejwiqfonhhmdkwj",
-        )
+        b"amuxkbplauqdjrmywtbtngilofhfsviuii",
+        b"mduitlvawgkdonkbyjcbqytbqicdciddywqhmesjuusxtult",
+        b"gyepbubbkvluqdj",
+        b"oofpjkondkccwxxfmpvpomt",
+        b"qiklxafdnnkwrprjykgkptcysmgocecgxlbepqrkotumjjtccav",
+        b"blpqmucfyrqejwiqfonhhmdkwj",
+    )
 
 
 @dataclass
@@ -90,5 +90,5 @@ class NistschemaSvIvListHexBinaryEnumeration4:
         metadata={
             "required": True,
             "format": "base16",
-        }
+        },
     )

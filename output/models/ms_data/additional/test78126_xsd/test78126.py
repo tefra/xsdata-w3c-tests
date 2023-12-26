@@ -11,19 +11,19 @@ class A:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     att1: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class AnyType:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class Root:
     class Meta:
         name = "root"
 
-    any_or_a: List[Union[A, AnyType]] = field(
+    any_or_a: List[Union[AnyType, A]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -61,5 +61,5 @@ class Root:
                     "type": A,
                 },
             ),
-        }
+        },
     )

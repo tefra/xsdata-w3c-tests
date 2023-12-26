@@ -14,13 +14,13 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     att: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -33,7 +33,7 @@ class Bar(Foo):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -60,14 +60,14 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     foo: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -89,7 +89,7 @@ class R(B):
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -105,5 +105,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

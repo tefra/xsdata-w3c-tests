@@ -23,7 +23,7 @@ class A1:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

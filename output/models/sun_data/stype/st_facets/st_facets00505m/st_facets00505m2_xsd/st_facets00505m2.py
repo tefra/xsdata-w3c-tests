@@ -10,7 +10,7 @@ class S(Enum):
     A10 = "a10ۖ"
     A1 = "a1-ۙ"
     A1_A = "a1Aۜ"
-    A20 = "a20۝"
+    A20 = "a20\u06dd"
     A2 = "a2-۞"
     A2_A = "a2A۟"
     A30 = "a30۠"
@@ -44,5 +44,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

@@ -14,5 +14,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"[^2-9a-x]{2}",
-        }
+        },
     )

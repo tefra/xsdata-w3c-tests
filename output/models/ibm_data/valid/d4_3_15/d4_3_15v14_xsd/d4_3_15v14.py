@@ -13,7 +13,7 @@ class ElementType1:
             "name": "subElement1",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class ElementType2:
             "name": "subElement2",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -42,14 +42,14 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     ele2: List[ElementType2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

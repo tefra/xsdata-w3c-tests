@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriMaxLength2(
-    value="http://www.usingvocabu.aries.gov"
+    value='http://www.usingvocabu.aries.gov'
 )

@@ -5,13 +5,13 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdPattern1(
         value=[
-            "war",
-            "_as.effectively-personal-hardware.domains.creating.signifi",
-            "vsuite_accomplish-are_informatio",
-            "rback.",
-            "pobjective-",
-            "uprototypes-application-and-was.capabilities.pro",
-            "udifferent-individual-",
+            'war',
+            '_as.effectively-personal-hardware.domains.creating.signifi',
+            'vsuite_accomplish-are_informatio',
+            'rback.',
+            'pobjective-',
+            'uprototypes-application-and-was.capabilities.pro',
+            'udifferent-individual-',
         ]
     )
 )

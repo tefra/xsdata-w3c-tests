@@ -13,7 +13,7 @@ class Shape1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[int] = field(
         default=None,
@@ -21,7 +21,7 @@ class Shape1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional[int] = field(
         default=None,
@@ -29,14 +29,14 @@ class Shape1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     d: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
@@ -44,7 +44,7 @@ class Shape1:
             "name": "type",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 

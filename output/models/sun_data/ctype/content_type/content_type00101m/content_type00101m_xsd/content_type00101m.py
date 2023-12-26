@@ -13,7 +13,7 @@ class A1:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

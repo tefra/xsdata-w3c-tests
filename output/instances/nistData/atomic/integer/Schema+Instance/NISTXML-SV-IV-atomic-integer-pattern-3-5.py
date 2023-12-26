@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.integer.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicIntegerPattern3(
-    value="-8"
+    value='-8'
 )

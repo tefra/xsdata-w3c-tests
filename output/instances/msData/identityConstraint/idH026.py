@@ -8,41 +8,41 @@ obj = Root(
     uid=[
         Uidtype(
             any_element=AnyElement(
-                qname="{fooNS.tempuri.org}a",
-                text="1"
+                qname='{fooNS.tempuri.org}a',
+                text='1'
             )
         ),
         Uidtype(
             any_element=AnyElement(
-                qname="{fooNS.tempuri.org}a",
-                text="11"
+                qname='{fooNS.tempuri.org}a',
+                text='11'
             )
         ),
         Uidtype(
             any_element=AnyElement(
-                qname="{fooNS.tempuri.org}a",
-                text="111"
+                qname='{fooNS.tempuri.org}a',
+                text='111'
             )
         ),
         Uidtype(
             any_element=AnyElement(
-                qname="{fooNS.tempuri.org}a",
-                text="11.0"
+                qname='{fooNS.tempuri.org}a',
+                text='11.0'
             )
         ),
     ],
     kid=[
         Kid(
-            val="1"
+            val='1'
         ),
         Kid(
-            val="11"
+            val='11'
         ),
         Kid(
-            val="111"
+            val='111'
         ),
         Kid(
-            val="1.0"
+            val='1.0'
         ),
     ]
 )

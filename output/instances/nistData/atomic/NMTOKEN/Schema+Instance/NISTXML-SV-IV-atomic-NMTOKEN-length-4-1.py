@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength4(
-    value="the:prominent:A.key.registry-frameworks.using.tool.hampered-"
+    value='the:prominent:A.key.registry-frameworks.using.tool.hampered-'
 )

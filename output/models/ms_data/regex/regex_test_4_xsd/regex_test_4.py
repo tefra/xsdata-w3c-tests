@@ -12,5 +12,5 @@ class Doc:
         metadata={
             "type": "Attribute",
             "pattern": r"(\P{Lu}+\p{Lu})\s(\P{Lu}+\p{Lu})",
-        }
+        },
     )

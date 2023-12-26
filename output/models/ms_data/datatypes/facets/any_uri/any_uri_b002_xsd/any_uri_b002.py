@@ -18,13 +18,13 @@ class Ct:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     att: Optional[St] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 100,
-        }
+        },
     )

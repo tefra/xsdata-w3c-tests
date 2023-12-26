@@ -13,7 +13,7 @@ class Global:
         metadata={
             "required": True,
             "pattern": r"false",
-        }
+        },
     )
 
 
@@ -27,5 +27,5 @@ class Root:
         default="",
         metadata={
             "pattern": r"false",
-        }
+        },
     )

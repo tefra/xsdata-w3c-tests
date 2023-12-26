@@ -14,7 +14,7 @@ class Text:
         metadata={
             "name": "ID",
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class Text:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 

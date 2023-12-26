@@ -12,7 +12,7 @@ class Signatures:
         metadata={
             "type": "Wildcard",
             "namespace": "http://www.w3.org/2000/09/xmldsig#",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class Zzz:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Yyy:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -54,7 +54,7 @@ class Xxx:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -68,7 +68,7 @@ class Www:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -82,7 +82,7 @@ class Uuu:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -96,7 +96,7 @@ class Ttt:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -110,7 +110,7 @@ class Sss:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -124,7 +124,7 @@ class Rrr:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -138,7 +138,7 @@ class Qqq:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -152,7 +152,7 @@ class Ppp:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -166,7 +166,7 @@ class Ooo:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -180,7 +180,7 @@ class Nnn:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -194,7 +194,7 @@ class Mmm:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -208,7 +208,7 @@ class Lll:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -222,7 +222,7 @@ class Kkk:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -236,7 +236,7 @@ class Jjj:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -250,7 +250,7 @@ class Iii:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -264,7 +264,7 @@ class Hhh:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -278,7 +278,7 @@ class Ggg:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -292,7 +292,7 @@ class Fff:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -306,7 +306,7 @@ class Eee:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -320,7 +320,7 @@ class Ddd:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -334,7 +334,7 @@ class Ccc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -348,7 +348,7 @@ class Bbb:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -362,7 +362,7 @@ class Aaa:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -376,12 +376,12 @@ class Root:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     w3_org_xml_1998_namespace_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )

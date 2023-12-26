@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenWhiteSpace1(
-    value="ning data known as HTML has led to the creation of the world s first digital lib"
+    value='ning data known as HTML has led to the creation of the world s first digital lib'
 )

@@ -11,6 +11,5 @@ class Root:
         name = "root"
 
     value: Union[XmlPeriod, Decimal, int, QName] = field(
-        init=False,
-        default=25
+        init=False, default=25
     )

@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicTokenMinLength4:
         metadata={
             "required": True,
             "min_length": 202,
-        }
+        },
     )

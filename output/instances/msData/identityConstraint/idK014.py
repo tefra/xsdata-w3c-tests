@@ -7,11 +7,11 @@ obj = Root(
         Uid(
             pid=[
                 [
-                    "abc",
-                    "def",
+                    'abc',
+                    'def',
                 ],
             ],
-            val="1"
+            val='1'
         ),
     ]
 )

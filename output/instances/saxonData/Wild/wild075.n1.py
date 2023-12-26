@@ -5,7 +5,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     a=23,
     local_element=AnyElement(
-        qname="a",
-        text="2010-10-16"
+        qname='a',
+        text='2010-10-16'
     )
 )

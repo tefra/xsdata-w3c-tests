@@ -12,5 +12,5 @@ class Root:
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )

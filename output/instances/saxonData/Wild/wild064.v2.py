@@ -6,7 +6,7 @@ obj = Doc(
     e=-12,
     f=42,
     local_element=DerivedElement(
-        qname="e",
+        qname='e',
         value=93
     )
 )

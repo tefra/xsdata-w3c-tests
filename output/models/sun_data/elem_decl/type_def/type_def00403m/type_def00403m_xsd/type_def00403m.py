@@ -14,7 +14,7 @@ class ComplexType:
             "type": "Element",
             "namespace": "ElemDecl/typeDef",
             "required": True,
-        }
+        },
     )
     global_pre_defined_type: Optional[str] = field(
         default=None,
@@ -24,7 +24,7 @@ class ComplexType:
             "namespace": "ElemDecl/typeDef",
             "required": True,
             "pattern": r"1|true",
-        }
+        },
     )
     local: Optional[Decimal] = field(
         default=None,
@@ -33,7 +33,7 @@ class ComplexType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_pre_defined_type: Optional[str] = field(
         default=None,
@@ -43,7 +43,7 @@ class ComplexType:
             "namespace": "",
             "required": True,
             "pattern": r"1|true",
-        }
+        },
     )
     local_inline: Optional[str] = field(
         default=None,
@@ -53,7 +53,7 @@ class ComplexType:
             "namespace": "",
             "required": True,
             "pattern": r"0|false",
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class Global:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -80,7 +80,7 @@ class GlobalPreDefinedType:
         metadata={
             "required": True,
             "pattern": r"1|true",
-        }
+        },
     )
 
 

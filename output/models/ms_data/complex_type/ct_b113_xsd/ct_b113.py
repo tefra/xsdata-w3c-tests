@@ -12,7 +12,7 @@ class FooType:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 

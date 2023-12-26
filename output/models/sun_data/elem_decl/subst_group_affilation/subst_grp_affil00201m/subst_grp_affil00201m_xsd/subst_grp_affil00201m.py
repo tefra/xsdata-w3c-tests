@@ -14,7 +14,7 @@ class Element:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class SuperElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class SuperSuperElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,7 +52,9 @@ class Root:
         name = "root"
         namespace = "ElemDecl/substGroupAffilation"
 
-    super_element_or_super_super_element: List[Union[SuperSuperElement, SuperElement]] = field(
+    super_element_or_super_super_element: List[
+        Union[SuperElement, SuperSuperElement]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -66,19 +68,19 @@ class Root:
                     "type": SuperSuperElement,
                 },
             ),
-        }
+        },
     )
     separator: Optional[object] = field(
         default=None,
         metadata={
             "name": "Separator",
             "type": "Element",
-        }
+        },
     )
     element: List[Element] = field(
         default_factory=list,
         metadata={
             "name": "Element",
             "type": "Element",
-        }
+        },
     )

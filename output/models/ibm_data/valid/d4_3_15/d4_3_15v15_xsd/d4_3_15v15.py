@@ -13,13 +13,13 @@ class ElementType1:
             "name": "subElement1",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     attr1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -34,13 +34,13 @@ class ElementType2:
             "name": "subElement2",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     attr2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -54,14 +54,14 @@ class RootType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     ele2: List[ElementType2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

@@ -15,5 +15,5 @@ class Doc:
             "min_occurs": 1,
             "pattern": r"AF01D1",
             "format": "base16",
-        }
+        },
     )

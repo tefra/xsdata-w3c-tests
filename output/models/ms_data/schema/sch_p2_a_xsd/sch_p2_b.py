@@ -14,5 +14,5 @@ class BE1:
         metadata={
             "required": True,
             "min_length": 4,
-        }
+        },
     )

@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDurationMaxExclusive4:
         metadata={
             "required": True,
             "max_exclusive": XmlDuration("P1983Y12M12DT16H37M58S"),
-        }
+        },
     )

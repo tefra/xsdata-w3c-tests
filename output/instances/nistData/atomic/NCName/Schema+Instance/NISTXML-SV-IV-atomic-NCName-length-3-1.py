@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength3(
-    value="kfuture-and-the.eliminate-use_discovery_more-its_that"
+    value='kfuture-and-the.eliminate-use_discovery_more-its_that'
 )

@@ -11,14 +11,14 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -29,7 +29,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e1: List[object] = field(
         default_factory=list,
@@ -37,7 +37,7 @@ class R:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -53,5 +53,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

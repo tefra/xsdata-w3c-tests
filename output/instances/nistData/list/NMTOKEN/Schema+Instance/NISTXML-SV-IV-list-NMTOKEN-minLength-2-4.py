@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength2(
     value=[
-        "NIST_in:of-must:National:",
-        "has-leadership-available:",
-        "the_via:to-match-that-web",
-        "as.development_in_fed_eXt",
-        "around.business-oriented-",
-        "Extensible.type.defines:d",
-        "use.these-information-wit",
-        "possible-that:and.Project",
-        "and_debug-industry.and:an",
+        'NIST_in:of-must:National:',
+        'has-leadership-available:',
+        'the_via:to-match-that-web',
+        'as.development_in_fed_eXt',
+        'around.business-oriented-',
+        'Extensible.type.defines:d',
+        'use.these-information-wit',
+        'possible-that:and.Project',
+        'and_debug-industry.and:an',
     ]
 )

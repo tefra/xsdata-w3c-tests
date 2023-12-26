@@ -5,10 +5,10 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     key_or_ref=[
-        Decimal("5"),
+        Decimal('5'),
         DerivedElement(
-            qname="{foo}ref",
-            value=Decimal("5.0")
+            qname='{foo}ref',
+            value=Decimal('5.0')
         ),
     ]
 )

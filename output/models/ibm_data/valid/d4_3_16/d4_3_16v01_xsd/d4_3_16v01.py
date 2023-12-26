@@ -17,7 +17,7 @@ class Root:
             "name": "elDTimeType",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     el_dtime_etprohibited: List[XmlDateTime] = field(
         default_factory=list,
@@ -27,7 +27,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "explicit_timezone": "prohibited",
-        }
+        },
     )
     el_dtime_etrequired: List[XmlDateTime] = field(
         default_factory=list,
@@ -37,7 +37,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "explicit_timezone": "required",
-        }
+        },
     )
     el_dtime_etoptional: List[XmlDateTime] = field(
         default_factory=list,
@@ -47,5 +47,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "explicit_timezone": "optional",
-        }
+        },
     )

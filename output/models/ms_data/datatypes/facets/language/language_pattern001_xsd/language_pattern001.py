@@ -14,7 +14,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "pattern": r"en-[a-z]{2}",
-        }
+        },
     )
 
 

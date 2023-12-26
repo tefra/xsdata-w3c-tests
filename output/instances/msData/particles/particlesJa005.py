@@ -5,10 +5,10 @@ from output.models.ms_data.particles.particles_ja005_xsd.particles_ja005 import 
 obj = Doc(
     elem=R(
         e1=[
-            "",
-            "",
-            "",
-            " abc ",
+            '',
+            '',
+            '',
+            ' abc ',
         ]
     )
 )

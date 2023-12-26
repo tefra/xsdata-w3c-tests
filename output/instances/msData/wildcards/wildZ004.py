@@ -5,10 +5,10 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = RootElem(
     any_element=DerivedElement(
-        qname="{http://xsdtesting}myelem",
+        qname='{http://xsdtesting}myelem',
         value=CtypeFoo(
-            a="hello"
+            a='hello'
         ),
-        type="{http://xsdtesting}ctype_foo"
+        type='{http://xsdtesting}ctype_foo'
     )
 )

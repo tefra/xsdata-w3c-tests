@@ -12,7 +12,7 @@ class Complex11:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -27,6 +27,7 @@ class SubstHead:
     """
     This is defined to be of type 'xsd:anyType'.
     """
+
     class Meta:
         name = "substHead"
 
@@ -35,7 +36,7 @@ class SubstHead:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -56,7 +57,9 @@ class BagOfHeads:
     class Meta:
         name = "bagOfHeads"
 
-    complex2_or_complex1_or_subst_head: List[Union[Complex1, SubstHead, Complex2]] = field(
+    complex2_or_complex1_or_subst_head: List[
+        Union[Complex2, Complex1, SubstHead]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -74,5 +77,5 @@ class BagOfHeads:
                     "type": SubstHead,
                 },
             ),
-        }
+        },
     )

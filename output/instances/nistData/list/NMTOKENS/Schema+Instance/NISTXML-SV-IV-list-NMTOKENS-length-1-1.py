@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength1(
     value=[
-        "as-compatibility_different.to-for:joint-",
-        "the.use_ultimate_with:is-rigorous-Additi",
-        "low-cost.accomplish.XSL-repositories-doc",
-        "and-effort-be:information:via_communicat",
-        "test.tools:be.are_world_with_further:aut",
+        'as-compatibility_different.to-for:joint-',
+        'the.use_ultimate_with:is-rigorous-Additi',
+        'low-cost.accomplish.XSL-repositories-doc',
+        'and-effort-be:information:via_communicat',
+        'test.tools:be.are_world_with_further:aut',
     ]
 )

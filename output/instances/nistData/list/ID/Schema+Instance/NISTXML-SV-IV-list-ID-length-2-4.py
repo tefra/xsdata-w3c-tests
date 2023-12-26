@@ -5,12 +5,12 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdLength2(
         value=[
-            "uprocess.us",
-            "sto.industr",
-            "dcomputing-",
-            "athe.tools-",
-            "_following-",
-            "fwith_in.ea",
+            'uprocess.us',
+            'sto.industr',
+            'dcomputing-',
+            'athe.tools-',
+            '_following-',
+            'fwith_in.ea',
         ]
     )
 )

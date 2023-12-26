@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern1(
-    value="64 Those Soc Full Software Street&#10;Chain Is , MT 12848"
+    value='64 Those Soc Full Software Street\nChain Is , MT 12848'
 )

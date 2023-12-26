@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.unsigned_long.schema_instance.nistschema_sv_
 
 
 obj = NistschemaSvIvAtomicUnsignedLongPattern1(
-    value="5"
+    value='5'
 )

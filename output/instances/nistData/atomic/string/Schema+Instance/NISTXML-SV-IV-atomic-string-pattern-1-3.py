@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringPattern1(
-    value="5367 Bandwidth To Oasis Based Street&#10;Communication Popular , NM 12848"
+    value='5367 Bandwidth To Oasis Based Street\nCommunication Popular , NM 12848'
 )

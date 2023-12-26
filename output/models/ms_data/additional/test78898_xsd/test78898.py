@@ -11,7 +11,7 @@ class Att1:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -24,13 +24,13 @@ class Att2:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -44,7 +44,7 @@ class E1:
         metadata={
             "required": True,
             "length": 4,
-        }
+        },
     )
 
 
@@ -60,14 +60,14 @@ class M3:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 2,
-        }
+        },
     )
     att: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -82,13 +82,13 @@ class M6:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
     att: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -134,7 +134,7 @@ class M4:
             "namespace": "",
             "max_occurs": 3,
             "sequence": 1,
-        }
+        },
     )
     e3: List[E3] = field(
         default_factory=list,
@@ -143,13 +143,13 @@ class M4:
             "min_occurs": 1,
             "max_occurs": 3,
             "sequence": 1,
-        }
+        },
     )
     att: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -164,7 +164,7 @@ class M5:
     class Meta:
         name = "m5"
 
-    e3_or_e4_or_e5: List[Union["E5", E4, E3]] = field(
+    e3_or_e4_or_e5: List[Union[E3, E4, "E5"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -182,13 +182,13 @@ class M5:
                     "type": Type["E5"],
                 },
             ),
-        }
+        },
     )
     att: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -208,49 +208,49 @@ class Ct1:
         metadata={
             "type": "Element",
             "length": 4,
-        }
+        },
     )
     e2: Optional[E2] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e3: List[E3] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e4: List[E4] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e5: List[E5] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e6: List[E6] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e7: List[E7] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     e8: List[E8] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 

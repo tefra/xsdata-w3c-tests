@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength4(
-    value="Schemas_Standards_development:and.software:known:and:interac"
+    value='Schemas_Standards_development:and.software:known:and:interac'
 )

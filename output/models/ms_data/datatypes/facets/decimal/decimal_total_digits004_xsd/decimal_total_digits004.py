@@ -14,5 +14,5 @@ class T1:
             "type": "Attribute",
             "total_digits": 5,
             "fraction_digits": 5,
-        }
+        },
     )

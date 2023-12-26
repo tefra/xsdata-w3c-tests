@@ -15,16 +15,16 @@ obj = Invoice(
                     country=CountryType.US,
                     content=[
                         AnyElement(
-                            qname="state",
-                            text="Texas"
+                            qname='state',
+                            text='Texas'
                         ),
                         AnyElement(
-                            qname="currency",
-                            text="USD"
+                            qname='currency',
+                            text='USD'
                         ),
                         AnyElement(
-                            qname="zip",
-                            text="75244"
+                            qname='zip',
+                            text='75244'
                         ),
                     ]
                 ),
@@ -33,16 +33,16 @@ obj = Invoice(
                     country=CountryType.CAN,
                     content=[
                         AnyElement(
-                            qname="province",
-                            text="ON"
+                            qname='province',
+                            text='ON'
                         ),
                         AnyElement(
-                            qname="currency",
-                            text="CDN"
+                            qname='currency',
+                            text='CDN'
                         ),
                         AnyElement(
-                            qname="postal",
-                            text="M1V4K9"
+                            qname='postal',
+                            text='M1V4K9'
                         ),
                     ]
                 ),
@@ -55,16 +55,16 @@ obj = Invoice(
                     country=CountryType.CAN,
                     content=[
                         AnyElement(
-                            qname="province",
-                            text="ON"
+                            qname='province',
+                            text='ON'
                         ),
                         AnyElement(
-                            qname="currency",
-                            text="CDN"
+                            qname='currency',
+                            text='CDN'
                         ),
                         AnyElement(
-                            qname="postal",
-                            text="L3S3H6"
+                            qname='postal',
+                            text='L3S3H6'
                         ),
                     ]
                 ),
@@ -73,16 +73,16 @@ obj = Invoice(
                     country=CountryType.CAN,
                     content=[
                         AnyElement(
-                            qname="province",
-                            text="ON"
+                            qname='province',
+                            text='ON'
                         ),
                         AnyElement(
-                            qname="currency",
-                            text="CDN"
+                            qname='currency',
+                            text='CDN'
                         ),
                         AnyElement(
-                            qname="postal",
-                            text="M3F2W5"
+                            qname='postal',
+                            text='M3F2W5'
                         ),
                     ]
                 ),

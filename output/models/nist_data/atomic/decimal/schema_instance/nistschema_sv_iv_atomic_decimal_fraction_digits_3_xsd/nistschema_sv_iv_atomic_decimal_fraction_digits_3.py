@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDecimalFractionDigits3:
         metadata={
             "required": True,
             "fraction_digits": 8,
-        }
+        },
     )

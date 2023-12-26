@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength3(
-    value="the.joint-s:these.well.and.Such.five-suite.and:to:cross-o"
+    value='the.joint-s:these.well.and.Such.five-suite.and:to:cross-o'
 )

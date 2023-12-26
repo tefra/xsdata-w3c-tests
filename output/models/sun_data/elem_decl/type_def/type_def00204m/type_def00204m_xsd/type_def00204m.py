@@ -13,7 +13,7 @@ class Head:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

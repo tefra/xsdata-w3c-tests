@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.language.schema_instance.nistschema_sv_iv_at
 
 
 obj = NistschemaSvIvAtomicLanguageMinLength2(
-    value="LT-Thailand"
+    value='LT-Thailand'
 )

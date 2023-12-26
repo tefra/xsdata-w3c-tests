@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -22,19 +22,19 @@ class Abc(B):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

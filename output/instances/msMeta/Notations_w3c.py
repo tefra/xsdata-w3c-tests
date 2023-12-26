@@ -22,7 +22,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Basic Case on Notation",
+                                'TEST :Notations : Basic Case on Notation',
                             ]
                         ),
                     ]
@@ -30,13 +30,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA001.xsd"
+                        href='../msData/notations/notatA001.xsd'
                     ),
                 ],
                 expected=[
@@ -48,9 +48,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA001"
+                name='notatA001'
             ),
-            name="notatA001"
+            name='notatA001'
         ),
         TestGroup(
             annotation=[
@@ -58,7 +58,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Empty notation under schema",
+                                'TEST :Notations : Empty notation under schema',
                             ]
                         ),
                     ]
@@ -66,13 +66,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA002.xsd"
+                        href='../msData/notations/notatA002.xsd'
                     ),
                 ],
                 expected=[
@@ -84,9 +84,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA002"
+                name='notatA002'
             ),
-            name="notatA002"
+            name='notatA002'
         ),
         TestGroup(
             annotation=[
@@ -102,13 +102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA003.xsd"
+                        href='../msData/notations/notatA003.xsd'
                     ),
                 ],
                 expected=[
@@ -120,9 +120,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA003"
+                name='notatA003'
             ),
-            name="notatA003"
+            name='notatA003'
         ),
         TestGroup(
             annotation=[
@@ -138,13 +138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA004.xsd"
+                        href='../msData/notations/notatA004.xsd'
                     ),
                 ],
                 expected=[
@@ -156,9 +156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA004"
+                name='notatA004'
             ),
-            name="notatA004"
+            name='notatA004'
         ),
         TestGroup(
             annotation=[
@@ -174,13 +174,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA005.xsd"
+                        href='../msData/notations/notatA005.xsd'
                     ),
                 ],
                 expected=[
@@ -192,9 +192,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA005"
+                name='notatA005'
             ),
-            name="notatA005"
+            name='notatA005'
         ),
         TestGroup(
             annotation=[
@@ -210,13 +210,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA006.xsd"
+                        href='../msData/notations/notatA006.xsd'
                     ),
                 ],
                 expected=[
@@ -228,9 +228,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA006"
+                name='notatA006'
             ),
-            name="notatA006"
+            name='notatA006'
         ),
         TestGroup(
             annotation=[
@@ -246,13 +246,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatA007.xsd"
+                        href='../msData/notations/notatA007.xsd'
                     ),
                 ],
                 expected=[
@@ -264,9 +264,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatA007"
+                name='notatA007'
             ),
-            name="notatA007"
+            name='notatA007'
         ),
         TestGroup(
             annotation=[
@@ -282,13 +282,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB001.xsd"
+                        href='../msData/notations/notatB001.xsd'
                     ),
                 ],
                 expected=[
@@ -300,9 +300,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB001"
+                name='notatB001'
             ),
-            name="notatB001"
+            name='notatB001'
         ),
         TestGroup(
             annotation=[
@@ -318,13 +318,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB002.xsd"
+                        href='../msData/notations/notatB002.xsd'
                     ),
                 ],
                 expected=[
@@ -336,9 +336,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB002"
+                name='notatB002'
             ),
-            name="notatB002"
+            name='notatB002'
         ),
         TestGroup(
             annotation=[
@@ -354,13 +354,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB003.xsd"
+                        href='../msData/notations/notatB003.xsd'
                     ),
                 ],
                 expected=[
@@ -372,9 +372,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB003"
+                name='notatB003'
             ),
-            name="notatB003"
+            name='notatB003'
         ),
         TestGroup(
             annotation=[
@@ -390,13 +390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB004.xsd"
+                        href='../msData/notations/notatB004.xsd'
                     ),
                 ],
                 expected=[
@@ -408,9 +408,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB004"
+                name='notatB004'
             ),
-            name="notatB004"
+            name='notatB004'
         ),
         TestGroup(
             annotation=[
@@ -418,7 +418,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Declare a dupe Notation with the same name",
+                                'TEST :Notations : Declare a dupe Notation with the same name',
                             ]
                         ),
                     ]
@@ -426,13 +426,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB005.xsd"
+                        href='../msData/notations/notatB005.xsd'
                     ),
                 ],
                 expected=[
@@ -444,9 +444,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB005"
+                name='notatB005'
             ),
-            name="notatB005"
+            name='notatB005'
         ),
         TestGroup(
             annotation=[
@@ -454,7 +454,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Name the Notation with an existing non-Notation name",
+                                'TEST :Notations : Name the Notation with an existing non-Notation name',
                             ]
                         ),
                     ]
@@ -462,13 +462,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB006.xsd"
+                        href='../msData/notations/notatB006.xsd'
                     ),
                 ],
                 expected=[
@@ -480,9 +480,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB006"
+                name='notatB006'
             ),
-            name="notatB006"
+            name='notatB006'
         ),
         TestGroup(
             annotation=[
@@ -498,13 +498,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB008.xsd"
+                        href='../msData/notations/notatB008.xsd'
                     ),
                 ],
                 expected=[
@@ -516,9 +516,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB008"
+                name='notatB008'
             ),
-            name="notatB008"
+            name='notatB008'
         ),
         TestGroup(
             annotation=[
@@ -534,13 +534,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB009.xsd"
+                        href='../msData/notations/notatB009.xsd'
                     ),
                 ],
                 expected=[
@@ -552,9 +552,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB009"
+                name='notatB009'
             ),
-            name="notatB009"
+            name='notatB009'
         ),
         TestGroup(
             annotation=[
@@ -570,13 +570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB010.xsd"
+                        href='../msData/notations/notatB010.xsd'
                     ),
                 ],
                 expected=[
@@ -588,9 +588,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB010"
+                name='notatB010'
             ),
-            name="notatB010"
+            name='notatB010'
         ),
         TestGroup(
             annotation=[
@@ -606,13 +606,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB011.xsd"
+                        href='../msData/notations/notatB011.xsd'
                     ),
                 ],
                 expected=[
@@ -624,9 +624,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB011"
+                name='notatB011'
             ),
-            name="notatB011"
+            name='notatB011'
         ),
         TestGroup(
             annotation=[
@@ -642,13 +642,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB012.xsd"
+                        href='../msData/notations/notatB012.xsd'
                     ),
                 ],
                 expected=[
@@ -660,9 +660,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB012"
+                name='notatB012'
             ),
-            name="notatB012"
+            name='notatB012'
         ),
         TestGroup(
             annotation=[
@@ -678,13 +678,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB013.xsd"
+                        href='../msData/notations/notatB013.xsd'
                     ),
                 ],
                 expected=[
@@ -696,9 +696,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB013"
+                name='notatB013'
             ),
-            name="notatB013"
+            name='notatB013'
         ),
         TestGroup(
             annotation=[
@@ -714,13 +714,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB014.xsd"
+                        href='../msData/notations/notatB014.xsd'
                     ),
                 ],
                 expected=[
@@ -732,9 +732,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB014"
+                name='notatB014'
             ),
-            name="notatB014"
+            name='notatB014'
         ),
         TestGroup(
             annotation=[
@@ -750,13 +750,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB015.xsd"
+                        href='../msData/notations/notatB015.xsd'
                     ),
                 ],
                 expected=[
@@ -768,9 +768,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB015"
+                name='notatB015'
             ),
-            name="notatB015"
+            name='notatB015'
         ),
         TestGroup(
             annotation=[
@@ -786,13 +786,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatB016.xsd"
+                        href='../msData/notations/notatB016.xsd'
                     ),
                 ],
                 expected=[
@@ -804,9 +804,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatB016"
+                name='notatB016'
             ),
-            name="notatB016"
+            name='notatB016'
         ),
         TestGroup(
             annotation=[
@@ -822,13 +822,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatC001.xsd"
+                        href='../msData/notations/notatC001.xsd'
                     ),
                 ],
                 expected=[
@@ -840,9 +840,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatC001"
+                name='notatC001'
             ),
-            name="notatC001"
+            name='notatC001'
         ),
         TestGroup(
             annotation=[
@@ -858,13 +858,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatC003.xsd"
+                        href='../msData/notations/notatC003.xsd'
                     ),
                 ],
                 expected=[
@@ -876,9 +876,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatC003"
+                name='notatC003'
             ),
-            name="notatC003"
+            name='notatC003'
         ),
         TestGroup(
             annotation=[
@@ -886,7 +886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with system = file://c/foo",
+                                'TEST :Notations : Notation with system = file://c/foo',
                             ]
                         ),
                     ]
@@ -894,13 +894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatC004.xsd"
+                        href='../msData/notations/notatC004.xsd'
                     ),
                 ],
                 expected=[
@@ -912,9 +912,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatC004"
+                name='notatC004'
             ),
-            name="notatC004"
+            name='notatC004'
         ),
         TestGroup(
             annotation=[
@@ -922,7 +922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with system = mailto:someone@microsoft.com",
+                                'TEST :Notations : Notation with system = mailto:someone@microsoft.com',
                             ]
                         ),
                     ]
@@ -930,13 +930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatC005.xsd"
+                        href='../msData/notations/notatC005.xsd'
                     ),
                 ],
                 expected=[
@@ -948,9 +948,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatC005"
+                name='notatC005'
             ),
-            name="notatC005"
+            name='notatC005'
         ),
         TestGroup(
             annotation=[
@@ -958,7 +958,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with system = foo?123",
+                                'TEST :Notations : Notation with system = foo?123',
                             ]
                         ),
                     ]
@@ -966,13 +966,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatC006.xsd"
+                        href='../msData/notations/notatC006.xsd'
                     ),
                 ],
                 expected=[
@@ -984,9 +984,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatC006"
+                name='notatC006'
             ),
-            name="notatC006"
+            name='notatC006'
         ),
         TestGroup(
             annotation=[
@@ -1002,13 +1002,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatD001.xsd"
+                        href='../msData/notations/notatD001.xsd'
                     ),
                 ],
                 expected=[
@@ -1020,9 +1020,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatD001"
+                name='notatD001'
             ),
-            name="notatD001"
+            name='notatD001'
         ),
         TestGroup(
             annotation=[
@@ -1030,7 +1030,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Notations : Notation with public="~`^&amp;{}[]|\&lt;&gt;"',
+                                'TEST :Notations : Notation with public="~`^&{}[]|\\<>"',
                             ]
                         ),
                     ]
@@ -1038,13 +1038,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatD004.xsd"
+                        href='../msData/notations/notatD004.xsd'
                     ),
                 ],
                 expected=[
@@ -1056,9 +1056,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatD004"
+                name='notatD004'
             ),
-            name="notatD004"
+            name='notatD004'
         ),
         TestGroup(
             annotation=[
@@ -1066,7 +1066,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with name=jpeg public=image/jpeg and system=viewer.exe",
+                                'TEST :Notations : Notation with name=jpeg public=image/jpeg and system=viewer.exe',
                             ]
                         ),
                     ]
@@ -1074,13 +1074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatD005.xsd"
+                        href='../msData/notations/notatD005.xsd'
                     ),
                 ],
                 expected=[
@@ -1092,9 +1092,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatD005"
+                name='notatD005'
             ),
-            name="notatD005"
+            name='notatD005'
         ),
         TestGroup(
             annotation=[
@@ -1102,7 +1102,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with name=gif public=image/gif and sytem=foobar.exe",
+                                'TEST :Notations : Notation with name=gif public=image/gif and sytem=foobar.exe',
                             ]
                         ),
                     ]
@@ -1110,13 +1110,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatD006.xsd"
+                        href='../msData/notations/notatD006.xsd'
                     ),
                 ],
                 expected=[
@@ -1128,9 +1128,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatD006"
+                name='notatD006'
             ),
-            name="notatD006"
+            name='notatD006'
         ),
         TestGroup(
             annotation=[
@@ -1138,7 +1138,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with name=xml public=text/xml and system=iexplorer.exe",
+                                'TEST :Notations : Notation with name=xml public=text/xml and system=iexplorer.exe',
                             ]
                         ),
                     ]
@@ -1146,13 +1146,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatD007.xsd"
+                        href='../msData/notations/notatD007.xsd'
                     ),
                 ],
                 expected=[
@@ -1164,9 +1164,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatD007"
+                name='notatD007'
             ),
-            name="notatD007"
+            name='notatD007'
         ),
         TestGroup(
             annotation=[
@@ -1182,13 +1182,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatE001.xsd"
+                        href='../msData/notations/notatE001.xsd'
                     ),
                 ],
                 expected=[
@@ -1200,9 +1200,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatE001"
+                name='notatE001'
             ),
-            name="notatE001"
+            name='notatE001'
         ),
         TestGroup(
             annotation=[
@@ -1210,7 +1210,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with an attribute a:b=&quot;c&quot; where a doesn't have a non-schema namespace",
+                                'TEST :Notations : Notation with an attribute a:b="c" where a doesn\'t have a non-schema namespace',
                             ]
                         ),
                     ]
@@ -1218,13 +1218,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatE002.xsd"
+                        href='../msData/notations/notatE002.xsd'
                     ),
                 ],
                 expected=[
@@ -1236,9 +1236,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatE002"
+                name='notatE002'
             ),
-            name="notatE002"
+            name='notatE002'
         ),
         TestGroup(
             annotation=[
@@ -1254,13 +1254,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatE003.xsd"
+                        href='../msData/notations/notatE003.xsd'
                     ),
                 ],
                 expected=[
@@ -1272,9 +1272,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatE003"
+                name='notatE003'
             ),
-            name="notatE003"
+            name='notatE003'
         ),
         TestGroup(
             annotation=[
@@ -1282,7 +1282,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation appearing more than once under schema",
+                                'TEST :Notations : Notation appearing more than once under schema',
                             ]
                         ),
                     ]
@@ -1290,157 +1290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatE004.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.VALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatE004"
-            ),
-            name="notatE004"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with all as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF001.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF001"
-            ),
-            name="notatF001"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with all as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF002.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF002"
-            ),
-            name="notatF002"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with annotation as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF003.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF003"
-            ),
-            name="notatF003"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with annotation as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF004.xsd"
+                        href='../msData/notations/notatE004.xsd'
                     ),
                 ],
                 expected=[
@@ -1452,9 +1308,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF004"
+                name='notatE004'
             ),
-            name="notatF004"
+            name='notatE004'
         ),
         TestGroup(
             annotation=[
@@ -1462,7 +1318,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with any as its parent",
+                                'TEST :Notations : Notation with all as its parent',
                             ]
                         ),
                     ]
@@ -1470,13 +1326,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF005.xsd"
+                        href='../msData/notations/notatF001.xsd'
                     ),
                 ],
                 expected=[
@@ -1488,9 +1344,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF005"
+                name='notatF001'
             ),
-            name="notatF005"
+            name='notatF001'
         ),
         TestGroup(
             annotation=[
@@ -1498,7 +1354,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with any as its content",
+                                'TEST :Notations : Notation with all as its content',
                             ]
                         ),
                     ]
@@ -1506,13 +1362,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF006.xsd"
+                        href='../msData/notations/notatF002.xsd'
                     ),
                 ],
                 expected=[
@@ -1524,9 +1380,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF006"
+                name='notatF002'
             ),
-            name="notatF006"
+            name='notatF002'
         ),
         TestGroup(
             annotation=[
@@ -1534,7 +1390,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with anyAttribute as its parent",
+                                'TEST :Notations : Notation with annotation as its parent',
                             ]
                         ),
                     ]
@@ -1542,13 +1398,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF007.xsd"
+                        href='../msData/notations/notatF003.xsd'
                     ),
                 ],
                 expected=[
@@ -1560,9 +1416,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF007"
+                name='notatF003'
             ),
-            name="notatF007"
+            name='notatF003'
         ),
         TestGroup(
             annotation=[
@@ -1570,7 +1426,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with anyAttribute as its content",
+                                'TEST :Notations : Notation with annotation as its content',
                             ]
                         ),
                     ]
@@ -1578,49 +1434,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF008.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF008"
-            ),
-            name="notatF008"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with appInfo as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF009.xsd"
+                        href='../msData/notations/notatF004.xsd'
                     ),
                 ],
                 expected=[
@@ -1632,9 +1452,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF009"
+                name='notatF004'
             ),
-            name="notatF009"
+            name='notatF004'
         ),
         TestGroup(
             annotation=[
@@ -1642,7 +1462,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with appInfo as its content",
+                                'TEST :Notations : Notation with any as its parent',
                             ]
                         ),
                     ]
@@ -1650,13 +1470,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF010.xsd"
+                        href='../msData/notations/notatF005.xsd'
                     ),
                 ],
                 expected=[
@@ -1668,9 +1488,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF010"
+                name='notatF005'
             ),
-            name="notatF010"
+            name='notatF005'
         ),
         TestGroup(
             annotation=[
@@ -1678,7 +1498,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with attribute as its parent",
+                                'TEST :Notations : Notation with any as its content',
                             ]
                         ),
                     ]
@@ -1686,13 +1506,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF011.xsd"
+                        href='../msData/notations/notatF006.xsd'
                     ),
                 ],
                 expected=[
@@ -1704,9 +1524,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF011"
+                name='notatF006'
             ),
-            name="notatF011"
+            name='notatF006'
         ),
         TestGroup(
             annotation=[
@@ -1714,7 +1534,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with attribute as its content",
+                                'TEST :Notations : Notation with anyAttribute as its parent',
                             ]
                         ),
                     ]
@@ -1722,13 +1542,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF012.xsd"
+                        href='../msData/notations/notatF007.xsd'
                     ),
                 ],
                 expected=[
@@ -1740,9 +1560,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF012"
+                name='notatF007'
             ),
-            name="notatF012"
+            name='notatF007'
         ),
         TestGroup(
             annotation=[
@@ -1750,7 +1570,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with attributeGroup as its parent",
+                                'TEST :Notations : Notation with anyAttribute as its content',
                             ]
                         ),
                     ]
@@ -1758,13 +1578,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF013.xsd"
+                        href='../msData/notations/notatF008.xsd'
                     ),
                 ],
                 expected=[
@@ -1776,9 +1596,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF013"
+                name='notatF008'
             ),
-            name="notatF013"
+            name='notatF008'
         ),
         TestGroup(
             annotation=[
@@ -1786,7 +1606,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with attributeGroup as its content",
+                                'TEST :Notations : Notation with appInfo as its parent',
                             ]
                         ),
                     ]
@@ -1794,265 +1614,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF014.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF014"
-            ),
-            name="notatF014"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with choice as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF015.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF015"
-            ),
-            name="notatF015"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with choice as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF016.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF016"
-            ),
-            name="notatF016"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with complexContent as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF017.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF017"
-            ),
-            name="notatF017"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with complexContent as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF018.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF018"
-            ),
-            name="notatF018"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with complexType as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF019.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF019"
-            ),
-            name="notatF019"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with complexType as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF020.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF020"
-            ),
-            name="notatF020"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with documentation as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF021.xsd"
+                        href='../msData/notations/notatF009.xsd'
                     ),
                 ],
                 expected=[
@@ -2064,9 +1632,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF021"
+                name='notatF009'
             ),
-            name="notatF021"
+            name='notatF009'
         ),
         TestGroup(
             annotation=[
@@ -2074,7 +1642,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with documentation as its content",
+                                'TEST :Notations : Notation with appInfo as its content',
                             ]
                         ),
                     ]
@@ -2082,13 +1650,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF022.xsd"
+                        href='../msData/notations/notatF010.xsd'
                     ),
                 ],
                 expected=[
@@ -2100,9 +1668,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF022"
+                name='notatF010'
             ),
-            name="notatF022"
+            name='notatF010'
         ),
         TestGroup(
             annotation=[
@@ -2110,7 +1678,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with element as its parent",
+                                'TEST :Notations : Notation with attribute as its parent',
                             ]
                         ),
                     ]
@@ -2118,13 +1686,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF023.xsd"
+                        href='../msData/notations/notatF011.xsd'
                     ),
                 ],
                 expected=[
@@ -2136,9 +1704,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF023"
+                name='notatF011'
             ),
-            name="notatF023"
+            name='notatF011'
         ),
         TestGroup(
             annotation=[
@@ -2146,7 +1714,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with element as its content",
+                                'TEST :Notations : Notation with attribute as its content',
                             ]
                         ),
                     ]
@@ -2154,13 +1722,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF024.xsd"
+                        href='../msData/notations/notatF012.xsd'
                     ),
                 ],
                 expected=[
@@ -2172,9 +1740,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF024"
+                name='notatF012'
             ),
-            name="notatF024"
+            name='notatF012'
         ),
         TestGroup(
             annotation=[
@@ -2182,7 +1750,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with enumeration as its parent",
+                                'TEST :Notations : Notation with attributeGroup as its parent',
                             ]
                         ),
                     ]
@@ -2190,13 +1758,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF025.xsd"
+                        href='../msData/notations/notatF013.xsd'
                     ),
                 ],
                 expected=[
@@ -2208,9 +1776,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF025"
+                name='notatF013'
             ),
-            name="notatF025"
+            name='notatF013'
         ),
         TestGroup(
             annotation=[
@@ -2218,7 +1786,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with enumeration as its content",
+                                'TEST :Notations : Notation with attributeGroup as its content',
                             ]
                         ),
                     ]
@@ -2226,13 +1794,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF026.xsd"
+                        href='../msData/notations/notatF014.xsd'
                     ),
                 ],
                 expected=[
@@ -2244,9 +1812,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF026"
+                name='notatF014'
             ),
-            name="notatF026"
+            name='notatF014'
         ),
         TestGroup(
             annotation=[
@@ -2254,7 +1822,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with extension as its parent",
+                                'TEST :Notations : Notation with choice as its parent',
                             ]
                         ),
                     ]
@@ -2262,13 +1830,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF027.xsd"
+                        href='../msData/notations/notatF015.xsd'
                     ),
                 ],
                 expected=[
@@ -2280,9 +1848,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF027"
+                name='notatF015'
             ),
-            name="notatF027"
+            name='notatF015'
         ),
         TestGroup(
             annotation=[
@@ -2290,7 +1858,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with extension as its content",
+                                'TEST :Notations : Notation with choice as its content',
                             ]
                         ),
                     ]
@@ -2298,13 +1866,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF028.xsd"
+                        href='../msData/notations/notatF016.xsd'
                     ),
                 ],
                 expected=[
@@ -2316,9 +1884,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF028"
+                name='notatF016'
             ),
-            name="notatF028"
+            name='notatF016'
         ),
         TestGroup(
             annotation=[
@@ -2326,7 +1894,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with field as its parent",
+                                'TEST :Notations : Notation with complexContent as its parent',
                             ]
                         ),
                     ]
@@ -2334,13 +1902,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF029.xsd"
+                        href='../msData/notations/notatF017.xsd'
                     ),
                 ],
                 expected=[
@@ -2352,9 +1920,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF029"
+                name='notatF017'
             ),
-            name="notatF029"
+            name='notatF017'
         ),
         TestGroup(
             annotation=[
@@ -2362,7 +1930,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with field as its content",
+                                'TEST :Notations : Notation with complexContent as its content',
                             ]
                         ),
                     ]
@@ -2370,13 +1938,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF030.xsd"
+                        href='../msData/notations/notatF018.xsd'
                     ),
                 ],
                 expected=[
@@ -2388,9 +1956,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF030"
+                name='notatF018'
             ),
-            name="notatF030"
+            name='notatF018'
         ),
         TestGroup(
             annotation=[
@@ -2398,7 +1966,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with group as its parent",
+                                'TEST :Notations : Notation with complexType as its parent',
                             ]
                         ),
                     ]
@@ -2406,13 +1974,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF031.xsd"
+                        href='../msData/notations/notatF019.xsd'
                     ),
                 ],
                 expected=[
@@ -2424,9 +1992,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF031"
+                name='notatF019'
             ),
-            name="notatF031"
+            name='notatF019'
         ),
         TestGroup(
             annotation=[
@@ -2434,7 +2002,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with group as its content",
+                                'TEST :Notations : Notation with complexType as its content',
                             ]
                         ),
                     ]
@@ -2442,13 +2010,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF032.xsd"
+                        href='../msData/notations/notatF020.xsd'
                     ),
                 ],
                 expected=[
@@ -2460,9 +2028,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF032"
+                name='notatF020'
             ),
-            name="notatF032"
+            name='notatF020'
         ),
         TestGroup(
             annotation=[
@@ -2470,7 +2038,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with import as its parent",
+                                'TEST :Notations : Notation with documentation as its parent',
                             ]
                         ),
                     ]
@@ -2478,949 +2046,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF033.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF033"
-            ),
-            name="notatF033"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with import as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF034.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF034"
-            ),
-            name="notatF034"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with include as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF035.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF035"
-            ),
-            name="notatF035"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with include as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF036.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF036"
-            ),
-            name="notatF036"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with key as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF037.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF037"
-            ),
-            name="notatF037"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with key as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF038.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF038"
-            ),
-            name="notatF038"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with keyRef as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF039.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF039"
-            ),
-            name="notatF039"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with keyRef as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF040.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF040"
-            ),
-            name="notatF040"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with length as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF041.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF041"
-            ),
-            name="notatF041"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with length as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF042.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF042"
-            ),
-            name="notatF042"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with list as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF043.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF043"
-            ),
-            name="notatF043"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with list as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF044.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF044"
-            ),
-            name="notatF044"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with maxInclusive as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF045.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF045"
-            ),
-            name="notatF045"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with maxInclusive as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF046.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF046"
-            ),
-            name="notatF046"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with maxLength as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF047.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF047"
-            ),
-            name="notatF047"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with maxLength as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF048.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF048"
-            ),
-            name="notatF048"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with minInclusive as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF049.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF049"
-            ),
-            name="notatF049"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with minInclusive as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF050.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF050"
-            ),
-            name="notatF050"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with minLength as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF051.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF051"
-            ),
-            name="notatF051"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with minLength as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF052.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF052"
-            ),
-            name="notatF052"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with pattern as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF053.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF053"
-            ),
-            name="notatF053"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with pattern as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF054.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF054"
-            ),
-            name="notatF054"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with redefine as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF055.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF055"
-            ),
-            name="notatF055"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with redefine as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF056.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF056"
-            ),
-            name="notatF056"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with restriction as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF057.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF057"
-            ),
-            name="notatF057"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with restriction as its content",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF058.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16)
-                ),
-                name="notatF058"
-            ),
-            name="notatF058"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :Notations : Notation with schema as its parent",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/notations/notatF059.xsd"
+                        href='../msData/notations/notatF021.xsd'
                     ),
                 ],
                 expected=[
@@ -3432,9 +2064,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF059"
+                name='notatF021'
             ),
-            name="notatF059"
+            name='notatF021'
         ),
         TestGroup(
             annotation=[
@@ -3442,7 +2074,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with schema as its content",
+                                'TEST :Notations : Notation with documentation as its content',
                             ]
                         ),
                     ]
@@ -3450,13 +2082,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF060.xsd"
+                        href='../msData/notations/notatF022.xsd'
                     ),
                 ],
                 expected=[
@@ -3468,9 +2100,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF060"
+                name='notatF022'
             ),
-            name="notatF060"
+            name='notatF022'
         ),
         TestGroup(
             annotation=[
@@ -3478,7 +2110,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with selector as its parent",
+                                'TEST :Notations : Notation with element as its parent',
                             ]
                         ),
                     ]
@@ -3486,13 +2118,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF061.xsd"
+                        href='../msData/notations/notatF023.xsd'
                     ),
                 ],
                 expected=[
@@ -3504,9 +2136,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF061"
+                name='notatF023'
             ),
-            name="notatF061"
+            name='notatF023'
         ),
         TestGroup(
             annotation=[
@@ -3514,7 +2146,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with selector as its content",
+                                'TEST :Notations : Notation with element as its content',
                             ]
                         ),
                     ]
@@ -3522,13 +2154,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF062.xsd"
+                        href='../msData/notations/notatF024.xsd'
                     ),
                 ],
                 expected=[
@@ -3540,9 +2172,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF062"
+                name='notatF024'
             ),
-            name="notatF062"
+            name='notatF024'
         ),
         TestGroup(
             annotation=[
@@ -3550,7 +2182,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with sequence as its parent",
+                                'TEST :Notations : Notation with enumeration as its parent',
                             ]
                         ),
                     ]
@@ -3558,13 +2190,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF063.xsd"
+                        href='../msData/notations/notatF025.xsd'
                     ),
                 ],
                 expected=[
@@ -3576,9 +2208,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF063"
+                name='notatF025'
             ),
-            name="notatF063"
+            name='notatF025'
         ),
         TestGroup(
             annotation=[
@@ -3586,7 +2218,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with sequence as its content",
+                                'TEST :Notations : Notation with enumeration as its content',
                             ]
                         ),
                     ]
@@ -3594,13 +2226,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF064.xsd"
+                        href='../msData/notations/notatF026.xsd'
                     ),
                 ],
                 expected=[
@@ -3612,9 +2244,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF064"
+                name='notatF026'
             ),
-            name="notatF064"
+            name='notatF026'
         ),
         TestGroup(
             annotation=[
@@ -3622,7 +2254,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with simpleContent as its parent",
+                                'TEST :Notations : Notation with extension as its parent',
                             ]
                         ),
                     ]
@@ -3630,13 +2262,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF065.xsd"
+                        href='../msData/notations/notatF027.xsd'
                     ),
                 ],
                 expected=[
@@ -3648,9 +2280,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF065"
+                name='notatF027'
             ),
-            name="notatF065"
+            name='notatF027'
         ),
         TestGroup(
             annotation=[
@@ -3658,7 +2290,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with simpleContent as its content",
+                                'TEST :Notations : Notation with extension as its content',
                             ]
                         ),
                     ]
@@ -3666,13 +2298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF066.xsd"
+                        href='../msData/notations/notatF028.xsd'
                     ),
                 ],
                 expected=[
@@ -3684,9 +2316,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF066"
+                name='notatF028'
             ),
-            name="notatF066"
+            name='notatF028'
         ),
         TestGroup(
             annotation=[
@@ -3694,7 +2326,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with simpleType as its parent",
+                                'TEST :Notations : Notation with field as its parent',
                             ]
                         ),
                     ]
@@ -3702,13 +2334,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF067.xsd"
+                        href='../msData/notations/notatF029.xsd'
                     ),
                 ],
                 expected=[
@@ -3720,9 +2352,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF067"
+                name='notatF029'
             ),
-            name="notatF067"
+            name='notatF029'
         ),
         TestGroup(
             annotation=[
@@ -3730,7 +2362,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with simpleType as its content",
+                                'TEST :Notations : Notation with field as its content',
                             ]
                         ),
                     ]
@@ -3738,13 +2370,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF068.xsd"
+                        href='../msData/notations/notatF030.xsd'
                     ),
                 ],
                 expected=[
@@ -3756,9 +2388,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF068"
+                name='notatF030'
             ),
-            name="notatF068"
+            name='notatF030'
         ),
         TestGroup(
             annotation=[
@@ -3766,7 +2398,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with union as its parent",
+                                'TEST :Notations : Notation with group as its parent',
                             ]
                         ),
                     ]
@@ -3774,13 +2406,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF069.xsd"
+                        href='../msData/notations/notatF031.xsd'
                     ),
                 ],
                 expected=[
@@ -3792,9 +2424,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF069"
+                name='notatF031'
             ),
-            name="notatF069"
+            name='notatF031'
         ),
         TestGroup(
             annotation=[
@@ -3802,7 +2434,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with union as its content",
+                                'TEST :Notations : Notation with group as its content',
                             ]
                         ),
                     ]
@@ -3810,13 +2442,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF070.xsd"
+                        href='../msData/notations/notatF032.xsd'
                     ),
                 ],
                 expected=[
@@ -3828,9 +2460,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF070"
+                name='notatF032'
             ),
-            name="notatF070"
+            name='notatF032'
         ),
         TestGroup(
             annotation=[
@@ -3838,7 +2470,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with unique as its parent",
+                                'TEST :Notations : Notation with import as its parent',
                             ]
                         ),
                     ]
@@ -3846,13 +2478,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF071.xsd"
+                        href='../msData/notations/notatF033.xsd'
                     ),
                 ],
                 expected=[
@@ -3864,9 +2496,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF071"
+                name='notatF033'
             ),
-            name="notatF071"
+            name='notatF033'
         ),
         TestGroup(
             annotation=[
@@ -3874,7 +2506,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with unique as its content",
+                                'TEST :Notations : Notation with import as its content',
                             ]
                         ),
                     ]
@@ -3882,13 +2514,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatF072.xsd"
+                        href='../msData/notations/notatF034.xsd'
                     ),
                 ],
                 expected=[
@@ -3900,9 +2532,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatF072"
+                name='notatF034'
             ),
-            name="notatF072"
+            name='notatF034'
         ),
         TestGroup(
             annotation=[
@@ -3910,7 +2542,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with some text as its content",
+                                'TEST :Notations : Notation with include as its parent',
                             ]
                         ),
                     ]
@@ -3918,13 +2550,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatG001.xsd"
+                        href='../msData/notations/notatF035.xsd'
                     ),
                 ],
                 expected=[
@@ -3936,9 +2568,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatG001"
+                name='notatF035'
             ),
-            name="notatG001"
+            name='notatF035'
         ),
         TestGroup(
             annotation=[
@@ -3946,7 +2578,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with some well formed XML",
+                                'TEST :Notations : Notation with include as its content',
                             ]
                         ),
                     ]
@@ -3954,13 +2586,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatG002.xsd"
+                        href='../msData/notations/notatF036.xsd'
                     ),
                 ],
                 expected=[
@@ -3972,9 +2604,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatG002"
+                name='notatF036'
             ),
-            name="notatG002"
+            name='notatF036'
         ),
         TestGroup(
             annotation=[
@@ -3982,7 +2614,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with known entities &amp; &quot; '",
+                                'TEST :Notations : Notation with key as its parent',
                             ]
                         ),
                     ]
@@ -3990,13 +2622,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatG003.xsd"
+                        href='../msData/notations/notatF037.xsd'
                     ),
                 ],
                 expected=[
@@ -4008,9 +2640,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatG003"
+                name='notatF037'
             ),
-            name="notatG003"
+            name='notatF037'
         ),
         TestGroup(
             annotation=[
@@ -4018,7 +2650,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Notation with comment nodes as its content",
+                                'TEST :Notations : Notation with key as its content',
                             ]
                         ),
                     ]
@@ -4026,13 +2658,769 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatG005.xsd"
+                        href='../msData/notations/notatF038.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF038'
+            ),
+            name='notatF038'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with keyRef as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF039.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF039'
+            ),
+            name='notatF039'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with keyRef as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF040.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF040'
+            ),
+            name='notatF040'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with length as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF041.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF041'
+            ),
+            name='notatF041'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with length as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF042.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF042'
+            ),
+            name='notatF042'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with list as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF043.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF043'
+            ),
+            name='notatF043'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with list as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF044.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF044'
+            ),
+            name='notatF044'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with maxInclusive as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF045.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF045'
+            ),
+            name='notatF045'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with maxInclusive as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF046.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF046'
+            ),
+            name='notatF046'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with maxLength as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF047.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF047'
+            ),
+            name='notatF047'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with maxLength as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF048.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF048'
+            ),
+            name='notatF048'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with minInclusive as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF049.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF049'
+            ),
+            name='notatF049'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with minInclusive as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF050.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF050'
+            ),
+            name='notatF050'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with minLength as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF051.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF051'
+            ),
+            name='notatF051'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with minLength as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF052.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF052'
+            ),
+            name='notatF052'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with pattern as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF053.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF053'
+            ),
+            name='notatF053'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with pattern as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF054.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF054'
+            ),
+            name='notatF054'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with redefine as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF055.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF055'
+            ),
+            name='notatF055'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with redefine as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF056.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF056'
+            ),
+            name='notatF056'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with restriction as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF057.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF057'
+            ),
+            name='notatF057'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with restriction as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF058.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF058'
+            ),
+            name='notatF058'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with schema as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF059.xsd'
                     ),
                 ],
                 expected=[
@@ -4044,9 +3432,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatG005"
+                name='notatF059'
             ),
-            name="notatG005"
+            name='notatF059'
         ),
         TestGroup(
             annotation=[
@@ -4054,7 +3442,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Schema with 3 three Notations and an attribute with type=NOTATION",
+                                'TEST :Notations : Notation with schema as its content',
                             ]
                         ),
                     ]
@@ -4062,13 +3450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatG006.xsd"
+                        href='../msData/notations/notatF060.xsd'
                     ),
                 ],
                 expected=[
@@ -4080,9 +3468,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatG006"
+                name='notatF060'
             ),
-            name="notatG006"
+            name='notatF060'
         ),
         TestGroup(
             annotation=[
@@ -4090,7 +3478,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Instance document declares a notation type",
+                                'TEST :Notations : Notation with selector as its parent',
                             ]
                         ),
                     ]
@@ -4098,16 +3486,553 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatH001.xsd"
+                        href='../msData/notations/notatF061.xsd'
                     ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF061'
+            ),
+            name='notatF061'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with selector as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatH001a.xsd"
+                        href='../msData/notations/notatF062.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF062'
+            ),
+            name='notatF062'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with sequence as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF063.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF063'
+            ),
+            name='notatF063'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with sequence as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF064.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF064'
+            ),
+            name='notatF064'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with simpleContent as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF065.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF065'
+            ),
+            name='notatF065'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with simpleContent as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF066.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF066'
+            ),
+            name='notatF066'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with simpleType as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF067.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF067'
+            ),
+            name='notatF067'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with simpleType as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF068.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF068'
+            ),
+            name='notatF068'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with union as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF069.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF069'
+            ),
+            name='notatF069'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with union as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF070.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF070'
+            ),
+            name='notatF070'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with unique as its parent',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF071.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF071'
+            ),
+            name='notatF071'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with unique as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatF072.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatF072'
+            ),
+            name='notatF072'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with some text as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatG001.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatG001'
+            ),
+            name='notatG001'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with some well formed XML',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatG002.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatG002'
+            ),
+            name='notatG002'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with known entities & " \'',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatG003.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatG003'
+            ),
+            name='notatG003'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Notation with comment nodes as its content',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatG005.xsd'
                     ),
                 ],
                 expected=[
@@ -4119,12 +4044,87 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatH001v"
+                name='notatG005'
+            ),
+            name='notatG005'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Schema with 3 three Notations and an attribute with type=NOTATION',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatG006.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatG006'
+            ),
+            name='notatG006'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :Notations : Instance document declares a notation type',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/notations/notatH001.xsd'
+                    ),
+                    SchemaDocument(
+                        href='../msData/notations/notatH001a.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.VALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.ACCEPTED,
+                    date=XmlDate(2006, 7, 16)
+                ),
+                name='notatH001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/notations/notatH001.xml"
+                        href='../msData/notations/notatH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -4135,10 +4135,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="notatH001v.v"
+                    name='notatH001v.v'
                 ),
             ],
-            name="notatH001v"
+            name='notatH001v'
         ),
         TestGroup(
             annotation=[
@@ -4154,13 +4154,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatH002.xsd"
+                        href='../msData/notations/notatH002.xsd'
                     ),
                 ],
                 expected=[
@@ -4172,12 +4172,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatH002v"
+                name='notatH002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/notations/notatH002.xml"
+                        href='../msData/notations/notatH002.xml'
                     ),
                     expected=[
                         Expected(
@@ -4188,10 +4188,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="notatH002v.i"
+                    name='notatH002v.i'
                 ),
             ],
-            name="notatH002v"
+            name='notatH002v'
         ),
         TestGroup(
             annotation=[
@@ -4199,7 +4199,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Notations : Instance document with (Schema with 3 Notations and an attribute with type=NOTATION) and attribute contains two notation names",
+                                'TEST :Notations : Instance document with (Schema with 3 Notations and an attribute with type=NOTATION) and attribute contains two notation names',
                             ]
                         ),
                     ]
@@ -4207,13 +4207,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/notations/notatH003.xsd"
+                        href='../msData/notations/notatH003.xsd'
                     ),
                 ],
                 expected=[
@@ -4225,12 +4225,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="notatH003"
+                name='notatH003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/notations/notatH003.xml"
+                        href='../msData/notations/notatH003.xml'
                     ),
                     expected=[
                         Expected(
@@ -4241,15 +4241,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="notatH003.i"
+                    name='notatH003.i'
                 ),
             ],
-            name="notatH003"
+            name='notatH003'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Notations2006-07-15",
+    contributor='Microsoft',
+    name='MS-Notations2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

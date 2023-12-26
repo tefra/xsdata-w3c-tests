@@ -11,19 +11,19 @@ class Chap:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     fr: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     en: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -37,11 +37,11 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     lang: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

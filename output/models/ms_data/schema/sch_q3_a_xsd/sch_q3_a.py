@@ -25,7 +25,7 @@ class BCt:
                     "namespace": "ns-a",
                 },
             ),
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

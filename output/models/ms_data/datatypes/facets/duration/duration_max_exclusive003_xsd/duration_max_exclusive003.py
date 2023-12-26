@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "max_exclusive": XmlDuration("P2Y3MT2H"),
-        }
+        },
     )
 
 

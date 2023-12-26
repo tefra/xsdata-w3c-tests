@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern4(
-    value="_will_new.embedded-a_con:uand.and.well_efforts_busine"
+    value='_will_new.embedded-a_con:uand.and.well_efforts_busine'
 )

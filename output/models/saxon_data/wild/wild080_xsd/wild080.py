@@ -12,7 +12,7 @@ class A:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_element: Optional[object] = field(
         default=None,
@@ -35,7 +35,7 @@ class Zing:
             "type": "Wildcard",
             "namespace": "##local",
             "process_contents": "skip",
-        }
+        },
     )
 
 

@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicUnsignedLongTotalDigits2:
         metadata={
             "required": True,
             "total_digits": 5,
-        }
+        },
     )

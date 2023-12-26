@@ -14,7 +14,7 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "q",
-        }
+        },
     )
 
 

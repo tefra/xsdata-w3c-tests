@@ -13,5 +13,5 @@ class Doc:
         metadata={
             "min_inclusive": XmlDuration("-P3D"),
             "max_inclusive": XmlDuration("P3D"),
-        }
+        },
     )

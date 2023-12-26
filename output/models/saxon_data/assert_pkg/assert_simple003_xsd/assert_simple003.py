@@ -7,9 +7,7 @@ class N:
     class Meta:
         name = "n"
 
-    value: str = field(
-        default=""
-    )
+    value: str = field(default="")
 
 
 @dataclass
@@ -22,5 +20,5 @@ class Outer:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

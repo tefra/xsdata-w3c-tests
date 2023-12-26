@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for the schema itself."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m1.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m1"
+                name='annotations00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m1_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m1"
+            name='annotations00101m1'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for the schema itself.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m2.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -116,12 +116,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m2"
+                name='annotations00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m2_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -132,10 +132,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m2"
+            name='annotations00101m2'
         ),
         TestGroup(
             annotation=[
@@ -144,12 +144,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted placed at the end annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted placed at the end annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for the schema itself.&#10;                             The annotation is placed at the end."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.'
                                 ),
                             ]
                         ),
@@ -158,13 +158,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m3.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -176,12 +176,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m3"
+                name='annotations00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m3_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -192,10 +192,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m3"
+            name='annotations00101m3'
         ),
         TestGroup(
             annotation=[
@@ -204,12 +204,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for the schema itself."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.'
                                 ),
                             ]
                         ),
@@ -218,13 +218,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m4.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -236,12 +236,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m4"
+                name='annotations00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m4_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -252,10 +252,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m4"
+            name='annotations00101m4'
         ),
         TestGroup(
             annotation=[
@@ -264,12 +264,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for the schema itself.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -278,13 +278,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m5.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -296,12 +296,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m5"
+                name='annotations00101m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m5_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -312,10 +312,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m5"
+            name='annotations00101m5'
         ),
         TestGroup(
             annotation=[
@@ -324,12 +324,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted placed at the end annotation for the schema itself (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted placed at the end annotation for the schema itself (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for the schema itself.&#10;                             The annotation is placed at the end."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for the schema itself.\n                             The annotation is placed at the end.'
                                 ),
                             ]
                         ),
@@ -338,13 +338,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m6.xsd"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -356,12 +356,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotations00101m6"
+                name='annotations00101m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Schema/annotations/annotations00101m/annotations00101m6_p.xml"
+                        href='../sunData/Schema/annotations/annotations00101m/annotations00101m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -372,15 +372,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotations00101m6"
+            name='annotations00101m6'
         ),
     ],
-    contributor="SUN",
-    name="Schema",
+    contributor='SUN',
+    name='Schema',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

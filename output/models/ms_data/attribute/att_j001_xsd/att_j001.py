@@ -12,5 +12,5 @@ class Test:
         metadata={
             "name": "globalAtt",
             "type": "Attribute",
-        }
+        },
     )

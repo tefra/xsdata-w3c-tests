@@ -13,19 +13,19 @@ class DimType:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     length: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     width: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class RectType(DimType):
         default="lrectangle",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -53,7 +53,7 @@ class SquareType(DimType):
         default="square",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -69,5 +69,5 @@ class Shape:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

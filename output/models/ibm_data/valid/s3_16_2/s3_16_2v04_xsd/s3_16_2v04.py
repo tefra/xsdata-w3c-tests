@@ -17,5 +17,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"[2-9][2-9]",
-        }
+        },
     )

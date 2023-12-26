@@ -12,5 +12,5 @@ class Doc:
         metadata={
             "type": "Attribute",
             "pattern": r"a+\.?b*\.+c{2}",
-        }
+        },
     )

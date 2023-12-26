@@ -15,5 +15,5 @@ class Stylesheet:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

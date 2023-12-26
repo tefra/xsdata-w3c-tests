@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDateTimeMaxInclusive3:
         metadata={
             "required": True,
             "max_inclusive": XmlDateTime(2003, 3, 9, 2, 0, 23),
-        }
+        },
     )

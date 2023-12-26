@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMaxLength2(
-    value="kand_today.that.related-interconne"
+    value='kand_today.that.related-interconne'
 )

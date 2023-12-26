@@ -6,5 +6,5 @@ obj = Shape(
     b=10,
     c=10,
     d=10,
-    type_value="square"
+    type_value='square'
 )

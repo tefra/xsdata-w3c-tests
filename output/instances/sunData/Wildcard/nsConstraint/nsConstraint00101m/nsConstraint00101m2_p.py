@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = A(
     any_element=AnyElement(
-        qname="time",
-        text="14:25:00"
+        qname='time',
+        text='14:25:00'
     )
 )

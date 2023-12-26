@@ -3,11 +3,11 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Computer(
-    name="mine",
+    name='mine',
     local_element=[
         AnyElement(
-            qname="f",
-            text=""
+            qname='f',
+            text=''
         ),
     ]
 )

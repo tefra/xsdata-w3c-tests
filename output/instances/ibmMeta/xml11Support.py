@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#sec-chother",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#sec-chother',
                     },
                     content=[
-                        "&#10;        Value space of xs:Name and related types&#10;        Use of newly allowed name characters in names of schema components&#10;        Effect of \i and \c in regular expressions&#10;        ",
+                        '\n        Value space of xs:Name and related types\n        Use of newly allowed name characters in names of schema components\n        Effect of \\i and \\c in regular expressions\n        ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "value space of xs:Name and related types (test Name) ",
+                                'value space of xs:Name and related types (test Name) ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v01.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v01s"
+                name='d3_4_6v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v01.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v01i"
+                    name='d3_4_6v01i'
                 ),
             ],
-            name="d3_4_6v01",
+            name='d3_4_6v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "value space of xs:Name and related types (test NCName) ",
+                                'value space of xs:Name and related types (test NCName) ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#NCName"
+                    href='http://www.w3.org/TR/xmlschema11-2/#NCName'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v02.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v02s"
+                name='d3_4_6v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v02.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v02i"
+                    name='d3_4_6v02i'
                 ),
             ],
-            name="d3_4_6v02",
+            name='d3_4_6v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "effect of \i in regular expressions  ",
+                                'effect of \\i in regular expressions  ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dt-regex"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dt-regex'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v03.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v03s"
+                name='d3_4_6v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v03.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v03i"
+                    name='d3_4_6v03i'
                 ),
             ],
-            name="d3_4_6v03",
+            name='d3_4_6v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "effect of \i in regular expressions  ",
+                                'effect of \\i in regular expressions  ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#dt-regex"
+                    href='http://www.w3.org/TR/xmlschema11-2/#dt-regex'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v04.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v04s"
+                name='d3_4_6v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v04.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v04i"
+                    name='d3_4_6v04i'
                 ),
             ],
-            name="d3_4_6v04",
+            name='d3_4_6v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v05.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v05s"
+                name='d3_4_6v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v05.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v05i"
+                    name='d3_4_6v05i'
                 ),
             ],
-            name="d3_4_6v05",
+            name='d3_4_6v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v06.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v06s"
+                name='d3_4_6v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v06.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v06i"
+                    name='d3_4_6v06i'
                 ),
             ],
-            name="d3_4_6v06",
+            name='d3_4_6v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-AddlCharsInNames'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v07.xsd"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6v07s"
+                name='d3_4_6v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_6/d3_4_6v07.xml"
+                        href='../ibmData/valid/D3_4_6/d3_4_6v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6v07i"
+                    name='d3_4_6v07i'
                 ),
             ],
-            name="d3_4_6v07",
+            name='d3_4_6v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance for value space of xs:Name ",
+                                'invalid instance for value space of xs:Name ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6ii01s"
+                name='d3_4_6ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6ii01i"
+                    name='d3_4_6ii01i'
                 ),
             ],
-            name="d3_4_6ii01"
+            name='d3_4_6ii01'
         ),
         TestGroup(
             annotation=[
@@ -506,7 +506,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance for value space of xs:NCName ",
+                                'invalid instance for value space of xs:NCName ',
                             ]
                         ),
                     ]
@@ -514,16 +514,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-ValSpcOfXSNameEtc'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xsd"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -535,12 +535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6ii02s"
+                name='d3_4_6ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xml"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -551,10 +551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6ii02i"
+                    name='d3_4_6ii02i'
                 ),
             ],
-            name="d3_4_6ii02"
+            name='d3_4_6ii02'
         ),
         TestGroup(
             annotation=[
@@ -562,7 +562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance for effect of \i in regular expressions ",
+                                'invalid instance for effect of \\i in regular expressions ',
                             ]
                         ),
                     ]
@@ -570,16 +570,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xsd"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -591,12 +591,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6ii03s"
+                name='d3_4_6ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xml"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -607,10 +607,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6ii03i"
+                    name='d3_4_6ii03i'
                 ),
             ],
-            name="d3_4_6ii03"
+            name='d3_4_6ii03'
         ),
         TestGroup(
             annotation=[
@@ -618,7 +618,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "invalid instance for effect of \c in regular expressions ",
+                                'invalid instance for effect of \\c in regular expressions ',
                             ]
                         ),
                     ]
@@ -626,16 +626,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#Name"
+                    href='http://www.w3.org/TR/xmlschema11-2/#Name'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-xml1_1Support-EffectInRegex'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xsd"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -647,12 +647,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_6ii04s"
+                name='d3_4_6ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xml"
+                        href='../ibmData/instance_invalid/D3_4_6/d3_4_6ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -663,15 +663,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_6ii04i"
+                    name='d3_4_6ii04i'
                 ),
             ],
-            name="d3_4_6ii04"
+            name='d3_4_6ii04'
         ),
     ],
-    contributor="IBM",
-    name="XML11Support",
+    contributor='IBM',
+    name='XML11Support',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

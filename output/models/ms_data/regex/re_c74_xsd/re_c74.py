@@ -14,5 +14,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"a{0,1}b{1,2}c{2,3}",
-        }
+        },
     )

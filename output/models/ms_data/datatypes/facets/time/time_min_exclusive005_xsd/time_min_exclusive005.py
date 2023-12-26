@@ -16,7 +16,7 @@ class FooType:
             "required": True,
             "min_exclusive": XmlTime(10, 21, 0, 0, -300),
             "max_exclusive": XmlTime(13, 20, 0, 0, -240),
-        }
+        },
     )
 
 

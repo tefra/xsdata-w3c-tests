@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength5(
-    value="hvendors-of_that-be.choices_any_and.meets_tests_file_pervasive.a"
+    value='hvendors-of_that-be.choices_any_and.meets_tests_file_pervasive.a'
 )

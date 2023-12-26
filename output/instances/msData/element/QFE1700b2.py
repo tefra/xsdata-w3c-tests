@@ -3,29 +3,29 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    e1="abc",
+    e1='abc',
     any_element=AnyElement(
-        qname="e2",
-        text="abc",
+        qname='e2',
+        text='abc',
         children=[
             AnyElement(
-                qname="e3",
-                text=""
+                qname='e3',
+                text=''
             ),
             AnyElement(
-                qname="e4",
-                text=""
+                qname='e4',
+                text=''
             ),
             AnyElement(
-                qname="e5",
-                text="def",
+                qname='e5',
+                text='def',
                 attributes={
-                    "{http://www.w3.org/2001/XMLSchema-instance}nil": "true",
+                    '{http://www.w3.org/2001/XMLSchema-instance}nil': 'true',
                 }
             ),
         ],
         attributes={
-            "{http://www.w3.org/2001/XMLSchema-instance}nil": "true",
+            '{http://www.w3.org/2001/XMLSchema-instance}nil': 'true',
         }
     )
 )

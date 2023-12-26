@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional simple type: example based on spec'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type of message depends on enumerated kind attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple type of message depends on enumerated kind attribute'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0001.xsd"
+                        href='../saxonData/CTA/cta0001.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 12)
                 ),
-                name="cta0001"
+                name='cta0001'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Valid, message with kind="date".&#10;&#9;&#9;            ',
+                                        '\n\t\t                Valid, message with kind="date".\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0001.v01.xml"
+                        href='../saxonData/CTA/cta0001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 12)
                     ),
-                    name="cta0001.v01"
+                    name='cta0001.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Valid, message with kind="time".&#10;&#9;&#9;            ',
+                                        '\n\t\t                Valid, message with kind="time".\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0001.v02.xml"
+                        href='../saxonData/CTA/cta0001.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -114,7 +114,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 12)
                     ),
-                    name="cta0001.v02"
+                    name='cta0001.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -122,14 +122,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, multiple messages at inner level.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, multiple messages at inner level.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0001.v03.xml"
+                        href='../saxonData/CTA/cta0001.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -140,7 +140,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 12)
                     ),
-                    name="cta0001.v03"
+                    name='cta0001.v03'
                 ),
                 InstanceTest(
                     annotation=[
@@ -148,14 +148,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid, message with kind="date" but content is a time&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid, message with kind="date" but content is a time\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0001.n01.xml"
+                        href='../saxonData/CTA/cta0001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -166,7 +166,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 12)
                     ),
-                    name="cta0001.n01"
+                    name='cta0001.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -174,14 +174,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid, message with kind="date" at inner level&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid, message with kind="date" at inner level\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0001.n02.xml"
+                        href='../saxonData/CTA/cta0001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -192,10 +192,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 12)
                     ),
-                    name="cta0001.n02"
+                    name='cta0001.n02'
                 ),
             ],
-            name="cta0001"
+            name='cta0001'
         ),
         TestGroup(
             annotation=[
@@ -204,12 +204,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional complex type with namespaces'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Complex type of message depends on enumerated min attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Complex type of message depends on enumerated min attribute'
                                 ),
                             ]
                         ),
@@ -218,16 +218,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0002.xsd"
+                        href='../saxonData/CTA/cta0002.xsd'
                     ),
                 ],
                 expected=[
@@ -239,7 +239,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta0002"
+                name='cta0002'
             ),
             instance_test=[
                 InstanceTest(
@@ -248,14 +248,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, various messages.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0002.v01.xml"
+                        href='../saxonData/CTA/cta0002.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -266,7 +266,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0002.v01"
+                    name='cta0002.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -274,14 +274,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, message with min=1 but no child elements\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0002.n01.xml"
+                        href='../saxonData/CTA/cta0002.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -292,10 +292,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0002.n01"
+                    name='cta0002.n01'
                 ),
             ],
-            name="cta0002"
+            name='cta0002'
         ),
         TestGroup(
             annotation=[
@@ -304,12 +304,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional complex type with namespaces'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Trivial reference to the name of the element"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Trivial reference to the name of the element'
                                 ),
                             ]
                         ),
@@ -318,16 +318,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0003.xsd"
+                        href='../saxonData/CTA/cta0003.xsd'
                     ),
                 ],
                 expected=[
@@ -339,7 +339,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta0003"
+                name='cta0003'
             ),
             instance_test=[
                 InstanceTest(
@@ -348,14 +348,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, various messages.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.v01.xml"
+                        href='../saxonData/CTA/cta0003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -366,7 +366,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0003.v01"
+                    name='cta0003.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -374,14 +374,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, message with min=1 but no child elements\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.n01.xml"
+                        href='../saxonData/CTA/cta0003.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -392,10 +392,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0003.n01"
+                    name='cta0003.n01'
                 ),
             ],
-            name="cta0003",
+            name='cta0003',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -407,12 +407,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional complex type with namespaces'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Variant of cta0003 (same instance documents) using xpathDefaultNamespace'
                                 ),
                             ]
                         ),
@@ -421,16 +421,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0004.xsd"
+                        href='../saxonData/CTA/cta0004.xsd'
                     ),
                 ],
                 expected=[
@@ -442,7 +442,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta0004"
+                name='cta0004'
             ),
             instance_test=[
                 InstanceTest(
@@ -451,14 +451,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, various messages.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.v01.xml"
+                        href='../saxonData/CTA/cta0003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -469,7 +469,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0004.v01"
+                    name='cta0004.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -477,14 +477,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, message with min=1 but no child elements\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.n01.xml"
+                        href='../saxonData/CTA/cta0003.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0004.n01"
+                    name='cta0004.n01'
                 ),
             ],
-            name="cta0004",
+            name='cta0004',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -510,12 +510,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional complex type with namespaces'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace&#10;                         at the schema level"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Variant of cta0003 (same instance documents) using xpathDefaultNamespace\n                         at the schema level'
                                 ),
                             ]
                         ),
@@ -524,16 +524,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0005.xsd"
+                        href='../saxonData/CTA/cta0005.xsd'
                     ),
                 ],
                 expected=[
@@ -545,7 +545,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta0005"
+                name='cta0005'
             ),
             instance_test=[
                 InstanceTest(
@@ -554,14 +554,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, various messages.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.v01.xml"
+                        href='../saxonData/CTA/cta0003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -572,7 +572,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0005.v01"
+                    name='cta0005.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -580,14 +580,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, message with min=1 but no child elements\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0003.n01.xml"
+                        href='../saxonData/CTA/cta0003.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -598,10 +598,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0005.n01"
+                    name='cta0005.n01'
                 ),
             ],
-            name="cta0005",
+            name='cta0005',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -613,12 +613,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: selecting a branch of a union"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional simple type: selecting a branch of a union'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type of message depends on enumerated kind attribute, value is&#10;                 a QName identifying the branch of a union (xsi:type simulation)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple type of message depends on enumerated kind attribute, value is\n                 a QName identifying the branch of a union (xsi:type simulation)'
                                 ),
                             ]
                         ),
@@ -627,16 +627,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0006.xsd"
+                        href='../saxonData/CTA/cta0006.xsd'
                     ),
                 ],
                 expected=[
@@ -659,7 +659,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -674,7 +674,7 @@ obj = TestSet(
                         date=XmlDate(2007, 11, 19)
                     ),
                 ],
-                name="cta0006"
+                name='cta0006'
             ),
             instance_test=[
                 InstanceTest(
@@ -683,14 +683,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid messages&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid messages\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0006.v01.xml"
+                        href='../saxonData/CTA/cta0006.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -701,7 +701,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0006.v01"
+                    name='cta0006.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -709,14 +709,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid message with kind="xs:int"&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid message with kind="xs:int"\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0006.n01.xml"
+                        href='../saxonData/CTA/cta0006.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -727,7 +727,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0006.n01"
+                    name='cta0006.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -735,14 +735,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid message with kind="xs:QName (namespace not declared"&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid message with kind="xs:QName (namespace not declared"\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0006.n02.xml"
+                        href='../saxonData/CTA/cta0006.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -753,10 +753,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2007, 11, 19)
                     ),
-                    name="cta0006.n02"
+                    name='cta0006.n02'
                 ),
             ],
-            name="cta0006",
+            name='cta0006',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -768,12 +768,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Variant of cta0006 using xs:error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Variant of cta0006 using xs:error'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Chosen alternative has a type of xs:error"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Chosen alternative has a type of xs:error'
                                 ),
                             ]
                         ),
@@ -782,16 +782,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0007.xsd"
+                        href='../saxonData/CTA/cta0007.xsd'
                     ),
                 ],
                 expected=[
@@ -814,7 +814,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -829,7 +829,7 @@ obj = TestSet(
                         date=XmlDate(2008, 7, 30)
                     ),
                 ],
-                name="cta0007"
+                name='cta0007'
             ),
             instance_test=[
                 InstanceTest(
@@ -838,14 +838,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;                Invalid message with kind="xs:anyURI" leading to selection of type xs:error&#10;&#9;&#9;            ',
+                                        '\n\t\t                Invalid message with kind="xs:anyURI" leading to selection of type xs:error\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0007.n01.xml"
+                        href='../saxonData/CTA/cta0007.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -856,10 +856,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 7, 30)
                     ),
-                    name="cta0007.n01"
+                    name='cta0007.n01'
                 ),
             ],
-            name="cta0007",
+            name='cta0007',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -871,12 +871,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inline type alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Inline type alternative'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type alternative is an anonymous type defined as child of xs:alternative'
                                 ),
                             ]
                         ),
@@ -885,16 +885,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0008.xsd"
+                        href='../saxonData/CTA/cta0008.xsd'
                     ),
                 ],
                 expected=[
@@ -908,7 +908,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.&#10;                  Bug 13455.&#10;                ",
+                                        "\n                  Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.\n                  Bug 13455.\n                ",
                                     ]
                                 ),
                             ]
@@ -923,7 +923,7 @@ obj = TestSet(
                         date=XmlDate(2009, 5, 5)
                     ),
                 ],
-                name="cta0008"
+                name='cta0008'
             ),
             instance_test=[
                 InstanceTest(
@@ -932,14 +932,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0008.v01.xml"
+                        href='../saxonData/CTA/cta0008.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -950,7 +950,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 5)
                     ),
-                    name="cta0008.v01"
+                    name='cta0008.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -958,14 +958,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                inalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                inalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0008.n01.xml"
+                        href='../saxonData/CTA/cta0008.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -976,10 +976,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2008, 5, 5)
                     ),
-                    name="cta0008.n01"
+                    name='cta0008.n01'
                 ),
             ],
-            name="cta0008",
+            name='cta0008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -991,12 +991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type alternative is an anonymous type defined as child of xs:alternative'
                                 ),
                             ]
                         ),
@@ -1005,16 +1005,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0009.xsd"
+                        href='../saxonData/CTA/cta0009.xsd'
                     ),
                 ],
                 expected=[
@@ -1026,7 +1026,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0009"
+                name='cta0009'
             ),
             instance_test=[
                 InstanceTest(
@@ -1035,14 +1035,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.v01.xml"
+                        href='../saxonData/CTA/cta0009.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1053,7 +1053,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0009.v01"
+                    name='cta0009.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1061,14 +1061,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.v02.xml"
+                        href='../saxonData/CTA/cta0009.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1079,7 +1079,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0009.v02"
+                    name='cta0009.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1087,14 +1087,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.n01.xml"
+                        href='../saxonData/CTA/cta0009.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1105,7 +1105,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0009.n01"
+                    name='cta0009.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1113,14 +1113,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.n02.xml"
+                        href='../saxonData/CTA/cta0009.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1131,10 +1131,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0009.n02"
+                    name='cta0009.n02'
                 ),
             ],
-            name="cta0009",
+            name='cta0009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1146,12 +1146,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Type alternative is an anonymous type defined as child of xs:alternative'
                                 ),
                             ]
                         ),
@@ -1160,19 +1160,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0010.xsd"
+                        href='../saxonData/CTA/cta0010.xsd'
                     ),
                 ],
                 expected=[
@@ -1184,7 +1184,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0010"
+                name='cta0010'
             ),
             instance_test=[
                 InstanceTest(
@@ -1193,14 +1193,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0010.v01.xml"
+                        href='../saxonData/CTA/cta0010.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1211,7 +1211,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0010.v01"
+                    name='cta0010.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1219,14 +1219,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0010.v02.xml"
+                        href='../saxonData/CTA/cta0010.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1237,7 +1237,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0010.v02"
+                    name='cta0010.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1245,14 +1245,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0010.n01.xml"
+                        href='../saxonData/CTA/cta0010.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1263,7 +1263,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0010.n01"
+                    name='cta0010.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1271,14 +1271,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0010.n02.xml"
+                        href='../saxonData/CTA/cta0010.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1289,10 +1289,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0010.n02"
+                    name='cta0010.n02'
                 ),
             ],
-            name="cta0010",
+            name='cta0010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1304,12 +1304,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Inheritability differs between attribute declaration and use: attribute use wins"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Inheritability differs between attribute declaration and use: attribute use wins'
                                 ),
                             ]
                         ),
@@ -1318,16 +1318,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0011.xsd"
+                        href='../saxonData/CTA/cta0011.xsd'
                     ),
                 ],
                 expected=[
@@ -1339,7 +1339,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0011"
+                name='cta0011'
             ),
             instance_test=[
                 InstanceTest(
@@ -1348,14 +1348,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.v01.xml"
+                        href='../saxonData/CTA/cta0009.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1366,7 +1366,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0011.v01"
+                    name='cta0011.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1374,14 +1374,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.v02.xml"
+                        href='../saxonData/CTA/cta0009.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1392,7 +1392,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0011.v02"
+                    name='cta0011.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1400,14 +1400,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.n01.xml"
+                        href='../saxonData/CTA/cta0009.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1418,7 +1418,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0011.n01"
+                    name='cta0011.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1426,14 +1426,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0009.n02.xml"
+                        href='../saxonData/CTA/cta0009.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1444,10 +1444,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0011.n02"
+                    name='cta0011.n02'
                 ),
             ],
-            name="cta0011",
+            name='cta0011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1459,12 +1459,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Inheritability differs between attribute declaration and use: attribute use wins"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Inheritability differs between attribute declaration and use: attribute use wins'
                                 ),
                             ]
                         ),
@@ -1473,16 +1473,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0012.xsd"
+                        href='../saxonData/CTA/cta0012.xsd'
                     ),
                 ],
                 expected=[
@@ -1494,7 +1494,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0012"
+                name='cta0012'
             ),
             instance_test=[
                 InstanceTest(
@@ -1503,14 +1503,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0012.v01.xml"
+                        href='../saxonData/CTA/cta0012.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1521,7 +1521,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0012.v01"
+                    name='cta0012.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1529,14 +1529,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0012.n01.xml"
+                        href='../saxonData/CTA/cta0012.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1547,10 +1547,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0012.n01"
+                    name='cta0012.n01'
                 ),
             ],
-            name="cta0012",
+            name='cta0012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1562,12 +1562,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A non-inheritable attribute does not mask an inheritable attribute on an ancestor"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A non-inheritable attribute does not mask an inheritable attribute on an ancestor'
                                 ),
                             ]
                         ),
@@ -1576,19 +1576,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0013.xsd"
+                        href='../saxonData/CTA/cta0013.xsd'
                     ),
                 ],
                 expected=[
@@ -1600,7 +1600,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0013"
+                name='cta0013'
             ),
             instance_test=[
                 InstanceTest(
@@ -1609,14 +1609,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0013.v01.xml"
+                        href='../saxonData/CTA/cta0013.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1627,7 +1627,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0013.v01"
+                    name='cta0013.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1635,14 +1635,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0013.v02.xml"
+                        href='../saxonData/CTA/cta0013.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1653,7 +1653,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0013.v02"
+                    name='cta0013.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1661,14 +1661,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0013.n01.xml"
+                        href='../saxonData/CTA/cta0013.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1679,7 +1679,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0013.n01"
+                    name='cta0013.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1687,14 +1687,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0013.n02.xml"
+                        href='../saxonData/CTA/cta0013.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1705,10 +1705,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0013.n02"
+                    name='cta0013.n02'
                 ),
             ],
-            name="cta0013",
+            name='cta0013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1720,12 +1720,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Explicit default alternative as last alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Explicit default alternative as last alternative'
                                 ),
                             ]
                         ),
@@ -1734,16 +1734,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0014.xsd"
+                        href='../saxonData/CTA/cta0014.xsd'
                     ),
                 ],
                 expected=[
@@ -1755,7 +1755,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0014"
+                name='cta0014'
             ),
             instance_test=[
                 InstanceTest(
@@ -1764,14 +1764,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v01.xml"
+                        href='../saxonData/CTA/cta0014.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1782,7 +1782,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0014.v01"
+                    name='cta0014.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1790,14 +1790,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v02.xml"
+                        href='../saxonData/CTA/cta0014.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1808,7 +1808,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0014.v02"
+                    name='cta0014.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1816,14 +1816,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n01.xml"
+                        href='../saxonData/CTA/cta0014.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1834,7 +1834,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0014.n01"
+                    name='cta0014.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1842,14 +1842,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n02.xml"
+                        href='../saxonData/CTA/cta0014.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1860,10 +1860,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0014.n02"
+                    name='cta0014.n02'
                 ),
             ],
-            name="cta0014",
+            name='cta0014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1875,12 +1875,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Implicit default alternative as last alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Implicit default alternative as last alternative'
                                 ),
                             ]
                         ),
@@ -1889,16 +1889,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0015.xsd"
+                        href='../saxonData/CTA/cta0015.xsd'
                     ),
                 ],
                 expected=[
@@ -1910,7 +1910,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0015"
+                name='cta0015'
             ),
             instance_test=[
                 InstanceTest(
@@ -1919,14 +1919,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v01.xml"
+                        href='../saxonData/CTA/cta0014.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1937,7 +1937,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0015.v01"
+                    name='cta0015.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1945,14 +1945,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v02.xml"
+                        href='../saxonData/CTA/cta0014.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1963,7 +1963,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0015.v02"
+                    name='cta0015.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1971,14 +1971,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n01.xml"
+                        href='../saxonData/CTA/cta0014.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1989,7 +1989,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0015.n01"
+                    name='cta0015.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1997,14 +1997,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n02.xml"
+                        href='../saxonData/CTA/cta0014.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2015,10 +2015,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0015.n02"
+                    name='cta0015.n02'
                 ),
             ],
-            name="cta0015",
+            name='cta0015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2030,12 +2030,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Error in XPath evaluation treated as false"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Error in XPath evaluation treated as false'
                                 ),
                             ]
                         ),
@@ -2044,16 +2044,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0016.xsd"
+                        href='../saxonData/CTA/cta0016.xsd'
                     ),
                 ],
                 expected=[
@@ -2065,7 +2065,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0016"
+                name='cta0016'
             ),
             instance_test=[
                 InstanceTest(
@@ -2074,14 +2074,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v01.xml"
+                        href='../saxonData/CTA/cta0014.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2092,7 +2092,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0016.v01"
+                    name='cta0016.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2100,14 +2100,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.v02.xml"
+                        href='../saxonData/CTA/cta0014.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2118,7 +2118,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0016.v02"
+                    name='cta0016.v02'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2126,14 +2126,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n01.xml"
+                        href='../saxonData/CTA/cta0014.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2144,7 +2144,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0016.n01"
+                    name='cta0016.n01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2152,14 +2152,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                invalid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0014.n02.xml"
+                        href='../saxonData/CTA/cta0014.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2170,10 +2170,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0016.n02"
+                    name='cta0016.n02'
                 ),
             ],
-            name="cta0016",
+            name='cta0016',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2185,12 +2185,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression can only access attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='XPath expression can only access attributes'
                                 ),
                             ]
                         ),
@@ -2199,16 +2199,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0017.xsd"
+                        href='../saxonData/CTA/cta0017.xsd'
                     ),
                 ],
                 expected=[
@@ -2231,7 +2231,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2246,7 +2246,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0017"
+                name='cta0017'
             ),
             instance_test=[
                 InstanceTest(
@@ -2255,14 +2255,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0017.v01.xml"
+                        href='../saxonData/CTA/cta0017.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2273,10 +2273,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0017.v01"
+                    name='cta0017.v01'
                 ),
             ],
-            name="cta0017",
+            name='cta0017',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2288,12 +2288,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees untyped data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='XPath expression sees untyped data'
                                 ),
                             ]
                         ),
@@ -2302,16 +2302,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0018.xsd"
+                        href='../saxonData/CTA/cta0018.xsd'
                     ),
                 ],
                 expected=[
@@ -2334,7 +2334,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2349,7 +2349,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0018"
+                name='cta0018'
             ),
             instance_test=[
                 InstanceTest(
@@ -2358,14 +2358,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0017.v01.xml"
+                        href='../saxonData/CTA/cta0017.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2376,10 +2376,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0018.v01"
+                    name='cta0018.v01'
                 ),
             ],
-            name="cta0018",
+            name='cta0018',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2391,12 +2391,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees untyped data"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='XPath expression sees untyped data'
                                 ),
                             ]
                         ),
@@ -2405,16 +2405,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0019.xsd"
+                        href='../saxonData/CTA/cta0019.xsd'
                     ),
                 ],
                 expected=[
@@ -2437,7 +2437,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2452,7 +2452,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0019"
+                name='cta0019'
             ),
             instance_test=[
                 InstanceTest(
@@ -2461,14 +2461,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0017.v01.xml"
+                        href='../saxonData/CTA/cta0017.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2479,10 +2479,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0019.v01"
+                    name='cta0019.v01'
                 ),
             ],
-            name="cta0019",
+            name='cta0019',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2494,12 +2494,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees name of element node"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='XPath expression sees name of element node'
                                 ),
                             ]
                         ),
@@ -2508,16 +2508,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0020.xsd"
+                        href='../saxonData/CTA/cta0020.xsd'
                     ),
                 ],
                 expected=[
@@ -2529,7 +2529,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0020"
+                name='cta0020'
             ),
             instance_test=[
                 InstanceTest(
@@ -2538,14 +2538,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0017.v01.xml"
+                        href='../saxonData/CTA/cta0017.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2556,10 +2556,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0020.v01"
+                    name='cta0020.v01'
                 ),
             ],
-            name="cta0020",
+            name='cta0020',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2571,12 +2571,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees base URI of element node"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='XPath expression sees base URI of element node'
                                 ),
                             ]
                         ),
@@ -2585,16 +2585,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0021.xsd"
+                        href='../saxonData/CTA/cta0021.xsd'
                     ),
                 ],
                 expected=[
@@ -2617,7 +2617,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2632,7 +2632,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0021"
+                name='cta0021'
             ),
             instance_test=[
                 InstanceTest(
@@ -2641,14 +2641,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0021.v01.xml"
+                        href='../saxonData/CTA/cta0021.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2659,7 +2659,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0021.v01"
+                    name='cta0021.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2667,14 +2667,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid message: base URI does not match the test, so the error alternative is chosen&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid message: base URI does not match the test, so the error alternative is chosen\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0021.n01.xml"
+                        href='../saxonData/CTA/cta0021.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2685,10 +2685,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0021.n01"
+                    name='cta0021.n01'
                 ),
             ],
-            name="cta0021",
+            name='cta0021',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2700,12 +2700,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Dynamic context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Dynamic context of XPath expression'
                                 ),
                             ]
                         ),
@@ -2714,16 +2714,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0022.xsd"
+                        href='../saxonData/CTA/cta0022.xsd'
                     ),
                 ],
                 expected=[
@@ -2746,7 +2746,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2761,7 +2761,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0022"
+                name='cta0022'
             ),
             instance_test=[
                 InstanceTest(
@@ -2770,14 +2770,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0017.v01.xml"
+                        href='../saxonData/CTA/cta0017.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2788,10 +2788,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0022.v01"
+                    name='cta0022.v01'
                 ),
             ],
-            name="cta0022",
+            name='cta0022',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2803,12 +2803,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -2817,16 +2817,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0023.xsd"
+                        href='../saxonData/CTA/cta0023.xsd'
                     ),
                 ],
                 expected=[
@@ -2838,7 +2838,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0023"
+                name='cta0023'
             ),
             instance_test=[
                 InstanceTest(
@@ -2847,14 +2847,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2865,10 +2865,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0023.v01"
+                    name='cta0023.v01'
                 ),
             ],
-            name="cta0023",
+            name='cta0023',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2880,12 +2880,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -2894,16 +2894,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0024.xsd"
+                        href='../saxonData/CTA/cta0024.xsd'
                     ),
                 ],
                 expected=[
@@ -2926,7 +2926,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -2941,7 +2941,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0024"
+                name='cta0024'
             ),
             instance_test=[
                 InstanceTest(
@@ -2950,14 +2950,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2968,10 +2968,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0024.v01"
+                    name='cta0024.v01'
                 ),
             ],
-            name="cta0024",
+            name='cta0024',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -2983,12 +2983,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -2997,16 +2997,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0025.xsd"
+                        href='../saxonData/CTA/cta0025.xsd'
                     ),
                 ],
                 expected=[
@@ -3018,7 +3018,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0025"
+                name='cta0025'
             ),
             instance_test=[
                 InstanceTest(
@@ -3027,14 +3027,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3045,10 +3045,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0025.v01"
+                    name='cta0025.v01'
                 ),
             ],
-            name="cta0025",
+            name='cta0025',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3060,12 +3060,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -3074,16 +3074,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0026.xsd"
+                        href='../saxonData/CTA/cta0026.xsd'
                     ),
                 ],
                 expected=[
@@ -3095,7 +3095,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0026"
+                name='cta0026'
             ),
             instance_test=[
                 InstanceTest(
@@ -3104,14 +3104,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3122,10 +3122,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0026.v01"
+                    name='cta0026.v01'
                 ),
             ],
-            name="cta0026",
+            name='cta0026',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3137,12 +3137,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -3151,16 +3151,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0027.xsd"
+                        href='../saxonData/CTA/cta0027.xsd'
                     ),
                 ],
                 expected=[
@@ -3183,7 +3183,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -3198,7 +3198,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0027"
+                name='cta0027'
             ),
             instance_test=[
                 InstanceTest(
@@ -3207,14 +3207,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3225,10 +3225,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0027.v01"
+                    name='cta0027.v01'
                 ),
             ],
-            name="cta0027",
+            name='cta0027',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3240,12 +3240,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Static context of XPath expression'
                                 ),
                             ]
                         ),
@@ -3254,16 +3254,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0028.xsd"
+                        href='../saxonData/CTA/cta0028.xsd'
                     ),
                 ],
                 expected=[
@@ -3286,7 +3286,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "Added conditional results (bug 13455)",
+                                        'Added conditional results (bug 13455)',
                                     ]
                                 ),
                             ]
@@ -3301,7 +3301,7 @@ obj = TestSet(
                         date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0028"
+                name='cta0028'
             ),
             instance_test=[
                 InstanceTest(
@@ -3310,14 +3310,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0023.v01.xml"
+                        href='../saxonData/CTA/cta0023.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3328,10 +3328,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0028.v01"
+                    name='cta0028.v01'
                 ),
             ],
-            name="cta0028",
+            name='cta0028',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3343,12 +3343,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative - substitutability'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid substitution in a substitution group"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Valid substitution in a substitution group'
                                 ),
                             ]
                         ),
@@ -3357,16 +3357,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0040.xsd"
+                        href='../saxonData/CTA/cta0040.xsd'
                     ),
                 ],
                 expected=[
@@ -3378,7 +3378,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0040"
+                name='cta0040'
             ),
             instance_test=[
                 InstanceTest(
@@ -3387,14 +3387,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0040.v01.xml"
+                        href='../saxonData/CTA/cta0040.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3405,7 +3405,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0040.v01"
+                    name='cta0040.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3413,14 +3413,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid message - appendix dateTime has no timezone&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid message - appendix dateTime has no timezone\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0040.n01.xml"
+                        href='../saxonData/CTA/cta0040.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3431,10 +3431,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0040.n01"
+                    name='cta0040.n01'
                 ),
             ],
-            name="cta0040",
+            name='cta0040',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3446,12 +3446,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative - substitutability'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid substitution in a substitution group - detected only at validation time, by particular instances"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid substitution in a substitution group - detected only at validation time, by particular instances'
                                 ),
                             ]
                         ),
@@ -3460,16 +3460,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0041.xsd"
+                        href='../saxonData/CTA/cta0041.xsd'
                     ),
                 ],
                 expected=[
@@ -3481,7 +3481,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0041"
+                name='cta0041'
             ),
             instance_test=[
                 InstanceTest(
@@ -3490,14 +3490,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0041.v01.xml"
+                        href='../saxonData/CTA/cta0041.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3508,7 +3508,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0041.v01"
+                    name='cta0041.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3516,14 +3516,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid message - appendix dateTime has no timezone, which is OK for an appendix&#10;&#9;&#9;                but not for a chap, making it an invalid substitution.&#10;&#9;&#9;                &#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid message - appendix dateTime has no timezone, which is OK for an appendix\n\t\t                but not for a chap, making it an invalid substitution.\n\t\t                \n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0041.n01.xml"
+                        href='../saxonData/CTA/cta0041.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3534,10 +3534,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0041.n01"
+                    name='cta0041.n01'
                 ),
             ],
-            name="cta0041",
+            name='cta0041',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3549,12 +3549,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Declarations Consistent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; permitted because they have the same type table"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two particles in a content model have the same name; permitted because they have the same type table'
                                 ),
                             ]
                         ),
@@ -3563,16 +3563,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0042.xsd"
+                        href='../saxonData/CTA/cta0042.xsd'
                     ),
                 ],
                 expected=[
@@ -3584,7 +3584,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta0042"
+                name='cta0042'
             ),
             instance_test=[
                 InstanceTest(
@@ -3593,14 +3593,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0042.v01.xml"
+                        href='../saxonData/CTA/cta0042.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3611,10 +3611,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 15)
                     ),
-                    name="cta0042.v01"
+                    name='cta0042.v01'
                 ),
             ],
-            name="cta0042",
+            name='cta0042',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3626,12 +3626,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative - substitutability'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid substitution in a restricted type - detected only at validation time, by particular instances"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid substitution in a restricted type - detected only at validation time, by particular instances'
                                 ),
                             ]
                         ),
@@ -3640,16 +3640,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0043.xsd"
+                        href='../saxonData/CTA/cta0043.xsd'
                     ),
                 ],
                 expected=[
@@ -3663,7 +3663,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Changed status to invalid (and dropped instance tests);&#10;                  reflects resolution of spec bug 12185 requiring&#10;                  the type tables of the elements in base type and&#10;                  derived type content models to be equivalent.&#10;                ",
+                                        '\n                  Changed status to invalid (and dropped instance tests);\n                  reflects resolution of spec bug 12185 requiring\n                  the type tables of the elements in base type and\n                  derived type content models to be equivalent.\n                ',
                                     ]
                                 ),
                             ]
@@ -3678,9 +3678,9 @@ obj = TestSet(
                         date=XmlDate(2011, 2, 8)
                     ),
                 ],
-                name="cta0043"
+                name='cta0043'
             ),
-            name="cta0043",
+            name='cta0043',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3692,12 +3692,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternatives - restricting attributes"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternatives - restricting attributes'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute allowed in one alternative but not allowed in another"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute allowed in one alternative but not allowed in another'
                                 ),
                             ]
                         ),
@@ -3706,16 +3706,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0044.xsd"
+                        href='../saxonData/CTA/cta0044.xsd'
                     ),
                 ],
                 expected=[
@@ -3727,7 +3727,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 14)
                 ),
-                name="cta0044"
+                name='cta0044'
             ),
             instance_test=[
                 InstanceTest(
@@ -3736,14 +3736,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid message\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0044.v01.xml"
+                        href='../saxonData/CTA/cta0044.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3754,7 +3754,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 14)
                     ),
-                    name="cta0044.v01"
+                    name='cta0044.v01'
                 ),
                 InstanceTest(
                     annotation=[
@@ -3762,14 +3762,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid message - attribute is prohibited in this type alternative&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid message - attribute is prohibited in this type alternative\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/CTA/cta0044.n01.xml"
+                        href='../saxonData/CTA/cta0044.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3780,10 +3780,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 14)
                     ),
-                    name="cta0044.n01"
+                    name='cta0044.n01'
                 ),
             ],
-            name="cta0044",
+            name='cta0044',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3795,12 +3795,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Declarations Consistent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same type table; one of the type alternatives has no condition"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two particles in a content model have the same type table; one of the type alternatives has no condition'
                                 ),
                             ]
                         ),
@@ -3809,16 +3809,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta0045.xsd"
+                        href='../saxonData/CTA/cta0045.xsd'
                     ),
                 ],
                 expected=[
@@ -3830,9 +3830,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2013, 9, 22)
                 ),
-                name="cta0042"
+                name='cta0042'
             ),
-            name="cta0045",
+            name='cta0045',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3844,12 +3844,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional simple type: example based on spec'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test attribute missing on non-final alternative"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test attribute missing on non-final alternative'
                                 ),
                             ]
                         ),
@@ -3858,16 +3858,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9001err.xsd"
+                        href='../saxonData/CTA/cta9001err.xsd'
                     ),
                 ],
                 expected=[
@@ -3879,9 +3879,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 12)
                 ),
-                name="cta9001err"
+                name='cta9001err'
             ),
-            name="cta9001err",
+            name='cta9001err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -3893,12 +3893,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Conditional simple type: example based on spec'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid XPath expression - reference to undeclared variable (also uses XPath syntax outside the CTA subset)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid XPath expression - reference to undeclared variable (also uses XPath syntax outside the CTA subset)'
                                 ),
                             ]
                         ),
@@ -3907,16 +3907,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9002err.xsd"
+                        href='../saxonData/CTA/cta9002err.xsd'
                     ),
                 ],
                 expected=[
@@ -3928,9 +3928,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta9002err"
+                name='cta9002err'
             ),
-            name="cta9002err",
+            name='cta9002err',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3942,12 +3942,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Error case - reference to user-defined type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Error case - reference to user-defined type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="User-defined types are not part of the static context"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='User-defined types are not part of the static context'
                                 ),
                             ]
                         ),
@@ -3956,16 +3956,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9003err.xsd"
+                        href='../saxonData/CTA/cta9003err.xsd'
                     ),
                 ],
                 expected=[
@@ -3977,9 +3977,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2007, 11, 19)
                 ),
-                name="cta9003err"
+                name='cta9003err'
             ),
-            name="cta9003err",
+            name='cta9003err',
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
             ]
@@ -3991,12 +3991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid complex type description: inheritability varies between base type and restricted type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid complex type description: inheritability varies between base type and restricted type'
                                 ),
                             ]
                         ),
@@ -4005,16 +4005,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-content-act-restrict"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-content-act-restrict'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9004err.xsd"
+                        href='../saxonData/CTA/cta9004err.xsd'
                     ),
                 ],
                 expected=[
@@ -4026,9 +4026,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9004err"
+                name='cta9004err'
             ),
-            name="cta9004err",
+            name='cta9004err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4040,12 +4040,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid complex type description: inheritability varies between base type and restricted type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Invalid complex type description: inheritability varies between base type and restricted type'
                                 ),
                             ]
                         ),
@@ -4054,16 +4054,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9005err.xsd"
+                        href='../saxonData/CTA/cta9005err.xsd'
                     ),
                 ],
                 expected=[
@@ -4075,9 +4075,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9005err"
+                name='cta9005err'
             ),
-            name="cta9005err",
+            name='cta9005err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4089,11 +4089,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Non-boolean value for "inheritable"'
                                 ),
                             ]
@@ -4103,16 +4103,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9006err.xsd"
+                        href='../saxonData/CTA/cta9006err.xsd'
                     ),
                 ],
                 expected=[
@@ -4124,9 +4124,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9006err"
+                name='cta9006err'
             ),
-            name="cta9006err",
+            name='cta9006err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4138,11 +4138,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Type alternative using an inherited attribute'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Non-boolean value for "inheritable"'
                                 ),
                             ]
@@ -4152,16 +4152,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9007err.xsd"
+                        href='../saxonData/CTA/cta9007err.xsd'
                     ),
                 ],
                 expected=[
@@ -4173,9 +4173,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9007err"
+                name='cta9007err'
             ),
-            name="cta9007err",
+            name='cta9007err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4187,12 +4187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Error, alternative is not substitutable for the declared type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Error, alternative is not substitutable for the declared type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Each alternative must be substitutable for declared type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Each alternative must be substitutable for declared type'
                                 ),
                             ]
                         ),
@@ -4201,16 +4201,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9008err.xsd"
+                        href='../saxonData/CTA/cta9008err.xsd'
                     ),
                 ],
                 expected=[
@@ -4222,9 +4222,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9008err"
+                name='cta9008err'
             ),
-            name="cta9008err",
+            name='cta9008err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4236,12 +4236,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Declarations Consistent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; disallowed because they have different type tables"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two particles in a content model have the same name; disallowed because they have different type tables'
                                 ),
                             ]
                         ),
@@ -4250,16 +4250,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9009err.xsd"
+                        href='../saxonData/CTA/cta9009err.xsd'
                     ),
                 ],
                 expected=[
@@ -4271,9 +4271,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9009err"
+                name='cta9009err'
             ),
-            name="cta9009err",
+            name='cta9009err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -4285,12 +4285,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element Declarations Consistent'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; disallowed because they have different type tables"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two particles in a content model have the same name; disallowed because they have different type tables'
                                 ),
                             ]
                         ),
@@ -4299,16 +4299,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/CTA/cta9010err.xsd"
+                        href='../saxonData/CTA/cta9010err.xsd'
                     ),
                 ],
                 expected=[
@@ -4320,20 +4320,20 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 15)
                 ),
-                name="cta9010err"
+                name='cta9010err'
             ),
-            name="cta9010err",
+            name='cta9010err',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="CTA",
+    contributor='Saxonica',
+    name='CTA',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

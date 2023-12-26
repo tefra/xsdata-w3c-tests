@@ -6,8 +6,8 @@ obj = Root(
     b=1,
     any_element=[
         AnyElement(
-            qname="{a}x",
-            text="1"
+            qname='{a}x',
+            text='1'
         ),
     ],
     c=1

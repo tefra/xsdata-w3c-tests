@@ -31,7 +31,7 @@ class Base:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Doc(Base):
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

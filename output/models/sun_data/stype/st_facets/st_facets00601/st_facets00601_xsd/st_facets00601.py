@@ -11,7 +11,7 @@ class S(Enum):
     C_C = "c__c"
     D_D = "d··d"
     E_E = "e··e"
-    F_F = "f۝۝f"
+    F_F = "f\u06dd\u06ddf"
     G_G = "g۞۞g"
 
 
@@ -28,5 +28,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 7,
-        }
+        },
     )

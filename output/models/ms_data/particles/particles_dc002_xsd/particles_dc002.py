@@ -15,7 +15,7 @@ class Elem2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Elem3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -44,5 +44,5 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

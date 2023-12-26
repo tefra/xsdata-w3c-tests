@@ -16,14 +16,14 @@ class Ct1:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 5,
-        }
+        },
     )
     bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -37,14 +37,14 @@ class Ct2:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -58,7 +58,7 @@ class B:
             "min_occurs": 1,
             "max_occurs": 9,
             "sequence": 1,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -68,7 +68,7 @@ class B:
             "min_occurs": 1,
             "max_occurs": 9,
             "sequence": 1,
-        }
+        },
     )
     e3: List[object] = field(
         default_factory=list,
@@ -78,7 +78,7 @@ class B:
             "min_occurs": 1,
             "max_occurs": 9,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -95,14 +95,14 @@ class R(B):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -118,5 +118,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

@@ -10,5 +10,5 @@ class Root:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

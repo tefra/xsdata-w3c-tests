@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength4(
-    value="ireference_for_and-areas_must_industry.a.and.interconnected-c"
+    value='ireference_for_and-areas_must_industry.a.and.interconnected-c'
 )

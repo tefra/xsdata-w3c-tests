@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern1(
-    value="athe.appropriate.landscape-browsers-and.donate"
+    value='athe.appropriate.landscape-browsers-and.donate'
 )

@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.decimal.decimal_pattern001_xsd.decim
 
 
 obj = Test(
-    foo="5.55"
+    foo='5.55'
 )

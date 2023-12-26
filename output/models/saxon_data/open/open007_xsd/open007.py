@@ -12,7 +12,7 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )
     a: List[object] = field(
         default_factory=list,
@@ -21,12 +21,12 @@ class Doc:
             "namespace": "",
             "min_occurs": 5,
             "max_occurs": 10,
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

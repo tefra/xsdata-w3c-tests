@@ -13,7 +13,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "max_occurs": 999999999,
-        }
+        },
     )
 
 

@@ -20,14 +20,14 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "http://foo.com",
-        }
+        },
     )
     att: Optional[SimpleType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://foo.com",
-        }
+        },
     )
 
 

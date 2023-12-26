@@ -17,5 +17,5 @@ class Root:
         ],
         metadata={
             "tokens": True,
-        }
+        },
     )

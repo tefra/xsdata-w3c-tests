@@ -25,12 +25,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a model group schema component (all) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a model group schema component (all) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (all)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).'
                                 ),
                             ]
                         ),
@@ -39,13 +39,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -57,12 +57,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -73,10 +73,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -85,12 +85,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a model group schema component (choice) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a model group schema component (choice) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (choice)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).'
                                 ),
                             ]
                         ),
@@ -99,13 +99,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m10.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m10.xsd'
                     ),
                 ],
                 expected=[
@@ -117,12 +117,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m10"
+                name='annotation00101m10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m10_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m10_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -133,10 +133,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m10"
+            name='annotation00101m10'
         ),
         TestGroup(
             annotation=[
@@ -145,12 +145,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a model group schema component (choice) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a model group schema component (choice) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (choice).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -159,13 +159,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m11.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m11.xsd'
                     ),
                 ],
                 expected=[
@@ -177,9 +177,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m11"
+                name='annotation00101m11'
             ),
-            name="annotation00101m11"
+            name='annotation00101m11'
         ),
         TestGroup(
             annotation=[
@@ -188,12 +188,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for a model group schema component (choice) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for a model group schema component (choice) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (choice).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -202,13 +202,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m12.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m12.xsd'
                     ),
                 ],
                 expected=[
@@ -220,9 +220,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m12"
+                name='annotation00101m12'
             ),
-            name="annotation00101m12"
+            name='annotation00101m12'
         ),
         TestGroup(
             annotation=[
@@ -231,12 +231,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a model group schema component (sequence) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a model group schema component (sequence) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (sequence)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).'
                                 ),
                             ]
                         ),
@@ -245,13 +245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m13.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m13.xsd'
                     ),
                 ],
                 expected=[
@@ -263,12 +263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m13"
+                name='annotation00101m13'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m13_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m13_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -279,10 +279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m13"
+            name='annotation00101m13'
         ),
         TestGroup(
             annotation=[
@@ -291,12 +291,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a model group schema component (sequence) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a model group schema component (sequence) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (sequence).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -305,13 +305,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m14.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m14.xsd'
                     ),
                 ],
                 expected=[
@@ -323,9 +323,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m14"
+                name='annotation00101m14'
             ),
-            name="annotation00101m14"
+            name='annotation00101m14'
         ),
         TestGroup(
             annotation=[
@@ -334,12 +334,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (sequence).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -348,13 +348,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m15.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m15.xsd'
                     ),
                 ],
                 expected=[
@@ -366,9 +366,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m15"
+                name='annotation00101m15'
             ),
-            name="annotation00101m15"
+            name='annotation00101m15'
         ),
         TestGroup(
             annotation=[
@@ -377,12 +377,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a model group schema component (sequence) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a model group schema component (sequence) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (sequence)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).'
                                 ),
                             ]
                         ),
@@ -391,13 +391,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m16.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m16.xsd'
                     ),
                 ],
                 expected=[
@@ -409,12 +409,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m16"
+                name='annotation00101m16'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m16_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m16_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -425,10 +425,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m16"
+            name='annotation00101m16'
         ),
         TestGroup(
             annotation=[
@@ -437,12 +437,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a model group schema component (sequence) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a model group schema component (sequence) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (sequence).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -451,13 +451,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m17.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m17.xsd'
                     ),
                 ],
                 expected=[
@@ -469,9 +469,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m17"
+                name='annotation00101m17'
             ),
-            name="annotation00101m17"
+            name='annotation00101m17'
         ),
         TestGroup(
             annotation=[
@@ -480,12 +480,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for a model group schema component (sequence) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (sequence).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (sequence).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -494,13 +494,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m18.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m18.xsd'
                     ),
                 ],
                 expected=[
@@ -512,9 +512,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m18"
+                name='annotation00101m18'
             ),
-            name="annotation00101m18"
+            name='annotation00101m18'
         ),
         TestGroup(
             annotation=[
@@ -523,12 +523,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a model group schema component (all) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a model group schema component (all) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (all).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -537,13 +537,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -555,9 +555,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -566,12 +566,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for a model group schema component (all) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for a model group schema component (all) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (all).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -580,13 +580,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -598,9 +598,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -609,12 +609,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a model group schema component (all) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a model group schema component (all) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (all)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).'
                                 ),
                             ]
                         ),
@@ -623,13 +623,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -641,12 +641,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m4_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -657,10 +657,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -669,12 +669,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a model group schema component (all) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a model group schema component (all) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (all).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -683,13 +683,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m5.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -701,9 +701,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m5"
+                name='annotation00101m5'
             ),
-            name="annotation00101m5"
+            name='annotation00101m5'
         ),
         TestGroup(
             annotation=[
@@ -712,12 +712,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for a model group schema component (all) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for a model group schema component (all) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a model group schema component (all).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a model group schema component (all).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -726,13 +726,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m6.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -744,9 +744,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m6"
+                name='annotation00101m6'
             ),
-            name="annotation00101m6"
+            name='annotation00101m6'
         ),
         TestGroup(
             annotation=[
@@ -755,12 +755,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a model group schema component (choice) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a model group schema component (choice) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (choice)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).'
                                 ),
                             ]
                         ),
@@ -769,13 +769,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m7.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m7.xsd'
                     ),
                 ],
                 expected=[
@@ -787,12 +787,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m7"
+                name='annotation00101m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m7_p.xml"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -803,10 +803,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m7"
+            name='annotation00101m7'
         ),
         TestGroup(
             annotation=[
@@ -815,12 +815,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a model group schema component (choice) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a model group schema component (choice) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (choice).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -829,13 +829,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m8.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m8.xsd'
                     ),
                 ],
                 expected=[
@@ -847,9 +847,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m8"
+                name='annotation00101m8'
             ),
-            name="annotation00101m8"
+            name='annotation00101m8'
         ),
         TestGroup(
             annotation=[
@@ -858,12 +858,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for a model group schema component (choice) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for a model group schema component (choice) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a model group schema component (choice).&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a model group schema component (choice).\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -872,13 +872,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/annotation/annotation00101m/annotation00101m9.xsd"
+                        href='../sunData/MGroup/annotation/annotation00101m/annotation00101m9.xsd'
                     ),
                 ],
                 expected=[
@@ -890,9 +890,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m9"
+                name='annotation00101m9'
             ),
-            name="annotation00101m9"
+            name='annotation00101m9'
         ),
         TestGroup(
             annotation=[
@@ -901,12 +901,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {compositor} is &lt;sequence&gt; of 3 elements, {particles} are element declarations (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {compositor} is <sequence> of 3 elements, {particles} are element declarations (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Validation Rule: Element Sequence Valid case #1"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Validation Rule: Element Sequence Valid case #1'
                                 ),
                             ]
                         ),
@@ -915,13 +915,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00101m/compositor00101m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00101m/compositor00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -933,12 +933,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00101m1"
+                name='compositor00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00101m/compositor00101m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00101m/compositor00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -949,11 +949,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00101m/compositor00101m1_n.xml"
+                        href='../sunData/MGroup/compositor/compositor00101m/compositor00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -964,10 +964,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="compositor00101m1"
+            name='compositor00101m1'
         ),
         TestGroup(
             annotation=[
@@ -976,12 +976,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {compositor} is choice, {particles} are element declarations (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {compositor} is choice, {particles} are element declarations (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Validation Rule: Element Sequence Valid case #2"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Validation Rule: Element Sequence Valid case #2'
                                 ),
                             ]
                         ),
@@ -990,13 +990,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00102m/compositor00102m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00102m/compositor00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1008,12 +1008,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00102m1"
+                name='compositor00102m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00102m/compositor00102m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00102m/compositor00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1024,11 +1024,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00102m/compositor00102m1_n.xml"
+                        href='../sunData/MGroup/compositor/compositor00102m/compositor00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1039,10 +1039,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="compositor00102m1"
+            name='compositor00102m1'
         ),
         TestGroup(
             annotation=[
@@ -1051,12 +1051,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {compositor} is all, {particles} are element declarations (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {compositor} is all, {particles} are element declarations (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Validation Rule: Element Sequence Valid case #3"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Validation Rule: Element Sequence Valid case #3'
                                 ),
                             ]
                         ),
@@ -1065,13 +1065,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00103m/compositor00103m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00103m/compositor00103m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1083,12 +1083,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00103m1"
+                name='compositor00103m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00103m/compositor00103m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00103m/compositor00103m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1099,11 +1099,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00103m/compositor00103m1_n.xml"
+                        href='../sunData/MGroup/compositor/compositor00103m/compositor00103m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1114,10 +1114,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="compositor00103m1"
+            name='compositor00103m1'
         ),
         TestGroup(
             annotation=[
@@ -1126,12 +1126,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An empty sequence (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An empty sequence (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The XMLSchema specification allows an empty sequence."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The XMLSchema specification allows an empty sequence.'
                                 ),
                             ]
                         ),
@@ -1140,13 +1140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00201m/compositor00201m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00201m/compositor00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1158,12 +1158,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00201m1"
+                name='compositor00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00201m/compositor00201m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00201m/compositor00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1174,10 +1174,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="compositor00201m1"
+            name='compositor00201m1'
         ),
         TestGroup(
             annotation=[
@@ -1186,12 +1186,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An empty choice (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An empty choice (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The XMLSchema specification allows an empty choice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The XMLSchema specification allows an empty choice.'
                                 ),
                             ]
                         ),
@@ -1200,13 +1200,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00202m/compositor00202m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00202m/compositor00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1218,12 +1218,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00202m1"
+                name='compositor00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00202m/compositor00202m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00202m/compositor00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1234,10 +1234,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="compositor00202m1"
+            name='compositor00202m1'
         ),
         TestGroup(
             annotation=[
@@ -1246,12 +1246,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An empty all (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An empty all (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The XMLSchema specification allows an empty all."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The XMLSchema specification allows an empty all.'
                                 ),
                             ]
                         ),
@@ -1260,13 +1260,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/compositor/compositor00203m/compositor00203m1.xsd"
+                        href='../sunData/MGroup/compositor/compositor00203m/compositor00203m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1278,12 +1278,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="compositor00203m1"
+                name='compositor00203m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/compositor/compositor00203m/compositor00203m1_p.xml"
+                        href='../sunData/MGroup/compositor/compositor00203m/compositor00203m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1294,10 +1294,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="compositor00203m1"
+            name='compositor00203m1'
         ),
         TestGroup(
             annotation=[
@@ -1306,12 +1306,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 1 &lt;element&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 1 <element> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>."
                                 ),
                             ]
                         ),
@@ -1320,13 +1320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m1.xsd"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1338,12 +1338,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00101m1"
+                name='particles00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1354,11 +1354,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1369,10 +1369,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00101m1"
+            name='particles00101m1'
         ),
         TestGroup(
             annotation=[
@@ -1381,12 +1381,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;element&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <element> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>."
                                 ),
                             ]
                         ),
@@ -1395,13 +1395,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m2.xsd"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1413,12 +1413,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00101m2"
+                name='particles00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m2_p.xml"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1429,11 +1429,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00101m/particles00101m2_n.xml"
+                        href='../sunData/MGroup/particles/particles00101m/particles00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1444,10 +1444,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00101m2"
+            name='particles00101m2'
         ),
         TestGroup(
             annotation=[
@@ -1456,12 +1456,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="&lt;group&gt; as one of {particles} (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='<group> as one of {particles} (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;. So &lt;group&gt; is prohibited."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>. So <group> is prohibited."
                                 ),
                             ]
                         ),
@@ -1470,13 +1470,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00102m/particles00102m1.xsd"
+                        href='../sunData/MGroup/particles/particles00102m/particles00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1488,9 +1488,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00102m1"
+                name='particles00102m1'
             ),
-            name="particles00102m1"
+            name='particles00102m1'
         ),
         TestGroup(
             annotation=[
@@ -1499,12 +1499,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="&lt;sequence&gt; as one of {particles} (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='<sequence> as one of {particles} (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;. So &lt;sequence&gt; is prohibited."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>. So <sequence> is prohibited."
                                 ),
                             ]
                         ),
@@ -1513,13 +1513,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00103m/particles00103m1.xsd"
+                        href='../sunData/MGroup/particles/particles00103m/particles00103m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1531,9 +1531,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00103m1"
+                name='particles00103m1'
             ),
-            name="particles00103m1"
+            name='particles00103m1'
         ),
         TestGroup(
             annotation=[
@@ -1542,18 +1542,18 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="&lt;any&gt; as one of {particles} (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='<any> as one of {particles} (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;. So &lt;any&gt; is prohibited."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>. So <any> is prohibited."
                                 ),
                             ]
                         ),
                         Documentation(
                             content=[
-                                "&#10;                Wildcards in an xs:all group become legal in XSD 1.1 - MHK&#10;            ",
+                                '\n                Wildcards in an xs:all group become legal in XSD 1.1 - MHK\n            ',
                             ]
                         ),
                     ]
@@ -1561,16 +1561,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00104m/particles00104m1.xsd"
+                        href='../sunData/MGroup/particles/particles00104m/particles00104m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1591,9 +1591,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00104m1"
+                name='particles00104m1'
             ),
-            name="particles00104m1"
+            name='particles00104m1'
         ),
         TestGroup(
             annotation=[
@@ -1602,12 +1602,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="&lt;choice&gt; as one of {particles} (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='<choice> as one of {particles} (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'all' must be &lt;element&gt;. So &lt;choice&gt; is prohibited."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'all' must be <element>. So <choice> is prohibited."
                                 ),
                             ]
                         ),
@@ -1616,13 +1616,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00105m/particles00105m1.xsd"
+                        href='../sunData/MGroup/particles/particles00105m/particles00105m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1634,9 +1634,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00105m1"
+                name='particles00105m1'
             ),
-            name="particles00105m1"
+            name='particles00105m1'
         ),
         TestGroup(
             annotation=[
@@ -1645,12 +1645,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;element&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <element> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'choice' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -1659,13 +1659,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00201m/particles00201m1.xsd"
+                        href='../sunData/MGroup/particles/particles00201m/particles00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1677,12 +1677,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00201m1"
+                name='particles00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00201m/particles00201m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00201m/particles00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1693,11 +1693,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00201m/particles00201m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00201m/particles00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1708,10 +1708,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00201m1"
+            name='particles00201m1'
         ),
         TestGroup(
             annotation=[
@@ -1720,12 +1720,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;group&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <group> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'choice' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -1734,13 +1734,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00202m/particles00202m1.xsd"
+                        href='../sunData/MGroup/particles/particles00202m/particles00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1752,12 +1752,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00202m1"
+                name='particles00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00202m/particles00202m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00202m/particles00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1768,11 +1768,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00202m/particles00202m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00202m/particles00202m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1783,10 +1783,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00202m1"
+            name='particles00202m1'
         ),
         TestGroup(
             annotation=[
@@ -1795,12 +1795,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;choice&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <choice> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'choice' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -1809,13 +1809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00203m/particles00203m1.xsd"
+                        href='../sunData/MGroup/particles/particles00203m/particles00203m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1827,12 +1827,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00203m1"
+                name='particles00203m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00203m/particles00203m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00203m/particles00203m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1843,11 +1843,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00203m/particles00203m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00203m/particles00203m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1858,10 +1858,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00203m1"
+            name='particles00203m1'
         ),
         TestGroup(
             annotation=[
@@ -1870,12 +1870,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;sequence&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <sequence> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'choice' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -1884,13 +1884,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00204m/particles00204m1.xsd"
+                        href='../sunData/MGroup/particles/particles00204m/particles00204m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1902,12 +1902,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00204m1"
+                name='particles00204m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00204m/particles00204m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00204m/particles00204m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1918,11 +1918,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00204m/particles00204m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00204m/particles00204m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1933,10 +1933,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00204m1"
+            name='particles00204m1'
         ),
         TestGroup(
             annotation=[
@@ -1945,12 +1945,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 1 &lt;any&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 1 <any> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'choice' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'choice' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -1959,13 +1959,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00205m/particles00205m1.xsd"
+                        href='../sunData/MGroup/particles/particles00205m/particles00205m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1977,12 +1977,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00205m1"
+                name='particles00205m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00205m/particles00205m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00205m/particles00205m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1993,11 +1993,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00205m/particles00205m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00205m/particles00205m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2008,10 +2008,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00205m1"
+            name='particles00205m1'
         ),
         TestGroup(
             annotation=[
@@ -2020,12 +2020,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;element&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <element> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'sequence' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -2034,13 +2034,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00301m/particles00301m1.xsd"
+                        href='../sunData/MGroup/particles/particles00301m/particles00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2052,12 +2052,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00301m1"
+                name='particles00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00301m/particles00301m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00301m/particles00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2068,11 +2068,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00301m/particles00301m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00301m/particles00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2083,10 +2083,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00301m1"
+            name='particles00301m1'
         ),
         TestGroup(
             annotation=[
@@ -2095,12 +2095,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;group&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <group> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'sequence' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -2109,13 +2109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00302m/particles00302m1.xsd"
+                        href='../sunData/MGroup/particles/particles00302m/particles00302m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2127,12 +2127,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00302m1"
+                name='particles00302m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00302m/particles00302m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00302m/particles00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2143,11 +2143,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00302m/particles00302m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00302m/particles00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2158,10 +2158,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00302m1"
+            name='particles00302m1'
         ),
         TestGroup(
             annotation=[
@@ -2170,12 +2170,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;choice&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <choice> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'sequence' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -2184,13 +2184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00303m/particles00303m1.xsd"
+                        href='../sunData/MGroup/particles/particles00303m/particles00303m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2202,12 +2202,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00303m1"
+                name='particles00303m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00303m/particles00303m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00303m/particles00303m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2218,11 +2218,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00303m/particles00303m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00303m/particles00303m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2233,10 +2233,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00303m1"
+            name='particles00303m1'
         ),
         TestGroup(
             annotation=[
@@ -2245,12 +2245,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 2 &lt;sequence&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 2 <sequence> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'sequence' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -2259,13 +2259,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00304m/particles00304m1.xsd"
+                        href='../sunData/MGroup/particles/particles00304m/particles00304m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2277,12 +2277,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00304m1"
+                name='particles00304m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00304m/particles00304m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00304m/particles00304m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2293,11 +2293,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00304m/particles00304m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00304m/particles00304m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2308,10 +2308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00304m1"
+            name='particles00304m1'
         ),
         TestGroup(
             annotation=[
@@ -2320,12 +2320,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{particles}: 1 &lt;any&gt; (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{particles}: 1 <any> (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The {particles} of 'sequence' must be one of &lt;element&gt;, &lt;group&gt;,&#10;                              &lt;choice&gt;, &lt;sequence&gt; &lt;any&gt;."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="The {particles} of 'sequence' must be one of <element>, <group>,\n                              <choice>, <sequence> <any>."
                                 ),
                             ]
                         ),
@@ -2334,13 +2334,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Model_Groups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/MGroup/particles/particles00305m/particles00305m1.xsd"
+                        href='../sunData/MGroup/particles/particles00305m/particles00305m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2352,12 +2352,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="particles00305m1"
+                name='particles00305m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00305m/particles00305m1_p.xml"
+                        href='../sunData/MGroup/particles/particles00305m/particles00305m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2368,11 +2368,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/MGroup/particles/particles00305m/particles00305m1_n.xml"
+                        href='../sunData/MGroup/particles/particles00305m/particles00305m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2383,15 +2383,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="particles00305m1"
+            name='particles00305m1'
         ),
     ],
-    contributor="SUN",
-    name="MGroup",
+    contributor='SUN',
+    name='MGroup',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -23,7 +23,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions demonstrating co-occurence constraints, along with an assertion constraining&#10;&#9;&#9;&#9; element's simpleContent value.&#10;&#9;&#9; ",
+                                "\n\t\t     Assertions demonstrating co-occurence constraints, along with an assertion constraining\n\t\t\t element's simpleContent value.\n\t\t ",
                             ]
                         ),
                     ]
@@ -31,16 +31,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test1.xsd"
+                        href='../ibmData/mixed/assertions/test1.xsd'
                     ),
                 ],
                 expected=[
@@ -52,12 +52,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_001_1"
+                name='assert_001_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test1.xml"
+                        href='../ibmData/mixed/assertions/test1.xml'
                     ),
                     expected=[
                         Expected(
@@ -68,10 +68,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_001_2"
+                    name='assert_001_2'
                 ),
             ],
-            name="assert_001",
+            name='assert_001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -82,7 +82,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions demonstrating co-occurence constraints (constraints between an attribute value and elements). &#10;&#9;&#9; ",
+                                '\n\t\t     Assertions demonstrating co-occurence constraints (constraints between an attribute value and elements). \n\t\t ',
                             ]
                         ),
                     ]
@@ -90,16 +90,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test2.xsd"
+                        href='../ibmData/mixed/assertions/test2.xsd'
                     ),
                 ],
                 expected=[
@@ -111,12 +111,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_002_1"
+                name='assert_002_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test2_1.xml"
+                        href='../ibmData/mixed/assertions/test2_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -127,11 +127,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_002_2"
+                    name='assert_002_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test2_2.xml"
+                        href='../ibmData/mixed/assertions/test2_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -142,10 +142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_002_3"
+                    name='assert_002_3'
                 ),
             ],
-            name="assert_002",
+            name='assert_002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -156,7 +156,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on a complex type, with relatively bigger content model.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on a complex type, with relatively bigger content model.\n\t\t ',
                             ]
                         ),
                     ]
@@ -164,16 +164,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test3.xsd"
+                        href='../ibmData/mixed/assertions/test3.xsd'
                     ),
                 ],
                 expected=[
@@ -185,12 +185,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_003_1"
+                name='assert_003_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test3.xml"
+                        href='../ibmData/mixed/assertions/test3.xml'
                     ),
                     expected=[
                         Expected(
@@ -201,10 +201,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_003_2"
+                    name='assert_003_2'
                 ),
             ],
-            name="assert_003",
+            name='assert_003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -215,7 +215,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Multiple assertions on a complex type, with a fictitious problem description.&#10;&#9;&#9; ",
+                                '\n\t\t     Multiple assertions on a complex type, with a fictitious problem description.\n\t\t ',
                             ]
                         ),
                     ]
@@ -223,16 +223,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test4.xsd"
+                        href='../ibmData/mixed/assertions/test4.xsd'
                     ),
                 ],
                 expected=[
@@ -244,12 +244,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_004_1"
+                name='assert_004_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test4.xml"
+                        href='../ibmData/mixed/assertions/test4.xml'
                     ),
                     expected=[
                         Expected(
@@ -260,10 +260,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_004_2"
+                    name='assert_004_2'
                 ),
             ],
-            name="assert_004",
+            name='assert_004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -274,7 +274,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    Multiple assertions on a sample 'simple type'.&#10;&#9;&#9; ",
+                                "\n\t\t    Multiple assertions on a sample 'simple type'.\n\t\t ",
                             ]
                         ),
                     ]
@@ -282,16 +282,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test5.xsd"
+                        href='../ibmData/mixed/assertions/test5.xsd'
                     ),
                 ],
                 expected=[
@@ -303,12 +303,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_005_1"
+                name='assert_005_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test5.xml"
+                        href='../ibmData/mixed/assertions/test5.xml'
                     ),
                     expected=[
                         Expected(
@@ -319,10 +319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_005_2"
+                    name='assert_005_2'
                 ),
             ],
-            name="assert_005",
+            name='assert_005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -333,7 +333,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on complexType -&gt; complexContent, with inheritance relationship between schema types.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on complexType -> complexContent, with inheritance relationship between schema types.\n\t\t ',
                             ]
                         ),
                     ]
@@ -341,16 +341,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test6.xsd"
+                        href='../ibmData/mixed/assertions/test6.xsd'
                     ),
                 ],
                 expected=[
@@ -362,12 +362,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_006_1"
+                name='assert_006_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test6.xml"
+                        href='../ibmData/mixed/assertions/test6.xml'
                     ),
                     expected=[
                         Expected(
@@ -378,10 +378,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_006_2"
+                    name='assert_006_2'
                 ),
             ],
-            name="assert_006",
+            name='assert_006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -392,7 +392,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    Assertions on schema "simple type" definitions, with inheritance relationship.&#10;&#9;&#9; ',
+                                '\n\t\t    Assertions on schema "simple type" definitions, with inheritance relationship.\n\t\t ',
                             ]
                         ),
                     ]
@@ -400,16 +400,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test7.xsd"
+                        href='../ibmData/mixed/assertions/test7.xsd'
                     ),
                 ],
                 expected=[
@@ -421,12 +421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_007_1"
+                name='assert_007_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test7.xml"
+                        href='../ibmData/mixed/assertions/test7.xml'
                     ),
                     expected=[
                         Expected(
@@ -437,10 +437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_007_2"
+                    name='assert_007_2'
                 ),
             ],
-            name="assert_007",
+            name='assert_007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -451,7 +451,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;     Assertions on schema "complex type" definitions, having attribute with simple content.&#10;&#9;&#9; ',
+                                '\n\t\t     Assertions on schema "complex type" definitions, having attribute with simple content.\n\t\t ',
                             ]
                         ),
                     ]
@@ -459,16 +459,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test8.xsd"
+                        href='../ibmData/mixed/assertions/test8.xsd'
                     ),
                 ],
                 expected=[
@@ -480,12 +480,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_008_1"
+                name='assert_008_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test8.xml"
+                        href='../ibmData/mixed/assertions/test8.xml'
                     ),
                     expected=[
                         Expected(
@@ -496,10 +496,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_008_2"
+                    name='assert_008_2'
                 ),
             ],
-            name="assert_008",
+            name='assert_008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -510,7 +510,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on simple type, using assertions XPath 2.0 context variable $value.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on simple type, using assertions XPath 2.0 context variable $value.\n\t\t ',
                             ]
                         ),
                     ]
@@ -518,16 +518,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test9.xsd"
+                        href='../ibmData/mixed/assertions/test9.xsd'
                     ),
                 ],
                 expected=[
@@ -539,12 +539,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_009_1"
+                name='assert_009_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test9.xml"
+                        href='../ibmData/mixed/assertions/test9.xml'
                     ),
                     expected=[
                         Expected(
@@ -555,10 +555,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_009_2"
+                    name='assert_009_2'
                 ),
             ],
-            name="assert_009",
+            name='assert_009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -569,7 +569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on complex type derivations.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on complex type derivations.\n\t\t ',
                             ]
                         ),
                     ]
@@ -577,16 +577,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test10.xsd"
+                        href='../ibmData/mixed/assertions/test10.xsd'
                     ),
                 ],
                 expected=[
@@ -598,12 +598,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_010_1"
+                name='assert_010_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test10.xml"
+                        href='../ibmData/mixed/assertions/test10.xml'
                     ),
                     expected=[
                         Expected(
@@ -614,10 +614,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_010_2"
+                    name='assert_010_2'
                 ),
             ],
-            name="assert_010",
+            name='assert_010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -628,7 +628,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on complex type, using xpathDefaultNamespace attribute on xs:assert.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on complex type, using xpathDefaultNamespace attribute on xs:assert.\n\t\t ',
                             ]
                         ),
                     ]
@@ -636,16 +636,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test11.xsd"
+                        href='../ibmData/mixed/assertions/test11.xsd'
                     ),
                 ],
                 expected=[
@@ -657,12 +657,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_011_1"
+                name='assert_011_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test11.xml"
+                        href='../ibmData/mixed/assertions/test11.xml'
                     ),
                     expected=[
                         Expected(
@@ -673,10 +673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_011_2"
+                    name='assert_011_2'
                 ),
             ],
-            name="assert_011",
+            name='assert_011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -687,7 +687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Multiple assertions on a complexType, with a fictitious problem description.&#10;&#9;&#9; ",
+                                '\n\t\t     Multiple assertions on a complexType, with a fictitious problem description.\n\t\t ',
                             ]
                         ),
                     ]
@@ -695,16 +695,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test12.xsd"
+                        href='../ibmData/mixed/assertions/test12.xsd'
                     ),
                 ],
                 expected=[
@@ -716,12 +716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_012_1"
+                name='assert_012_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test12.xml"
+                        href='../ibmData/mixed/assertions/test12.xml'
                     ),
                     expected=[
                         Expected(
@@ -732,10 +732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_012_2"
+                    name='assert_012_2'
                 ),
             ],
-            name="assert_012",
+            name='assert_012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -746,7 +746,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;     Assertions on a fictitious numerical example.&#10;&#9;&#9; ",
+                                '\n\t\t     Assertions on a fictitious numerical example.\n\t\t ',
                             ]
                         ),
                     ]
@@ -754,16 +754,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypesr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypesr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test13.xsd"
+                        href='../ibmData/mixed/assertions/test13.xsd'
                     ),
                 ],
                 expected=[
@@ -775,12 +775,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_013_1"
+                name='assert_013_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test13.xml"
+                        href='../ibmData/mixed/assertions/test13.xml'
                     ),
                     expected=[
                         Expected(
@@ -791,10 +791,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_013_2"
+                    name='assert_013_2'
                 ),
             ],
-            name="assert_013",
+            name='assert_013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -805,7 +805,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    Assertion defined on attribute's schema type. Uses assertions XPath 2.0 context variable $value.&#10;&#9;&#9; ",
+                                "\n\t\t    Assertion defined on attribute's schema type. Uses assertions XPath 2.0 context variable $value.\n\t\t ",
                             ]
                         ),
                     ]
@@ -813,16 +813,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test14.xsd"
+                        href='../ibmData/mixed/assertions/test14.xsd'
                     ),
                 ],
                 expected=[
@@ -834,12 +834,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_014_1"
+                name='assert_014_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test14.xml"
+                        href='../ibmData/mixed/assertions/test14.xml'
                     ),
                     expected=[
                         Expected(
@@ -850,10 +850,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_014_2"
+                    name='assert_014_2'
                 ),
             ],
-            name="assert_014",
+            name='assert_014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -864,7 +864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    Describing relatively involved assertions. Assertions are described in the data file&#10;&#9;&#9;&#9;itself at xs:assert/xs:annotation. &#10;&#9;&#9; ",
+                                '\n\t\t    Describing relatively involved assertions. Assertions are described in the data file\n\t\t\titself at xs:assert/xs:annotation. \n\t\t ',
                             ]
                         ),
                     ]
@@ -872,16 +872,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test15.xsd"
+                        href='../ibmData/mixed/assertions/test15.xsd'
                     ),
                 ],
                 expected=[
@@ -893,12 +893,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_015_1"
+                name='assert_015_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test15.xml"
+                        href='../ibmData/mixed/assertions/test15.xml'
                     ),
                     expected=[
                         Expected(
@@ -909,10 +909,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_015_2"
+                    name='assert_015_2'
                 ),
             ],
-            name="assert_015",
+            name='assert_015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -923,7 +923,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    Describing both xs:assert &amp; xs:assertion on complexType -&gt; simpleContent -&gt; restriction. &#10;&#9;&#9; ",
+                                '\n\t\t    Describing both xs:assert & xs:assertion on complexType -> simpleContent -> restriction. \n\t\t ',
                             ]
                         ),
                     ]
@@ -931,16 +931,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#element-simpleContent"
+                    href='http://www.w3.org/TR/xmlschema11-1/#element-simpleContent'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test16.xsd"
+                        href='../ibmData/mixed/assertions/test16.xsd'
                     ),
                 ],
                 expected=[
@@ -952,12 +952,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_016_1"
+                name='assert_016_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test16.xml"
+                        href='../ibmData/mixed/assertions/test16.xml'
                     ),
                     expected=[
                         Expected(
@@ -968,10 +968,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_016_2"
+                    name='assert_016_2'
                 ),
             ],
-            name="assert_016",
+            name='assert_016',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -982,7 +982,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An assertions example, where an XML schema xs:group definition is reused in different schema types,&#10;&#9;&#9;&#9;and cardinality of element particles in different types is controlled via schema assertions.&#10;&#9;&#9; ",
+                                '\n\t\t    An assertions example, where an XML schema xs:group definition is reused in different schema types,\n\t\t\tand cardinality of element particles in different types is controlled via schema assertions.\n\t\t ',
                             ]
                         ),
                     ]
@@ -990,16 +990,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test17.xsd"
+                        href='../ibmData/mixed/assertions/test17.xsd'
                     ),
                 ],
                 expected=[
@@ -1011,12 +1011,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_017_1"
+                name='assert_017_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test17.xml"
+                        href='../ibmData/mixed/assertions/test17.xml'
                     ),
                     expected=[
                         Expected(
@@ -1027,10 +1027,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_017_2"
+                    name='assert_017_2'
                 ),
             ],
-            name="assert_017",
+            name='assert_017',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1041,7 +1041,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    This is similar to test 'assert_017', but element a's schema type in xs:group definition here has an&#10;&#9;&#9;&#9;additional assertion.&#10;&#9;&#9; ",
+                                "\n\t\t    This is similar to test 'assert_017', but element a's schema type in xs:group definition here has an\n\t\t\tadditional assertion.\n\t\t ",
                             ]
                         ),
                     ]
@@ -1049,16 +1049,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/test18.xsd"
+                        href='../ibmData/mixed/assertions/test18.xsd'
                     ),
                 ],
                 expected=[
@@ -1070,12 +1070,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_018_1"
+                name='assert_018_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test18_1.xml"
+                        href='../ibmData/mixed/assertions/test18_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1086,11 +1086,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_018_2"
+                    name='assert_018_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/test18_2.xml"
+                        href='../ibmData/mixed/assertions/test18_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1101,10 +1101,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_018_3"
+                    name='assert_018_3'
                 ),
             ],
-            name="assert_018",
+            name='assert_018',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1115,7 +1115,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    A sample "purchase order" instance validation with an XML schema, using XSD 1.1 assertions.&#10;&#9;&#9; ',
+                                '\n\t\t    A sample "purchase order" instance validation with an XML schema, using XSD 1.1 assertions.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1123,16 +1123,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/po_sample/po.xsd"
+                        href='../ibmData/mixed/assertions/po_sample/po.xsd'
                     ),
                 ],
                 expected=[
@@ -1144,12 +1144,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_019_1"
+                name='assert_019_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/po_sample/po.xml"
+                        href='../ibmData/mixed/assertions/po_sample/po.xml'
                     ),
                     expected=[
                         Expected(
@@ -1160,10 +1160,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_019_2"
+                    name='assert_019_2'
                 ),
             ],
-            name="assert_019",
+            name='assert_019',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1174,7 +1174,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization&#10;&#9;&#9;&#9;must happen on the data.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1182,16 +1182,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test1.xsd"
+                        href='../ibmData/mixed/assertions/whitespace/test1.xsd'
                     ),
                 ],
                 expected=[
@@ -1203,12 +1203,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_020_1"
+                name='assert_020_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test1.xml"
+                        href='../ibmData/mixed/assertions/whitespace/test1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1219,10 +1219,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_020_2"
+                    name='assert_020_2'
                 ),
             ],
-            name="assert_020",
+            name='assert_020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1233,7 +1233,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating assertions evaluation, with a xs:string schema type when white-space normalization&#10;&#9;&#9;&#9;must not happen on the data.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating assertions evaluation, with a xs:string schema type when white-space normalization\n\t\t\tmust not happen on the data.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1241,16 +1241,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test2.xsd"
+                        href='../ibmData/mixed/assertions/whitespace/test2.xsd'
                     ),
                 ],
                 expected=[
@@ -1262,12 +1262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_021_1"
+                name='assert_021_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test1.xml"
+                        href='../ibmData/mixed/assertions/whitespace/test1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1278,10 +1278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_021_2"
+                    name='assert_021_2'
                 ),
             ],
-            name="assert_021",
+            name='assert_021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1292,7 +1292,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization&#10;&#9;&#9;&#9;must happen on the data. The example demonstrates ignoring of comments within XML elements (which have simple schema values),&#10;&#9;&#9;&#9;for findings value of assertions XPath 2.0 context variable $value.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating assertions evaluation, with a numeric schema type when white-space normalization\n\t\t\tmust happen on the data. The example demonstrates ignoring of comments within XML elements (which have simple schema values),\n\t\t\tfor findings value of assertions XPath 2.0 context variable $value.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1300,16 +1300,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test3.xsd"
+                        href='../ibmData/mixed/assertions/whitespace/test3.xsd'
                     ),
                 ],
                 expected=[
@@ -1321,12 +1321,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_022_1"
+                name='assert_022_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test3.xml"
+                        href='../ibmData/mixed/assertions/whitespace/test3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1337,10 +1337,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_022_2"
+                    name='assert_022_2'
                 ),
             ],
-            name="assert_022",
+            name='assert_022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1351,7 +1351,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen&#10;&#9;&#9;&#9;on the data. The example demonstrates ignoring of comments within XML elements (which have simple XML schema values), for &#10;&#9;&#9;&#9;findings value of assertions XPath 2.0 context variable $value. This test is similar to test "assert_022" but the validation&#10;&#9;&#9;&#9;fails in this case, since the schema type of XML element is xs:string.&#10;&#9;&#9; ',
+                                '\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The example demonstrates ignoring of comments within XML elements (which have simple XML schema values), for \n\t\t\tfindings value of assertions XPath 2.0 context variable $value. This test is similar to test "assert_022" but the validation\n\t\t\tfails in this case, since the schema type of XML element is xs:string.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1359,16 +1359,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test4.xsd"
+                        href='../ibmData/mixed/assertions/whitespace/test4.xsd'
                     ),
                 ],
                 expected=[
@@ -1380,12 +1380,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_023_1"
+                name='assert_023_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test3.xml"
+                        href='../ibmData/mixed/assertions/whitespace/test3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1396,10 +1396,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_023_2"
+                    name='assert_023_2'
                 ),
             ],
-            name="assert_023",
+            name='assert_023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1410,7 +1410,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen&#10;&#9;&#9;&#9;on the data. The validation in this example would succeed, since an assertion normalizes the data value with "normalize-space"&#10;&#9;&#9;&#9;XPath function before equality comparison.&#10;&#9;&#9; ',
+                                '\n\t\t    An example demonstrating assertions evaluation, with xs:string schema type when white-space normalization must not happen\n\t\t\ton the data. The validation in this example would succeed, since an assertion normalizes the data value with "normalize-space"\n\t\t\tXPath function before equality comparison.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1418,16 +1418,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test5.xsd"
+                        href='../ibmData/mixed/assertions/whitespace/test5.xsd'
                     ),
                 ],
                 expected=[
@@ -1439,12 +1439,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_024_1"
+                name='assert_024_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/whitespace/test3.xml"
+                        href='../ibmData/mixed/assertions/whitespace/test3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1455,10 +1455,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_024_2"
+                    name='assert_024_2'
                 ),
             ],
-            name="assert_024",
+            name='assert_024',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1469,7 +1469,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation using xs:assert instruction, when xs:assert has attribute&#10;&#9;&#9;&#9;"xpathDefaultNamespace". &#10;&#9;&#9; ',
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation using xs:assert instruction, when xs:assert has attribute\n\t\t\t"xpathDefaultNamespace". \n\t\t ',
                             ]
                         ),
                     ]
@@ -1477,16 +1477,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns1.xsd"
+                        href='../ibmData/mixed/assertions/namespace/ns1.xsd'
                     ),
                 ],
                 expected=[
@@ -1498,12 +1498,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_025_1"
+                name='assert_025_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns1.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1514,10 +1514,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_025_2"
+                    name='assert_025_2'
                 ),
             ],
-            name="assert_025",
+            name='assert_025',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1528,7 +1528,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation when outermost element in an XML document is in an namespace, while&#10;&#9;&#9;&#9;inner ones are not, and there are few assertions defined on the schema type involved.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when outermost element in an XML document is in an namespace, while\n\t\t\tinner ones are not, and there are few assertions defined on the schema type involved.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1536,16 +1536,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns2.xsd"
+                        href='../ibmData/mixed/assertions/namespace/ns2.xsd'
                     ),
                 ],
                 expected=[
@@ -1557,12 +1557,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_026_1"
+                name='assert_026_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns2.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1573,10 +1573,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_026_2"
+                    name='assert_026_2'
                 ),
             ],
-            name="assert_026",
+            name='assert_026',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1587,7 +1587,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation when XML document is an namespace, and assertions perform&#10;&#9;&#9;&#9;namespace URI comparisons on element nodes. &#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation when XML document is an namespace, and assertions perform\n\t\t\tnamespace URI comparisons on element nodes. \n\t\t ',
                             ]
                         ),
                     ]
@@ -1595,16 +1595,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns3.xsd"
+                        href='../ibmData/mixed/assertions/namespace/ns3.xsd'
                     ),
                 ],
                 expected=[
@@ -1616,12 +1616,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_027_1"
+                name='assert_027_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns3.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1632,10 +1632,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_027_2"
+                    name='assert_027_2'
                 ),
             ],
-            name="assert_027",
+            name='assert_027',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1646,7 +1646,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation, where an assertion checks for in-scope namespace prefixes&#10;&#9;&#9;&#9;on XML element.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where an assertion checks for in-scope namespace prefixes\n\t\t\ton XML element.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1654,16 +1654,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns4.xsd"
+                        href='../ibmData/mixed/assertions/namespace/ns4.xsd'
                     ),
                 ],
                 expected=[
@@ -1675,12 +1675,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_028_1"
+                name='assert_028_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns4.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1691,10 +1691,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_028_2"
+                    name='assert_028_2'
                 ),
             ],
-            name="assert_028",
+            name='assert_028',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1705,7 +1705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation, where XML schema document declares an XML attribute in a&#10;&#9;&#9;&#9;namespace, using "targetNamespace" attribute on xs:attribute declaration, and an assertion XPath expression makes use&#10;&#9;&#9;&#9;of namespace qualified attribute node reference.&#10;&#9;&#9;&#9;There are two XML instance tests in this example (one passes and the other fails wrt XSD 1.1 assertions, due to varying&#10;&#9;&#9;&#9;data in XML instance documents).&#10;&#9;&#9; ',
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation, where XML schema document declares an XML attribute in a\n\t\t\tnamespace, using "targetNamespace" attribute on xs:attribute declaration, and an assertion XPath expression makes use\n\t\t\tof namespace qualified attribute node reference.\n\t\t\tThere are two XML instance tests in this example (one passes and the other fails wrt XSD 1.1 assertions, due to varying\n\t\t\tdata in XML instance documents).\n\t\t ',
                             ]
                         ),
                     ]
@@ -1713,16 +1713,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns5.xsd"
+                        href='../ibmData/mixed/assertions/namespace/ns5.xsd'
                     ),
                 ],
                 expected=[
@@ -1734,12 +1734,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_029_1"
+                name='assert_029_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns5_1.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns5_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1750,11 +1750,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_029_2"
+                    name='assert_029_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/namespace/ns5_2.xml"
+                        href='../ibmData/mixed/assertions/namespace/ns5_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1765,10 +1765,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_029_3"
+                    name='assert_029_3'
                 ),
             ],
-            name="assert_029",
+            name='assert_029',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1779,7 +1779,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions defined on itemType definition of xs:list schema component.&#10;&#9;&#9;&#9;In this scenario assertions must evaluate on all-of list items, and every list item must pass the assertions&#10;&#9;&#9;&#9;test for assertion to contribute to XML instance validation. &#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions defined on itemType definition of xs:list schema component.\n\t\t\tIn this scenario assertions must evaluate on all-of list items, and every list item must pass the assertions\n\t\t\ttest for assertion to contribute to XML instance validation. \n\t\t ',
                             ]
                         ),
                     ]
@@ -1787,16 +1787,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion1.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion1.xsd'
                     ),
                 ],
                 expected=[
@@ -1808,12 +1808,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_030_1"
+                name='assert_030_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion1_1.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion1_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1824,11 +1824,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_030_2"
+                    name='assert_030_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion1_2.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion1_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1839,10 +1839,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_030_3"
+                    name='assert_030_3'
                 ),
             ],
-            name="assert_030",
+            name='assert_030',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1853,7 +1853,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating XSD 1.1 assertions evaluation on a simple type value, when the simpleType is a &#10;&#9;&#9;&#9;union type, and one of memberTypes of union specifies assertions.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating XSD 1.1 assertions evaluation on a simple type value, when the simpleType is a \n\t\t\tunion type, and one of memberTypes of union specifies assertions.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1861,16 +1861,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion2.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion2.xsd'
                     ),
                 ],
                 expected=[
@@ -1882,12 +1882,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_031_1"
+                name='assert_031_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion2_1.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion2_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1898,11 +1898,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_031_2"
+                    name='assert_031_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion2_2.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion2_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1913,11 +1913,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_031_3"
+                    name='assert_031_3'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion2_3.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion2_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1928,11 +1928,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_031_4"
+                    name='assert_031_4'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion2_4.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion2_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1943,10 +1943,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_031_5"
+                    name='assert_031_5'
                 ),
             ],
-            name="assert_031",
+            name='assert_031',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1957,7 +1957,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                '&#10;&#9;&#9;    This is similar to example "assert_031", but here both of memberTypes of union have assertions specified on them.&#10;&#9;&#9; ',
+                                '\n\t\t    This is similar to example "assert_031", but here both of memberTypes of union have assertions specified on them.\n\t\t ',
                             ]
                         ),
                     ]
@@ -1965,16 +1965,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion3.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion3.xsd'
                     ),
                 ],
                 expected=[
@@ -1986,12 +1986,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_032_1"
+                name='assert_032_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion3_1.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion3_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2002,11 +2002,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_032_2"
+                    name='assert_032_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion3_2.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion3_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2017,10 +2017,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_032_3"
+                    name='assert_032_3'
                 ),
             ],
-            name="assert_032",
+            name='assert_032',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2031,7 +2031,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    Demonstrating assertions on memberTypes of xs:union.&#10;&#9;&#9; ",
+                                '\n\t\t    Demonstrating assertions on memberTypes of xs:union.\n\t\t ',
                             ]
                         ),
                     ]
@@ -2039,16 +2039,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion4.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion4.xsd'
                     ),
                 ],
                 expected=[
@@ -2060,12 +2060,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_033_1"
+                name='assert_033_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion3_1.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion3_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2076,10 +2076,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_033_2"
+                    name='assert_033_2'
                 ),
             ],
-            name="assert_033",
+            name='assert_033',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2090,7 +2090,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating assertion defined in simple schema type, which is itemType of xs:list schema component.&#10;&#9;&#9;&#9;This example defines an schema simpleType for an XML attribute.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating assertion defined in simple schema type, which is itemType of xs:list schema component.\n\t\t\tThis example defines an schema simpleType for an XML attribute.\n\t\t ',
                             ]
                         ),
                     ]
@@ -2098,16 +2098,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion5.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion5.xsd'
                     ),
                 ],
                 expected=[
@@ -2119,12 +2119,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_034_1"
+                name='assert_034_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion5_2.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion5_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2135,10 +2135,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_034_3"
+                    name='assert_034_3'
                 ),
             ],
-            name="assert_034",
+            name='assert_034',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2149,7 +2149,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "&#10;&#9;&#9;    An example demonstrating constraining the cardinality of schema xs:list, and defining assertion on items&#10;&#9;&#9;&#9;of the schema xs:list.&#10;&#9;&#9; ",
+                                '\n\t\t    An example demonstrating constraining the cardinality of schema xs:list, and defining assertion on items\n\t\t\tof the schema xs:list.\n\t\t ',
                             ]
                         ),
                     ]
@@ -2157,16 +2157,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/"
+                    href='http://www.w3.org/TR/xmlschema11-1/'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion6.xsd"
+                        href='../ibmData/mixed/assertions/list_union/listunion6.xsd'
                     ),
                 ],
                 expected=[
@@ -2178,12 +2178,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 12)
                 ),
-                name="assert_035_1"
+                name='assert_035_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion6_1.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion6_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2194,11 +2194,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_035_2"
+                    name='assert_035_2'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/assertions/list_union/listunion6_2.xml"
+                        href='../ibmData/mixed/assertions/list_union/listunion6_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2209,21 +2209,21 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 12)
                     ),
-                    name="assert_035_3"
+                    name='assert_035_3'
                 ),
             ],
-            name="assert_035",
+            name='assert_035',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="Assert",
+    contributor='IBM',
+    name='Assert',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

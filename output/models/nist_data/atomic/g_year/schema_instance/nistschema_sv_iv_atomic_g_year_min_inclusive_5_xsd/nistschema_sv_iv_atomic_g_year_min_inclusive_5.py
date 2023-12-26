@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGYearMinInclusive5:
         metadata={
             "required": True,
             "min_inclusive": XmlPeriod("2030"),
-        }
+        },
     )

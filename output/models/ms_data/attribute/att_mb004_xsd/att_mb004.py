@@ -14,14 +14,14 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     ca2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -36,5 +36,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -15,7 +15,7 @@ class Elem:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     e2: List[object] = field(
         default_factory=list,
@@ -25,7 +25,7 @@ class Elem:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

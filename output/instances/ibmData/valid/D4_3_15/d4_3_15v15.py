@@ -15,17 +15,17 @@ obj = Root(
                                 RootType(
                                     ele1=[
                                         ElementType1(
-                                            attr1="2"
+                                            attr1='2'
                                         ),
                                     ]
                                 ),
                             ],
-                            attr2="3"
+                            attr2='3'
                         ),
                     ]
                 ),
             ],
-            attr1="1"
+            attr1='1'
         ),
     ]
 )

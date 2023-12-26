@@ -27,5 +27,5 @@ class NistschemaSvIvAtomicByteEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

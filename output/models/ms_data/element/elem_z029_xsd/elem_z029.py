@@ -12,5 +12,5 @@ class Doc:
         default="abc",
         metadata={
             "nillable": True,
-        }
+        },
     )

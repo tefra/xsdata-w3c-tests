@@ -16,5 +16,5 @@ class Root:
         default=Mylist.VALUE_1,
         metadata={
             "required": True,
-        }
+        },
     )

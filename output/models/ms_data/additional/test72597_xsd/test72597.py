@@ -12,7 +12,7 @@ class A:
             "type": "Element",
             "namespace": "foo",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -21,19 +21,19 @@ class A:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         number: Optional[int] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         number2: Optional[int] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -49,5 +49,5 @@ class Root:
             "name": "A",
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameLength1(
     value=[
-        "iis-and_and:means:which-ch",
-        "dmethods:specifications-ad",
-        "hdiscovery.to.to.direction",
-        "pas.file.between:vocabular",
-        "grelated.business_referenc",
+        'iis-and_and:means:which-ch',
+        'dmethods:specifications-ad',
+        'hdiscovery.to.to.direction',
+        'pas.file.between:vocabular',
+        'grelated.business_referenc',
     ]
 )

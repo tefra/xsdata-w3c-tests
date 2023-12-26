@@ -12,5 +12,5 @@ class Number:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

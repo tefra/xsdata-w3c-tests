@@ -28,5 +28,5 @@ class NistschemaSvIvAtomicLongEnumeration4:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

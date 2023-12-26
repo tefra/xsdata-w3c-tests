@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute is declared in attribute group by reference with QName. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute is declared in attribute group by reference with QName. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_p.xsd"
+                        href='../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_p.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_attrUseNS00101m1_p"
+                name='AG_attrUseNS00101m1_p'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml"
+                        href='../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="ag_attrusens00101m1_p"
+            name='ag_attrusens00101m1_p'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute is declared in attribute group by reference with QName. (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute is declared in attribute group by reference with QName. (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_n.xsd"
+                        href='../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_n.xsd'
                     ),
                 ],
                 expected=[
@@ -116,9 +116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_attrUseNS00101m1_n"
+                name='AG_attrUseNS00101m1_n'
             ),
-            name="ag_attrusens00101m1_n"
+            name='ag_attrusens00101m1_n'
         ),
         TestGroup(
             annotation=[
@@ -127,12 +127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute wildcard is declared in attribute group.  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute wildcard is declared in attribute group.  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="According to declared attribute wildcard content of the attributes in the &#10;                                 document should not be processed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='According to declared attribute wildcard content of the attributes in the \n                                 document should not be processed.'
                                 ),
                             ]
                         ),
@@ -141,13 +141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1.xsd"
+                        href='../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -159,12 +159,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_attrWCard00101m1"
+                name='AG_attrWCard00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml"
+                        href='../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -175,10 +175,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="ag_attrwcard00101m1"
+            name='ag_attrwcard00101m1'
         ),
         TestGroup(
             annotation=[
@@ -187,12 +187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group declaration. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute group declaration. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper ref value to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Group use should has proper ref value to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -201,13 +201,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_p.xsd"
+                        href='../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_p.xsd'
                     ),
                 ],
                 expected=[
@@ -219,12 +219,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_name00101m1_p"
+                name='AG_name00101m1_p'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml"
+                        href='../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml'
                     ),
                     expected=[
                         Expected(
@@ -235,10 +235,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="ag_name00101m1_p"
+            name='ag_name00101m1_p'
         ),
         TestGroup(
             annotation=[
@@ -247,12 +247,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group declaration. (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute group declaration. (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper ref value to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Group use should has proper ref value to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -261,13 +261,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_n.xsd"
+                        href='../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_n.xsd'
                     ),
                 ],
                 expected=[
@@ -279,9 +279,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_name00101m1_n"
+                name='AG_name00101m1_n'
             ),
-            name="ag_name00101m1_n"
+            name='ag_name00101m1_n'
         ),
         TestGroup(
             annotation=[
@@ -290,12 +290,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group reference with QName. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute group reference with QName. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Group use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -304,13 +304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_p.xsd"
+                        href='../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_p.xsd'
                     ),
                 ],
                 expected=[
@@ -322,12 +322,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_targetNS00101m1_p"
+                name='AG_targetNS00101m1_p'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml"
+                        href='../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml'
                     ),
                     expected=[
                         Expected(
@@ -338,10 +338,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="ag_targetns00101m1_p"
+            name='ag_targetns00101m1_p'
         ),
         TestGroup(
             annotation=[
@@ -350,12 +350,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group reference with QName. (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Attribute group reference with QName. (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Attribute Group use should has proper namespace prefix in the ref value \n                                 to be resolved to its declaration.'
                                 ),
                             ]
                         ),
@@ -364,13 +364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_n.xsd"
+                        href='../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_n.xsd'
                     ),
                 ],
                 expected=[
@@ -382,9 +382,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="AG_targetNS00101m1_n"
+                name='AG_targetNS00101m1_n'
             ),
-            name="ag_targetns00101m1_n"
+            name='ag_targetns00101m1_n'
         ),
         TestGroup(
             annotation=[
@@ -393,12 +393,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for an attribute group definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for an attribute group definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.'
                                 ),
                             ]
                         ),
@@ -407,13 +407,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -425,12 +425,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -441,10 +441,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -453,12 +453,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for an attribute group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for an attribute group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -467,13 +467,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -485,9 +485,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -496,12 +496,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for an attribute group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for an attribute group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -510,13 +510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -528,9 +528,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -539,12 +539,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for an attribute group definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for an attribute group definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.'
                                 ),
                             ]
                         ),
@@ -553,13 +553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -571,12 +571,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -587,10 +587,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -599,12 +599,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for an attribute group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for an attribute group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -613,13 +613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m5.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -631,9 +631,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m5"
+                name='annotation00101m5'
             ),
-            name="annotation00101m5"
+            name='annotation00101m5'
         ),
         TestGroup(
             annotation=[
@@ -642,12 +642,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for an attribute group definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for an attribute group definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an attribute group definition.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -656,13 +656,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m6.xsd"
+                        href='../sunData/AGroupDef/annotation/annotation00101m/annotation00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -674,14 +674,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m6"
+                name='annotation00101m6'
             ),
-            name="annotation00101m6"
+            name='annotation00101m6'
         ),
     ],
-    contributor="SUN",
-    name="AGroupDef",
+    contributor='SUN',
+    name='AGroupDef',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

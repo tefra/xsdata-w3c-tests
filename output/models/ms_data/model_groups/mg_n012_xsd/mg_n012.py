@@ -12,28 +12,28 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     f1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     f2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c1_or_c2: Optional[object] = field(
         default=None,
@@ -51,7 +51,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     d1_or_d2: Optional[object] = field(
         default=None,
@@ -69,7 +69,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 

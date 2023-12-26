@@ -16,5 +16,5 @@ class Test:
         metadata={
             "required": True,
             "max_exclusive": Decimal("11"),
-        }
+        },
     )

@@ -14,5 +14,5 @@ class Test:
         metadata={
             "max_length": 3,
             "pattern": r"b+",
-        }
+        },
     )

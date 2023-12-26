@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.short.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicShortPattern4(
-    value="86"
+    value='86'
 )

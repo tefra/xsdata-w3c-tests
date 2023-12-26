@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicTimeMinInclusive5:
         metadata={
             "required": True,
             "min_inclusive": XmlTime(23, 59, 59, 0),
-        }
+        },
     )

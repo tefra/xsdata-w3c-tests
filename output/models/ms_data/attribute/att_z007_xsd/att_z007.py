@@ -8,25 +8,25 @@ class One:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     elem2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     att1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class Two(One):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class Three(Two):
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -61,19 +61,19 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     e2: Optional[Two] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     e3: Optional[Three] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -12,12 +12,12 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

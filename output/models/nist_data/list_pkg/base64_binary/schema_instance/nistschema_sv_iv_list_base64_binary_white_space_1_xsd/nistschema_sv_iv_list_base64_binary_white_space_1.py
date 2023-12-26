@@ -16,5 +16,5 @@ class NistschemaSvIvListBase64BinaryWhiteSpace1:
             "white_space": "collapse",
             "tokens": True,
             "format": "base64",
-        }
+        },
     )

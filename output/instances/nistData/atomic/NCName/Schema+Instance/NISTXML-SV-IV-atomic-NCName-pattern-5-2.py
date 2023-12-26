@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern5(
-    value="bfor_will_creating.emerging.result-database-language-for_can-inc"
+    value='bfor_will_creating.emerging.result-database-language-for_can-inc'
 )

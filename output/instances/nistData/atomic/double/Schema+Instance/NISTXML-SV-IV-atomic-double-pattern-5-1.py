@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.double.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicDoublePattern5(
-    value="8.9765779385971216E261"
+    value='8.9765779385971216E261'
 )

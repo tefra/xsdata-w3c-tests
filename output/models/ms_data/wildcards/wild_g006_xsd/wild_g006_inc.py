@@ -13,5 +13,5 @@ class Bar:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

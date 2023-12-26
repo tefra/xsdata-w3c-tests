@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDurationMinExclusive4:
         metadata={
             "required": True,
             "min_exclusive": XmlDuration("P2029Y10M29DT21H06M18S"),
-        }
+        },
     )

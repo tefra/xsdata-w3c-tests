@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicByteMinExclusive5:
         metadata={
             "required": True,
             "min_exclusive": 126,
-        }
+        },
     )

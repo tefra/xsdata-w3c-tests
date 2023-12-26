@@ -11,7 +11,7 @@ class Regex:
             "min_inclusive": -9,
             "max_exclusive": 10,
             "pattern": r"\-[0-9]*",
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

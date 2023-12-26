@@ -25,7 +25,7 @@ class Base:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 
@@ -49,5 +49,5 @@ class Doc(Base):
                     "type": object,
                 },
             ),
-        }
+        },
     )

@@ -16,7 +16,7 @@ class People:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

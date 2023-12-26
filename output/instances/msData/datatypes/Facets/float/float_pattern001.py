@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.float_pkg.float_pattern001_xsd.float
 
 
 obj = Test(
-    foo="5.55"
+    foo='5.55'
 )

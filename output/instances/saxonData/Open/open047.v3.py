@@ -4,19 +4,19 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     a=[
-        "",
+        '',
     ],
     b=23,
-    d="",
+    d='',
     any_element=AnyElement(
         children=[
             AnyElement(
-                qname="x",
-                text=""
+                qname='x',
+                text=''
             ),
             AnyElement(
-                qname="b",
-                text="not-a-number"
+                qname='b',
+                text='not-a-number'
             ),
         ]
     )

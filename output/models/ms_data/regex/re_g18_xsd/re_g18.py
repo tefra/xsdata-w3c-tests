@@ -9,7 +9,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"[\C\?a-c\?]+",
-        }
+        },
     )
 
 
@@ -24,5 +24,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

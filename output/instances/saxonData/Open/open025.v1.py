@@ -7,12 +7,12 @@ obj = Doc(
     local_element=AnyElement(
         children=[
             AnyElement(
-                qname="j",
-                text="banana"
+                qname='j',
+                text='banana'
             ),
             AnyElement(
-                qname="a",
-                text="17"
+                qname='a',
+                text='17'
             ),
         ]
     ),

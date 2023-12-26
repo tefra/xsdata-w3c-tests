@@ -14,7 +14,7 @@ class A1234561:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class A1234562:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -44,7 +44,7 @@ class Root:
             "name": "a-1.2_3·4·5۝6۞",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     elem_decl_name_a123456: Optional[int] = field(
         default=None,
@@ -52,5 +52,5 @@ class Root:
             "name": "a123456",
             "type": "Element",
             "required": True,
-        }
+        },
     )

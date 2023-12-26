@@ -24,7 +24,7 @@ class ComplexType:
                 },
             ),
             "max_occurs": 100,
-        }
+        },
     )
 
 
@@ -44,5 +44,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

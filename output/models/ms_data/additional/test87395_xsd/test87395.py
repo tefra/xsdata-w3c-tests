@@ -19,7 +19,7 @@ class A:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -34,5 +34,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

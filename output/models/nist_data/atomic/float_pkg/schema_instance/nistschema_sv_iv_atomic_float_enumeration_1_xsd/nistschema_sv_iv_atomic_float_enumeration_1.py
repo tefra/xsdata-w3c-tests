@@ -11,8 +11,8 @@ class NistschemaSvIvAtomicFloatEnumeration1Type(Enum):
     VALUE_2_6927628_E_19 = 2.6927628e-19
     VALUE_2_7455975_E_6 = "2.7455975E-6"
     VALUE_2_5357204_E7 = "2.5357204E7"
-    VALUE_2_8222192_E20 = 2.8222192e+20
-    VALUE_3_4028235_E38 = 3.4028235e+38
+    VALUE_2_8222192_E20 = 2.8222192e20
+    VALUE_3_4028235_E38 = 3.4028235e38
 
 
 @dataclass
@@ -25,5 +25,5 @@ class NistschemaSvIvAtomicFloatEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

@@ -6,25 +6,25 @@ obj = Doc(
     node=[
         Node(
             node_or_id=[
-                "zzz",
+                'zzz',
                 Node(
-                    id_one="ccc",
+                    id_one='ccc',
                     any_attributes={
-                        "id-two": "ddd",
+                        'id-two': 'ddd',
                     }
                 ),
                 Node(
-                    id_one="eee",
+                    id_one='eee',
                     any_attributes={
-                        "id-two": "eee",
+                        'id-two': 'eee',
                     }
                 ),
-                "zzz",
-                "aaa",
+                'zzz',
+                'aaa',
             ],
-            id_one="aaa",
+            id_one='aaa',
             any_attributes={
-                "id-two": "bbb",
+                'id-two': 'bbb',
             }
         ),
     ]

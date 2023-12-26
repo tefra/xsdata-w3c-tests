@@ -12,28 +12,28 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     s2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     s3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     s4: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
@@ -43,7 +43,7 @@ class Foo:
             "max_occurs": 4,
             "sequence": 1,
             "process_contents": "skip",
-        }
+        },
     )
 
 

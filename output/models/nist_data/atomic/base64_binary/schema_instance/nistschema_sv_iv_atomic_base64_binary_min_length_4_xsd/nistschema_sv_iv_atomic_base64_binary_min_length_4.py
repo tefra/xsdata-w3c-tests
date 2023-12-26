@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicBase64BinaryMinLength4:
             "required": True,
             "min_length": 11,
             "format": "base64",
-        }
+        },
     )

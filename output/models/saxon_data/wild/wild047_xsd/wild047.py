@@ -13,7 +13,7 @@ class Computer1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_element: List[object] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class Computer1:
             "namespace": "##local",
             "max_occurs": 2,
             "process_contents": "skip",
-        }
+        },
     )
     extra_com_element: List[object] = field(
         default_factory=list,
@@ -31,7 +31,7 @@ class Computer1:
             "namespace": "http://extra.com/",
             "max_occurs": 2,
             "process_contents": "skip",
-        }
+        },
     )
 
 

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.short.schema_instance.nistschema_sv_iv_lis
 
 obj = NistschemaSvIvListShortPattern3(
     value=[
-        "-31632",
-        "-2533",
-        "-835",
-        "-45",
-        "-5",
-        "5",
-        "47",
-        "31611",
+        '-31632',
+        '-2533',
+        '-835',
+        '-45',
+        '-5',
+        '5',
+        '47',
+        '31611',
     ]
 )

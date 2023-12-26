@@ -12,7 +12,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class Base:
                 },
             ),
             "max_occurs": 6,
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -76,5 +76,5 @@ class Doc(Base):
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )

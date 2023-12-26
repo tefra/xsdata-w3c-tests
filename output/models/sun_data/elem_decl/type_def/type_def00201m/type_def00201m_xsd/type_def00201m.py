@@ -13,5 +13,5 @@ class Root:
         default="",
         metadata={
             "pattern": r"[01]+",
-        }
+        },
     )

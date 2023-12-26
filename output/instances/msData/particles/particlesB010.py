@@ -7,12 +7,12 @@ obj = Doc(
     elem=Elem(
         choice=[
             AnyElement(
-                qname="e4",
-                text=""
+                qname='e4',
+                text=''
             ),
             AnyElement(
-                qname="e1",
-                text=""
+                qname='e1',
+                text=''
             ),
         ]
     )

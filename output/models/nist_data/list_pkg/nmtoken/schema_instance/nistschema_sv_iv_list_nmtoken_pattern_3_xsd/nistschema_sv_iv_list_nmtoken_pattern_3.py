@@ -15,5 +15,5 @@ class NistschemaSvIvListNmtokenPattern3:
         metadata={
             "pattern": r"\c{1} \c{36} \c{63} \c{7} \c{26} \c{11} \c{55} \c{29}",
             "tokens": True,
-        }
+        },
     )

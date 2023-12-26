@@ -15,47 +15,47 @@ class Root:
         metadata={
             "name": "a--a",
             "type": "Attribute",
-        }
+        },
     )
     b_b: Optional[int] = field(
         default=None,
         metadata={
             "name": "b..b",
             "type": "Attribute",
-        }
+        },
     )
     c_c: Optional[int] = field(
         default=None,
         metadata={
             "name": "c__c",
             "type": "Attribute",
-        }
+        },
     )
     d_d: Optional[int] = field(
         default=None,
         metadata={
             "name": "d··d",
             "type": "Attribute",
-        }
+        },
     )
     e_e: Optional[int] = field(
         default=None,
         metadata={
             "name": "e··e",
             "type": "Attribute",
-        }
+        },
     )
     f_f: Optional[int] = field(
         default=None,
         metadata={
             "name": "f۝۝f",
             "type": "Attribute",
-        }
+        },
     )
     g_g: Optional[int] = field(
         default=None,
         metadata={
             "name": "g۞۞g",
             "type": "Attribute",
-        }
+        },
     )

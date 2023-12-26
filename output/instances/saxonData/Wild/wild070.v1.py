@@ -3,17 +3,17 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    a="",
-    b="",
-    c="",
+    a='',
+    b='',
+    c='',
     any_element=[
         AnyElement(
-            qname="d",
-            text=""
+            qname='d',
+            text=''
         ),
         AnyElement(
-            qname="e",
-            text=""
+            qname='e',
+            text=''
         ),
     ]
 )

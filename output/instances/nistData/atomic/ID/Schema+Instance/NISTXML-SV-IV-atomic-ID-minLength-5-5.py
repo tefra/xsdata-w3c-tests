@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength5(
-        value="hbe-under_all_related_provides.community.problems-ways.and_langu"
+        value='hbe-under_all_related_provides.community.problems-ways.and_langu'
     )
 )

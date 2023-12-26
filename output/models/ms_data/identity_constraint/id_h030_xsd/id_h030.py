@@ -15,7 +15,7 @@ class Kid:
         metadata={
             "type": "Attribute",
             "namespace": "myNS.tempuri.org",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Uidtype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -40,7 +40,7 @@ class Uidtype:
             metadata={
                 "type": "Attribute",
                 "namespace": "myNS.tempuri.org",
-            }
+            },
         )
 
 
@@ -55,12 +55,12 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

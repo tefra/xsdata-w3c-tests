@@ -16,7 +16,7 @@ class DocType:
             "type": "Element",
             "namespace": "http://simple013.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -60,5 +60,5 @@ class Book:
                     "type": Doc,
                 },
             ),
-        }
+        },
     )

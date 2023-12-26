@@ -6,15 +6,15 @@ obj = Example(
     x=[
         XType(
             value=2,
-            a="val1"
+            a='val1'
         ),
         XType(
             value=4,
-            a="val2"
+            a='val2'
         ),
         XType(
             value=6,
-            a="val3"
+            a='val3'
         ),
     ],
     x_count=3

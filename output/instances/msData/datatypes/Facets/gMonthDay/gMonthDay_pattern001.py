@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.g_month_day.g_month_day_pattern001_x
 
 
 obj = Test(
-    foo="--03-15"
+    foo='--03-15'
 )

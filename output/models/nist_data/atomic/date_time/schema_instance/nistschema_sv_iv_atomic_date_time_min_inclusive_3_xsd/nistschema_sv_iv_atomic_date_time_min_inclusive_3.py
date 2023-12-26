@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicDateTimeMinInclusive3:
         metadata={
             "required": True,
             "min_inclusive": XmlDateTime(1978, 11, 30, 10, 14, 33),
-        }
+        },
     )

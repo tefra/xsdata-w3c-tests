@@ -7,9 +7,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
 
 
 @dataclass
@@ -21,7 +19,7 @@ class B:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -34,7 +32,7 @@ class C:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -47,7 +45,7 @@ class D:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -56,9 +54,7 @@ class Item:
     class Meta:
         name = "item"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
 
 
 @dataclass
@@ -66,7 +62,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[object, bool, int, float]] = field(
+    choice: List[Union[float, int, bool, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -96,5 +92,5 @@ class Root:
                     "type": object,
                 },
             ),
-        }
+        },
     )

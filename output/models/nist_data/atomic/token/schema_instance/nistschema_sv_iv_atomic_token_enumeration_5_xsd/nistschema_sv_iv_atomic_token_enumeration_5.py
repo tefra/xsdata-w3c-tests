@@ -23,5 +23,5 @@ class NistschemaSvIvAtomicTokenEnumeration5:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

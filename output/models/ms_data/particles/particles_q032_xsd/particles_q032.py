@@ -1,7 +1,11 @@
 from dataclasses import dataclass, field
 from typing import List, Optional, Union
-from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import E2 as ImpE2
-from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import E2 as Imp2E2
+from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import (
+    E2 as ImpE2,
+)
+from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import (
+    E2 as Imp2E2,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,7 +17,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     target_namespace_foo_bar_element: List[object] = field(
         default_factory=list,
@@ -21,7 +25,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##targetNamespace foo bar",
             "max_occurs": 4,
-        }
+        },
     )
 
 
@@ -36,7 +40,7 @@ class E2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -47,9 +51,9 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
-    choice: List[Union[E2, ImpE2]] = field(
+    choice: List[Union[ImpE2, E2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -66,7 +70,7 @@ class R:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
     e2_2: Optional[Imp2E2] = field(
         default=None,
@@ -74,7 +78,7 @@ class R:
             "name": "e2",
             "type": "Element",
             "namespace": "bar",
-        }
+        },
     )
 
 
@@ -90,5 +94,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

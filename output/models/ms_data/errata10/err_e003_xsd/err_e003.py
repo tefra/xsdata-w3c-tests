@@ -16,7 +16,7 @@ class Root:
             "name": "testElement",
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class TestElement:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

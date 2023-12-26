@@ -25,7 +25,7 @@ class BCt:
                     "namespace": "ns-a",
                 },
             ),
-        }
+        },
     )
     b3_or_b4: Optional[object] = field(
         default=None,
@@ -43,7 +43,7 @@ class BCt:
                     "namespace": "ns-a",
                 },
             ),
-        }
+        },
     )
 
 
@@ -58,7 +58,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

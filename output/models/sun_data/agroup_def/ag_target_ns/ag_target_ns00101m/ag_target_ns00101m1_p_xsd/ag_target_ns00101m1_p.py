@@ -15,20 +15,20 @@ class ElementWithAttr:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     number: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     height: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -43,5 +43,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

@@ -15,7 +15,7 @@ class C:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
@@ -23,7 +23,7 @@ class C:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 3,
-        }
+        },
     )
 
 

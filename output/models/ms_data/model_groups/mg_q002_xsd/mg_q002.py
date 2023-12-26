@@ -14,7 +14,7 @@ class Foo:
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
 
 

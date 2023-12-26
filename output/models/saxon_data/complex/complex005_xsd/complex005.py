@@ -12,7 +12,7 @@ class Root:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
@@ -20,5 +20,5 @@ class Root:
             "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
-        }
+        },
     )

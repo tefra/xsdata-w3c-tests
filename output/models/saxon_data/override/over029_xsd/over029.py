@@ -12,7 +12,7 @@ class ProductType:
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
@@ -20,14 +20,14 @@ class ProductType:
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        }
+        },
     )
     size: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://datypic.com/ord",
-        }
+        },
     )
     gift_wrap: Optional[str] = field(
         default=None,
@@ -35,14 +35,14 @@ class ProductType:
             "name": "giftWrap",
             "type": "Element",
             "namespace": "http://datypic.com/spc",
-        }
+        },
     )
     points: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://datypic.com/spc",
-        }
+        },
     )
 
 
@@ -54,7 +54,7 @@ class OrderType:
             "type": "Element",
             "namespace": "http://datypic.com/ord",
             "required": True,
-        }
+        },
     )
 
 

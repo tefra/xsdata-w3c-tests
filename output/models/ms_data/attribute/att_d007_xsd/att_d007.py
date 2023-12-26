@@ -32,7 +32,7 @@ class AttRef:
             "type": "Attribute",
             "namespace": "http://xsdtesting",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -48,5 +48,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

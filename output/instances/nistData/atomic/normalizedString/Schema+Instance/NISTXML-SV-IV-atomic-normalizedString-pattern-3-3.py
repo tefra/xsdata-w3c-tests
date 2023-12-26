@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern3(
-    value="437 Promises That Allow Xml Street The Software Review , UT 12317"
+    value='437 Promises That Allow Xml Street The Software Review , UT 12317'
 )

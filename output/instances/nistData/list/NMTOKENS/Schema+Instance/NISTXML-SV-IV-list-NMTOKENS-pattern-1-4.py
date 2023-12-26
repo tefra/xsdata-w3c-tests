@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern1(
     value=[
-        "Language-of.XML-",
-        "including",
-        "of_tools_to.cross-reference:as-to.industries",
-        "XML_is.test_to.that_and_for-suite.",
-        "regard-desktop-to_and_repository.quality_choic",
-        "the-ar",
+        'Language-of.XML-',
+        'including',
+        'of_tools_to.cross-reference:as-to.industries',
+        'XML_is.test_to.that_and_for-suite.',
+        'regard-desktop-to_and_repository.quality_choic',
+        'the-ar',
     ]
 )

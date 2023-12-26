@@ -3,9 +3,9 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = DerivedElement(
-    qname="elt1",
+    qname='elt1',
     value=TypeA(
-        elt2=""
+        elt2=''
     ),
-    type="typeA"
+    type='typeA'
 )

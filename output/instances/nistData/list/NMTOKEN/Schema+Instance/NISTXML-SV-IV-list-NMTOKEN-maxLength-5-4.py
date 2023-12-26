@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMaxLength5(
     value=[
-        "and-of_",
-        "a.all:r",
-        "s:wides",
-        "As.this",
-        "exchang",
-        "and:fur",
-        "and:man",
-        "as-tech",
-        "Computi",
+        'and-of_',
+        'a.all:r',
+        's:wides',
+        'As.this',
+        'exchang',
+        'and:fur',
+        'and:man',
+        'as-tech',
+        'Computi',
     ]
 )

@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicGMonthPattern4:
         metadata={
             "required": True,
             "pattern": r"--\d6",
-        }
+        },
     )

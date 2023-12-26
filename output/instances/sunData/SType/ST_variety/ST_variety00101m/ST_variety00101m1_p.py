@@ -2,5 +2,5 @@ from output.models.sun_data.stype.st_variety.st_variety00101m.st_variety00101m1_
 
 
 obj = Test(
-    value="11"
+    value='11'
 )

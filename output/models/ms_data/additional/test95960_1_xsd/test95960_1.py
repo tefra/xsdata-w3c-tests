@@ -10,12 +10,12 @@ class Employees:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     dept: int = field(
         default=9,
         metadata={
             "name": "Dept",
             "type": "Attribute",
-        }
+        },
     )

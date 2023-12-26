@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength5(
-        value="_degree_resides-environments-the-software_infrastructure.use-app"
+        value='_degree_resides-environments-the-software_infrastructure.use-app'
     )
 )

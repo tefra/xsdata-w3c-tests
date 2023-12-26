@@ -14,19 +14,19 @@ class AttRef:
         default=37,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

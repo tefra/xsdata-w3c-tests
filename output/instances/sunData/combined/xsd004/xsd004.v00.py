@@ -10,21 +10,21 @@ obj = Root(
         Root.SkipAny(
             any_element=[
                 AnyElement(
-                    qname="{foo}root",
-                    text="",
+                    qname='{foo}root',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{foo}child",
-                            text=""
+                            qname='{foo}child',
+                            text=''
                         ),
                         AnyElement(
-                            qname="{bar}nocheck",
-                            text="",
-                            tail="&#10;&#9;&#9;&#9;mixed is also allowed?&#10;&#9;&#9;",
+                            qname='{bar}nocheck',
+                            text='',
+                            tail='\n\t\t\tmixed is also allowed?\n\t\t',
                             children=[
                                 AnyElement(
-                                    qname="{zot}nocheck",
-                                    text=""
+                                    qname='{zot}nocheck',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -35,16 +35,16 @@ obj = Root(
         Root.LaxAny(
             any_element=[
                 AnyElement(
-                    qname="{foo}undeclared",
-                    text="",
+                    qname='{foo}undeclared',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{bar}a",
-                            text=""
+                            qname='{bar}a',
+                            text=''
                         ),
                         AnyElement(
-                            qname="undefined",
-                            text=""
+                            qname='undefined',
+                            text=''
                         ),
                     ]
                 ),
@@ -66,24 +66,24 @@ obj = Root(
         Root.SkipOther(
             other_element=[
                 AnyElement(
-                    qname="{bob}undeclared",
-                    text=""
+                    qname='{bob}undeclared',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{nowhere}anyThing",
-                    text=""
+                    qname='{nowhere}anyThing',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{other1}asLongAsInOtherNS",
-                    text=""
+                    qname='{other1}asLongAsInOtherNS',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{zot}a",
-                    text="",
+                    qname='{zot}a',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{zot}a",
-                            text=""
+                            qname='{zot}a',
+                            text=''
                         ),
                     ]
                 ),
@@ -92,12 +92,12 @@ obj = Root(
         Root.LaxLocal(
             local_element=[
                 AnyElement(
-                    qname="undeclaredOnly",
-                    text=""
+                    qname='undeclaredOnly',
+                    text=''
                 ),
                 AnyElement(
-                    qname="butLaxlyValidated",
-                    text=""
+                    qname='butLaxlyValidated',
+                    text=''
                 ),
             ]
         ),
@@ -117,24 +117,24 @@ obj = Root(
         Root.SkipBar(
             bar_element=[
                 AnyElement(
-                    qname="{bar}everything",
-                    text=""
+                    qname='{bar}everything',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{bar}in",
-                    text=""
+                    qname='{bar}in',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{bar}bar",
-                    text=""
+                    qname='{bar}bar',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{bar}a",
-                    text="",
+                    qname='{bar}a',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{bar}ignore",
-                            text=""
+                            qname='{bar}ignore',
+                            text=''
                         ),
                     ]
                 ),

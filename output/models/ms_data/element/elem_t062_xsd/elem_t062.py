@@ -21,14 +21,14 @@ class Ca:
             "type": "Element",
             "namespace": "",
             "max_occurs": 2,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -47,7 +47,7 @@ class Sa3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -60,13 +60,13 @@ class EA:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     att: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -80,7 +80,7 @@ class ECa(Ca):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -99,7 +99,7 @@ class Sa1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -112,7 +112,7 @@ class Test1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -125,7 +125,7 @@ class Test2:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -138,7 +138,7 @@ class Test3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -165,7 +165,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[Union[RA, Sa2, Sa3, A]] = field(
+    choice: List[Union[Sa3, Sa2, RA, A]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -188,29 +188,29 @@ class Root:
                 },
             ),
             "max_occurs": 5,
-        }
+        },
     )
     test2: Optional[A] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test3: Optional[A] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test4: Optional[Test4] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     test5: Optional[Test5] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

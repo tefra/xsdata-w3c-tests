@@ -16,7 +16,7 @@ class DocType:
             "type": "Element",
             "namespace": "http://simple010.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class Book:
         name = "book"
         namespace = "http://simple010.ly/"
 
-    subdoc_or_doc: List[Union[Doc, Subdoc]] = field(
+    subdoc_or_doc: List[Union[Subdoc, Doc]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -60,5 +60,5 @@ class Book:
                     "type": Doc,
                 },
             ),
-        }
+        },
     )

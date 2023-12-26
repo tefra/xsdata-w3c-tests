@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.unsigned_byte.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListUnsignedBytePattern4(
     value=[
-        "7",
-        "84",
-        "221",
-        "3",
-        "37",
-        "223",
-        "9",
-        "98",
-        "223",
+        '7',
+        '84',
+        '221',
+        '3',
+        '37',
+        '223',
+        '9',
+        '98',
+        '223',
     ]
 )

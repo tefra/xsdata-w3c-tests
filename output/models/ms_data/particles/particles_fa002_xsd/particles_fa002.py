@@ -11,7 +11,7 @@ class A:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -22,7 +22,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -31,6 +31,7 @@ class Base:
     """
     documentation documentation.
     """
+
     class Meta:
         name = "base"
 
@@ -40,14 +41,14 @@ class Base:
             "type": "Element",
             "namespace": "http://xsdtesting",
             "required": True,
-        }
+        },
     )
     e2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern2(
-    value="7 Modeling Versions To The Street Is File , CT 11352"
+    value='7 Modeling Versions To The Street Is File , CT 11352'
 )

@@ -4,7 +4,7 @@ from output.models.ms_data.particles.particles_z040_xsd.particles_z040a import A
 
 obj = Doc(
     a=[
-        "",
+        '',
     ],
     other_element=[
         A1(
@@ -75,6 +75,6 @@ obj = Doc(
         ),
     ],
     b=[
-        "",
+        '',
     ]
 )

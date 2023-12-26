@@ -15,7 +15,7 @@ class CtA:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     a2: Optional[str] = field(
         default=None,
@@ -23,7 +23,7 @@ class CtA:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

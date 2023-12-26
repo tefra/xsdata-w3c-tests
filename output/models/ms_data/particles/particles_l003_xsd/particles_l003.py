@@ -23,7 +23,7 @@ class B:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
     d1_or_d2: List[object] = field(
         default_factory=list,
@@ -42,7 +42,7 @@ class B:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -63,5 +63,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

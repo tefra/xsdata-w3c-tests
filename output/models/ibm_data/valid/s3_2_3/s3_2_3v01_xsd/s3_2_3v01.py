@@ -14,13 +14,13 @@ class Type1:
         metadata={
             "type": "Attribute",
             "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
-        }
+        },
     )
     attr2: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -35,5 +35,5 @@ class Root:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

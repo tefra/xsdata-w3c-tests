@@ -11,7 +11,7 @@ class Foo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -24,38 +24,38 @@ class Test:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att3: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att4: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://importedXSD",
-        }
+        },
     )
     att5: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

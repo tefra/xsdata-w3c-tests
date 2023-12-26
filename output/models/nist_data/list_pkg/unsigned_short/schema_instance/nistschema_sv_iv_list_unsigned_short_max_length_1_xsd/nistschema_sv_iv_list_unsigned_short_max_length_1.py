@@ -15,5 +15,5 @@ class NistschemaSvIvListUnsignedShortMaxLength1:
         metadata={
             "max_length": 5,
             "tokens": True,
-        }
+        },
     )

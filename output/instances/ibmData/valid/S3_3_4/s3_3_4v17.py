@@ -5,10 +5,10 @@ obj = Root(
     union_of_ids=[
         123,
         True,
-        "abc",
+        'abc',
         False,
     ],
     idref=[
-        "abc",
+        'abc',
     ]
 )

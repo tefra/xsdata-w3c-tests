@@ -5,8 +5,8 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Root(
     choice=[
         DerivedElement(
-            qname="{a}_-",
-            value="_-"
+            qname='{a}_-',
+            value='_-'
         ),
     ]
 )

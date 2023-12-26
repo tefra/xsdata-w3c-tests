@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "total_digits": 3,
-        }
+        },
     )
 
 

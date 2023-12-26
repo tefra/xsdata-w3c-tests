@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern3(
-    value="4 The Language That Reviewed Street Object Furthermore Not , AL 12317"
+    value='4 The Language That Reviewed Street Object Furthermore Not , AL 12317'
 )

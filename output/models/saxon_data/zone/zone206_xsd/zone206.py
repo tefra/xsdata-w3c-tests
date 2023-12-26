@@ -13,12 +13,12 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     equiv: List[XmlTime] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -14,8 +14,8 @@ obj = Doc(
                 value=XmlTime(12, 0, 0, 0)
             ),
             AnyElement(
-                qname="{http://other.ns/}d",
-                text="banana"
+                qname='{http://other.ns/}d',
+                text='banana'
             ),
         ]
     )

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMinLength3(
     value=[
-        "gof:and.tools_the:with-and_",
-        "wto_and.accomplish_and:supp",
-        ":set-one_good_chair:that.ba",
-        "uetc.was-intelligent:of_sen",
-        ":data-for.retrieve.provides",
-        ":computer.enable:be-for-deg",
-        "punambiguous:g-allow:the-te",
-        ":popular_the.technologies_w",
+        'gof:and.tools_the:with-and_',
+        'wto_and.accomplish_and:supp',
+        ':set-one_good_chair:that.ba',
+        'uetc.was-intelligent:of_sen',
+        ':data-for.retrieve.provides',
+        ':computer.enable:be-for-deg',
+        'punambiguous:g-allow:the-te',
+        ':popular_the.technologies_w',
     ]
 )

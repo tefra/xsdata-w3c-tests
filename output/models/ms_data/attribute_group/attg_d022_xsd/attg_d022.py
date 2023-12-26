@@ -11,20 +11,20 @@ class Doc:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     foo: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##other",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -32,5 +32,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.language.schema_instance.nistschema_sv_iv_at
 
 
 obj = NistschemaSvIvAtomicLanguageLength3(
-    value="GN-Ebonics"
+    value='GN-Ebonics'
 )

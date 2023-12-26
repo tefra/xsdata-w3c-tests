@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.g_year.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListGYearPattern1(
     value=[
-        "1881",
-        "1841",
-        "1883",
-        "1964",
-        "1972",
-        "2072",
-        "1938",
-        "2027",
+        '1881',
+        '1841',
+        '1883',
+        '1964',
+        '1972',
+        '2072',
+        '1938',
+        '2027',
     ]
 )

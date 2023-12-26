@@ -7,6 +7,4 @@ class Test:
     class Meta:
         name = "test"
 
-    value: Optional[int] = field(
-        default=None
-    )
+    value: Optional[int] = field(default=None)

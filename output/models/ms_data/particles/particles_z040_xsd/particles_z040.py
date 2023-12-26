@@ -12,7 +12,7 @@ class A:
         default="e1",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class B:
         default="e1",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -41,7 +41,7 @@ class Doc:
             "type": "Element",
             "max_occurs": 3,
             "sequence": 1,
-        }
+        },
     )
     other_element: List[object] = field(
         default_factory=list,
@@ -49,7 +49,7 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##other",
             "sequence": 1,
-        }
+        },
     )
     b: List[str] = field(
         default_factory=list,
@@ -58,7 +58,7 @@ class Doc:
             "namespace": "",
             "max_occurs": 6,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -72,5 +72,5 @@ class E:
         default="e1",
         metadata={
             "required": True,
-        }
+        },
     )

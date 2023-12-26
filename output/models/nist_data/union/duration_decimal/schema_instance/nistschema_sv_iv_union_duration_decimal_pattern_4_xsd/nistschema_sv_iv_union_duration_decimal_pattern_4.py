@@ -13,5 +13,5 @@ class NistschemaSvIvUnionDurationDecimalPattern4:
         default="",
         metadata={
             "pattern": r"P\d\d47Y\d3M1\dDT\d9H2\dM2\dS",
-        }
+        },
     )

@@ -15,5 +15,5 @@ class NistschemaSvIvListLongPattern4:
         metadata={
             "pattern": r"\-\d{18} \-\d{13} \-\d{9} \-\d{5} \-\d{1} \d{3} \d{7} \d{11} \d{18}",
             "tokens": True,
-        }
+        },
     )

@@ -29,58 +29,58 @@ obj = Root(
             )
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=Dr(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dr"
+            type='{foo}Dr'
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=De(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}De"
+            type='{foo}De'
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=Drr(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Drr"
+            type='{foo}Drr'
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=Dre(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dre"
+            type='{foo}Dre'
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=Der(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Der"
+            type='{foo}Der'
         ),
         DerivedElement(
-            qname="{foo}eB",
+            qname='{foo}eB',
             value=Dee(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dee"
+            type='{foo}Dee'
         ),
         EDr(
             foo=Empty(
@@ -93,22 +93,22 @@ obj = Root(
             )
         ),
         DerivedElement(
-            qname="{foo}eDr",
+            qname='{foo}eDr',
             value=Drr(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Drr"
+            type='{foo}Drr'
         ),
         DerivedElement(
-            qname="{foo}eDr",
+            qname='{foo}eDr',
             value=Dre(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dre"
+            type='{foo}Dre'
         ),
         EDe(
             foo=Empty(
@@ -121,22 +121,22 @@ obj = Root(
             )
         ),
         DerivedElement(
-            qname="{foo}eDe",
+            qname='{foo}eDe',
             value=Der(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Der"
+            type='{foo}Der'
         ),
         DerivedElement(
-            qname="{foo}eDe",
+            qname='{foo}eDe',
             value=Dee(
                 foo=Empty(
 
                 )
             ),
-            type="{foo}Dee"
+            type='{foo}Dee'
         ),
         EDrr(
             foo=Empty(

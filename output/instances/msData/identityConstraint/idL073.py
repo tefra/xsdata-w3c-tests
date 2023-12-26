@@ -8,31 +8,31 @@ obj = Root(
         T(
             row=[
                 Ttype.Row(
-                    value=" 1 ",
-                    col="1"
+                    value=' 1 ',
+                    col='1'
                 ),
             ]
         ),
         T(
             row=[
                 Ttype.Row(
-                    value=" 2 ",
-                    col="2"
+                    value=' 2 ',
+                    col='2'
                 ),
             ]
         ),
         T(
             row=[
                 Ttype.Row(
-                    value=" 11 ",
-                    col="11"
+                    value=' 11 ',
+                    col='11'
                 ),
             ]
         ),
     ],
     kid=[
-        "1",
-        "2",
-        "11",
+        '1',
+        '2',
+        '11',
     ]
 )

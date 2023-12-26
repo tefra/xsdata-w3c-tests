@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.date_time.schema_instance.nistschema_sv_iv_a
 
 
 obj = NistschemaSvIvAtomicDateTimePattern3(
-    value="1958-07-04T15:13:32"
+    value='1958-07-04T15:13:32'
 )

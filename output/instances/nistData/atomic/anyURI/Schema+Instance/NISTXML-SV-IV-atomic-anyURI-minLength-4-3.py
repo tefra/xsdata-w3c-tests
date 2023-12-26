@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriMinLength4(
-    value="ftp://ftp.implementat.onstoservi.esandconsi.tencysui.edu"
+    value='ftp://ftp.implementat.onstoservi.esandconsi.tencysui.edu'
 )

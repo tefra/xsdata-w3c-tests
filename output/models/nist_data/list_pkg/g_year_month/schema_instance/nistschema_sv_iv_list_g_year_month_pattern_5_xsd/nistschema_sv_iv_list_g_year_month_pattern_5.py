@@ -15,5 +15,5 @@ class NistschemaSvIvListGYearMonthPattern5:
         metadata={
             "pattern": r"19\d\d-1\d \d\d06-\d9 17\d\d-0\d \d\d20-\d1 \d\d77-0\d \d\d19-\d3 17\d\d-1\d",
             "tokens": True,
-        }
+        },
     )

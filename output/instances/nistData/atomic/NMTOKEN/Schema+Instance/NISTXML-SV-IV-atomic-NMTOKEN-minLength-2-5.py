@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength2(
-    value="beta_library_operating-are-to:subject:in:filter_understand_an"
+    value='beta_library_operating-are-to:subject:in:filter_understand_an'
 )

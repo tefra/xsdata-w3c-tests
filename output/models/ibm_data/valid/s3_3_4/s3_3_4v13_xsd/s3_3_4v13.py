@@ -12,11 +12,11 @@ class Root:
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
     idref_attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

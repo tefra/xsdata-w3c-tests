@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary',
                     },
                     content=[
-                        "&#10;        Identity-constraint tests&#10;&#9;      ",
+                        '\n        Identity-constraint tests\n\t      ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Valid test for identity constraint referrals with annotation  ",
+                                'Valid test for identity constraint referrals with annotation  ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v01.xsd"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4v01s"
+                name='s2_2_4v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v01.xml"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4v01i"
+                    name='s2_2_4v01i'
                 ),
             ],
-            name="s2_2_4v01",
+            name='s2_2_4v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Valid test for identity constraint referrals  ",
+                                'Valid test for identity constraint referrals  ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v02.xsd"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4v02s"
+                name='s2_2_4v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v02.xml"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4v02i"
+                    name='s2_2_4v02i'
                 ),
             ],
-            name="s2_2_4v02",
+            name='s2_2_4v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests unresolvable xpath ",
+                                'Tests unresolvable xpath ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v03.xsd"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4v03s"
+                name='s2_2_4v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/S2_2_4/s2_2_4v03.xml"
+                        href='../ibmData/valid/S2_2_4/s2_2_4v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4v03i"
+                    name='s2_2_4v03i'
                 ),
             ],
-            name="s2_2_4v03",
+            name='s2_2_4v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test attribute which is required as declared in key is abscent ",
+                                'test attribute which is required as declared in key is abscent ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xsd"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4ii01s"
+                name='s2_2_4ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xml"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4ii01i"
+                    name='s2_2_4ii01i'
                 ),
             ],
-            name="s2_2_4ii01",
+            name='s2_2_4ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for duplication on components with identity constraints Checks that ic referrals works when nested",
+                                'Tests for duplication on components with identity constraints Checks that ic referrals works when nested',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xsd"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4ii02s"
+                name='s2_2_4ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xml"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4ii02i"
+                    name='s2_2_4ii02i'
                 ),
             ],
-            name="s2_2_4ii02",
+            name='s2_2_4ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests for duplication on components with keys and uniques",
+                                'Tests for duplication on components with keys and uniques',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xsd"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4ii03s"
+                name='s2_2_4ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xml"
+                        href='../ibmData/instance_invalid/S2_2_4/s2_2_4ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="s2_2_4ii03i"
+                    name='s2_2_4ii03i'
                 ),
             ],
-            name="s2_2_4ii03",
+            name='s2_2_4ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "3.11.3.4 - If ref is present, then only id and [annotation] are allowed to appear together with ref.",
+                                '3.11.3.4 - If ref is present, then only id and [annotation] are allowed to appear together with ref.',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si01.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si01.xsd'
                     ),
                 ],
                 expected=[
@@ -420,9 +420,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si01s"
+                name='s2_2_4si01s'
             ),
-            name="s2_2_4si01",
+            name='s2_2_4si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -433,7 +433,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "3.11.3.5 - If ref is present, then the {identity-constraint category} of the identity-constraint definition resolved to by the actual value of the ref [attribute] matches the name of the element information item.",
+                                '3.11.3.5 - If ref is present, then the {identity-constraint category} of the identity-constraint definition resolved to by the actual value of the ref [attribute] matches the name of the element information item.',
                             ]
                         ),
                     ]
@@ -441,16 +441,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si02.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si02.xsd'
                     ),
                 ],
                 expected=[
@@ -462,9 +462,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si02s"
+                name='s2_2_4si02s'
             ),
-            name="s2_2_4si02"
+            name='s2_2_4si02'
         ),
         TestGroup(
             annotation=[
@@ -472,7 +472,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "identity constraints contains no name and no ref attribute ",
+                                'identity constraints contains no name and no ref attribute ',
                             ]
                         ),
                     ]
@@ -480,16 +480,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si04.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si04.xsd'
                     ),
                 ],
                 expected=[
@@ -501,9 +501,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si04s"
+                name='s2_2_4si04s'
             ),
-            name="s2_2_4si04"
+            name='s2_2_4si04'
         ),
         TestGroup(
             annotation=[
@@ -511,7 +511,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "key refers to nonexisting key ",
+                                'key refers to nonexisting key ',
                             ]
                         ),
                     ]
@@ -519,16 +519,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si05.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si05.xsd'
                     ),
                 ],
                 expected=[
@@ -540,9 +540,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si05s"
+                name='s2_2_4si05s'
             ),
-            name="s2_2_4si05"
+            name='s2_2_4si05'
         ),
         TestGroup(
             annotation=[
@@ -550,7 +550,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "[key] cannot have both ref and name attributes",
+                                '[key] cannot have both ref and name attributes',
                             ]
                         ),
                     ]
@@ -558,16 +558,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si06.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si06.xsd'
                     ),
                 ],
                 expected=[
@@ -579,9 +579,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si06s"
+                name='s2_2_4si06s'
             ),
-            name="s2_2_4si06"
+            name='s2_2_4si06'
         ),
         TestGroup(
             annotation=[
@@ -589,7 +589,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "[key] cannot have both ref and name attributes",
+                                '[key] cannot have both ref and name attributes',
                             ]
                         ),
                     ]
@@ -597,16 +597,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary"
+                    href='http://www.w3.org/TR/xmlschema11-1/#Constraint_Summary'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/S2_2_4/s2_2_4si07.xsd"
+                        href='../ibmData/schema_invalid/S2_2_4/s2_2_4si07.xsd'
                     ),
                 ],
                 expected=[
@@ -618,14 +618,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="s2_2_4si07s"
+                name='s2_2_4si07s'
             ),
-            name="s2_2_4si07"
+            name='s2_2_4si07'
         ),
     ],
-    contributor="IBM",
-    name="IdentityConstraint",
+    contributor='IBM',
+    name='IdentityConstraint',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

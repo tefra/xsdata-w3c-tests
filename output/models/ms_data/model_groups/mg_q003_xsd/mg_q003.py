@@ -15,7 +15,7 @@ class Foo:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     e2: List[str] = field(
         default_factory=list,
@@ -25,7 +25,7 @@ class Foo:
             "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
 
 

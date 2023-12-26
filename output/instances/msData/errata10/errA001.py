@@ -7,53 +7,53 @@ obj = Root(
     choice=[
         -100,
         DerivedElement(
-            qname="testUnsignedByte",
+            qname='testUnsignedByte',
             value=100
         ),
         DerivedElement(
-            qname="testInteger",
+            qname='testInteger',
             value=-32000
         ),
         DerivedElement(
-            qname="testPositiveInteger",
+            qname='testPositiveInteger',
             value=50000
         ),
         DerivedElement(
-            qname="testNegativeInteger",
+            qname='testNegativeInteger',
             value=-50000
         ),
         DerivedElement(
-            qname="testNonNegativeInteger",
+            qname='testNonNegativeInteger',
             value=50000
         ),
         DerivedElement(
-            qname="testNonPositiveInteger",
+            qname='testNonPositiveInteger',
             value=-50000
         ),
         DerivedElement(
-            qname="testInt",
+            qname='testInt',
             value=-32000
         ),
         DerivedElement(
-            qname="testUnsignedInt",
+            qname='testUnsignedInt',
             value=50000
         ),
         DerivedElement(
-            qname="testLong",
+            qname='testLong',
             value=-123456789012345
         ),
         DerivedElement(
-            qname="testUnsignedLong",
+            qname='testUnsignedLong',
             value=12345789012345
         ),
         DerivedElement(
-            qname="testShort",
+            qname='testShort',
             value=-12345
         ),
         DerivedElement(
-            qname="testUnsignedShort",
+            qname='testUnsignedShort',
             value=12345
         ),
-        Decimal("123456789.12345"),
+        Decimal('123456789.12345'),
     ]
 )

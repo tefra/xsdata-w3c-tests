@@ -24,7 +24,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd",
+                                'TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd',
                             ]
                         ),
                     ]
@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schA1_a.xsd"
+                        href='../msData/schema/schA1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -50,12 +50,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schA1"
+                name='schA1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA1.xml"
+                        href='../msData/schema/schA1.xml'
                     ),
                     expected=[
                         Expected(
@@ -66,10 +66,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schA1.v"
+                    name='schA1.v'
                 ),
             ],
-            name="schA1"
+            name='schA1'
         ),
         TestGroup(
             annotation=[
@@ -77,12 +77,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored.",
+                                'TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this might reasonably vary between implementations",
+                                'WG decided this might reasonably vary between implementations',
                             ]
                         ),
                     ]
@@ -90,13 +90,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schA2_a.xsd"
+                        href='../msData/schema/schA2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -108,12 +108,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schA2"
+                name='schA2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA2.xml"
+                        href='../msData/schema/schA2.xml'
                     ),
                     expected=[
                         Expected(
@@ -123,23 +123,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA2.i"
+                    name='schA2.i'
                 ),
             ],
-            name="schA2"
+            name='schA2'
         ),
         TestGroup(
             annotation=[
@@ -147,7 +147,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,",
+                                'TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,',
                             ]
                         ),
                     ]
@@ -155,13 +155,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schA3_a.xsd"
+                        href='../msData/schema/schA3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -173,12 +173,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schA3"
+                name='schA3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA3.xml"
+                        href='../msData/schema/schA3.xml'
                     ),
                     expected=[
                         Expected(
@@ -189,10 +189,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schA3.v"
+                    name='schA3.v'
                 ),
             ],
-            name="schA3"
+            name='schA3'
         ),
         TestGroup(
             annotation=[
@@ -200,7 +200,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,",
+                                'TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,',
                             ]
                         ),
                     ]
@@ -208,13 +208,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA4.xml"
+                        href='../msData/schema/schA4.xml'
                     ),
                     expected=[
                         Expected(
@@ -225,10 +225,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schA4.v"
+                    name='schA4.v'
                 ),
             ],
-            name="schA4"
+            name='schA4'
         ),
         TestGroup(
             annotation=[
@@ -236,12 +236,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)",
+                                'TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this might reasonably vary between implementations",
+                                'WG decided this might reasonably vary between implementations',
                             ]
                         ),
                     ]
@@ -249,16 +249,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schA5_a.xsd"
+                        href='../msData/schema/schA5_a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schA5_b.xsd"
+                        href='../msData/schema/schA5_b.xsd'
                     ),
                 ],
                 expected=[
@@ -270,12 +270,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schA5"
+                name='schA5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA5.xml"
+                        href='../msData/schema/schA5.xml'
                     ),
                     expected=[
                         Expected(
@@ -285,23 +285,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA5.i"
+                    name='schA5.i'
                 ),
             ],
-            name="schA5"
+            name='schA5'
         ),
         TestGroup(
             annotation=[
@@ -309,12 +309,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)",
+                                'TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this might reasonably vary between implementations",
+                                'WG decided this might reasonably vary between implementations',
                             ]
                         ),
                     ]
@@ -322,13 +322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schA7_a.xsd"
+                        href='../msData/schema/schA7_a.xsd'
                     ),
                 ],
                 expected=[
@@ -340,12 +340,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schA7"
+                name='schA7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA7.xml"
+                        href='../msData/schema/schA7.xml'
                     ),
                     expected=[
                         Expected(
@@ -355,23 +355,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA7.i"
+                    name='schA7.i'
                 ),
             ],
-            name="schA7"
+            name='schA7'
         ),
         TestGroup(
             annotation=[
@@ -387,13 +387,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schA8.xml"
+                        href='../msData/schema/schA8.xml'
                     ),
                     expected=[
                         Expected(
@@ -404,10 +404,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schA8.i"
+                    name='schA8.i'
                 ),
             ],
-            name="schA8"
+            name='schA8'
         ),
         TestGroup(
             annotation=[
@@ -415,7 +415,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id",
+                                'TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id',
                             ]
                         ),
                     ]
@@ -423,13 +423,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB1_a.xsd"
+                        href='../msData/schema/schB1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -441,9 +441,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB1"
+                name='schB1'
             ),
-            name="schB1"
+            name='schB1'
         ),
         TestGroup(
             annotation=[
@@ -451,7 +451,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id",
+                                'TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id',
                             ]
                         ),
                     ]
@@ -459,13 +459,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB1i.xsd"
+                        href='../msData/schema/schB1i.xsd'
                     ),
                 ],
                 expected=[
@@ -477,9 +477,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB1i"
+                name='schB1i'
             ),
-            name="schB1i"
+            name='schB1i'
         ),
         TestGroup(
             annotation=[
@@ -487,7 +487,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test the annotation child node of include",
+                                'TEST :schema collection and schema location : test the annotation child node of include',
                             ]
                         ),
                     ]
@@ -495,13 +495,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB2_a.xsd"
+                        href='../msData/schema/schB2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -513,9 +513,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB2"
+                name='schB2'
             ),
-            name="schB2"
+            name='schB2'
         ),
         TestGroup(
             annotation=[
@@ -523,7 +523,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : single include",
+                                'TEST :schema collection and schema location : single include',
                             ]
                         ),
                     ]
@@ -531,13 +531,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB3.xsd"
+                        href='../msData/schema/schB3.xsd'
                     ),
                 ],
                 expected=[
@@ -549,9 +549,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB3"
+                name='schB3'
             ),
-            name="schB3"
+            name='schB3'
         ),
         TestGroup(
             annotation=[
@@ -559,7 +559,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)",
+                                'TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)',
                             ]
                         ),
                     ]
@@ -567,13 +567,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB4_a.xsd"
+                        href='../msData/schema/schB4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -585,9 +585,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB4"
+                name='schB4'
             ),
-            name="schB4"
+            name='schB4'
         ),
         TestGroup(
             annotation=[
@@ -595,7 +595,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)",
+                                'TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)',
                             ]
                         ),
                     ]
@@ -603,13 +603,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB5_a.xsd"
+                        href='../msData/schema/schB5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -621,9 +621,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB5"
+                name='schB5'
             ),
-            name="schB5"
+            name='schB5'
         ),
         TestGroup(
             annotation=[
@@ -631,7 +631,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)",
+                                'TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)',
                             ]
                         ),
                     ]
@@ -639,13 +639,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schB8.xsd"
+                        href='../msData/schema/schB8.xsd'
                     ),
                 ],
                 expected=[
@@ -657,9 +657,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schB8"
+                name='schB8'
             ),
-            name="schB8"
+            name='schB8'
         ),
         TestGroup(
             annotation=[
@@ -667,7 +667,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;&quot;, B's ns=&quot;A&quot;, test the namespace of include (4.2.1) (SRC 2)",
+                                'TEST :schema collection and schema location : XSD A include XSD B, A\'s ns="", B\'s ns="A", test the namespace of include (4.2.1) (SRC 2)',
                             ]
                         ),
                     ]
@@ -675,13 +675,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schC2_a.xsd"
+                        href='../msData/schema/schC2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -693,9 +693,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schC2"
+                name='schC2'
             ),
-            name="schC2"
+            name='schC2'
         ),
         TestGroup(
             annotation=[
@@ -703,7 +703,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;&quot;, B's ns=&quot;&quot;, test the namespace of include (4.2.1) (SRC 2)",
+                                'TEST :schema collection and schema location : XSD A include XSD B, A\'s ns="", B\'s ns="", test the namespace of include (4.2.1) (SRC 2)',
                             ]
                         ),
                     ]
@@ -711,13 +711,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schC3_a.xsd"
+                        href='../msData/schema/schC3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -729,12 +729,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schC3"
+                name='schC3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schC3.xml"
+                        href='../msData/schema/schC3.xml'
                     ),
                     expected=[
                         Expected(
@@ -745,10 +745,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schC3.v"
+                    name='schC3.v'
                 ),
             ],
-            name="schC3"
+            name='schC3'
         ),
         TestGroup(
             annotation=[
@@ -756,7 +756,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;A&quot;, B's ns=&quot;A&quot;, test the namespace of include (4.2.1) (SRC 2)",
+                                'TEST :schema collection and schema location : XSD A include XSD B, A\'s ns="A", B\'s ns="A", test the namespace of include (4.2.1) (SRC 2)',
                             ]
                         ),
                     ]
@@ -764,13 +764,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schC4_a.xsd"
+                        href='../msData/schema/schC4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -782,12 +782,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schC4"
+                name='schC4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schC4.xml"
+                        href='../msData/schema/schC4.xml'
                     ),
                     expected=[
                         Expected(
@@ -798,10 +798,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schC4.v"
+                    name='schC4.v'
                 ),
             ],
-            name="schC4"
+            name='schC4'
         ),
         TestGroup(
             annotation=[
@@ -809,7 +809,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, test the namespace of include (4.2.1) (SRC 2)",
+                                'TEST :schema collection and schema location : XSD A include XSD B, A\'s ns="A", B\'s ns="B", test the namespace of include (4.2.1) (SRC 2)',
                             ]
                         ),
                     ]
@@ -817,13 +817,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schC5_a.xsd"
+                        href='../msData/schema/schC5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -835,9 +835,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schC5"
+                name='schC5'
             ),
-            name="schC5"
+            name='schC5'
         ),
         TestGroup(
             annotation=[
@@ -845,7 +845,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A include B and C, A's ns=&quot;A&quot;, B's ns=&quot;A&quot;, C's ns=&quot;A&quot;, type ref from A to B and C, B to A and C, C to A and B",
+                                'TEST :schema collection and schema location : A include B and C, A\'s ns="A", B\'s ns="A", C\'s ns="A", type ref from A to B and C, B to A and C, C to A and B',
                             ]
                         ),
                     ]
@@ -853,13 +853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schD5_a.xsd"
+                        href='../msData/schema/schD5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -871,12 +871,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schD5"
+                name='schD5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schD5.xml"
+                        href='../msData/schema/schD5.xml'
                     ),
                     expected=[
                         Expected(
@@ -887,10 +887,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schD5.v"
+                    name='schD5.v'
                 ),
             ],
-            name="schD5"
+            name='schD5'
         ),
         TestGroup(
             annotation=[
@@ -898,7 +898,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included.",
+                                'TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included.',
                             ]
                         ),
                     ]
@@ -906,13 +906,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schD7_a.xsd"
+                        href='../msData/schema/schD7_a.xsd'
                     ),
                 ],
                 expected=[
@@ -924,12 +924,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schD7"
+                name='schD7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schD7.xml"
+                        href='../msData/schema/schD7.xml'
                     ),
                     expected=[
                         Expected(
@@ -940,10 +940,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schD7.v"
+                    name='schD7.v'
                 ),
             ],
-            name="schD7"
+            name='schD7'
         ),
         TestGroup(
             annotation=[
@@ -951,12 +951,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://.",
+                                'TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this was OK, but also changed the test to have a&#10;syntactically valid by guaranteed-to-not-resolve URI",
+                                'WG decided this was OK, but also changed the test to have a\nsyntactically valid by guaranteed-to-not-resolve URI',
                             ]
                         ),
                     ]
@@ -964,13 +964,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schD8.xsd"
+                        href='../msData/schema/schD8.xsd'
                     ),
                 ],
                 expected=[
@@ -981,22 +981,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132'
                 ),
                 prior=[
                     Prior(
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schD8"
+                name='schD8'
             ),
-            name="schD8"
+            name='schD8'
         ),
         TestGroup(
             annotation=[
@@ -1012,13 +1012,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schD10_a.xsd"
+                        href='../msData/schema/schD10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1030,12 +1030,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schD10"
+                name='schD10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schD10.xml"
+                        href='../msData/schema/schD10.xml'
                     ),
                     expected=[
                         Expected(
@@ -1046,10 +1046,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schD10.v"
+                    name='schD10.v'
                 ),
             ],
-            name="schD10"
+            name='schD10'
         ),
         TestGroup(
             annotation=[
@@ -1057,7 +1057,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test union type in a chameleon schema",
+                                'TEST :schema collection and schema location : test union type in a chameleon schema',
                             ]
                         ),
                     ]
@@ -1065,13 +1065,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schD11a.xsd"
+                        href='../msData/schema/schD11a.xsd'
                     ),
                 ],
                 expected=[
@@ -1083,9 +1083,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schD11"
+                name='schD11'
             ),
-            name="schD11"
+            name='schD11'
         ),
         TestGroup(
             annotation=[
@@ -1093,7 +1093,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id",
+                                'TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id',
                             ]
                         ),
                     ]
@@ -1101,13 +1101,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE1_a.xsd"
+                        href='../msData/schema/schE1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1119,9 +1119,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE1"
+                name='schE1'
             ),
-            name="schE1"
+            name='schE1'
         ),
         TestGroup(
             annotation=[
@@ -1129,7 +1129,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id",
+                                'TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id',
                             ]
                         ),
                     ]
@@ -1137,13 +1137,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE1i.xsd"
+                        href='../msData/schema/schE1i.xsd'
                     ),
                 ],
                 expected=[
@@ -1155,9 +1155,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE1i"
+                name='schE1i'
             ),
-            name="schE1i"
+            name='schE1i'
         ),
         TestGroup(
             annotation=[
@@ -1165,7 +1165,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test the annotation child node of include",
+                                'TEST :schema collection and schema location : test the annotation child node of include',
                             ]
                         ),
                     ]
@@ -1173,13 +1173,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE2_a.xsd"
+                        href='../msData/schema/schE2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1191,9 +1191,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE2"
+                name='schE2'
             ),
-            name="schE2"
+            name='schE2'
         ),
         TestGroup(
             annotation=[
@@ -1209,13 +1209,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE3.xsd"
+                        href='../msData/schema/schE3.xsd'
                     ),
                 ],
                 expected=[
@@ -1227,9 +1227,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE3"
+                name='schE3'
             ),
-            name="schE3"
+            name='schE3'
         ),
         TestGroup(
             annotation=[
@@ -1245,13 +1245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE4.xsd"
+                        href='../msData/schema/schE4.xsd'
                     ),
                 ],
                 expected=[
@@ -1263,12 +1263,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE4"
+                name='schE4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schE4.xml"
+                        href='../msData/schema/schE4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1279,10 +1279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schE4.v"
+                    name='schE4.v'
                 ),
             ],
-            name="schE4"
+            name='schE4'
         ),
         TestGroup(
             annotation=[
@@ -1290,7 +1290,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema location resolved to not-wf XML",
+                                'TEST :schema collection and schema location : Schema location resolved to not-wf XML',
                             ]
                         ),
                     ]
@@ -1298,13 +1298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE5.xsd"
+                        href='../msData/schema/schE5.xsd'
                     ),
                 ],
                 expected=[
@@ -1316,9 +1316,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE5"
+                name='schE5'
             ),
-            name="schE5"
+            name='schE5'
         ),
         TestGroup(
             annotation=[
@@ -1326,7 +1326,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema",
+                                'TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema',
                             ]
                         ),
                     ]
@@ -1334,13 +1334,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE6.xsd"
+                        href='../msData/schema/schE6.xsd'
                     ),
                 ],
                 expected=[
@@ -1352,9 +1352,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE6"
+                name='schE6'
             ),
-            name="schE6"
+            name='schE6'
         ),
         TestGroup(
             annotation=[
@@ -1370,13 +1370,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE9.xsd"
+                        href='../msData/schema/schE9.xsd'
                     ),
                 ],
                 expected=[
@@ -1388,9 +1388,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE9"
+                name='schE9'
             ),
-            name="schE9"
+            name='schE9'
         ),
         TestGroup(
             annotation=[
@@ -1406,13 +1406,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schE10.xsd"
+                        href='../msData/schema/schE10.xsd'
                     ),
                 ],
                 expected=[
@@ -1424,9 +1424,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schE10"
+                name='schE10'
             ),
-            name="schE10"
+            name='schE10'
         ),
         TestGroup(
             annotation=[
@@ -1434,7 +1434,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;&quot;, test the namespace of import",
+                                'TEST :schema collection and schema location : XSD X import XSD Y, X\'s ns="A", Y\'s ns="", test the namespace of import',
                             ]
                         ),
                     ]
@@ -1442,13 +1442,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF1_a.xsd"
+                        href='../msData/schema/schF1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1460,12 +1460,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF1"
+                name='schF1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schF1.xml"
+                        href='../msData/schema/schF1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1476,10 +1476,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schF1.v"
+                    name='schF1.v'
                 ),
             ],
-            name="schF1"
+            name='schF1'
         ),
         TestGroup(
             annotation=[
@@ -1487,7 +1487,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;A&quot;, test the namespace of import",
+                                'TEST :schema collection and schema location : XSD X import XSD Y, X\'s ns="", Y\'s ns="A", test the namespace of import',
                             ]
                         ),
                     ]
@@ -1495,13 +1495,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF2_a.xsd"
+                        href='../msData/schema/schF2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1513,12 +1513,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF2"
+                name='schF2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schF2.xml"
+                        href='../msData/schema/schF2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1529,10 +1529,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schF2.v"
+                    name='schF2.v'
                 ),
             ],
-            name="schF2"
+            name='schF2'
         ),
         TestGroup(
             annotation=[
@@ -1540,7 +1540,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;&quot;, test the namespace of import",
+                                'TEST :schema collection and schema location : XSD X import XSD Y, X\'s ns="", Y\'s ns="", test the namespace of import',
                             ]
                         ),
                     ]
@@ -1548,13 +1548,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF3_a.xsd"
+                        href='../msData/schema/schF3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1566,9 +1566,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF3"
+                name='schF3'
             ),
-            name="schF3"
+            name='schF3'
         ),
         TestGroup(
             annotation=[
@@ -1576,7 +1576,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;A&quot;, test the namespace of import",
+                                'TEST :schema collection and schema location : XSD X import XSD Y, X\'s ns="A", Y\'s ns="A", test the namespace of import',
                             ]
                         ),
                     ]
@@ -1584,13 +1584,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF4_a.xsd"
+                        href='../msData/schema/schF4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1602,9 +1602,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF4"
+                name='schF4'
             ),
-            name="schF4"
+            name='schF4'
         ),
         TestGroup(
             annotation=[
@@ -1612,7 +1612,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;B&quot;, test the namespace of import",
+                                'TEST :schema collection and schema location : XSD X import XSD Y, X\'s ns="A", Y\'s ns="B", test the namespace of import',
                             ]
                         ),
                     ]
@@ -1620,13 +1620,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF5_a.xsd"
+                        href='../msData/schema/schF5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1638,12 +1638,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF5"
+                name='schF5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schF5.xml"
+                        href='../msData/schema/schF5.xml'
                     ),
                     expected=[
                         Expected(
@@ -1654,10 +1654,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schF5.v"
+                    name='schF5.v'
                 ),
             ],
-            name="schF5"
+            name='schF5'
         ),
         TestGroup(
             annotation=[
@@ -1665,7 +1665,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema.",
+                                'TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema.',
                             ]
                         ),
                     ]
@@ -1673,13 +1673,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schF6_a.xsd"
+                        href='../msData/schema/schF6_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1691,9 +1691,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schF6"
+                name='schF6'
             ),
-            name="schF6"
+            name='schF6'
         ),
         TestGroup(
             annotation=[
@@ -1701,7 +1701,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;C&quot;",
+                                'TEST :schema collection and schema location : A import B, B import C, A\'s ns="A", B\'s ns="B", C\'s ns="C"',
                             ]
                         ),
                     ]
@@ -1709,13 +1709,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG1_a.xsd"
+                        href='../msData/schema/schG1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1727,12 +1727,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG1"
+                name='schG1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG1.xml"
+                        href='../msData/schema/schG1.xml'
                     ),
                     expected=[
                         Expected(
@@ -1743,10 +1743,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG1.v"
+                    name='schG1.v'
                 ),
             ],
-            name="schG1"
+            name='schG1'
         ),
         TestGroup(
             annotation=[
@@ -1754,7 +1754,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;&quot;, C's ns=&quot;C&quot;",
+                                'TEST :schema collection and schema location : A import B, B import C, A\'s ns="A", B\'s ns="", C\'s ns="C"',
                             ]
                         ),
                     ]
@@ -1762,13 +1762,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG2_a.xsd"
+                        href='../msData/schema/schG2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1780,12 +1780,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG2"
+                name='schG2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG2.xml"
+                        href='../msData/schema/schG2.xml'
                     ),
                     expected=[
                         Expected(
@@ -1796,10 +1796,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG2.v"
+                    name='schG2.v'
                 ),
             ],
-            name="schG2"
+            name='schG2'
         ),
         TestGroup(
             annotation=[
@@ -1807,7 +1807,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, (A and C have no confilcting decl)",
+                                'TEST :schema collection and schema location : A import B, B import C, A\'s ns="A", B\'s ns="B", C\'s ns="A", (A and C have no confilcting decl)',
                             ]
                         ),
                     ]
@@ -1815,13 +1815,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG3_a.xsd"
+                        href='../msData/schema/schG3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1832,7 +1832,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133'
                 ),
                 prior=[
                     Prior(
@@ -1840,12 +1840,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG3"
+                name='schG3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG3.xml"
+                        href='../msData/schema/schG3.xml'
                     ),
                     expected=[
                         Expected(
@@ -1856,10 +1856,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG3.v"
+                    name='schG3.v'
                 ),
             ],
-            name="schG3"
+            name='schG3'
         ),
         TestGroup(
             annotation=[
@@ -1867,7 +1867,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;C&quot;",
+                                'TEST :schema collection and schema location : A import B and C, A\'s ns="A", B\'s ns="B", C\'s ns="C"',
                             ]
                         ),
                     ]
@@ -1875,13 +1875,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG4_a.xsd"
+                        href='../msData/schema/schG4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1893,12 +1893,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG4"
+                name='schG4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG4.xml"
+                        href='../msData/schema/schG4.xml'
                     ),
                     expected=[
                         Expected(
@@ -1909,10 +1909,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG4.v"
+                    name='schG4.v'
                 ),
             ],
-            name="schG4"
+            name='schG4'
         ),
         TestGroup(
             annotation=[
@@ -1920,7 +1920,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, (B and C have no confilcting decl)",
+                                'TEST :schema collection and schema location : A import B and C, A\'s ns="A", B\'s ns="B", C\'s ns="B", (B and C have no confilcting decl)',
                             ]
                         ),
                     ]
@@ -1928,13 +1928,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG5_a.xsd"
+                        href='../msData/schema/schG5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1946,12 +1946,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG5"
+                name='schG5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG5.xml"
+                        href='../msData/schema/schG5.xml'
                     ),
                     expected=[
                         Expected(
@@ -1962,10 +1962,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG5.v"
+                    name='schG5.v'
                 ),
             ],
-            name="schG5"
+            name='schG5'
         ),
         TestGroup(
             annotation=[
@@ -1973,7 +1973,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, (B and C have confilcting decl)",
+                                'TEST :schema collection and schema location : A import B and C, A\'s ns="A", B\'s ns="B", C\'s ns="B", (B and C have confilcting decl)',
                             ]
                         ),
                     ]
@@ -1981,13 +1981,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG6_a.xsd"
+                        href='../msData/schema/schG6_a.xsd'
                     ),
                 ],
                 expected=[
@@ -1998,7 +1998,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133'
                 ),
                 prior=[
                     Prior(
@@ -2006,9 +2006,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG6"
+                name='schG6'
             ),
-            name="schG6"
+            name='schG6'
         ),
         TestGroup(
             annotation=[
@@ -2016,7 +2016,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok",
+                                'TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok',
                             ]
                         ),
                     ]
@@ -2024,13 +2024,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG7_a.xsd"
+                        href='../msData/schema/schG7_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2042,12 +2042,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG7"
+                name='schG7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG7.xml"
+                        href='../msData/schema/schG7.xml'
                     ),
                     expected=[
                         Expected(
@@ -2058,10 +2058,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG7.v"
+                    name='schG7.v'
                 ),
             ],
-            name="schG7"
+            name='schG7'
         ),
         TestGroup(
             annotation=[
@@ -2069,7 +2069,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported.",
+                                'TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported.',
                             ]
                         ),
                     ]
@@ -2077,13 +2077,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG8_a.xsd"
+                        href='../msData/schema/schG8_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2095,12 +2095,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG8"
+                name='schG8'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG8.xml"
+                        href='../msData/schema/schG8.xml'
                     ),
                     expected=[
                         Expected(
@@ -2111,10 +2111,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG8.v"
+                    name='schG8.v'
                 ),
             ],
-            name="schG8"
+            name='schG8'
         ),
         TestGroup(
             annotation=[
@@ -2122,12 +2122,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B and D, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD",
+                                'TEST :schema collection and schema location : A import B and D, B import C, A\'s ns="A", B\'s ns="B", C\'s ns="A", D\'s ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -2135,13 +2135,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG9_a.xsd"
+                        href='../msData/schema/schG9_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2152,22 +2152,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG9"
+                name='schG9'
             ),
-            name="schG9"
+            name='schG9'
         ),
         TestGroup(
             annotation=[
@@ -2175,7 +2175,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, A's ns=&quot;A&quot;, B's ns=&quot;&quot;, import ns=&quot;B&quot; if namespace present it must be the same as targetNamespace of the imported xsd.",
+                                'TEST :schema collection and schema location : A import B, A\'s ns="A", B\'s ns="", import ns="B" if namespace present it must be the same as targetNamespace of the imported xsd.',
                             ]
                         ),
                     ]
@@ -2183,13 +2183,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG10_a.xsd"
+                        href='../msData/schema/schG10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2201,9 +2201,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG10"
+                name='schG10'
             ),
-            name="schG10"
+            name='schG10'
         ),
         TestGroup(
             annotation=[
@@ -2211,7 +2211,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, (A and C have confilcting decl)",
+                                'TEST :schema collection and schema location : A import B, B import C, A\'s ns="A", B\'s ns="B", C\'s ns="A", (A and C have confilcting decl)',
                             ]
                         ),
                     ]
@@ -2219,13 +2219,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG11_a.xsd"
+                        href='../msData/schema/schG11_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2236,7 +2236,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133'
                 ),
                 prior=[
                     Prior(
@@ -2244,9 +2244,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG11"
+                name='schG11'
             ),
-            name="schG11"
+            name='schG11'
         ),
         TestGroup(
             annotation=[
@@ -2254,7 +2254,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, All declaration in B and C should be available to validation",
+                                'TEST :schema collection and schema location : A import B, B import C, A\'s ns="A", B\'s ns="B", C\'s ns="B", All declaration in B and C should be available to validation',
                             ]
                         ),
                     ]
@@ -2262,13 +2262,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG12_a.xsd"
+                        href='../msData/schema/schG12_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2279,7 +2279,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133'
                 ),
                 prior=[
                     Prior(
@@ -2287,12 +2287,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG12"
+                name='schG12'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schG12.xml"
+                        href='../msData/schema/schG12.xml'
                     ),
                     expected=[
                         Expected(
@@ -2303,10 +2303,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schG12.v"
+                    name='schG12.v'
                 ),
             ],
-            name="schG12"
+            name='schG12'
         ),
         TestGroup(
             annotation=[
@@ -2322,13 +2322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG13.xsd"
+                        href='../msData/schema/schG13.xsd'
                     ),
                 ],
                 expected=[
@@ -2340,9 +2340,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG13"
+                name='schG13'
             ),
-            name="schG13"
+            name='schG13'
         ),
         TestGroup(
             annotation=[
@@ -2350,12 +2350,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported.",
+                                'TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "WG decided this might reasonably vary between implementations",
+                                'WG decided this might reasonably vary between implementations',
                             ]
                         ),
                     ]
@@ -2363,16 +2363,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG14a.xsd"
+                        href='../msData/schema/schG14a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schG14.xsd"
+                        href='../msData/schema/schG14.xsd'
                     ),
                 ],
                 expected=[
@@ -2383,22 +2383,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 2),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG14"
+                name='schG14'
             ),
-            name="schG14"
+            name='schG14'
         ),
         TestGroup(
             annotation=[
@@ -2406,7 +2406,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test importing schemas that make a circular reference",
+                                'TEST :schema collection and schema location : test importing schemas that make a circular reference',
                             ]
                         ),
                     ]
@@ -2414,13 +2414,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schG15_a.xsd"
+                        href='../msData/schema/schG15_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2432,9 +2432,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schG15"
+                name='schG15'
             ),
-            name="schG15"
+            name='schG15'
         ),
         TestGroup(
             annotation=[
@@ -2442,7 +2442,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test ID in redefine",
+                                'TEST :schema collection and schema location : test ID in redefine',
                             ]
                         ),
                     ]
@@ -2450,13 +2450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH1_a.xsd"
+                        href='../msData/schema/schH1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2468,9 +2468,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH1"
+                name='schH1'
             ),
-            name="schH1"
+            name='schH1'
         ),
         TestGroup(
             annotation=[
@@ -2478,7 +2478,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test annotation as child of redefine",
+                                'TEST :schema collection and schema location : test annotation as child of redefine',
                             ]
                         ),
                     ]
@@ -2486,13 +2486,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH2_a.xsd"
+                        href='../msData/schema/schH2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2504,9 +2504,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH2"
+                name='schH2'
             ),
-            name="schH2"
+            name='schH2'
         ),
         TestGroup(
             annotation=[
@@ -2522,13 +2522,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH3.xsd"
+                        href='../msData/schema/schH3.xsd'
                     ),
                 ],
                 expected=[
@@ -2540,9 +2540,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH3"
+                name='schH3'
             ),
-            name="schH3"
+            name='schH3'
         ),
         TestGroup(
             annotation=[
@@ -2558,13 +2558,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH4_a.xsd"
+                        href='../msData/schema/schH4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2576,9 +2576,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH4"
+                name='schH4'
             ),
-            name="schH4"
+            name='schH4'
         ),
         TestGroup(
             annotation=[
@@ -2586,7 +2586,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML",
+                                'TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML',
                             ]
                         ),
                     ]
@@ -2594,13 +2594,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH5.xsd"
+                        href='../msData/schema/schH5.xsd'
                     ),
                 ],
                 expected=[
@@ -2612,9 +2612,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH5"
+                name='schH5'
             ),
-            name="schH5"
+            name='schH5'
         ),
         TestGroup(
             annotation=[
@@ -2622,7 +2622,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)",
+                                'TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)',
                             ]
                         ),
                     ]
@@ -2630,13 +2630,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH6.xsd"
+                        href='../msData/schema/schH6.xsd'
                     ),
                 ],
                 expected=[
@@ -2648,9 +2648,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH6"
+                name='schH6'
             ),
-            name="schH6"
+            name='schH6'
         ),
         TestGroup(
             annotation=[
@@ -2658,7 +2658,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation",
+                                'TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation',
                             ]
                         ),
                     ]
@@ -2666,13 +2666,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schH9.xsd"
+                        href='../msData/schema/schH9.xsd'
                     ),
                 ],
                 expected=[
@@ -2684,9 +2684,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schH9"
+                name='schH9'
             ),
-            name="schH9"
+            name='schH9'
         ),
         TestGroup(
             annotation=[
@@ -2694,7 +2694,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;A&quot;, test the namespace of redefine",
+                                'TEST :schema collection and schema location : XSD X redefine XSD Y, X\'s ns="", Y\'s ns="A", test the namespace of redefine',
                             ]
                         ),
                     ]
@@ -2702,13 +2702,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schI2_a.xsd"
+                        href='../msData/schema/schI2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2720,9 +2720,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schI2"
+                name='schI2'
             ),
-            name="schI2"
+            name='schI2'
         ),
         TestGroup(
             annotation=[
@@ -2730,7 +2730,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;B&quot;, test the namespace of redefine",
+                                'TEST :schema collection and schema location : XSD X redefine XSD Y, X\'s ns="A", Y\'s ns="B", test the namespace of redefine',
                             ]
                         ),
                     ]
@@ -2738,13 +2738,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schI5_a.xsd"
+                        href='../msData/schema/schI5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2756,9 +2756,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schI5"
+                name='schI5'
             ),
-            name="schI5"
+            name='schI5'
         ),
         TestGroup(
             annotation=[
@@ -2766,7 +2766,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition",
+                                'TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition',
                             ]
                         ),
                     ]
@@ -2774,13 +2774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schJ2_a.xsd"
+                        href='../msData/schema/schJ2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2792,9 +2792,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schJ2"
+                name='schJ2'
             ),
-            name="schJ2"
+            name='schJ2'
         ),
         TestGroup(
             annotation=[
@@ -2802,7 +2802,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition",
+                                'TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition',
                             ]
                         ),
                     ]
@@ -2810,13 +2810,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schJ3_a.xsd"
+                        href='../msData/schema/schJ3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2828,9 +2828,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schJ3"
+                name='schJ3'
             ),
-            name="schJ3"
+            name='schJ3'
         ),
         TestGroup(
             annotation=[
@@ -2838,7 +2838,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition",
+                                'TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition',
                             ]
                         ),
                     ]
@@ -2846,13 +2846,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schK2_a.xsd"
+                        href='../msData/schema/schK2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2864,9 +2864,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schK2"
+                name='schK2'
             ),
-            name="schK2"
+            name='schK2'
         ),
         TestGroup(
             annotation=[
@@ -2874,7 +2874,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition",
+                                'TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition',
                             ]
                         ),
                     ]
@@ -2882,13 +2882,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schK3_a.xsd"
+                        href='../msData/schema/schK3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2900,9 +2900,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schK3"
+                name='schK3'
             ),
-            name="schK3"
+            name='schK3'
         ),
         TestGroup(
             annotation=[
@@ -2910,7 +2910,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def",
+                                'TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def',
                             ]
                         ),
                     ]
@@ -2918,13 +2918,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL1_a.xsd"
+                        href='../msData/schema/schL1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2936,9 +2936,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL1"
+                name='schL1'
             ),
-            name="schL1"
+            name='schL1'
         ),
         TestGroup(
             annotation=[
@@ -2951,7 +2951,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Legal in XSD 1.1: an all group content model can now contain a group reference to another all group.",
+                                'Legal in XSD 1.1: an all group content model can now contain a group reference to another all group.',
                             ]
                         ),
                     ]
@@ -2959,16 +2959,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL3_a.xsd"
+                        href='../msData/schema/schL3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -2989,9 +2989,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL3"
+                name='schL3'
             ),
-            name="schL3"
+            name='schL3'
         ),
         TestGroup(
             annotation=[
@@ -2999,12 +2999,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order",
+                                'TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Invalid restriction which becomes valid in XSD 1.1 - MHK",
+                                'Invalid restriction which becomes valid in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -3012,16 +3012,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL5_a.xsd"
+                        href='../msData/schema/schL5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3042,9 +3042,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL5"
+                name='schL5'
             ),
-            name="schL5"
+            name='schL5'
         ),
         TestGroup(
             annotation=[
@@ -3052,7 +3052,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order",
+                                'TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order',
                             ]
                         ),
                     ]
@@ -3060,13 +3060,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL6_a.xsd"
+                        href='../msData/schema/schL6_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3078,9 +3078,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL6"
+                name='schL6'
             ),
-            name="schL6"
+            name='schL6'
         ),
         TestGroup(
             annotation=[
@@ -3088,7 +3088,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones",
+                                'TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones',
                             ]
                         ),
                     ]
@@ -3096,13 +3096,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL8_a.xsd"
+                        href='../msData/schema/schL8_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3114,9 +3114,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL8"
+                name='schL8'
             ),
-            name="schL8"
+            name='schL8'
         ),
         TestGroup(
             annotation=[
@@ -3124,7 +3124,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error",
+                                'TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error',
                             ]
                         ),
                     ]
@@ -3132,13 +3132,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schL10_a.xsd"
+                        href='../msData/schema/schL10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3150,9 +3150,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schL10"
+                name='schL10'
             ),
-            name="schL10"
+            name='schL10'
         ),
         TestGroup(
             annotation=[
@@ -3160,7 +3160,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones",
+                                'TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones',
                             ]
                         ),
                     ]
@@ -3168,13 +3168,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM3_a.xsd"
+                        href='../msData/schema/schM3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3186,9 +3186,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM3"
+                name='schM3'
             ),
-            name="schM3"
+            name='schM3'
         ),
         TestGroup(
             annotation=[
@@ -3196,7 +3196,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order",
+                                'TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order',
                             ]
                         ),
                     ]
@@ -3204,13 +3204,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM4_a.xsd"
+                        href='../msData/schema/schM4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3222,9 +3222,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM4"
+                name='schM4'
             ),
-            name="schM4"
+            name='schM4'
         ),
         TestGroup(
             annotation=[
@@ -3232,7 +3232,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error",
+                                'TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error',
                             ]
                         ),
                     ]
@@ -3240,13 +3240,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM5.xsd"
+                        href='../msData/schema/schM5.xsd'
                     ),
                 ],
                 expected=[
@@ -3258,9 +3258,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM5"
+                name='schM5'
             ),
-            name="schM5"
+            name='schM5'
         ),
         TestGroup(
             annotation=[
@@ -3268,7 +3268,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute",
+                                'TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute',
                             ]
                         ),
                     ]
@@ -3276,13 +3276,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM8_a.xsd"
+                        href='../msData/schema/schM8_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3294,9 +3294,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM8"
+                name='schM8'
             ),
-            name="schM8"
+            name='schM8'
         ),
         TestGroup(
             annotation=[
@@ -3304,7 +3304,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine",
+                                'TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine',
                             ]
                         ),
                     ]
@@ -3312,13 +3312,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM9_a.xsd"
+                        href='../msData/schema/schM9_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3330,9 +3330,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM9"
+                name='schM9'
             ),
-            name="schM9"
+            name='schM9'
         ),
         TestGroup(
             annotation=[
@@ -3340,7 +3340,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)",
+                                'TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)',
                             ]
                         ),
                     ]
@@ -3348,13 +3348,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schM10_a.xsd"
+                        href='../msData/schema/schM10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3366,9 +3366,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schM10"
+                name='schM10'
             ),
-            name="schM10"
+            name='schM10'
         ),
         TestGroup(
             annotation=[
@@ -3384,13 +3384,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN4.xsd"
+                        href='../msData/schema/schN4.xsd'
                     ),
                 ],
                 expected=[
@@ -3402,9 +3402,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN4"
+                name='schN4'
             ),
-            name="schN4"
+            name='schN4'
         ),
         TestGroup(
             annotation=[
@@ -3420,13 +3420,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN5.xsd"
+                        href='../msData/schema/schN5.xsd'
                     ),
                 ],
                 expected=[
@@ -3438,9 +3438,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN5"
+                name='schN5'
             ),
-            name="schN5"
+            name='schN5'
         ),
         TestGroup(
             annotation=[
@@ -3448,7 +3448,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself",
+                                'TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself',
                             ]
                         ),
                     ]
@@ -3456,13 +3456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN6.xsd"
+                        href='../msData/schema/schN6.xsd'
                     ),
                 ],
                 expected=[
@@ -3474,9 +3474,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN6"
+                name='schN6'
             ),
-            name="schN6"
+            name='schN6'
         ),
         TestGroup(
             annotation=[
@@ -3484,7 +3484,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself",
+                                'TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself',
                             ]
                         ),
                     ]
@@ -3492,13 +3492,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN7.xsd"
+                        href='../msData/schema/schN7.xsd'
                     ),
                 ],
                 expected=[
@@ -3510,9 +3510,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN7"
+                name='schN7'
             ),
-            name="schN7"
+            name='schN7'
         ),
         TestGroup(
             annotation=[
@@ -3520,7 +3520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : duplicate element in a redefine",
+                                'TEST :schema collection and schema location : duplicate element in a redefine',
                             ]
                         ),
                     ]
@@ -3528,13 +3528,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN10_a.xsd"
+                        href='../msData/schema/schN10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3546,9 +3546,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN10"
+                name='schN10'
             ),
-            name="schN10"
+            name='schN10'
         ),
         TestGroup(
             annotation=[
@@ -3556,7 +3556,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : chameleon redefine(valid)",
+                                'TEST :schema collection and schema location : chameleon redefine(valid)',
                             ]
                         ),
                     ]
@@ -3564,13 +3564,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN11_a.xsd"
+                        href='../msData/schema/schN11_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3582,9 +3582,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN11"
+                name='schN11'
             ),
-            name="schN11"
+            name='schN11'
         ),
         TestGroup(
             annotation=[
@@ -3592,7 +3592,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : chameleon redefine(invalid)",
+                                'TEST :schema collection and schema location : chameleon redefine(invalid)',
                             ]
                         ),
                     ]
@@ -3600,13 +3600,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN12_a.xsd"
+                        href='../msData/schema/schN12_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3618,9 +3618,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN12"
+                name='schN12'
             ),
-            name="schN12"
+            name='schN12'
         ),
         TestGroup(
             annotation=[
@@ -3628,7 +3628,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)",
+                                'TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)',
                             ]
                         ),
                     ]
@@ -3636,13 +3636,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN13a_v.xsd"
+                        href='../msData/schema/schN13a_v.xsd'
                     ),
                 ],
                 expected=[
@@ -3654,9 +3654,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN13v"
+                name='schN13v'
             ),
-            name="schN13v"
+            name='schN13v'
         ),
         TestGroup(
             annotation=[
@@ -3664,7 +3664,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)",
+                                'TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)',
                             ]
                         ),
                     ]
@@ -3672,13 +3672,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schN13a_i.xsd"
+                        href='../msData/schema/schN13a_i.xsd'
                     ),
                 ],
                 expected=[
@@ -3690,9 +3690,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schN13i"
+                name='schN13i'
             ),
-            name="schN13i"
+            name='schN13i'
         ),
         TestGroup(
             annotation=[
@@ -3700,7 +3700,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns=&quot;A&quot;, Y's ns=&quot;A&quot;, from example from spec, (SRC 4.1)",
+                                'TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X\'s ns="A", Y\'s ns="A", from example from spec, (SRC 4.1)',
                             ]
                         ),
                     ]
@@ -3708,13 +3708,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schO2_a.xsd"
+                        href='../msData/schema/schO2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3726,9 +3726,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schO2"
+                name='schO2'
             ),
-            name="schO2"
+            name='schO2'
         ),
         TestGroup(
             annotation=[
@@ -3736,7 +3736,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)',
                             ]
                         ),
                     ]
@@ -3744,13 +3744,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schP1_a.xsd"
+                        href='../msData/schema/schP1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3762,9 +3762,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schP1"
+                name='schP1'
             ),
-            name="schP1"
+            name='schP1'
         ),
         TestGroup(
             annotation=[
@@ -3772,7 +3772,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)',
                             ]
                         ),
                     ]
@@ -3780,13 +3780,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schP2_a.xsd"
+                        href='../msData/schema/schP2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3798,12 +3798,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schP2"
+                name='schP2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schP2.xml"
+                        href='../msData/schema/schP2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3814,10 +3814,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schP2.v"
+                    name='schP2.v'
                 ),
             ],
-            name="schP2"
+            name='schP2'
         ),
         TestGroup(
             annotation=[
@@ -3825,7 +3825,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)',
                             ]
                         ),
                     ]
@@ -3833,13 +3833,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schP3_a.xsd"
+                        href='../msData/schema/schP3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3851,9 +3851,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schP3"
+                name='schP3'
             ),
-            name="schP3"
+            name='schP3'
         ),
         TestGroup(
             annotation=[
@@ -3861,7 +3861,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)',
                             ]
                         ),
                     ]
@@ -3869,13 +3869,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schQ1_a.xsd"
+                        href='../msData/schema/schQ1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3887,12 +3887,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schQ1"
+                name='schQ1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schQ1.xml"
+                        href='../msData/schema/schQ1.xml'
                     ),
                     expected=[
                         Expected(
@@ -3903,10 +3903,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schQ1.v"
+                    name='schQ1.v'
                 ),
             ],
-            name="schQ1"
+            name='schQ1'
         ),
         TestGroup(
             annotation=[
@@ -3914,7 +3914,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)',
                             ]
                         ),
                     ]
@@ -3922,13 +3922,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schQ2_a.xsd"
+                        href='../msData/schema/schQ2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3940,9 +3940,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schQ2"
+                name='schQ2'
             ),
-            name="schQ2"
+            name='schQ2'
         ),
         TestGroup(
             annotation=[
@@ -3950,7 +3950,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)',
                             ]
                         ),
                     ]
@@ -3958,13 +3958,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schQ3_a.xsd"
+                        href='../msData/schema/schQ3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3976,12 +3976,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schQ3"
+                name='schQ3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schQ3.xml"
+                        href='../msData/schema/schQ3.xml'
                     ),
                     expected=[
                         Expected(
@@ -3992,10 +3992,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schQ3.v"
+                    name='schQ3.v'
                 ),
             ],
-            name="schQ3"
+            name='schQ3'
         ),
         TestGroup(
             annotation=[
@@ -4003,7 +4003,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)",
+                                'TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)',
                             ]
                         ),
                     ]
@@ -4011,13 +4011,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schQ4_a.xsd"
+                        href='../msData/schema/schQ4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4029,9 +4029,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schQ4"
+                name='schQ4'
             ),
-            name="schQ4"
+            name='schQ4'
         ),
         TestGroup(
             annotation=[
@@ -4039,7 +4039,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)",
+                                'TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)',
                             ]
                         ),
                     ]
@@ -4047,13 +4047,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schR2_a.xsd"
+                        href='../msData/schema/schR2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4065,12 +4065,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schR2"
+                name='schR2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schR2.xml"
+                        href='../msData/schema/schR2.xml'
                     ),
                     expected=[
                         Expected(
@@ -4081,10 +4081,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schR2.i"
+                    name='schR2.i'
                 ),
             ],
-            name="schR2"
+            name='schR2'
         ),
         TestGroup(
             annotation=[
@@ -4092,7 +4092,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)",
+                                'TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)',
                             ]
                         ),
                     ]
@@ -4100,13 +4100,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schR3_a.xsd"
+                        href='../msData/schema/schR3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4118,9 +4118,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schR3"
+                name='schR3'
             ),
-            name="schR3"
+            name='schR3'
         ),
         TestGroup(
             annotation=[
@@ -4128,7 +4128,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)",
+                                'TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)',
                             ]
                         ),
                     ]
@@ -4136,13 +4136,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schR4_a.xsd"
+                        href='../msData/schema/schR4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4154,9 +4154,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schR4"
+                name='schR4'
             ),
-            name="schR4"
+            name='schR4'
         ),
         TestGroup(
             annotation=[
@@ -4164,7 +4164,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)",
+                                'TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)',
                             ]
                         ),
                     ]
@@ -4172,13 +4172,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schR5_a.xsd"
+                        href='../msData/schema/schR5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4190,9 +4190,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schR5"
+                name='schR5'
             ),
-            name="schR5"
+            name='schR5'
         ),
         TestGroup(
             annotation=[
@@ -4208,13 +4208,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schS1_a.xsd"
+                        href='../msData/schema/schS1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4226,9 +4226,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schS1"
+                name='schS1'
             ),
-            name="schS1"
+            name='schS1'
         ),
         TestGroup(
             annotation=[
@@ -4244,13 +4244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT1_a.xsd"
+                        href='../msData/schema/schT1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4262,9 +4262,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT1"
+                name='schT1'
             ),
-            name="schT1"
+            name='schT1'
         ),
         TestGroup(
             annotation=[
@@ -4272,7 +4272,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)",
+                                'TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)',
                             ]
                         ),
                     ]
@@ -4280,13 +4280,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT2_a.xsd"
+                        href='../msData/schema/schT2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4298,9 +4298,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT2"
+                name='schT2'
             ),
-            name="schT2"
+            name='schT2'
         ),
         TestGroup(
             annotation=[
@@ -4316,13 +4316,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT3_a.xsd"
+                        href='../msData/schema/schT3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4334,12 +4334,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT3"
+                name='schT3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schT3.xml"
+                        href='../msData/schema/schT3.xml'
                     ),
                     expected=[
                         Expected(
@@ -4350,10 +4350,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schT3.v"
+                    name='schT3.v'
                 ),
             ],
-            name="schT3"
+            name='schT3'
         ),
         TestGroup(
             annotation=[
@@ -4369,13 +4369,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT6_a.xsd"
+                        href='../msData/schema/schT6_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4387,12 +4387,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT6"
+                name='schT6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schT6.xml"
+                        href='../msData/schema/schT6.xml'
                     ),
                     expected=[
                         Expected(
@@ -4403,10 +4403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schT6.i"
+                    name='schT6.i'
                 ),
             ],
-            name="schT6"
+            name='schT6'
         ),
         TestGroup(
             annotation=[
@@ -4414,7 +4414,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default=&quot;foo&quot; in redefined attriubte, but redefining attribute has default=&quot;bar&quot;, the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)",
+                                'TEST :schema collection and schema location : redefine with a attributeGroup, attribute group\'s content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default="foo" in redefined attriubte, but redefining attribute has default="bar", the actual value of the instance should have \'bar\' as the default attribute value (SRC 7.2.2)',
                             ]
                         ),
                     ]
@@ -4422,13 +4422,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT9_a.xsd"
+                        href='../msData/schema/schT9_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4440,12 +4440,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT9"
+                name='schT9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schT9.xml"
+                        href='../msData/schema/schT9.xml'
                     ),
                     expected=[
                         Expected(
@@ -4456,10 +4456,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schT9.v"
+                    name='schT9.v'
                 ),
             ],
-            name="schT9"
+            name='schT9'
         ),
         TestGroup(
             annotation=[
@@ -4467,7 +4467,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed=&quot;bar&quot; , (SRC 7.2.2)",
+                                'TEST :schema collection and schema location : redefine with an attributeGroup, attribute group\'s content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed="bar" , (SRC 7.2.2)',
                             ]
                         ),
                     ]
@@ -4475,13 +4475,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schT10_a.xsd"
+                        href='../msData/schema/schT10_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4493,12 +4493,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schT10"
+                name='schT10'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schT10.xml"
+                        href='../msData/schema/schT10.xml'
                     ),
                     expected=[
                         Expected(
@@ -4509,10 +4509,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schT10.v"
+                    name='schT10.v'
                 ),
             ],
-            name="schT10"
+            name='schT10'
         ),
         TestGroup(
             annotation=[
@@ -4520,7 +4520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Circulcar redefines handeling (1)",
+                                'TEST :schema collection and schema location : Circulcar redefines handeling (1)',
                             ]
                         ),
                     ]
@@ -4528,13 +4528,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schU1_a.xsd"
+                        href='../msData/schema/schU1_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4545,7 +4545,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.DISPUTED_TEST,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135'
                 ),
                 prior=[
                     Prior(
@@ -4553,9 +4553,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU1"
+                name='schU1'
             ),
-            name="schU1"
+            name='schU1'
         ),
         TestGroup(
             annotation=[
@@ -4563,7 +4563,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Circulcar redefines handeling (2)",
+                                'TEST :schema collection and schema location : Circulcar redefines handeling (2)',
                             ]
                         ),
                     ]
@@ -4571,13 +4571,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schU2_a.xsd"
+                        href='../msData/schema/schU2_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4589,9 +4589,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schU2"
+                name='schU2'
             ),
-            name="schU2"
+            name='schU2'
         ),
         TestGroup(
             annotation=[
@@ -4599,12 +4599,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Circulcar redefines handeling (3)",
+                                'TEST :schema collection and schema location : Circulcar redefines handeling (3)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
+                                'The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ',
                             ]
                         ),
                     ]
@@ -4612,13 +4612,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schU3_a.xsd"
+                        href='../msData/schema/schU3_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4629,25 +4629,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU3"
+                name='schU3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schU3.xml"
+                        href='../msData/schema/schU3.xml'
                     ),
                     expected=[
                         Expected(
@@ -4658,10 +4658,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schU3.i"
+                    name='schU3.i'
                 ),
             ],
-            name="schU3"
+            name='schU3'
         ),
         TestGroup(
             annotation=[
@@ -4669,12 +4669,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Circulcar redefines handeling (4)",
+                                'TEST :schema collection and schema location : Circulcar redefines handeling (4)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
+                                'The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ',
                             ]
                         ),
                     ]
@@ -4682,13 +4682,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schU4_a.xsd"
+                        href='../msData/schema/schU4_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4699,25 +4699,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU4"
+                name='schU4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schU4.xml"
+                        href='../msData/schema/schU4.xml'
                     ),
                     expected=[
                         Expected(
@@ -4728,10 +4728,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schU4.i"
+                    name='schU4.i'
                 ),
             ],
-            name="schU4"
+            name='schU4'
         ),
         TestGroup(
             annotation=[
@@ -4739,12 +4739,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : Circulcar redefines handeling (5)",
+                                'TEST :schema collection and schema location : Circulcar redefines handeling (5)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
+                                'The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ',
                             ]
                         ),
                     ]
@@ -4752,13 +4752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schU5_a.xsd"
+                        href='../msData/schema/schU5_a.xsd'
                     ),
                 ],
                 expected=[
@@ -4769,25 +4769,25 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU5"
+                name='schU5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/schema/schU5.xml"
+                        href='../msData/schema/schU5.xml'
                     ),
                     expected=[
                         Expected(
@@ -4798,10 +4798,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="schU5.i"
+                    name='schU5.i'
                 ),
             ],
-            name="schU5"
+            name='schU5'
         ),
         TestGroup(
             annotation=[
@@ -4817,13 +4817,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/78029a.xsd"
+                        href='../msData/schema/78029a.xsd'
                     ),
                 ],
                 expected=[
@@ -4835,9 +4835,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ001_78029-a"
+                name='schZ001_78029-a'
             ),
-            name="schZ001_78029-a"
+            name='schZ001_78029-a'
         ),
         TestGroup(
             annotation=[
@@ -4853,13 +4853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/78029b.xsd"
+                        href='../msData/schema/78029b.xsd'
                     ),
                 ],
                 expected=[
@@ -4871,9 +4871,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ002_78029-b"
+                name='schZ002_78029-b'
             ),
-            name="schZ002_78029-b"
+            name='schZ002_78029-b'
         ),
         TestGroup(
             annotation=[
@@ -4889,13 +4889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/78029c.xsd"
+                        href='../msData/schema/78029c.xsd'
                     ),
                 ],
                 expected=[
@@ -4907,9 +4907,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ003_78029-c"
+                name='schZ003_78029-c'
             ),
-            name="schZ003_78029-c"
+            name='schZ003_78029-c'
         ),
         TestGroup(
             annotation=[
@@ -4917,12 +4917,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.",
+                                'TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -4930,66 +4930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ004.xsd"
-                    ),
-                ],
-                expected=[
-                    Expected(
-                        validity=ExpectedOutcome.INVALID
-                    ),
-                ],
-                current=Current(
-                    status=Status.STABLE,
-                    date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
-                ),
-                prior=[
-                    Prior(
-                        status=Status.QUERIED,
-                        date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
-                    ),
-                    Prior(
-                        status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16)
-                    ),
-                ],
-                name="schZ004"
-            ),
-            name="schZ004"
-        ),
-        TestGroup(
-            annotation=[
-                Annotation(
-                    appinfo_or_documentation=[
-                        Documentation(
-                            content=[
-                                "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.",
-                            ]
-                        ),
-                        Documentation(
-                            content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
-                            ]
-                        ),
-                    ]
-                ),
-            ],
-            documentation_reference=[
-                DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
-                ),
-            ],
-            schema_test=SchemaTest(
-                schema_document=[
-                    SchemaDocument(
-                        href="../msData/schema/schZ005.xsd"
+                        href='../msData/schema/schZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -5000,22 +4947,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ005"
+                name='schZ004'
             ),
-            name="schZ005"
+            name='schZ004'
         ),
         TestGroup(
             annotation=[
@@ -5023,7 +4970,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself",
+                                'TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.',
+                            ]
+                        ),
+                        Documentation(
+                            content=[
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -5031,13 +4983,61 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ006.xsd"
+                        href='../msData/schema/schZ005.xsd'
+                    ),
+                ],
+                expected=[
+                    Expected(
+                        validity=ExpectedOutcome.INVALID
+                    ),
+                ],
+                current=Current(
+                    status=Status.STABLE,
+                    date=XmlDate(2008, 11, 25),
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
+                ),
+                prior=[
+                    Prior(
+                        status=Status.QUERIED,
+                        date=XmlDate(2007, 1, 3),
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
+                    ),
+                    Prior(
+                        status=Status.ACCEPTED,
+                        date=XmlDate(2006, 7, 16)
+                    ),
+                ],
+                name='schZ005'
+            ),
+            name='schZ005'
+        ),
+        TestGroup(
+            annotation=[
+                Annotation(
+                    appinfo_or_documentation=[
+                        Documentation(
+                            content=[
+                                'TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself',
+                            ]
+                        ),
+                    ]
+                ),
+            ],
+            documentation_reference=[
+                DocumentationReference(
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
+                ),
+            ],
+            schema_test=SchemaTest(
+                schema_document=[
+                    SchemaDocument(
+                        href='../msData/schema/schZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -5049,9 +5049,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ006"
+                name='schZ006'
             ),
-            name="schZ006"
+            name='schZ006'
         ),
         TestGroup(
             annotation=[
@@ -5059,7 +5059,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : multipe redefine elements in a schema.",
+                                'TEST :schema collection and schema location : multipe redefine elements in a schema.',
                             ]
                         ),
                     ]
@@ -5067,13 +5067,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ007.xsd"
+                        href='../msData/schema/schZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -5085,9 +5085,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ007"
+                name='schZ007'
             ),
-            name="schZ007"
+            name='schZ007'
         ),
         TestGroup(
             annotation=[
@@ -5095,7 +5095,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache.",
+                                'TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache.',
                             ]
                         ),
                     ]
@@ -5103,13 +5103,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ008_a.xsd"
+                        href='../msData/schema/schZ008_a.xsd'
                     ),
                 ],
                 expected=[
@@ -5121,9 +5121,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ008"
+                name='schZ008'
             ),
-            name="schZ008"
+            name='schZ008'
         ),
         TestGroup(
             annotation=[
@@ -5131,7 +5131,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario",
+                                'TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario',
                             ]
                         ),
                     ]
@@ -5139,22 +5139,22 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ009a.xsd"
+                        href='../msData/schema/schZ009a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schZ009b.xsd"
+                        href='../msData/schema/schZ009b.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schZ009c.xsd"
+                        href='../msData/schema/schZ009c.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schZ009d.xsd"
+                        href='../msData/schema/schZ009d.xsd'
                     ),
                 ],
                 expected=[
@@ -5166,9 +5166,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ009"
+                name='schZ009'
             ),
-            name="schZ009"
+            name='schZ009'
         ),
         TestGroup(
             annotation=[
@@ -5176,7 +5176,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd:import allows import of the targetNamespace.",
+                                'TEST :schema collection and schema location : xsd:import allows import of the targetNamespace.',
                             ]
                         ),
                     ]
@@ -5184,13 +5184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ010.xsd"
+                        href='../msData/schema/schZ010.xsd'
                     ),
                 ],
                 expected=[
@@ -5202,9 +5202,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ010"
+                name='schZ010'
             ),
-            name="schZ010"
+            name='schZ010'
         ),
         TestGroup(
             annotation=[
@@ -5212,7 +5212,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
+                                'TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported',
                             ]
                         ),
                     ]
@@ -5220,13 +5220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ011_a.xsd"
+                        href='../msData/schema/schZ011_a.xsd'
                     ),
                 ],
                 expected=[
@@ -5238,9 +5238,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ011_a"
+                name='schZ011_a'
             ),
-            name="schZ011_a"
+            name='schZ011_a'
         ),
         TestGroup(
             annotation=[
@@ -5248,7 +5248,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
+                                'TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported',
                             ]
                         ),
                     ]
@@ -5256,13 +5256,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ011_b.xsd"
+                        href='../msData/schema/schZ011_b.xsd'
                     ),
                 ],
                 expected=[
@@ -5274,9 +5274,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ011_b"
+                name='schZ011_b'
             ),
-            name="schZ011_b"
+            name='schZ011_b'
         ),
         TestGroup(
             annotation=[
@@ -5284,7 +5284,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
+                                'TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported',
                             ]
                         ),
                     ]
@@ -5292,13 +5292,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ011_c.xsd"
+                        href='../msData/schema/schZ011_c.xsd'
                     ),
                 ],
                 expected=[
@@ -5310,9 +5310,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ011_c"
+                name='schZ011_c'
             ),
-            name="schZ011_c"
+            name='schZ011_c'
         ),
         TestGroup(
             annotation=[
@@ -5320,7 +5320,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
+                                'TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported',
                             ]
                         ),
                     ]
@@ -5328,13 +5328,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ011_d.xsd"
+                        href='../msData/schema/schZ011_d.xsd'
                     ),
                 ],
                 expected=[
@@ -5346,9 +5346,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ011_d"
+                name='schZ011_d'
             ),
-            name="schZ011_d"
+            name='schZ011_d'
         ),
         TestGroup(
             annotation=[
@@ -5356,12 +5356,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
+                                'TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
+                                'The WG decided the spec. is underspecified in this area, so\nimplementations may reasonably differ',
                             ]
                         ),
                     ]
@@ -5369,13 +5369,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ012_a.xsd"
+                        href='../msData/schema/schZ012_a.xsd'
                     ),
                 ],
                 expected=[
@@ -5386,22 +5386,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ012_a"
+                name='schZ012_a'
             ),
-            name="schZ012_a"
+            name='schZ012_a'
         ),
         TestGroup(
             annotation=[
@@ -5409,7 +5409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
+                                'TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas',
                             ]
                         ),
                     ]
@@ -5417,13 +5417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ012_b.xsd"
+                        href='../msData/schema/schZ012_b.xsd'
                     ),
                 ],
                 expected=[
@@ -5435,9 +5435,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ012_b"
+                name='schZ012_b'
             ),
-            name="schZ012_b"
+            name='schZ012_b'
         ),
         TestGroup(
             annotation=[
@@ -5445,7 +5445,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
+                                'TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas',
                             ]
                         ),
                     ]
@@ -5453,13 +5453,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ012_c.xsd"
+                        href='../msData/schema/schZ012_c.xsd'
                     ),
                 ],
                 expected=[
@@ -5471,9 +5471,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ012_c"
+                name='schZ012_c'
             ),
-            name="schZ012_c"
+            name='schZ012_c'
         ),
         TestGroup(
             annotation=[
@@ -5481,7 +5481,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd import : main schema had a redefine statement",
+                                'TEST :schema collection and schema location : xsd import : main schema had a redefine statement',
                             ]
                         ),
                     ]
@@ -5489,16 +5489,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ013a.xsd"
+                        href='../msData/schema/schZ013a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/schema/schZ013b.xsd"
+                        href='../msData/schema/schZ013b.xsd'
                     ),
                 ],
                 expected=[
@@ -5510,9 +5510,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ013"
+                name='schZ013'
             ),
-            name="schZ013"
+            name='schZ013'
         ),
         TestGroup(
             annotation=[
@@ -5520,7 +5520,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute",
+                                'TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute',
                             ]
                         ),
                     ]
@@ -5528,13 +5528,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ014_a.xsd"
+                        href='../msData/schema/schZ014_a.xsd'
                     ),
                 ],
                 expected=[
@@ -5546,9 +5546,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ014_a"
+                name='schZ014_a'
             ),
-            name="schZ014_a"
+            name='schZ014_a'
         ),
         TestGroup(
             annotation=[
@@ -5556,7 +5556,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute",
+                                'TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute',
                             ]
                         ),
                     ]
@@ -5564,13 +5564,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ014_b.xsd"
+                        href='../msData/schema/schZ014_b.xsd'
                     ),
                 ],
                 expected=[
@@ -5582,9 +5582,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="schZ014_b"
+                name='schZ014_b'
             ),
-            name="schZ014_b"
+            name='schZ014_b'
         ),
         TestGroup(
             annotation=[
@@ -5600,13 +5600,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/schema/schZ015.xsd"
+                        href='../msData/schema/schZ015.xsd'
                     ),
                 ],
                 expected=[
@@ -5617,27 +5617,27 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ015"
+                name='schZ015'
             ),
-            name="schZ015"
+            name='schZ015'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Schema2006-07-15",
+    contributor='Microsoft',
+    name='MS-Schema2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

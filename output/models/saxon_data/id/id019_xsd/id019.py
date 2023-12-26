@@ -11,13 +11,13 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     entity: Union[str, int] = field(
         default="entity1",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

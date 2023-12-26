@@ -12,7 +12,7 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 5,
-        }
+        },
     )
     b: List[object] = field(
         default_factory=list,
@@ -20,18 +20,18 @@ class Doc:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
     c: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 2,
-        }
+        },
     )
     d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

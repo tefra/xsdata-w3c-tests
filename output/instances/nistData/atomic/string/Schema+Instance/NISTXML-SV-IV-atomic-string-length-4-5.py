@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringLength4(
-    value="hods for creating complex documents  The Document&#10;Object Model  DOM  defines methods for interacting with XML and HTML &#10;permitting the dynamic creation and manipulation of documents  The&#10;Extensible Stylesheet Language  XSL  defines methods for"
+    value='hods for creating complex documents  The Document\nObject Model  DOM  defines methods for interacting with XML and HTML \npermitting the dynamic creation and manipulation of documents  The\nExtensible Stylesheet Language  XSL  defines methods for'
 )

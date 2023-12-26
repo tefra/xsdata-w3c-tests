@@ -14,5 +14,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"(((((boy)|(girl))[0-1][x-z]{2})?)|(man|woman)[0-1]?[y|n])*",
-        }
+        },
     )

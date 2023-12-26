@@ -14,7 +14,7 @@ class Ttype:
         metadata={
             "type": "Attribute",
             "namespace": "myNS.tempuri.org",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -34,7 +34,7 @@ class Ttype:
                     "namespace": "myNS.tempuri.org",
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -43,14 +43,14 @@ class Ttype:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         x: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "namespace": "myNS.tempuri.org",
-            }
+            },
         )
 
     @dataclass
@@ -59,14 +59,14 @@ class Ttype:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         y: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
                 "namespace": "myNS.tempuri.org",
-            }
+            },
         )
 
 
@@ -88,5 +88,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

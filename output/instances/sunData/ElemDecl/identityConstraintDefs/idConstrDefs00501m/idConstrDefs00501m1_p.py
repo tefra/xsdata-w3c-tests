@@ -4,16 +4,16 @@ from output.models.sun_data.elem_decl.identity_constraint_defs.id_constr_defs005
 obj = Root(
     person=[
         Root.Person(
-            value="John Smith",
-            ssn="s007"
+            value='John Smith',
+            ssn='s007'
         ),
         Root.Person(
-            value="William Smith",
-            ssn="s008"
+            value='William Smith',
+            ssn='s008'
         ),
         Root.Person(
-            value="John Smith",
-            ssn="s009"
+            value='John Smith',
+            ssn='s009'
         ),
     ]
 )

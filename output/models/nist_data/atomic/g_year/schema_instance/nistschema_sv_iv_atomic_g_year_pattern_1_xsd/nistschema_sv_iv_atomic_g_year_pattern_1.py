@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicGYearPattern1:
         metadata={
             "required": True,
             "pattern": r"\d\d47",
-        }
+        },
     )

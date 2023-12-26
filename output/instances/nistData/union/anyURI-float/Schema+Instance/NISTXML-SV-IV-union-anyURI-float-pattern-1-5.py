@@ -2,5 +2,5 @@ from output.models.nist_data.union.any_uri_float.schema_instance.nistschema_sv_i
 
 
 obj = NistschemaSvIvUnionAnyUriFloatPattern1(
-    value="7.655E19"
+    value='7.655E19'
 )

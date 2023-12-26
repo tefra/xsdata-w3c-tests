@@ -14,5 +14,5 @@ class Doc:
             "namespace": "",
             "min_occurs": 1,
             "pattern": r"((\-|\+)?[1-127])|(\-?128)",
-        }
+        },
     )

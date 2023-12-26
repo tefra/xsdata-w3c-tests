@@ -12,5 +12,5 @@ class Doc:
         metadata={
             "type": "Attribute",
             "pattern": r"(([c-e]*)|([d-f]*))",
-        }
+        },
     )

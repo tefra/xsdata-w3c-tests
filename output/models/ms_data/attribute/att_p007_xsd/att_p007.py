@@ -15,7 +15,7 @@ class AttRef:
             "type": "Attribute",
             "namespace": "http://xsdtesting",
             "required": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

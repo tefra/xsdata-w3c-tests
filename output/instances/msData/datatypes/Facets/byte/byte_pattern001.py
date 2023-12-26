@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.byte.byte_pattern001_xsd.byte_patter
 
 
 obj = Test(
-    foo="5"
+    foo='5'
 )

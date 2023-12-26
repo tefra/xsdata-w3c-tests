@@ -4,7 +4,7 @@ from output.models.ms_data.group.group_o008_xsd.group_o008 import Elem
 
 obj = Doc(
     elem=Elem(
-        a1="",
-        a2=""
+        a1='',
+        a2=''
     )
 )

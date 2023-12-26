@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMaxLength1(
     value=[
-        ":location-",
-        "pand-many:",
-        "qsecurity:",
-        "ffile.busi",
-        "nhas:such:",
+        ':location-',
+        'pand-many:',
+        'qsecurity:',
+        'ffile.busi',
+        'nhas:such:',
     ]
 )

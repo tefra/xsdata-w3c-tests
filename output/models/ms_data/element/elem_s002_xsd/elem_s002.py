@@ -14,7 +14,7 @@ class CInvalid:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -29,13 +29,13 @@ class Cs:
             "required": True,
             "min_length": 1,
             "max_length": 4,
-        }
+        },
     )
     a: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -48,7 +48,7 @@ class Cc(Cs):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -72,7 +72,7 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fr1_valid_or_fr_valid: Optional[Union[FrValid, Fr1Valid]] = field(
+    fr1_valid_or_fr_valid: Optional[Union[Fr1Valid, FrValid]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -86,5 +86,5 @@ class Root:
                     "type": FrValid,
                 },
             ),
-        }
+        },
     )

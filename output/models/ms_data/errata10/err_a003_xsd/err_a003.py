@@ -17,7 +17,7 @@ class RootType:
             "type": "Element",
             "namespace": "http://www.tempuri.org",
             "required": True,
-        }
+        },
     )
 
 
@@ -31,7 +31,7 @@ class TestElement:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 

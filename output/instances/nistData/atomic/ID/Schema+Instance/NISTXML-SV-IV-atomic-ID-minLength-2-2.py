@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength2(
-        value="_2001-both_law_them-that_to-allows_asking.the-sma"
+        value='_2001-both_law_them-that_to-allows_asking.the-sma'
     )
 )

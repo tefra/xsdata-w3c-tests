@@ -11,14 +11,14 @@ class Zz:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     type_value: Optional[int] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -51,14 +51,14 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-        }
+        },
     )
 
 

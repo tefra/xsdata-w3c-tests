@@ -11,7 +11,7 @@ class Kid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -24,7 +24,7 @@ class UidType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Root:
     class Meta:
         name = "root"
 
-    uid2_or_uid: List[Union[Uid, Uid2]] = field(
+    uid2_or_uid: List[Union[Uid2, Uid]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -59,12 +59,12 @@ class Root:
                     "type": Uid,
                 },
             ),
-        }
+        },
     )
     kid: List[Kid] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

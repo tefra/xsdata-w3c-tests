@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenWhiteSpace1(
     value=[
-        "use-four.computing-guidelines:o",
-        "a_XSL-FO:the_ebXML.are-mechanis",
-        "is:for.match:simplest_as:electr",
-        "using_of:registry:An:Despite-to",
-        "subject.languages:Groups-leader",
-        "for_technologies_in.Investigati",
-        "to_typical.the-that-networking:",
+        'use-four.computing-guidelines:o',
+        'a_XSL-FO:the_ebXML.are-mechanis',
+        'is:for.match:simplest_as:electr',
+        'using_of:registry:An:Despite-to',
+        'subject.languages:Groups-leader',
+        'for_technologies_in.Investigati',
+        'to_typical.the-that-networking:',
     ]
 )

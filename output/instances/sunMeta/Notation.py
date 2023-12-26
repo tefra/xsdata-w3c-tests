@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a notation declaration (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a notation declaration (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a notation declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a notation declaration (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a notation declaration (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a notation declaration.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -116,9 +116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -127,12 +127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a notation declaration (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a notation declaration (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a notation declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.'
                                 ),
                             ]
                         ),
@@ -141,13 +141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -159,12 +159,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m3_p.xml"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -175,10 +175,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -187,12 +187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a notation declaration (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a notation declaration (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a notation declaration.&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a notation declaration.\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -201,13 +201,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/Notation/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -219,9 +219,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -230,12 +230,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Use the declared notation with the name 'png' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Notation declarations are referenced in the course of *validating* strings as&#10;                              members of the NOTATION simple type. A schema is invalid if it is contain a&#10;                              referebce to undeclared notation."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.'
                                 ),
                             ]
                         ),
@@ -244,13 +244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/name/name00101m/name00101m1.xsd"
+                        href='../sunData/Notation/name/name00101m/name00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -262,12 +262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m1"
+                name='name00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/name/name00101m/name00101m1_p.xml"
+                        href='../sunData/Notation/name/name00101m/name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -278,10 +278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00101m1"
+            name='name00101m1'
         ),
         TestGroup(
             annotation=[
@@ -290,12 +290,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Use the undeclared notation with the name 'jpeg' (invalid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Notation declarations are referenced in the course of *validating* strings as&#10;                              members of the NOTATION simple type. A schema is invalid if it is contain a&#10;                              referebce to undeclared notation."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type. A schema is invalid if it is contain a\n                              referebce to undeclared notation.'
                                 ),
                             ]
                         ),
@@ -304,13 +304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/name/name00101m/name00101m2.xsd"
+                        href='../sunData/Notation/name/name00101m/name00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -322,9 +322,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m2"
+                name='name00101m2'
             ),
-            name="name00101m2"
+            name='name00101m2'
         ),
         TestGroup(
             annotation=[
@@ -333,12 +333,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Declare a notation without name (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Declare a notation without name (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A name [attribute] is a required attribute"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A name [attribute] is a required attribute'
                                 ),
                             ]
                         ),
@@ -347,13 +347,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/name/name00201m/name00201m1.xsd"
+                        href='../sunData/Notation/name/name00201m/name00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -365,9 +365,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00201m1"
+                name='name00201m1'
             ),
-            name="name00201m1"
+            name='name00201m1'
         ),
         TestGroup(
             annotation=[
@@ -376,12 +376,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Declare a notation with the {public identifier} 'image/png' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The property {public identifier} is represented as the actual value of&#10;                              the public [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The property {public identifier} is represented as the actual value of\n                              the public [attribute].'
                                 ),
                             ]
                         ),
@@ -390,13 +390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/publicId/publicId00101m/publicId00101m1.xsd"
+                        href='../sunData/Notation/publicId/publicId00101m/publicId00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -408,12 +408,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="publicId00101m1"
+                name='publicId00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/publicId/publicId00101m/publicId00101m1_p.xml"
+                        href='../sunData/Notation/publicId/publicId00101m/publicId00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -424,10 +424,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="publicid00101m1"
+            name='publicid00101m1'
         ),
         TestGroup(
             annotation=[
@@ -436,12 +436,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Declare a notation without the {public identifier} (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Declare a notation without the {public identifier} (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The public [attribute] is a required attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The public [attribute] is a required attribute.'
                                 ),
                             ]
                         ),
@@ -450,13 +450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/publicId/publicId00201m/publicId00201m1.xsd"
+                        href='../sunData/Notation/publicId/publicId00201m/publicId00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -468,9 +468,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="publicId00201m1"
+                name='publicId00201m1'
             ),
-            name="publicid00201m1"
+            name='publicid00201m1'
         ),
         TestGroup(
             annotation=[
@@ -479,12 +479,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Declare a notation with the {system identifier} 'sdtimage' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The property {system identifier} is represented as the actual value of&#10;                              the system [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The property {system identifier} is represented as the actual value of\n                              the system [attribute].'
                                 ),
                             ]
                         ),
@@ -493,13 +493,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/systemId/systemId00101m/systemId00101m1.xsd"
+                        href='../sunData/Notation/systemId/systemId00101m/systemId00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -511,12 +511,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="systemId00101m1"
+                name='systemId00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/systemId/systemId00101m/systemId00101m1_p.xml"
+                        href='../sunData/Notation/systemId/systemId00101m/systemId00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -527,10 +527,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="systemid00101m1"
+            name='systemid00101m1'
         ),
         TestGroup(
             annotation=[
@@ -539,12 +539,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Declare a notation without the {system identifier} (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Declare a notation without the {system identifier} (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The property {system identifier} is optional."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The property {system identifier} is optional.'
                                 ),
                             ]
                         ),
@@ -553,13 +553,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/systemId/systemId00201m/systemId00201m1.xsd"
+                        href='../sunData/Notation/systemId/systemId00201m/systemId00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -571,12 +571,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="systemId00201m1"
+                name='systemId00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/systemId/systemId00201m/systemId00201m1_p.xml"
+                        href='../sunData/Notation/systemId/systemId00201m/systemId00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -587,10 +587,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="systemid00201m1"
+            name='systemid00201m1'
         ),
         TestGroup(
             annotation=[
@@ -599,12 +599,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Declaration of the notation with the name 'png' and the namespace 'tck_test' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The property {name} is represented as the value of the name [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The property {name} is represented as the value of the name [attribute].'
                                 ),
                             ]
                         ),
@@ -613,13 +613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/targetNS/targetNS00101m/targetNS00101m1.xsd"
+                        href='../sunData/Notation/targetNS/targetNS00101m/targetNS00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -631,12 +631,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m1"
+                name='targetNS00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/targetNS/targetNS00101m/targetNS00101m1_p.xml"
+                        href='../sunData/Notation/targetNS/targetNS00101m/targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -647,10 +647,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="targetns00101m1"
+            name='targetns00101m1'
         ),
         TestGroup(
             annotation=[
@@ -659,12 +659,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Use of the notation declared in the namespace 'tck_test' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Notation declarations are referenced in the course of *validating* strings as&#10;                              members of the NOTATION simple type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Notation declarations are referenced in the course of *validating* strings as\n                              members of the NOTATION simple type.'
                                 ),
                             ]
                         ),
@@ -673,13 +673,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cNotation_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Notation/targetNS/targetNS00101m/targetNS00101m2.xsd"
+                        href='../sunData/Notation/targetNS/targetNS00101m/targetNS00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -691,12 +691,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m2"
+                name='targetNS00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Notation/targetNS/targetNS00101m/targetNS00101m2_p.xml"
+                        href='../sunData/Notation/targetNS/targetNS00101m/targetNS00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -707,15 +707,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="targetns00101m2"
+            name='targetns00101m2'
         ),
     ],
-    contributor="SUN",
-    name="Notation",
+    contributor='SUN',
+    name='Notation',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

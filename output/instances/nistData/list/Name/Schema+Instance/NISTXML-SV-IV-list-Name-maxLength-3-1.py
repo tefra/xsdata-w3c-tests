@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMaxLength3(
     value=[
-        "vthe.technology.early",
-        "aand.and-that_be:s.by",
-        "ucoupled_and_provided",
-        "_files:and:and.to-wit",
-        "uand_to-system:life:b",
-        "qpartnerships_object.",
+        'vthe.technology.early',
+        'aand.and-that_be:s.by',
+        'ucoupled_and_provided',
+        '_files:and:and.to-wit',
+        'uand_to-system:life:b',
+        'qpartnerships_object.',
     ]
 )

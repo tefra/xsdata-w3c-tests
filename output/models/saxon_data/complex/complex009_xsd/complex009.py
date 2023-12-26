@@ -10,7 +10,7 @@ class B:
             "type": "Element",
             "namespace": "",
             "max_occurs": 5,
-        }
+        },
     )
     f: List[object] = field(
         default_factory=list,
@@ -18,7 +18,7 @@ class B:
             "type": "Element",
             "namespace": "",
             "max_occurs": 5,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
@@ -27,7 +27,7 @@ class B:
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
             "required": True,
-        }
+        },
     )
 
 

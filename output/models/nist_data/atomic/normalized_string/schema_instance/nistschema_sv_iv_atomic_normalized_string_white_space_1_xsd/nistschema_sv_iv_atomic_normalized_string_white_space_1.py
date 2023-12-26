@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNormalizedStringWhiteSpace1:
         metadata={
             "required": True,
             "white_space": "replace",
-        }
+        },
     )

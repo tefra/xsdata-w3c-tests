@@ -8,7 +8,7 @@ obj = Doc(
 
         ),
         Para(
-            entity="entity2"
+            entity='entity2'
         ),
         Para(
             entity=-1

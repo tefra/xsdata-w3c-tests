@@ -6,12 +6,12 @@ from output.models.sun_data.elem_decl.subst_group_exclusions.subst_grp_excl00202
 obj = Root(
     member3_or_member1_or_head=[
         Head(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
         Member1(
-            ear="",
-            eye=""
+            ear='',
+            eye=''
         ),
     ]
 )

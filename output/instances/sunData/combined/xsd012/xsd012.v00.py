@@ -9,24 +9,24 @@ obj = Root(
     mixed_or_element_only=[
         Root.Mixed(
             content=[
-                "&#10;&#9;&#9;abcdef&#10;&#9;",
+                '\n\t\tabcdef\n\t',
             ]
         ),
         Root.Mixed(
             content=[
                 A(
                     any_element=AnyElement(
-                        tail=" mi "
+                        tail=' mi '
                     )
                 ),
                 B(
                     any_element=AnyElement(
-                        tail=" xed "
+                        tail=' xed '
                     )
                 ),
                 C(
                     any_element=AnyElement(
-                        tail=" content&#10;&#9;"
+                        tail=' content\n\t'
                     )
                 ),
             ]

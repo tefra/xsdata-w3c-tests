@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength1(
-    value="ctest-come-must-criteria_partnerships.well-entire_and.chosen_"
+    value='ctest-come-must-criteria_partnerships.well-entire_and.chosen_'
 )

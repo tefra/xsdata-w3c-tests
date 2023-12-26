@@ -15,7 +15,7 @@ class FooType:
             "required": True,
             "min_inclusive": -7,
             "max_exclusive": -1,
-        }
+        },
     )
 
 

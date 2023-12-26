@@ -3,7 +3,7 @@ from output.models.ms_data.additional.member_type001_xsd.member_type001 import R
 
 obj = Root(
     e=[
-        "abc",
+        'abc',
         5,
         False,
     ]

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameMaxLength1(
     value=[
-        "ythose.000.libraries_and-can-language-mus",
-        "iof-and.will.the-object-the-of.and-would_",
-        "xa_particularly_to-filter_implementations",
-        "_a-signature-use-supply-partnerships_be.i",
-        "tembedded-implementation.heterogeneous-an",
+        'ythose.000.libraries_and-can-language-mus',
+        'iof-and.will.the-object-the-of.and-would_',
+        'xa_particularly_to-filter_implementations',
+        '_a-signature-use-supply-partnerships_be.i',
+        'tembedded-implementation.heterogeneous-an',
     ]
 )

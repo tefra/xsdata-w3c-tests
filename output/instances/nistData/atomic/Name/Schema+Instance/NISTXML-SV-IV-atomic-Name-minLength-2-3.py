@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength2(
-    value="fwill-created.into:processes-filter_them-be.the_chairing-can:di"
+    value='fwill-created.into:processes-filter_them-be.the_chairing-can:di'
 )

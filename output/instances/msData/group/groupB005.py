@@ -7,28 +7,28 @@ obj = Doc(
     elem=Elem(
         r1_or_r2=[
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
             AnyElement(
-                qname="r2",
-                text=""
+                qname='r2',
+                text=''
             ),
         ]
     )

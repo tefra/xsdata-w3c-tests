@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.language.language_max_length002_xsd.
 
 
 obj = Test(
-    foo="en-xx"
+    foo='en-xx'
 )

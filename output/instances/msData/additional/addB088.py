@@ -12,16 +12,16 @@ obj = Doc(
                 elem1=[
                     Any1(
                         local_element_or_bbb_or_ccc=AnyElement(
-                            qname="{http://importedXSD}bbb",
-                            text=""
+                            qname='{http://importedXSD}bbb',
+                            text=''
                         )
                     ),
                 ],
                 elem2=[
                     Any1(
                         local_element_or_bbb_or_ccc=AnyElement(
-                            qname="{http://importedXSD}bbb",
-                            text=""
+                            qname='{http://importedXSD}bbb',
+                            text=''
                         )
                     ),
                 ]

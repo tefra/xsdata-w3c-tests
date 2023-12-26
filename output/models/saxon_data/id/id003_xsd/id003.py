@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id: List[Union[str, "Node"]] = field(
+    node_or_id: List[Union["Node", str]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -21,21 +21,21 @@ class Node:
                     "type": str,
                 },
             ),
-        }
+        },
     )
     id_one: Optional[str] = field(
         default=None,
         metadata={
             "name": "id-one",
             "type": "Attribute",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -49,5 +49,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

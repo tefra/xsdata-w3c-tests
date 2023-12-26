@@ -10,7 +10,7 @@ obj = Data(
     ),
     parent=ParentType(
         child=ParentType.Child(
-            name="abc",
+            name='abc',
             dob=XmlDate(1997, 1, 1)
         )
     )

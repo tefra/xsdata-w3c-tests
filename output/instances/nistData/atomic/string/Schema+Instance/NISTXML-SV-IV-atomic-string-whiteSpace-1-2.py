@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringWhiteSpace1(
-    value="ning data  known as HTML  has led to&#10;the creation of the world s first digital l"
+    value='ning data  known as HTML  has led to\nthe creation of the world s first digital l'
 )

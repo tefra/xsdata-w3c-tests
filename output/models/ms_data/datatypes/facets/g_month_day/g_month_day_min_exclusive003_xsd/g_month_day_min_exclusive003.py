@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "min_exclusive": XmlPeriod("--01-01"),
-        }
+        },
     )
 
 

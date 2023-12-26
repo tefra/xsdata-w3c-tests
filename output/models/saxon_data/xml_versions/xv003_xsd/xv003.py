@@ -12,7 +12,7 @@ class Doc:
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -20,5 +20,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

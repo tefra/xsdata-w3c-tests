@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override overriding an element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override overriding an element declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override overriding an element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override overriding an element declaration'
                                 ),
                             ]
                         ),
@@ -40,16 +40,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over001.xsd"
+                        href='../saxonData/Override/over001.xsd'
                     ),
                 ],
                 expected=[
@@ -61,7 +61,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over001.xsd"
+                name='over001.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -70,14 +70,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.v01.xml"
+                        href='../saxonData/Override/over001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -88,7 +88,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over001.v01.xml"
+                    name='over001.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -96,14 +96,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.n01.xml"
+                        href='../saxonData/Override/over001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -114,7 +114,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over001.n01.xml"
+                    name='over001.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -122,14 +122,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.n02.xml"
+                        href='../saxonData/Override/over001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -140,10 +140,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over001.n02.xml"
+                    name='over001.n02.xml'
                 ),
             ],
-            name="over001",
+            name='over001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,12 +155,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override overriding an element declaration which is referenced in the overridden schema doc'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override overriding an element declaration which is referenced in the overridden schema doc'
                                 ),
                             ]
                         ),
@@ -169,16 +169,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over002.xsd"
+                        href='../saxonData/Override/over002.xsd'
                     ),
                 ],
                 expected=[
@@ -190,7 +190,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over002.xsd"
+                name='over002.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -199,14 +199,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over002.v01.xml"
+                        href='../saxonData/Override/over002.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -217,7 +217,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over002.v01.xml"
+                    name='over002.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -225,14 +225,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over002.n01.xml"
+                        href='../saxonData/Override/over002.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -243,7 +243,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over002.n01.xml"
+                    name='over002.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -251,14 +251,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over002.n02.xml"
+                        href='../saxonData/Override/over002.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -269,10 +269,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over002.n02.xml"
+                    name='over002.n02.xml'
                 ),
             ],
-            name="over002",
+            name='over002',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -284,12 +284,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override including a declaration which overrides nothing in the overridden schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override including a declaration which overrides nothing in the overridden schema'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override including a declaration which overrides nothing in the overridden schema"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override including a declaration which overrides nothing in the overridden schema'
                                 ),
                             ]
                         ),
@@ -298,16 +298,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over003.xsd"
+                        href='../saxonData/Override/over003.xsd'
                     ),
                 ],
                 expected=[
@@ -319,7 +319,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over003.xsd"
+                name='over003.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -328,14 +328,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.v01.xml"
+                        href='../saxonData/Override/over003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -346,7 +346,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over003.v01.xml"
+                    name='over003.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -354,14 +354,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.n01.xml"
+                        href='../saxonData/Override/over003.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -372,7 +372,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over003.n01.xml"
+                    name='over003.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -380,14 +380,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.n02.xml"
+                        href='../saxonData/Override/over003.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -398,10 +398,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over003.n02.xml"
+                    name='over003.n02.xml'
                 ),
             ],
-            name="over003",
+            name='over003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -413,12 +413,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override including a declaration outside the xs:override. Depends on over003"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override including a declaration outside the xs:override. Depends on over003'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override including a declaration outside the xs:override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override including a declaration outside the xs:override'
                                 ),
                             ]
                         ),
@@ -427,16 +427,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over004.xsd"
+                        href='../saxonData/Override/over004.xsd'
                     ),
                 ],
                 expected=[
@@ -448,7 +448,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over004.xsd"
+                name='over004.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -457,14 +457,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.v01.xml"
+                        href='../saxonData/Override/over003.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -475,7 +475,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over004.v01.xml"
+                    name='over004.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -483,14 +483,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.n01.xml"
+                        href='../saxonData/Override/over003.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -501,7 +501,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over004.n01.xml"
+                    name='over004.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -509,14 +509,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over003.n02.xml"
+                        href='../saxonData/Override/over003.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -527,10 +527,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over004.n02.xml"
+                    name='over004.n02.xml'
                 ),
             ],
-            name="over004",
+            name='over004',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -542,12 +542,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of an attribute declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override of an attribute declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of an attribute declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override of an attribute declaration'
                                 ),
                             ]
                         ),
@@ -556,16 +556,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over005.xsd"
+                        href='../saxonData/Override/over005.xsd'
                     ),
                 ],
                 expected=[
@@ -577,7 +577,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over005.xsd"
+                name='over005.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -586,14 +586,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over005.v01.xml"
+                        href='../saxonData/Override/over005.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -604,7 +604,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over005.v01.xml"
+                    name='over005.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -612,14 +612,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over005.n01.xml"
+                        href='../saxonData/Override/over005.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -630,7 +630,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over005.n01.xml"
+                    name='over005.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -638,14 +638,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over005.n02.xml"
+                        href='../saxonData/Override/over005.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -656,10 +656,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over005.n02.xml"
+                    name='over005.n02.xml'
                 ),
             ],
-            name="over005",
+            name='over005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -671,12 +671,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of a self-referential element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override of a self-referential element declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of self-referential element declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override of self-referential element declaration'
                                 ),
                             ]
                         ),
@@ -685,16 +685,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over006.xsd"
+                        href='../saxonData/Override/over006.xsd'
                     ),
                 ],
                 expected=[
@@ -706,7 +706,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over006.xsd"
+                name='over006.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -715,14 +715,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over006.v01.xml"
+                        href='../saxonData/Override/over006.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -733,7 +733,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over006.v01.xml"
+                    name='over006.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -741,14 +741,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over006.n01.xml"
+                        href='../saxonData/Override/over006.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -759,7 +759,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over006.n01.xml"
+                    name='over006.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -767,14 +767,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over006.n02.xml"
+                        href='../saxonData/Override/over006.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -785,10 +785,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over006.n02.xml"
+                    name='over006.n02.xml'
                 ),
             ],
-            name="over006",
+            name='over006',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -800,12 +800,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of a model group declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override of a model group declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of model group declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override of model group declaration'
                                 ),
                             ]
                         ),
@@ -814,16 +814,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over007.xsd"
+                        href='../saxonData/Override/over007.xsd'
                     ),
                 ],
                 expected=[
@@ -835,7 +835,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over007.xsd"
+                name='over007.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -844,14 +844,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over007.v01.xml"
+                        href='../saxonData/Override/over007.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -862,7 +862,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over007.v01.xml"
+                    name='over007.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -870,14 +870,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over007.n01.xml"
+                        href='../saxonData/Override/over007.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -888,7 +888,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over007.n01.xml"
+                    name='over007.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -896,14 +896,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over007.n02.xml"
+                        href='../saxonData/Override/over007.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -914,10 +914,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over007.n02.xml"
+                    name='over007.n02.xml'
                 ),
             ],
-            name="over007",
+            name='over007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -929,12 +929,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of an attribute group declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xs:override of an attribute group declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of an attribute group declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='xs:override of an attribute group declaration'
                                 ),
                             ]
                         ),
@@ -943,16 +943,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over008.xsd"
+                        href='../saxonData/Override/over008.xsd'
                     ),
                 ],
                 expected=[
@@ -964,7 +964,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over008.xsd"
+                name='over008.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -973,14 +973,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over008.v01.xml"
+                        href='../saxonData/Override/over008.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -991,7 +991,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over008.v01.xml"
+                    name='over008.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -999,14 +999,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over008.n01.xml"
+                        href='../saxonData/Override/over008.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1017,7 +1017,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over008.n01.xml"
+                    name='over008.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1025,14 +1025,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over008.n02.xml"
+                        href='../saxonData/Override/over008.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1043,10 +1043,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over008.n02.xml"
+                    name='over008.n02.xml'
                 ),
             ],
-            name="over008",
+            name='over008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1058,12 +1058,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Double override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Double override'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Double override. Depends on schema documents in over003"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Double override. Depends on schema documents in over003'
                                 ),
                             ]
                         ),
@@ -1072,16 +1072,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over009.xsd"
+                        href='../saxonData/Override/over009.xsd'
                     ),
                 ],
                 expected=[
@@ -1093,7 +1093,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over009.xsd"
+                name='over009.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1102,14 +1102,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over009.v01.xml"
+                        href='../saxonData/Override/over009.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1120,7 +1120,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over009.v01.xml"
+                    name='over009.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1128,14 +1128,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over009.n01.xml"
+                        href='../saxonData/Override/over009.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1146,7 +1146,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over009.n01.xml"
+                    name='over009.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1154,14 +1154,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over009.n02.xml"
+                        href='../saxonData/Override/over009.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1172,10 +1172,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over009.n02.xml"
+                    name='over009.n02.xml'
                 ),
             ],
-            name="over009",
+            name='over009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1187,12 +1187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a simple type'
                                 ),
                             ]
                         ),
@@ -1201,16 +1201,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over010.xsd"
+                        href='../saxonData/Override/over010.xsd'
                     ),
                 ],
                 expected=[
@@ -1222,7 +1222,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over010.xsd"
+                name='over010.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1231,14 +1231,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over010.v01.xml"
+                        href='../saxonData/Override/over010.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1249,7 +1249,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over010.v01.xml"
+                    name='over010.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1257,14 +1257,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over010.n01.xml"
+                        href='../saxonData/Override/over010.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1275,7 +1275,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over010.n01.xml"
+                    name='over010.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1283,14 +1283,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over010.n02.xml"
+                        href='../saxonData/Override/over010.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1301,10 +1301,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over010.n02.xml"
+                    name='over010.n02.xml'
                 ),
             ],
-            name="over010",
+            name='over010',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1316,12 +1316,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a simple type incorrectly by restricting its former self"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a simple type incorrectly by restricting its former self'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simple type incorrectly by restricting its former self"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a simple type incorrectly by restricting its former self'
                                 ),
                             ]
                         ),
@@ -1330,16 +1330,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over011.bad.xsd"
+                        href='../saxonData/Override/over011.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1351,9 +1351,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over011.bad.xsd"
+                name='over011.bad.xsd'
             ),
-            name="over011",
+            name='over011',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1365,12 +1365,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a complex type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a complex type'
                                 ),
                             ]
                         ),
@@ -1379,16 +1379,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over012.xsd"
+                        href='../saxonData/Override/over012.xsd'
                     ),
                 ],
                 expected=[
@@ -1400,7 +1400,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over012.xsd"
+                name='over012.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1409,14 +1409,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over012.v01.xml"
+                        href='../saxonData/Override/over012.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1427,7 +1427,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over012.v01.xml"
+                    name='over012.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1435,14 +1435,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over012.n01.xml"
+                        href='../saxonData/Override/over012.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1453,7 +1453,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over012.n01.xml"
+                    name='over012.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1461,14 +1461,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over012.n02.xml"
+                        href='../saxonData/Override/over012.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1479,10 +1479,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over012.n02.xml"
+                    name='over012.n02.xml'
                 ),
             ],
-            name="over012",
+            name='over012',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1494,12 +1494,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type incorrectly with a simple type"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a complex type incorrectly with a simple type'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type with a simple type. &#10;                This is not in fact an error: the override is simply ignored."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a complex type with a simple type. \n                This is not in fact an error: the override is simply ignored.'
                                 ),
                             ]
                         ),
@@ -1508,16 +1508,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over013.bad.xsd"
+                        href='../saxonData/Override/over013.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1531,7 +1531,7 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Changed status to valid. See bug 14442.&#10;                ",
+                                        '\n                  Changed status to valid. See bug 14442.\n                ',
                                     ]
                                 ),
                             ]
@@ -1546,9 +1546,9 @@ obj = TestSet(
                         date=XmlDate(2010, 5, 5)
                     ),
                 ],
-                name="over013.bad.xsd"
+                name='over013.bad.xsd'
             ),
-            name="over013",
+            name='over013',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1560,12 +1560,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type by self-restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a complex type by self-restriction'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type by self-restriction"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a complex type by self-restriction'
                                 ),
                             ]
                         ),
@@ -1574,16 +1574,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over014.bad.xsd"
+                        href='../saxonData/Override/over014.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1595,9 +1595,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over014.bad.xsd"
+                name='over014.bad.xsd'
             ),
-            name="over014",
+            name='over014',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1609,12 +1609,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a notation"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a notation'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a notation"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a notation'
                                 ),
                             ]
                         ),
@@ -1623,16 +1623,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over015.xsd"
+                        href='../saxonData/Override/over015.xsd'
                     ),
                 ],
                 expected=[
@@ -1644,7 +1644,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over015.xsd"
+                name='over015.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1653,14 +1653,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over015.v01.xml"
+                        href='../saxonData/Override/over015.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1671,7 +1671,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over015.v01.xml"
+                    name='over015.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1679,14 +1679,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over015.v02.xml"
+                        href='../saxonData/Override/over015.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1697,7 +1697,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 10)
                     ),
-                    name="over015.v02.xml"
+                    name='over015.v02.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1705,14 +1705,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over015.n01.xml"
+                        href='../saxonData/Override/over015.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1723,7 +1723,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over015.n01.xml"
+                    name='over015.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1731,14 +1731,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over015.n02.xml"
+                        href='../saxonData/Override/over015.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1749,10 +1749,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over015.n02.xml"
+                    name='over015.n02.xml'
                 ),
             ],
-            name="over015",
+            name='over015',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1764,12 +1764,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override schema with wrong namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override schema with wrong namespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override schema with wrong namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override schema with wrong namespace'
                                 ),
                             ]
                         ),
@@ -1778,16 +1778,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over016.bad.xsd"
+                        href='../saxonData/Override/over016.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1799,9 +1799,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over016.bad.xsd"
+                name='over016.bad.xsd'
             ),
-            name="over016",
+            name='over016',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1813,12 +1813,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override schema with wrong namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override schema with wrong namespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override schema with wrong namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override schema with wrong namespace'
                                 ),
                             ]
                         ),
@@ -1827,16 +1827,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over017.bad.xsd"
+                        href='../saxonData/Override/over017.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -1848,9 +1848,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over017.bad.xsd"
+                name='over017.bad.xsd'
             ),
-            name="over017",
+            name='over017',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1862,12 +1862,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override declaration in a target namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override declaration in a target namespace'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override declaration in a target namespace"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override declaration in a target namespace'
                                 ),
                             ]
                         ),
@@ -1876,16 +1876,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over018.xsd"
+                        href='../saxonData/Override/over018.xsd'
                     ),
                 ],
                 expected=[
@@ -1897,7 +1897,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over018.xsd"
+                name='over018.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -1906,14 +1906,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over018.v01.xml"
+                        href='../saxonData/Override/over018.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1924,7 +1924,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over018.v01.xml"
+                    name='over018.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1932,14 +1932,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over018.n01.xml"
+                        href='../saxonData/Override/over018.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1950,7 +1950,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over018.n01.xml"
+                    name='over018.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -1958,14 +1958,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over018.n02.xml"
+                        href='../saxonData/Override/over018.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1976,10 +1976,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over018.n02.xml"
+                    name='over018.n02.xml'
                 ),
             ],
-            name="over018",
+            name='over018',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1991,12 +1991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Chameleon Override declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Chameleon Override declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Chameleon Override declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Chameleon Override declaration'
                                 ),
                             ]
                         ),
@@ -2005,16 +2005,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over019.xsd"
+                        href='../saxonData/Override/over019.xsd'
                     ),
                 ],
                 expected=[
@@ -2026,7 +2026,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over019.xsd"
+                name='over019.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2035,14 +2035,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.v01.xml"
+                        href='../saxonData/Override/over019.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2053,7 +2053,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over019.v01.xml"
+                    name='over019.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2061,14 +2061,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.n01.xml"
+                        href='../saxonData/Override/over019.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2079,7 +2079,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over019.n01.xml"
+                    name='over019.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2087,14 +2087,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.n02.xml"
+                        href='../saxonData/Override/over019.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2105,10 +2105,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over019.n02.xml"
+                    name='over019.n02.xml'
                 ),
             ],
-            name="over019",
+            name='over019',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2120,12 +2120,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Indirect chameleon Override declaration"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Indirect chameleon Override declaration'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Indirect chameleon Override declaration (uses over019)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Indirect chameleon Override declaration (uses over019)'
                                 ),
                             ]
                         ),
@@ -2134,16 +2134,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over020.xsd"
+                        href='../saxonData/Override/over020.xsd'
                     ),
                 ],
                 expected=[
@@ -2155,7 +2155,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over020.xsd"
+                name='over020.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2164,14 +2164,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.v01.xml"
+                        href='../saxonData/Override/over019.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2182,7 +2182,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over020.v01.xml"
+                    name='over020.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2190,14 +2190,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.n01.xml"
+                        href='../saxonData/Override/over019.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2208,7 +2208,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over020.n01.xml"
+                    name='over020.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2216,14 +2216,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over019.n02.xml"
+                        href='../saxonData/Override/over019.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2234,10 +2234,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over020.n02.xml"
+                    name='over020.n02.xml'
                 ),
             ],
-            name="over020",
+            name='over020',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2249,12 +2249,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override the same thing twice"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override the same thing twice'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override the same thing twice"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override the same thing twice'
                                 ),
                             ]
                         ),
@@ -2263,16 +2263,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over021.bad.xsd"
+                        href='../saxonData/Override/over021.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2284,9 +2284,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over021.bad.xsd"
+                name='over021.bad.xsd'
             ),
-            name="over021",
+            name='over021',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2298,12 +2298,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override the same thing twice"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override the same thing twice'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override the same thing twice"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override the same thing twice'
                                 ),
                             ]
                         ),
@@ -2312,16 +2312,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over022.bad.xsd"
+                        href='../saxonData/Override/over022.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2333,9 +2333,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over022.bad.xsd"
+                name='over022.bad.xsd'
             ),
-            name="over022",
+            name='over022',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2347,11 +2347,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A permissible circular xs:override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A permissible circular xs:override'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="A permissible circular xs:override (doesn't work in Saxon 9.3)"
                                 ),
                             ]
@@ -2361,16 +2361,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over023.xsd"
+                        href='../saxonData/Override/over023.xsd'
                     ),
                 ],
                 expected=[
@@ -2382,7 +2382,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over023.xsd"
+                name='over023.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2391,14 +2391,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, satisfies the overriding declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.v01.xml"
+                        href='../saxonData/Override/over001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2409,7 +2409,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over023.v01.xml"
+                    name='over023.v01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2417,14 +2417,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, uses content model before override.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.n01.xml"
+                        href='../saxonData/Override/over001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2435,7 +2435,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over023.n01.xml"
+                    name='over023.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2443,14 +2443,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, unknown element declaration.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over001.n02.xml"
+                        href='../saxonData/Override/over001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2461,10 +2461,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over023.n02.xml"
+                    name='over023.n02.xml'
                 ),
             ],
-            name="over023",
+            name='over023',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2476,12 +2476,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Disallowed circular xs:override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Disallowed circular xs:override'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Disallowed circular xs:override"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Disallowed circular xs:override'
                                 ),
                             ]
                         ),
@@ -2490,19 +2490,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-CyclicDependenciesRedefineIncludeImportOverride"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-CyclicDependenciesRedefineIncludeImportOverride'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over024.bad.xsd"
+                        href='../saxonData/Override/over024.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2514,9 +2514,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over024.bad.xsd"
+                name='over024.bad.xsd'
             ),
-            name="over024",
+            name='over024',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2528,11 +2528,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Import is not transitive"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Import is not transitive'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text="Can't reference components unless the namespace is imported"
                                 ),
                             ]
@@ -2542,16 +2542,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over025.bad.xsd"
+                        href='../saxonData/Override/over025.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2563,9 +2563,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 11, 17)
                 ),
-                name="over025.bad.xsd"
+                name='over025.bad.xsd'
             ),
-            name="over025",
+            name='over025',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2577,12 +2577,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="Overrides ignored if there's nothing to override"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A child of xs:override that doesn't override anything is ignored, so the reference&#10;                to it is a dangling references which makes the schema invalid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="A child of xs:override that doesn't override anything is ignored, so the reference\n                to it is a dangling references which makes the schema invalid"
                                 ),
                             ]
                         ),
@@ -2591,16 +2591,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over026.bad.xsd"
+                        href='../saxonData/Override/over026.bad.xsd'
                     ),
                 ],
                 expected=[
@@ -2612,9 +2612,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 10, 10)
                 ),
-                name="over026.bad.xsd"
+                name='over026.bad.xsd'
             ),
-            name="over026",
+            name='over026',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2626,12 +2626,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a notation"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a notation'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a notation. Was over015. See bug 14388"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a notation. Was over015. See bug 14388'
                                 ),
                             ]
                         ),
@@ -2640,16 +2640,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over027.xsd"
+                        href='../saxonData/Override/over027.xsd'
                     ),
                 ],
                 expected=[
@@ -2661,7 +2661,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 5, 5)
                 ),
-                name="over027.xsd"
+                name='over027.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2670,14 +2670,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with&#10;&#9;&#9;                an enumeration facet.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with\n\t\t                an enumeration facet.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over015.v01.xml"
+                        href='../saxonData/Override/over015.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2688,10 +2688,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 5, 5)
                     ),
-                    name="over027.n01.xml"
+                    name='over027.n01.xml'
                 ),
             ],
-            name="over027",
+            name='over027',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2703,12 +2703,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple override test. Test case from Priscilla Walmsley"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple override test. Test case from Priscilla Walmsley'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simpleType"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Override a simpleType'
                                 ),
                             ]
                         ),
@@ -2717,16 +2717,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over028a.xsd"
+                        href='../saxonData/Override/over028a.xsd'
                     ),
                 ],
                 expected=[
@@ -2738,7 +2738,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 4, 19)
                 ),
-                name="over028.xsd"
+                name='over028.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2747,14 +2747,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, value of simple type is out of range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, value of simple type is out of range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over028.n01.xml"
+                        href='../saxonData/Override/over028.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2765,7 +2765,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 19)
                     ),
-                    name="over028.n01.xml"
+                    name='over028.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2773,14 +2773,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, value of simple type is in range.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, value of simple type is in range.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over028.v01.xml"
+                        href='../saxonData/Override/over028.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2791,10 +2791,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 4, 19)
                     ),
-                    name="over028.v01.xml"
+                    name='over028.v01.xml'
                 ),
             ],
-            name="over028",
+            name='over028',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2806,12 +2806,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interaction of xs:override and xs:import. Test case from Priscilla Walmsley"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Interaction of xs:override and xs:import. Test case from Priscilla Walmsley'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The xs:override contains a reference to a type in an imported schema&#10;                document, which is not imported into the overridden schema document. See&#10;                Saxon bug 1505 and W3C bug 17574"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The xs:override contains a reference to a type in an imported schema\n                document, which is not imported into the overridden schema document. See\n                Saxon bug 1505 and W3C bug 17574'
                                 ),
                             ]
                         ),
@@ -2820,16 +2820,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over029.xsd"
+                        href='../saxonData/Override/over029.xsd'
                     ),
                 ],
                 expected=[
@@ -2841,7 +2841,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2012, 6, 25)
                 ),
-                name="over029.xsd"
+                name='over029.xsd'
             ),
             instance_test=[
                 InstanceTest(
@@ -2850,14 +2850,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Invalid, child elements are in the wrong order.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Invalid, child elements are in the wrong order.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over029.n01.xml"
+                        href='../saxonData/Override/over029.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2868,7 +2868,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 6, 25)
                     ),
-                    name="over029.n01.xml"
+                    name='over029.n01.xml'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2876,14 +2876,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;                Valid, child elements are in the right order.&#10;&#9;&#9;            ",
+                                        '\n\t\t                Valid, child elements are in the right order.\n\t\t            ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over029.v01.xml"
+                        href='../saxonData/Override/over029.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2894,10 +2894,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2012, 6, 25)
                     ),
-                    name="over029.v01.xml"
+                    name='over029.v01.xml'
                 ),
             ],
-            name="over029",
+            name='over029',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2909,12 +2909,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a schema document with top-level annotation"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Override a schema document with top-level annotation'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="See W3C bug 20784. Test case supplied by Norm Walsh."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='See W3C bug 20784. Test case supplied by Norm Walsh.'
                                 ),
                             ]
                         ),
@@ -2923,16 +2923,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over030.xsd"
+                        href='../saxonData/Override/over030.xsd'
                     ),
                 ],
                 expected=[
@@ -2944,12 +2944,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2013, 1, 27)
                 ),
-                name="over030.xsd"
+                name='over030.xsd'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../saxonData/Override/over030.v01.xml"
+                        href='../saxonData/Override/over030.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2960,10 +2960,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2013, 1, 27)
                     ),
-                    name="over030.v01.xml"
+                    name='over030.v01.xml'
                 ),
             ],
-            name="over030",
+            name='over030',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2975,11 +2975,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Saxon bug 4518, from Octavian Nadolu"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Saxon bug 4518, from Octavian Nadolu'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Saxon 9.9 complains "xs:schema element must be top-level'
                                 ),
                             ]
@@ -2989,16 +2989,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
+                    href='http://www.w3.org/TR/xmlschema11-1/#override-schema'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../saxonData/Override/over031.xsd"
+                        href='../saxonData/Override/over031.xsd'
                     ),
                 ],
                 expected=[
@@ -3010,20 +3010,20 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2020, 4, 14)
                 ),
-                name="over031.xsd"
+                name='over031.xsd'
             ),
-            name="over031",
+            name='over031',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="Saxonica",
-    name="Override",
+    contributor='Saxonica',
+    name='Override',
     version=[
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

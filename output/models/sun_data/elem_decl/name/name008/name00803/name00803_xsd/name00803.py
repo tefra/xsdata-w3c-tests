@@ -14,7 +14,7 @@ class Aa111A2Aa:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Aa22B3C:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class Aa34:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -58,7 +58,7 @@ class Root:
             "name": "aa111a2Aa",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     aa22_b3c: Optional[int] = field(
         default=None,
@@ -66,7 +66,7 @@ class Root:
             "name": "aa22B3c",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     aa3_4: Optional[int] = field(
         default=None,
@@ -74,5 +74,5 @@ class Root:
             "name": "aa3-4_",
             "type": "Element",
             "required": True,
-        }
+        },
     )

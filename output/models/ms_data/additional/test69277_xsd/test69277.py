@@ -12,19 +12,19 @@ class Elt1:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     elt3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     elt4: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

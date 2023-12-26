@@ -11,14 +11,14 @@ class PublicationType:
             "name": "Title",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     author: List[str] = field(
         default_factory=list,
         metadata={
             "name": "Author",
             "type": "Element",
-        }
+        },
     )
     date: Optional[XmlPeriod] = field(
         default=None,
@@ -26,13 +26,13 @@ class PublicationType:
             "name": "Date",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -44,7 +44,7 @@ class Example:
             "name": "Publication",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -55,7 +55,7 @@ class Example:
                 "name": "ISBN",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )
         publisher: Optional[str] = field(
             default=None,
@@ -63,5 +63,5 @@ class Example:
                 "name": "Publisher",
                 "type": "Element",
                 "required": True,
-            }
+            },
         )

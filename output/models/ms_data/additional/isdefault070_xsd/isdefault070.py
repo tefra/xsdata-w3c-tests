@@ -13,7 +13,7 @@ class Ct:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

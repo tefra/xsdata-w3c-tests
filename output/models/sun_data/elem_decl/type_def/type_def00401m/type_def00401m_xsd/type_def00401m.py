@@ -14,7 +14,7 @@ class Global:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Root:
             "name": "Global",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     local: Optional[Decimal] = field(
         default=None,
@@ -39,5 +39,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

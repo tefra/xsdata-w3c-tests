@@ -3,15 +3,15 @@ from output.models.sun_data.elem_decl.identity_constraint_defs.id_constr_defs002
 
 obj = Root(
     account=[
-        "johnsm",
-        "annabr",
+        'johnsm',
+        'annabr',
     ],
     name=[
-        "John Smith",
-        "Anna Brown",
+        'John Smith',
+        'Anna Brown',
     ],
     manager=[
-        "johnsm",
-        "johnsm",
+        'johnsm',
+        'johnsm',
     ]
 )

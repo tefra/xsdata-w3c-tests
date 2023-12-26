@@ -17,7 +17,7 @@ class MyDateTime:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     time: Optional[str] = field(
         default=None,
@@ -26,7 +26,7 @@ class MyDateTime:
             "namespace": "",
             "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9].[0-9][0-9][0-9]",
-        }
+        },
     )
     localized_dt: Optional[str] = field(
         default=None,
@@ -34,7 +34,7 @@ class MyDateTime:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -49,7 +49,7 @@ class MySmallDateTime:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     time: Optional[str] = field(
         default=None,
@@ -58,7 +58,7 @@ class MySmallDateTime:
             "namespace": "",
             "required": True,
             "pattern": r"[0-2][0-9]:[0-5][0-9]:[0-5][0-9]",
-        }
+        },
     )
     localized_sdt: Optional[str] = field(
         default=None,
@@ -66,7 +66,7 @@ class MySmallDateTime:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -82,7 +82,7 @@ class Datafile:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     stringsection: Optional["Datafile.Stringsection"] = field(
         default=None,
@@ -90,12 +90,14 @@ class Datafile:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
     class Nonstringsection:
-        choice: List[Union[int, Decimal, MySmallDateTime, float, MyDateTime]] = field(
+        choice: List[
+            Union[int, Decimal, float, MyDateTime, MySmallDateTime]
+        ] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
@@ -156,15 +158,15 @@ class Datafile:
                         "name": "float",
                         "type": float,
                         "namespace": "",
-                        "min_inclusive": -1.79e+308,
-                        "max_inclusive": 1.79e+308,
+                        "min_inclusive": -1.79e308,
+                        "max_inclusive": 1.79e308,
                     },
                     {
                         "name": "real",
                         "type": float,
                         "namespace": "",
-                        "min_inclusive": -3.4e+38,
-                        "max_inclusive": 3.4e+38,
+                        "min_inclusive": -3.4e38,
+                        "max_inclusive": 3.4e38,
                     },
                     {
                         "name": "datetime",
@@ -177,7 +179,7 @@ class Datafile:
                         "namespace": "",
                     },
                 ),
-            }
+            },
         )
 
     @dataclass
@@ -190,5 +192,5 @@ class Datafile:
                 "min_occurs": 1,
                 "min_length": 1,
                 "max_length": 4000,
-            }
+            },
         )

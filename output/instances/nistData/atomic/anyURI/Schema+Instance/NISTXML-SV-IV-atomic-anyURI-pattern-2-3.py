@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriPattern2(
-    value="ftp://b.Co.and.net"
+    value='ftp://b.Co.and.net'
 )

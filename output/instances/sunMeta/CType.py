@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="abstract type extension (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='abstract type extension (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Abstract complex types can be used as {base type definition}s."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Abstract complex types can be used as {base type definition}s.'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/abstract/abstract00101m/abstract00101m1.xsd"
+                        href='../sunData/CType/abstract/abstract00101m/abstract00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00101m1"
+                name='abstract00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/abstract/abstract00101m/abstract00101m1_p.xml"
+                        href='../sunData/CType/abstract/abstract00101m/abstract00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,11 +72,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/abstract/abstract00101m/abstract00101m1_n.xml"
+                        href='../sunData/CType/abstract/abstract00101m/abstract00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -87,10 +87,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="abstract00101m1"
+            name='abstract00101m1'
         ),
         TestGroup(
             annotation=[
@@ -99,12 +99,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="declaration of element of abstract type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='declaration of element of abstract type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Complex types for which {abstract} is true must not be used as the&#10;                              {type definition} for the *validation* of element information items."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Complex types for which {abstract} is true must not be used as the\n                              {type definition} for the *validation* of element information items.'
                                 ),
                             ]
                         ),
@@ -113,13 +113,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/abstract/abstract00101m/abstract00101m2.xsd"
+                        href='../sunData/CType/abstract/abstract00101m/abstract00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -131,12 +131,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00101m2"
+                name='abstract00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/abstract/abstract00101m/abstract00101m2_n.xml"
+                        href='../sunData/CType/abstract/abstract00101m/abstract00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -147,10 +147,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="abstract00101m2"
+            name='abstract00101m2'
         ),
         TestGroup(
             annotation=[
@@ -159,12 +159,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted annotation  for complex type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted annotation  for complex type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -173,13 +173,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -191,12 +191,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -207,10 +207,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -219,12 +219,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted annotation  for complex type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted annotation  for complex type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -233,13 +233,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -251,12 +251,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m2_p.xml"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -267,10 +267,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -279,12 +279,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted annotation misplaced  for complex type definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted annotation misplaced  for complex type definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -293,13 +293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -311,9 +311,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -322,12 +322,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted annotation misplaced  for complex type definition (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted annotation misplaced  for complex type definition (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted annotations of schema components."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted annotations of schema components.'
                                 ),
                             ]
                         ),
@@ -336,13 +336,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/CType/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -354,9 +354,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -365,12 +365,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="type definition with any attributes (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='type definition with any attributes (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="any: [attributes] can include attributes with any qualified or unqualified name."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='any: [attributes] can include attributes with any qualified or unqualified name.'
                                 ),
                             ]
                         ),
@@ -379,13 +379,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1.xsd"
+                        href='../sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -397,12 +397,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="attrWildcard00101m1"
+                name='attrWildcard00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1_p.xml"
+                        href='../sunData/CType/attrWildcard/attrWildcard00101m/attrWildcard00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -413,10 +413,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="attrwildcard00101m1"
+            name='attrwildcard00101m1'
         ),
         TestGroup(
             annotation=[
@@ -425,12 +425,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="&lt;attribute&gt; [children] (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='<attribute> [children] (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The set of attribute uses corresponding to the &lt;attribute&gt; [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The set of attribute uses corresponding to the <attribute> [children].'
                                 ),
                             ]
                         ),
@@ -439,13 +439,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1.xsd"
+                        href='../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -457,12 +457,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="attributeUses00101m1"
+                name='attributeUses00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_p.xml"
+                        href='../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -473,11 +473,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_n.xml"
+                        href='../sunData/CType/attributeUses/attributeUses00101m/attributeUses00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -488,10 +488,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="attributeuses00101m1"
+            name='attributeuses00101m1'
         ),
         TestGroup(
             annotation=[
@@ -500,12 +500,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="restriction of simple content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='restriction of simple content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The type definition resolved to by the actual value of the base [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The type definition resolved to by the actual value of the base [attribute].'
                                 ),
                             ]
                         ),
@@ -514,13 +514,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m1.xsd"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -532,12 +532,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="baseTD00101m1"
+                name='baseTD00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_p.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -548,11 +548,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_n.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -563,10 +563,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="basetd00101m1"
+            name='basetd00101m1'
         ),
         TestGroup(
             annotation=[
@@ -575,12 +575,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="extention of simple content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='extention of simple content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The type definition resolved to by the actual value of the base [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The type definition resolved to by the actual value of the base [attribute].'
                                 ),
                             ]
                         ),
@@ -589,13 +589,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m2.xsd"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -607,12 +607,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="baseTD00101m2"
+                name='baseTD00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_p.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -623,11 +623,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_n.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -638,10 +638,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="basetd00101m2"
+            name='basetd00101m2'
         ),
         TestGroup(
             annotation=[
@@ -650,12 +650,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="extention of complex content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='extention of complex content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The type definition resolved to by the actual value of the base [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The type definition resolved to by the actual value of the base [attribute].'
                                 ),
                             ]
                         ),
@@ -664,13 +664,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m3.xsd"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -682,12 +682,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="baseTD00101m3"
+                name='baseTD00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_p.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -698,11 +698,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_n.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -713,10 +713,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="basetd00101m3"
+            name='basetd00101m3'
         ),
         TestGroup(
             annotation=[
@@ -725,12 +725,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="restriction of complex content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='restriction of complex content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The type definition resolved to by the actual value of the base [attribute]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The type definition resolved to by the actual value of the base [attribute].'
                                 ),
                             ]
                         ),
@@ -739,13 +739,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m4.xsd"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -757,12 +757,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="baseTD00101m4"
+                name='baseTD00101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_p.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -773,11 +773,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_n.xml"
+                        href='../sunData/CType/baseTD/baseTD00101m/baseTD00101m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -788,10 +788,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="basetd00101m4"
+            name='basetd00101m4'
         ),
         TestGroup(
             annotation=[
@@ -800,12 +800,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An empty content type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An empty content type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A {content type} with the distinguished value empty *validates* elements with&#10;                              no character or element information item [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A {content type} with the distinguished value empty *validates* elements with\n                              no character or element information item [children].'
                                 ),
                             ]
                         ),
@@ -814,13 +814,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/contentType/contentType00101m/contentType00101m.xsd"
+                        href='../sunData/CType/contentType/contentType00101m/contentType00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -832,12 +832,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="contentType00101m"
+                name='contentType00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00101m/contentType00101m1_p.xml"
+                        href='../sunData/CType/contentType/contentType00101m/contentType00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -848,11 +848,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00101m1_p"
+                    name='contentType00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00101m/contentType00101m1_n.xml"
+                        href='../sunData/CType/contentType/contentType00101m/contentType00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -863,10 +863,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00101m1_n"
+                    name='contentType00101m1_n'
                 ),
             ],
-            name="contenttype00101m"
+            name='contenttype00101m'
         ),
         TestGroup(
             annotation=[
@@ -875,12 +875,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A simple content type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='A simple content type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A {content type} which is a Simple Type Definition (2.2.1.2) *validates*&#10;                              elements with character-only [children]."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A {content type} which is a Simple Type Definition (2.2.1.2) *validates*\n                              elements with character-only [children].'
                                 ),
                             ]
                         ),
@@ -889,13 +889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/contentType/contentType00201m/contentType00201m.xsd"
+                        href='../sunData/CType/contentType/contentType00201m/contentType00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -907,12 +907,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="contentType00201m"
+                name='contentType00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00201m/contentType00201m1_p.xml"
+                        href='../sunData/CType/contentType/contentType00201m/contentType00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -923,11 +923,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00201m1_p"
+                    name='contentType00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00201m/contentType00201m1_n.xml"
+                        href='../sunData/CType/contentType/contentType00201m/contentType00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -938,10 +938,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00201m1_n"
+                    name='contentType00201m1_n'
                 ),
             ],
-            name="contenttype00201m"
+            name='contenttype00201m'
         ),
         TestGroup(
             annotation=[
@@ -950,12 +950,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An element-only content type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An element-only content type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="An element-only {content type} *validates* elements with [children] that&#10;                              conform to the supplied *content model*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='An element-only {content type} *validates* elements with [children] that\n                              conform to the supplied *content model*.'
                                 ),
                             ]
                         ),
@@ -964,13 +964,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/contentType/contentType00301m/contentType00301m.xsd"
+                        href='../sunData/CType/contentType/contentType00301m/contentType00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -982,12 +982,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="contentType00301m"
+                name='contentType00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00301m/contentType00301m1_p.xml"
+                        href='../sunData/CType/contentType/contentType00301m/contentType00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -998,11 +998,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00301m1_p"
+                    name='contentType00301m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00301m/contentType00301m1_n.xml"
+                        href='../sunData/CType/contentType/contentType00301m/contentType00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1013,10 +1013,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00301m1_n"
+                    name='contentType00301m1_n'
                 ),
             ],
-            name="contenttype00301m"
+            name='contenttype00301m'
         ),
         TestGroup(
             annotation=[
@@ -1025,12 +1025,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An mixed content type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='An mixed content type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A mixed {content type} *validates* elements whose element [children]&#10;                              (i.e. specifically ignoring other [children] such as character information&#10;                               items) conform to the supplied *content model*."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='A mixed {content type} *validates* elements whose element [children]\n                              (i.e. specifically ignoring other [children] such as character information\n                               items) conform to the supplied *content model*.'
                                 ),
                             ]
                         ),
@@ -1039,13 +1039,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/contentType/contentType00401m/contentType00401m.xsd"
+                        href='../sunData/CType/contentType/contentType00401m/contentType00401m.xsd'
                     ),
                 ],
                 expected=[
@@ -1057,12 +1057,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="contentType00401m"
+                name='contentType00401m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00401m/contentType00401m1_p.xml"
+                        href='../sunData/CType/contentType/contentType00401m/contentType00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1073,11 +1073,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00401m1_p"
+                    name='contentType00401m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/contentType/contentType00401m/contentType00401m1_n.xml"
+                        href='../sunData/CType/contentType/contentType00401m/contentType00401m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1088,10 +1088,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="contentType00401m1_n"
+                    name='contentType00401m1_n'
                 ),
             ],
-            name="contenttype00401m"
+            name='contenttype00401m'
         ),
         TestGroup(
             annotation=[
@@ -1100,12 +1100,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="items: 1.1, 1.2, 1.3, 1.4.1 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='items: 1.1, 1.2, 1.3, 1.4.1 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema Component Constraint: Derivation Valid (Extension).&#10;                             The {base type definition} is a complex type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.'
                                 ),
                             ]
                         ),
@@ -1114,13 +1114,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1.xsd"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1132,12 +1132,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="derivationMethod00101m1"
+                name='derivationMethod00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_p.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1148,11 +1148,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_n.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1163,10 +1163,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="derivationmethod00101m1"
+            name='derivationmethod00101m1'
         ),
         TestGroup(
             annotation=[
@@ -1175,12 +1175,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='items: 1.1, 1.2, 1.3, 1.4.2.1, 1.4.2.2.1 (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema Component Constraint: Derivation Valid (Extension).&#10;                             The {base type definition} is a complex type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema Component Constraint: Derivation Valid (Extension).\n                             The {base type definition} is a complex type definition.'
                                 ),
                             ]
                         ),
@@ -1189,13 +1189,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2.xsd"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1207,12 +1207,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="derivationMethod00101m2"
+                name='derivationMethod00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_p.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1223,11 +1223,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_n.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00101m/derivationMethod00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1238,10 +1238,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="derivationmethod00101m2"
+            name='derivationmethod00101m2'
         ),
         TestGroup(
             annotation=[
@@ -1250,12 +1250,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="extension of the type int (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='extension of the type int (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema Component Constraint: Derivation Valid (Extension).&#10;                             If the {base type definition} is a simple type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.'
                                 ),
                             ]
                         ),
@@ -1264,13 +1264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1.xsd"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1282,12 +1282,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="derivationMethod00102m1"
+                name='derivationMethod00102m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_p.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1298,11 +1298,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_n.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1313,10 +1313,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="derivationmethod00102m1"
+            name='derivationmethod00102m1'
         ),
         TestGroup(
             annotation=[
@@ -1325,12 +1325,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="extension of the type int by adding the attribute 't' of the type int (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema Component Constraint: Derivation Valid (Extension).&#10;                             If the {base type definition} is a simple type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Schema Component Constraint: Derivation Valid (Extension).\n                             If the {base type definition} is a simple type definition.'
                                 ),
                             ]
                         ),
@@ -1339,13 +1339,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2.xsd"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1357,12 +1357,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="derivationMethod00102m2"
+                name='derivationMethod00102m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_p.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1373,11 +1373,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_n.xml"
+                        href='../sunData/CType/derivationMethod/derivationMethod00102m/derivationMethod00102m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1388,10 +1388,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="derivationmethod00102m2"
+            name='derivationmethod00102m2'
         ),
         TestGroup(
             annotation=[
@@ -1400,12 +1400,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the value is extension (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the value is extension (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit values extension, and restriction prevent further derivations by&#10;                              extension and restriction respectively. If all values are specified, then &#10;                              the complex type is said to be final, because no further derivations are possible."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.'
                                 ),
                             ]
                         ),
@@ -1414,13 +1414,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/final/final00101m/final00101m2.xsd"
+                        href='../sunData/CType/final/final00101m/final00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1432,9 +1432,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="final00101m2"
+                name='final00101m2'
             ),
-            name="final00101m2"
+            name='final00101m2'
         ),
         TestGroup(
             annotation=[
@@ -1443,12 +1443,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the value is restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the value is restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit values extension, and restriction prevent further derivations by&#10;                              extension and restriction respectively. If all values are specified, then &#10;                              the complex type is said to be final, because no further derivations are possible."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.'
                                 ),
                             ]
                         ),
@@ -1457,13 +1457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/final/final00101m/final00101m3.xsd"
+                        href='../sunData/CType/final/final00101m/final00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -1475,12 +1475,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="final00101m3"
+                name='final00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/final/final00101m/final00101m3_p.xml"
+                        href='../sunData/CType/final/final00101m/final00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1491,11 +1491,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/final/final00101m/final00101m3_n.xml"
+                        href='../sunData/CType/final/final00101m/final00101m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1506,10 +1506,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="final00101m3"
+            name='final00101m3'
         ),
         TestGroup(
             annotation=[
@@ -1518,12 +1518,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the value is restriction (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the value is restriction (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit values extension, and restriction prevent further derivations by&#10;                              extension and restriction respectively. If all values are specified, then &#10;                              the complex type is said to be final, because no further derivations are possible."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.'
                                 ),
                             ]
                         ),
@@ -1532,13 +1532,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/final/final00101m/final00101m4.xsd"
+                        href='../sunData/CType/final/final00101m/final00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -1550,9 +1550,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="final00101m4"
+                name='final00101m4'
             ),
-            name="final00101m4"
+            name='final00101m4'
         ),
         TestGroup(
             annotation=[
@@ -1561,12 +1561,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the value is #all (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the value is #all (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit values extension, and restriction prevent further derivations by&#10;                              extension and restriction respectively. If all values are specified, then &#10;                              the complex type is said to be final, because no further derivations are possible."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.'
                                 ),
                             ]
                         ),
@@ -1575,13 +1575,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/final/final00101m/final00101m5.xsd"
+                        href='../sunData/CType/final/final00101m/final00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -1593,9 +1593,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="final00101m5"
+                name='final00101m5'
             ),
-            name="final00101m5"
+            name='final00101m5'
         ),
         TestGroup(
             annotation=[
@@ -1604,12 +1604,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the value is #all (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the value is #all (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The explicit values extension, and restriction prevent further derivations by&#10;                              extension and restriction respectively. If all values are specified, then &#10;                              the complex type is said to be final, because no further derivations are possible."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The explicit values extension, and restriction prevent further derivations by\n                              extension and restriction respectively. If all values are specified, then \n                              the complex type is said to be final, because no further derivations are possible.'
                                 ),
                             ]
                         ),
@@ -1618,13 +1618,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/final/final00101m/final00101m6.xsd"
+                        href='../sunData/CType/final/final00101m/final00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -1636,9 +1636,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="final00101m6"
+                name='final00101m6'
             ),
-            name="final00101m6"
+            name='final00101m6'
         ),
         TestGroup(
             annotation=[
@@ -1647,12 +1647,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple types are identified by their {name} and {target namespace}. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple types are identified by their {name} and {target namespace}. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple types are identified by their {name} and {target namespace}."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple types are identified by their {name} and {target namespace}.'
                                 ),
                             ]
                         ),
@@ -1661,13 +1661,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/name/name00101m/name00101m.xsd"
+                        href='../sunData/CType/name/name00101m/name00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -1679,12 +1679,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m"
+                name='name00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/name/name00101m/name00101m1_p.xml"
+                        href='../sunData/CType/name/name00101m/name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1695,11 +1695,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00101m1_p"
+                    name='name00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/name/name00101m/name00101m1_n.xml"
+                        href='../sunData/CType/name/name00101m/name00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1710,10 +1710,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00101m1_n"
+                    name='name00101m1_n'
                 ),
             ],
-            name="name00101m"
+            name='name00101m'
         ),
         TestGroup(
             annotation=[
@@ -1722,12 +1722,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{prohibited substitutions} is empty (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{prohibited substitutions} is empty (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If {prohibited substitutions} is empty, then all substitutions are allowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If {prohibited substitutions} is empty, then all substitutions are allowed.'
                                 ),
                             ]
                         ),
@@ -1736,13 +1736,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m.xsd"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -1754,12 +1754,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="pSubstitutions00101m"
+                name='pSubstitutions00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1770,11 +1770,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00101m1_p"
+                    name='pSubstitutions00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1785,11 +1785,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00101m1_n"
+                    name='pSubstitutions00101m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1800,11 +1800,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00101m2_p"
+                    name='pSubstitutions00101m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00101m/pSubstitutions00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1815,10 +1815,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00101m2_n"
+                    name='pSubstitutions00101m2_n'
                 ),
             ],
-            name="psubstitutions00101m"
+            name='psubstitutions00101m'
         ),
         TestGroup(
             annotation=[
@@ -1827,12 +1827,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{prohibited substitutions} is extension (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{prohibited substitutions} is extension (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{prohibited substitutions} determine whether an element declaration appearing&#10;                              in a *content model* is prevented from additionally *validating*&#10;                              element items with an xsi:type (p.2.6.1) attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.'
                                 ),
                             ]
                         ),
@@ -1841,13 +1841,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m.xsd"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m.xsd'
                     ),
                 ],
                 expected=[
@@ -1859,12 +1859,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="pSubstitutions00102m"
+                name='pSubstitutions00102m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1875,11 +1875,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00102m1_p"
+                    name='pSubstitutions00102m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1890,11 +1890,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00102m1_n"
+                    name='pSubstitutions00102m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1905,11 +1905,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00102m2_p"
+                    name='pSubstitutions00102m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00102m/pSubstitutions00102m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1920,10 +1920,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00102m2_n"
+                    name='pSubstitutions00102m2_n'
                 ),
             ],
-            name="psubstitutions00102m"
+            name='psubstitutions00102m'
         ),
         TestGroup(
             annotation=[
@@ -1932,12 +1932,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{prohibited substitutions} is restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{prohibited substitutions} is restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{prohibited substitutions} determine whether an element declaration appearing&#10;                              in a *content model* is prevented from additionally *validating*&#10;                              element items with an xsi:type (p.2.6.1) attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.'
                                 ),
                             ]
                         ),
@@ -1946,13 +1946,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m.xsd"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m.xsd'
                     ),
                 ],
                 expected=[
@@ -1964,12 +1964,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="pSubstitutions00103m"
+                name='pSubstitutions00103m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1980,11 +1980,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00103m1_p"
+                    name='pSubstitutions00103m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1995,11 +1995,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00103m1_n"
+                    name='pSubstitutions00103m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2010,11 +2010,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00103m2_p"
+                    name='pSubstitutions00103m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00103m/pSubstitutions00103m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2025,10 +2025,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00103m2_n"
+                    name='pSubstitutions00103m2_n'
                 ),
             ],
-            name="psubstitutions00103m"
+            name='psubstitutions00103m'
         ),
         TestGroup(
             annotation=[
@@ -2037,12 +2037,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="{prohibited substitutions} is #all (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='{prohibited substitutions} is #all (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{prohibited substitutions} determine whether an element declaration appearing&#10;                              in a *content model* is prevented from additionally *validating*&#10;                              element items with an xsi:type (p.2.6.1) attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{prohibited substitutions} determine whether an element declaration appearing\n                              in a *content model* is prevented from additionally *validating*\n                              element items with an xsi:type (p.2.6.1) attribute.'
                                 ),
                             ]
                         ),
@@ -2051,13 +2051,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m.xsd"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m.xsd'
                     ),
                 ],
                 expected=[
@@ -2069,12 +2069,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="pSubstitutions00104m"
+                name='pSubstitutions00104m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2085,11 +2085,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00104m1_p"
+                    name='pSubstitutions00104m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2100,11 +2100,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00104m1_n"
+                    name='pSubstitutions00104m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_p.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2115,11 +2115,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00104m2_p"
+                    name='pSubstitutions00104m2_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_n.xml"
+                        href='../sunData/CType/pSubstitutions/pSubstitutions00104m/pSubstitutions00104m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2130,10 +2130,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="pSubstitutions00104m2_n"
+                    name='pSubstitutions00104m2_n'
                 ),
             ],
-            name="psubstitutions00104m"
+            name='psubstitutions00104m'
         ),
         TestGroup(
             annotation=[
@@ -2142,12 +2142,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple types are identified by their {name} and {target namespace}. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Simple types are identified by their {name} and {target namespace}. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple types are identified by their {name} and {target namespace}."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple types are identified by their {name} and {target namespace}.'
                                 ),
                             ]
                         ),
@@ -2156,13 +2156,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Complex_Type_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/CType/targetNS/targetNS00101m/targetNS00101m.xsd"
+                        href='../sunData/CType/targetNS/targetNS00101m/targetNS00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -2174,12 +2174,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m"
+                name='targetNS00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_p.xml"
+                        href='../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2190,11 +2190,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00101m1_p"
+                    name='targetNS00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_n.xml"
+                        href='../sunData/CType/targetNS/targetNS00101m/targetNS00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2205,15 +2205,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00101m1_n"
+                    name='targetNS00101m1_n'
                 ),
             ],
-            name="targetns00101m"
+            name='targetns00101m'
         ),
     ],
-    contributor="SUN",
-    name="CType",
+    contributor='SUN',
+    name='CType',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

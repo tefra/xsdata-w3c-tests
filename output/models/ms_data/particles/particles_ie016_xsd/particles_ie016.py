@@ -26,7 +26,7 @@ class Base:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class Testing(Base):
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 

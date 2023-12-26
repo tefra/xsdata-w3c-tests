@@ -14,7 +14,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -35,5 +35,5 @@ class Root:
                         "namespace": "",
                     },
                 ),
-            }
+            },
         )

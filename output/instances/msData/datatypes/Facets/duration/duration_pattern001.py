@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.duration.duration_pattern001_xsd.dur
 
 
 obj = Test(
-    foo="P1Y2MT2H"
+    foo='P1Y2MT2H'
 )

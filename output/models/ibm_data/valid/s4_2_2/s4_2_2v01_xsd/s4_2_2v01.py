@@ -14,5 +14,5 @@ class Root:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

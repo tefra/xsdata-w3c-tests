@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenMinLength3(
-    value="The advent of Internet-enabled browsers"
+    value='The advent of Internet-enabled browsers'
 )

@@ -23,7 +23,7 @@ class Bar:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class Foo(Bar):
         init=False,
         metadata={
             "type": "Ignore",
-        }
+        },
     )
 
 

@@ -12,7 +12,7 @@ class ComplexType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -27,19 +27,19 @@ class Elem(ComplexType):
             "name": "groupElem",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     att2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att3: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -53,5 +53,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

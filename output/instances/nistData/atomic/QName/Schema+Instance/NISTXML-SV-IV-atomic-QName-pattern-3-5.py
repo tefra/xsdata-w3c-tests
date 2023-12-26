@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern3(
-    value="ne:oenable-rapidly_pico-cellular.data"
+    value='ne:oenable-rapidly_pico-cellular.data'
 )

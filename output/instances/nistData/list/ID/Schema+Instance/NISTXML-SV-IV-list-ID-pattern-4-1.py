@@ -5,11 +5,11 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdPattern4(
         value=[
-            "yand.and_leadership.object_in-and.the_",
-            "_computing-available_correction",
-            "_beta.languages_a-be_clean",
-            "dint",
-            "limplementation",
+            'yand.and_leadership.object_in-and.the_',
+            '_computing-available_correction',
+            '_beta.languages_a-be_clean',
+            'dint',
+            'limplementation',
         ]
     )
 )

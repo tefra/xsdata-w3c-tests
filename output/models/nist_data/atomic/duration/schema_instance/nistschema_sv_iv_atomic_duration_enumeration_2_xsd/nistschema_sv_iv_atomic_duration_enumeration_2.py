@@ -28,5 +28,5 @@ class NistschemaSvIvAtomicDurationEnumeration2:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

@@ -8,8 +8,8 @@ obj = Root(
         E6(
             any_element=[
                 AnyElement(
-                    qname="e3",
-                    text=""
+                    qname='e3',
+                    text=''
                 ),
             ]
         ),

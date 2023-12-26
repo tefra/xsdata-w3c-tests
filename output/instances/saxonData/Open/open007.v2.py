@@ -6,32 +6,32 @@ obj = Doc(
     open_com_element=AnyElement(
         children=[
             AnyElement(
-                qname="{http://open.com/}extra",
-                text=""
+                qname='{http://open.com/}extra',
+                text=''
             ),
             AnyElement(
-                qname="{http://open.com/}extra",
-                text=""
+                qname='{http://open.com/}extra',
+                text=''
             ),
             AnyElement(
-                qname="{http://open.com/}extra",
-                text=""
+                qname='{http://open.com/}extra',
+                text=''
             ),
             AnyElement(
-                qname="{http://open.com/}extra",
-                text=""
+                qname='{http://open.com/}extra',
+                text=''
             ),
         ]
     ),
     a=[
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
+        '',
     ],
-    b=""
+    b=''
 )

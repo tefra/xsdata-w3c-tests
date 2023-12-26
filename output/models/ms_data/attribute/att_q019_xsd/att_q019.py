@@ -14,14 +14,14 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     aga2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     imported_xsd_aga1: Optional[str] = field(
         default=None,
@@ -29,7 +29,7 @@ class AttRef:
             "name": "aga1",
             "type": "Attribute",
             "namespace": "http://importedXSD",
-        }
+        },
     )
     imported_xsd_aga2: Optional[str] = field(
         default=None,
@@ -37,7 +37,7 @@ class AttRef:
             "name": "aga2",
             "type": "Attribute",
             "namespace": "http://importedXSD",
-        }
+        },
     )
 
 
@@ -52,5 +52,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

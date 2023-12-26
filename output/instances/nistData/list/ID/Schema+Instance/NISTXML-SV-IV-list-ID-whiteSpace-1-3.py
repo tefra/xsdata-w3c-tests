@@ -5,12 +5,12 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdWhiteSpace1(
         value=[
-            "_for_int",
-            "wdescrib",
-            "sused_th",
-            "qto-as.e",
-            "gfirst-w",
-            "sin.of-w",
+            '_for_int',
+            'wdescrib',
+            'sused_th',
+            'qto-as.e',
+            'gfirst-w',
+            'sin.of-w',
         ]
     )
 )

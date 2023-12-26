@@ -2,6 +2,6 @@ from output.models.sun_data.ctype.derivation_method.derivation_method00101m.deri
 
 
 obj = B(
-    value="123",
+    value='123',
     q=1
 )

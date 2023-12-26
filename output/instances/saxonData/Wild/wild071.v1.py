@@ -7,16 +7,16 @@ obj = Root(
     a_or_a=A1(
 
     ),
-    b="",
-    c="",
+    b='',
+    c='',
     any_element=[
         AnyElement(
-            qname="d",
-            text=""
+            qname='d',
+            text=''
         ),
         AnyElement(
-            qname="e",
-            text=""
+            qname='e',
+            text=''
         ),
     ]
 )

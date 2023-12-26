@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicDatePattern5:
         metadata={
             "required": True,
             "pattern": r"\d\d44-\d2-\d5",
-        }
+        },
     )

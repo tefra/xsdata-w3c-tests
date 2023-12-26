@@ -15,5 +15,5 @@ class NistschemaSvIvListFloatPattern1:
         metadata={
             "pattern": r"\d{1}E\-\d{2} \.\d{2}E\-\d{1} \d{1}\.\d{2}E\d{1} \d{1}\.\d{3}E\d{2} \d{1}\.\d{7}E\-\d{2}",
             "tokens": True,
-        }
+        },
     )

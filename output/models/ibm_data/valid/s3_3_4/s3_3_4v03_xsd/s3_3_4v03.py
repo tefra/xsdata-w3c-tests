@@ -19,7 +19,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
@@ -27,5 +27,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

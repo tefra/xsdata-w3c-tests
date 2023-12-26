@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMaxLength4(
-    value="qand-and.efforts-industry-in"
+    value='qand-and.efforts-industry-in'
 )

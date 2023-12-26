@@ -2,5 +2,5 @@ from output.models.nist_data.union.g_month_day_g_year_month.schema_instance.nist
 
 
 obj = NistschemaSvIvUnionGMonthDayGYearMonthPattern5(
-    value="1986-09"
+    value='1986-09'
 )

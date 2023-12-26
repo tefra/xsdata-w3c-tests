@@ -26,12 +26,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Abstract declarations may not be used to validate element content. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Abstract declarations may not be used to validate element content. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group&#10;                             headed by another element which is abstract. The elements &#10;                             have the same type. Try to substitute the head element &#10;                             with the first one. Try to use the head itself."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group\n                             headed by another element which is abstract. The elements \n                             have the same type. Try to substitute the head element \n                             with the first one. Try to use the head itself.'
                                 ),
                             ]
                         ),
@@ -40,13 +40,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00101m/abstract00101m.xsd"
+                        href='../sunData/ElemDecl/abstract/abstract00101m/abstract00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -58,12 +58,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00101m"
+                name='abstract00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_p.xml"
+                        href='../sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -74,11 +74,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="abstract00101m1_p"
+                    name='abstract00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_n.xml"
+                        href='../sunData/ElemDecl/abstract/abstract00101m/abstract00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -89,10 +89,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="abstract00101m1_n"
+                    name='abstract00101m1_n'
                 ),
             ],
-            name="abstract00101m"
+            name='abstract00101m'
         ),
         TestGroup(
             annotation=[
@@ -101,12 +101,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="use abstarct explicitly set to true  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='use abstarct explicitly set to true  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with abstarct explicitly set to true.&#10;                             Try to use it in the xml document."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with abstarct explicitly set to true.\n                             Try to use it in the xml document.'
                                 ),
                             ]
                         ),
@@ -115,13 +115,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m1.xsd"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -133,12 +133,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00201m1"
+                name='abstract00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m1_n.xml"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -149,10 +149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="abstract00201m1"
+            name='abstract00201m1'
         ),
         TestGroup(
             annotation=[
@@ -161,12 +161,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="use abstarct explicitly set to false  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='use abstarct explicitly set to false  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with abstarct explicitly set to false.&#10;                             Try to use it in the xml document."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with abstarct explicitly set to false.\n                             Try to use it in the xml document.'
                                 ),
                             ]
                         ),
@@ -175,13 +175,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m2.xsd"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m2.xsd'
                     ),
                 ],
                 expected=[
@@ -193,12 +193,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00201m2"
+                name='abstract00201m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m2_p.xml"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -209,10 +209,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="abstract00201m2"
+            name='abstract00201m2'
         ),
         TestGroup(
             annotation=[
@@ -221,12 +221,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="use default value of the attribute abstract  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='use default value of the attribute abstract  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with default value of the attribute abstract.&#10;                             Try to use it in the xml document."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with default value of the attribute abstract.\n                             Try to use it in the xml document.'
                                 ),
                             ]
                         ),
@@ -235,13 +235,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m3.xsd"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m3.xsd'
                     ),
                 ],
                 expected=[
@@ -253,12 +253,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="abstract00201m3"
+                name='abstract00201m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/abstract/abstract00201m/abstract00201m3_p.xml"
+                        href='../sunData/ElemDecl/abstract/abstract00201m/abstract00201m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -269,10 +269,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="abstract00201m3"
+            name='abstract00201m3'
         ),
         TestGroup(
             annotation=[
@@ -281,12 +281,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for element declaration (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for element declaration (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an element declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an element declaration.'
                                 ),
                             ]
                         ),
@@ -295,13 +295,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -313,12 +313,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -329,10 +329,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -341,12 +341,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for element declaration (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted misplaced annotation for element declaration (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an element declaration.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for an element declaration.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -355,13 +355,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -373,9 +373,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -384,12 +384,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for element declaration (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for element declaration (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an element declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an element declaration.'
                                 ),
                             ]
                         ),
@@ -398,13 +398,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -416,12 +416,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m3_p.xml"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -432,10 +432,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -444,12 +444,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for element declaration (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted misplaced annotation for element declaration (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an element declaration.&#10;                             The annotation is misplaced."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for an element declaration.\n                             The annotation is misplaced.'
                                 ),
                             ]
                         ),
@@ -458,13 +458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/ElemDecl/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -476,9 +476,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -487,12 +487,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any substitution. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any substitution. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group&#10;                             headed by another element. The elements have the same &#10;                             type. Block (disallow) a substitution of the head. Try &#10;                             to substitute the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group\n                             headed by another element. The elements have the same \n                             type. Block (disallow) a substitution of the head. Try \n                             to substitute the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -501,13 +501,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -519,12 +519,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00101m"
+                name='disallowedSubst00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -535,11 +535,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="disallowedSubst00101m1_p"
+                    name='disallowedSubst00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00101m/disallowedSubst00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -550,10 +550,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="disallowedSubst00101m1_n"
+                    name='disallowedSubst00101m1_n'
                 ),
             ],
-            name="disallowedsubst00101m"
+            name='disallowedsubst00101m'
         ),
         TestGroup(
             annotation=[
@@ -562,12 +562,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any substitution (positive case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any substitution (positive case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group&#10;                             headed by another element. The elements have the same &#10;                             type. Block (disallow) a substitution of the head. Try &#10;                             to substitute the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group\n                             headed by another element. The elements have the same \n                             type. Block (disallow) a substitution of the head. Try \n                             to substitute the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -576,13 +576,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -594,12 +594,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00102m1"
+                name='disallowedSubst00102m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -610,10 +610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00102m1"
+            name='disallowedsubst00102m1'
         ),
         TestGroup(
             annotation=[
@@ -622,12 +622,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any substitution (negative case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any substitution (negative case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group&#10;                             headed by another element. The elements have the same &#10;                             type. Block (disallow) a substitution of the head. Try &#10;                             to substitute the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group\n                             headed by another element. The elements have the same \n                             type. Block (disallow) a substitution of the head. Try \n                             to substitute the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -636,13 +636,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -654,12 +654,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00102m2"
+                name='disallowedSubst00102m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m2_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00102m/disallowedSubst00102m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -670,10 +670,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00102m2"
+            name='disallowedsubst00102m2'
         ),
         TestGroup(
             annotation=[
@@ -682,12 +682,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any extension. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any extension. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group headed &#10;                             by another element. The first element has a type &#10;                             extended from the type of the head. Block (disallow) &#10;                             an extension of the head. Try to substitute&#10;                             the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group headed \n                             by another element. The first element has a type \n                             extended from the type of the head. Block (disallow) \n                             an extension of the head. Try to substitute\n                             the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -696,13 +696,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m.xsd'
                     ),
                 ],
                 expected=[
@@ -714,12 +714,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00105m"
+                name='disallowedSubst00105m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -730,11 +730,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="disallowedSubst00105m1_p"
+                    name='disallowedSubst00105m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00105m/disallowedSubst00105m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -745,10 +745,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="disallowedSubst00105m1_n"
+                    name='disallowedSubst00105m1_n'
                 ),
             ],
-            name="disallowedsubst00105m"
+            name='disallowedsubst00105m'
         ),
         TestGroup(
             annotation=[
@@ -757,12 +757,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any extension (positive case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any extension (positive case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group headed &#10;                             by another element. The first element has a type &#10;                             extended from the type of the head. Block (disallow) &#10;                             an extension of the head. Try to substitute&#10;                             the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group headed \n                             by another element. The first element has a type \n                             extended from the type of the head. Block (disallow) \n                             an extension of the head. Try to substitute\n                             the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -771,13 +771,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m1.xsd'
                     ),
                 ],
                 expected=[
@@ -789,12 +789,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00106m1"
+                name='disallowedSubst00106m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -805,10 +805,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00106m1"
+            name='disallowedsubst00106m1'
         ),
         TestGroup(
             annotation=[
@@ -817,12 +817,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Blocking any extension (negative case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Blocking any extension (negative case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group headed &#10;                             by another element. The first element has a type &#10;                             extended from the type of the head. Block (disallow) &#10;                             an extension of the head. Try to substitute&#10;                             the head element with the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element within a substitution group headed \n                             by another element. The first element has a type \n                             extended from the type of the head. Block (disallow) \n                             an extension of the head. Try to substitute\n                             the head element with the first one.'
                                 ),
                             ]
                         ),
@@ -831,13 +831,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m2.xsd'
                     ),
                 ],
                 expected=[
@@ -849,12 +849,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00106m2"
+                name='disallowedSubst00106m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m2_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00106m/disallowedSubst00106m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -865,10 +865,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00106m2"
+            name='disallowedsubst00106m2'
         ),
         TestGroup(
             annotation=[
@@ -877,12 +877,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Illegal value is used. (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Illegal value is used. (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The block attribute is set to illegal value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The block attribute is set to illegal value.'
                                 ),
                             ]
                         ),
@@ -891,13 +891,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -909,9 +909,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m1"
+                name='disallowedSubst00202m1'
             ),
-            name="disallowedsubst00202m1"
+            name='disallowedsubst00202m1'
         ),
         TestGroup(
             annotation=[
@@ -920,11 +920,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "substitution extension restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "substitution extension restriction #illegalValue"'
                                 ),
                             ]
@@ -934,13 +934,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m10.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m10.xsd'
                     ),
                 ],
                 expected=[
@@ -952,9 +952,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m10"
+                name='disallowedSubst00202m10'
             ),
-            name="disallowedsubst00202m10"
+            name='disallowedsubst00202m10'
         ),
         TestGroup(
             annotation=[
@@ -963,11 +963,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "extension substitution restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "extension substitution restriction #illegalValue"'
                                 ),
                             ]
@@ -977,13 +977,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m11.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m11.xsd'
                     ),
                 ],
                 expected=[
@@ -995,9 +995,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m11"
+                name='disallowedSubst00202m11'
             ),
-            name="disallowedsubst00202m11"
+            name='disallowedsubst00202m11'
         ),
         TestGroup(
             annotation=[
@@ -1006,12 +1006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Various subsets of blocking values. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Various subsets of blocking values. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Various subsets of blocking values are used for a number of &#10;                             elemen declarations."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Various subsets of blocking values are used for a number of \n                             elemen declarations.'
                                 ),
                             ]
                         ),
@@ -1020,13 +1020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m12.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m12.xsd'
                     ),
                 ],
                 expected=[
@@ -1038,12 +1038,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m12"
+                name='disallowedSubst00202m12'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m12_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m12_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1054,10 +1054,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00202m12"
+            name='disallowedsubst00202m12'
         ),
         TestGroup(
             annotation=[
@@ -1066,11 +1066,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "#all #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "#all #illegalValue"'
                                 ),
                             ]
@@ -1080,13 +1080,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1098,9 +1098,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m2"
+                name='disallowedSubst00202m2'
             ),
-            name="disallowedsubst00202m2"
+            name='disallowedsubst00202m2'
         ),
         TestGroup(
             annotation=[
@@ -1109,11 +1109,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "substitution #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "substitution #illegalValue"'
                                 ),
                             ]
@@ -1123,13 +1123,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m3.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m3.xsd'
                     ),
                 ],
                 expected=[
@@ -1141,9 +1141,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m3"
+                name='disallowedSubst00202m3'
             ),
-            name="disallowedsubst00202m3"
+            name='disallowedsubst00202m3'
         ),
         TestGroup(
             annotation=[
@@ -1152,11 +1152,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "restriction #illegalValue"'
                                 ),
                             ]
@@ -1166,13 +1166,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m4.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m4.xsd'
                     ),
                 ],
                 expected=[
@@ -1184,9 +1184,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m4"
+                name='disallowedSubst00202m4'
             ),
-            name="disallowedsubst00202m4"
+            name='disallowedsubst00202m4'
         ),
         TestGroup(
             annotation=[
@@ -1195,11 +1195,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "extension #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "extension #illegalValue"'
                                 ),
                             ]
@@ -1209,13 +1209,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m5.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m5.xsd'
                     ),
                 ],
                 expected=[
@@ -1227,9 +1227,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m5"
+                name='disallowedSubst00202m5'
             ),
-            name="disallowedsubst00202m5"
+            name='disallowedsubst00202m5'
         ),
         TestGroup(
             annotation=[
@@ -1238,11 +1238,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "substitution restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "substitution restriction #illegalValue"'
                                 ),
                             ]
@@ -1252,13 +1252,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m6.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m6.xsd'
                     ),
                 ],
                 expected=[
@@ -1270,9 +1270,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m6"
+                name='disallowedSubst00202m6'
             ),
-            name="disallowedsubst00202m6"
+            name='disallowedsubst00202m6'
         ),
         TestGroup(
             annotation=[
@@ -1281,11 +1281,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "extension substitution #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "extension substitution #illegalValue"'
                                 ),
                             ]
@@ -1295,13 +1295,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m7.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m7.xsd'
                     ),
                 ],
                 expected=[
@@ -1313,9 +1313,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m7"
+                name='disallowedSubst00202m7'
             ),
-            name="disallowedsubst00202m7"
+            name='disallowedsubst00202m7'
         ),
         TestGroup(
             annotation=[
@@ -1324,11 +1324,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "restriction substitution #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "restriction substitution #illegalValue"'
                                 ),
                             ]
@@ -1338,13 +1338,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m8.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m8.xsd'
                     ),
                 ],
                 expected=[
@@ -1356,9 +1356,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m8"
+                name='disallowedSubst00202m8'
             ),
-            name="disallowedsubst00202m8"
+            name='disallowedsubst00202m8'
         ),
         TestGroup(
             annotation=[
@@ -1367,11 +1367,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Try blocking "substitution restriction extension #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set block attribute to "substitution restriction extension #illegalValue"'
                                 ),
                             ]
@@ -1381,13 +1381,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m9.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00202m/disallowedSubst00202m9.xsd'
                     ),
                 ],
                 expected=[
@@ -1399,9 +1399,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00202m9"
+                name='disallowedSubst00202m9'
             ),
-            name="disallowedsubst00202m9"
+            name='disallowedsubst00202m9'
         ),
         TestGroup(
             annotation=[
@@ -1410,12 +1410,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="substitution is allowed (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='substitution is allowed (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The blocking constraint must not contain substitution for an &#10;                             element declaration to be validly substituteable for another element &#10;                             declaration. &#10;                              In the test any substitution for element  Head  is &#10;                             allowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The blocking constraint must not contain substitution for an \n                             element declaration to be validly substituteable for another element \n                             declaration. \n                              In the test any substitution for element  Head  is \n                             allowed.'
                                 ),
                             ]
                         ),
@@ -1424,13 +1424,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1442,12 +1442,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00301m1"
+                name='disallowedSubst00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1458,10 +1458,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00301m1"
+            name='disallowedsubst00301m1'
         ),
         TestGroup(
             annotation=[
@@ -1470,12 +1470,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="substitution is disallowed (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='substitution is disallowed (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The blocking constraint must not contain substitution for an &#10;                             element declaration to be validly substituteable for another element &#10;                             declaration. &#10;                              In the test any substitution for element  Head  is &#10;                             disallowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The blocking constraint must not contain substitution for an \n                             element declaration to be validly substituteable for another element \n                             declaration. \n                              In the test any substitution for element  Head  is \n                             disallowed.'
                                 ),
                             ]
                         ),
@@ -1484,13 +1484,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1502,12 +1502,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00301m2"
+                name='disallowedSubst00301m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m2_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00301m/disallowedSubst00301m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1518,10 +1518,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00301m2"
+            name='disallowedsubst00301m2'
         ),
         TestGroup(
             annotation=[
@@ -1530,12 +1530,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="substitution is allowed (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='substitution is allowed (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The blocking constraint must not contain substitution for an &#10;                             element declaration to be validly substituteable for another element &#10;                             declaration. &#10;                              In the test any substitution for element  Head  is &#10;                             allowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The blocking constraint must not contain substitution for an \n                             element declaration to be validly substituteable for another element \n                             declaration. \n                              In the test any substitution for element  Head  is \n                             allowed.'
                                 ),
                             ]
                         ),
@@ -1544,13 +1544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1562,12 +1562,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00401m1"
+                name='disallowedSubst00401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1578,10 +1578,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00401m1"
+            name='disallowedsubst00401m1'
         ),
         TestGroup(
             annotation=[
@@ -1590,12 +1590,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="substitution is disallowed (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='substitution is disallowed (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The blocking constraint must not contain substitution for an &#10;                             element declaration to be validly substituteable for another element &#10;                             declaration. &#10;                              In the test any substitution for element  Head  is &#10;                             disallowed."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The blocking constraint must not contain substitution for an \n                             element declaration to be validly substituteable for another element \n                             declaration. \n                              In the test any substitution for element  Head  is \n                             disallowed.'
                                 ),
                             ]
                         ),
@@ -1604,13 +1604,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1622,12 +1622,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00401m2"
+                name='disallowedSubst00401m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m2_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00401m/disallowedSubst00401m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1638,10 +1638,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00401m2"
+            name='disallowedsubst00401m2'
         ),
         TestGroup(
             annotation=[
@@ -1650,12 +1650,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="no blocking constraints (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='no blocking constraints (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Blockong constraints of the first element is empty, so the second element is substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Blockong constraints of the first element is empty, so the second element is substitutable for the first one.'
                                 ),
                             ]
                         ),
@@ -1664,13 +1664,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1682,12 +1682,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00501m1"
+                name='disallowedSubst00501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1698,10 +1698,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00501m1"
+            name='disallowedsubst00501m1'
         ),
         TestGroup(
             annotation=[
@@ -1710,12 +1710,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="restriction is blocked (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='restriction is blocked (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Blockong constraints of the first element contain 'restriction', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Blockong constraints of the first element contain 'restriction', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -1724,13 +1724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1742,12 +1742,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00501m2"
+                name='disallowedSubst00501m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m2_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00501m/disallowedSubst00501m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1758,10 +1758,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00501m2"
+            name='disallowedsubst00501m2'
         ),
         TestGroup(
             annotation=[
@@ -1770,12 +1770,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complex type substitution: no blocking constraints (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complex type substitution: no blocking constraints (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.&#10;                             Blockong constraints of the first element is empty, so the second element is substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Two elements are declared. The second one has type derived by extension from type of the first element.\n                             Blockong constraints of the first element is empty, so the second element is substitutable for the first one.'
                                 ),
                             ]
                         ),
@@ -1784,13 +1784,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1802,12 +1802,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00502m1"
+                name='disallowedSubst00502m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1818,10 +1818,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00502m1"
+            name='disallowedsubst00502m1'
         ),
         TestGroup(
             annotation=[
@@ -1830,12 +1830,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complex type substitution: restriction is blocked (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complex type substitution: restriction is blocked (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.&#10;                             Blockong constraints of the first element contain 'restriction', so the second element is substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.\n                             Blockong constraints of the first element contain 'restriction', so the second element is substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -1844,13 +1844,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1862,12 +1862,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00502m2"
+                name='disallowedSubst00502m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m2_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1878,10 +1878,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00502m2"
+            name='disallowedsubst00502m2'
         ),
         TestGroup(
             annotation=[
@@ -1890,12 +1890,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complex type substitution: extension is blocked (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complex type substitution: extension is blocked (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.&#10;                             Blockong constraints of the first element contain 'extension', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.\n                             Blockong constraints of the first element contain 'extension', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -1904,13 +1904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m3.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m3.xsd'
                     ),
                 ],
                 expected=[
@@ -1922,12 +1922,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00502m3"
+                name='disallowedSubst00502m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m3_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1938,10 +1938,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00502m3"
+            name='disallowedsubst00502m3'
         ),
         TestGroup(
             annotation=[
@@ -1950,12 +1950,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complex type substitution: extension and restriction are blocked (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complex type substitution: extension and restriction are blocked (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.&#10;                             Blockong constraints of the first element contain 'restriction extension', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by extension from type of the first element.\n                             Blockong constraints of the first element contain 'restriction extension', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -1964,13 +1964,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m4.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m4.xsd'
                     ),
                 ],
                 expected=[
@@ -1982,12 +1982,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00502m4"
+                name='disallowedSubst00502m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m4_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00502m/disallowedSubst00502m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1998,10 +1998,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00502m4"
+            name='disallowedsubst00502m4'
         ),
         TestGroup(
             annotation=[
@@ -2010,12 +2010,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derived by restriction: prohibiting substitutions is empty (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derived by restriction: prohibiting substitutions is empty (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Prohibiting substitutions of the first element's type is empty, so the second element is substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Prohibiting substitutions of the first element's type is empty, so the second element is substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -2024,13 +2024,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m1.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m1.xsd'
                     ),
                 ],
                 expected=[
@@ -2042,12 +2042,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00503m1"
+                name='disallowedSubst00503m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m1_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2058,10 +2058,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00503m1"
+            name='disallowedsubst00503m1'
         ),
         TestGroup(
             annotation=[
@@ -2070,12 +2070,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="derived by restriction: prohibiting substitutions contains 'extension' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Prohibiting substitutions of the first element's type contain 'extension', so the second element is substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Prohibiting substitutions of the first element's type contain 'extension', so the second element is substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -2084,13 +2084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m2.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m2.xsd'
                     ),
                 ],
                 expected=[
@@ -2102,12 +2102,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00503m2"
+                name='disallowedSubst00503m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m2_p.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2118,10 +2118,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="disallowedsubst00503m2"
+            name='disallowedsubst00503m2'
         ),
         TestGroup(
             annotation=[
@@ -2130,12 +2130,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="derived by restriction: prohibiting substitutions contains 'restriction' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Prohibiting substitutions of the first element's type contain 'restriction', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Prohibiting substitutions of the first element's type contain 'restriction', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -2144,13 +2144,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m3.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m3.xsd'
                     ),
                 ],
                 expected=[
@@ -2162,12 +2162,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00503m3"
+                name='disallowedSubst00503m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m3_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2178,10 +2178,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00503m3"
+            name='disallowedsubst00503m3'
         ),
         TestGroup(
             annotation=[
@@ -2190,12 +2190,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="derived by restriction: prohibiting substitutions contains 'restriction extension' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Prohibiting substitutions of the first element's type contain 'restriction extension', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Prohibiting substitutions of the first element's type contain 'restriction extension', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -2204,13 +2204,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m4.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m4.xsd'
                     ),
                 ],
                 expected=[
@@ -2222,12 +2222,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00503m4"
+                name='disallowedSubst00503m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m4_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2238,10 +2238,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00503m4"
+            name='disallowedsubst00503m4'
         ),
         TestGroup(
             annotation=[
@@ -2250,12 +2250,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="derived by restriction: prohibiting substitutions contains '#all' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.&#10;                             Prohibiting substitutions of the first element's type contain '#all', so the second element is not substitutable for the first one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Two elements are declared. The second one has type derived by restriction from type of the first element.\n                             Prohibiting substitutions of the first element's type contain '#all', so the second element is not substitutable for the first one."
                                 ),
                             ]
                         ),
@@ -2264,13 +2264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m5.xsd"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m5.xsd'
                     ),
                 ],
                 expected=[
@@ -2282,12 +2282,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="disallowedSubst00503m5"
+                name='disallowedSubst00503m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m5_n.xml"
+                        href='../sunData/ElemDecl/disallowedSubst/disallowedSubst00503m/disallowedSubst00503m5_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2298,10 +2298,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="disallowedsubst00503m5"
+            name='disallowedsubst00503m5'
         ),
         TestGroup(
             annotation=[
@@ -2310,12 +2310,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Uniqueness among values of elements. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Uniqueness among values of elements. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define and check a uniqueness among values of elements."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define and check a uniqueness among values of elements.'
                                 ),
                             ]
                         ),
@@ -2324,13 +2324,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -2342,12 +2342,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00101m"
+                name='idConstrDefs00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2358,11 +2358,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00101m1_p"
+                    name='idConstrDefs00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00101m/idConstrDefs00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2373,10 +2373,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00101m1_n"
+                    name='idConstrDefs00101m1_n'
                 ),
             ],
-            name="idconstrdefs00101m"
+            name='idconstrdefs00101m'
         ),
         TestGroup(
             annotation=[
@@ -2385,12 +2385,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="all kinds of identity constraint are not violated (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='all kinds of identity constraint are not violated (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define and check key, keyref and uniqueness among values of elements.&#10;                             In the test all kinds of identity constraint are not violated."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define and check key, keyref and uniqueness among values of elements.\n                             In the test all kinds of identity constraint are not violated.'
                                 ),
                             ]
                         ),
@@ -2399,13 +2399,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -2417,12 +2417,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00201m"
+                name='idConstrDefs00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2433,11 +2433,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00201m1_p"
+                    name='idConstrDefs00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m2_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2448,11 +2448,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00201m2_n"
+                    name='idConstrDefs00201m2_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m3_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2463,11 +2463,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00201m3_n"
+                    name='idConstrDefs00201m3_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m4_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00201m/idConstrDefs00201m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2478,10 +2478,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00201m4_n"
+                    name='idConstrDefs00201m4_n'
                 ),
             ],
-            name="idconstrdefs00201m"
+            name='idconstrdefs00201m'
         ),
         TestGroup(
             annotation=[
@@ -2490,12 +2490,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="there must be no multiply-defined ID (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='there must be no multiply-defined ID (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define a key identity constraint with two fields.&#10;                             Ensure that the constraint prevents one key to be&#10;                             defined twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define a key identity constraint with two fields.\n                             Ensure that the constraint prevents one key to be\n                             defined twice.'
                                 ),
                             ]
                         ),
@@ -2504,13 +2504,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m.xsd'
                     ),
                 ],
                 expected=[
@@ -2522,12 +2522,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00202m"
+                name='idConstrDefs00202m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2538,11 +2538,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00202m1_p"
+                    name='idConstrDefs00202m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00202m/idConstrDefs00202m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2553,10 +2553,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00202m1_n"
+                    name='idConstrDefs00202m1_n'
                 ),
             ],
-            name="idconstrdefs00202m"
+            name='idconstrdefs00202m'
         ),
         TestGroup(
             annotation=[
@@ -2565,12 +2565,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="there must be no uniqueness violations (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='there must be no uniqueness violations (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define a uniqueness identity constraint with two fields.&#10;                             Ensure that the constraint prevents one pair of values to be&#10;                             defined twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define a uniqueness identity constraint with two fields.\n                             Ensure that the constraint prevents one pair of values to be\n                             defined twice.'
                                 ),
                             ]
                         ),
@@ -2579,13 +2579,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m.xsd'
                     ),
                 ],
                 expected=[
@@ -2597,12 +2597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00203m"
+                name='idConstrDefs00203m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2613,11 +2613,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00203m1_p"
+                    name='idConstrDefs00203m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00203m/idConstrDefs00203m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2628,10 +2628,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00203m1_n"
+                    name='idConstrDefs00203m1_n'
                 ),
             ],
-            name="idconstrdefs00203m"
+            name='idconstrdefs00203m'
         ),
         TestGroup(
             annotation=[
@@ -2640,12 +2640,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="keyref must refer to a key that is defined (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='keyref must refer to a key that is defined (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define a key identity constraint. Define a keyref to that key.&#10;                             Ensure that the keyref field is not allowed to refer to a&#10;                             key that is not defined."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define a key identity constraint. Define a keyref to that key.\n                             Ensure that the keyref field is not allowed to refer to a\n                             key that is not defined.'
                                 ),
                             ]
                         ),
@@ -2654,13 +2654,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m.xsd'
                     ),
                 ],
                 expected=[
@@ -2672,12 +2672,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00204m"
+                name='idConstrDefs00204m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2688,11 +2688,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00204m1_p"
+                    name='idConstrDefs00204m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00204m/idConstrDefs00204m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2703,10 +2703,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00204m1_n"
+                    name='idConstrDefs00204m1_n'
                 ),
             ],
-            name="idconstrdefs00204m"
+            name='idconstrdefs00204m'
         ),
         TestGroup(
             annotation=[
@@ -2715,12 +2715,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="all ID, IDREF, IDREFS are valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='all ID, IDREF, IDREFS are valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All ID, IDREF and IDREFS values are valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All ID, IDREF and IDREFS values are valid.'
                                 ),
                             ]
                         ),
@@ -2729,16 +2729,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -2750,12 +2750,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00301m"
+                name='idConstrDefs00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2766,7 +2766,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00301m1_p"
+                    name='idConstrDefs00301m1_p'
                 ),
                 InstanceTest(
                     annotation=[
@@ -2775,8 +2775,8 @@ obj = TestSet(
                                 Documentation(
                                     content=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                            text="The test:root element has two element children of type xs:ID. This is invalid in XSD 1.0. &#10;                  In XSD 1.1 the instance is valid, because multiple IDs for an element are now permitted.&#10;                "
+                                            qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                            text='The test:root element has two element children of type xs:ID. This is invalid in XSD 1.0. \n                  In XSD 1.1 the instance is valid, because multiple IDs for an element are now permitted.\n                '
                                         ),
                                     ]
                                 ),
@@ -2784,7 +2784,7 @@ obj = TestSet(
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m2_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2804,11 +2804,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00301m2_n"
+                    name='idConstrDefs00301m2_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m3_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2819,11 +2819,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00301m3_n"
+                    name='idConstrDefs00301m3_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m4_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00301m/idConstrDefs00301m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2834,10 +2834,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00301m4_n"
+                    name='idConstrDefs00301m4_n'
                 ),
             ],
-            name="idconstrdefs00301m"
+            name='idconstrdefs00301m'
         ),
         TestGroup(
             annotation=[
@@ -2846,12 +2846,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="all attributes of type ID, IDREF, IDREFS are valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='all attributes of type ID, IDREF, IDREFS are valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All ID, IDREF and IDREFS attributes are valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='All ID, IDREF and IDREFS attributes are valid.'
                                 ),
                             ]
                         ),
@@ -2860,13 +2860,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m.xsd'
                     ),
                 ],
                 expected=[
@@ -2878,12 +2878,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00302m"
+                name='idConstrDefs00302m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2894,11 +2894,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00302m1_p"
+                    name='idConstrDefs00302m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m2_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2909,11 +2909,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00302m2_n"
+                    name='idConstrDefs00302m2_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m3_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2924,11 +2924,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00302m3_n"
+                    name='idConstrDefs00302m3_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m4_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00302m/idConstrDefs00302m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2939,10 +2939,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00302m4_n"
+                    name='idConstrDefs00302m4_n'
                 ),
             ],
-            name="idconstrdefs00302m"
+            name='idconstrdefs00302m'
         ),
         TestGroup(
             annotation=[
@@ -2951,12 +2951,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derived IDREF must refer to an ID that is defined (cyclic) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derived IDREF must refer to an ID that is defined (cyclic) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an attribute of a type derived from ID. &#10;                             Declare an attribute of a type derived from IDREF. &#10;                             Ensure that the second attribute is allowed to refer to a value&#10;                             that is defined by the first attribute defined in the same &#10;                             element information item."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an attribute of a type derived from ID. \n                             Declare an attribute of a type derived from IDREF. \n                             Ensure that the second attribute is allowed to refer to a value\n                             that is defined by the first attribute defined in the same \n                             element information item.'
                                 ),
                             ]
                         ),
@@ -2965,13 +2965,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00401m/idConstrDefs00401m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00401m/idConstrDefs00401m.xsd'
                     ),
                 ],
                 expected=[
@@ -2983,12 +2983,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00401m"
+                name='idConstrDefs00401m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00401m/idConstrDefs00401m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00401m/idConstrDefs00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -2999,10 +2999,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00401m1_p"
+                    name='idConstrDefs00401m1_p'
                 ),
             ],
-            name="idconstrdefs00401m"
+            name='idconstrdefs00401m'
         ),
         TestGroup(
             annotation=[
@@ -3011,12 +3011,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derived IDREF must refer to an ID that is defined (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derived IDREF must refer to an ID that is defined (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an attribute of a type derived from ID. &#10;                             Declare an attribute of a type derived from IDREF. &#10;                             Ensure that the second attribute is not allowed to refer to a value&#10;                             that is not defined by the first attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an attribute of a type derived from ID. \n                             Declare an attribute of a type derived from IDREF. \n                             Ensure that the second attribute is not allowed to refer to a value\n                             that is not defined by the first attribute.'
                                 ),
                             ]
                         ),
@@ -3025,13 +3025,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m.xsd'
                     ),
                 ],
                 expected=[
@@ -3043,12 +3043,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00402m"
+                name='idConstrDefs00402m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3059,11 +3059,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00402m1_p"
+                    name='idConstrDefs00402m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00402m/idConstrDefs00402m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3074,10 +3074,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00402m1_n"
+                    name='idConstrDefs00402m1_n'
                 ),
             ],
-            name="idconstrdefs00402m"
+            name='idconstrdefs00402m'
         ),
         TestGroup(
             annotation=[
@@ -3086,12 +3086,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="derived IDREFS must refer to IDs that are defined (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='derived IDREFS must refer to IDs that are defined (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an attribute of a type derived from ID. &#10;                             Declare an attribute of a type derived from IDREFS. &#10;                             Ensure that the second attribute is not allowed to refer to a values&#10;                             that are not defined by the first attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an attribute of a type derived from ID. \n                             Declare an attribute of a type derived from IDREFS. \n                             Ensure that the second attribute is not allowed to refer to a values\n                             that are not defined by the first attribute.'
                                 ),
                             ]
                         ),
@@ -3100,13 +3100,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m.xsd'
                     ),
                 ],
                 expected=[
@@ -3118,12 +3118,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00403m"
+                name='idConstrDefs00403m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3134,11 +3134,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00403m1_p"
+                    name='idConstrDefs00403m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00403m/idConstrDefs00403m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3149,10 +3149,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00403m1_n"
+                    name='idConstrDefs00403m1_n'
                 ),
             ],
-            name="idconstrdefs00403m"
+            name='idconstrdefs00403m'
         ),
         TestGroup(
             annotation=[
@@ -3161,12 +3161,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="there must be no multiply-defined ID (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='there must be no multiply-defined ID (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an attribute of a type derived from ID. &#10;                             Ensure that two element information items&#10;                             may not have that attributes with the same values."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an attribute of a type derived from ID. \n                             Ensure that two element information items\n                             may not have that attributes with the same values.'
                                 ),
                             ]
                         ),
@@ -3175,13 +3175,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m.xsd"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m.xsd'
                     ),
                 ],
                 expected=[
@@ -3193,12 +3193,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idConstrDefs00501m"
+                name='idConstrDefs00501m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_p.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3209,11 +3209,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00501m1_p"
+                    name='idConstrDefs00501m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_n.xml"
+                        href='../sunData/ElemDecl/identityConstraintDefs/idConstrDefs00501m/idConstrDefs00501m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3224,10 +3224,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idConstrDefs00501m1_n"
+                    name='idConstrDefs00501m1_n'
                 ),
             ],
-            name="idconstrdefs00501m"
+            name='idconstrdefs00501m'
         ),
         TestGroup(
             annotation=[
@@ -3236,12 +3236,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Default value of the {maxOccurs} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Default value of the {maxOccurs} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one global element and one local. Omit maxOccurs attribute. Check that&#10;                             the value of the {maxOccurs} property is 1."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one global element and one local. Omit maxOccurs attribute. Check that\n                             the value of the {maxOccurs} property is 1.'
                                 ),
                             ]
                         ),
@@ -3250,13 +3250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m.xsd"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -3268,12 +3268,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="maxOccurs00101m"
+                name='maxOccurs00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_p.xml"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3284,11 +3284,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="maxOccurs00101m1_p"
+                    name='maxOccurs00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_n.xml"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00101m/maxOccurs00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3299,10 +3299,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="maxOccurs00101m1_n"
+                    name='maxOccurs00101m1_n'
                 ),
             ],
-            name="maxoccurs00101m"
+            name='maxoccurs00101m'
         ),
         TestGroup(
             annotation=[
@@ -3311,12 +3311,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Default value of the {maxOccurs} property when the ref attribute is used. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Default value of the {maxOccurs} property when the ref attribute is used. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one local that refers to a global one. Omit maxOccurs attribute. &#10;                             Check that the value of the {maxOccurs} property is 1."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one local that refers to a global one. Omit maxOccurs attribute. \n                             Check that the value of the {maxOccurs} property is 1.'
                                 ),
                             ]
                         ),
@@ -3325,13 +3325,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m.xsd"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -3343,12 +3343,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="maxOccurs00201m"
+                name='maxOccurs00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_p.xml"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3359,11 +3359,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="maxOccurs00201m1_p"
+                    name='maxOccurs00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_n.xml"
+                        href='../sunData/ElemDecl/maxOccurs/maxOccurs00201m/maxOccurs00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3374,10 +3374,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="maxOccurs00201m1_n"
+                    name='maxOccurs00201m1_n'
                 ),
             ],
-            name="maxoccurs00201m"
+            name='maxoccurs00201m'
         ),
         TestGroup(
             annotation=[
@@ -3386,12 +3386,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Default value of the {minOccurs} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Default value of the {minOccurs} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one global element and one local. Omit minOccurs attribute. Check that&#10;                             the value of the {minOccurs} property is 1."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one global element and one local. Omit minOccurs attribute. Check that\n                             the value of the {minOccurs} property is 1.'
                                 ),
                             ]
                         ),
@@ -3400,13 +3400,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m.xsd"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -3418,12 +3418,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="minOccurs00101m"
+                name='minOccurs00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_p.xml"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3434,11 +3434,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="minOccurs00101m1_p"
+                    name='minOccurs00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_n.xml"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00101m/minOccurs00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3449,10 +3449,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="minOccurs00101m1_n"
+                    name='minOccurs00101m1_n'
                 ),
             ],
-            name="minoccurs00101m"
+            name='minoccurs00101m'
         ),
         TestGroup(
             annotation=[
@@ -3461,12 +3461,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Default value of the {minOccurs} property when the ref attribute is used. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Default value of the {minOccurs} property when the ref attribute is used. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a local element with a reference to a global one. Omit minOccurs &#10;                             attribute. Check that the value of the {minOccurs} property is 1."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a local element with a reference to a global one. Omit minOccurs \n                             attribute. Check that the value of the {minOccurs} property is 1.'
                                 ),
                             ]
                         ),
@@ -3475,13 +3475,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m.xsd"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -3493,12 +3493,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="minOccurs00201m"
+                name='minOccurs00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_p.xml"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3509,11 +3509,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="minOccurs00201m1_p"
+                    name='minOccurs00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_n.xml"
+                        href='../sunData/ElemDecl/minOccurs/minOccurs00201m/minOccurs00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3524,10 +3524,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="minOccurs00201m1_n"
+                    name='minOccurs00201m1_n'
                 ),
             ],
-            name="minoccurs00201m"
+            name='minoccurs00201m'
         ),
         TestGroup(
             annotation=[
@@ -3536,12 +3536,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="General check of the {name} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='General check of the {name} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define two elements with incompatible types. Check that the &#10;                             elements are validated properly."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define two elements with incompatible types. Check that the \n                             elements are validated properly.'
                                 ),
                             ]
                         ),
@@ -3550,13 +3550,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00101m/name00101m.xsd"
+                        href='../sunData/ElemDecl/name/name00101m/name00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -3568,12 +3568,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00101m"
+                name='name00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00101m/name00101m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00101m/name00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3584,11 +3584,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00101m1_p"
+                    name='name00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00101m/name00101m1_n.xml"
+                        href='../sunData/ElemDecl/name/name00101m/name00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -3599,10 +3599,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00101m1_n"
+                    name='name00101m1_n'
                 ),
             ],
-            name="name00101m"
+            name='name00101m'
         ),
         TestGroup(
             annotation=[
@@ -3611,12 +3611,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType definitions and element &#10;declarations have different symbol spaces. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType definitions and element \ndeclarations have different symbol spaces. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a &#10;                              complexType  with the same name.&#10;                             Check that there is no name clash."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a \n                              complexType  with the same name.\n                             Check that there is no name clash.'
                                 ),
                             ]
                         ),
@@ -3625,13 +3625,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00201m/name00201m1.xsd"
+                        href='../sunData/ElemDecl/name/name00201m/name00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -3643,12 +3643,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00201m1"
+                name='name00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00201m/name00201m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00201m/name00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3659,10 +3659,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00201m1"
+            name='name00201m1'
         ),
         TestGroup(
             annotation=[
@@ -3671,12 +3671,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="simpleType definitions and element &#10;declarations have different symbol spaces. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='simpleType definitions and element \ndeclarations have different symbol spaces. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element. Define a &#10;                              simpleType  with the same name.&#10;                             Check that there is no name clash."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Define a \n                              simpleType  with the same name.\n                             Check that there is no name clash.'
                                 ),
                             ]
                         ),
@@ -3685,13 +3685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00201m/name00201m2.xsd"
+                        href='../sunData/ElemDecl/name/name00201m/name00201m2.xsd'
                     ),
                 ],
                 expected=[
@@ -3703,12 +3703,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00201m2"
+                name='name00201m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00201m/name00201m2_p.xml"
+                        href='../sunData/ElemDecl/name/name00201m/name00201m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3719,10 +3719,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00201m2"
+            name='name00201m2'
         ),
         TestGroup(
             annotation=[
@@ -3731,12 +3731,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Local element names do not clash. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Local element names do not clash. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare two local elements with the same name but in different &#10;                             scope."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare two local elements with the same name but in different \n                             scope.'
                                 ),
                             ]
                         ),
@@ -3745,13 +3745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00301m/name00301m1.xsd"
+                        href='../sunData/ElemDecl/name/name00301m/name00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -3763,12 +3763,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00301m1"
+                name='name00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00301m/name00301m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00301m/name00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3779,10 +3779,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00301m1"
+            name='name00301m1'
         ),
         TestGroup(
             annotation=[
@@ -3791,12 +3791,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the name attribute is set (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the name attribute is set (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name="Local".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name="Local".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -3805,13 +3805,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m1.xsd"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -3823,12 +3823,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00401m1"
+                name='name00401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3839,10 +3839,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00401m1"
+            name='name00401m1'
         ),
         TestGroup(
             annotation=[
@@ -3851,12 +3851,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the root attribute is set (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the root attribute is set (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="root".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="root".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -3865,13 +3865,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m2.xsd"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -3883,12 +3883,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00401m2"
+                name='name00401m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m2_p.xml"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -3899,10 +3899,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00401m2"
+            name='name00401m2'
         ),
         TestGroup(
             annotation=[
@@ -3911,12 +3911,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Both name and ref attributes are set (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Both name and ref attributes are set (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name="Local" ref="root".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name="Local" ref="root".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -3925,13 +3925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m3.xsd"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m3.xsd'
                     ),
                 ],
                 expected=[
@@ -3943,9 +3943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00401m3"
+                name='name00401m3'
             ),
-            name="name00401m3"
+            name='name00401m3'
         ),
         TestGroup(
             annotation=[
@@ -3954,12 +3954,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Both ref and name attributes are set (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Both ref and name attributes are set (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="root" name="Local".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="root" name="Local".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -3968,13 +3968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m4.xsd"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m4.xsd'
                     ),
                 ],
                 expected=[
@@ -3986,9 +3986,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00401m4"
+                name='name00401m4'
             ),
-            name="name00401m4"
+            name='name00401m4'
         ),
         TestGroup(
             annotation=[
@@ -3997,12 +3997,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Both name and ref attributes are set to the same value (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Both name and ref attributes are set to the same value (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name="root" ref="root".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name="root" ref="root".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4011,13 +4011,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00401m/name00401m5.xsd"
+                        href='../sunData/ElemDecl/name/name00401m/name00401m5.xsd'
                     ),
                 ],
                 expected=[
@@ -4029,9 +4029,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00401m5"
+                name='name00401m5'
             ),
-            name="name00401m5"
+            name='name00401m5'
         ),
         TestGroup(
             annotation=[
@@ -4040,12 +4040,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="nillable is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='nillable is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" nillable="true" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" nillable="true" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4054,13 +4054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m1.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -4072,12 +4072,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m1"
+                name='name00501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4088,10 +4088,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m1"
+            name='name00501m1'
         ),
         TestGroup(
             annotation=[
@@ -4100,12 +4100,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="block and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='block and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" block="#all".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" block="#all".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4114,13 +4114,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m10.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m10.xsd'
                     ),
                 ],
                 expected=[
@@ -4132,9 +4132,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m10"
+                name='name00501m10'
             ),
-            name="name00501m10"
+            name='name00501m10'
         ),
         TestGroup(
             annotation=[
@@ -4143,12 +4143,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="type is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='type is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4157,13 +4157,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m11.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m11.xsd'
                     ),
                 ],
                 expected=[
@@ -4175,12 +4175,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m11"
+                name='name00501m11'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m11_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m11_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4191,10 +4191,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m11"
+            name='name00501m11'
         ),
         TestGroup(
             annotation=[
@@ -4203,12 +4203,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="type and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='type and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" type="xsd:boolean".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" type="xsd:boolean".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4217,13 +4217,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m12.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m12.xsd'
                     ),
                 ],
                 expected=[
@@ -4235,9 +4235,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m12"
+                name='name00501m12'
             ),
-            name="name00501m12"
+            name='name00501m12'
         ),
         TestGroup(
             annotation=[
@@ -4246,12 +4246,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="minOccurs and ref are present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='minOccurs and ref are present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" minOccurs="0".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" minOccurs="0".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4260,13 +4260,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m13.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m13.xsd'
                     ),
                 ],
                 expected=[
@@ -4278,12 +4278,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m13"
+                name='name00501m13'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m13_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m13_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4294,10 +4294,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m13"
+            name='name00501m13'
         ),
         TestGroup(
             annotation=[
@@ -4306,12 +4306,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxOccurs and ref are present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='maxOccurs and ref are present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" maxOccurs="unbounded".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" maxOccurs="unbounded".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4320,13 +4320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m14.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m14.xsd'
                     ),
                 ],
                 expected=[
@@ -4338,12 +4338,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m14"
+                name='name00501m14'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m14_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m14_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4354,10 +4354,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m14"
+            name='name00501m14'
         ),
         TestGroup(
             annotation=[
@@ -4366,12 +4366,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="id and ref are present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='id and ref are present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" id="X123".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" id="X123".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4380,13 +4380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m15.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m15.xsd'
                     ),
                 ],
                 expected=[
@@ -4398,12 +4398,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m15"
+                name='name00501m15'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m15_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m15_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4414,10 +4414,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m15"
+            name='name00501m15'
         ),
         TestGroup(
             annotation=[
@@ -4426,12 +4426,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="nillable and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='nillable and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" nillable="true".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" nillable="true".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4440,13 +4440,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m2.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m2.xsd'
                     ),
                 ],
                 expected=[
@@ -4458,9 +4458,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m2"
+                name='name00501m2'
             ),
-            name="name00501m2"
+            name='name00501m2'
         ),
         TestGroup(
             annotation=[
@@ -4469,12 +4469,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" default="true" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" default="true" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4483,13 +4483,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m3.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m3.xsd'
                     ),
                 ],
                 expected=[
@@ -4501,12 +4501,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m3"
+                name='name00501m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m3_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4517,10 +4517,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m3"
+            name='name00501m3'
         ),
         TestGroup(
             annotation=[
@@ -4529,12 +4529,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" default="true".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" default="true".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4543,13 +4543,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m4.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m4.xsd'
                     ),
                 ],
                 expected=[
@@ -4561,9 +4561,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m4"
+                name='name00501m4'
             ),
-            name="name00501m4"
+            name='name00501m4'
         ),
         TestGroup(
             annotation=[
@@ -4572,12 +4572,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" fixed="true" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" fixed="true" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4586,13 +4586,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m5.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m5.xsd'
                     ),
                 ],
                 expected=[
@@ -4604,12 +4604,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m5"
+                name='name00501m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m5_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4620,10 +4620,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m5"
+            name='name00501m5'
         ),
         TestGroup(
             annotation=[
@@ -4632,12 +4632,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" fixed="true".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" fixed="true".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4646,13 +4646,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m6.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m6.xsd'
                     ),
                 ],
                 expected=[
@@ -4664,9 +4664,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m6"
+                name='name00501m6'
             ),
-            name="name00501m6"
+            name='name00501m6'
         ),
         TestGroup(
             annotation=[
@@ -4675,12 +4675,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="form is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='form is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" form="qualified" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" form="qualified" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4689,13 +4689,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m7.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m7.xsd'
                     ),
                 ],
                 expected=[
@@ -4707,12 +4707,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m7"
+                name='name00501m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m7_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4723,10 +4723,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m7"
+            name='name00501m7'
         ),
         TestGroup(
             annotation=[
@@ -4735,12 +4735,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="form and ref are present (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='form and ref are present (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set ref="Main" form="qualified".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set ref="Main" form="qualified".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4749,13 +4749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m8.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m8.xsd'
                     ),
                 ],
                 expected=[
@@ -4767,9 +4767,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m8"
+                name='name00501m8'
             ),
-            name="name00501m8"
+            name='name00501m8'
         ),
         TestGroup(
             annotation=[
@@ -4778,12 +4778,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="block is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='block is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set name ="Local" block="#all" type="xsd:boolean".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set name ="Local" block="#all" type="xsd:boolean".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4792,13 +4792,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m9.xsd"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m9.xsd'
                     ),
                 ],
                 expected=[
@@ -4810,12 +4810,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00501m9"
+                name='name00501m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00501m/name00501m9_p.xml"
+                        href='../sunData/ElemDecl/name/name00501m/name00501m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4826,10 +4826,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00501m9"
+            name='name00501m9'
         ),
         TestGroup(
             annotation=[
@@ -4838,12 +4838,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with complex type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with complex type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using inline complex type definition.&#10;                             &#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using inline complex type definition.\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4852,13 +4852,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00502m/name00502m1.xsd"
+                        href='../sunData/ElemDecl/name/name00502m/name00502m1.xsd'
                     ),
                 ],
                 expected=[
@@ -4870,12 +4870,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00502m1"
+                name='name00502m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00502m/name00502m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00502m/name00502m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4886,10 +4886,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00502m1"
+            name='name00502m1'
         ),
         TestGroup(
             annotation=[
@@ -4898,12 +4898,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with complex type when ref attribute is used (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with complex type when ref attribute is used (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using inline complex type definition.&#10;                             Set its  ref  attribute.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using inline complex type definition.\n                             Set its  ref  attribute.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -4912,13 +4912,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00502m/name00502m2.xsd"
+                        href='../sunData/ElemDecl/name/name00502m/name00502m2.xsd'
                     ),
                 ],
                 expected=[
@@ -4930,9 +4930,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00502m2"
+                name='name00502m2'
             ),
-            name="name00502m2"
+            name='name00502m2'
         ),
         TestGroup(
             annotation=[
@@ -4941,12 +4941,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with simple type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with simple type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using inline simple type definition.&#10;                             &#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using inline simple type definition.\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -4955,13 +4955,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00503m/name00503m1.xsd"
+                        href='../sunData/ElemDecl/name/name00503m/name00503m1.xsd'
                     ),
                 ],
                 expected=[
@@ -4973,12 +4973,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00503m1"
+                name='name00503m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00503m/name00503m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00503m/name00503m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -4989,10 +4989,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00503m1"
+            name='name00503m1'
         ),
         TestGroup(
             annotation=[
@@ -5001,12 +5001,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with simple type when ref attribute is used (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with simple type when ref attribute is used (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using inline simple type definition.&#10;                             Set its  ref  attribute.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using inline simple type definition.\n                             Set its  ref  attribute.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -5015,13 +5015,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00503m/name00503m2.xsd"
+                        href='../sunData/ElemDecl/name/name00503m/name00503m2.xsd'
                     ),
                 ],
                 expected=[
@@ -5033,9 +5033,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00503m2"
+                name='name00503m2'
             ),
-            name="name00503m2"
+            name='name00503m2'
         ),
         TestGroup(
             annotation=[
@@ -5044,12 +5044,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with key (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with key (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  key .&#10;                             &#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  key .\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -5058,13 +5058,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m1.xsd"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m1.xsd'
                     ),
                 ],
                 expected=[
@@ -5076,12 +5076,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00504m1"
+                name='name00504m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5092,10 +5092,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00504m1"
+            name='name00504m1'
         ),
         TestGroup(
             annotation=[
@@ -5104,12 +5104,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with key when ref attribute is used (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with key when ref attribute is used (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  key .&#10;                             Set its  ref  attribute.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  key .\n                             Set its  ref  attribute.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -5118,13 +5118,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m2.xsd"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m2.xsd'
                     ),
                 ],
                 expected=[
@@ -5136,9 +5136,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00504m2"
+                name='name00504m2'
             ),
-            name="name00504m2"
+            name='name00504m2'
         ),
         TestGroup(
             annotation=[
@@ -5147,12 +5147,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with unique (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with unique (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  unique .&#10;                             &#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  unique .\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -5161,13 +5161,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m3.xsd"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m3.xsd'
                     ),
                 ],
                 expected=[
@@ -5179,12 +5179,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00504m3"
+                name='name00504m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m3_p.xml"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5195,10 +5195,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00504m3"
+            name='name00504m3'
         ),
         TestGroup(
             annotation=[
@@ -5207,12 +5207,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with unique when ref attribute is used (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with unique when ref attribute is used (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  unique .&#10;                             Set its  ref  attribute.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  unique .\n                             Set its  ref  attribute.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -5221,13 +5221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00504m/name00504m4.xsd"
+                        href='../sunData/ElemDecl/name/name00504m/name00504m4.xsd'
                     ),
                 ],
                 expected=[
@@ -5239,9 +5239,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00504m4"
+                name='name00504m4'
             ),
-            name="name00504m4"
+            name='name00504m4'
         ),
         TestGroup(
             annotation=[
@@ -5250,12 +5250,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with keyref (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with keyref (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  keyref .&#10;                             &#10;                             Check that the schema is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  keyref .\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -5264,13 +5264,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00505m/name00505m1.xsd"
+                        href='../sunData/ElemDecl/name/name00505m/name00505m1.xsd'
                     ),
                 ],
                 expected=[
@@ -5282,12 +5282,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00505m1"
+                name='name00505m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00505m/name00505m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00505m/name00505m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5298,10 +5298,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="name00505m1"
+            name='name00505m1'
         ),
         TestGroup(
             annotation=[
@@ -5310,12 +5310,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element declaration with keyref when ref attribute is used (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element declaration with keyref when ref attribute is used (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with  keyref .&#10;                             Set its  ref  attribute.&#10;                             Check that the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with  keyref .\n                             Set its  ref  attribute.\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -5324,13 +5324,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00505m/name00505m2.xsd"
+                        href='../sunData/ElemDecl/name/name00505m/name00505m2.xsd'
                     ),
                 ],
                 expected=[
@@ -5342,9 +5342,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00505m2"
+                name='name00505m2'
             ),
-            name="name00505m2"
+            name='name00505m2'
         ),
         TestGroup(
             annotation=[
@@ -5353,12 +5353,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The declaration must not be absent (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The declaration must not be absent (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element  root . &#10;                             Use element information item with respect to the element declaration.&#10;                             The negative case uses undeclared element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element  root . \n                             Use element information item with respect to the element declaration.\n                             The negative case uses undeclared element.'
                                 ),
                             ]
                         ),
@@ -5367,13 +5367,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name00601m/name00601m.xsd"
+                        href='../sunData/ElemDecl/name/name00601m/name00601m.xsd'
                     ),
                 ],
                 expected=[
@@ -5385,12 +5385,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00601m"
+                name='name00601m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00601m/name00601m1_p.xml"
+                        href='../sunData/ElemDecl/name/name00601m/name00601m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5401,11 +5401,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00601m1_p"
+                    name='name00601m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name00601m/name00601m1_n.xml"
+                        href='../sunData/ElemDecl/name/name00601m/name00601m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -5416,10 +5416,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00601m1_n"
+                    name='name00601m1_n'
                 ),
             ],
-            name="name00601m"
+            name='name00601m'
         ),
         TestGroup(
             annotation=[
@@ -5428,12 +5428,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element names contain several punctuation characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element names contain several punctuation characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with a sequence of elements of type int. Name the elements&#10;                                     using 7 punctuation characters: &#10;                                     hyphen ('-', \u002D, HYPHEN-MINUS), period ('.', \u002E, FULL STOP),&#10;                                     underscore ('_', \u005F, LOW LINE),&#10;                                     dot ('.', \u00B7, MIDDLE DOT), \u0387, GREEK ANO TELEIA,&#10;                                     \u06DD, ARABIC END OF AYAH and \u06DE, ARABIC START OF RUB EL HIZB.&#10;                                     The document name00801_p.xml sets the elements to 0, 1, 2, ..., 6 respectively."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Declare an element with a sequence of elements of type int. Name the elements\n                                     using 7 punctuation characters: \n                                     hyphen ('-', \\u002D, HYPHEN-MINUS), period ('.', \\u002E, FULL STOP),\n                                     underscore ('_', \\u005F, LOW LINE),\n                                     dot ('.', \\u00B7, MIDDLE DOT), \\u0387, GREEK ANO TELEIA,\n                                     \\u06DD, ARABIC END OF AYAH and \\u06DE, ARABIC START OF RUB EL HIZB.\n                                     The document name00801_p.xml sets the elements to 0, 1, 2, ..., 6 respectively."
                                 ),
                             ]
                         ),
@@ -5442,13 +5442,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name008/name00801/name00801.xsd"
+                        href='../sunData/ElemDecl/name/name008/name00801/name00801.xsd'
                     ),
                 ],
                 expected=[
@@ -5460,12 +5460,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00801"
+                name='name00801'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name008/name00801/name00801_p.xml"
+                        href='../sunData/ElemDecl/name/name008/name00801/name00801_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5476,10 +5476,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00801_p"
+                    name='name00801_p'
                 ),
             ],
-            name="name00801"
+            name='name00801'
         ),
         TestGroup(
             annotation=[
@@ -5488,12 +5488,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element name contains 7 punctuation characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element name contains 7 punctuation characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element with a sequence of two int elements. Name the first one&#10;                                     using 7 punctuation characters: &#10;                                     hyphen ('-', \u002D, HYPHEN-MINUS), period ('.', \u002E, FULL STOP),&#10;                                     underscore ('_', \u005F, LOW LINE),&#10;                                     dot ('.', \u00B7, MIDDLE DOT), \u0387, GREEK ANO TELEIA,&#10;                                     \u06DD, ARABIC END OF AYAH and \u06DE, ARABIC START OF RUB EL HIZB. Name the &#10;                                     second element with the same name except the characters described.&#10;                             &#10;                                     The document name00802_p.xml sets the elements to 0 and 1 respectively."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Declare an element with a sequence of two int elements. Name the first one\n                                     using 7 punctuation characters: \n                                     hyphen ('-', \\u002D, HYPHEN-MINUS), period ('.', \\u002E, FULL STOP),\n                                     underscore ('_', \\u005F, LOW LINE),\n                                     dot ('.', \\u00B7, MIDDLE DOT), \\u0387, GREEK ANO TELEIA,\n                                     \\u06DD, ARABIC END OF AYAH and \\u06DE, ARABIC START OF RUB EL HIZB. Name the \n                                     second element with the same name except the characters described.\n                             \n                                     The document name00802_p.xml sets the elements to 0 and 1 respectively."
                                 ),
                             ]
                         ),
@@ -5502,13 +5502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name008/name00802/name00802.xsd"
+                        href='../sunData/ElemDecl/name/name008/name00802/name00802.xsd'
                     ),
                 ],
                 expected=[
@@ -5520,12 +5520,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00802"
+                name='name00802'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name008/name00802/name00802_p.xml"
+                        href='../sunData/ElemDecl/name/name008/name00802/name00802_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5536,10 +5536,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00802_p"
+                    name='name00802_p'
                 ),
             ],
-            name="name00802"
+            name='name00802'
         ),
         TestGroup(
             annotation=[
@@ -5548,12 +5548,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element names contain digits followed by a non-digit characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element names contain digits followed by a non-digit characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element with a sequence of three integer elements. Name them &#10;                                     as follows: "aa111a2Aa", "aa22B3c", "aa3-4_".&#10;                                     The document name00803_p.xml sets the elements to 0, 1 and 2 respectively.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with a sequence of three integer elements. Name them \n                                     as follows: "aa111a2Aa", "aa22B3c", "aa3-4_".\n                                     The document name00803_p.xml sets the elements to 0, 1 and 2 respectively.'
                                 ),
                             ]
                         ),
@@ -5562,13 +5562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name008/name00803/name00803.xsd"
+                        href='../sunData/ElemDecl/name/name008/name00803/name00803.xsd'
                     ),
                 ],
                 expected=[
@@ -5580,12 +5580,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00803"
+                name='name00803'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name008/name00803/name00803_p.xml"
+                        href='../sunData/ElemDecl/name/name008/name00803/name00803_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5596,10 +5596,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00803_p"
+                    name='name00803_p'
                 ),
             ],
-            name="name00803"
+            name='name00803'
         ),
         TestGroup(
             annotation=[
@@ -5608,12 +5608,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element names contain lower case and upper case letters and non-letter characters. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element names contain lower case and upper case letters and non-letter characters. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element with a sequence of integer elements. Name them as follows:&#10;                                     "aaaa",  "bbbB",  "ccCc",  "ddDD",  "eEee",  &#10;                                     "fFfF",  "pPPp",  "gGGG",  "Hhhh",  "IiiI",  "JjJj", &#10;                                     "KkKK",  "LLll",  "MMmM",  "NNNn",  "OOOO", &#10;                                     "bbb0",  "cc0c",  "dd00",  "e0ee",  "f0f0",  "p00p",  "g000", &#10;                                     "bbb_",  "cc_c",  "dd__",  "e_ee",  "f_f_",  "p__p",  "g___", &#10;                                     "H111",  "I11I",  "J1J1",  "K1KK",  "LL11",  "MM1M",  "NNN1", &#10;                                     "H---",  "I--I",  "J-J-",  "K-KK",  "LL--",  "MM-M",  "NNN-". &#10;                             &#10;                                     The document name00804_p.xml sets all the elements.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with a sequence of integer elements. Name them as follows:\n                                     "aaaa",  "bbbB",  "ccCc",  "ddDD",  "eEee",  \n                                     "fFfF",  "pPPp",  "gGGG",  "Hhhh",  "IiiI",  "JjJj", \n                                     "KkKK",  "LLll",  "MMmM",  "NNNn",  "OOOO", \n                                     "bbb0",  "cc0c",  "dd00",  "e0ee",  "f0f0",  "p00p",  "g000", \n                                     "bbb_",  "cc_c",  "dd__",  "e_ee",  "f_f_",  "p__p",  "g___", \n                                     "H111",  "I11I",  "J1J1",  "K1KK",  "LL11",  "MM1M",  "NNN1", \n                                     "H---",  "I--I",  "J-J-",  "K-KK",  "LL--",  "MM-M",  "NNN-". \n                             \n                                     The document name00804_p.xml sets all the elements.'
                                 ),
                             ]
                         ),
@@ -5622,13 +5622,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name008/name00804/name00804.xsd"
+                        href='../sunData/ElemDecl/name/name008/name00804/name00804.xsd'
                     ),
                 ],
                 expected=[
@@ -5640,12 +5640,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00804"
+                name='name00804'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name008/name00804/name00804_p.xml"
+                        href='../sunData/ElemDecl/name/name008/name00804/name00804_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5656,10 +5656,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00804_p"
+                    name='name00804_p'
                 ),
             ],
-            name="name00804"
+            name='name00804'
         ),
         TestGroup(
             annotation=[
@@ -5668,12 +5668,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element names contain only punctuation characters and digits. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Element names contain only punctuation characters and digits. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element with a sequence of two integer elements. Name the first one&#10;                                     as "_-." and the second one as "_-0.". &#10;                             &#10;                                     The document name00805_p.xml sets the attributes to 0 and 1 respectively.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element with a sequence of two integer elements. Name the first one\n                                     as "_-." and the second one as "_-0.". \n                             \n                                     The document name00805_p.xml sets the attributes to 0 and 1 respectively.'
                                 ),
                             ]
                         ),
@@ -5682,13 +5682,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/name/name008/name00805/name00805.xsd"
+                        href='../sunData/ElemDecl/name/name008/name00805/name00805.xsd'
                     ),
                 ],
                 expected=[
@@ -5700,12 +5700,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="name00805"
+                name='name00805'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/name/name008/name00805/name00805_p.xml"
+                        href='../sunData/ElemDecl/name/name008/name00805/name00805_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5716,10 +5716,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="name00805_p"
+                    name='name00805_p'
                 ),
             ],
-            name="name00805"
+            name='name00805'
         ),
         TestGroup(
             annotation=[
@@ -5728,12 +5728,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="nillable=false (positive case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='nillable=false (positive case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define nillable element with content type which requires &#10;                             content. Try nillable=false."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define nillable element with content type which requires \n                             content. Try nillable=false.'
                                 ),
                             ]
                         ),
@@ -5742,13 +5742,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00101m/nillable00101m1.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00101m/nillable00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -5760,12 +5760,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00101m1"
+                name='nillable00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00101m/nillable00101m1_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00101m/nillable00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5776,10 +5776,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="nillable00101m1"
+            name='nillable00101m1'
         ),
         TestGroup(
             annotation=[
@@ -5788,12 +5788,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="nillable=false (negative case) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='nillable=false (negative case) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define nillable element with content type which requires &#10;                             content. Try nillable=false."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define nillable element with content type which requires \n                             content. Try nillable=false.'
                                 ),
                             ]
                         ),
@@ -5802,13 +5802,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00101m/nillable00101m2.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00101m/nillable00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -5820,12 +5820,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00101m2"
+                name='nillable00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00101m/nillable00101m2_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00101m/nillable00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -5836,10 +5836,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nillable00101m2"
+            name='nillable00101m2'
         ),
         TestGroup(
             annotation=[
@@ -5848,12 +5848,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:nil=false (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsi:nil=false (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define nillable element with content type which requires &#10;                             content. Try xsi:nil=false."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define nillable element with content type which requires \n                             content. Try xsi:nil=false.'
                                 ),
                             ]
                         ),
@@ -5862,13 +5862,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00102m/nillable00102m.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00102m/nillable00102m.xsd'
                     ),
                 ],
                 expected=[
@@ -5880,12 +5880,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00102m"
+                name='nillable00102m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -5896,11 +5896,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00102m1_p"
+                    name='nillable00102m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00102m/nillable00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -5911,10 +5911,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00102m1_n"
+                    name='nillable00102m1_n'
                 ),
             ],
-            name="nillable00102m"
+            name='nillable00102m'
         ),
         TestGroup(
             annotation=[
@@ -5923,11 +5923,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="nillable=false and xsi:nil=true (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='nillable=false and xsi:nil=true (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Declare a non-nillable element.  Try xsi:nil="true".The test is negative.'
                                 ),
                             ]
@@ -5937,13 +5937,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00201m/nillable00201m.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00201m/nillable00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -5955,12 +5955,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00201m"
+                name='nillable00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00201m/nillable00201m1_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00201m/nillable00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -5971,11 +5971,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00201m1_n"
+                    name='nillable00201m1_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00201m/nillable00201m2_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00201m/nillable00201m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -5986,11 +5986,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00201m2_n"
+                    name='nillable00201m2_n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00201m/nillable00201m3_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00201m/nillable00201m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6001,10 +6001,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00201m3_p"
+                    name='nillable00201m3_p'
                 ),
             ],
-            name="nillable00201m"
+            name='nillable00201m'
         ),
         TestGroup(
             annotation=[
@@ -6013,12 +6013,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the element information item must have no character if nil is specified (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the element information item must have no character if nil is specified (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a nillable element. Set the element to be  nil .&#10;                             Negative case tries to have characters."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a nillable element. Set the element to be  nil .\n                             Negative case tries to have characters.'
                                 ),
                             ]
                         ),
@@ -6027,13 +6027,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00301m/nillable00301m.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00301m/nillable00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -6045,12 +6045,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00301m"
+                name='nillable00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6061,11 +6061,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00301m1_p"
+                    name='nillable00301m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00301m/nillable00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -6076,10 +6076,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00301m1_n"
+                    name='nillable00301m1_n'
                 ),
             ],
-            name="nillable00301m"
+            name='nillable00301m'
         ),
         TestGroup(
             annotation=[
@@ -6088,12 +6088,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the element information item must have no element information children if nil is specified (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the element information item must have no element information children if nil is specified (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a nillable element of a complex type. Set the element to be  nil .&#10;                             Negative case tries to have children."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a nillable element of a complex type. Set the element to be  nil .\n                             Negative case tries to have children.'
                                 ),
                             ]
                         ),
@@ -6102,13 +6102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00302m/nillable00302m.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00302m/nillable00302m.xsd'
                     ),
                 ],
                 expected=[
@@ -6120,12 +6120,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00302m"
+                name='nillable00302m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6136,11 +6136,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00302m1_p"
+                    name='nillable00302m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_n.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00302m/nillable00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -6151,10 +6151,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="nillable00302m1_n"
+                    name='nillable00302m1_n'
                 ),
             ],
-            name="nillable00302m"
+            name='nillable00302m'
         ),
         TestGroup(
             annotation=[
@@ -6163,12 +6163,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="there may be a fixed {value constraint} along with nillable set to true (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='there may be a fixed {value constraint} along with nillable set to true (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a nillable element. The the second variant &#10;                             declares the element to have fixed value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a nillable element. The the second variant \n                             declares the element to have fixed value.'
                                 ),
                             ]
                         ),
@@ -6177,13 +6177,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00401m/nillable00401m1.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00401m/nillable00401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6195,12 +6195,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00401m1"
+                name='nillable00401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00401m/nillable00401m1_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00401m/nillable00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6211,10 +6211,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="nillable00401m1"
+            name='nillable00401m1'
         ),
         TestGroup(
             annotation=[
@@ -6223,12 +6223,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="there may be a fixed {value constraint} along with nillable set to true (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='there may be a fixed {value constraint} along with nillable set to true (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a nillable element. The the second variant &#10;                             declares the element to have fixed value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a nillable element. The the second variant \n                             declares the element to have fixed value.'
                                 ),
                             ]
                         ),
@@ -6237,13 +6237,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00401m/nillable00401m2.xsd"
+                        href='../sunData/ElemDecl/nillable/nillable00401m/nillable00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6255,12 +6255,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nillable00401m2"
+                name='nillable00401m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/nillable/nillable00401m/nillable00401m2_p.xml"
+                        href='../sunData/ElemDecl/nillable/nillable00401m/nillable00401m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6271,10 +6271,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="nillable00401m2"
+            name='nillable00401m2'
         ),
         TestGroup(
             annotation=[
@@ -6283,12 +6283,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="General check of the {scope} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='General check of the {scope} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one global element and one local."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one global element and one local.'
                                 ),
                             ]
                         ),
@@ -6297,13 +6297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/scope/scope00101m/scope00101m.xsd"
+                        href='../sunData/ElemDecl/scope/scope00101m/scope00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -6315,12 +6315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="scope00101m"
+                name='scope00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/scope/scope00101m/scope00101m1_p.xml"
+                        href='../sunData/ElemDecl/scope/scope00101m/scope00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6331,10 +6331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="scope00101m1_p"
+                    name='scope00101m1_p'
                 ),
             ],
-            name="scope00101m"
+            name='scope00101m'
         ),
         TestGroup(
             annotation=[
@@ -6343,12 +6343,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Locally scoped element (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Locally scoped element (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Using localy scoped element within the complex type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Using localy scoped element within the complex type.'
                                 ),
                             ]
                         ),
@@ -6357,13 +6357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/scope/scope00201m/scope00201m1.xsd"
+                        href='../sunData/ElemDecl/scope/scope00201m/scope00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6375,12 +6375,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="scope00201m1"
+                name='scope00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/scope/scope00201m/scope00201m1_p.xml"
+                        href='../sunData/ElemDecl/scope/scope00201m/scope00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6391,10 +6391,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="scope00201m1"
+            name='scope00201m1'
         ),
         TestGroup(
             annotation=[
@@ -6403,12 +6403,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Locally scoped element (negative case). (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Locally scoped element (negative case). (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Using localy scoped element within the complex type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Using localy scoped element within the complex type.'
                                 ),
                             ]
                         ),
@@ -6417,13 +6417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/scope/scope00201m/scope00201m2.xsd"
+                        href='../sunData/ElemDecl/scope/scope00201m/scope00201m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6435,9 +6435,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="scope00201m2"
+                name='scope00201m2'
             ),
-            name="scope00201m2"
+            name='scope00201m2'
         ),
         TestGroup(
             annotation=[
@@ -6446,12 +6446,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Scope of a named group. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Scope of a named group. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define a group with two elements. Use the group in a &#10;                             complexType."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define a group with two elements. Use the group in a \n                             complexType.'
                                 ),
                             ]
                         ),
@@ -6460,13 +6460,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/scope/scope00301m/scope00301m.xsd"
+                        href='../sunData/ElemDecl/scope/scope00301m/scope00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -6478,12 +6478,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="scope00301m"
+                name='scope00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/scope/scope00301m/scope00301m1_p.xml"
+                        href='../sunData/ElemDecl/scope/scope00301m/scope00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6494,10 +6494,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="scope00301m1_p"
+                    name='scope00301m1_p'
                 ),
             ],
-            name="scope00301m"
+            name='scope00301m'
         ),
         TestGroup(
             annotation=[
@@ -6506,12 +6506,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="General check of the {substitution group affiliation} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='General check of the {substitution group affiliation} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define two elements within one substitution group&#10;                             and one outside the group."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define two elements within one substitution group\n                             and one outside the group.'
                                 ),
                             ]
                         ),
@@ -6520,13 +6520,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m.xsd"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -6538,12 +6538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpAffil00101m"
+                name='substGrpAffil00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6554,11 +6554,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="substGrpAffil00101m1_p"
+                    name='substGrpAffil00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_n.xml"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00101m/substGrpAffil00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -6569,10 +6569,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="substGrpAffil00101m1_n"
+                    name='substGrpAffil00101m1_n'
                 ),
             ],
-            name="substgrpaffil00101m"
+            name='substgrpaffil00101m'
         ),
         TestGroup(
             annotation=[
@@ -6581,12 +6581,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Substitution group memebership is transitive but not symmetric. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Substitution group memebership is transitive but not symmetric. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element within a substitution group &#10;                             of another one. Then the last one within another&#10;                             group. Check the following: &#10;                              1. the first element substitutes the element of &#10;                                the second group&#10;                              2. the second element doesn't substitute &#10;                                the first one"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Define an element within a substitution group \n                             of another one. Then the last one within another\n                             group. Check the following: \n                              1. the first element substitutes the element of \n                                the second group\n                              2. the second element doesn't substitute \n                                the first one"
                                 ),
                             ]
                         ),
@@ -6595,13 +6595,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m.xsd"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -6613,12 +6613,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpAffil00201m"
+                name='substGrpAffil00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6629,11 +6629,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="substGrpAffil00201m1_p"
+                    name='substGrpAffil00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_n.xml"
+                        href='../sunData/ElemDecl/substGroupAffilation/substGrpAffil00201m/substGrpAffil00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -6644,10 +6644,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="substGrpAffil00201m1_n"
+                    name='substGrpAffil00201m1_n'
                 ),
             ],
-            name="substgrpaffil00201m"
+            name='substgrpaffil00201m'
         ),
         TestGroup(
             annotation=[
@@ -6656,12 +6656,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out extension substitutions (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out extension substitutions (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define three elements within one substitution group.&#10;                             The first has the same type, the second is derived&#10;                             as restriction and the third derived as extension. &#10;                             All the elments are the memebers of the substitution&#10;                             group. Try to rule out extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define three elements within one substitution group.\n                             The first has the same type, the second is derived\n                             as restriction and the third derived as extension. \n                             All the elments are the memebers of the substitution\n                             group. Try to rule out extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration.'
                                 ),
                             ]
                         ),
@@ -6670,13 +6670,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m1.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6688,12 +6688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00202m1"
+                name='substGrpExcl00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6704,10 +6704,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00202m1"
+            name='substgrpexcl00202m1'
         ),
         TestGroup(
             annotation=[
@@ -6716,12 +6716,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out extension substitutions (negative case). (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out extension substitutions (negative case). (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define three elements within one substitution group.&#10;                             The first has the same type, the second is derived&#10;                             as restriction and the third derived as extension. &#10;                             All the elments are the memebers of the substitution&#10;                             group. Try to rule out extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define three elements within one substitution group.\n                             The first has the same type, the second is derived\n                             as restriction and the third derived as extension. \n                             All the elments are the memebers of the substitution\n                             group. Try to rule out extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration.'
                                 ),
                             ]
                         ),
@@ -6730,13 +6730,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m2.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00202m/substGrpExcl00202m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6748,9 +6748,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00202m2"
+                name='substGrpExcl00202m2'
             ),
-            name="substgrpexcl00202m2"
+            name='substgrpexcl00202m2'
         ),
         TestGroup(
             annotation=[
@@ -6759,12 +6759,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out both restriction and extension substitutions (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out both restriction and extension substitutions (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one element within a substitution group headed by&#10;                             another element. The elements have the same type.&#10;                             Try to rule out both restriction and extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration. Try to substitute the&#10;                             head with the first element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one element within a substitution group headed by\n                             another element. The elements have the same type.\n                             Try to rule out both restriction and extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration. Try to substitute the\n                             head with the first element.'
                                 ),
                             ]
                         ),
@@ -6773,13 +6773,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m1.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6791,12 +6791,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00301m1"
+                name='substGrpExcl00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6807,10 +6807,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00301m1"
+            name='substgrpexcl00301m1'
         ),
         TestGroup(
             annotation=[
@@ -6819,12 +6819,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out both restriction and extension substitutions (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out both restriction and extension substitutions (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one element within a substitution group headed by&#10;                             another element. The elements have the same type.&#10;                             Try to rule out both restriction and extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration. Try to substitute the&#10;                             head with the first element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one element within a substitution group headed by\n                             another element. The elements have the same type.\n                             Try to rule out both restriction and extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration. Try to substitute the\n                             head with the first element.'
                                 ),
                             ]
                         ),
@@ -6833,13 +6833,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m3.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m3.xsd'
                     ),
                 ],
                 expected=[
@@ -6851,12 +6851,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00301m3"
+                name='substGrpExcl00301m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m3_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00301m/substGrpExcl00301m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6867,10 +6867,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00301m3"
+            name='substgrpexcl00301m3'
         ),
         TestGroup(
             annotation=[
@@ -6879,12 +6879,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out both restriction and extension substitutions (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out both restriction and extension substitutions (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one element within a substitution group headed by&#10;                             another element. The elements have the type extended&#10;                             from the type of the head element.&#10;                             Try to rule out both restriction and extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration. Try to substitute the&#10;                             head with the first element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one element within a substitution group headed by\n                             another element. The elements have the type extended\n                             from the type of the head element.\n                             Try to rule out both restriction and extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration. Try to substitute the\n                             head with the first element.'
                                 ),
                             ]
                         ),
@@ -6893,13 +6893,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m1.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m1.xsd'
                     ),
                 ],
                 expected=[
@@ -6911,12 +6911,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00303m1"
+                name='substGrpExcl00303m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -6927,10 +6927,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00303m1"
+            name='substgrpexcl00303m1'
         ),
         TestGroup(
             annotation=[
@@ -6939,12 +6939,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out both restriction and extension substitutions (negative case). (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out both restriction and extension substitutions (negative case). (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one element within a substitution group headed by&#10;                             another element. The elements have the type extended&#10;                             from the type of the head element.&#10;                             Try to rule out both restriction and extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration. Try to substitute the&#10;                             head with the first element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one element within a substitution group headed by\n                             another element. The elements have the type extended\n                             from the type of the head element.\n                             Try to rule out both restriction and extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration. Try to substitute the\n                             head with the first element.'
                                 ),
                             ]
                         ),
@@ -6953,13 +6953,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m2.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m2.xsd'
                     ),
                 ],
                 expected=[
@@ -6971,9 +6971,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00303m2"
+                name='substGrpExcl00303m2'
             ),
-            name="substgrpexcl00303m2"
+            name='substgrpexcl00303m2'
         ),
         TestGroup(
             annotation=[
@@ -6982,12 +6982,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out both restriction and extension substitutions (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out both restriction and extension substitutions (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define one element within a substitution group headed by&#10;                             another element. The elements have the type extended&#10;                             from the type of the head element.&#10;                             Try to rule out both restriction and extension&#10;                             by means of {substitution group exclusions} property &#10;                             of the head element declaration. Try to substitute the&#10;                             head with the first element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define one element within a substitution group headed by\n                             another element. The elements have the type extended\n                             from the type of the head element.\n                             Try to rule out both restriction and extension\n                             by means of {substitution group exclusions} property \n                             of the head element declaration. Try to substitute the\n                             head with the first element.'
                                 ),
                             ]
                         ),
@@ -6996,13 +6996,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m3.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m3.xsd'
                     ),
                 ],
                 expected=[
@@ -7014,12 +7014,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00303m3"
+                name='substGrpExcl00303m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m3_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00303m/substGrpExcl00303m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7030,10 +7030,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00303m3"
+            name='substgrpexcl00303m3'
         ),
         TestGroup(
             annotation=[
@@ -7042,12 +7042,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out nothing (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out nothing (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Omit the finalDefault attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Omit the finalDefault attribute.'
                                 ),
                             ]
                         ),
@@ -7056,13 +7056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m1.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -7074,12 +7074,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m1"
+                name='substGrpExcl00401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m1_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7090,10 +7090,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m1"
+            name='substgrpexcl00401m1'
         ),
         TestGroup(
             annotation=[
@@ -7102,11 +7102,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out #all (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out #all (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Set finalDefault attribute to "#all"'
                                 ),
                             ]
@@ -7116,13 +7116,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m2.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -7134,12 +7134,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m2"
+                name='substGrpExcl00401m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m2_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7150,10 +7150,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m2"
+            name='substgrpexcl00401m2'
         ),
         TestGroup(
             annotation=[
@@ -7162,11 +7162,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Set finalDefault attribute to "restriction"'
                                 ),
                             ]
@@ -7176,13 +7176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m3.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m3.xsd'
                     ),
                 ],
                 expected=[
@@ -7194,12 +7194,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m3"
+                name='substGrpExcl00401m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m3_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7210,10 +7210,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m3"
+            name='substgrpexcl00401m3'
         ),
         TestGroup(
             annotation=[
@@ -7222,11 +7222,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out extension (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out extension (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Set finalDefault attribute to "extension"'
                                 ),
                             ]
@@ -7236,13 +7236,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m4.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m4.xsd'
                     ),
                 ],
                 expected=[
@@ -7254,12 +7254,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m4"
+                name='substGrpExcl00401m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m4_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7270,10 +7270,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m4"
+            name='substgrpexcl00401m4'
         ),
         TestGroup(
             annotation=[
@@ -7282,11 +7282,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out extension restriction (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out extension restriction (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Set finalDefault attribute to "extension restriction"'
                                 ),
                             ]
@@ -7296,13 +7296,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m5.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m5.xsd'
                     ),
                 ],
                 expected=[
@@ -7314,12 +7314,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m5"
+                name='substGrpExcl00401m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m5_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7330,10 +7330,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m5"
+            name='substgrpexcl00401m5'
         ),
         TestGroup(
             annotation=[
@@ -7342,11 +7342,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Rule out restriction extension (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Rule out restriction extension (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Set finalDefault attribute to "restriction extension"'
                                 ),
                             ]
@@ -7356,13 +7356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m6.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m6.xsd'
                     ),
                 ],
                 expected=[
@@ -7374,12 +7374,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00401m6"
+                name='substGrpExcl00401m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m6_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00401m/substGrpExcl00401m6_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7390,10 +7390,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00401m6"
+            name='substgrpexcl00401m6'
         ),
         TestGroup(
             annotation=[
@@ -7402,12 +7402,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Illegal value is used. (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Illegal value is used. (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The final attribute is set to illegal value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The final attribute is set to illegal value.'
                                 ),
                             ]
                         ),
@@ -7416,13 +7416,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m1.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m1.xsd'
                     ),
                 ],
                 expected=[
@@ -7434,9 +7434,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m1"
+                name='substGrpExcl00402m1'
             ),
-            name="substgrpexcl00402m1"
+            name='substgrpexcl00402m1'
         ),
         TestGroup(
             annotation=[
@@ -7445,11 +7445,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Rule out "#all #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set final attribute to "#all #illegalValue"'
                                 ),
                             ]
@@ -7459,13 +7459,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m2.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m2.xsd'
                     ),
                 ],
                 expected=[
@@ -7477,9 +7477,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m2"
+                name='substGrpExcl00402m2'
             ),
-            name="substgrpexcl00402m2"
+            name='substgrpexcl00402m2'
         ),
         TestGroup(
             annotation=[
@@ -7488,11 +7488,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Rule out "restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set final attribute to "restriction #illegalValue"'
                                 ),
                             ]
@@ -7502,13 +7502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m3.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m3.xsd'
                     ),
                 ],
                 expected=[
@@ -7520,9 +7520,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m3"
+                name='substGrpExcl00402m3'
             ),
-            name="substgrpexcl00402m3"
+            name='substgrpexcl00402m3'
         ),
         TestGroup(
             annotation=[
@@ -7531,11 +7531,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Rule out "extension #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set final attribute to "extension #illegalValue"'
                                 ),
                             ]
@@ -7545,13 +7545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m4.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m4.xsd'
                     ),
                 ],
                 expected=[
@@ -7563,9 +7563,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m4"
+                name='substGrpExcl00402m4'
             ),
-            name="substgrpexcl00402m4"
+            name='substgrpexcl00402m4'
         ),
         TestGroup(
             annotation=[
@@ -7574,11 +7574,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Rule out "extension restriction #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set final attribute to "extension restriction #illegalValue"'
                                 ),
                             ]
@@ -7588,13 +7588,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m5.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m5.xsd'
                     ),
                 ],
                 expected=[
@@ -7606,9 +7606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m5"
+                name='substGrpExcl00402m5'
             ),
-            name="substgrpexcl00402m5"
+            name='substgrpexcl00402m5'
         ),
         TestGroup(
             annotation=[
@@ -7617,11 +7617,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text='Rule out "restriction extension #illegalValue" (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Try to set final attribute to "restriction extension #illegalValue"'
                                 ),
                             ]
@@ -7631,13 +7631,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m6.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m6.xsd'
                     ),
                 ],
                 expected=[
@@ -7649,9 +7649,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m6"
+                name='substGrpExcl00402m6'
             ),
-            name="substgrpexcl00402m6"
+            name='substgrpexcl00402m6'
         ),
         TestGroup(
             annotation=[
@@ -7660,12 +7660,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Various subsets of values for the final attribute. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Various subsets of values for the final attribute. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Various subsets of the final attribute values are used for a number of &#10;                             elemen declarations."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Various subsets of the final attribute values are used for a number of \n                             elemen declarations.'
                                 ),
                             ]
                         ),
@@ -7674,13 +7674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m7.xsd"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m7.xsd'
                     ),
                 ],
                 expected=[
@@ -7692,12 +7692,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="substGrpExcl00402m7"
+                name='substGrpExcl00402m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m7_p.xml"
+                        href='../sunData/ElemDecl/substGroupExclusions/substGrpExcl00402m/substGrpExcl00402m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7708,10 +7708,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="substgrpexcl00402m7"
+            name='substgrpexcl00402m7'
         ),
         TestGroup(
             annotation=[
@@ -7720,12 +7720,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Different target namespaces. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Different target namespaces. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define two elements with the same name in two different &#10;                             Namespaces. Make their content types incompatible.&#10;                             Check that validation takes into account the&#10;                             property {target namespace}."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define two elements with the same name in two different \n                             Namespaces. Make their content types incompatible.\n                             Check that validation takes into account the\n                             property {target namespace}.'
                                 ),
                             ]
                         ),
@@ -7734,13 +7734,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00101m/targetNS00101m.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00101m/targetNS00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -7752,12 +7752,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00101m"
+                name='targetNS00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00101m/targetNS00101m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00101m/targetNS00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7768,10 +7768,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00101m1_p"
+                    name='targetNS00101m1_p'
                 ),
             ],
-            name="targetns00101m"
+            name='targetns00101m'
         ),
         TestGroup(
             annotation=[
@@ -7780,12 +7780,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Absent values of {target namespace} validate unqualified items. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Absent values of {target namespace} validate unqualified items. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define unqualified element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define unqualified element.'
                                 ),
                             ]
                         ),
@@ -7794,13 +7794,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -7812,12 +7812,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00201m"
+                name='targetNS00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7828,11 +7828,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00201m1_p"
+                    name='targetNS00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00201m/targetNS00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7843,10 +7843,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00201m1_n"
+                    name='targetNS00201m1_n'
                 ),
             ],
-            name="targetns00201m"
+            name='targetns00201m'
         ),
         TestGroup(
             annotation=[
@@ -7855,12 +7855,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to qualified. The elementFormDefault attribute is omitted. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to qualified. The elementFormDefault attribute is omitted. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  qualified .&#10;                             Omit the elementFormDefault attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  qualified .\n                             Omit the elementFormDefault attribute.'
                                 ),
                             ]
                         ),
@@ -7869,13 +7869,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -7887,12 +7887,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00301m1"
+                name='targetNS00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7903,11 +7903,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7918,10 +7918,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00301m1"
+            name='targetns00301m1'
         ),
         TestGroup(
             annotation=[
@@ -7930,12 +7930,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to unqualified. The elementFormDefault attribute is omitted. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to unqualified. The elementFormDefault attribute is omitted. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  unqualified .&#10;                             Omit the elementFormDefault attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  unqualified .\n                             Omit the elementFormDefault attribute.'
                                 ),
                             ]
                         ),
@@ -7944,13 +7944,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2.xsd'
                     ),
                 ],
                 expected=[
@@ -7962,12 +7962,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00301m2"
+                name='targetNS00301m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -7978,11 +7978,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -7993,10 +7993,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00301m2"
+            name='targetns00301m2'
         ),
         TestGroup(
             annotation=[
@@ -8005,12 +8005,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Both the form and elementFormDefault attributes are omitted.  (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Both the form and elementFormDefault attributes are omitted.  (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Omit the form attribute of the local element declaration.&#10;                             Omit the elementFormDefault attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Omit the form attribute of the local element declaration.\n                             Omit the elementFormDefault attribute.'
                                 ),
                             ]
                         ),
@@ -8019,13 +8019,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3.xsd'
                     ),
                 ],
                 expected=[
@@ -8037,12 +8037,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00301m3"
+                name='targetNS00301m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8053,11 +8053,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00301m/targetNS00301m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8068,10 +8068,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00301m3"
+            name='targetns00301m3'
         ),
         TestGroup(
             annotation=[
@@ -8080,12 +8080,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to qualified, the elementFormDefault is set to qualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to qualified, the elementFormDefault is set to qualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  qualified .&#10;                             Set the elementFormDefault to  qualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  qualified .\n                             Set the elementFormDefault to  qualified .'
                                 ),
                             ]
                         ),
@@ -8094,13 +8094,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1.xsd'
                     ),
                 ],
                 expected=[
@@ -8112,12 +8112,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00302m1"
+                name='targetNS00302m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8128,11 +8128,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8143,10 +8143,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00302m1"
+            name='targetns00302m1'
         ),
         TestGroup(
             annotation=[
@@ -8155,12 +8155,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to unqualified, the elementFormDefault is set to qualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to unqualified, the elementFormDefault is set to qualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  unqualified .&#10;                             Set the elementFormDefault to  qualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  unqualified .\n                             Set the elementFormDefault to  qualified .'
                                 ),
                             ]
                         ),
@@ -8169,13 +8169,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2.xsd'
                     ),
                 ],
                 expected=[
@@ -8187,12 +8187,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00302m2"
+                name='targetNS00302m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8203,11 +8203,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8218,10 +8218,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00302m2"
+            name='targetns00302m2'
         ),
         TestGroup(
             annotation=[
@@ -8230,12 +8230,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is omitted, the elementFormDefault is set to qualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is omitted, the elementFormDefault is set to qualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Omit the form attribute of the local element declaration. &#10;                             Set the elementFormDefault to  qualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Omit the form attribute of the local element declaration. \n                             Set the elementFormDefault to  qualified .'
                                 ),
                             ]
                         ),
@@ -8244,13 +8244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3.xsd'
                     ),
                 ],
                 expected=[
@@ -8262,12 +8262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00302m3"
+                name='targetNS00302m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8278,11 +8278,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00302m/targetNS00302m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8293,10 +8293,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00302m3"
+            name='targetns00302m3'
         ),
         TestGroup(
             annotation=[
@@ -8305,12 +8305,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to qualified, the elementFormDefault is set to unqualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to qualified, the elementFormDefault is set to unqualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  qualified .&#10;                             Set the elementFormDefault to  unqualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  qualified .\n                             Set the elementFormDefault to  unqualified .'
                                 ),
                             ]
                         ),
@@ -8319,13 +8319,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1.xsd'
                     ),
                 ],
                 expected=[
@@ -8337,12 +8337,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00303m1"
+                name='targetNS00303m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8353,11 +8353,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8368,10 +8368,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00303m1"
+            name='targetns00303m1'
         ),
         TestGroup(
             annotation=[
@@ -8380,12 +8380,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is set to unqualified, the elementFormDefault is set to unqualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is set to unqualified, the elementFormDefault is set to unqualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Set the form attribute of the local element declaration to  unqualified .&#10;                             Set the elementFormDefault to  unqualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Set the form attribute of the local element declaration to  unqualified .\n                             Set the elementFormDefault to  unqualified .'
                                 ),
                             ]
                         ),
@@ -8394,13 +8394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2.xsd'
                     ),
                 ],
                 expected=[
@@ -8412,12 +8412,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00303m2"
+                name='targetNS00303m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8428,11 +8428,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8443,10 +8443,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00303m2"
+            name='targetns00303m2'
         ),
         TestGroup(
             annotation=[
@@ -8455,12 +8455,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The form attribute is omitted, the elementFormDefault is set to unqualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The form attribute is omitted, the elementFormDefault is set to unqualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Omit the form attribute of the local element declaration. &#10;                             Set the elementFormDefault to  unqualified ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Omit the form attribute of the local element declaration. \n                             Set the elementFormDefault to  unqualified .'
                                 ),
                             ]
                         ),
@@ -8469,13 +8469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3.xsd'
                     ),
                 ],
                 expected=[
@@ -8487,12 +8487,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00303m3"
+                name='targetNS00303m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8503,11 +8503,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00303m/targetNS00303m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8518,10 +8518,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="targetns00303m3"
+            name='targetns00303m3'
         ),
         TestGroup(
             annotation=[
@@ -8530,12 +8530,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Global elements must be qualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Global elements must be qualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element information items validated by a top-level declaration must &#10;                             be qualified with the {target namespace} of that declaration."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element information items validated by a top-level declaration must \n                             be qualified with the {target namespace} of that declaration.'
                                 ),
                             ]
                         ),
@@ -8544,13 +8544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m.xsd'
                     ),
                 ],
                 expected=[
@@ -8562,12 +8562,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00401m"
+                name='targetNS00401m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8578,11 +8578,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00401m1_p"
+                    name='targetNS00401m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00401m/targetNS00401m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8593,10 +8593,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00401m1_n"
+                    name='targetNS00401m1_n'
                 ),
             ],
-            name="targetns00401m"
+            name='targetns00401m'
         ),
         TestGroup(
             annotation=[
@@ -8605,12 +8605,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Global elements must be qualified. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Global elements must be qualified. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If {target namespace} is  absent , element information items &#10;                             validated by a top-level declaration must be unqualified."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If {target namespace} is  absent , element information items \n                             validated by a top-level declaration must be unqualified.'
                                 ),
                             ]
                         ),
@@ -8619,13 +8619,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m.xsd"
+                        href='../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m.xsd'
                     ),
                 ],
                 expected=[
@@ -8637,12 +8637,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="targetNS00402m"
+                name='targetNS00402m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_p.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8653,11 +8653,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00402m1_p"
+                    name='targetNS00402m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_n.xml"
+                        href='../sunData/ElemDecl/targetNS/targetNS00402m/targetNS00402m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8668,10 +8668,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="targetNS00402m1_n"
+                    name='targetNS00402m1_n'
                 ),
             ],
-            name="targetns00402m"
+            name='targetns00402m'
         ),
         TestGroup(
             annotation=[
@@ -8680,12 +8680,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The (top-level) element declaration resolved to by the actual value of the ref attribute. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The (top-level) element declaration resolved to by the actual value of the ref attribute. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare one local element that refers to a global one. &#10;                             Check that the element is validated according to the type of &#10;                             the referred element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare one local element that refers to a global one. \n                             Check that the element is validated according to the type of \n                             the referred element.'
                                 ),
                             ]
                         ),
@@ -8694,13 +8694,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/term/term00101m/term00101m.xsd"
+                        href='../sunData/ElemDecl/term/term00101m/term00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -8712,12 +8712,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="term00101m"
+                name='term00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/term/term00101m/term00101m1_p.xml"
+                        href='../sunData/ElemDecl/term/term00101m/term00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8728,11 +8728,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="term00101m1_p"
+                    name='term00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/term/term00101m/term00101m1_n.xml"
+                        href='../sunData/ElemDecl/term/term00101m/term00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8743,10 +8743,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="term00101m1_n"
+                    name='term00101m1_n'
                 ),
             ],
-            name="term00101m"
+            name='term00101m'
         ),
         TestGroup(
             annotation=[
@@ -8755,12 +8755,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="General check of the {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='General check of the {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element with a certain type. Ensure&#10;                             the value is validated according to the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element with a certain type. Ensure\n                             the value is validated according to the type.'
                                 ),
                             ]
                         ),
@@ -8769,13 +8769,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m.xsd'
                     ),
                 ],
                 expected=[
@@ -8787,12 +8787,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00101m"
+                name='typeDef00101m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8803,11 +8803,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00101m1_p"
+                    name='typeDef00101m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00101m/typeDef00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8818,10 +8818,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00101m1_n"
+                    name='typeDef00101m1_n'
                 ),
             ],
-            name="typedef00101m"
+            name='typedef00101m'
         ),
         TestGroup(
             annotation=[
@@ -8830,12 +8830,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="simpleType is used to define {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='simpleType is used to define {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element with a simpleType. Ensure&#10;                             the value is validated according to the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element with a simpleType. Ensure\n                             the value is validated according to the type.'
                                 ),
                             ]
                         ),
@@ -8844,13 +8844,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -8862,12 +8862,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00201m"
+                name='typeDef00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8878,11 +8878,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00201m1_p"
+                    name='typeDef00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00201m/typeDef00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8893,10 +8893,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00201m1_n"
+                    name='typeDef00201m1_n'
                 ),
             ],
-            name="typedef00201m"
+            name='typedef00201m'
         ),
         TestGroup(
             annotation=[
@@ -8905,12 +8905,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType is used to define {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType is used to define {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element with a complexType. Ensure&#10;                             the value is validated according to the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element with a complexType. Ensure\n                             the value is validated according to the type.'
                                 ),
                             ]
                         ),
@@ -8919,13 +8919,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m.xsd'
                     ),
                 ],
                 expected=[
@@ -8937,12 +8937,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00202m"
+                name='typeDef00202m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -8953,11 +8953,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00202m1_p"
+                    name='typeDef00202m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00202m/typeDef00202m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -8968,10 +8968,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00202m1_n"
+                    name='typeDef00202m1_n'
                 ),
             ],
-            name="typedef00202m"
+            name='typedef00202m'
         ),
         TestGroup(
             annotation=[
@@ -8980,12 +8980,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="type attribute is used to define {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='type attribute is used to define {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element by means of type attribute. Ensure&#10;                             the value is validated according to the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element by means of type attribute. Ensure\n                             the value is validated according to the type.'
                                 ),
                             ]
                         ),
@@ -8994,13 +8994,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m.xsd'
                     ),
                 ],
                 expected=[
@@ -9012,12 +9012,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00203m"
+                name='typeDef00203m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9028,11 +9028,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00203m1_p"
+                    name='typeDef00203m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00203m/typeDef00203m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9043,10 +9043,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00203m1_n"
+                    name='typeDef00203m1_n'
                 ),
             ],
-            name="typedef00203m"
+            name='typedef00203m'
         ),
         TestGroup(
             annotation=[
@@ -9055,12 +9055,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="type attribute is used to define {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='type attribute is used to define {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element by means of the substitutionGroup &#10;                             attribute. Ensure the value is validated according to &#10;                             the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element by means of the substitutionGroup \n                             attribute. Ensure the value is validated according to \n                             the type.'
                                 ),
                             ]
                         ),
@@ -9069,13 +9069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m.xsd'
                     ),
                 ],
                 expected=[
@@ -9087,12 +9087,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00204m"
+                name='typeDef00204m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9103,11 +9103,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00204m1_p"
+                    name='typeDef00204m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00204m/typeDef00204m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9118,10 +9118,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00204m1_n"
+                    name='typeDef00204m1_n'
                 ),
             ],
-            name="typedef00204m"
+            name='typedef00204m'
         ),
         TestGroup(
             annotation=[
@@ -9130,12 +9130,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default type is used to define {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default type is used to define {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an element with the default type. Define another &#10;                             element of type anyType. Ensure the anyType element may &#10;                             substitute for the default type one."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element with the default type. Define another \n                             element of type anyType. Ensure the anyType element may \n                             substitute for the default type one.'
                                 ),
                             ]
                         ),
@@ -9144,13 +9144,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00205m/typeDef00205m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00205m/typeDef00205m.xsd'
                     ),
                 ],
                 expected=[
@@ -9162,12 +9162,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00205m"
+                name='typeDef00205m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00205m/typeDef00205m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00205m/typeDef00205m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9178,10 +9178,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00205m1_p"
+                    name='typeDef00205m1_p'
                 ),
             ],
-            name="typedef00205m"
+            name='typedef00205m'
         ),
         TestGroup(
             annotation=[
@@ -9190,12 +9190,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The {type definition} property is specified by reference. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='The {type definition} property is specified by reference. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare a global element with a certain type. &#10;                             Declare another element. Specify the type by reference. &#10;                             Ensure the value is validated according to the type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare a global element with a certain type. \n                             Declare another element. Specify the type by reference. \n                             Ensure the value is validated according to the type.'
                                 ),
                             ]
                         ),
@@ -9204,13 +9204,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m.xsd'
                     ),
                 ],
                 expected=[
@@ -9222,12 +9222,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00301m"
+                name='typeDef00301m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9238,11 +9238,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00301m1_p"
+                    name='typeDef00301m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00301m/typeDef00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9253,10 +9253,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00301m1_n"
+                    name='typeDef00301m1_n'
                 ),
             ],
-            name="typedef00301m"
+            name='typedef00301m'
         ),
         TestGroup(
             annotation=[
@@ -9265,12 +9265,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Eelements within group. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Eelements within group. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Eelements within  group  produce either particles which contain &#10;                             global element declarations (if there's a ref attribute) or &#10;                             local declarations otherwise."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Eelements within  group  produce either particles which contain \n                             global element declarations (if there's a ref attribute) or \n                             local declarations otherwise."
                                 ),
                             ]
                         ),
@@ -9279,13 +9279,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m.xsd'
                     ),
                 ],
                 expected=[
@@ -9297,12 +9297,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00401m"
+                name='typeDef00401m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9313,11 +9313,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00401m1_p"
+                    name='typeDef00401m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00401m/typeDef00401m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9328,10 +9328,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00401m1_n"
+                    name='typeDef00401m1_n'
                 ),
             ],
-            name="typedef00401m"
+            name='typedef00401m'
         ),
         TestGroup(
             annotation=[
@@ -9340,12 +9340,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Eelements within complexType. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Eelements within complexType. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Eelements within  complexType  produce either particles which contain &#10;                             global element declarations (if there's a ref attribute) or &#10;                             local declarations otherwise."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="Eelements within  complexType  produce either particles which contain \n                             global element declarations (if there's a ref attribute) or \n                             local declarations otherwise."
                                 ),
                             ]
                         ),
@@ -9354,13 +9354,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m.xsd'
                     ),
                 ],
                 expected=[
@@ -9372,12 +9372,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00402m"
+                name='typeDef00402m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9388,11 +9388,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00402m1_p"
+                    name='typeDef00402m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00402m/typeDef00402m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9403,10 +9403,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00402m1_n"
+                    name='typeDef00402m1_n'
                 ),
             ],
-            name="typedef00402m"
+            name='typedef00402m'
         ),
         TestGroup(
             annotation=[
@@ -9415,12 +9415,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Various setting of the {type definition} property. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Various setting of the {type definition} property. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For complete declarations, top-level or local, the  type  attribute &#10;                             is used when the declaration can use a built-in or pre-declared type &#10;                             definition. Otherwise an anonymous &lt;simpleType&gt; or &lt;complexType&gt; is &#10;                             provided inline"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For complete declarations, top-level or local, the  type  attribute \n                             is used when the declaration can use a built-in or pre-declared type \n                             definition. Otherwise an anonymous <simpleType> or <complexType> is \n                             provided inline'
                                 ),
                             ]
                         ),
@@ -9429,13 +9429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00403m/typeDef00403m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00403m/typeDef00403m.xsd'
                     ),
                 ],
                 expected=[
@@ -9447,12 +9447,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00403m"
+                name='typeDef00403m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00403m/typeDef00403m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00403m/typeDef00403m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9463,10 +9463,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00403m1_p"
+                    name='typeDef00403m1_p'
                 ),
             ],
-            name="typedef00403m"
+            name='typedef00403m'
         ),
         TestGroup(
             annotation=[
@@ -9475,12 +9475,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType and type are mutually exclusive (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType and type are mutually exclusive (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using  type . &#10;                             Declare another element with a  complexType . &#10;                             Ensure the schema is valid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using  type . \n                             Declare another element with a  complexType . \n                             Ensure the schema is valid'
                                 ),
                             ]
                         ),
@@ -9489,13 +9489,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -9507,12 +9507,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00501m1"
+                name='typeDef00501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9523,10 +9523,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="typedef00501m1"
+            name='typedef00501m1'
         ),
         TestGroup(
             annotation=[
@@ -9535,12 +9535,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="complexType and type are mutually exclusive (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='complexType and type are mutually exclusive (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using  type . &#10;                             Declare another element with a  complexType . &#10;                             Set  type  attribute of the element. Ensure the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using  type . \n                             Declare another element with a  complexType . \n                             Set  type  attribute of the element. Ensure the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -9549,13 +9549,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m2.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00501m/typeDef00501m2.xsd'
                     ),
                 ],
                 expected=[
@@ -9567,9 +9567,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00501m2"
+                name='typeDef00501m2'
             ),
-            name="typedef00501m2"
+            name='typedef00501m2'
         ),
         TestGroup(
             annotation=[
@@ -9578,12 +9578,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="simpleType and type are mutually exclusive (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='simpleType and type are mutually exclusive (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using  type . &#10;                             Declare another element with a  simpleType . &#10;                             Ensure the schema is valid"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using  type . \n                             Declare another element with a  simpleType . \n                             Ensure the schema is valid'
                                 ),
                             ]
                         ),
@@ -9592,13 +9592,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m1.xsd'
                     ),
                 ],
                 expected=[
@@ -9610,12 +9610,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00502m1"
+                name='typeDef00502m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9626,10 +9626,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="typedef00502m1"
+            name='typedef00502m1'
         ),
         TestGroup(
             annotation=[
@@ -9638,12 +9638,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="simpleType and type are mutually exclusive (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='simpleType and type are mutually exclusive (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Declare an element using  type . &#10;                             Declare another element with a  simpleType . &#10;                             Set  type  attribute of the element. Ensure the schema is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element using  type . \n                             Declare another element with a  simpleType . \n                             Set  type  attribute of the element. Ensure the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -9652,13 +9652,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m2.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00502m/typeDef00502m2.xsd'
                     ),
                 ],
                 expected=[
@@ -9670,9 +9670,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00502m2"
+                name='typeDef00502m2'
             ),
-            name="typedef00502m2"
+            name='typedef00502m2'
         ),
         TestGroup(
             annotation=[
@@ -9681,12 +9681,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="a normalized value of the type attribute must be valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='a normalized value of the type attribute must be valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Specify a type of an element by means of the  type  attribute &#10;                             set to a value that is not normalized."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Specify a type of an element by means of the  type  attribute \n                             set to a value that is not normalized.'
                                 ),
                             ]
                         ),
@@ -9695,13 +9695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00601m/typeDef00601m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00601m/typeDef00601m.xsd'
                     ),
                 ],
                 expected=[
@@ -9713,12 +9713,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00601m"
+                name='typeDef00601m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00601m/typeDef00601m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00601m/typeDef00601m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9729,10 +9729,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00601m1_p"
+                    name='typeDef00601m1_p'
                 ),
             ],
-            name="typedef00601m"
+            name='typedef00601m'
         ),
         TestGroup(
             annotation=[
@@ -9741,12 +9741,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="local name and namespace name of the xsi:type must resolve to a type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='local name and namespace name of the xsi:type must resolve to a type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use  xsi:type  attribute &#10;                             set to a value that has both local and namespace names."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use  xsi:type  attribute \n                             set to a value that has both local and namespace names.'
                                 ),
                             ]
                         ),
@@ -9755,13 +9755,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m.xsd'
                     ),
                 ],
                 expected=[
@@ -9773,12 +9773,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00701m"
+                name='typeDef00701m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9789,11 +9789,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00701m1_p"
+                    name='typeDef00701m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00701m/typeDef00701m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9804,10 +9804,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="typeDef00701m1_n"
+                    name='typeDef00701m1_n'
                 ),
             ],
-            name="typedef00701m"
+            name='typedef00701m'
         ),
         TestGroup(
             annotation=[
@@ -9816,12 +9816,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="local type definition is validly derived from complexType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='local type definition is validly derived from complexType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If it is a complex type definition, the  local type definition  &#10;                             must be validly derived from the {type definition} given the union of &#10;                             the {disallowed substitutions} and the {type definition}'s &#10;                             {prohibited substitutions}. &#10;                               In the test the local type definition is validly derived from complexType."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If it is a complex type definition, the  local type definition  \n                             must be validly derived from the {type definition} given the union of \n                             the {disallowed substitutions} and the {type definition}'s \n                             {prohibited substitutions}. \n                               In the test the local type definition is validly derived from complexType."
                                 ),
                             ]
                         ),
@@ -9830,13 +9830,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m1.xsd'
                     ),
                 ],
                 expected=[
@@ -9848,12 +9848,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00801m1"
+                name='typeDef00801m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -9864,10 +9864,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="typedef00801m1"
+            name='typedef00801m1'
         ),
         TestGroup(
             annotation=[
@@ -9876,12 +9876,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="local type is 'prohibited' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If it is a complex type definition, the  local type definition  &#10;                             must be validly derived from the {type definition} given the union of &#10;                             the {disallowed substitutions} and the {type definition}'s &#10;                             {prohibited substitutions}. &#10;                               In the test the local type is 'prohibited'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If it is a complex type definition, the  local type definition  \n                             must be validly derived from the {type definition} given the union of \n                             the {disallowed substitutions} and the {type definition}'s \n                             {prohibited substitutions}. \n                               In the test the local type is 'prohibited'."
                                 ),
                             ]
                         ),
@@ -9890,13 +9890,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m2.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m2.xsd'
                     ),
                 ],
                 expected=[
@@ -9908,12 +9908,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00801m2"
+                name='typeDef00801m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m2_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9924,10 +9924,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef00801m2"
+            name='typedef00801m2'
         ),
         TestGroup(
             annotation=[
@@ -9936,12 +9936,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="local type is 'dissalowed' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If it is a complex type definition, the  local type definition  &#10;                             must be validly derived from the {type definition} given the union of &#10;                             the {disallowed substitutions} and the {type definition}'s &#10;                             {prohibited substitutions}. &#10;                               In the test the local type is 'dissalowed'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If it is a complex type definition, the  local type definition  \n                             must be validly derived from the {type definition} given the union of \n                             the {disallowed substitutions} and the {type definition}'s \n                             {prohibited substitutions}. \n                               In the test the local type is 'dissalowed'."
                                 ),
                             ]
                         ),
@@ -9950,13 +9950,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m3.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m3.xsd'
                     ),
                 ],
                 expected=[
@@ -9968,12 +9968,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00801m3"
+                name='typeDef00801m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m3_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00801m/typeDef00801m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -9984,10 +9984,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef00801m3"
+            name='typedef00801m3'
         ),
         TestGroup(
             annotation=[
@@ -9996,12 +9996,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="local type definition is validly derived from simpleType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='local type definition is validly derived from simpleType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If it is a simple type definition, the  local type definition  &#10;                             must be validly derived from the {type definition} given the &#10;                             {disallowed substitutions}. &#10;                               In the test the local type definition is validly derived from simpleType."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If it is a simple type definition, the  local type definition  \n                             must be validly derived from the {type definition} given the \n                             {disallowed substitutions}. \n                               In the test the local type definition is validly derived from simpleType.'
                                 ),
                             ]
                         ),
@@ -10010,13 +10010,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10028,12 +10028,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00802m1"
+                name='typeDef00802m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10044,11 +10044,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10059,10 +10059,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef00802m1"
+            name='typedef00802m1'
         ),
         TestGroup(
             annotation=[
@@ -10071,12 +10071,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="local type is 'dissalowed' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If it is a simple type definition, the  local type definition  &#10;                             must be validly derived from the {type definition} given the &#10;                             {disallowed substitutions}. &#10;                               In the test the local type is 'dissalowed'."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If it is a simple type definition, the  local type definition  \n                             must be validly derived from the {type definition} given the \n                             {disallowed substitutions}. \n                               In the test the local type is 'dissalowed'."
                                 ),
                             ]
                         ),
@@ -10085,13 +10085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m2.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m2.xsd'
                     ),
                 ],
                 expected=[
@@ -10103,12 +10103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00802m2"
+                name='typeDef00802m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m2_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00802m/typeDef00802m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10119,10 +10119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef00802m2"
+            name='typedef00802m2'
         ),
         TestGroup(
             annotation=[
@@ -10131,12 +10131,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="the element information item must be valid with respect to the actual type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='the element information item must be valid with respect to the actual type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item must be valid with respect to &#10;                             the actual type definition. In the test the actual type definition is &#10;                             a local type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item must be valid with respect to \n                             the actual type definition. In the test the actual type definition is \n                             a local type definition.'
                                 ),
                             ]
                         ),
@@ -10145,13 +10145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10163,12 +10163,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef00901m1"
+                name='typeDef00901m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10179,11 +10179,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef00901m/typeDef00901m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10194,10 +10194,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef00901m1"
+            name='typedef00901m1'
         ),
         TestGroup(
             annotation=[
@@ -10206,12 +10206,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="actual type must not be abstract (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='actual type must not be abstract (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For an element to be locally valid its type must not be  abstract .&#10;                              Negative case uses local type definition with a type that is  abstract ."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For an element to be locally valid its type must not be  abstract .\n                              Negative case uses local type definition with a type that is  abstract .'
                                 ),
                             ]
                         ),
@@ -10220,13 +10220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10238,12 +10238,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01101m1"
+                name='typeDef01101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10254,11 +10254,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01101m/typeDef01101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10269,10 +10269,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01101m1"
+            name='typedef01101m1'
         ),
         TestGroup(
             annotation=[
@@ -10281,12 +10281,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element of a simple type has schemaLocation, type and nil attributes (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element of a simple type has schemaLocation, type and nil attributes (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the type definition is a simple type definition, then&#10;                             the element information item's attributes must be empty, &#10;                             excepting those whose namespace name is identical to &#10;                             http://www.w3.org/2001/XMLSchema-instance and whose local name &#10;                             is one of  type ,  nil ,  schemaLocation  or &#10;                              noNamespaceSchemaLocation .&#10;                              The negative case uses an element with an extra attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the type definition is a simple type definition, then\n                             the element information item's attributes must be empty, \n                             excepting those whose namespace name is identical to \n                             http://www.w3.org/2001/XMLSchema-instance and whose local name \n                             is one of  type ,  nil ,  schemaLocation  or \n                              noNamespaceSchemaLocation .\n                              The negative case uses an element with an extra attribute."
                                 ),
                             ]
                         ),
@@ -10295,13 +10295,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10313,12 +10313,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01201m1"
+                name='typeDef01201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10329,11 +10329,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01201m/typeDef01201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10344,10 +10344,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01201m1"
+            name='typedef01201m1'
         ),
         TestGroup(
             annotation=[
@@ -10356,12 +10356,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="element of a simple type has noNamespaceSchemaLocation, type and nil attributes (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='element of a simple type has noNamespaceSchemaLocation, type and nil attributes (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the type definition is a simple type definition, then&#10;                             the element information item's attributes must be empty, &#10;                             excepting those whose namespace name is identical to &#10;                             http://www.w3.org/2001/XMLSchema-instance and whose local name &#10;                             is one of  type ,  nil ,  schemaLocation  or &#10;                              noNamespaceSchemaLocation .&#10;                              The negative case uses an element with an extra attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="If the type definition is a simple type definition, then\n                             the element information item's attributes must be empty, \n                             excepting those whose namespace name is identical to \n                             http://www.w3.org/2001/XMLSchema-instance and whose local name \n                             is one of  type ,  nil ,  schemaLocation  or \n                              noNamespaceSchemaLocation .\n                              The negative case uses an element with an extra attribute."
                                 ),
                             ]
                         ),
@@ -10370,13 +10370,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10388,12 +10388,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01202m1"
+                name='typeDef01202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10404,11 +10404,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01202m/typeDef01202m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10419,10 +10419,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01202m1"
+            name='typedef01202m1'
         ),
         TestGroup(
             annotation=[
@@ -10431,12 +10431,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="trying to use element children in the element of a simple type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='trying to use element children in the element of a simple type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item must have no element information item children&#10;                             if it has a simple type.&#10;                              Negative case uses an element of type  xsd:anySimpleType  &#10;                             with children elements."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item must have no element information item children\n                             if it has a simple type.\n                              Negative case uses an element of type  xsd:anySimpleType  \n                             with children elements.'
                                 ),
                             ]
                         ),
@@ -10445,13 +10445,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10463,12 +10463,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01301m1"
+                name='typeDef01301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10479,11 +10479,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01301m/typeDef01301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10494,10 +10494,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01301m1"
+            name='typedef01301m1'
         ),
         TestGroup(
             annotation=[
@@ -10506,12 +10506,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="normalized value must be valid with respect to the type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='normalized value must be valid with respect to the type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the element information item of a simple type is not nil, then&#10;                             its normalized value must be valid with respect to the type definition.&#10;                             Negative case uses invalid value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the element information item of a simple type is not nil, then\n                             its normalized value must be valid with respect to the type definition.\n                             Negative case uses invalid value.'
                                 ),
                             ]
                         ),
@@ -10520,13 +10520,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10538,12 +10538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01401m1"
+                name='typeDef01401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10554,11 +10554,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01401m/typeDef01401m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10569,10 +10569,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01401m1"
+            name='typedef01401m1'
         ),
         TestGroup(
             annotation=[
@@ -10581,12 +10581,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="value must be valid with respect to the type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='value must be valid with respect to the type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the type definition is a complex type definition, &#10;                             then the element information item must be valid with respect to the &#10;                             type definition.&#10;                             Negative case uses invalid value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the type definition is a complex type definition, \n                             then the element information item must be valid with respect to the \n                             type definition.\n                             Negative case uses invalid value.'
                                 ),
                             ]
                         ),
@@ -10595,13 +10595,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1.xsd"
+                        href='../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10613,12 +10613,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="typeDef01501m1"
+                name='typeDef01501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_p.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10629,11 +10629,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_n.xml"
+                        href='../sunData/ElemDecl/typeDef/typeDef01501m/typeDef01501m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10644,10 +10644,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="typedef01501m1"
+            name='typedef01501m1'
         ),
         TestGroup(
             annotation=[
@@ -10656,12 +10656,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Validation of the default value attribute (positive case). (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Validation of the default value attribute (positive case). (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an elements with default value defined. Ensure&#10;                             that the value is validated."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an elements with default value defined. Ensure\n                             that the value is validated.'
                                 ),
                             ]
                         ),
@@ -10670,13 +10670,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10688,12 +10688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00101m1"
+                name='valueConstraint00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10704,10 +10704,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00101m1"
+            name='valueconstraint00101m1'
         ),
         TestGroup(
             annotation=[
@@ -10716,12 +10716,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Validation of the default value attribute (negative case). (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Validation of the default value attribute (negative case). (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an elements with default value defined. Ensure&#10;                             that the value is validated."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an elements with default value defined. Ensure\n                             that the value is validated.'
                                 ),
                             ]
                         ),
@@ -10730,13 +10730,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00101m/valueConstraint00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -10748,9 +10748,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00101m2"
+                name='valueConstraint00101m2'
             ),
-            name="valueconstraint00101m2"
+            name='valueconstraint00101m2'
         ),
         TestGroup(
             annotation=[
@@ -10759,12 +10759,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Validation of the fixed value attribute. (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='Validation of the fixed value attribute. (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Define an elements with fixed value defined. Ensure&#10;                             that the value may be empty or, otherwise, must be&#10;                             equal to that defined."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an elements with fixed value defined. Ensure\n                             that the value may be empty or, otherwise, must be\n                             equal to that defined.'
                                 ),
                             ]
                         ),
@@ -10773,13 +10773,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m.xsd'
                     ),
                 ],
                 expected=[
@@ -10791,12 +10791,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00201m"
+                name='valueConstraint00201m'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10807,11 +10807,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="valueConstraint00201m1_p"
+                    name='valueConstraint00201m1_p'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00201m/valueConstraint00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -10822,10 +10822,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="valueConstraint00201m1_n"
+                    name='valueConstraint00201m1_n'
                 ),
             ],
-            name="valueconstraint00201m"
+            name='valueconstraint00201m'
         ),
         TestGroup(
             annotation=[
@@ -10834,12 +10834,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="only default is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='only default is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Define an element. Set default="0".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element. Set default="0".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -10848,13 +10848,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -10866,12 +10866,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00301m1"
+                name='valueConstraint00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10882,10 +10882,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00301m1"
+            name='valueconstraint00301m1'
         ),
         TestGroup(
             annotation=[
@@ -10894,12 +10894,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="only fixed is present (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='only fixed is present (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Define an element. Set fixed="0".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element. Set fixed="0".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -10908,13 +10908,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m2.xsd'
                     ),
                 ],
                 expected=[
@@ -10926,12 +10926,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00301m2"
+                name='valueConstraint00301m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m2_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -10942,10 +10942,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00301m2"
+            name='valueconstraint00301m2'
         ),
         TestGroup(
             annotation=[
@@ -10954,12 +10954,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="both default and fixed have identical values (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='both default and fixed have identical values (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Define an element. Set default="0" fixed="0".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element. Set default="0" fixed="0".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -10968,13 +10968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m3.xsd'
                     ),
                 ],
                 expected=[
@@ -10986,9 +10986,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00301m3"
+                name='valueConstraint00301m3'
             ),
-            name="valueconstraint00301m3"
+            name='valueconstraint00301m3'
         ),
         TestGroup(
             annotation=[
@@ -10997,12 +10997,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default and fixed have different values 0 and 1 respectively (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default and fixed have different values 0 and 1 respectively (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Define an element. Set default="0" fixed="1".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element. Set default="0" fixed="1".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11011,13 +11011,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m4.xsd'
                     ),
                 ],
                 expected=[
@@ -11029,9 +11029,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00301m4"
+                name='valueConstraint00301m4'
             ),
-            name="valueconstraint00301m4"
+            name='valueconstraint00301m4'
         ),
         TestGroup(
             annotation=[
@@ -11040,12 +11040,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default and fixed have different values 1 and 0 respectively (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default and fixed have different values 1 and 0 respectively (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Define an element. Set default="1" fixed="0".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Define an element. Set default="1" fixed="0".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11054,13 +11054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00301m/valueConstraint00301m5.xsd'
                     ),
                 ],
                 expected=[
@@ -11072,9 +11072,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00301m5"
+                name='valueConstraint00301m5'
             ),
-            name="valueconstraint00301m5"
+            name='valueconstraint00301m5'
         ),
         TestGroup(
             annotation=[
@@ -11083,12 +11083,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for type boolean (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for type boolean (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:boolean" default="true".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:boolean" default="true".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11097,13 +11097,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m1.xsd'
                     ),
                 ],
                 expected=[
@@ -11115,12 +11115,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m1"
+                name='valueConstraint00401m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11131,10 +11131,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m1"
+            name='valueconstraint00401m1'
         ),
         TestGroup(
             annotation=[
@@ -11143,12 +11143,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid default value is set for type boolean (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid default value is set for type boolean (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:boolean" default="Yes".&#10;                             &#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:boolean" default="Yes".\n                             \n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11157,13 +11157,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m2.xsd'
                     ),
                 ],
                 expected=[
@@ -11175,9 +11175,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m2"
+                name='valueConstraint00401m2'
             ),
-            name="valueconstraint00401m2"
+            name='valueconstraint00401m2'
         ),
         TestGroup(
             annotation=[
@@ -11186,12 +11186,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for ur-type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for ur-type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set default="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set default="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11200,13 +11200,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m3.xsd'
                     ),
                 ],
                 expected=[
@@ -11218,12 +11218,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m3"
+                name='valueConstraint00401m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m3_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11234,10 +11234,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m3"
+            name='valueconstraint00401m3'
         ),
         TestGroup(
             annotation=[
@@ -11246,12 +11246,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for anyType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for anyType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:anyType" default="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:anyType" default="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11260,13 +11260,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m4.xsd'
                     ),
                 ],
                 expected=[
@@ -11278,12 +11278,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m4"
+                name='valueConstraint00401m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m4_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11294,10 +11294,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m4"
+            name='valueconstraint00401m4'
         ),
         TestGroup(
             annotation=[
@@ -11306,12 +11306,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for a complex type with a simple content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for a complex type with a simple content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" default="true".&#10;                             The content type of type  answer  is  boolean .&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" default="true".\n                             The content type of type  answer  is  boolean .\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11320,13 +11320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m5.xsd'
                     ),
                 ],
                 expected=[
@@ -11338,12 +11338,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m5"
+                name='valueConstraint00401m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m5_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11354,10 +11354,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m5"
+            name='valueconstraint00401m5'
         ),
         TestGroup(
             annotation=[
@@ -11366,12 +11366,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid default value is set for a complex type with a simple content (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid default value is set for a complex type with a simple content (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" default="Yes".&#10;                             The content type of type  answer  is  boolean .&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" default="Yes".\n                             The content type of type  answer  is  boolean .\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11380,13 +11380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m6.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m6.xsd'
                     ),
                 ],
                 expected=[
@@ -11398,9 +11398,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m6"
+                name='valueConstraint00401m6'
             ),
-            name="valueconstraint00401m6"
+            name='valueconstraint00401m6'
         ),
         TestGroup(
             annotation=[
@@ -11409,12 +11409,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for a simple type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for a simple type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" default="true".&#10;                             The content type of type  answer  allows only "true".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" default="true".\n                             The content type of type  answer  allows only "true".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11423,13 +11423,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m7.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m7.xsd'
                     ),
                 ],
                 expected=[
@@ -11441,12 +11441,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m7"
+                name='valueConstraint00401m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m7_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11457,10 +11457,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m7"
+            name='valueconstraint00401m7'
         ),
         TestGroup(
             annotation=[
@@ -11469,12 +11469,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid default value is set for a simple type (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid default value is set for a simple type (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" default="false".&#10;                             The content type of type  answer  allows only "true".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" default="false".\n                             The content type of type  answer  allows only "true".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11483,13 +11483,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m8.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m8.xsd'
                     ),
                 ],
                 expected=[
@@ -11501,9 +11501,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m8"
+                name='valueConstraint00401m8'
             ),
-            name="valueconstraint00401m8"
+            name='valueconstraint00401m8'
         ),
         TestGroup(
             annotation=[
@@ -11512,12 +11512,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is set for anySimpleType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is set for anySimpleType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:anySimpleType" default="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:anySimpleType" default="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11526,13 +11526,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m9.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m9.xsd'
                     ),
                 ],
                 expected=[
@@ -11544,12 +11544,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00401m9"
+                name='valueConstraint00401m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m9_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00401m/valueConstraint00401m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11560,10 +11560,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00401m9"
+            name='valueconstraint00401m9'
         ),
         TestGroup(
             annotation=[
@@ -11572,12 +11572,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for type boolean (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for type boolean (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:boolean" fixed="true".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:boolean" fixed="true".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11586,13 +11586,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m1.xsd'
                     ),
                 ],
                 expected=[
@@ -11604,12 +11604,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m1"
+                name='valueConstraint00402m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11620,10 +11620,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m1"
+            name='valueconstraint00402m1'
         ),
         TestGroup(
             annotation=[
@@ -11632,12 +11632,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid fixed value is set for type boolean (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid fixed value is set for type boolean (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:boolean" fixed="Yes".&#10;                             &#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:boolean" fixed="Yes".\n                             \n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11646,13 +11646,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m2.xsd'
                     ),
                 ],
                 expected=[
@@ -11664,9 +11664,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m2"
+                name='valueConstraint00402m2'
             ),
-            name="valueconstraint00402m2"
+            name='valueconstraint00402m2'
         ),
         TestGroup(
             annotation=[
@@ -11675,12 +11675,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for ur-type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for ur-type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set fixed="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set fixed="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11689,13 +11689,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m3.xsd'
                     ),
                 ],
                 expected=[
@@ -11707,12 +11707,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m3"
+                name='valueConstraint00402m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m3_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11723,10 +11723,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m3"
+            name='valueconstraint00402m3'
         ),
         TestGroup(
             annotation=[
@@ -11735,12 +11735,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for anyType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for anyType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:anyType" fixed="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:anyType" fixed="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11749,13 +11749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m4.xsd'
                     ),
                 ],
                 expected=[
@@ -11767,12 +11767,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m4"
+                name='valueConstraint00402m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m4_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11783,10 +11783,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m4"
+            name='valueconstraint00402m4'
         ),
         TestGroup(
             annotation=[
@@ -11795,12 +11795,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for a complex type with a simple content (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for a complex type with a simple content (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" fixed="true".&#10;                             The content type of type  answer  is  boolean .&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" fixed="true".\n                             The content type of type  answer  is  boolean .\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11809,13 +11809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m5.xsd'
                     ),
                 ],
                 expected=[
@@ -11827,12 +11827,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m5"
+                name='valueConstraint00402m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m5_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11843,10 +11843,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m5"
+            name='valueconstraint00402m5'
         ),
         TestGroup(
             annotation=[
@@ -11855,12 +11855,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid fixed value is set for a complex type with a simple content (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid fixed value is set for a complex type with a simple content (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" fixed="Yes".&#10;                             The content type of type  answer  is  boolean .&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" fixed="Yes".\n                             The content type of type  answer  is  boolean .\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11869,13 +11869,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m6.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m6.xsd'
                     ),
                 ],
                 expected=[
@@ -11887,9 +11887,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m6"
+                name='valueConstraint00402m6'
             ),
-            name="valueconstraint00402m6"
+            name='valueconstraint00402m6'
         ),
         TestGroup(
             annotation=[
@@ -11898,12 +11898,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for a simple type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for a simple type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" fixed="true".&#10;                             The content type of type  answer  allows only "true".&#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" fixed="true".\n                             The content type of type  answer  allows only "true".\n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -11912,13 +11912,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m7.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m7.xsd'
                     ),
                 ],
                 expected=[
@@ -11930,12 +11930,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m7"
+                name='valueConstraint00402m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m7_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -11946,10 +11946,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m7"
+            name='valueconstraint00402m7'
         ),
         TestGroup(
             annotation=[
@@ -11958,12 +11958,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="invalid fixed value is set for a simple type (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='invalid fixed value is set for a simple type (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="answer" fixed="false".&#10;                             The content type of type  answer  allows only "true".&#10;                             Check that the schema is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="answer" fixed="false".\n                             The content type of type  answer  allows only "true".\n                             Check that the schema is invalid.'
                                 ),
                             ]
                         ),
@@ -11972,13 +11972,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m8.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m8.xsd'
                     ),
                 ],
                 expected=[
@@ -11990,9 +11990,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m8"
+                name='valueConstraint00402m8'
             ),
-            name="valueconstraint00402m8"
+            name='valueconstraint00402m8'
         ),
         TestGroup(
             annotation=[
@@ -12001,12 +12001,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is set for anySimpleType (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is set for anySimpleType (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Set type="xsd:anySimpleType" fixed="alpha".&#10;                             &#10;                             Check that the schema is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Set type="xsd:anySimpleType" fixed="alpha".\n                             \n                             Check that the schema is valid.'
                                 ),
                             ]
                         ),
@@ -12015,13 +12015,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m9.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m9.xsd'
                     ),
                 ],
                 expected=[
@@ -12033,12 +12033,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00402m9"
+                name='valueConstraint00402m9'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m9_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00402m/valueConstraint00402m9_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12049,10 +12049,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00402m9"
+            name='valueconstraint00402m9'
         ),
         TestGroup(
             annotation=[
@@ -12061,12 +12061,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the fixed value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the fixed value is valid.'
                                 ),
                             ]
                         ),
@@ -12075,13 +12075,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m1.xsd'
                     ),
                 ],
                 expected=[
@@ -12093,12 +12093,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m1"
+                name='valueConstraint00501m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12108,7 +12108,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 4),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4148"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4148'
                     ),
                     prior=[
                         Prior(
@@ -12116,10 +12116,10 @@ obj = TestSet(
                             date=XmlDate(2005, 6, 21)
                         ),
                     ],
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00501m1"
+            name='valueconstraint00501m1'
         ),
         TestGroup(
             annotation=[
@@ -12128,12 +12128,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the fixed value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the fixed value is valid.'
                                 ),
                             ]
                         ),
@@ -12142,13 +12142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m2.xsd'
                     ),
                 ],
                 expected=[
@@ -12160,12 +12160,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m2"
+                name='valueConstraint00501m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m2_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12175,7 +12175,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 4),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4148"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4148'
                     ),
                     prior=[
                         Prior(
@@ -12183,10 +12183,10 @@ obj = TestSet(
                             date=XmlDate(2005, 6, 21)
                         ),
                     ],
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00501m2"
+            name='valueconstraint00501m2'
         ),
         TestGroup(
             annotation=[
@@ -12195,12 +12195,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is invalid for the local type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is invalid for the local type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the fixed value is invalid for the local type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the fixed value is invalid for the local type definition.'
                                 ),
                             ]
                         ),
@@ -12209,13 +12209,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m3.xsd'
                     ),
                 ],
                 expected=[
@@ -12227,12 +12227,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m3"
+                name='valueConstraint00501m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m3_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m3_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -12243,10 +12243,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint00501m3"
+            name='valueconstraint00501m3'
         ),
         TestGroup(
             annotation=[
@@ -12255,12 +12255,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the default value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the default value is valid.'
                                 ),
                             ]
                         ),
@@ -12269,13 +12269,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m4.xsd'
                     ),
                 ],
                 expected=[
@@ -12287,12 +12287,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m4"
+                name='valueConstraint00501m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m4_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12303,10 +12303,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00501m4"
+            name='valueconstraint00501m4'
         ),
         TestGroup(
             annotation=[
@@ -12315,12 +12315,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the default value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the default value is valid.'
                                 ),
                             ]
                         ),
@@ -12329,13 +12329,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m5.xsd'
                     ),
                 ],
                 expected=[
@@ -12347,12 +12347,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m5"
+                name='valueConstraint00501m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m5_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12363,10 +12363,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00501m5"
+            name='valueconstraint00501m5'
         ),
         TestGroup(
             annotation=[
@@ -12375,12 +12375,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is invalid for the local type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is invalid for the local type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the declaration has a {value constraint}, &#10;                             the item has neither element nor character [children] and &#10;                              xsi:nil  is not specified, the  actual type definition  &#10;                             is a  local type definition  then the lexical &#10;                             representation of the {value constraint} value &#10;                             must be a valid default for the  actual type definition .&#10;                              In the test the default value is invalid for the local type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the declaration has a {value constraint}, \n                             the item has neither element nor character [children] and \n                              xsi:nil  is not specified, the  actual type definition  \n                             is a  local type definition  then the lexical \n                             representation of the {value constraint} value \n                             must be a valid default for the  actual type definition .\n                              In the test the default value is invalid for the local type definition.'
                                 ),
                             ]
                         ),
@@ -12389,13 +12389,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m6.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m6.xsd'
                     ),
                 ],
                 expected=[
@@ -12407,12 +12407,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00501m6"
+                name='valueConstraint00501m6'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m6_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00501m/valueConstraint00501m6_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -12423,10 +12423,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint00501m6"
+            name='valueconstraint00501m6'
         ),
         TestGroup(
             annotation=[
@@ -12435,12 +12435,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value of built-in type is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value of built-in type is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the fixed value of built-in type is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the fixed value of built-in type is valid.'
                                 ),
                             ]
                         ),
@@ -12449,13 +12449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m1.xsd'
                     ),
                 ],
                 expected=[
@@ -12467,12 +12467,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m1"
+                name='valueConstraint00601m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12483,10 +12483,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00601m1"
+            name='valueconstraint00601m1'
         ),
         TestGroup(
             annotation=[
@@ -12495,12 +12495,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value of built-in type is invalid (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value of built-in type is invalid (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the fixed value of built-in type is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the fixed value of built-in type is invalid.'
                                 ),
                             ]
                         ),
@@ -12509,13 +12509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m2.xsd'
                     ),
                 ],
                 expected=[
@@ -12527,9 +12527,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m2"
+                name='valueConstraint00601m2'
             ),
-            name="valueconstraint00601m2"
+            name='valueconstraint00601m2'
         ),
         TestGroup(
             annotation=[
@@ -12538,12 +12538,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value of built-in type is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value of built-in type is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the default value of built-in type is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the default value of built-in type is valid.'
                                 ),
                             ]
                         ),
@@ -12552,13 +12552,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m3.xsd'
                     ),
                 ],
                 expected=[
@@ -12570,12 +12570,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m3"
+                name='valueConstraint00601m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m3_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12586,10 +12586,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00601m3"
+            name='valueconstraint00601m3'
         ),
         TestGroup(
             annotation=[
@@ -12598,12 +12598,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value of built-in type is invalid (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value of built-in type is invalid (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the default value of built-in type is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the default value of built-in type is invalid.'
                                 ),
                             ]
                         ),
@@ -12612,13 +12612,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m4.xsd'
                     ),
                 ],
                 expected=[
@@ -12630,9 +12630,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m4"
+                name='valueConstraint00601m4'
             ),
-            name="valueconstraint00601m4"
+            name='valueconstraint00601m4'
         ),
         TestGroup(
             annotation=[
@@ -12641,12 +12641,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value of a derived type is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value of a derived type is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the fixed value of a derived type is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the fixed value of a derived type is valid.'
                                 ),
                             ]
                         ),
@@ -12655,13 +12655,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m5.xsd'
                     ),
                 ],
                 expected=[
@@ -12673,12 +12673,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m5"
+                name='valueConstraint00601m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m5_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12689,10 +12689,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00601m5"
+            name='valueconstraint00601m5'
         ),
         TestGroup(
             annotation=[
@@ -12701,12 +12701,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value of a derived type is invalid (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value of a derived type is invalid (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the fixed value of a derived type is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the fixed value of a derived type is invalid.'
                                 ),
                             ]
                         ),
@@ -12715,13 +12715,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m6.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m6.xsd'
                     ),
                 ],
                 expected=[
@@ -12733,9 +12733,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m6"
+                name='valueConstraint00601m6'
             ),
-            name="valueconstraint00601m6"
+            name='valueconstraint00601m6'
         ),
         TestGroup(
             annotation=[
@@ -12744,12 +12744,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value a derived type is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value a derived type is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the default value a derived type is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the default value a derived type is valid.'
                                 ),
                             ]
                         ),
@@ -12758,13 +12758,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m7.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m7.xsd'
                     ),
                 ],
                 expected=[
@@ -12776,12 +12776,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m7"
+                name='valueConstraint00601m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m7_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12792,10 +12792,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint00601m7"
+            name='valueconstraint00601m7'
         ),
         TestGroup(
             annotation=[
@@ -12804,12 +12804,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value a derived type is invalid (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value a derived type is invalid (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The element information item with the lexical &#10;                             representation of the {value constraint} value used as &#10;                             its normalized value must be valid with respect to the &#10;                              actual type definition .&#10;                              In the test the default value a derived type is invalid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='The element information item with the lexical \n                             representation of the {value constraint} value used as \n                             its normalized value must be valid with respect to the \n                              actual type definition .\n                              In the test the default value a derived type is invalid.'
                                 ),
                             ]
                         ),
@@ -12818,13 +12818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m8.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00601m/valueConstraint00601m8.xsd'
                     ),
                 ],
                 expected=[
@@ -12836,9 +12836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00601m8"
+                name='valueConstraint00601m8'
             ),
-            name="valueconstraint00601m8"
+            name='valueconstraint00601m8'
         ),
         TestGroup(
             annotation=[
@@ -12847,12 +12847,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value constraint forbids element children (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value constraint forbids element children (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If there is a fixed {value constraint} &#10;                             the element information item must have no element information item children."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If there is a fixed {value constraint} \n                             the element information item must have no element information item children.'
                                 ),
                             ]
                         ),
@@ -12861,13 +12861,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1.xsd'
                     ),
                 ],
                 expected=[
@@ -12879,12 +12879,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00701m1"
+                name='valueConstraint00701m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12895,11 +12895,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00701m/valueConstraint00701m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -12910,10 +12910,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint00701m1"
+            name='valueconstraint00701m1'
         ),
         TestGroup(
             annotation=[
@@ -12922,12 +12922,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="value of mixed content type must match the fixed value (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='value of mixed content type must match the fixed value (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {content type} of the actual type definition is mixed, &#10;                             then the initial value of the item must match the canonical lexical &#10;                             representation of the {value constraint} value.&#10;                              In the test, the value of the item does not match the&#10;                             specified fixed value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the {content type} of the actual type definition is mixed, \n                             then the initial value of the item must match the canonical lexical \n                             representation of the {value constraint} value.\n                              In the test, the value of the item does not match the\n                             specified fixed value.'
                                 ),
                             ]
                         ),
@@ -12936,13 +12936,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1.xsd'
                     ),
                 ],
                 expected=[
@@ -12954,12 +12954,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00801m1"
+                name='valueConstraint00801m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -12970,11 +12970,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00801m/valueConstraint00801m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -12985,10 +12985,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint00801m1"
+            name='valueconstraint00801m1'
         ),
         TestGroup(
             annotation=[
@@ -12997,12 +12997,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="value of simple content type must match the fixed value (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='value of simple content type must match the fixed value (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="If the {content type} of the actual type definition is a simple type &#10;                             definition, then the actual value of the item must match the &#10;                             canonical lexical representation of the {value constraint} value&#10;                              In the test, the value of the item does not match the&#10;                             specified fixed value."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='If the {content type} of the actual type definition is a simple type \n                             definition, then the actual value of the item must match the \n                             canonical lexical representation of the {value constraint} value\n                              In the test, the value of the item does not match the\n                             specified fixed value.'
                                 ),
                             ]
                         ),
@@ -13011,13 +13011,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1.xsd'
                     ),
                 ],
                 expected=[
@@ -13029,12 +13029,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint00901m1"
+                name='valueConstraint00901m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13045,11 +13045,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint00901m/valueConstraint00901m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -13060,10 +13060,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint00901m1"
+            name='valueconstraint00901m1'
         ),
         TestGroup(
             annotation=[
@@ -13072,12 +13072,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="no value constraint with ID type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='no value constraint with ID type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="xsd:ID".&#10;                             Check that the declaration is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="xsd:ID".\n                             Check that the declaration is valid.'
                                 ),
                             ]
                         ),
@@ -13086,13 +13086,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m1.xsd'
                     ),
                 ],
                 expected=[
@@ -13104,12 +13104,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m1"
+                name='valueConstraint01001m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13120,10 +13120,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01001m1"
+            name='valueconstraint01001m1'
         ),
         TestGroup(
             annotation=[
@@ -13132,12 +13132,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value constraint with ID type (invalid schema in 1.0, becomes valid in 1.1)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value constraint with ID type (invalid schema in 1.0, becomes valid in 1.1)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="xsd:ID" fixed="alpha".&#10;                             Check that the declaration is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="xsd:ID" fixed="alpha".\n                             Check that the declaration is invalid.'
                                 ),
                             ]
                         ),
@@ -13146,16 +13146,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m2.xsd'
                     ),
                 ],
                 expected=[
@@ -13176,9 +13176,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m2"
+                name='valueConstraint01001m2'
             ),
-            name="valueconstraint01001m2"
+            name='valueconstraint01001m2'
         ),
         TestGroup(
             annotation=[
@@ -13187,12 +13187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value constraint with ID type (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value constraint with ID type (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="xsd:ID" default="alpha".&#10;                             Check that the declaration is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="xsd:ID" default="alpha".\n                             Check that the declaration is invalid.'
                                 ),
                             ]
                         ),
@@ -13201,16 +13201,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m3.xsd'
                     ),
                 ],
                 expected=[
@@ -13231,9 +13231,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m3"
+                name='valueConstraint01001m3'
             ),
-            name="valueconstraint01001m3"
+            name='valueconstraint01001m3'
         ),
         TestGroup(
             annotation=[
@@ -13242,12 +13242,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="no value constraint with a type derived from ID (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='no value constraint with a type derived from ID (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="derivedFromID".&#10;                             Check that the declaration is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="derivedFromID".\n                             Check that the declaration is valid.'
                                 ),
                             ]
                         ),
@@ -13256,13 +13256,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m4.xsd'
                     ),
                 ],
                 expected=[
@@ -13274,12 +13274,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m4"
+                name='valueConstraint01001m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m4_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m4_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13290,10 +13290,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01001m4"
+            name='valueconstraint01001m4'
         ),
         TestGroup(
             annotation=[
@@ -13302,12 +13302,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value constraint with a type derived from ID (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value constraint with a type derived from ID (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="derivedFromID" fixed="alpha".&#10;                             Check that the declaration is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="derivedFromID" fixed="alpha".\n                             Check that the declaration is invalid.'
                                 ),
                             ]
                         ),
@@ -13316,16 +13316,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m5.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m5.xsd'
                     ),
                 ],
                 expected=[
@@ -13346,9 +13346,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m5"
+                name='valueConstraint01001m5'
             ),
-            name="valueconstraint01001m5"
+            name='valueconstraint01001m5'
         ),
         TestGroup(
             annotation=[
@@ -13357,12 +13357,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value constraint with a type derived from ID (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value constraint with a type derived from ID (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="derivedFromID" default="alpha".&#10;                             Check that the declaration is invalid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="derivedFromID" default="alpha".\n                             Check that the declaration is invalid.'
                                 ),
                             ]
                         ),
@@ -13371,16 +13371,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m6.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m6.xsd'
                     ),
                 ],
                 expected=[
@@ -13401,9 +13401,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m6"
+                name='valueConstraint01001m6'
             ),
-            name="valueconstraint01001m6"
+            name='valueconstraint01001m6'
         ),
         TestGroup(
             annotation=[
@@ -13412,12 +13412,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value constraint with string type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value constraint with string type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="xsd:string" fixed="alpha".&#10;                             Check that the declaration is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="xsd:string" fixed="alpha".\n                             Check that the declaration is valid.'
                                 ),
                             ]
                         ),
@@ -13426,13 +13426,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m7.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m7.xsd'
                     ),
                 ],
                 expected=[
@@ -13444,12 +13444,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m7"
+                name='valueConstraint01001m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m7_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13460,10 +13460,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01001m7"
+            name='valueconstraint01001m7'
         ),
         TestGroup(
             annotation=[
@@ -13472,12 +13472,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value constraint with string type (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value constraint with string type (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Declare an element. Specify the following: type="xsd:string" default="alpha".&#10;                             Check that the declaration is valid.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Declare an element. Specify the following: type="xsd:string" default="alpha".\n                             Check that the declaration is valid.'
                                 ),
                             ]
                         ),
@@ -13486,13 +13486,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m8.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m8.xsd'
                     ),
                 ],
                 expected=[
@@ -13504,12 +13504,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01001m8"
+                name='valueConstraint01001m8'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m8_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01001m/valueConstraint01001m8_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13520,10 +13520,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01001m8"
+            name='valueconstraint01001m8'
         ),
         TestGroup(
             annotation=[
@@ -13532,12 +13532,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For a string to be a valid default with respect to a type definition,&#10;                             if the type definition is a simple type definition, then the &#10;                             string must be valid with respect to that definition.&#10;                              In the test the fixed value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For a string to be a valid default with respect to a type definition,\n                             if the type definition is a simple type definition, then the \n                             string must be valid with respect to that definition.\n                              In the test the fixed value is valid.'
                                 ),
                             ]
                         ),
@@ -13546,13 +13546,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m1.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -13564,12 +13564,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01101m1"
+                name='valueConstraint01101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m1_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13580,10 +13580,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01101m1"
+            name='valueconstraint01101m1'
         ),
         TestGroup(
             annotation=[
@@ -13592,12 +13592,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="fixed value is invalid for the local type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='fixed value is invalid for the local type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For a string to be a valid default with respect to a type definition,&#10;                             if the type definition is a simple type definition, then the &#10;                             string must be valid with respect to that definition.&#10;                              In the test the fixed value is invalid for the local type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For a string to be a valid default with respect to a type definition,\n                             if the type definition is a simple type definition, then the \n                             string must be valid with respect to that definition.\n                              In the test the fixed value is invalid for the local type definition.'
                                 ),
                             ]
                         ),
@@ -13606,13 +13606,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m2.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -13624,12 +13624,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01101m2"
+                name='valueConstraint01101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m2_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -13640,10 +13640,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint01101m2"
+            name='valueconstraint01101m2'
         ),
         TestGroup(
             annotation=[
@@ -13652,12 +13652,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is valid (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is valid (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For a string to be a valid default with respect to a type definition,&#10;                             if the type definition is a simple type definition, then the &#10;                             string must be valid with respect to that definition.&#10;                              In the test the default value is valid."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For a string to be a valid default with respect to a type definition,\n                             if the type definition is a simple type definition, then the \n                             string must be valid with respect to that definition.\n                              In the test the default value is valid.'
                                 ),
                             ]
                         ),
@@ -13666,13 +13666,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m3.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -13684,12 +13684,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01101m3"
+                name='valueConstraint01101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m3_p.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -13700,10 +13700,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="valueconstraint01101m3"
+            name='valueconstraint01101m3'
         ),
         TestGroup(
             annotation=[
@@ -13712,12 +13712,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="default value is invalid for the local type definition (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='default value is invalid for the local type definition (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For a string to be a valid default with respect to a type definition,&#10;                             if the type definition is a simple type definition, then the &#10;                             string must be valid with respect to that definition.&#10;                              In the test the default value is invalid for the local type definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='For a string to be a valid default with respect to a type definition,\n                             if the type definition is a simple type definition, then the \n                             string must be valid with respect to that definition.\n                              In the test the default value is invalid for the local type definition.'
                                 ),
                             ]
                         ),
@@ -13726,13 +13726,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m4.xsd"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -13744,12 +13744,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="valueConstraint01101m4"
+                name='valueConstraint01101m4'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m4_n.xml"
+                        href='../sunData/ElemDecl/valueConstraint/valueConstraint01101m/valueConstraint01101m4_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -13760,15 +13760,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="valueconstraint01101m4"
+            name='valueconstraint01101m4'
         ),
     ],
-    contributor="SUN",
-    name="ElemDecl",
+    contributor='SUN',
+    name='ElemDecl',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

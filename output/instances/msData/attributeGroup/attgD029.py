@@ -6,7 +6,7 @@ obj = Doc(
     elem=AttRef(
         foo=123,
         target_namespace_attributes={
-            "{http://xsdtesting}bar": "123",
+            '{http://xsdtesting}bar': '123',
         }
     )
 )

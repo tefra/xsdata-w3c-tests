@@ -4,6 +4,6 @@ from output.models.ibm_data.valid.s3_3_4.s3_3_4v06_xsd.s3_3_4v06 import Root
 
 obj = Root(
     a=Ids(
-        id1="asd87123_"
+        id1='asd87123_'
     )
 )

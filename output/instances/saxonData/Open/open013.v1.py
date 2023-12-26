@@ -4,11 +4,11 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     content=[
-        "&#10;  (",
+        '\n  (',
         AnyElement(
-            qname="{http://open.com/}extra",
-            text="",
-            tail=")&#10;"
+            qname='{http://open.com/}extra',
+            text='',
+            tail=')\n'
         ),
     ]
 )

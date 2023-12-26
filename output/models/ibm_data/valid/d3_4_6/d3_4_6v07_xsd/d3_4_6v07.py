@@ -13,7 +13,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     value: List[str] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     value_1: List[str] = field(
         default_factory=list,
@@ -31,7 +31,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     value_9: List[str] = field(
         default_factory=list,
@@ -40,7 +40,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     value_2: List[str] = field(
         default_factory=list,
@@ -49,7 +49,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     a_a: List[str] = field(
         default_factory=list,
@@ -57,7 +57,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     a_a_a: List[str] = field(
         default_factory=list,
@@ -66,7 +66,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
     a_ele: List[str] = field(
         default_factory=list,
@@ -75,7 +75,7 @@ class Nametest:
             "type": "Element",
             "namespace": "a",
             "min_occurs": 1,
-        }
+        },
     )
 
 

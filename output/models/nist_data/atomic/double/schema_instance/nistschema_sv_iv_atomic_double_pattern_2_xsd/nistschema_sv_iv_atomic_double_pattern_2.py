@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicDoublePattern2:
         metadata={
             "required": True,
             "pattern": r"\d{1}\.\d{4}E\-\d{2}",
-        }
+        },
     )

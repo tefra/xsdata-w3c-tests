@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     target_namespace_element: List[object] = field(
         default_factory=list,
@@ -19,7 +19,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##targetNamespace",
             "max_occurs": 5,
-        }
+        },
     )
 
 
@@ -34,7 +34,7 @@ class E1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e1: Optional[E1] = field(
         default=None,
@@ -53,7 +53,7 @@ class R:
             "type": "Element",
             "namespace": "http://xsdtesting",
             "required": True,
-        }
+        },
     )
 
 
@@ -69,5 +69,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

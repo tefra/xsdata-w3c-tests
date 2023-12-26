@@ -11,7 +11,7 @@ class Bad:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -24,5 +24,5 @@ class Good:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

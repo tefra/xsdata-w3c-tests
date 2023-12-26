@@ -12,7 +12,7 @@ class E:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class G:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -40,7 +40,7 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     f: Optional[int] = field(
         default=None,
@@ -48,14 +48,14 @@ class Zing:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-        }
+        },
     )
 
 

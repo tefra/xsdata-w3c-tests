@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength3(
-    value="of.mechanism_Reference:widely.Schema:signature_Informatio"
+    value='of.mechanism_Reference:widely.Schema:signature_Informatio'
 )

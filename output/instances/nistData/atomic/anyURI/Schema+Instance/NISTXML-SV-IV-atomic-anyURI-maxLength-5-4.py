@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.any_uri.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicAnyUriMaxLength5(
-    value="ftp://ftp.interoperab.litytheisC.mmitteeoff.rp.org"
+    value='ftp://ftp.interoperab.litytheisC.mmitteeoff.rp.org'
 )

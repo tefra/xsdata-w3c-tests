@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern1(
-    value="hare-and-to.which-of_stand:nbuild_one_help-having.to_objects.systems"
+    value='hare-and-to.which-of_stand:nbuild_one_help-having.to_objects.systems'
 )

@@ -24,5 +24,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )

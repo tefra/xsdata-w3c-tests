@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenWhiteSpace1(
     value=[
-        "only-of.retrieve:specific.o",
-        "asking-on.new_Simulation:OA",
-        "ensure-NIST_that_e_come:is_",
-        "will:commerce:as.digital.is",
-        "profile-to.by_manipulation.",
-        "methods_first-generation-be",
-        "or_adoption:prototypes.issu",
+        'only-of.retrieve:specific.o',
+        'asking-on.new_Simulation:OA',
+        'ensure-NIST_that_e_come:is_',
+        'will:commerce:as.digital.is',
+        'profile-to.by_manipulation.',
+        'methods_first-generation-be',
+        'or_adoption:prototypes.issu',
     ]
 )

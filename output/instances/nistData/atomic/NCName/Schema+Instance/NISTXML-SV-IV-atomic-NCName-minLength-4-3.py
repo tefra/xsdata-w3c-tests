@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength4(
-    value="pdynamic.a_partnerships-the-with-the-from-libraries-systems-in"
+    value='pdynamic.a_partnerships-the-with-the-from-libraries-systems-in'
 )

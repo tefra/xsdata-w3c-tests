@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.boolean.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListBooleanPattern3(
     value=[
-        "1",
-        "false",
-        "1",
-        "true",
-        "1",
+        '1',
+        'false',
+        '1',
+        'true',
+        '1',
     ]
 )

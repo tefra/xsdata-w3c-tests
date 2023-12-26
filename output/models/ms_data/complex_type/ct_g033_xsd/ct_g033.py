@@ -28,14 +28,14 @@ class MyType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -51,14 +51,14 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_attr: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr",
             "type": "Attribute",
-        }
+        },
     )
 
 

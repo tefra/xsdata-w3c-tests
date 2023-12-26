@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicLongMaxExclusive2:
         metadata={
             "required": True,
             "max_exclusive": -562908107193849537,
-        }
+        },
     )

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensLength1(
     value=[
-        "industry-on:help-ability-be.co",
-        "eXtensible.technology_The:info",
-        "Stylesheet:lack.for_of:unbiase",
-        "DOM_possible-The.can-Language:",
-        "manipulation:result:prototypes",
+        'industry-on:help-ability-be.co',
+        'eXtensible.technology_The:info',
+        'Stylesheet:lack.for_of:unbiase',
+        'DOM_possible-The.can-Language:',
+        'manipulation:result:prototypes',
     ]
 )

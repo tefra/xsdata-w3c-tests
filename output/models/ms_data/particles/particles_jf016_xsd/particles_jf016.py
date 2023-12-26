@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_jf016_xsd.particles_jf016_imp import ImpElem1
+from output.models.ms_data.particles.particles_jf016_xsd.particles_jf016_imp import (
+    ImpElem1,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -13,7 +15,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -26,7 +28,7 @@ class R(B):
             "type": "Element",
             "namespace": "http://importedXSD",
             "required": True,
-        }
+        },
     )
 
 
@@ -42,5 +44,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

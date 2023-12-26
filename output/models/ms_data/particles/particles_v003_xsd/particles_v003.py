@@ -24,7 +24,7 @@ class B:
             ),
             "min_occurs": 3,
             "max_occurs": 9,
-        }
+        },
     )
 
 
@@ -45,5 +45,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

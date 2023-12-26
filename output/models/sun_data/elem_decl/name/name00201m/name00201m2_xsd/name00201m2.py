@@ -14,5 +14,5 @@ class Root:
         metadata={
             "required": True,
             "pattern": r"false",
-        }
+        },
     )

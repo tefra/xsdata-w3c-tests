@@ -25,5 +25,5 @@ class NistschemaSvIvAtomicDateTimeEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

@@ -8,12 +8,14 @@ __NAMESPACE__ = "NISTSchema-SV-IV-atomic-nonPositiveInteger-totalDigits-1-NS"
 class NistschemaSvIvAtomicNonPositiveIntegerTotalDigits1:
     class Meta:
         name = "NISTSchema-SV-IV-atomic-nonPositiveInteger-totalDigits-1"
-        namespace = "NISTSchema-SV-IV-atomic-nonPositiveInteger-totalDigits-1-NS"
+        namespace = (
+            "NISTSchema-SV-IV-atomic-nonPositiveInteger-totalDigits-1-NS"
+        )
 
     value: Optional[int] = field(
         default=None,
         metadata={
             "required": True,
             "total_digits": 1,
-        }
+        },
     )

@@ -16,7 +16,7 @@ class FooType:
             "min_length": 4,
             "max_length": 6,
             "format": "base16",
-        }
+        },
     )
 
 

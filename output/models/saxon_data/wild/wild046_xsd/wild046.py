@@ -12,7 +12,7 @@ class Computer1:
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class ExtendedComputer(Computer1):
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 

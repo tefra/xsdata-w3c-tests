@@ -12,14 +12,14 @@ class Elem:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     a2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -33,5 +33,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

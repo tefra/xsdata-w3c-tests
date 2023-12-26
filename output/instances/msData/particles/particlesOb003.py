@@ -7,20 +7,20 @@ obj = Doc(
     elem=R(
         any_element=[
             AnyElement(
-                qname="{http://other}other",
-                text=""
+                qname='{http://other}other',
+                text=''
             ),
             AnyElement(
-                qname="{http://other}other",
-                text=""
+                qname='{http://other}other',
+                text=''
             ),
             AnyElement(
-                qname="{http://other}other",
-                text=""
+                qname='{http://other}other',
+                text=''
             ),
             AnyElement(
-                qname="{http://other}other",
-                text=""
+                qname='{http://other}other',
+                text=''
             ),
         ]
     )

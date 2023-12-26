@@ -8,8 +8,8 @@ obj = Root(
         x=1,
         y=2,
         any_element=AnyElement(
-            qname="asd",
-            text="asd"
+            qname='asd',
+            text='asd'
         ),
         z=0
     )

@@ -21,7 +21,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "format": "base16",
-        }
+        },
     )
 
 

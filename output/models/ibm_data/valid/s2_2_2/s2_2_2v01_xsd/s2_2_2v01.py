@@ -14,7 +14,7 @@ class Elem0:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Elem1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class Elem3:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -73,14 +73,14 @@ class RootType:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
     elem1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/ibms3_3_6_v04",
-        }
+        },
     )
 
 

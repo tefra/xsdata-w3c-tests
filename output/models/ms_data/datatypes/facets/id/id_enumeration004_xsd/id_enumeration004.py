@@ -20,7 +20,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -29,14 +29,14 @@ class FooType:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         attr_test: Optional[FooAttrTest] = field(
             default=None,
             metadata={
                 "name": "attrTest",
                 "type": "Attribute",
-            }
+            },
         )
 
 

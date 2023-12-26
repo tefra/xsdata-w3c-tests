@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength3(
-    value="gincluding_other:manipulate_be_users.signature:no.enforcemen"
+    value='gincluding_other:manipulate_be_users.signature:no.enforcemen'
 )

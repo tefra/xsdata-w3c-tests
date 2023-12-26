@@ -8,30 +8,30 @@ obj = Messages(
         Message(
             kind=MessageTypeValue.TIME,
             content=[
-                "23:59:59",
+                '23:59:59',
             ]
         ),
         Message(
             kind=MessageTypeValue.TIME,
             content=[
-                "12:00:00",
+                '12:00:00',
             ]
         ),
         Message(
             kind=MessageTypeValue.DATE,
             content=[
-                "2008-03-01",
+                '2008-03-01',
             ]
         ),
         Message(
             kind=MessageTypeValue.DATE,
             content=[
-                "2008-02-29",
+                '2008-02-29',
             ]
         ),
         Message(
             content=[
-                "bananas and custard",
+                'bananas and custard',
             ]
         ),
     ]

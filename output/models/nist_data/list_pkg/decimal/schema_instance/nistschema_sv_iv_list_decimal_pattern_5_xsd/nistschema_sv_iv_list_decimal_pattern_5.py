@@ -15,5 +15,5 @@ class NistschemaSvIvListDecimalPattern5:
         metadata={
             "pattern": r"\d{1} \-\d{2}\.\d{1} \.\d{5} \d{2}\.\d{5} \-\d{5}\.\d{4} \-\d{5}\.\d{6} \d{5}\.\d{8} \d{5}\.\d{10} \-\d{4}\.\d{14}",
             "tokens": True,
-        }
+        },
     )

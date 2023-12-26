@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.token.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicTokenWhiteSpace1(
-    value="g community has led to the creation of a second-generation Internet language cal"
+    value='g community has led to the creation of a second-generation Internet language cal'
 )

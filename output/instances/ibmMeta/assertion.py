@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#rf-assertions",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#rf-assertions',
                     },
                     content=[
-                        "assertion",
+                        'assertion',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Assertions on a complex type definition ",
+                                'Assertions on a complex type definition ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v01.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v01s"
+                name='d4_3_15v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v01.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v01i"
+                    name='d4_3_15v01i'
                 ),
             ],
-            name="d4_3_15v01",
+            name='d4_3_15v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Assertions on a complex type definition",
+                                'Assertions on a complex type definition',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v02.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v02s"
+                name='d4_3_15v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v02.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v02i"
+                    name='d4_3_15v02i'
                 ),
             ],
-            name="d4_3_15v02",
+            name='d4_3_15v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition ",
+                                'assertions on a complex type definition ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v03.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v03s"
+                name='d4_3_15v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v03.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v03i"
+                    name='d4_3_15v03i'
                 ),
             ],
-            name="d4_3_15v03",
+            name='d4_3_15v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "ssertions on a complex type definition. uses multiple asserts  ",
+                                'ssertions on a complex type definition. uses multiple asserts  ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v04.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v04s"
+                name='d4_3_15v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v04.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v04i"
+                    name='d4_3_15v04i'
                 ),
             ],
-            name="d4_3_15v04",
+            name='d4_3_15v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a simple type definition",
+                                'assertions on a simple type definition',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v05.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v05s"
+                name='d4_3_15v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v05.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v05i"
+                    name='d4_3_15v05i'
                 ),
             ],
-            name="d4_3_15v05",
+            name='d4_3_15v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "having complexContent, assertions from both derived and base type must succeed  ",
+                                'having complexContent, assertions from both derived and base type must succeed  ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v06.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v06s"
+                name='d4_3_15v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v06.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v06i"
+                    name='d4_3_15v06i'
                 ),
             ],
-            name="d4_3_15v06",
+            name='d4_3_15v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on derived simple type definitions,&#10;          all baseType and derivedType must evaluate to be true",
+                                'assertions on derived simple type definitions,\n          all baseType and derivedType must evaluate to be true',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v07.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v07.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v07s"
+                name='d4_3_15v07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v07.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v07.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v07i"
+                    name='d4_3_15v07i'
                 ),
             ],
-            name="d4_3_15v07",
+            name='d4_3_15v07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition having simpleContent",
+                                'assertions on a complex type definition having simpleContent',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v08.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v08.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v08s"
+                name='d4_3_15v08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v08.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v08.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v08i"
+                    name='d4_3_15v08i'
                 ),
             ],
-            name="d4_3_15v08",
+            name='d4_3_15v08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on simple type, using variable $value ",
+                                'assertions on simple type, using variable $value ',
                             ]
                         ),
                     ]
@@ -517,16 +517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v09.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v09.xsd'
                     ),
                 ],
                 expected=[
@@ -538,12 +538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v09s"
+                name='d4_3_15v09s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v09.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v09.xml'
                     ),
                     expected=[
                         Expected(
@@ -554,10 +554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v09i"
+                    name='d4_3_15v09i'
                 ),
             ],
-            name="d4_3_15v09",
+            name='d4_3_15v09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -568,7 +568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on derived complex type",
+                                'assertions on derived complex type',
                             ]
                         ),
                     ]
@@ -576,16 +576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v10.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v10.xsd'
                     ),
                 ],
                 expected=[
@@ -597,12 +597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v10s"
+                name='d4_3_15v10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v10.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v10.xml'
                     ),
                     expected=[
                         Expected(
@@ -613,10 +613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v10i"
+                    name='d4_3_15v10i'
                 ),
             ],
-            name="d4_3_15v10",
+            name='d4_3_15v10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -627,7 +627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "dynamic context of the XPath expression, assertion on attribute ",
+                                'dynamic context of the XPath expression, assertion on attribute ',
                             ]
                         ),
                     ]
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v11.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v11.xsd'
                     ),
                 ],
                 expected=[
@@ -656,12 +656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v11s"
+                name='d4_3_15v11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v11.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v11.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,10 +672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v11i"
+                    name='d4_3_15v11i'
                 ),
             ],
-            name="d4_3_15v11",
+            name='d4_3_15v11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -686,7 +686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "dynamic context of the XPath expression, assertion on element",
+                                'dynamic context of the XPath expression, assertion on element',
                             ]
                         ),
                     ]
@@ -694,16 +694,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v13.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v13.xsd'
                     ),
                 ],
                 expected=[
@@ -715,12 +715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v13s"
+                name='d4_3_15v13s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v13.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v13.xml'
                     ),
                     expected=[
                         Expected(
@@ -731,10 +731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v13i"
+                    name='d4_3_15v13i'
                 ),
             ],
-            name="d4_3_15v13",
+            name='d4_3_15v13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -745,7 +745,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on elements ",
+                                'inability to navigate outside the subtree, assertion on elements ',
                             ]
                         ),
                     ]
@@ -753,16 +753,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v14.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v14.xsd'
                     ),
                 ],
                 expected=[
@@ -774,12 +774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v14s"
+                name='d4_3_15v14s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v14.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v14.xml'
                     ),
                     expected=[
                         Expected(
@@ -790,10 +790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v14i"
+                    name='d4_3_15v14i'
                 ),
             ],
-            name="d4_3_15v14",
+            name='d4_3_15v14',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -804,7 +804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on attributes",
+                                'inability to navigate outside the subtree, assertion on attributes',
                             ]
                         ),
                     ]
@@ -812,16 +812,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v15.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v15.xsd'
                     ),
                 ],
                 expected=[
@@ -833,12 +833,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v15s"
+                name='d4_3_15v15s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v15.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v15.xml'
                     ),
                     expected=[
                         Expected(
@@ -849,10 +849,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v15i"
+                    name='d4_3_15v15i'
                 ),
             ],
-            name="d4_3_15v15",
+            name='d4_3_15v15',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -863,7 +863,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition,&#10;          having complexContent, assertions from anySimpleType type. ",
+                                'assertions on a complex type definition,\n          having complexContent, assertions from anySimpleType type. ',
                             ]
                         ),
                     ]
@@ -871,16 +871,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v18.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v18.xsd'
                     ),
                 ],
                 expected=[
@@ -892,12 +892,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v18s"
+                name='d4_3_15v18s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v18.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v18.xml'
                     ),
                     expected=[
                         Expected(
@@ -908,10 +908,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v18i"
+                    name='d4_3_15v18i'
                 ),
             ],
-            name="d4_3_15v18",
+            name='d4_3_15v18',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -922,7 +922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition,&#10;          having simpleContent, assertions from anyAtomicType type.",
+                                'assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type.',
                             ]
                         ),
                     ]
@@ -930,16 +930,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v19.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v19.xsd'
                     ),
                 ],
                 expected=[
@@ -951,12 +951,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v19s"
+                name='d4_3_15v19s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v19.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v19.xml'
                     ),
                     expected=[
                         Expected(
@@ -967,10 +967,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v19i"
+                    name='d4_3_15v19i'
                 ),
             ],
-            name="d4_3_15v19",
+            name='d4_3_15v19',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -981,7 +981,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType",
+                                'naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType',
                             ]
                         ),
                     ]
@@ -989,16 +989,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v21.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v21.xsd'
                     ),
                 ],
                 expected=[
@@ -1010,12 +1010,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v21s"
+                name='d4_3_15v21s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v21.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v21.xml'
                     ),
                     expected=[
                         Expected(
@@ -1026,10 +1026,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v21i"
+                    name='d4_3_15v21i'
                 ),
             ],
-            name="d4_3_15v21",
+            name='d4_3_15v21',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1040,7 +1040,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType ",
+                                'naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType ',
                             ]
                         ),
                     ]
@@ -1048,16 +1048,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v22.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v22.xsd'
                     ),
                 ],
                 expected=[
@@ -1069,12 +1069,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v22s"
+                name='d4_3_15v22s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v22.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v22.xml'
                     ),
                     expected=[
                         Expected(
@@ -1085,10 +1085,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v22i"
+                    name='d4_3_15v22i'
                 ),
             ],
-            name="d4_3_15v22",
+            name='d4_3_15v22',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1099,7 +1099,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType",
+                                'naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType',
                             ]
                         ),
                     ]
@@ -1107,16 +1107,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v23.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v23.xsd'
                     ),
                 ],
                 expected=[
@@ -1128,12 +1128,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v23s"
+                name='d4_3_15v23s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v23.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v23.xml'
                     ),
                     expected=[
                         Expected(
@@ -1144,10 +1144,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v23i"
+                    name='d4_3_15v23i'
                 ),
             ],
-            name="d4_3_15v23",
+            name='d4_3_15v23',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1158,7 +1158,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType",
+                                'naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType',
                             ]
                         ),
                     ]
@@ -1166,16 +1166,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v24.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v24.xsd'
                     ),
                 ],
                 expected=[
@@ -1187,12 +1187,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v24s"
+                name='d4_3_15v24s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v24.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v24.xml'
                     ),
                     expected=[
                         Expected(
@@ -1203,10 +1203,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v24i"
+                    name='d4_3_15v24i'
                 ),
             ],
-            name="d4_3_15v24",
+            name='d4_3_15v24',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1217,7 +1217,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen ",
+                                'naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexTypen ',
                             ]
                         ),
                     ]
@@ -1225,16 +1225,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v25.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v25.xsd'
                     ),
                 ],
                 expected=[
@@ -1246,12 +1246,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v25s"
+                name='d4_3_15v25s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v25.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v25.xml'
                     ),
                     expected=[
                         Expected(
@@ -1262,10 +1262,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v25i"
+                    name='d4_3_15v25i'
                 ),
             ],
-            name="d4_3_15v25",
+            name='d4_3_15v25',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1276,7 +1276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType",
+                                'naive xpathDefaultNamespace(with value ##defaultNamespace) test case in simpleType',
                             ]
                         ),
                     ]
@@ -1284,16 +1284,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v26.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v26.xsd'
                     ),
                 ],
                 expected=[
@@ -1305,12 +1305,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v26s"
+                name='d4_3_15v26s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v26.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v26.xml'
                     ),
                     expected=[
                         Expected(
@@ -1321,10 +1321,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v26i"
+                    name='d4_3_15v26i'
                 ),
             ],
-            name="d4_3_15v26",
+            name='d4_3_15v26',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1335,7 +1335,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##local) test case in complexType ",
+                                'naive xpathDefaultNamespace(with value ##local) test case in complexType ',
                             ]
                         ),
                     ]
@@ -1343,16 +1343,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v27.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v27.xsd'
                     ),
                 ],
                 expected=[
@@ -1364,12 +1364,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v27s"
+                name='d4_3_15v27s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v27.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v27.xml'
                     ),
                     expected=[
                         Expected(
@@ -1380,10 +1380,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v27i"
+                    name='d4_3_15v27i'
                 ),
             ],
-            name="d4_3_15v27",
+            name='d4_3_15v27',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1394,7 +1394,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##local) test case in simpleType ",
+                                'naive xpathDefaultNamespace(with value ##local) test case in simpleType ',
                             ]
                         ),
                     ]
@@ -1402,16 +1402,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v28.xsd"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v28.xsd'
                     ),
                 ],
                 expected=[
@@ -1423,12 +1423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15v28s"
+                name='d4_3_15v28s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D4_3_15/d4_3_15v28.xml"
+                        href='../ibmData/valid/D4_3_15/d4_3_15v28.xml'
                     ),
                     expected=[
                         Expected(
@@ -1439,10 +1439,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15v28i"
+                    name='d4_3_15v28i'
                 ),
             ],
-            name="d4_3_15v28",
+            name='d4_3_15v28',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1453,7 +1453,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Assertions on a complex type definition",
+                                'Assertions on a complex type definition',
                             ]
                         ),
                     ]
@@ -1461,16 +1461,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -1482,12 +1482,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii01s"
+                name='d4_3_15ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -1498,10 +1498,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii01i"
+                    name='d4_3_15ii01i'
                 ),
             ],
-            name="d4_3_15ii01",
+            name='d4_3_15ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1512,7 +1512,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Assertions on a complex type definition",
+                                'Assertions on a complex type definition',
                             ]
                         ),
                     ]
@@ -1520,16 +1520,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -1541,12 +1541,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii02s"
+                name='d4_3_15ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -1557,10 +1557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii02i"
+                    name='d4_3_15ii02i'
                 ),
             ],
-            name="d4_3_15ii02",
+            name='d4_3_15ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1571,7 +1571,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels. ",
+                                'assertions on a complex type definition. this schema has a bigger content model, with assertions at various levels. ',
                             ]
                         ),
                     ]
@@ -1579,16 +1579,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -1600,12 +1600,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii03s"
+                name='d4_3_15ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -1616,10 +1616,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii03i"
+                    name='d4_3_15ii03i'
                 ),
             ],
-            name="d4_3_15ii03",
+            name='d4_3_15ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1630,7 +1630,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition. uses multiple asserts ",
+                                'assertions on a complex type definition. uses multiple asserts ',
                             ]
                         ),
                     ]
@@ -1638,16 +1638,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -1659,12 +1659,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii04s"
+                name='d4_3_15ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -1675,10 +1675,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii04i"
+                    name='d4_3_15ii04i'
                 ),
             ],
-            name="d4_3_15ii04",
+            name='d4_3_15ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1689,7 +1689,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed ",
+                                'assertions on a complex type definition,having complexContent, assertions from both derived and base type must succeed ',
                             ]
                         ),
                     ]
@@ -1697,16 +1697,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -1718,12 +1718,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii06s"
+                name='d4_3_15ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -1734,10 +1734,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii06i"
+                    name='d4_3_15ii06i'
                 ),
             ],
-            name="d4_3_15ii06",
+            name='d4_3_15ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1748,7 +1748,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition having simpleContent ",
+                                'assertions on a complex type definition having simpleContent ',
                             ]
                         ),
                     ]
@@ -1756,16 +1756,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xsd'
                     ),
                 ],
                 expected=[
@@ -1777,12 +1777,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii08s"
+                name='d4_3_15ii08s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii08.xml'
                     ),
                     expected=[
                         Expected(
@@ -1793,10 +1793,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii08i"
+                    name='d4_3_15ii08i'
                 ),
             ],
-            name="d4_3_15ii08",
+            name='d4_3_15ii08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1807,7 +1807,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "ssertions on derived complex type",
+                                'ssertions on derived complex type',
                             ]
                         ),
                     ]
@@ -1815,16 +1815,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xsd'
                     ),
                 ],
                 expected=[
@@ -1836,12 +1836,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii10s"
+                name='d4_3_15ii10s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii10.xml'
                     ),
                     expected=[
                         Expected(
@@ -1852,10 +1852,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii10i"
+                    name='d4_3_15ii10i'
                 ),
             ],
-            name="d4_3_15ii10",
+            name='d4_3_15ii10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1866,7 +1866,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "dynamic context of the XPath expression, assertion on attribute",
+                                'dynamic context of the XPath expression, assertion on attribute',
                             ]
                         ),
                     ]
@@ -1874,16 +1874,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xsd'
                     ),
                 ],
                 expected=[
@@ -1895,12 +1895,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii11s"
+                name='d4_3_15ii11s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii11.xml'
                     ),
                     expected=[
                         Expected(
@@ -1911,10 +1911,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii11i"
+                    name='d4_3_15ii11i'
                 ),
             ],
-            name="d4_3_15ii11",
+            name='d4_3_15ii11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1925,7 +1925,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on elements with derivation by extension",
+                                'inability to navigate outside the subtree, assertion on elements with derivation by extension',
                             ]
                         ),
                     ]
@@ -1933,16 +1933,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xsd'
                     ),
                 ],
                 expected=[
@@ -1954,12 +1954,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii12s"
+                name='d4_3_15ii12s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii12.xml'
                     ),
                     expected=[
                         Expected(
@@ -1970,10 +1970,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii12i"
+                    name='d4_3_15ii12i'
                 ),
             ],
-            name="d4_3_15ii12",
+            name='d4_3_15ii12',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1984,7 +1984,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "dynamic context of the XPath expression, assertion on element",
+                                'dynamic context of the XPath expression, assertion on element',
                             ]
                         ),
                     ]
@@ -1992,16 +1992,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xsd'
                     ),
                 ],
                 expected=[
@@ -2013,12 +2013,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii13s"
+                name='d4_3_15ii13s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii13.xml'
                     ),
                     expected=[
                         Expected(
@@ -2029,10 +2029,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii13i"
+                    name='d4_3_15ii13i'
                 ),
             ],
-            name="d4_3_15ii13",
+            name='d4_3_15ii13',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2043,7 +2043,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on elements",
+                                'inability to navigate outside the subtree, assertion on elements',
                             ]
                         ),
                     ]
@@ -2051,16 +2051,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xsd'
                     ),
                 ],
                 expected=[
@@ -2072,12 +2072,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii14s"
+                name='d4_3_15ii14s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii14.xml'
                     ),
                     expected=[
                         Expected(
@@ -2088,10 +2088,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii14i"
+                    name='d4_3_15ii14i'
                 ),
             ],
-            name="d4_3_15ii14",
+            name='d4_3_15ii14',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2102,7 +2102,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on attributes ",
+                                'inability to navigate outside the subtree, assertion on attributes ',
                             ]
                         ),
                     ]
@@ -2110,16 +2110,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xsd'
                     ),
                 ],
                 expected=[
@@ -2131,12 +2131,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii15s"
+                name='d4_3_15ii15s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii15.xml'
                     ),
                     expected=[
                         Expected(
@@ -2147,10 +2147,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii15i"
+                    name='d4_3_15ii15i'
                 ),
             ],
-            name="d4_3_15ii15",
+            name='d4_3_15ii15',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2161,7 +2161,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "inability to navigate outside the subtree, assertion on elements with derivation by extension ",
+                                'inability to navigate outside the subtree, assertion on elements with derivation by extension ',
                             ]
                         ),
                     ]
@@ -2169,16 +2169,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xsd'
                     ),
                 ],
                 expected=[
@@ -2190,12 +2190,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii17s"
+                name='d4_3_15ii17s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii17.xml'
                     ),
                     expected=[
                         Expected(
@@ -2206,10 +2206,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii17i"
+                    name='d4_3_15ii17i'
                 ),
             ],
-            name="d4_3_15ii17",
+            name='d4_3_15ii17',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2220,7 +2220,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition,         having complexContent, assertions from anySimpleType type",
+                                'assertions on a complex type definition,         having complexContent, assertions from anySimpleType type',
                             ]
                         ),
                     ]
@@ -2228,16 +2228,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xsd'
                     ),
                 ],
                 expected=[
@@ -2249,12 +2249,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii18s"
+                name='d4_3_15ii18s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii18.xml'
                     ),
                     expected=[
                         Expected(
@@ -2265,10 +2265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii18i"
+                    name='d4_3_15ii18i'
                 ),
             ],
-            name="d4_3_15ii18",
+            name='d4_3_15ii18',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2279,7 +2279,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a complex type definition,&#10;          having simpleContent, assertions from anyAtomicType type.",
+                                'assertions on a complex type definition,\n          having simpleContent, assertions from anyAtomicType type.',
                             ]
                         ),
                     ]
@@ -2287,16 +2287,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xsd'
                     ),
                 ],
                 expected=[
@@ -2308,12 +2308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii19s"
+                name='d4_3_15ii19s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii19.xml'
                     ),
                     expected=[
                         Expected(
@@ -2324,10 +2324,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii19i"
+                    name='d4_3_15ii19i'
                 ),
             ],
-            name="d4_3_15ii19",
+            name='d4_3_15ii19',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2338,7 +2338,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertions on a simple type definition.",
+                                'assertions on a simple type definition.',
                             ]
                         ),
                     ]
@@ -2346,16 +2346,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xsd'
                     ),
                 ],
                 expected=[
@@ -2367,12 +2367,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii20s"
+                name='d4_3_15ii20s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii20.xml'
                     ),
                     expected=[
                         Expected(
@@ -2383,10 +2383,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii20i"
+                    name='d4_3_15ii20i'
                 ),
             ],
-            name="d4_3_15ii20",
+            name='d4_3_15ii20',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2397,7 +2397,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType",
+                                'naive xpathDefaultNamespace(with value ##targetNamespace) test case in complexType',
                             ]
                         ),
                     ]
@@ -2405,16 +2405,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xsd'
                     ),
                 ],
                 expected=[
@@ -2426,12 +2426,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii21s"
+                name='d4_3_15ii21s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii21.xml'
                     ),
                     expected=[
                         Expected(
@@ -2442,10 +2442,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii21i"
+                    name='d4_3_15ii21i'
                 ),
             ],
-            name="d4_3_15ii21",
+            name='d4_3_15ii21',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2456,7 +2456,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType",
+                                'naive xpathDefaultNamespace(with value ##targetNamespace) test case in simpleType',
                             ]
                         ),
                     ]
@@ -2464,16 +2464,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xsd'
                     ),
                 ],
                 expected=[
@@ -2485,12 +2485,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii22s"
+                name='d4_3_15ii22s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii22.xml'
                     ),
                     expected=[
                         Expected(
@@ -2501,10 +2501,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii22i"
+                    name='d4_3_15ii22i'
                 ),
             ],
-            name="d4_3_15ii22",
+            name='d4_3_15ii22',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2515,7 +2515,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType ",
+                                'naive xpathDefaultNamespace (exact uri of targetNamespace) test case in complexType ',
                             ]
                         ),
                     ]
@@ -2523,16 +2523,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xsd'
                     ),
                 ],
                 expected=[
@@ -2544,12 +2544,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii23s"
+                name='d4_3_15ii23s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii23.xml'
                     ),
                     expected=[
                         Expected(
@@ -2560,10 +2560,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii23i"
+                    name='d4_3_15ii23i'
                 ),
             ],
-            name="d4_3_15ii23",
+            name='d4_3_15ii23',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2574,7 +2574,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType",
+                                'naive xpathDefaultNamespace(exact uri of targetNamespace) test case in simpleType',
                             ]
                         ),
                     ]
@@ -2582,16 +2582,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xsd'
                     ),
                 ],
                 expected=[
@@ -2603,12 +2603,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii24s"
+                name='d4_3_15ii24s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii24.xml'
                     ),
                     expected=[
                         Expected(
@@ -2619,10 +2619,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii24i"
+                    name='d4_3_15ii24i'
                 ),
             ],
-            name="d4_3_15ii24",
+            name='d4_3_15ii24',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2633,7 +2633,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType",
+                                'naive xpathDefaultNamespace(with value ##defaultNamespace) test case in complexType',
                             ]
                         ),
                     ]
@@ -2641,16 +2641,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xsd'
                     ),
                 ],
                 expected=[
@@ -2662,12 +2662,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii25s"
+                name='d4_3_15ii25s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii25.xml'
                     ),
                     expected=[
                         Expected(
@@ -2678,10 +2678,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii25i"
+                    name='d4_3_15ii25i'
                 ),
             ],
-            name="d4_3_15ii25",
+            name='d4_3_15ii25',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2692,7 +2692,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "naive xpathDefaultNamespace(with value ##local) test case in complexType ",
+                                'naive xpathDefaultNamespace(with value ##local) test case in complexType ',
                             ]
                         ),
                     ]
@@ -2700,16 +2700,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xsd'
                     ),
                 ],
                 expected=[
@@ -2721,12 +2721,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii27s"
+                name='d4_3_15ii27s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii27.xml'
                     ),
                     expected=[
                         Expected(
@@ -2737,10 +2737,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii27i"
+                    name='d4_3_15ii27i'
                 ),
             ],
-            name="d4_3_15ii27",
+            name='d4_3_15ii27',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2751,7 +2751,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType",
+                                'xpathDefaultNamespace, assertion on different namespace test case in simpleType/complexType',
                             ]
                         ),
                     ]
@@ -2759,19 +2759,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29b.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii29b.xsd'
                     ),
                 ],
                 expected=[
@@ -2783,12 +2783,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii29s"
+                name='d4_3_15ii29s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii29.xml'
                     ),
                     expected=[
                         Expected(
@@ -2799,10 +2799,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii29i"
+                    name='d4_3_15ii29i'
                 ),
             ],
-            name="d4_3_15ii29",
+            name='d4_3_15ii29',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2813,7 +2813,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level",
+                                'assertion on different namespace test case in simpleType/complexType impact of xpathDefaultNamespace locally and at schema level',
                             ]
                         ),
                     ]
@@ -2821,19 +2821,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xsd'
                     ),
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30b.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii30b.xsd'
                     ),
                 ],
                 expected=[
@@ -2845,12 +2845,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15ii30s"
+                name='d4_3_15ii30s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii30.xml'
                     ),
                     expected=[
                         Expected(
@@ -2861,10 +2861,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii30i"
+                    name='d4_3_15ii30i'
                 ),
             ],
-            name="d4_3_15ii30",
+            name='d4_3_15ii30',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2883,16 +2883,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xsd'
                     ),
                 ],
                 expected=[
@@ -2904,12 +2904,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 8, 26)
                 ),
-                name="d4_3_15ii31s"
+                name='d4_3_15ii31s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii31.xml'
                     ),
                     expected=[
                         Expected(
@@ -2920,10 +2920,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii31i"
+                    name='d4_3_15ii31i'
                 ),
             ],
-            name="d4_3_15ii31",
+            name='d4_3_15ii31',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2942,16 +2942,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xsd"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xsd'
                     ),
                 ],
                 expected=[
@@ -2963,12 +2963,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 8, 26)
                 ),
-                name="d4_3_15ii32s"
+                name='d4_3_15ii32s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xml"
+                        href='../ibmData/instance_invalid/D4_3_15/d4_3_15ii32.xml'
                     ),
                     expected=[
                         Expected(
@@ -2979,10 +2979,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d4_3_15ii32i"
+                    name='d4_3_15ii32i'
                 ),
             ],
-            name="d4_3_15ii32",
+            name='d4_3_15ii32',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -2993,7 +2993,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType",
+                                'errors in XPath evaluation are treated as a false result, assertion in complexContent in complexType',
                             ]
                         ),
                     ]
@@ -3001,16 +3001,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#rf-assertions"
+                    href='http://www.w3.org/TR/xmlschema11-2/#rf-assertions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D4_3_15/d4_3_15si04.xsd"
+                        href='../ibmData/schema_invalid/D4_3_15/d4_3_15si04.xsd'
                     ),
                 ],
                 expected=[
@@ -3022,17 +3022,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d4_3_15si04s"
+                name='d4_3_15si04s'
             ),
-            name="d4_3_15si04",
+            name='d4_3_15si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="assertion",
+    contributor='IBM',
+    name='assertion',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

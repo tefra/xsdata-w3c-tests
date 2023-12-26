@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength5(
-    value="Provide_the_be.Sun_and-an.involved_In:and-is_prominent-of-chains"
+    value='Provide_the_be.Sun_and-an.involved_In:and-is_prominent-of-chains'
 )

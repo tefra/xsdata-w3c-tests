@@ -16,7 +16,7 @@ class Base:
             "namespace": "http://xsdtesting",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     e3: List[object] = field(
         default_factory=list,
@@ -26,7 +26,7 @@ class Base:
             "min_occurs": 1,
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc(Base):
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

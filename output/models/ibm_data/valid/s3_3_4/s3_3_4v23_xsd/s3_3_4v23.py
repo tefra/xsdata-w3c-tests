@@ -13,19 +13,19 @@ class Ids:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     id1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     id2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

@@ -24,7 +24,7 @@ class Doc:
                     "pattern": r"\c[\c\d]*",
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -33,5 +33,5 @@ class Doc:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

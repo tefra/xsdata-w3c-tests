@@ -13,18 +13,18 @@ class Section:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     section: List["Section"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     nr: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )

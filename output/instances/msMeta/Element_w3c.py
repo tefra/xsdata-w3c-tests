@@ -24,7 +24,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Empty Element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Empty Element',
                             ]
                         ),
                     ]
@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA001.xsd"
+                        href='../msData/element/elemA001.xsd'
                     ),
                 ],
                 expected=[
@@ -50,9 +50,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA001"
+                name='elemA001'
             ),
-            name="elemA001"
+            name='elemA001'
         ),
         TestGroup(
             annotation=[
@@ -68,13 +68,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA002.xsd"
+                        href='../msData/element/elemA002.xsd'
                     ),
                 ],
                 expected=[
@@ -86,9 +86,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA002"
+                name='elemA002'
             ),
-            name="elemA002"
+            name='elemA002'
         ),
         TestGroup(
             annotation=[
@@ -104,13 +104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA003.xsd"
+                        href='../msData/element/elemA003.xsd'
                     ),
                 ],
                 expected=[
@@ -122,9 +122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA003"
+                name='elemA003'
             ),
-            name="elemA003"
+            name='elemA003'
         ),
         TestGroup(
             annotation=[
@@ -140,13 +140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA004.xsd"
+                        href='../msData/element/elemA004.xsd'
                     ),
                 ],
                 expected=[
@@ -158,9 +158,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA004"
+                name='elemA004'
             ),
-            name="elemA004"
+            name='elemA004'
         ),
         TestGroup(
             annotation=[
@@ -176,13 +176,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA005.xsd"
+                        href='../msData/element/elemA005.xsd'
                     ),
                 ],
                 expected=[
@@ -194,9 +194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA005"
+                name='elemA005'
             ),
-            name="elemA005"
+            name='elemA005'
         ),
         TestGroup(
             annotation=[
@@ -204,7 +204,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Declare a dupe element with the same name",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Declare a dupe element with the same name',
                             ]
                         ),
                     ]
@@ -212,13 +212,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA006.xsd"
+                        href='../msData/element/elemA006.xsd'
                     ),
                 ],
                 expected=[
@@ -230,9 +230,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA006"
+                name='elemA006'
             ),
-            name="elemA006"
+            name='elemA006'
         ),
         TestGroup(
             annotation=[
@@ -240,7 +240,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Name the element with an existing non-element name",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Name the element with an existing non-element name',
                             ]
                         ),
                     ]
@@ -248,13 +248,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA007.xsd"
+                        href='../msData/element/elemA007.xsd'
                     ),
                 ],
                 expected=[
@@ -266,9 +266,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA007"
+                name='elemA007'
             ),
-            name="elemA007"
+            name='elemA007'
         ),
         TestGroup(
             annotation=[
@@ -284,13 +284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA009.xsd"
+                        href='../msData/element/elemA009.xsd'
                     ),
                 ],
                 expected=[
@@ -302,9 +302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA009"
+                name='elemA009'
             ),
-            name="elemA009"
+            name='elemA009'
         ),
         TestGroup(
             annotation=[
@@ -320,13 +320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA010.xsd"
+                        href='../msData/element/elemA010.xsd'
                     ),
                 ],
                 expected=[
@@ -338,9 +338,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA010"
+                name='elemA010'
             ),
-            name="elemA010"
+            name='elemA010'
         ),
         TestGroup(
             annotation=[
@@ -356,13 +356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA011.xsd"
+                        href='../msData/element/elemA011.xsd'
                     ),
                 ],
                 expected=[
@@ -374,9 +374,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA011"
+                name='elemA011'
             ),
-            name="elemA011"
+            name='elemA011'
         ),
         TestGroup(
             annotation=[
@@ -392,13 +392,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA012.xsd"
+                        href='../msData/element/elemA012.xsd'
                     ),
                 ],
                 expected=[
@@ -410,9 +410,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA012"
+                name='elemA012'
             ),
-            name="elemA012"
+            name='elemA012'
         ),
         TestGroup(
             annotation=[
@@ -428,13 +428,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA013.xsd"
+                        href='../msData/element/elemA013.xsd'
                     ),
                 ],
                 expected=[
@@ -446,9 +446,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA013"
+                name='elemA013'
             ),
-            name="elemA013"
+            name='elemA013'
         ),
         TestGroup(
             annotation=[
@@ -464,13 +464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA014.xsd"
+                        href='../msData/element/elemA014.xsd'
                     ),
                 ],
                 expected=[
@@ -482,9 +482,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA014"
+                name='elemA014'
             ),
-            name="elemA014"
+            name='elemA014'
         ),
         TestGroup(
             annotation=[
@@ -500,13 +500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA015.xsd"
+                        href='../msData/element/elemA015.xsd'
                     ),
                 ],
                 expected=[
@@ -518,9 +518,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA015"
+                name='elemA015'
             ),
-            name="elemA015"
+            name='elemA015'
         ),
         TestGroup(
             annotation=[
@@ -536,13 +536,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA016.xsd"
+                        href='../msData/element/elemA016.xsd'
                     ),
                 ],
                 expected=[
@@ -554,9 +554,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA016"
+                name='elemA016'
             ),
-            name="elemA016"
+            name='elemA016'
         ),
         TestGroup(
             annotation=[
@@ -572,13 +572,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemA017.xsd"
+                        href='../msData/element/elemA017.xsd'
                     ),
                 ],
                 expected=[
@@ -590,9 +590,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemA017"
+                name='elemA017'
             ),
-            name="elemA017"
+            name='elemA017'
         ),
         TestGroup(
             annotation=[
@@ -608,13 +608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB001.xsd"
+                        href='../msData/element/elemB001.xsd'
                     ),
                 ],
                 expected=[
@@ -626,9 +626,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB001"
+                name='elemB001'
             ),
-            name="elemB001"
+            name='elemB001'
         ),
         TestGroup(
             annotation=[
@@ -644,13 +644,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB002.xsd"
+                        href='../msData/element/elemB002.xsd'
                     ),
                 ],
                 expected=[
@@ -662,9 +662,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB002"
+                name='elemB002'
             ),
-            name="elemB002"
+            name='elemB002'
         ),
         TestGroup(
             annotation=[
@@ -680,13 +680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB003.xsd"
+                        href='../msData/element/elemB003.xsd'
                     ),
                 ],
                 expected=[
@@ -698,9 +698,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB003"
+                name='elemB003'
             ),
-            name="elemB003"
+            name='elemB003'
         ),
         TestGroup(
             annotation=[
@@ -716,13 +716,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB004.xsd"
+                        href='../msData/element/elemB004.xsd'
                     ),
                 ],
                 expected=[
@@ -734,9 +734,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB004"
+                name='elemB004'
             ),
-            name="elemB004"
+            name='elemB004'
         ),
         TestGroup(
             annotation=[
@@ -752,13 +752,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB005.xsd"
+                        href='../msData/element/elemB005.xsd'
                     ),
                 ],
                 expected=[
@@ -770,9 +770,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB005"
+                name='elemB005'
             ),
-            name="elemB005"
+            name='elemB005'
         ),
         TestGroup(
             annotation=[
@@ -788,13 +788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB006.xsd"
+                        href='../msData/element/elemB006.xsd'
                     ),
                 ],
                 expected=[
@@ -806,9 +806,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB006"
+                name='elemB006'
             ),
-            name="elemB006"
+            name='elemB006'
         ),
         TestGroup(
             annotation=[
@@ -824,13 +824,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB007.xsd"
+                        href='../msData/element/elemB007.xsd'
                     ),
                 ],
                 expected=[
@@ -842,9 +842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB007"
+                name='elemB007'
             ),
-            name="elemB007"
+            name='elemB007'
         ),
         TestGroup(
             annotation=[
@@ -860,13 +860,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB008.xsd"
+                        href='../msData/element/elemB008.xsd'
                     ),
                 ],
                 expected=[
@@ -878,9 +878,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB008"
+                name='elemB008'
             ),
-            name="elemB008"
+            name='elemB008'
         ),
         TestGroup(
             annotation=[
@@ -896,13 +896,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB009.xsd"
+                        href='../msData/element/elemB009.xsd'
                     ),
                 ],
                 expected=[
@@ -914,9 +914,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB009"
+                name='elemB009'
             ),
-            name="elemB009"
+            name='elemB009'
         ),
         TestGroup(
             annotation=[
@@ -932,13 +932,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemB010.xsd"
+                        href='../msData/element/elemB010.xsd'
                     ),
                 ],
                 expected=[
@@ -950,9 +950,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemB010"
+                name='elemB010'
             ),
-            name="elemB010"
+            name='elemB010'
         ),
         TestGroup(
             annotation=[
@@ -968,13 +968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC001.xsd"
+                        href='../msData/element/elemC001.xsd'
                     ),
                 ],
                 expected=[
@@ -986,9 +986,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC001"
+                name='elemC001'
             ),
-            name="elemC001"
+            name='elemC001'
         ),
         TestGroup(
             annotation=[
@@ -1004,13 +1004,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC002.xsd"
+                        href='../msData/element/elemC002.xsd'
                     ),
                 ],
                 expected=[
@@ -1022,9 +1022,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC002"
+                name='elemC002'
             ),
-            name="elemC002"
+            name='elemC002'
         ),
         TestGroup(
             annotation=[
@@ -1040,13 +1040,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC003.xsd"
+                        href='../msData/element/elemC003.xsd'
                     ),
                 ],
                 expected=[
@@ -1058,9 +1058,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC003"
+                name='elemC003'
             ),
-            name="elemC003"
+            name='elemC003'
         ),
         TestGroup(
             annotation=[
@@ -1076,13 +1076,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC004.xsd"
+                        href='../msData/element/elemC004.xsd'
                     ),
                 ],
                 expected=[
@@ -1094,9 +1094,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC004"
+                name='elemC004'
             ),
-            name="elemC004"
+            name='elemC004'
         ),
         TestGroup(
             annotation=[
@@ -1112,13 +1112,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC005.xsd"
+                        href='../msData/element/elemC005.xsd'
                     ),
                 ],
                 expected=[
@@ -1130,9 +1130,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC005"
+                name='elemC005'
             ),
-            name="elemC005"
+            name='elemC005'
         ),
         TestGroup(
             annotation=[
@@ -1148,13 +1148,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC006.xsd"
+                        href='../msData/element/elemC006.xsd'
                     ),
                 ],
                 expected=[
@@ -1166,9 +1166,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC006"
+                name='elemC006'
             ),
-            name="elemC006"
+            name='elemC006'
         ),
         TestGroup(
             annotation=[
@@ -1184,13 +1184,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC007.xsd"
+                        href='../msData/element/elemC007.xsd'
                     ),
                 ],
                 expected=[
@@ -1202,9 +1202,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC007"
+                name='elemC007'
             ),
-            name="elemC007"
+            name='elemC007'
         ),
         TestGroup(
             annotation=[
@@ -1220,13 +1220,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC008.xsd"
+                        href='../msData/element/elemC008.xsd'
                     ),
                 ],
                 expected=[
@@ -1238,9 +1238,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC008"
+                name='elemC008'
             ),
-            name="elemC008"
+            name='elemC008'
         ),
         TestGroup(
             annotation=[
@@ -1256,13 +1256,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC009.xsd"
+                        href='../msData/element/elemC009.xsd'
                     ),
                 ],
                 expected=[
@@ -1274,9 +1274,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC009"
+                name='elemC009'
             ),
-            name="elemC009"
+            name='elemC009'
         ),
         TestGroup(
             annotation=[
@@ -1292,13 +1292,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC010.xsd"
+                        href='../msData/element/elemC010.xsd'
                     ),
                 ],
                 expected=[
@@ -1310,9 +1310,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC010"
+                name='elemC010'
             ),
-            name="elemC010"
+            name='elemC010'
         ),
         TestGroup(
             annotation=[
@@ -1328,13 +1328,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC011.xsd"
+                        href='../msData/element/elemC011.xsd'
                     ),
                 ],
                 expected=[
@@ -1346,9 +1346,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC011"
+                name='elemC011'
             ),
-            name="elemC011"
+            name='elemC011'
         ),
         TestGroup(
             annotation=[
@@ -1364,13 +1364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC012.xsd"
+                        href='../msData/element/elemC012.xsd'
                     ),
                 ],
                 expected=[
@@ -1382,9 +1382,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC012"
+                name='elemC012'
             ),
-            name="elemC012"
+            name='elemC012'
         ),
         TestGroup(
             annotation=[
@@ -1400,13 +1400,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC013.xsd"
+                        href='../msData/element/elemC013.xsd'
                     ),
                 ],
                 expected=[
@@ -1418,9 +1418,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC013"
+                name='elemC013'
             ),
-            name="elemC013"
+            name='elemC013'
         ),
         TestGroup(
             annotation=[
@@ -1436,13 +1436,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC014.xsd"
+                        href='../msData/element/elemC014.xsd'
                     ),
                 ],
                 expected=[
@@ -1454,9 +1454,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC014"
+                name='elemC014'
             ),
-            name="elemC014"
+            name='elemC014'
         ),
         TestGroup(
             annotation=[
@@ -1472,13 +1472,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC015.xsd"
+                        href='../msData/element/elemC015.xsd'
                     ),
                 ],
                 expected=[
@@ -1490,9 +1490,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC015"
+                name='elemC015'
             ),
-            name="elemC015"
+            name='elemC015'
         ),
         TestGroup(
             annotation=[
@@ -1508,13 +1508,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC016.xsd"
+                        href='../msData/element/elemC016.xsd'
                     ),
                 ],
                 expected=[
@@ -1526,9 +1526,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC016"
+                name='elemC016'
             ),
-            name="elemC016"
+            name='elemC016'
         ),
         TestGroup(
             annotation=[
@@ -1544,13 +1544,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC017.xsd"
+                        href='../msData/element/elemC017.xsd'
                     ),
                 ],
                 expected=[
@@ -1562,9 +1562,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC017"
+                name='elemC017'
             ),
-            name="elemC017"
+            name='elemC017'
         ),
         TestGroup(
             annotation=[
@@ -1580,13 +1580,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC018.xsd"
+                        href='../msData/element/elemC018.xsd'
                     ),
                 ],
                 expected=[
@@ -1598,9 +1598,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC018"
+                name='elemC018'
             ),
-            name="elemC018"
+            name='elemC018'
         ),
         TestGroup(
             annotation=[
@@ -1616,13 +1616,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemC020.xsd"
+                        href='../msData/element/elemC020.xsd'
                     ),
                 ],
                 expected=[
@@ -1634,9 +1634,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemC020"
+                name='elemC020'
             ),
-            name="elemC020"
+            name='elemC020'
         ),
         TestGroup(
             annotation=[
@@ -1652,13 +1652,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD001.xsd"
+                        href='../msData/element/elemD001.xsd'
                     ),
                 ],
                 expected=[
@@ -1670,9 +1670,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD001"
+                name='elemD001'
             ),
-            name="elemD001"
+            name='elemD001'
         ),
         TestGroup(
             annotation=[
@@ -1688,13 +1688,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD002.xsd"
+                        href='../msData/element/elemD002.xsd'
                     ),
                 ],
                 expected=[
@@ -1706,9 +1706,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD002"
+                name='elemD002'
             ),
-            name="elemD002"
+            name='elemD002'
         ),
         TestGroup(
             annotation=[
@@ -1724,13 +1724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD003.xsd"
+                        href='../msData/element/elemD003.xsd'
                     ),
                 ],
                 expected=[
@@ -1742,9 +1742,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD003"
+                name='elemD003'
             ),
-            name="elemD003"
+            name='elemD003'
         ),
         TestGroup(
             annotation=[
@@ -1752,7 +1752,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type is complexType and default is present",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type is complexType and default is present',
                             ]
                         ),
                     ]
@@ -1760,13 +1760,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD004.xsd"
+                        href='../msData/element/elemD004.xsd'
                     ),
                 ],
                 expected=[
@@ -1778,9 +1778,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD004"
+                name='elemD004'
             ),
-            name="elemD004"
+            name='elemD004'
         ),
         TestGroup(
             annotation=[
@@ -1796,13 +1796,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD005.xsd"
+                        href='../msData/element/elemD005.xsd'
                     ),
                 ],
                 expected=[
@@ -1814,9 +1814,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD005"
+                name='elemD005'
             ),
-            name="elemD005"
+            name='elemD005'
         ),
         TestGroup(
             annotation=[
@@ -1832,13 +1832,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemD006.xsd"
+                        href='../msData/element/elemD006.xsd'
                     ),
                 ],
                 expected=[
@@ -1850,9 +1850,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemD006"
+                name='elemD006'
             ),
-            name="elemD006"
+            name='elemD006'
         ),
         TestGroup(
             annotation=[
@@ -1865,7 +1865,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Tests were not intended to test regex, so we fixed the instances",
+                                'Tests were not intended to test regex, so we fixed the instances',
                             ]
                         ),
                     ]
@@ -1873,13 +1873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE001.xsd"
+                        href='../msData/element/elemE001.xsd'
                     ),
                 ],
                 expected=[
@@ -1890,22 +1890,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4055"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4055'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4055"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4055'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemE001"
+                name='elemE001'
             ),
-            name="elemE001"
+            name='elemE001'
         ),
         TestGroup(
             annotation=[
@@ -1918,7 +1918,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See 4010 message 2 -- schema repaired",
+                                'See 4010 message 2 -- schema repaired',
                             ]
                         ),
                     ]
@@ -1926,13 +1926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE002.xsd"
+                        href='../msData/element/elemE002.xsd'
                     ),
                 ],
                 expected=[
@@ -1943,22 +1943,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 15),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemE002"
+                name='elemE002'
             ),
-            name="elemE002"
+            name='elemE002'
         ),
         TestGroup(
             annotation=[
@@ -1971,7 +1971,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See 4010 message 2 -- schema repaired",
+                                'See 4010 message 2 -- schema repaired',
                             ]
                         ),
                     ]
@@ -1979,13 +1979,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE003.xsd"
+                        href='../msData/element/elemE003.xsd'
                     ),
                 ],
                 expected=[
@@ -1996,22 +1996,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 15),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemE003"
+                name='elemE003'
             ),
-            name="elemE003"
+            name='elemE003'
         ),
         TestGroup(
             annotation=[
@@ -2024,7 +2024,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See 4010 message 2 -- schema repaired",
+                                'See 4010 message 2 -- schema repaired',
                             ]
                         ),
                     ]
@@ -2032,13 +2032,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE004.xsd"
+                        href='../msData/element/elemE004.xsd'
                     ),
                 ],
                 expected=[
@@ -2049,22 +2049,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 15),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemE004"
+                name='elemE004'
             ),
-            name="elemE004"
+            name='elemE004'
         ),
         TestGroup(
             annotation=[
@@ -2077,7 +2077,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See 4010 message 2 -- schema repaired",
+                                'See 4010 message 2 -- schema repaired',
                             ]
                         ),
                     ]
@@ -2085,13 +2085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE005.xsd"
+                        href='../msData/element/elemE005.xsd'
                     ),
                 ],
                 expected=[
@@ -2102,22 +2102,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 15),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4010'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemE005"
+                name='elemE005'
             ),
-            name="elemE005"
+            name='elemE005'
         ),
         TestGroup(
             annotation=[
@@ -2133,13 +2133,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE006.xsd"
+                        href='../msData/element/elemE006.xsd'
                     ),
                 ],
                 expected=[
@@ -2151,9 +2151,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemE006"
+                name='elemE006'
             ),
-            name="elemE006"
+            name='elemE006'
         ),
         TestGroup(
             annotation=[
@@ -2169,13 +2169,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE007.xsd"
+                        href='../msData/element/elemE007.xsd'
                     ),
                 ],
                 expected=[
@@ -2187,9 +2187,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemE007"
+                name='elemE007'
             ),
-            name="elemE007"
+            name='elemE007'
         ),
         TestGroup(
             annotation=[
@@ -2205,13 +2205,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE008.xsd"
+                        href='../msData/element/elemE008.xsd'
                     ),
                 ],
                 expected=[
@@ -2223,9 +2223,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemE008"
+                name='elemE008'
             ),
-            name="elemE008"
+            name='elemE008'
         ),
         TestGroup(
             annotation=[
@@ -2241,13 +2241,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemE009.xsd"
+                        href='../msData/element/elemE009.xsd'
                     ),
                 ],
                 expected=[
@@ -2259,9 +2259,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemE009"
+                name='elemE009'
             ),
-            name="elemE009"
+            name='elemE009'
         ),
         TestGroup(
             annotation=[
@@ -2277,13 +2277,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF001.xsd"
+                        href='../msData/element/elemF001.xsd'
                     ),
                 ],
                 expected=[
@@ -2295,9 +2295,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF001"
+                name='elemF001'
             ),
-            name="elemF001"
+            name='elemF001'
         ),
         TestGroup(
             annotation=[
@@ -2313,13 +2313,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF002.xsd"
+                        href='../msData/element/elemF002.xsd'
                     ),
                 ],
                 expected=[
@@ -2331,9 +2331,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF002"
+                name='elemF002'
             ),
-            name="elemF002"
+            name='elemF002'
         ),
         TestGroup(
             annotation=[
@@ -2349,13 +2349,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF003.xsd"
+                        href='../msData/element/elemF003.xsd'
                     ),
                 ],
                 expected=[
@@ -2367,9 +2367,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF003"
+                name='elemF003'
             ),
-            name="elemF003"
+            name='elemF003'
         ),
         TestGroup(
             annotation=[
@@ -2385,13 +2385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF004.xsd"
+                        href='../msData/element/elemF004.xsd'
                     ),
                 ],
                 expected=[
@@ -2403,9 +2403,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF004"
+                name='elemF004'
             ),
-            name="elemF004"
+            name='elemF004'
         ),
         TestGroup(
             annotation=[
@@ -2421,13 +2421,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF005.xsd"
+                        href='../msData/element/elemF005.xsd'
                     ),
                 ],
                 expected=[
@@ -2439,9 +2439,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF005"
+                name='elemF005'
             ),
-            name="elemF005"
+            name='elemF005'
         ),
         TestGroup(
             annotation=[
@@ -2457,13 +2457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF006.xsd"
+                        href='../msData/element/elemF006.xsd'
                     ),
                 ],
                 expected=[
@@ -2475,9 +2475,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF006"
+                name='elemF006'
             ),
-            name="elemF006"
+            name='elemF006'
         ),
         TestGroup(
             annotation=[
@@ -2493,13 +2493,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF007.xsd"
+                        href='../msData/element/elemF007.xsd'
                     ),
                 ],
                 expected=[
@@ -2511,9 +2511,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF007"
+                name='elemF007'
             ),
-            name="elemF007"
+            name='elemF007'
         ),
         TestGroup(
             annotation=[
@@ -2529,13 +2529,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF008.xsd"
+                        href='../msData/element/elemF008.xsd'
                     ),
                 ],
                 expected=[
@@ -2547,9 +2547,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF008"
+                name='elemF008'
             ),
-            name="elemF008"
+            name='elemF008'
         ),
         TestGroup(
             annotation=[
@@ -2565,13 +2565,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF009.xsd"
+                        href='../msData/element/elemF009.xsd'
                     ),
                 ],
                 expected=[
@@ -2583,9 +2583,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF009"
+                name='elemF009'
             ),
-            name="elemF009"
+            name='elemF009'
         ),
         TestGroup(
             annotation=[
@@ -2601,13 +2601,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF010.xsd"
+                        href='../msData/element/elemF010.xsd'
                     ),
                 ],
                 expected=[
@@ -2619,9 +2619,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF010"
+                name='elemF010'
             ),
-            name="elemF010"
+            name='elemF010'
         ),
         TestGroup(
             annotation=[
@@ -2637,13 +2637,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF011.xsd"
+                        href='../msData/element/elemF011.xsd'
                     ),
                 ],
                 expected=[
@@ -2655,9 +2655,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF011"
+                name='elemF011'
             ),
-            name="elemF011"
+            name='elemF011'
         ),
         TestGroup(
             annotation=[
@@ -2673,13 +2673,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF012.xsd"
+                        href='../msData/element/elemF012.xsd'
                     ),
                 ],
                 expected=[
@@ -2691,9 +2691,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF012"
+                name='elemF012'
             ),
-            name="elemF012"
+            name='elemF012'
         ),
         TestGroup(
             annotation=[
@@ -2709,13 +2709,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF013.xsd"
+                        href='../msData/element/elemF013.xsd'
                     ),
                 ],
                 expected=[
@@ -2727,9 +2727,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF013"
+                name='elemF013'
             ),
-            name="elemF013"
+            name='elemF013'
         ),
         TestGroup(
             annotation=[
@@ -2745,13 +2745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF014.xsd"
+                        href='../msData/element/elemF014.xsd'
                     ),
                 ],
                 expected=[
@@ -2763,9 +2763,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF014"
+                name='elemF014'
             ),
-            name="elemF014"
+            name='elemF014'
         ),
         TestGroup(
             annotation=[
@@ -2781,13 +2781,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF015.xsd"
+                        href='../msData/element/elemF015.xsd'
                     ),
                 ],
                 expected=[
@@ -2799,9 +2799,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF015"
+                name='elemF015'
             ),
-            name="elemF015"
+            name='elemF015'
         ),
         TestGroup(
             annotation=[
@@ -2817,13 +2817,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF016.xsd"
+                        href='../msData/element/elemF016.xsd'
                     ),
                 ],
                 expected=[
@@ -2835,9 +2835,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF016"
+                name='elemF016'
             ),
-            name="elemF016"
+            name='elemF016'
         ),
         TestGroup(
             annotation=[
@@ -2853,13 +2853,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF017.xsd"
+                        href='../msData/element/elemF017.xsd'
                     ),
                 ],
                 expected=[
@@ -2871,9 +2871,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF017"
+                name='elemF017'
             ),
-            name="elemF017"
+            name='elemF017'
         ),
         TestGroup(
             annotation=[
@@ -2889,13 +2889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemF018.xsd"
+                        href='../msData/element/elemF018.xsd'
                     ),
                 ],
                 expected=[
@@ -2907,9 +2907,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemF018"
+                name='elemF018'
             ),
-            name="elemF018"
+            name='elemF018'
         ),
         TestGroup(
             annotation=[
@@ -2925,13 +2925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemG001.xsd"
+                        href='../msData/element/elemG001.xsd'
                     ),
                 ],
                 expected=[
@@ -2943,9 +2943,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemG001"
+                name='elemG001'
             ),
-            name="elemG001"
+            name='elemG001'
         ),
         TestGroup(
             annotation=[
@@ -2961,13 +2961,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemG002.xsd"
+                        href='../msData/element/elemG002.xsd'
                     ),
                 ],
                 expected=[
@@ -2979,9 +2979,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemG002"
+                name='elemG002'
             ),
-            name="elemG002"
+            name='elemG002'
         ),
         TestGroup(
             annotation=[
@@ -2989,7 +2989,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type is complexType and fixed is present",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type is complexType and fixed is present',
                             ]
                         ),
                     ]
@@ -2997,13 +2997,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemG003.xsd"
+                        href='../msData/element/elemG003.xsd'
                     ),
                 ],
                 expected=[
@@ -3015,9 +3015,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemG003"
+                name='elemG003'
             ),
-            name="elemG003"
+            name='elemG003'
         ),
         TestGroup(
             annotation=[
@@ -3033,13 +3033,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemG004.xsd"
+                        href='../msData/element/elemG004.xsd'
                     ),
                 ],
                 expected=[
@@ -3051,9 +3051,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemG004"
+                name='elemG004'
             ),
-            name="elemG004"
+            name='elemG004'
         ),
         TestGroup(
             annotation=[
@@ -3069,13 +3069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemG005.xsd"
+                        href='../msData/element/elemG005.xsd'
                     ),
                 ],
                 expected=[
@@ -3087,9 +3087,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemG005"
+                name='elemG005'
             ),
-            name="elemG005"
+            name='elemG005'
         ),
         TestGroup(
             annotation=[
@@ -3105,13 +3105,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH001.xsd"
+                        href='../msData/element/elemH001.xsd'
                     ),
                 ],
                 expected=[
@@ -3123,9 +3123,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH001"
+                name='elemH001'
             ),
-            name="elemH001"
+            name='elemH001'
         ),
         TestGroup(
             annotation=[
@@ -3141,13 +3141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH002.xsd"
+                        href='../msData/element/elemH002.xsd'
                     ),
                 ],
                 expected=[
@@ -3159,9 +3159,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH002"
+                name='elemH002'
             ),
-            name="elemH002"
+            name='elemH002'
         ),
         TestGroup(
             annotation=[
@@ -3177,13 +3177,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH003.xsd"
+                        href='../msData/element/elemH003.xsd'
                     ),
                 ],
                 expected=[
@@ -3195,9 +3195,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH003"
+                name='elemH003'
             ),
-            name="elemH003"
+            name='elemH003'
         ),
         TestGroup(
             annotation=[
@@ -3213,13 +3213,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH004.xsd"
+                        href='../msData/element/elemH004.xsd'
                     ),
                 ],
                 expected=[
@@ -3231,9 +3231,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH004"
+                name='elemH004'
             ),
-            name="elemH004"
+            name='elemH004'
         ),
         TestGroup(
             annotation=[
@@ -3249,13 +3249,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH005.xsd"
+                        href='../msData/element/elemH005.xsd'
                     ),
                 ],
                 expected=[
@@ -3267,9 +3267,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH005"
+                name='elemH005'
             ),
-            name="elemH005"
+            name='elemH005'
         ),
         TestGroup(
             annotation=[
@@ -3285,13 +3285,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemH006.xsd"
+                        href='../msData/element/elemH006.xsd'
                     ),
                 ],
                 expected=[
@@ -3303,9 +3303,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemH006"
+                name='elemH006'
             ),
-            name="elemH006"
+            name='elemH006'
         ),
         TestGroup(
             annotation=[
@@ -3321,13 +3321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemI001.xsd"
+                        href='../msData/element/elemI001.xsd'
                     ),
                 ],
                 expected=[
@@ -3339,9 +3339,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemI001"
+                name='elemI001'
             ),
-            name="elemI001"
+            name='elemI001'
         ),
         TestGroup(
             annotation=[
@@ -3357,13 +3357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemI002.xsd"
+                        href='../msData/element/elemI002.xsd'
                     ),
                 ],
                 expected=[
@@ -3375,9 +3375,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemI002"
+                name='elemI002'
             ),
-            name="elemI002"
+            name='elemI002'
         ),
         TestGroup(
             annotation=[
@@ -3393,13 +3393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemI003.xsd"
+                        href='../msData/element/elemI003.xsd'
                     ),
                 ],
                 expected=[
@@ -3411,9 +3411,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemI003"
+                name='elemI003'
             ),
-            name="elemI003"
+            name='elemI003'
         ),
         TestGroup(
             annotation=[
@@ -3429,13 +3429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemI004.xsd"
+                        href='../msData/element/elemI004.xsd'
                     ),
                 ],
                 expected=[
@@ -3447,9 +3447,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemI004"
+                name='elemI004'
             ),
-            name="elemI004"
+            name='elemI004'
         ),
         TestGroup(
             annotation=[
@@ -3465,13 +3465,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemI005.xsd"
+                        href='../msData/element/elemI005.xsd'
                     ),
                 ],
                 expected=[
@@ -3483,9 +3483,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemI005"
+                name='elemI005'
             ),
-            name="elemI005"
+            name='elemI005'
         ),
         TestGroup(
             annotation=[
@@ -3501,13 +3501,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ002.xsd"
+                        href='../msData/element/elemJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -3519,9 +3519,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ002"
+                name='elemJ002'
             ),
-            name="elemJ002"
+            name='elemJ002'
         ),
         TestGroup(
             annotation=[
@@ -3537,13 +3537,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ003.xsd"
+                        href='../msData/element/elemJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -3555,9 +3555,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ003"
+                name='elemJ003'
             ),
-            name="elemJ003"
+            name='elemJ003'
         ),
         TestGroup(
             annotation=[
@@ -3573,13 +3573,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ004.xsd"
+                        href='../msData/element/elemJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -3591,9 +3591,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ004"
+                name='elemJ004'
             ),
-            name="elemJ004"
+            name='elemJ004'
         ),
         TestGroup(
             annotation=[
@@ -3609,13 +3609,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ005.xsd"
+                        href='../msData/element/elemJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -3627,9 +3627,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ005"
+                name='elemJ005'
             ),
-            name="elemJ005"
+            name='elemJ005'
         ),
         TestGroup(
             annotation=[
@@ -3645,13 +3645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ006.xsd"
+                        href='../msData/element/elemJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -3663,9 +3663,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ006"
+                name='elemJ006'
             ),
-            name="elemJ006"
+            name='elemJ006'
         ),
         TestGroup(
             annotation=[
@@ -3681,13 +3681,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ007.xsd"
+                        href='../msData/element/elemJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -3699,9 +3699,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ007"
+                name='elemJ007'
             ),
-            name="elemJ007"
+            name='elemJ007'
         ),
         TestGroup(
             annotation=[
@@ -3717,13 +3717,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ008.xsd"
+                        href='../msData/element/elemJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -3735,9 +3735,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ008"
+                name='elemJ008'
             ),
-            name="elemJ008"
+            name='elemJ008'
         ),
         TestGroup(
             annotation=[
@@ -3753,13 +3753,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ009.xsd"
+                        href='../msData/element/elemJ009.xsd'
                     ),
                 ],
                 expected=[
@@ -3771,9 +3771,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ009"
+                name='elemJ009'
             ),
-            name="elemJ009"
+            name='elemJ009'
         ),
         TestGroup(
             annotation=[
@@ -3789,13 +3789,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ010.xsd"
+                        href='../msData/element/elemJ010.xsd'
                     ),
                 ],
                 expected=[
@@ -3807,9 +3807,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ010"
+                name='elemJ010'
             ),
-            name="elemJ010"
+            name='elemJ010'
         ),
         TestGroup(
             annotation=[
@@ -3825,13 +3825,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ011.xsd"
+                        href='../msData/element/elemJ011.xsd'
                     ),
                 ],
                 expected=[
@@ -3843,9 +3843,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ011"
+                name='elemJ011'
             ),
-            name="elemJ011"
+            name='elemJ011'
         ),
         TestGroup(
             annotation=[
@@ -3861,13 +3861,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ012.xsd"
+                        href='../msData/element/elemJ012.xsd'
                     ),
                 ],
                 expected=[
@@ -3879,9 +3879,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ012"
+                name='elemJ012'
             ),
-            name="elemJ012"
+            name='elemJ012'
         ),
         TestGroup(
             annotation=[
@@ -3897,13 +3897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ013.xsd"
+                        href='../msData/element/elemJ013.xsd'
                     ),
                 ],
                 expected=[
@@ -3915,9 +3915,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ013"
+                name='elemJ013'
             ),
-            name="elemJ013"
+            name='elemJ013'
         ),
         TestGroup(
             annotation=[
@@ -3933,13 +3933,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ014.xsd"
+                        href='../msData/element/elemJ014.xsd'
                     ),
                 ],
                 expected=[
@@ -3951,9 +3951,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ014"
+                name='elemJ014'
             ),
-            name="elemJ014"
+            name='elemJ014'
         ),
         TestGroup(
             annotation=[
@@ -3969,13 +3969,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ015.xsd"
+                        href='../msData/element/elemJ015.xsd'
                     ),
                 ],
                 expected=[
@@ -3987,9 +3987,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ015"
+                name='elemJ015'
             ),
-            name="elemJ015"
+            name='elemJ015'
         ),
         TestGroup(
             annotation=[
@@ -4005,13 +4005,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ016.xsd"
+                        href='../msData/element/elemJ016.xsd'
                     ),
                 ],
                 expected=[
@@ -4023,9 +4023,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ016"
+                name='elemJ016'
             ),
-            name="elemJ016"
+            name='elemJ016'
         ),
         TestGroup(
             annotation=[
@@ -4041,13 +4041,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ017.xsd"
+                        href='../msData/element/elemJ017.xsd'
                     ),
                 ],
                 expected=[
@@ -4059,9 +4059,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ017"
+                name='elemJ017'
             ),
-            name="elemJ017"
+            name='elemJ017'
         ),
         TestGroup(
             annotation=[
@@ -4077,13 +4077,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ018.xsd"
+                        href='../msData/element/elemJ018.xsd'
                     ),
                 ],
                 expected=[
@@ -4095,9 +4095,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ018"
+                name='elemJ018'
             ),
-            name="elemJ018"
+            name='elemJ018'
         ),
         TestGroup(
             annotation=[
@@ -4113,13 +4113,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ019.xsd"
+                        href='../msData/element/elemJ019.xsd'
                     ),
                 ],
                 expected=[
@@ -4131,9 +4131,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ019"
+                name='elemJ019'
             ),
-            name="elemJ019"
+            name='elemJ019'
         ),
         TestGroup(
             annotation=[
@@ -4149,13 +4149,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ020.xsd"
+                        href='../msData/element/elemJ020.xsd'
                     ),
                 ],
                 expected=[
@@ -4167,9 +4167,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ020"
+                name='elemJ020'
             ),
-            name="elemJ020"
+            name='elemJ020'
         ),
         TestGroup(
             annotation=[
@@ -4185,13 +4185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemJ021.xsd"
+                        href='../msData/element/elemJ021.xsd'
                     ),
                 ],
                 expected=[
@@ -4203,9 +4203,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemJ021"
+                name='elemJ021'
             ),
-            name="elemJ021"
+            name='elemJ021'
         ),
         TestGroup(
             annotation=[
@@ -4221,13 +4221,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK001.xsd"
+                        href='../msData/element/elemK001.xsd'
                     ),
                 ],
                 expected=[
@@ -4239,9 +4239,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK001"
+                name='elemK001'
             ),
-            name="elemK001"
+            name='elemK001'
         ),
         TestGroup(
             annotation=[
@@ -4257,13 +4257,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK002.xsd"
+                        href='../msData/element/elemK002.xsd'
                     ),
                 ],
                 expected=[
@@ -4275,9 +4275,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK002"
+                name='elemK002'
             ),
-            name="elemK002"
+            name='elemK002'
         ),
         TestGroup(
             annotation=[
@@ -4293,13 +4293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK003.xsd"
+                        href='../msData/element/elemK003.xsd'
                     ),
                 ],
                 expected=[
@@ -4311,9 +4311,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK003"
+                name='elemK003'
             ),
-            name="elemK003"
+            name='elemK003'
         ),
         TestGroup(
             annotation=[
@@ -4329,13 +4329,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK004.xsd"
+                        href='../msData/element/elemK004.xsd'
                     ),
                 ],
                 expected=[
@@ -4347,9 +4347,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK004"
+                name='elemK004'
             ),
-            name="elemK004"
+            name='elemK004'
         ),
         TestGroup(
             annotation=[
@@ -4365,13 +4365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK005.xsd"
+                        href='../msData/element/elemK005.xsd'
                     ),
                 ],
                 expected=[
@@ -4383,9 +4383,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK005"
+                name='elemK005'
             ),
-            name="elemK005"
+            name='elemK005'
         ),
         TestGroup(
             annotation=[
@@ -4401,13 +4401,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK006.xsd"
+                        href='../msData/element/elemK006.xsd'
                     ),
                 ],
                 expected=[
@@ -4419,9 +4419,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK006"
+                name='elemK006'
             ),
-            name="elemK006"
+            name='elemK006'
         ),
         TestGroup(
             annotation=[
@@ -4429,7 +4429,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element using nullable attribute, invalid cas.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element using nullable attribute, invalid cas.',
                             ]
                         ),
                     ]
@@ -4437,13 +4437,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemK007.xsd"
+                        href='../msData/element/elemK007.xsd'
                     ),
                 ],
                 expected=[
@@ -4455,9 +4455,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemK007"
+                name='elemK007'
             ),
-            name="elemK007"
+            name='elemK007'
         ),
         TestGroup(
             annotation=[
@@ -4473,13 +4473,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemL001.xsd"
+                        href='../msData/element/elemL001.xsd'
                     ),
                 ],
                 expected=[
@@ -4491,9 +4491,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemL001"
+                name='elemL001'
             ),
-            name="elemL001"
+            name='elemL001'
         ),
         TestGroup(
             annotation=[
@@ -4509,13 +4509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemL002.xsd"
+                        href='../msData/element/elemL002.xsd'
                     ),
                 ],
                 expected=[
@@ -4527,9 +4527,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemL002"
+                name='elemL002'
             ),
-            name="elemL002"
+            name='elemL002'
         ),
         TestGroup(
             annotation=[
@@ -4545,13 +4545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemL003.xsd"
+                        href='../msData/element/elemL003.xsd'
                     ),
                 ],
                 expected=[
@@ -4563,9 +4563,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemL003"
+                name='elemL003'
             ),
-            name="elemL003"
+            name='elemL003'
         ),
         TestGroup(
             annotation=[
@@ -4581,13 +4581,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemL004.xsd"
+                        href='../msData/element/elemL004.xsd'
                     ),
                 ],
                 expected=[
@@ -4599,9 +4599,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemL004"
+                name='elemL004'
             ),
-            name="elemL004"
+            name='elemL004'
         ),
         TestGroup(
             annotation=[
@@ -4617,13 +4617,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemL005.xsd"
+                        href='../msData/element/elemL005.xsd'
                     ),
                 ],
                 expected=[
@@ -4635,9 +4635,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemL005"
+                name='elemL005'
             ),
-            name="elemL005"
+            name='elemL005'
         ),
         TestGroup(
             annotation=[
@@ -4653,13 +4653,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemM001.xsd"
+                        href='../msData/element/elemM001.xsd'
                     ),
                 ],
                 expected=[
@@ -4671,9 +4671,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemM001"
+                name='elemM001'
             ),
-            name="elemM001"
+            name='elemM001'
         ),
         TestGroup(
             annotation=[
@@ -4689,13 +4689,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemM002.xsd"
+                        href='../msData/element/elemM002.xsd'
                     ),
                 ],
                 expected=[
@@ -4706,7 +4706,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2015, 8, 26),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085'
                 ),
                 prior=[
                     Prior(
@@ -4714,9 +4714,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemM002"
+                name='elemM002'
             ),
-            name="elemM002"
+            name='elemM002'
         ),
         TestGroup(
             annotation=[
@@ -4732,13 +4732,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemM003.xsd"
+                        href='../msData/element/elemM003.xsd'
                     ),
                 ],
                 expected=[
@@ -4750,9 +4750,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemM003"
+                name='elemM003'
             ),
-            name="elemM003"
+            name='elemM003'
         ),
         TestGroup(
             annotation=[
@@ -4768,13 +4768,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemM004.xsd"
+                        href='../msData/element/elemM004.xsd'
                     ),
                 ],
                 expected=[
@@ -4786,9 +4786,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemM004"
+                name='elemM004'
             ),
-            name="elemM004"
+            name='elemM004'
         ),
         TestGroup(
             annotation=[
@@ -4804,13 +4804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemM005.xsd"
+                        href='../msData/element/elemM005.xsd'
                     ),
                 ],
                 expected=[
@@ -4822,9 +4822,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemM005"
+                name='elemM005'
             ),
-            name="elemM005"
+            name='elemM005'
         ),
         TestGroup(
             annotation=[
@@ -4832,7 +4832,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with key element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with key element',
                             ]
                         ),
                     ]
@@ -4840,13 +4840,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN001.xsd"
+                        href='../msData/element/elemN001.xsd'
                     ),
                 ],
                 expected=[
@@ -4858,9 +4858,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN001"
+                name='elemN001'
             ),
-            name="elemN001"
+            name='elemN001'
         ),
         TestGroup(
             annotation=[
@@ -4868,7 +4868,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with keyref element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with keyref element',
                             ]
                         ),
                     ]
@@ -4876,13 +4876,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN002.xsd"
+                        href='../msData/element/elemN002.xsd'
                     ),
                 ],
                 expected=[
@@ -4894,9 +4894,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN002"
+                name='elemN002'
             ),
-            name="elemN002"
+            name='elemN002'
         ),
         TestGroup(
             annotation=[
@@ -4904,7 +4904,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with unique element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with unique element',
                             ]
                         ),
                     ]
@@ -4912,13 +4912,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN003.xsd"
+                        href='../msData/element/elemN003.xsd'
                     ),
                 ],
                 expected=[
@@ -4930,9 +4930,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN003"
+                name='elemN003'
             ),
-            name="elemN003"
+            name='elemN003'
         ),
         TestGroup(
             annotation=[
@@ -4948,13 +4948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN004.xsd"
+                        href='../msData/element/elemN004.xsd'
                     ),
                 ],
                 expected=[
@@ -4966,9 +4966,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN004"
+                name='elemN004'
             ),
-            name="elemN004"
+            name='elemN004'
         ),
         TestGroup(
             annotation=[
@@ -4976,7 +4976,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with a non-schema namespace a:b=c",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with a non-schema namespace a:b=c',
                             ]
                         ),
                     ]
@@ -4984,13 +4984,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN005.xsd"
+                        href='../msData/element/elemN005.xsd'
                     ),
                 ],
                 expected=[
@@ -5002,9 +5002,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN005"
+                name='elemN005'
             ),
-            name="elemN005"
+            name='elemN005'
         ),
         TestGroup(
             annotation=[
@@ -5020,13 +5020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemN006.xsd"
+                        href='../msData/element/elemN006.xsd'
                     ),
                 ],
                 expected=[
@@ -5038,9 +5038,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemN006"
+                name='elemN006'
             ),
-            name="elemN006"
+            name='elemN006'
         ),
         TestGroup(
             annotation=[
@@ -5056,13 +5056,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO001.xsd"
+                        href='../msData/element/elemO001.xsd'
                     ),
                 ],
                 expected=[
@@ -5074,12 +5074,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO001"
+                name='elemO001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO001.xml"
+                        href='../msData/element/elemO001.xml'
                     ),
                     expected=[
                         Expected(
@@ -5090,10 +5090,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO001.i"
+                    name='elemO001.i'
                 ),
             ],
-            name="elemO001"
+            name='elemO001'
         ),
         TestGroup(
             annotation=[
@@ -5101,7 +5101,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with simpleType",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with simpleType',
                             ]
                         ),
                     ]
@@ -5109,13 +5109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO002.xsd"
+                        href='../msData/element/elemO002.xsd'
                     ),
                 ],
                 expected=[
@@ -5127,12 +5127,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO002"
+                name='elemO002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO002.xml"
+                        href='../msData/element/elemO002.xml'
                     ),
                     expected=[
                         Expected(
@@ -5143,10 +5143,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO002.v"
+                    name='elemO002.v'
                 ),
             ],
-            name="elemO002"
+            name='elemO002'
         ),
         TestGroup(
             annotation=[
@@ -5154,7 +5154,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with anonymous simpleType, no type on element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with anonymous simpleType, no type on element',
                             ]
                         ),
                     ]
@@ -5162,13 +5162,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO003.xsd"
+                        href='../msData/element/elemO003.xsd'
                     ),
                 ],
                 expected=[
@@ -5180,12 +5180,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO003"
+                name='elemO003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO003.xml"
+                        href='../msData/element/elemO003.xml'
                     ),
                     expected=[
                         Expected(
@@ -5196,10 +5196,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO003.v"
+                    name='elemO003.v'
                 ),
             ],
-            name="elemO003"
+            name='elemO003'
         ),
         TestGroup(
             annotation=[
@@ -5207,7 +5207,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with complexType",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with complexType',
                             ]
                         ),
                     ]
@@ -5215,13 +5215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO004.xsd"
+                        href='../msData/element/elemO004.xsd'
                     ),
                 ],
                 expected=[
@@ -5233,12 +5233,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO004"
+                name='elemO004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO004.xml"
+                        href='../msData/element/elemO004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5249,10 +5249,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO004.v"
+                    name='elemO004.v'
                 ),
             ],
-            name="elemO004"
+            name='elemO004'
         ),
         TestGroup(
             annotation=[
@@ -5260,7 +5260,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with anonymous complexType, no type on element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with anonymous complexType, no type on element',
                             ]
                         ),
                     ]
@@ -5268,13 +5268,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO005.xsd"
+                        href='../msData/element/elemO005.xsd'
                     ),
                 ],
                 expected=[
@@ -5286,12 +5286,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO005"
+                name='elemO005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO005.xml"
+                        href='../msData/element/elemO005.xml'
                     ),
                     expected=[
                         Expected(
@@ -5302,10 +5302,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO005.v"
+                    name='elemO005.v'
                 ),
             ],
-            name="elemO005"
+            name='elemO005'
         ),
         TestGroup(
             annotation=[
@@ -5321,13 +5321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO006.xsd"
+                        href='../msData/element/elemO006.xsd'
                     ),
                 ],
                 expected=[
@@ -5339,12 +5339,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO006"
+                name='elemO006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO006.xml"
+                        href='../msData/element/elemO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -5355,10 +5355,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO006.v"
+                    name='elemO006.v'
                 ),
             ],
-            name="elemO006"
+            name='elemO006'
         ),
         TestGroup(
             annotation=[
@@ -5374,13 +5374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO007.xsd"
+                        href='../msData/element/elemO007.xsd'
                     ),
                 ],
                 expected=[
@@ -5392,12 +5392,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO007"
+                name='elemO007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO007.xml"
+                        href='../msData/element/elemO007.xml'
                     ),
                     expected=[
                         Expected(
@@ -5408,10 +5408,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO007.i"
+                    name='elemO007.i'
                 ),
             ],
-            name="elemO007"
+            name='elemO007'
         ),
         TestGroup(
             annotation=[
@@ -5427,13 +5427,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO008.xsd"
+                        href='../msData/element/elemO008.xsd'
                     ),
                 ],
                 expected=[
@@ -5445,12 +5445,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO008"
+                name='elemO008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO008.xml"
+                        href='../msData/element/elemO008.xml'
                     ),
                     expected=[
                         Expected(
@@ -5461,10 +5461,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO008.v"
+                    name='elemO008.v'
                 ),
             ],
-            name="elemO008"
+            name='elemO008'
         ),
         TestGroup(
             annotation=[
@@ -5472,7 +5472,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = true",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = true',
                             ]
                         ),
                     ]
@@ -5480,13 +5480,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO009.xsd"
+                        href='../msData/element/elemO009.xsd'
                     ),
                 ],
                 expected=[
@@ -5498,12 +5498,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO009"
+                name='elemO009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO009.xml"
+                        href='../msData/element/elemO009.xml'
                     ),
                     expected=[
                         Expected(
@@ -5514,10 +5514,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO009.v"
+                    name='elemO009.v'
                 ),
             ],
-            name="elemO009"
+            name='elemO009'
         ),
         TestGroup(
             annotation=[
@@ -5533,13 +5533,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO010.xsd"
+                        href='../msData/element/elemO010.xsd'
                     ),
                 ],
                 expected=[
@@ -5551,12 +5551,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO010"
+                name='elemO010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO010.xml"
+                        href='../msData/element/elemO010.xml'
                     ),
                     expected=[
                         Expected(
@@ -5567,10 +5567,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO010.i"
+                    name='elemO010.i'
                 ),
             ],
-            name="elemO010"
+            name='elemO010'
         ),
         TestGroup(
             annotation=[
@@ -5586,13 +5586,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO011.xsd"
+                        href='../msData/element/elemO011.xsd'
                     ),
                 ],
                 expected=[
@@ -5604,12 +5604,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO011"
+                name='elemO011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO011.xml"
+                        href='../msData/element/elemO011.xml'
                     ),
                     expected=[
                         Expected(
@@ -5620,10 +5620,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO011.i"
+                    name='elemO011.i'
                 ),
             ],
-            name="elemO011"
+            name='elemO011'
         ),
         TestGroup(
             annotation=[
@@ -5631,7 +5631,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = false",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = false',
                             ]
                         ),
                     ]
@@ -5639,13 +5639,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemO012.xsd"
+                        href='../msData/element/elemO012.xsd'
                     ),
                 ],
                 expected=[
@@ -5657,12 +5657,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemO012"
+                name='elemO012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemO012.xml"
+                        href='../msData/element/elemO012.xml'
                     ),
                     expected=[
                         Expected(
@@ -5673,10 +5673,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemO012.v"
+                    name='elemO012.v'
                 ),
             ],
-            name="elemO012"
+            name='elemO012'
         ),
         TestGroup(
             annotation=[
@@ -5684,7 +5684,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with default and fixed present",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with default and fixed present',
                             ]
                         ),
                     ]
@@ -5692,13 +5692,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP001.xsd"
+                        href='../msData/element/elemP001.xsd'
                     ),
                 ],
                 expected=[
@@ -5710,9 +5710,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP001"
+                name='elemP001'
             ),
-            name="elemP001"
+            name='elemP001'
         ),
         TestGroup(
             annotation=[
@@ -5720,7 +5720,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent with default and fixed present",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent with default and fixed present',
                             ]
                         ),
                     ]
@@ -5728,13 +5728,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP002.xsd"
+                        href='../msData/element/elemP002.xsd'
                     ),
                 ],
                 expected=[
@@ -5746,9 +5746,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP002"
+                name='elemP002'
             ),
-            name="elemP002"
+            name='elemP002'
         ),
         TestGroup(
             annotation=[
@@ -5756,7 +5756,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and name",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and name',
                             ]
                         ),
                     ]
@@ -5764,13 +5764,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP003.xsd"
+                        href='../msData/element/elemP003.xsd'
                     ),
                 ],
                 expected=[
@@ -5782,9 +5782,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP003"
+                name='elemP003'
             ),
-            name="elemP003"
+            name='elemP003'
         ),
         TestGroup(
             annotation=[
@@ -5792,7 +5792,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and ref",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and ref',
                             ]
                         ),
                     ]
@@ -5800,13 +5800,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP004.xsd"
+                        href='../msData/element/elemP004.xsd'
                     ),
                 ],
                 expected=[
@@ -5818,9 +5818,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP004"
+                name='elemP004'
             ),
-            name="elemP004"
+            name='elemP004'
         ),
         TestGroup(
             annotation=[
@@ -5828,7 +5828,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and nothing else",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent and nothing else',
                             ]
                         ),
                     ]
@@ -5836,13 +5836,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP005.xsd"
+                        href='../msData/element/elemP005.xsd'
                     ),
                 ],
                 expected=[
@@ -5854,9 +5854,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP005"
+                name='elemP005'
             ),
-            name="elemP005"
+            name='elemP005'
         ),
         TestGroup(
             annotation=[
@@ -5864,7 +5864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, and ref and name",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, and ref and name',
                             ]
                         ),
                     ]
@@ -5872,13 +5872,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP006.xsd"
+                        href='../msData/element/elemP006.xsd'
                     ),
                 ],
                 expected=[
@@ -5890,9 +5890,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP006"
+                name='elemP006'
             ),
-            name="elemP006"
+            name='elemP006'
         ),
         TestGroup(
             annotation=[
@@ -5900,7 +5900,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, complexType child and ref",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, complexType child and ref',
                             ]
                         ),
                     ]
@@ -5908,13 +5908,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP007.xsd"
+                        href='../msData/element/elemP007.xsd'
                     ),
                 ],
                 expected=[
@@ -5926,9 +5926,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP007"
+                name='elemP007'
             ),
-            name="elemP007"
+            name='elemP007'
         ),
         TestGroup(
             annotation=[
@@ -5936,7 +5936,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, simpleType child and ref",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, simpleType child and ref',
                             ]
                         ),
                     ]
@@ -5944,13 +5944,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP008.xsd"
+                        href='../msData/element/elemP008.xsd'
                     ),
                 ],
                 expected=[
@@ -5962,9 +5962,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP008"
+                name='elemP008'
             ),
-            name="elemP008"
+            name='elemP008'
         ),
         TestGroup(
             annotation=[
@@ -5972,7 +5972,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, type and ref",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType parent, type and ref',
                             ]
                         ),
                     ]
@@ -5980,13 +5980,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemP009.xsd"
+                        href='../msData/element/elemP009.xsd'
                     ),
                 ],
                 expected=[
@@ -5998,9 +5998,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemP009"
+                name='elemP009'
             ),
-            name="elemP009"
+            name='elemP009'
         ),
         TestGroup(
             annotation=[
@@ -6008,7 +6008,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with just annotation",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with just annotation',
                             ]
                         ),
                     ]
@@ -6016,13 +6016,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ001.xsd"
+                        href='../msData/element/elemQ001.xsd'
                     ),
                 ],
                 expected=[
@@ -6034,9 +6034,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ001"
+                name='elemQ001'
             ),
-            name="elemQ001"
+            name='elemQ001'
         ),
         TestGroup(
             annotation=[
@@ -6044,7 +6044,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and type",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and type',
                             ]
                         ),
                     ]
@@ -6052,13 +6052,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ002.xsd"
+                        href='../msData/element/elemQ002.xsd'
                     ),
                 ],
                 expected=[
@@ -6070,9 +6070,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ002"
+                name='elemQ002'
             ),
-            name="elemQ002"
+            name='elemQ002'
         ),
         TestGroup(
             annotation=[
@@ -6080,7 +6080,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and simpleType",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and simpleType',
                             ]
                         ),
                     ]
@@ -6088,13 +6088,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ003.xsd"
+                        href='../msData/element/elemQ003.xsd'
                     ),
                 ],
                 expected=[
@@ -6106,9 +6106,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ003"
+                name='elemQ003'
             ),
-            name="elemQ003"
+            name='elemQ003'
         ),
         TestGroup(
             annotation=[
@@ -6116,7 +6116,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with simpleType and annotation",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with simpleType and annotation',
                             ]
                         ),
                     ]
@@ -6124,13 +6124,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ004.xsd"
+                        href='../msData/element/elemQ004.xsd'
                     ),
                 ],
                 expected=[
@@ -6142,9 +6142,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ004"
+                name='elemQ004'
             ),
-            name="elemQ004"
+            name='elemQ004'
         ),
         TestGroup(
             annotation=[
@@ -6152,7 +6152,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and complexType",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with annotation and complexType',
                             ]
                         ),
                     ]
@@ -6160,13 +6160,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ005.xsd"
+                        href='../msData/element/elemQ005.xsd'
                     ),
                 ],
                 expected=[
@@ -6178,9 +6178,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ005"
+                name='elemQ005'
             ),
-            name="elemQ005"
+            name='elemQ005'
         ),
         TestGroup(
             annotation=[
@@ -6188,7 +6188,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType and annotation",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with complexType and annotation',
                             ]
                         ),
                     ]
@@ -6196,13 +6196,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ006.xsd"
+                        href='../msData/element/elemQ006.xsd'
                     ),
                 ],
                 expected=[
@@ -6214,9 +6214,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ006"
+                name='elemQ006'
             ),
-            name="elemQ006"
+            name='elemQ006'
         ),
         TestGroup(
             annotation=[
@@ -6224,7 +6224,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default minOccurs and no occurences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default minOccurs and no occurences',
                             ]
                         ),
                     ]
@@ -6232,13 +6232,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ007.xsd"
+                        href='../msData/element/elemQ007.xsd'
                     ),
                 ],
                 expected=[
@@ -6250,12 +6250,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ007"
+                name='elemQ007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ007.xml"
+                        href='../msData/element/elemQ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -6266,10 +6266,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ007.i"
+                    name='elemQ007.i'
                 ),
             ],
-            name="elemQ007"
+            name='elemQ007'
         ),
         TestGroup(
             annotation=[
@@ -6277,7 +6277,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default maxOccurs and 1 occurrence",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default maxOccurs and 1 occurrence',
                             ]
                         ),
                     ]
@@ -6285,13 +6285,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ008.xsd"
+                        href='../msData/element/elemQ008.xsd'
                     ),
                 ],
                 expected=[
@@ -6303,12 +6303,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ008"
+                name='elemQ008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ008.xml"
+                        href='../msData/element/elemQ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -6319,10 +6319,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ008.v"
+                    name='elemQ008.v'
                 ),
             ],
-            name="elemQ008"
+            name='elemQ008'
         ),
         TestGroup(
             annotation=[
@@ -6330,7 +6330,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default maxOccurs and 2 occurrences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default maxOccurs and 2 occurrences',
                             ]
                         ),
                     ]
@@ -6338,13 +6338,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ009.xsd"
+                        href='../msData/element/elemQ009.xsd'
                     ),
                 ],
                 expected=[
@@ -6356,12 +6356,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ009"
+                name='elemQ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ009.xml"
+                        href='../msData/element/elemQ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -6372,10 +6372,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ009.i"
+                    name='elemQ009.i'
                 ),
             ],
-            name="elemQ009"
+            name='elemQ009'
         ),
         TestGroup(
             annotation=[
@@ -6383,7 +6383,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and no occurences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and no occurences',
                             ]
                         ),
                     ]
@@ -6391,13 +6391,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ010.xsd"
+                        href='../msData/element/elemQ010.xsd'
                     ),
                 ],
                 expected=[
@@ -6409,12 +6409,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ010"
+                name='elemQ010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ010.xml"
+                        href='../msData/element/elemQ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -6425,10 +6425,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ010.i"
+                    name='elemQ010.i'
                 ),
             ],
-            name="elemQ010"
+            name='elemQ010'
         ),
         TestGroup(
             annotation=[
@@ -6436,7 +6436,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and 1 occurrence",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and 1 occurrence',
                             ]
                         ),
                     ]
@@ -6444,13 +6444,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ011.xsd"
+                        href='../msData/element/elemQ011.xsd'
                     ),
                 ],
                 expected=[
@@ -6462,12 +6462,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ011"
+                name='elemQ011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ011.xml"
+                        href='../msData/element/elemQ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -6478,10 +6478,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ011.v"
+                    name='elemQ011.v'
                 ),
             ],
-            name="elemQ011"
+            name='elemQ011'
         ),
         TestGroup(
             annotation=[
@@ -6489,7 +6489,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and 2 occurrences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and 2 occurrences',
                             ]
                         ),
                     ]
@@ -6497,13 +6497,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ012.xsd"
+                        href='../msData/element/elemQ012.xsd'
                     ),
                 ],
                 expected=[
@@ -6515,12 +6515,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ012"
+                name='elemQ012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ012.xml"
+                        href='../msData/element/elemQ012.xml'
                     ),
                     expected=[
                         Expected(
@@ -6531,10 +6531,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ012.i"
+                    name='elemQ012.i'
                 ),
             ],
-            name="elemQ012"
+            name='elemQ012'
         ),
         TestGroup(
             annotation=[
@@ -6542,7 +6542,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = 2 and 2 occurrences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = 2 and 2 occurrences',
                             ]
                         ),
                     ]
@@ -6550,13 +6550,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ013.xsd"
+                        href='../msData/element/elemQ013.xsd'
                     ),
                 ],
                 expected=[
@@ -6568,12 +6568,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ013"
+                name='elemQ013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ013.xml"
+                        href='../msData/element/elemQ013.xml'
                     ),
                     expected=[
                         Expected(
@@ -6584,10 +6584,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ013.v"
+                    name='elemQ013.v'
                 ),
             ],
-            name="elemQ013"
+            name='elemQ013'
         ),
         TestGroup(
             annotation=[
@@ -6595,7 +6595,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = 2 and 3 occurrences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = 2 and 3 occurrences',
                             ]
                         ),
                     ]
@@ -6603,13 +6603,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ014.xsd"
+                        href='../msData/element/elemQ014.xsd'
                     ),
                 ],
                 expected=[
@@ -6621,12 +6621,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ014"
+                name='elemQ014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ014.xml"
+                        href='../msData/element/elemQ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -6637,10 +6637,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ014.i"
+                    name='elemQ014.i'
                 ),
             ],
-            name="elemQ014"
+            name='elemQ014'
         ),
         TestGroup(
             annotation=[
@@ -6648,7 +6648,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = unbounded and 3 occurrences",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with minOccurs = 1 and maxOccurs = unbounded and 3 occurrences',
                             ]
                         ),
                     ]
@@ -6656,13 +6656,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ015.xsd"
+                        href='../msData/element/elemQ015.xsd'
                     ),
                 ],
                 expected=[
@@ -6674,12 +6674,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ015"
+                name='elemQ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ015.xml"
+                        href='../msData/element/elemQ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -6690,10 +6690,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ015.v"
+                    name='elemQ015.v'
                 ),
             ],
-            name="elemQ015"
+            name='elemQ015'
         ),
         TestGroup(
             annotation=[
@@ -6701,7 +6701,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = true and fixed=Hello",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with element with nillable = true and fixed=Hello',
                             ]
                         ),
                     ]
@@ -6709,13 +6709,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ016.xsd"
+                        href='../msData/element/elemQ016.xsd'
                     ),
                 ],
                 expected=[
@@ -6727,9 +6727,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ016"
+                name='elemQ016'
             ),
-            name="elemQ016"
+            name='elemQ016'
         ),
         TestGroup(
             annotation=[
@@ -6737,7 +6737,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains Hello",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains Hello',
                             ]
                         ),
                     ]
@@ -6745,13 +6745,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ017.xsd"
+                        href='../msData/element/elemQ017.xsd'
                     ),
                 ],
                 expected=[
@@ -6763,12 +6763,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ017"
+                name='elemQ017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ017.xml"
+                        href='../msData/element/elemQ017.xml'
                     ),
                     expected=[
                         Expected(
@@ -6779,10 +6779,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ017.v"
+                    name='elemQ017.v'
                 ),
             ],
-            name="elemQ017"
+            name='elemQ017'
         ),
         TestGroup(
             annotation=[
@@ -6790,7 +6790,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains Hello World!",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains Hello World!',
                             ]
                         ),
                     ]
@@ -6798,13 +6798,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ018.xsd"
+                        href='../msData/element/elemQ018.xsd'
                     ),
                 ],
                 expected=[
@@ -6816,12 +6816,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ018"
+                name='elemQ018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ018.xml"
+                        href='../msData/element/elemQ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -6832,10 +6832,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ018.i"
+                    name='elemQ018.i'
                 ),
             ],
-            name="elemQ018"
+            name='elemQ018'
         ),
         TestGroup(
             annotation=[
@@ -6843,7 +6843,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains nothing",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with fixed=Hello andDocument contains nothing',
                             ]
                         ),
                     ]
@@ -6851,13 +6851,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ019.xsd"
+                        href='../msData/element/elemQ019.xsd'
                     ),
                 ],
                 expected=[
@@ -6869,12 +6869,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ019"
+                name='elemQ019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ019.xml"
+                        href='../msData/element/elemQ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -6885,10 +6885,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ019.v"
+                    name='elemQ019.v'
                 ),
             ],
-            name="elemQ019"
+            name='elemQ019'
         ),
         TestGroup(
             annotation=[
@@ -6896,7 +6896,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains Hello",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains Hello',
                             ]
                         ),
                     ]
@@ -6904,13 +6904,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ020.xsd"
+                        href='../msData/element/elemQ020.xsd'
                     ),
                 ],
                 expected=[
@@ -6922,12 +6922,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ020"
+                name='elemQ020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ020.xml"
+                        href='../msData/element/elemQ020.xml'
                     ),
                     expected=[
                         Expected(
@@ -6938,10 +6938,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ020.v"
+                    name='elemQ020.v'
                 ),
             ],
-            name="elemQ020"
+            name='elemQ020'
         ),
         TestGroup(
             annotation=[
@@ -6949,7 +6949,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains Hello World!",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains Hello World!',
                             ]
                         ),
                     ]
@@ -6957,13 +6957,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ021.xsd"
+                        href='../msData/element/elemQ021.xsd'
                     ),
                 ],
                 expected=[
@@ -6975,12 +6975,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ021"
+                name='elemQ021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ021.xml"
+                        href='../msData/element/elemQ021.xml'
                     ),
                     expected=[
                         Expected(
@@ -6991,10 +6991,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ021.v"
+                    name='elemQ021.v'
                 ),
             ],
-            name="elemQ021"
+            name='elemQ021'
         ),
         TestGroup(
             annotation=[
@@ -7002,7 +7002,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains nothing",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with default=Hello andDocument contains nothing',
                             ]
                         ),
                     ]
@@ -7010,13 +7010,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemQ022.xsd"
+                        href='../msData/element/elemQ022.xsd'
                     ),
                 ],
                 expected=[
@@ -7028,12 +7028,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemQ022"
+                name='elemQ022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemQ022.xml"
+                        href='../msData/element/elemQ022.xml'
                     ),
                     expected=[
                         Expected(
@@ -7044,10 +7044,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemQ022.v"
+                    name='elemQ022.v'
                 ),
             ],
-            name="elemQ022"
+            name='elemQ022'
         ),
         TestGroup(
             annotation=[
@@ -7055,7 +7055,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and explicitly qualified elements",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and explicitly qualified elements',
                             ]
                         ),
                     ]
@@ -7063,13 +7063,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR001.xsd"
+                        href='../msData/element/elemR001.xsd'
                     ),
                 ],
                 expected=[
@@ -7081,12 +7081,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR001"
+                name='elemR001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemR001.xml"
+                        href='../msData/element/elemR001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7097,10 +7097,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemR001.v"
+                    name='elemR001.v'
                 ),
             ],
-            name="elemR001"
+            name='elemR001'
         ),
         TestGroup(
             annotation=[
@@ -7108,7 +7108,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and default qualified elements",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and default qualified elements',
                             ]
                         ),
                     ]
@@ -7116,13 +7116,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR002.xsd"
+                        href='../msData/element/elemR002.xsd'
                     ),
                 ],
                 expected=[
@@ -7134,12 +7134,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR002"
+                name='elemR002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemR002.xml"
+                        href='../msData/element/elemR002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7150,10 +7150,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemR002.v"
+                    name='elemR002.v'
                 ),
             ],
-            name="elemR002"
+            name='elemR002'
         ),
         TestGroup(
             annotation=[
@@ -7161,7 +7161,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and unqualified elements",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Valid Document for Element with form=qualified and unqualified elements',
                             ]
                         ),
                     ]
@@ -7169,13 +7169,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR003.xsd"
+                        href='../msData/element/elemR003.xsd'
                     ),
                 ],
                 expected=[
@@ -7187,9 +7187,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR003"
+                name='elemR003'
             ),
-            name="elemR003"
+            name='elemR003'
         ),
         TestGroup(
             annotation=[
@@ -7205,13 +7205,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR004.xsd"
+                        href='../msData/element/elemR004.xsd'
                     ),
                 ],
                 expected=[
@@ -7223,12 +7223,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR004"
+                name='elemR004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemR004.xml"
+                        href='../msData/element/elemR004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7239,10 +7239,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemR004.v"
+                    name='elemR004.v'
                 ),
             ],
-            name="elemR004"
+            name='elemR004'
         ),
         TestGroup(
             annotation=[
@@ -7258,13 +7258,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR005.xsd"
+                        href='../msData/element/elemR005.xsd'
                     ),
                 ],
                 expected=[
@@ -7276,12 +7276,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR005"
+                name='elemR005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemR005.xml"
+                        href='../msData/element/elemR005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7292,10 +7292,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemR005.v"
+                    name='elemR005.v'
                 ),
             ],
-            name="elemR005"
+            name='elemR005'
         ),
         TestGroup(
             annotation=[
@@ -7311,13 +7311,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemR006.xsd"
+                        href='../msData/element/elemR006.xsd'
                     ),
                 ],
                 expected=[
@@ -7329,9 +7329,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemR006"
+                name='elemR006'
             ),
-            name="elemR006"
+            name='elemR006'
         ),
         TestGroup(
             annotation=[
@@ -7339,7 +7339,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=restriction and an element affliation by restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=restriction and an element affliation by restriction',
                             ]
                         ),
                     ]
@@ -7347,13 +7347,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS001.xsd"
+                        href='../msData/element/elemS001.xsd'
                     ),
                 ],
                 expected=[
@@ -7365,9 +7365,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS001"
+                name='elemS001'
             ),
-            name="elemS001"
+            name='elemS001'
         ),
         TestGroup(
             annotation=[
@@ -7375,7 +7375,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=restriction and an element affliation by extension",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=restriction and an element affliation by extension',
                             ]
                         ),
                     ]
@@ -7383,13 +7383,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS002.xsd"
+                        href='../msData/element/elemS002.xsd'
                     ),
                 ],
                 expected=[
@@ -7401,12 +7401,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS002"
+                name='elemS002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemS002.xml"
+                        href='../msData/element/elemS002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7417,10 +7417,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemS002.v"
+                    name='elemS002.v'
                 ),
             ],
-            name="elemS002"
+            name='elemS002'
         ),
         TestGroup(
             annotation=[
@@ -7428,7 +7428,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=extension and an element affliation by restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=extension and an element affliation by restriction',
                             ]
                         ),
                     ]
@@ -7436,13 +7436,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS003.xsd"
+                        href='../msData/element/elemS003.xsd'
                     ),
                 ],
                 expected=[
@@ -7454,12 +7454,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS003"
+                name='elemS003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemS003.xml"
+                        href='../msData/element/elemS003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7470,10 +7470,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemS003.v"
+                    name='elemS003.v'
                 ),
             ],
-            name="elemS003"
+            name='elemS003'
         ),
         TestGroup(
             annotation=[
@@ -7481,7 +7481,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=extension and an element affliation by extension",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=extension and an element affliation by extension',
                             ]
                         ),
                     ]
@@ -7489,13 +7489,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS004.xsd"
+                        href='../msData/element/elemS004.xsd'
                     ),
                 ],
                 expected=[
@@ -7507,9 +7507,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS004"
+                name='elemS004'
             ),
-            name="elemS004"
+            name='elemS004'
         ),
         TestGroup(
             annotation=[
@@ -7517,7 +7517,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=#all and an element affliation by restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=#all and an element affliation by restriction',
                             ]
                         ),
                     ]
@@ -7525,13 +7525,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS005.xsd"
+                        href='../msData/element/elemS005.xsd'
                     ),
                 ],
                 expected=[
@@ -7543,9 +7543,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS005"
+                name='elemS005'
             ),
-            name="elemS005"
+            name='elemS005'
         ),
         TestGroup(
             annotation=[
@@ -7553,7 +7553,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=#all and an element affliation by extension",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element with final=#all and an element affliation by extension',
                             ]
                         ),
                     ]
@@ -7561,13 +7561,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS006.xsd"
+                        href='../msData/element/elemS006.xsd'
                     ),
                 ],
                 expected=[
@@ -7579,9 +7579,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS006"
+                name='elemS006'
             ),
-            name="elemS006"
+            name='elemS006'
         ),
         TestGroup(
             annotation=[
@@ -7597,13 +7597,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS007.xsd"
+                        href='../msData/element/elemS007.xsd'
                     ),
                 ],
                 expected=[
@@ -7615,12 +7615,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS007"
+                name='elemS007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemS007.xml"
+                        href='../msData/element/elemS007.xml'
                     ),
                     expected=[
                         Expected(
@@ -7631,10 +7631,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemS007.v"
+                    name='elemS007.v'
                 ),
             ],
-            name="elemS007"
+            name='elemS007'
         ),
         TestGroup(
             annotation=[
@@ -7650,13 +7650,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemS008.xsd"
+                        href='../msData/element/elemS008.xsd'
                     ),
                 ],
                 expected=[
@@ -7668,12 +7668,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemS008"
+                name='elemS008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemS008.xml"
+                        href='../msData/element/elemS008.xml'
                     ),
                     expected=[
                         Expected(
@@ -7684,10 +7684,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemS008.v"
+                    name='elemS008.v'
                 ),
             ],
-            name="elemS008"
+            name='elemS008'
         ),
         TestGroup(
             annotation=[
@@ -7695,7 +7695,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=restriction and a subsitution of a derivation by restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=restriction and a subsitution of a derivation by restriction',
                             ]
                         ),
                     ]
@@ -7703,13 +7703,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT001.xsd"
+                        href='../msData/element/elemT001.xsd'
                     ),
                 ],
                 expected=[
@@ -7721,12 +7721,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT001"
+                name='elemT001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT001.xml"
+                        href='../msData/element/elemT001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7737,10 +7737,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT001.i"
+                    name='elemT001.i'
                 ),
             ],
-            name="elemT001"
+            name='elemT001'
         ),
         TestGroup(
             annotation=[
@@ -7748,7 +7748,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=restriction and a subsitution of a derivation by extension",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=restriction and a subsitution of a derivation by extension',
                             ]
                         ),
                     ]
@@ -7756,13 +7756,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT002.xsd"
+                        href='../msData/element/elemT002.xsd'
                     ),
                 ],
                 expected=[
@@ -7774,12 +7774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT002"
+                name='elemT002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT002.xml"
+                        href='../msData/element/elemT002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7790,10 +7790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT002.v"
+                    name='elemT002.v'
                 ),
             ],
-            name="elemT002"
+            name='elemT002'
         ),
         TestGroup(
             annotation=[
@@ -7801,7 +7801,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=extension and a subsitution of a derivation by restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=extension and a subsitution of a derivation by restriction',
                             ]
                         ),
                     ]
@@ -7809,13 +7809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT003.xsd"
+                        href='../msData/element/elemT003.xsd'
                     ),
                 ],
                 expected=[
@@ -7827,12 +7827,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT003"
+                name='elemT003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT003.xml"
+                        href='../msData/element/elemT003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7843,10 +7843,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT003.v"
+                    name='elemT003.v'
                 ),
             ],
-            name="elemT003"
+            name='elemT003'
         ),
         TestGroup(
             annotation=[
@@ -7854,7 +7854,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=extension and a subsitution of a derivation by extension",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Document with Element with block=extension and a subsitution of a derivation by extension',
                             ]
                         ),
                     ]
@@ -7862,13 +7862,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT004.xsd"
+                        href='../msData/element/elemT004.xsd'
                     ),
                 ],
                 expected=[
@@ -7880,12 +7880,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT004"
+                name='elemT004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT004.xml"
+                        href='../msData/element/elemT004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7896,10 +7896,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT004.i"
+                    name='elemT004.i'
                 ),
             ],
-            name="elemT004"
+            name='elemT004'
         ),
         TestGroup(
             annotation=[
@@ -7915,13 +7915,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT005.xsd"
+                        href='../msData/element/elemT005.xsd'
                     ),
                 ],
                 expected=[
@@ -7933,12 +7933,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT005"
+                name='elemT005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT005.xml"
+                        href='../msData/element/elemT005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7949,10 +7949,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT005.i"
+                    name='elemT005.i'
                 ),
             ],
-            name="elemT005"
+            name='elemT005'
         ),
         TestGroup(
             annotation=[
@@ -7968,13 +7968,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT006.xsd"
+                        href='../msData/element/elemT006.xsd'
                     ),
                 ],
                 expected=[
@@ -7986,12 +7986,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT006"
+                name='elemT006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT006.xml"
+                        href='../msData/element/elemT006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8002,10 +8002,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT006.i"
+                    name='elemT006.i'
                 ),
             ],
-            name="elemT006"
+            name='elemT006'
         ),
         TestGroup(
             annotation=[
@@ -8021,13 +8021,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT007.xsd"
+                        href='../msData/element/elemT007.xsd'
                     ),
                 ],
                 expected=[
@@ -8039,12 +8039,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT007"
+                name='elemT007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT007.xml"
+                        href='../msData/element/elemT007.xml'
                     ),
                     expected=[
                         Expected(
@@ -8055,10 +8055,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT007.v"
+                    name='elemT007.v'
                 ),
             ],
-            name="elemT007"
+            name='elemT007'
         ),
         TestGroup(
             annotation=[
@@ -8074,13 +8074,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT008.xsd"
+                        href='../msData/element/elemT008.xsd'
                     ),
                 ],
                 expected=[
@@ -8092,12 +8092,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT008"
+                name='elemT008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT008.xml"
+                        href='../msData/element/elemT008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8108,10 +8108,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT008.v"
+                    name='elemT008.v'
                 ),
             ],
-            name="elemT008"
+            name='elemT008'
         ),
         TestGroup(
             annotation=[
@@ -8127,13 +8127,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT009.xsd"
+                        href='../msData/element/elemT009.xsd'
                     ),
                 ],
                 expected=[
@@ -8145,9 +8145,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT009"
+                name='elemT009'
             ),
-            name="elemT009"
+            name='elemT009'
         ),
         TestGroup(
             annotation=[
@@ -8163,13 +8163,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT010.xsd"
+                        href='../msData/element/elemT010.xsd'
                     ),
                 ],
                 expected=[
@@ -8181,9 +8181,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT010"
+                name='elemT010'
             ),
-            name="elemT010"
+            name='elemT010'
         ),
         TestGroup(
             annotation=[
@@ -8199,13 +8199,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT011.xsd"
+                        href='../msData/element/elemT011.xsd'
                     ),
                 ],
                 expected=[
@@ -8217,12 +8217,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT011"
+                name='elemT011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT011.xml"
+                        href='../msData/element/elemT011.xml'
                     ),
                     expected=[
                         Expected(
@@ -8233,10 +8233,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT011.i"
+                    name='elemT011.i'
                 ),
             ],
-            name="elemT011"
+            name='elemT011'
         ),
         TestGroup(
             annotation=[
@@ -8252,13 +8252,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT012.xsd"
+                        href='../msData/element/elemT012.xsd'
                     ),
                 ],
                 expected=[
@@ -8270,12 +8270,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT012"
+                name='elemT012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT012.xml"
+                        href='../msData/element/elemT012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8286,10 +8286,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT012.i"
+                    name='elemT012.i'
                 ),
             ],
-            name="elemT012"
+            name='elemT012'
         ),
         TestGroup(
             annotation=[
@@ -8305,13 +8305,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT013.xsd"
+                        href='../msData/element/elemT013.xsd'
                     ),
                 ],
                 expected=[
@@ -8323,12 +8323,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT013"
+                name='elemT013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT013.xml"
+                        href='../msData/element/elemT013.xml'
                     ),
                     expected=[
                         Expected(
@@ -8339,10 +8339,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT013.i"
+                    name='elemT013.i'
                 ),
             ],
-            name="elemT013"
+            name='elemT013'
         ),
         TestGroup(
             annotation=[
@@ -8358,13 +8358,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT014.xsd"
+                        href='../msData/element/elemT014.xsd'
                     ),
                 ],
                 expected=[
@@ -8376,12 +8376,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT014"
+                name='elemT014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT014.xml"
+                        href='../msData/element/elemT014.xml'
                     ),
                     expected=[
                         Expected(
@@ -8392,10 +8392,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT014.v"
+                    name='elemT014.v'
                 ),
             ],
-            name="elemT014"
+            name='elemT014'
         ),
         TestGroup(
             annotation=[
@@ -8411,13 +8411,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT015.xsd"
+                        href='../msData/element/elemT015.xsd'
                     ),
                 ],
                 expected=[
@@ -8429,12 +8429,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT015"
+                name='elemT015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT015.xml"
+                        href='../msData/element/elemT015.xml'
                     ),
                     expected=[
                         Expected(
@@ -8445,10 +8445,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT015.v"
+                    name='elemT015.v'
                 ),
             ],
-            name="elemT015"
+            name='elemT015'
         ),
         TestGroup(
             annotation=[
@@ -8464,13 +8464,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT016.xsd"
+                        href='../msData/element/elemT016.xsd'
                     ),
                 ],
                 expected=[
@@ -8482,12 +8482,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT016"
+                name='elemT016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT016.xml"
+                        href='../msData/element/elemT016.xml'
                     ),
                     expected=[
                         Expected(
@@ -8498,10 +8498,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT016.v"
+                    name='elemT016.v'
                 ),
             ],
-            name="elemT016"
+            name='elemT016'
         ),
         TestGroup(
             annotation=[
@@ -8517,13 +8517,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT017.xsd"
+                        href='../msData/element/elemT017.xsd'
                     ),
                 ],
                 expected=[
@@ -8535,12 +8535,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT017"
+                name='elemT017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT017.xml"
+                        href='../msData/element/elemT017.xml'
                     ),
                     expected=[
                         Expected(
@@ -8551,10 +8551,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT017.i"
+                    name='elemT017.i'
                 ),
             ],
-            name="elemT017"
+            name='elemT017'
         ),
         TestGroup(
             annotation=[
@@ -8570,13 +8570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT018.xsd"
+                        href='../msData/element/elemT018.xsd'
                     ),
                 ],
                 expected=[
@@ -8588,12 +8588,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT018"
+                name='elemT018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT018.xml"
+                        href='../msData/element/elemT018.xml'
                     ),
                     expected=[
                         Expected(
@@ -8604,10 +8604,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT018.i"
+                    name='elemT018.i'
                 ),
             ],
-            name="elemT018"
+            name='elemT018'
         ),
         TestGroup(
             annotation=[
@@ -8623,13 +8623,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT019.xsd"
+                        href='../msData/element/elemT019.xsd'
                     ),
                 ],
                 expected=[
@@ -8641,12 +8641,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT019"
+                name='elemT019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT019.xml"
+                        href='../msData/element/elemT019.xml'
                     ),
                     expected=[
                         Expected(
@@ -8657,10 +8657,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT019.i"
+                    name='elemT019.i'
                 ),
             ],
-            name="elemT019"
+            name='elemT019'
         ),
         TestGroup(
             annotation=[
@@ -8676,13 +8676,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT020.xsd"
+                        href='../msData/element/elemT020.xsd'
                     ),
                 ],
                 expected=[
@@ -8694,12 +8694,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT020"
+                name='elemT020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT020.xml"
+                        href='../msData/element/elemT020.xml'
                     ),
                     expected=[
                         Expected(
@@ -8710,10 +8710,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT020.i"
+                    name='elemT020.i'
                 ),
             ],
-            name="elemT020"
+            name='elemT020'
         ),
         TestGroup(
             annotation=[
@@ -8729,13 +8729,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT021.xsd"
+                        href='../msData/element/elemT021.xsd'
                     ),
                 ],
                 expected=[
@@ -8747,12 +8747,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT021"
+                name='elemT021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT021.xml"
+                        href='../msData/element/elemT021.xml'
                     ),
                     expected=[
                         Expected(
@@ -8763,10 +8763,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT021.i"
+                    name='elemT021.i'
                 ),
             ],
-            name="elemT021"
+            name='elemT021'
         ),
         TestGroup(
             annotation=[
@@ -8782,13 +8782,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT022.xsd"
+                        href='../msData/element/elemT022.xsd'
                     ),
                 ],
                 expected=[
@@ -8800,12 +8800,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT022"
+                name='elemT022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT022.xml"
+                        href='../msData/element/elemT022.xml'
                     ),
                     expected=[
                         Expected(
@@ -8816,10 +8816,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT022.i"
+                    name='elemT022.i'
                 ),
             ],
-            name="elemT022"
+            name='elemT022'
         ),
         TestGroup(
             annotation=[
@@ -8835,13 +8835,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT023.xsd"
+                        href='../msData/element/elemT023.xsd'
                     ),
                 ],
                 expected=[
@@ -8853,12 +8853,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT023"
+                name='elemT023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT023.xml"
+                        href='../msData/element/elemT023.xml'
                     ),
                     expected=[
                         Expected(
@@ -8869,10 +8869,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT023.i"
+                    name='elemT023.i'
                 ),
             ],
-            name="elemT023"
+            name='elemT023'
         ),
         TestGroup(
             annotation=[
@@ -8888,13 +8888,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT024.xsd"
+                        href='../msData/element/elemT024.xsd'
                     ),
                 ],
                 expected=[
@@ -8906,12 +8906,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT024"
+                name='elemT024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT024.xml"
+                        href='../msData/element/elemT024.xml'
                     ),
                     expected=[
                         Expected(
@@ -8922,10 +8922,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT024.i"
+                    name='elemT024.i'
                 ),
             ],
-            name="elemT024"
+            name='elemT024'
         ),
         TestGroup(
             annotation=[
@@ -8941,13 +8941,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT025.xsd"
+                        href='../msData/element/elemT025.xsd'
                     ),
                 ],
                 expected=[
@@ -8959,12 +8959,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT025"
+                name='elemT025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT025.xml"
+                        href='../msData/element/elemT025.xml'
                     ),
                     expected=[
                         Expected(
@@ -8975,10 +8975,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT025.v"
+                    name='elemT025.v'
                 ),
             ],
-            name="elemT025"
+            name='elemT025'
         ),
         TestGroup(
             annotation=[
@@ -8991,7 +8991,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -8999,13 +8999,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT026.xsd"
+                        href='../msData/element/elemT026.xsd'
                     ),
                 ],
                 expected=[
@@ -9017,12 +9017,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT026"
+                name='elemT026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT026.xml"
+                        href='../msData/element/elemT026.xml'
                     ),
                     expected=[
                         Expected(
@@ -9032,23 +9032,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT026.v"
+                    name='elemT026.v'
                 ),
             ],
-            name="elemT026"
+            name='elemT026'
         ),
         TestGroup(
             annotation=[
@@ -9061,7 +9061,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -9069,13 +9069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT027.xsd"
+                        href='../msData/element/elemT027.xsd'
                     ),
                 ],
                 expected=[
@@ -9087,12 +9087,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT027"
+                name='elemT027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT027.xml"
+                        href='../msData/element/elemT027.xml'
                     ),
                     expected=[
                         Expected(
@@ -9102,23 +9102,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT027.v"
+                    name='elemT027.v'
                 ),
             ],
-            name="elemT027"
+            name='elemT027'
         ),
         TestGroup(
             annotation=[
@@ -9131,7 +9131,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -9139,13 +9139,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT028.xsd"
+                        href='../msData/element/elemT028.xsd'
                     ),
                 ],
                 expected=[
@@ -9157,12 +9157,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT028"
+                name='elemT028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT028.xml"
+                        href='../msData/element/elemT028.xml'
                     ),
                     expected=[
                         Expected(
@@ -9172,23 +9172,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT028.v"
+                    name='elemT028.v'
                 ),
             ],
-            name="elemT028"
+            name='elemT028'
         ),
         TestGroup(
             annotation=[
@@ -9201,7 +9201,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -9209,13 +9209,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT029.xsd"
+                        href='../msData/element/elemT029.xsd'
                     ),
                 ],
                 expected=[
@@ -9227,12 +9227,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT029"
+                name='elemT029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT029.xml"
+                        href='../msData/element/elemT029.xml'
                     ),
                     expected=[
                         Expected(
@@ -9242,23 +9242,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT029.v"
+                    name='elemT029.v'
                 ),
             ],
-            name="elemT029"
+            name='elemT029'
         ),
         TestGroup(
             annotation=[
@@ -9274,13 +9274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT030.xsd"
+                        href='../msData/element/elemT030.xsd'
                     ),
                 ],
                 expected=[
@@ -9292,12 +9292,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT030"
+                name='elemT030'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT030.xml"
+                        href='../msData/element/elemT030.xml'
                     ),
                     expected=[
                         Expected(
@@ -9308,10 +9308,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT030.v"
+                    name='elemT030.v'
                 ),
             ],
-            name="elemT030"
+            name='elemT030'
         ),
         TestGroup(
             annotation=[
@@ -9327,13 +9327,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT031.xsd"
+                        href='../msData/element/elemT031.xsd'
                     ),
                 ],
                 expected=[
@@ -9345,12 +9345,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT031"
+                name='elemT031'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT031.xml"
+                        href='../msData/element/elemT031.xml'
                     ),
                     expected=[
                         Expected(
@@ -9361,10 +9361,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT031.i"
+                    name='elemT031.i'
                 ),
             ],
-            name="elemT031"
+            name='elemT031'
         ),
         TestGroup(
             annotation=[
@@ -9380,13 +9380,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT032.xsd"
+                        href='../msData/element/elemT032.xsd'
                     ),
                 ],
                 expected=[
@@ -9398,12 +9398,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT032"
+                name='elemT032'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT032.xml"
+                        href='../msData/element/elemT032.xml'
                     ),
                     expected=[
                         Expected(
@@ -9414,10 +9414,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT032.v"
+                    name='elemT032.v'
                 ),
             ],
-            name="elemT032"
+            name='elemT032'
         ),
         TestGroup(
             annotation=[
@@ -9433,13 +9433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT033.xsd"
+                        href='../msData/element/elemT033.xsd'
                     ),
                 ],
                 expected=[
@@ -9451,12 +9451,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT033"
+                name='elemT033'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT033.xml"
+                        href='../msData/element/elemT033.xml'
                     ),
                     expected=[
                         Expected(
@@ -9467,10 +9467,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT033.i"
+                    name='elemT033.i'
                 ),
             ],
-            name="elemT033"
+            name='elemT033'
         ),
         TestGroup(
             annotation=[
@@ -9486,13 +9486,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT034.xsd"
+                        href='../msData/element/elemT034.xsd'
                     ),
                 ],
                 expected=[
@@ -9504,12 +9504,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT034"
+                name='elemT034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT034.xml"
+                        href='../msData/element/elemT034.xml'
                     ),
                     expected=[
                         Expected(
@@ -9520,10 +9520,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT034.i"
+                    name='elemT034.i'
                 ),
             ],
-            name="elemT034"
+            name='elemT034'
         ),
         TestGroup(
             annotation=[
@@ -9539,13 +9539,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT035.xsd"
+                        href='../msData/element/elemT035.xsd'
                     ),
                 ],
                 expected=[
@@ -9557,12 +9557,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT035"
+                name='elemT035'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT035.xml"
+                        href='../msData/element/elemT035.xml'
                     ),
                     expected=[
                         Expected(
@@ -9573,10 +9573,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT035.i"
+                    name='elemT035.i'
                 ),
             ],
-            name="elemT035"
+            name='elemT035'
         ),
         TestGroup(
             annotation=[
@@ -9592,13 +9592,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT036.xsd"
+                        href='../msData/element/elemT036.xsd'
                     ),
                 ],
                 expected=[
@@ -9610,12 +9610,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT036"
+                name='elemT036'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT036.xml"
+                        href='../msData/element/elemT036.xml'
                     ),
                     expected=[
                         Expected(
@@ -9626,10 +9626,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT036.i"
+                    name='elemT036.i'
                 ),
             ],
-            name="elemT036"
+            name='elemT036'
         ),
         TestGroup(
             annotation=[
@@ -9645,13 +9645,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT037.xsd"
+                        href='../msData/element/elemT037.xsd'
                     ),
                 ],
                 expected=[
@@ -9663,12 +9663,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT037"
+                name='elemT037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT037.xml"
+                        href='../msData/element/elemT037.xml'
                     ),
                     expected=[
                         Expected(
@@ -9679,10 +9679,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT037.i"
+                    name='elemT037.i'
                 ),
             ],
-            name="elemT037"
+            name='elemT037'
         ),
         TestGroup(
             annotation=[
@@ -9698,13 +9698,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT038.xsd"
+                        href='../msData/element/elemT038.xsd'
                     ),
                 ],
                 expected=[
@@ -9716,12 +9716,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT038"
+                name='elemT038'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT038.xml"
+                        href='../msData/element/elemT038.xml'
                     ),
                     expected=[
                         Expected(
@@ -9732,10 +9732,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT038.v"
+                    name='elemT038.v'
                 ),
             ],
-            name="elemT038"
+            name='elemT038'
         ),
         TestGroup(
             annotation=[
@@ -9751,13 +9751,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT039.xsd"
+                        href='../msData/element/elemT039.xsd'
                     ),
                 ],
                 expected=[
@@ -9769,12 +9769,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT039"
+                name='elemT039'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT039.xml"
+                        href='../msData/element/elemT039.xml'
                     ),
                     expected=[
                         Expected(
@@ -9785,10 +9785,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT039.i"
+                    name='elemT039.i'
                 ),
             ],
-            name="elemT039"
+            name='elemT039'
         ),
         TestGroup(
             annotation=[
@@ -9804,13 +9804,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT040.xsd"
+                        href='../msData/element/elemT040.xsd'
                     ),
                 ],
                 expected=[
@@ -9822,12 +9822,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT040"
+                name='elemT040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT040.xml"
+                        href='../msData/element/elemT040.xml'
                     ),
                     expected=[
                         Expected(
@@ -9838,10 +9838,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT040.v"
+                    name='elemT040.v'
                 ),
             ],
-            name="elemT040"
+            name='elemT040'
         ),
         TestGroup(
             annotation=[
@@ -9857,13 +9857,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT041.xsd"
+                        href='../msData/element/elemT041.xsd'
                     ),
                 ],
                 expected=[
@@ -9875,12 +9875,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT041"
+                name='elemT041'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT041.xml"
+                        href='../msData/element/elemT041.xml'
                     ),
                     expected=[
                         Expected(
@@ -9891,10 +9891,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT041.v"
+                    name='elemT041.v'
                 ),
             ],
-            name="elemT041"
+            name='elemT041'
         ),
         TestGroup(
             annotation=[
@@ -9910,13 +9910,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT042.xsd"
+                        href='../msData/element/elemT042.xsd'
                     ),
                 ],
                 expected=[
@@ -9928,12 +9928,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT042"
+                name='elemT042'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT042.xml"
+                        href='../msData/element/elemT042.xml'
                     ),
                     expected=[
                         Expected(
@@ -9944,10 +9944,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT042.v"
+                    name='elemT042.v'
                 ),
             ],
-            name="elemT042"
+            name='elemT042'
         ),
         TestGroup(
             annotation=[
@@ -9963,13 +9963,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT043.xsd"
+                        href='../msData/element/elemT043.xsd'
                     ),
                 ],
                 expected=[
@@ -9981,12 +9981,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT043"
+                name='elemT043'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT043.xml"
+                        href='../msData/element/elemT043.xml'
                     ),
                     expected=[
                         Expected(
@@ -9997,10 +9997,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT043.v"
+                    name='elemT043.v'
                 ),
             ],
-            name="elemT043"
+            name='elemT043'
         ),
         TestGroup(
             annotation=[
@@ -10016,13 +10016,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT044.xsd"
+                        href='../msData/element/elemT044.xsd'
                     ),
                 ],
                 expected=[
@@ -10034,12 +10034,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT044"
+                name='elemT044'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT044.xml"
+                        href='../msData/element/elemT044.xml'
                     ),
                     expected=[
                         Expected(
@@ -10050,10 +10050,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT044.v"
+                    name='elemT044.v'
                 ),
             ],
-            name="elemT044"
+            name='elemT044'
         ),
         TestGroup(
             annotation=[
@@ -10069,13 +10069,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT045.xsd"
+                        href='../msData/element/elemT045.xsd'
                     ),
                 ],
                 expected=[
@@ -10087,12 +10087,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT045"
+                name='elemT045'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT045.xml"
+                        href='../msData/element/elemT045.xml'
                     ),
                     expected=[
                         Expected(
@@ -10103,10 +10103,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT045.i"
+                    name='elemT045.i'
                 ),
             ],
-            name="elemT045"
+            name='elemT045'
         ),
         TestGroup(
             annotation=[
@@ -10122,13 +10122,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT046.xsd"
+                        href='../msData/element/elemT046.xsd'
                     ),
                 ],
                 expected=[
@@ -10140,12 +10140,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT046"
+                name='elemT046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT046.xml"
+                        href='../msData/element/elemT046.xml'
                     ),
                     expected=[
                         Expected(
@@ -10156,10 +10156,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT046.i"
+                    name='elemT046.i'
                 ),
             ],
-            name="elemT046"
+            name='elemT046'
         ),
         TestGroup(
             annotation=[
@@ -10175,13 +10175,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT047.xsd"
+                        href='../msData/element/elemT047.xsd'
                     ),
                 ],
                 expected=[
@@ -10193,12 +10193,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT047"
+                name='elemT047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT047.xml"
+                        href='../msData/element/elemT047.xml'
                     ),
                     expected=[
                         Expected(
@@ -10209,10 +10209,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT047.i"
+                    name='elemT047.i'
                 ),
             ],
-            name="elemT047"
+            name='elemT047'
         ),
         TestGroup(
             annotation=[
@@ -10228,13 +10228,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT048.xsd"
+                        href='../msData/element/elemT048.xsd'
                     ),
                 ],
                 expected=[
@@ -10246,12 +10246,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT048"
+                name='elemT048'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT048.xml"
+                        href='../msData/element/elemT048.xml'
                     ),
                     expected=[
                         Expected(
@@ -10262,10 +10262,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT048.i"
+                    name='elemT048.i'
                 ),
             ],
-            name="elemT048"
+            name='elemT048'
         ),
         TestGroup(
             annotation=[
@@ -10281,13 +10281,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT049.xsd"
+                        href='../msData/element/elemT049.xsd'
                     ),
                 ],
                 expected=[
@@ -10299,12 +10299,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT049"
+                name='elemT049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT049.xml"
+                        href='../msData/element/elemT049.xml'
                     ),
                     expected=[
                         Expected(
@@ -10315,10 +10315,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT049.i"
+                    name='elemT049.i'
                 ),
             ],
-            name="elemT049"
+            name='elemT049'
         ),
         TestGroup(
             annotation=[
@@ -10334,13 +10334,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT050.xsd"
+                        href='../msData/element/elemT050.xsd'
                     ),
                 ],
                 expected=[
@@ -10352,12 +10352,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT050"
+                name='elemT050'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT050.xml"
+                        href='../msData/element/elemT050.xml'
                     ),
                     expected=[
                         Expected(
@@ -10368,10 +10368,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT050.i"
+                    name='elemT050.i'
                 ),
             ],
-            name="elemT050"
+            name='elemT050'
         ),
         TestGroup(
             annotation=[
@@ -10387,13 +10387,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT051.xsd"
+                        href='../msData/element/elemT051.xsd'
                     ),
                 ],
                 expected=[
@@ -10405,12 +10405,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT051"
+                name='elemT051'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT051.xml"
+                        href='../msData/element/elemT051.xml'
                     ),
                     expected=[
                         Expected(
@@ -10421,10 +10421,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT051.i"
+                    name='elemT051.i'
                 ),
             ],
-            name="elemT051"
+            name='elemT051'
         ),
         TestGroup(
             annotation=[
@@ -10440,13 +10440,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT052.xsd"
+                        href='../msData/element/elemT052.xsd'
                     ),
                 ],
                 expected=[
@@ -10458,12 +10458,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT052"
+                name='elemT052'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT052.xml"
+                        href='../msData/element/elemT052.xml'
                     ),
                     expected=[
                         Expected(
@@ -10474,10 +10474,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT052.i"
+                    name='elemT052.i'
                 ),
             ],
-            name="elemT052"
+            name='elemT052'
         ),
         TestGroup(
             annotation=[
@@ -10493,13 +10493,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT053.xsd"
+                        href='../msData/element/elemT053.xsd'
                     ),
                 ],
                 expected=[
@@ -10511,12 +10511,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT053"
+                name='elemT053'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT053.xml"
+                        href='../msData/element/elemT053.xml'
                     ),
                     expected=[
                         Expected(
@@ -10527,10 +10527,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT053.i"
+                    name='elemT053.i'
                 ),
             ],
-            name="elemT053"
+            name='elemT053'
         ),
         TestGroup(
             annotation=[
@@ -10543,7 +10543,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -10551,13 +10551,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT054.xsd"
+                        href='../msData/element/elemT054.xsd'
                     ),
                 ],
                 expected=[
@@ -10569,12 +10569,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT054"
+                name='elemT054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT054.xml"
+                        href='../msData/element/elemT054.xml'
                     ),
                     expected=[
                         Expected(
@@ -10584,23 +10584,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT054.v"
+                    name='elemT054.v'
                 ),
             ],
-            name="elemT054"
+            name='elemT054'
         ),
         TestGroup(
             annotation=[
@@ -10613,7 +10613,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -10621,13 +10621,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT055.xsd"
+                        href='../msData/element/elemT055.xsd'
                     ),
                 ],
                 expected=[
@@ -10639,12 +10639,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT055"
+                name='elemT055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT055.xml"
+                        href='../msData/element/elemT055.xml'
                     ),
                     expected=[
                         Expected(
@@ -10654,23 +10654,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT055.v"
+                    name='elemT055.v'
                 ),
             ],
-            name="elemT055"
+            name='elemT055'
         ),
         TestGroup(
             annotation=[
@@ -10683,7 +10683,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -10691,13 +10691,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT056.xsd"
+                        href='../msData/element/elemT056.xsd'
                     ),
                 ],
                 expected=[
@@ -10709,12 +10709,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT056"
+                name='elemT056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT056.xml"
+                        href='../msData/element/elemT056.xml'
                     ),
                     expected=[
                         Expected(
@@ -10724,23 +10724,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT056.v"
+                    name='elemT056.v'
                 ),
             ],
-            name="elemT056"
+            name='elemT056'
         ),
         TestGroup(
             annotation=[
@@ -10753,7 +10753,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF observed that although the original bug report is mistaken,&#10;the instance is none-the-less invalid, because the controlling element&#10;declaration blocks derivation (from its implicit type AnyType) by&#10;restriction.",
+                                'TSTF observed that although the original bug report is mistaken,\nthe instance is none-the-less invalid, because the controlling element\ndeclaration blocks derivation (from its implicit type AnyType) by\nrestriction.',
                             ]
                         ),
                     ]
@@ -10761,13 +10761,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT057.xsd"
+                        href='../msData/element/elemT057.xsd'
                     ),
                 ],
                 expected=[
@@ -10779,12 +10779,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT057"
+                name='elemT057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT057.xml"
+                        href='../msData/element/elemT057.xml'
                     ),
                     expected=[
                         Expected(
@@ -10794,23 +10794,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 11),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4056'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="elemT057.v"
+                    name='elemT057.v'
                 ),
             ],
-            name="elemT057"
+            name='elemT057'
         ),
         TestGroup(
             annotation=[
@@ -10818,7 +10818,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : several elements with different blocks and valid instance",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : several elements with different blocks and valid instance',
                             ]
                         ),
                     ]
@@ -10826,13 +10826,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT058.xsd"
+                        href='../msData/element/elemT058.xsd'
                     ),
                 ],
                 expected=[
@@ -10844,12 +10844,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT058"
+                name='elemT058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT058.xml"
+                        href='../msData/element/elemT058.xml'
                     ),
                     expected=[
                         Expected(
@@ -10860,10 +10860,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT058.v"
+                    name='elemT058.v'
                 ),
             ],
-            name="elemT058"
+            name='elemT058'
         ),
         TestGroup(
             annotation=[
@@ -10879,13 +10879,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT059.xsd"
+                        href='../msData/element/elemT059.xsd'
                     ),
                 ],
                 expected=[
@@ -10897,12 +10897,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT059"
+                name='elemT059'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT059.xml"
+                        href='../msData/element/elemT059.xml'
                     ),
                     expected=[
                         Expected(
@@ -10913,10 +10913,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT059.i"
+                    name='elemT059.i'
                 ),
             ],
-            name="elemT059"
+            name='elemT059'
         ),
         TestGroup(
             annotation=[
@@ -10932,13 +10932,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT060.xsd"
+                        href='../msData/element/elemT060.xsd'
                     ),
                 ],
                 expected=[
@@ -10950,12 +10950,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT060"
+                name='elemT060'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT060.xml"
+                        href='../msData/element/elemT060.xml'
                     ),
                     expected=[
                         Expected(
@@ -10966,10 +10966,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT060.i"
+                    name='elemT060.i'
                 ),
             ],
-            name="elemT060"
+            name='elemT060'
         ),
         TestGroup(
             annotation=[
@@ -10985,13 +10985,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT061.xsd"
+                        href='../msData/element/elemT061.xsd'
                     ),
                 ],
                 expected=[
@@ -11003,12 +11003,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT061"
+                name='elemT061'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT061.xml"
+                        href='../msData/element/elemT061.xml'
                     ),
                     expected=[
                         Expected(
@@ -11019,10 +11019,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT061.i"
+                    name='elemT061.i'
                 ),
             ],
-            name="elemT061"
+            name='elemT061'
         ),
         TestGroup(
             annotation=[
@@ -11038,13 +11038,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT062.xsd"
+                        href='../msData/element/elemT062.xsd'
                     ),
                 ],
                 expected=[
@@ -11056,12 +11056,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT062"
+                name='elemT062'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT062.xml"
+                        href='../msData/element/elemT062.xml'
                     ),
                     expected=[
                         Expected(
@@ -11072,10 +11072,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT062.v"
+                    name='elemT062.v'
                 ),
             ],
-            name="elemT062"
+            name='elemT062'
         ),
         TestGroup(
             annotation=[
@@ -11091,13 +11091,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT063.xsd"
+                        href='../msData/element/elemT063.xsd'
                     ),
                 ],
                 expected=[
@@ -11109,12 +11109,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT063"
+                name='elemT063'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT063.xml"
+                        href='../msData/element/elemT063.xml'
                     ),
                     expected=[
                         Expected(
@@ -11125,10 +11125,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT063.i"
+                    name='elemT063.i'
                 ),
             ],
-            name="elemT063"
+            name='elemT063'
         ),
         TestGroup(
             annotation=[
@@ -11144,13 +11144,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT064.xsd"
+                        href='../msData/element/elemT064.xsd'
                     ),
                 ],
                 expected=[
@@ -11162,12 +11162,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT064"
+                name='elemT064'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT064.xml"
+                        href='../msData/element/elemT064.xml'
                     ),
                     expected=[
                         Expected(
@@ -11178,10 +11178,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT064.v"
+                    name='elemT064.v'
                 ),
             ],
-            name="elemT064"
+            name='elemT064'
         ),
         TestGroup(
             annotation=[
@@ -11197,13 +11197,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT065.xsd"
+                        href='../msData/element/elemT065.xsd'
                     ),
                 ],
                 expected=[
@@ -11215,12 +11215,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT065"
+                name='elemT065'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT065.xml"
+                        href='../msData/element/elemT065.xml'
                     ),
                     expected=[
                         Expected(
@@ -11231,10 +11231,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT065.i"
+                    name='elemT065.i'
                 ),
             ],
-            name="elemT065"
+            name='elemT065'
         ),
         TestGroup(
             annotation=[
@@ -11250,13 +11250,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT066.xsd"
+                        href='../msData/element/elemT066.xsd'
                     ),
                 ],
                 expected=[
@@ -11268,12 +11268,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT066"
+                name='elemT066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT066.xml"
+                        href='../msData/element/elemT066.xml'
                     ),
                     expected=[
                         Expected(
@@ -11284,10 +11284,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT066.v"
+                    name='elemT066.v'
                 ),
             ],
-            name="elemT066"
+            name='elemT066'
         ),
         TestGroup(
             annotation=[
@@ -11303,13 +11303,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT067.xsd"
+                        href='../msData/element/elemT067.xsd'
                     ),
                 ],
                 expected=[
@@ -11321,12 +11321,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT067"
+                name='elemT067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT067.xml"
+                        href='../msData/element/elemT067.xml'
                     ),
                     expected=[
                         Expected(
@@ -11337,10 +11337,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT067.v"
+                    name='elemT067.v'
                 ),
             ],
-            name="elemT067"
+            name='elemT067'
         ),
         TestGroup(
             annotation=[
@@ -11356,13 +11356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT068.xsd"
+                        href='../msData/element/elemT068.xsd'
                     ),
                 ],
                 expected=[
@@ -11374,12 +11374,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT068"
+                name='elemT068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT068.xml"
+                        href='../msData/element/elemT068.xml'
                     ),
                     expected=[
                         Expected(
@@ -11390,10 +11390,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT068.i"
+                    name='elemT068.i'
                 ),
             ],
-            name="elemT068"
+            name='elemT068'
         ),
         TestGroup(
             annotation=[
@@ -11409,13 +11409,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT069.xsd"
+                        href='../msData/element/elemT069.xsd'
                     ),
                 ],
                 expected=[
@@ -11427,12 +11427,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT069"
+                name='elemT069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT069.xml"
+                        href='../msData/element/elemT069.xml'
                     ),
                     expected=[
                         Expected(
@@ -11443,10 +11443,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT069.i"
+                    name='elemT069.i'
                 ),
             ],
-            name="elemT069"
+            name='elemT069'
         ),
         TestGroup(
             annotation=[
@@ -11462,13 +11462,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT070.xsd"
+                        href='../msData/element/elemT070.xsd'
                     ),
                 ],
                 expected=[
@@ -11480,12 +11480,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT070"
+                name='elemT070'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT070.xml"
+                        href='../msData/element/elemT070.xml'
                     ),
                     expected=[
                         Expected(
@@ -11496,10 +11496,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT070.i"
+                    name='elemT070.i'
                 ),
             ],
-            name="elemT070"
+            name='elemT070'
         ),
         TestGroup(
             annotation=[
@@ -11507,7 +11507,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-A, block=absent, and instant XMLhas xsi:type=A type derived from a type in the Union",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-A, block=absent, and instant XMLhas xsi:type=A type derived from a type in the Union',
                             ]
                         ),
                     ]
@@ -11515,13 +11515,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT071.xsd"
+                        href='../msData/element/elemT071.xsd'
                     ),
                 ],
                 expected=[
@@ -11533,12 +11533,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT071"
+                name='elemT071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT071.xml"
+                        href='../msData/element/elemT071.xml'
                     ),
                     expected=[
                         Expected(
@@ -11549,10 +11549,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT071.v"
+                    name='elemT071.v'
                 ),
             ],
-            name="elemT071"
+            name='elemT071'
         ),
         TestGroup(
             annotation=[
@@ -11560,7 +11560,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=absent, and instant XMLhas xsi:type=A type derived from a type in the Union",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=absent, and instant XMLhas xsi:type=A type derived from a type in the Union',
                             ]
                         ),
                     ]
@@ -11568,13 +11568,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT072.xsd"
+                        href='../msData/element/elemT072.xsd'
                     ),
                 ],
                 expected=[
@@ -11586,12 +11586,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT072"
+                name='elemT072'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT072.xml"
+                        href='../msData/element/elemT072.xml'
                     ),
                     expected=[
                         Expected(
@@ -11602,10 +11602,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT072.v"
+                    name='elemT072.v'
                 ),
             ],
-            name="elemT072"
+            name='elemT072'
         ),
         TestGroup(
             annotation=[
@@ -11613,7 +11613,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=extension, and instant XMLhas xsi:type=A type derived from a type in the Union",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=extension, and instant XMLhas xsi:type=A type derived from a type in the Union',
                             ]
                         ),
                     ]
@@ -11621,13 +11621,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT073.xsd"
+                        href='../msData/element/elemT073.xsd'
                     ),
                 ],
                 expected=[
@@ -11639,12 +11639,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT073"
+                name='elemT073'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT073.xml"
+                        href='../msData/element/elemT073.xml'
                     ),
                     expected=[
                         Expected(
@@ -11655,10 +11655,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT073.v"
+                    name='elemT073.v'
                 ),
             ],
-            name="elemT073"
+            name='elemT073'
         ),
         TestGroup(
             annotation=[
@@ -11666,7 +11666,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=restriction, and instant XMLhas xsi:type=A type derived from a type in the Union",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Element type=Union-AB, block=restriction, and instant XMLhas xsi:type=A type derived from a type in the Union',
                             ]
                         ),
                     ]
@@ -11674,13 +11674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemT074.xsd"
+                        href='../msData/element/elemT074.xsd'
                     ),
                 ],
                 expected=[
@@ -11692,12 +11692,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemT074"
+                name='elemT074'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemT074.xml"
+                        href='../msData/element/elemT074.xml'
                     ),
                     expected=[
                         Expected(
@@ -11708,10 +11708,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemT074.i"
+                    name='elemT074.i'
                 ),
             ],
-            name="elemT074"
+            name='elemT074'
         ),
         TestGroup(
             annotation=[
@@ -11719,7 +11719,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\d"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\d"',
                             ]
                         ),
                     ]
@@ -11727,13 +11727,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU001.xsd"
+                        href='../msData/element/elemU001.xsd'
                     ),
                 ],
                 expected=[
@@ -11745,12 +11745,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU001"
+                name='elemU001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU001.xml"
+                        href='../msData/element/elemU001.xml'
                     ),
                     expected=[
                         Expected(
@@ -11761,10 +11761,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU001.v"
+                    name='elemU001.v'
                 ),
             ],
-            name="elemU001"
+            name='elemU001'
         ),
         TestGroup(
             annotation=[
@@ -11772,7 +11772,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\s\d"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\s\\d"',
                             ]
                         ),
                     ]
@@ -11780,13 +11780,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU002.xsd"
+                        href='../msData/element/elemU002.xsd'
                     ),
                 ],
                 expected=[
@@ -11798,12 +11798,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU002"
+                name='elemU002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU002.xml"
+                        href='../msData/element/elemU002.xml'
                     ),
                     expected=[
                         Expected(
@@ -11814,10 +11814,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU002.v"
+                    name='elemU002.v'
                 ),
             ],
-            name="elemU002"
+            name='elemU002'
         ),
         TestGroup(
             annotation=[
@@ -11825,7 +11825,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\s\w"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\s\\w"',
                             ]
                         ),
                     ]
@@ -11833,13 +11833,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU003.xsd"
+                        href='../msData/element/elemU003.xsd'
                     ),
                 ],
                 expected=[
@@ -11851,12 +11851,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU003"
+                name='elemU003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU003.xml"
+                        href='../msData/element/elemU003.xml'
                     ),
                     expected=[
                         Expected(
@@ -11867,10 +11867,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU003.v"
+                    name='elemU003.v'
                 ),
             ],
-            name="elemU003"
+            name='elemU003'
         ),
         TestGroup(
             annotation=[
@@ -11878,7 +11878,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "Espan&amp;#xF1;ola"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "Espan&#xF1;ola"',
                             ]
                         ),
                     ]
@@ -11886,13 +11886,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU004.xsd"
+                        href='../msData/element/elemU004.xsd'
                     ),
                 ],
                 expected=[
@@ -11904,12 +11904,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU004"
+                name='elemU004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU004.xml"
+                        href='../msData/element/elemU004.xml'
                     ),
                     expected=[
                         Expected(
@@ -11920,10 +11920,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU004.v"
+                    name='elemU004.v'
                 ),
             ],
-            name="elemU004"
+            name='elemU004'
         ),
         TestGroup(
             annotation=[
@@ -11931,7 +11931,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\p{Lu}"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\p{Lu}"',
                             ]
                         ),
                     ]
@@ -11939,13 +11939,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU005.xsd"
+                        href='../msData/element/elemU005.xsd'
                     ),
                 ],
                 expected=[
@@ -11957,12 +11957,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU005"
+                name='elemU005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU005.xml"
+                        href='../msData/element/elemU005.xml'
                     ),
                     expected=[
                         Expected(
@@ -11973,10 +11973,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU005.v"
+                    name='elemU005.v'
                 ),
             ],
-            name="elemU005"
+            name='elemU005'
         ),
         TestGroup(
             annotation=[
@@ -11984,7 +11984,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\p{IsGreek}"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\p{IsGreek}"',
                             ]
                         ),
                     ]
@@ -11992,13 +11992,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU006.xsd"
+                        href='../msData/element/elemU006.xsd'
                     ),
                 ],
                 expected=[
@@ -12010,12 +12010,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU006"
+                name='elemU006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU006.xml"
+                        href='../msData/element/elemU006.xml'
                     ),
                     expected=[
                         Expected(
@@ -12026,10 +12026,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU006.v"
+                    name='elemU006.v'
                 ),
             ],
-            name="elemU006"
+            name='elemU006'
         ),
         TestGroup(
             annotation=[
@@ -12037,7 +12037,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\P{IsGreek}"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\P{IsGreek}"',
                             ]
                         ),
                     ]
@@ -12045,13 +12045,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU007.xsd"
+                        href='../msData/element/elemU007.xsd'
                     ),
                 ],
                 expected=[
@@ -12063,12 +12063,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU007"
+                name='elemU007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU007.xml"
+                        href='../msData/element/elemU007.xml'
                     ),
                     expected=[
                         Expected(
@@ -12079,10 +12079,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU007.v"
+                    name='elemU007.v'
                 ),
             ],
-            name="elemU007"
+            name='elemU007'
         ),
         TestGroup(
             annotation=[
@@ -12098,13 +12098,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU008.xsd"
+                        href='../msData/element/elemU008.xsd'
                     ),
                 ],
                 expected=[
@@ -12116,12 +12116,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU008"
+                name='elemU008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU008.xml"
+                        href='../msData/element/elemU008.xml'
                     ),
                     expected=[
                         Expected(
@@ -12132,10 +12132,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU008.v"
+                    name='elemU008.v'
                 ),
             ],
-            name="elemU008"
+            name='elemU008'
         ),
         TestGroup(
             annotation=[
@@ -12151,13 +12151,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU009.xsd"
+                        href='../msData/element/elemU009.xsd'
                     ),
                 ],
                 expected=[
@@ -12169,12 +12169,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU009"
+                name='elemU009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU009.xml"
+                        href='../msData/element/elemU009.xml'
                     ),
                     expected=[
                         Expected(
@@ -12185,10 +12185,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU009.v"
+                    name='elemU009.v'
                 ),
             ],
-            name="elemU009"
+            name='elemU009'
         ),
         TestGroup(
             annotation=[
@@ -12204,13 +12204,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU010.xsd"
+                        href='../msData/element/elemU010.xsd'
                     ),
                 ],
                 expected=[
@@ -12222,12 +12222,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU010"
+                name='elemU010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU010.xml"
+                        href='../msData/element/elemU010.xml'
                     ),
                     expected=[
                         Expected(
@@ -12238,10 +12238,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU010.v"
+                    name='elemU010.v'
                 ),
             ],
-            name="elemU010"
+            name='elemU010'
         ),
         TestGroup(
             annotation=[
@@ -12257,13 +12257,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU011.xsd"
+                        href='../msData/element/elemU011.xsd'
                     ),
                 ],
                 expected=[
@@ -12275,12 +12275,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU011"
+                name='elemU011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU011.xml"
+                        href='../msData/element/elemU011.xml'
                     ),
                     expected=[
                         Expected(
@@ -12291,10 +12291,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU011.v"
+                    name='elemU011.v'
                 ),
             ],
-            name="elemU011"
+            name='elemU011'
         ),
         TestGroup(
             annotation=[
@@ -12310,13 +12310,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU012.xsd"
+                        href='../msData/element/elemU012.xsd'
                     ),
                 ],
                 expected=[
@@ -12328,12 +12328,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU012"
+                name='elemU012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU012.xml"
+                        href='../msData/element/elemU012.xml'
                     ),
                     expected=[
                         Expected(
@@ -12344,10 +12344,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU012.v"
+                    name='elemU012.v'
                 ),
             ],
-            name="elemU012"
+            name='elemU012'
         ),
         TestGroup(
             annotation=[
@@ -12363,13 +12363,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU013.xsd"
+                        href='../msData/element/elemU013.xsd'
                     ),
                 ],
                 expected=[
@@ -12381,12 +12381,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU013"
+                name='elemU013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU013.xml"
+                        href='../msData/element/elemU013.xml'
                     ),
                     expected=[
                         Expected(
@@ -12397,10 +12397,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU013.v"
+                    name='elemU013.v'
                 ),
             ],
-            name="elemU013"
+            name='elemU013'
         ),
         TestGroup(
             annotation=[
@@ -12416,13 +12416,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU014.xsd"
+                        href='../msData/element/elemU014.xsd'
                     ),
                 ],
                 expected=[
@@ -12434,12 +12434,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU014"
+                name='elemU014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU014.xml"
+                        href='../msData/element/elemU014.xml'
                     ),
                     expected=[
                         Expected(
@@ -12450,10 +12450,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU014.v"
+                    name='elemU014.v'
                 ),
             ],
-            name="elemU014"
+            name='elemU014'
         ),
         TestGroup(
             annotation=[
@@ -12469,13 +12469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU015.xsd"
+                        href='../msData/element/elemU015.xsd'
                     ),
                 ],
                 expected=[
@@ -12487,12 +12487,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU015"
+                name='elemU015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU015.xml"
+                        href='../msData/element/elemU015.xml'
                     ),
                     expected=[
                         Expected(
@@ -12503,10 +12503,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU015.v"
+                    name='elemU015.v'
                 ),
             ],
-            name="elemU015"
+            name='elemU015'
         ),
         TestGroup(
             annotation=[
@@ -12522,13 +12522,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU017.xsd"
+                        href='../msData/element/elemU017.xsd'
                     ),
                 ],
                 expected=[
@@ -12540,12 +12540,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU017"
+                name='elemU017'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU017.xml"
+                        href='../msData/element/elemU017.xml'
                     ),
                     expected=[
                         Expected(
@@ -12556,10 +12556,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU017.v"
+                    name='elemU017.v'
                 ),
             ],
-            name="elemU017"
+            name='elemU017'
         ),
         TestGroup(
             annotation=[
@@ -12567,7 +12567,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\Dx"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "\\Dx"',
                             ]
                         ),
                     ]
@@ -12575,13 +12575,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU018.xsd"
+                        href='../msData/element/elemU018.xsd'
                     ),
                 ],
                 expected=[
@@ -12593,12 +12593,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU018"
+                name='elemU018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU018.xml"
+                        href='../msData/element/elemU018.xml'
                     ),
                     expected=[
                         Expected(
@@ -12609,10 +12609,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU018.v"
+                    name='elemU018.v'
                 ),
             ],
-            name="elemU018"
+            name='elemU018'
         ),
         TestGroup(
             annotation=[
@@ -12628,13 +12628,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU019.xsd"
+                        href='../msData/element/elemU019.xsd'
                     ),
                 ],
                 expected=[
@@ -12646,12 +12646,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU019"
+                name='elemU019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU019.xml"
+                        href='../msData/element/elemU019.xml'
                     ),
                     expected=[
                         Expected(
@@ -12662,10 +12662,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU019.v"
+                    name='elemU019.v'
                 ),
             ],
-            name="elemU019"
+            name='elemU019'
         ),
         TestGroup(
             annotation=[
@@ -12681,13 +12681,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU020.xsd"
+                        href='../msData/element/elemU020.xsd'
                     ),
                 ],
                 expected=[
@@ -12699,12 +12699,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU020"
+                name='elemU020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU020.xml"
+                        href='../msData/element/elemU020.xml'
                     ),
                     expected=[
                         Expected(
@@ -12715,10 +12715,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU020.v"
+                    name='elemU020.v'
                 ),
             ],
-            name="elemU020"
+            name='elemU020'
         ),
         TestGroup(
             annotation=[
@@ -12734,13 +12734,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU021.xsd"
+                        href='../msData/element/elemU021.xsd'
                     ),
                 ],
                 expected=[
@@ -12752,12 +12752,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU021"
+                name='elemU021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU021.xml"
+                        href='../msData/element/elemU021.xml'
                     ),
                     expected=[
                         Expected(
@@ -12768,10 +12768,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU021.v"
+                    name='elemU021.v'
                 ),
             ],
-            name="elemU021"
+            name='elemU021'
         ),
         TestGroup(
             annotation=[
@@ -12787,13 +12787,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU022.xsd"
+                        href='../msData/element/elemU022.xsd'
                     ),
                 ],
                 expected=[
@@ -12805,12 +12805,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU022"
+                name='elemU022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU022.xml"
+                        href='../msData/element/elemU022.xml'
                     ),
                     expected=[
                         Expected(
@@ -12821,10 +12821,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU022.v"
+                    name='elemU022.v'
                 ),
             ],
-            name="elemU022"
+            name='elemU022'
         ),
         TestGroup(
             annotation=[
@@ -12840,13 +12840,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU023.xsd"
+                        href='../msData/element/elemU023.xsd'
                     ),
                 ],
                 expected=[
@@ -12858,12 +12858,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU023"
+                name='elemU023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU023.xml"
+                        href='../msData/element/elemU023.xml'
                     ),
                     expected=[
                         Expected(
@@ -12874,10 +12874,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU023.v"
+                    name='elemU023.v'
                 ),
             ],
-            name="elemU023"
+            name='elemU023'
         ),
         TestGroup(
             annotation=[
@@ -12893,13 +12893,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU024.xsd"
+                        href='../msData/element/elemU024.xsd'
                     ),
                 ],
                 expected=[
@@ -12911,12 +12911,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU024"
+                name='elemU024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU024.xml"
+                        href='../msData/element/elemU024.xml'
                     ),
                     expected=[
                         Expected(
@@ -12927,10 +12927,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU024.v"
+                    name='elemU024.v'
                 ),
             ],
-            name="elemU024"
+            name='elemU024'
         ),
         TestGroup(
             annotation=[
@@ -12938,7 +12938,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "chapter \d"',
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : regular expression: restriction on string "chapter \\d"',
                             ]
                         ),
                     ]
@@ -12946,13 +12946,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemU025.xsd"
+                        href='../msData/element/elemU025.xsd'
                     ),
                 ],
                 expected=[
@@ -12964,12 +12964,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemU025"
+                name='elemU025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemU025.xml"
+                        href='../msData/element/elemU025.xml'
                     ),
                     expected=[
                         Expected(
@@ -12980,10 +12980,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemU025.i"
+                    name='elemU025.i'
                 ),
             ],
-            name="elemU025"
+            name='elemU025'
         ),
         TestGroup(
             annotation=[
@@ -12991,7 +12991,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : 81682 - Element with xsi:nil value set to true and xsi:type value",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : 81682 - Element with xsi:nil value set to true and xsi:type value',
                             ]
                         ),
                     ]
@@ -12999,13 +12999,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ001.xsd"
+                        href='../msData/element/elemZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -13017,12 +13017,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ001"
+                name='elemZ001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ001.xml"
+                        href='../msData/element/elemZ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -13033,10 +13033,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ001.v"
+                    name='elemZ001.v'
                 ),
             ],
-            name="elemZ001"
+            name='elemZ001'
         ),
         TestGroup(
             annotation=[
@@ -13044,7 +13044,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : 67493 - xsd: xsi:type should allowed predefined types as valid value.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : 67493 - xsd: xsi:type should allowed predefined types as valid value.',
                             ]
                         ),
                     ]
@@ -13052,13 +13052,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ002.xsd"
+                        href='../msData/element/elemZ002.xsd'
                     ),
                 ],
                 expected=[
@@ -13070,12 +13070,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ002"
+                name='elemZ002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ002.xml"
+                        href='../msData/element/elemZ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -13086,10 +13086,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ002.v"
+                    name='elemZ002.v'
                 ),
             ],
-            name="elemZ002"
+            name='elemZ002'
         ),
         TestGroup(
             annotation=[
@@ -13097,7 +13097,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : 72898 - subsitutionGroup with deep chains",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : 72898 - subsitutionGroup with deep chains',
                             ]
                         ),
                     ]
@@ -13105,13 +13105,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ003.xsd"
+                        href='../msData/element/elemZ003.xsd'
                     ),
                 ],
                 expected=[
@@ -13123,12 +13123,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ003"
+                name='elemZ003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ003.xml"
+                        href='../msData/element/elemZ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -13139,10 +13139,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ003.v"
+                    name='elemZ003.v'
                 ),
             ],
-            name="elemZ003"
+            name='elemZ003'
         ),
         TestGroup(
             annotation=[
@@ -13150,7 +13150,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : test maxOccurs to take values more than int (2147483647)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : test maxOccurs to take values more than int (2147483647)',
                             ]
                         ),
                     ]
@@ -13158,13 +13158,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ004.xsd"
+                        href='../msData/element/elemZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -13176,9 +13176,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ004"
+                name='elemZ004'
             ),
-            name="elemZ004"
+            name='elemZ004'
         ),
         TestGroup(
             annotation=[
@@ -13186,7 +13186,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : validation of number data types for top-level element declarations",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : validation of number data types for top-level element declarations',
                             ]
                         ),
                     ]
@@ -13194,13 +13194,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ005.xsd"
+                        href='../msData/element/elemZ005.xsd'
                     ),
                 ],
                 expected=[
@@ -13212,9 +13212,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ005"
+                name='elemZ005'
             ),
-            name="elemZ005"
+            name='elemZ005'
         ),
         TestGroup(
             annotation=[
@@ -13222,12 +13222,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: [import] it is invalid to reference from a schema that is not directly imported.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: [import] it is invalid to reference from a schema that is not directly imported.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -13235,13 +13235,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ006.xsd"
+                        href='../msData/element/elemZ006.xsd'
                     ),
                 ],
                 expected=[
@@ -13252,27 +13252,27 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 21),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ006"
+                name='elemZ006'
             ),
-            name="elemZ006"
+            name='elemZ006'
         ),
         TestGroup(
             annotation=[
@@ -13280,12 +13280,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: [include] it is invalid to reference from a schema that is not directly imported.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: [include] it is invalid to reference from a schema that is not directly imported.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -13293,13 +13293,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ007.xsd"
+                        href='../msData/element/elemZ007.xsd'
                     ),
                 ],
                 expected=[
@@ -13310,22 +13310,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ007"
+                name='elemZ007'
             ),
-            name="elemZ007"
+            name='elemZ007'
         ),
         TestGroup(
             annotation=[
@@ -13333,7 +13333,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.',
                             ]
                         ),
                     ]
@@ -13341,13 +13341,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ008.xsd"
+                        href='../msData/element/elemZ008.xsd'
                     ),
                 ],
                 expected=[
@@ -13359,9 +13359,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ008"
+                name='elemZ008'
             ),
-            name="elemZ008"
+            name='elemZ008'
         ),
         TestGroup(
             annotation=[
@@ -13369,7 +13369,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.',
                             ]
                         ),
                     ]
@@ -13377,13 +13377,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ009.xsd"
+                        href='../msData/element/elemZ009.xsd'
                     ),
                 ],
                 expected=[
@@ -13395,12 +13395,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ009"
+                name='elemZ009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ009.xml"
+                        href='../msData/element/elemZ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -13411,10 +13411,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ009.v"
+                    name='elemZ009.v'
                 ),
             ],
-            name="elemZ009"
+            name='elemZ009'
         ),
         TestGroup(
             annotation=[
@@ -13422,7 +13422,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Components in A may be indirectly using components from C. Lets assume that a type declared in B derives from one in C (which is possible because B imports C). Document A can declare elements using that type because it includes B. Such use obviously involves information from the base type in C as will as the explicit reference in B.',
                             ]
                         ),
                     ]
@@ -13430,13 +13430,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ010.xsd"
+                        href='../msData/element/elemZ010.xsd'
                     ),
                 ],
                 expected=[
@@ -13448,12 +13448,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ010"
+                name='elemZ010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ010.xml"
+                        href='../msData/element/elemZ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -13464,10 +13464,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ010.v"
+                    name='elemZ010.v'
                 ),
             ],
-            name="elemZ010"
+            name='elemZ010'
         ),
         TestGroup(
             annotation=[
@@ -13475,7 +13475,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Substitution group affects local element declarations",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Substitution group affects local element declarations',
                             ]
                         ),
                     ]
@@ -13483,13 +13483,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ011.xsd"
+                        href='../msData/element/elemZ011.xsd'
                     ),
                 ],
                 expected=[
@@ -13501,9 +13501,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ011"
+                name='elemZ011'
             ),
-            name="elemZ011"
+            name='elemZ011'
         ),
         TestGroup(
             annotation=[
@@ -13511,7 +13511,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: when element with invalid default value that has substitution group whose head also has invalid default",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: when element with invalid default value that has substitution group whose head also has invalid default',
                             ]
                         ),
                     ]
@@ -13519,13 +13519,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ012.xsd"
+                        href='../msData/element/elemZ012.xsd'
                     ),
                 ],
                 expected=[
@@ -13537,9 +13537,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ012"
+                name='elemZ012'
             ),
-            name="elemZ012"
+            name='elemZ012'
         ),
         TestGroup(
             annotation=[
@@ -13547,7 +13547,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsi:type references and namespace alias for parent element",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsi:type references and namespace alias for parent element',
                             ]
                         ),
                     ]
@@ -13555,13 +13555,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ014.xsd"
+                        href='../msData/element/elemZ014.xsd'
                     ),
                 ],
                 expected=[
@@ -13573,12 +13573,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ014"
+                name='elemZ014'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ014.xml"
+                        href='../msData/element/elemZ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -13589,10 +13589,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ014.v"
+                    name='elemZ014.v'
                 ),
             ],
-            name="elemZ014"
+            name='elemZ014'
         ),
         TestGroup(
             annotation=[
@@ -13600,7 +13600,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : 86614 xsd: uniqueness idendity constraint when using xsi:type to change the type of an element.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : 86614 xsd: uniqueness idendity constraint when using xsi:type to change the type of an element.',
                             ]
                         ),
                     ]
@@ -13608,13 +13608,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ015.xsd"
+                        href='../msData/element/elemZ015.xsd'
                     ),
                 ],
                 expected=[
@@ -13626,12 +13626,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ015"
+                name='elemZ015'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ015.xml"
+                        href='../msData/element/elemZ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -13642,10 +13642,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ015.i"
+                    name='elemZ015.i'
                 ),
             ],
-            name="elemZ015"
+            name='elemZ015'
         ),
         TestGroup(
             annotation=[
@@ -13653,12 +13653,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: element with childNodes typed=ID, dupe ID should be invalid.",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: element with childNodes typed=ID, dupe ID should be invalid.',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Becomes valid in XSD 1.1 (two child elements of type xs:ID are permitted if the ID is the same)",
+                                'Becomes valid in XSD 1.1 (two child elements of type xs:ID are permitted if the ID is the same)',
                             ]
                         ),
                     ]
@@ -13666,16 +13666,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ016.xsd"
+                        href='../msData/element/elemZ016.xsd'
                     ),
                 ],
                 expected=[
@@ -13687,12 +13687,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ016"
+                name='elemZ016'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ016.xml"
+                        href='../msData/element/elemZ016.xml'
                     ),
                     expected=[
                         Expected(
@@ -13712,10 +13712,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ016.i"
+                    name='elemZ016.i'
                 ),
             ],
-            name="elemZ016"
+            name='elemZ016'
         ),
         TestGroup(
             annotation=[
@@ -13723,7 +13723,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : empty element with xsi:type of xs:string",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : empty element with xsi:type of xs:string',
                             ]
                         ),
                     ]
@@ -13731,13 +13731,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ017.xml"
+                        href='../msData/element/elemZ017.xml'
                     ),
                     expected=[
                         Expected(
@@ -13748,10 +13748,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ017.v"
+                    name='elemZ017.v'
                 ),
             ],
-            name="elemZ017"
+            name='elemZ017'
         ),
         TestGroup(
             annotation=[
@@ -13759,7 +13759,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Schema with deep nested nodes (&gt;14 nested levels)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Schema with deep nested nodes (>14 nested levels)',
                             ]
                         ),
                     ]
@@ -13767,13 +13767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ018.xsd"
+                        href='../msData/element/elemZ018.xsd'
                     ),
                 ],
                 expected=[
@@ -13785,12 +13785,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ018"
+                name='elemZ018'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ018.xml"
+                        href='../msData/element/elemZ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -13801,10 +13801,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ018.v"
+                    name='elemZ018.v'
                 ),
             ],
-            name="elemZ018"
+            name='elemZ018'
         ),
         TestGroup(
             annotation=[
@@ -13812,7 +13812,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Namespace URIs should not be canonicalized if they are GUIDs, XDR uses this GUID for datatype declarations",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Namespace URIs should not be canonicalized if they are GUIDs, XDR uses this GUID for datatype declarations',
                             ]
                         ),
                     ]
@@ -13820,13 +13820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ019.xsd"
+                        href='../msData/element/elemZ019.xsd'
                     ),
                 ],
                 expected=[
@@ -13838,12 +13838,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ019"
+                name='elemZ019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ019.xml"
+                        href='../msData/element/elemZ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -13854,10 +13854,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ019.v"
+                    name='elemZ019.v'
                 ),
             ],
-            name="elemZ019"
+            name='elemZ019'
         ),
         TestGroup(
             annotation=[
@@ -13865,7 +13865,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: when substitutionGroup exists, we shold not change content model as if it is a choice",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : xsd: when substitutionGroup exists, we shold not change content model as if it is a choice',
                             ]
                         ),
                     ]
@@ -13873,13 +13873,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ020.xsd"
+                        href='../msData/element/elemZ020.xsd'
                     ),
                 ],
                 expected=[
@@ -13891,12 +13891,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ020"
+                name='elemZ020'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ020.xml"
+                        href='../msData/element/elemZ020.xml'
                     ),
                     expected=[
                         Expected(
@@ -13907,10 +13907,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ020.v"
+                    name='elemZ020.v'
                 ),
             ],
-            name="elemZ020"
+            name='elemZ020'
         ),
         TestGroup(
             annotation=[
@@ -13918,7 +13918,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (1)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (1)',
                             ]
                         ),
                     ]
@@ -13926,13 +13926,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_1.xsd"
+                        href='../msData/element/test115044_1.xsd'
                     ),
                 ],
                 expected=[
@@ -13944,12 +13944,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021a"
+                name='elemZ021a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_a.xml"
+                        href='../msData/element/test115044_a.xml'
                     ),
                     expected=[
                         Expected(
@@ -13960,10 +13960,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021a.v"
+                    name='elemZ021a.v'
                 ),
             ],
-            name="elemZ021a"
+            name='elemZ021a'
         ),
         TestGroup(
             annotation=[
@@ -13971,7 +13971,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (2)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (2)',
                             ]
                         ),
                     ]
@@ -13979,13 +13979,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_1.xsd"
+                        href='../msData/element/test115044_1.xsd'
                     ),
                 ],
                 expected=[
@@ -13997,12 +13997,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021b"
+                name='elemZ021b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_b.xml"
+                        href='../msData/element/test115044_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -14013,10 +14013,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021b.i"
+                    name='elemZ021b.i'
                 ),
             ],
-            name="elemZ021b"
+            name='elemZ021b'
         ),
         TestGroup(
             annotation=[
@@ -14024,7 +14024,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (3)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (3)',
                             ]
                         ),
                     ]
@@ -14032,13 +14032,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_2.xsd"
+                        href='../msData/element/test115044_2.xsd'
                     ),
                 ],
                 expected=[
@@ -14050,12 +14050,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021c"
+                name='elemZ021c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_a.xml"
+                        href='../msData/element/test115044_a.xml'
                     ),
                     expected=[
                         Expected(
@@ -14066,10 +14066,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021c.v"
+                    name='elemZ021c.v'
                 ),
             ],
-            name="elemZ021c"
+            name='elemZ021c'
         ),
         TestGroup(
             annotation=[
@@ -14077,7 +14077,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (4)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (4)',
                             ]
                         ),
                     ]
@@ -14085,13 +14085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_2.xsd"
+                        href='../msData/element/test115044_2.xsd'
                     ),
                 ],
                 expected=[
@@ -14103,12 +14103,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021d"
+                name='elemZ021d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_b.xml"
+                        href='../msData/element/test115044_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -14119,10 +14119,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021d.v"
+                    name='elemZ021d.v'
                 ),
             ],
-            name="elemZ021d"
+            name='elemZ021d'
         ),
         TestGroup(
             annotation=[
@@ -14130,7 +14130,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (5)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (5)',
                             ]
                         ),
                     ]
@@ -14138,13 +14138,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_3.xsd"
+                        href='../msData/element/test115044_3.xsd'
                     ),
                 ],
                 expected=[
@@ -14156,12 +14156,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021e"
+                name='elemZ021e'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_a.xml"
+                        href='../msData/element/test115044_a.xml'
                     ),
                     expected=[
                         Expected(
@@ -14172,10 +14172,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021e.v"
+                    name='elemZ021e.v'
                 ),
             ],
-            name="elemZ021e"
+            name='elemZ021e'
         ),
         TestGroup(
             annotation=[
@@ -14183,7 +14183,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (6)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (6)',
                             ]
                         ),
                     ]
@@ -14191,13 +14191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_3.xsd"
+                        href='../msData/element/test115044_3.xsd'
                     ),
                 ],
                 expected=[
@@ -14209,12 +14209,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021f"
+                name='elemZ021f'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_b.xml"
+                        href='../msData/element/test115044_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -14225,10 +14225,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021f.i"
+                    name='elemZ021f.i'
                 ),
             ],
-            name="elemZ021f"
+            name='elemZ021f'
         ),
         TestGroup(
             annotation=[
@@ -14236,7 +14236,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (7)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name (7)',
                             ]
                         ),
                     ]
@@ -14244,13 +14244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115044_4.xsd"
+                        href='../msData/element/test115044_4.xsd'
                     ),
                 ],
                 expected=[
@@ -14262,12 +14262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ021g"
+                name='elemZ021g'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115044_c.xml"
+                        href='../msData/element/test115044_c.xml'
                     ),
                     expected=[
                         Expected(
@@ -14278,10 +14278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ021g.i"
+                    name='elemZ021g.i'
                 ),
             ],
-            name="elemZ021g"
+            name='elemZ021g'
         ),
         TestGroup(
             annotation=[
@@ -14289,7 +14289,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Wildcard prohibited element through a substitutionGroup",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Wildcard prohibited element through a substitutionGroup',
                             ]
                         ),
                     ]
@@ -14297,13 +14297,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115478.xsd"
+                        href='../msData/element/test115478.xsd'
                     ),
                 ],
                 expected=[
@@ -14315,12 +14315,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ022a"
+                name='elemZ022a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115478.xml"
+                        href='../msData/element/test115478.xml'
                     ),
                     expected=[
                         Expected(
@@ -14331,10 +14331,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ022a.i"
+                    name='elemZ022a.i'
                 ),
             ],
-            name="elemZ022a"
+            name='elemZ022a'
         ),
         TestGroup(
             annotation=[
@@ -14342,7 +14342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Wildcard prohibited element through a substitutionGroup(2)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Wildcard prohibited element through a substitutionGroup(2)',
                             ]
                         ),
                     ]
@@ -14350,13 +14350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/test115478_b.xsd"
+                        href='../msData/element/test115478_b.xsd'
                     ),
                 ],
                 expected=[
@@ -14368,12 +14368,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ022b"
+                name='elemZ022b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/test115478_b.xml"
+                        href='../msData/element/test115478_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -14384,10 +14384,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ022b.v"
+                    name='elemZ022b.v'
                 ),
             ],
-            name="elemZ022b"
+            name='elemZ022b'
         ),
         TestGroup(
             annotation=[
@@ -14395,7 +14395,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: member of substitutionGroup and local particle with the same qualified name',
                             ]
                         ),
                     ]
@@ -14403,13 +14403,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ023.xsd"
+                        href='../msData/element/elemZ023.xsd'
                     ),
                 ],
                 expected=[
@@ -14421,12 +14421,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ023"
+                name='elemZ023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ023.xml"
+                        href='../msData/element/elemZ023.xml'
                     ),
                     expected=[
                         Expected(
@@ -14437,10 +14437,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ023.i"
+                    name='elemZ023.i'
                 ),
             ],
-            name="elemZ023"
+            name='elemZ023'
         ),
         TestGroup(
             annotation=[
@@ -14456,13 +14456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700a.xsd"
+                        href='../msData/element/QFE1700a.xsd'
                     ),
                 ],
                 expected=[
@@ -14474,12 +14474,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700a1"
+                name='QFE1700a1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700a1.xml"
+                        href='../msData/element/QFE1700a1.xml'
                     ),
                     expected=[
                         Expected(
@@ -14490,10 +14490,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700a1.v"
+                    name='QFE1700a1.v'
                 ),
             ],
-            name="QFE1700a1"
+            name='QFE1700a1'
         ),
         TestGroup(
             annotation=[
@@ -14509,13 +14509,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700a.xsd"
+                        href='../msData/element/QFE1700a.xsd'
                     ),
                 ],
                 expected=[
@@ -14527,12 +14527,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700a2"
+                name='QFE1700a2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700a2.xml"
+                        href='../msData/element/QFE1700a2.xml'
                     ),
                     expected=[
                         Expected(
@@ -14543,10 +14543,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700a2.v"
+                    name='QFE1700a2.v'
                 ),
             ],
-            name="QFE1700a2"
+            name='QFE1700a2'
         ),
         TestGroup(
             annotation=[
@@ -14562,13 +14562,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700a.xsd"
+                        href='../msData/element/QFE1700a.xsd'
                     ),
                 ],
                 expected=[
@@ -14580,12 +14580,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700a3"
+                name='QFE1700a3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700a3.xml"
+                        href='../msData/element/QFE1700a3.xml'
                     ),
                     expected=[
                         Expected(
@@ -14596,10 +14596,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700a3.v"
+                    name='QFE1700a3.v'
                 ),
             ],
-            name="QFE1700a3"
+            name='QFE1700a3'
         ),
         TestGroup(
             annotation=[
@@ -14615,13 +14615,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700b.xsd"
+                        href='../msData/element/QFE1700b.xsd'
                     ),
                 ],
                 expected=[
@@ -14633,12 +14633,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700b1"
+                name='QFE1700b1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700b1.xml"
+                        href='../msData/element/QFE1700b1.xml'
                     ),
                     expected=[
                         Expected(
@@ -14649,10 +14649,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700b1.v"
+                    name='QFE1700b1.v'
                 ),
             ],
-            name="QFE1700b1"
+            name='QFE1700b1'
         ),
         TestGroup(
             annotation=[
@@ -14668,13 +14668,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700b.xsd"
+                        href='../msData/element/QFE1700b.xsd'
                     ),
                 ],
                 expected=[
@@ -14686,12 +14686,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700b2"
+                name='QFE1700b2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700b2.xml"
+                        href='../msData/element/QFE1700b2.xml'
                     ),
                     expected=[
                         Expected(
@@ -14702,10 +14702,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700b2.v"
+                    name='QFE1700b2.v'
                 ),
             ],
-            name="QFE1700b2"
+            name='QFE1700b2'
         ),
         TestGroup(
             annotation=[
@@ -14721,13 +14721,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700c.xsd"
+                        href='../msData/element/QFE1700c.xsd'
                     ),
                 ],
                 expected=[
@@ -14739,12 +14739,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700c1"
+                name='QFE1700c1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700c1.xml"
+                        href='../msData/element/QFE1700c1.xml'
                     ),
                     expected=[
                         Expected(
@@ -14755,10 +14755,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700c1.i"
+                    name='QFE1700c1.i'
                 ),
             ],
-            name="QFE1700c1"
+            name='QFE1700c1'
         ),
         TestGroup(
             annotation=[
@@ -14774,13 +14774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700c.xsd"
+                        href='../msData/element/QFE1700c.xsd'
                     ),
                 ],
                 expected=[
@@ -14792,12 +14792,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700c2"
+                name='QFE1700c2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700c2.xml"
+                        href='../msData/element/QFE1700c2.xml'
                     ),
                     expected=[
                         Expected(
@@ -14808,10 +14808,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700c2.v"
+                    name='QFE1700c2.v'
                 ),
             ],
-            name="QFE1700c2"
+            name='QFE1700c2'
         ),
         TestGroup(
             annotation=[
@@ -14827,13 +14827,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700d.xsd"
+                        href='../msData/element/QFE1700d.xsd'
                     ),
                 ],
                 expected=[
@@ -14845,12 +14845,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700d1"
+                name='QFE1700d1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700d1.xml"
+                        href='../msData/element/QFE1700d1.xml'
                     ),
                     expected=[
                         Expected(
@@ -14861,10 +14861,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700d1.i"
+                    name='QFE1700d1.i'
                 ),
             ],
-            name="QFE1700d1"
+            name='QFE1700d1'
         ),
         TestGroup(
             annotation=[
@@ -14880,13 +14880,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700e.xsd"
+                        href='../msData/element/QFE1700e.xsd'
                     ),
                 ],
                 expected=[
@@ -14898,12 +14898,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700e1"
+                name='QFE1700e1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700e1.xml"
+                        href='../msData/element/QFE1700e1.xml'
                     ),
                     expected=[
                         Expected(
@@ -14914,10 +14914,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700e1.v"
+                    name='QFE1700e1.v'
                 ),
             ],
-            name="QFE1700e1"
+            name='QFE1700e1'
         ),
         TestGroup(
             annotation=[
@@ -14933,13 +14933,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700e.xsd"
+                        href='../msData/element/QFE1700e.xsd'
                     ),
                 ],
                 expected=[
@@ -14951,12 +14951,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700e2"
+                name='QFE1700e2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700e2.xml"
+                        href='../msData/element/QFE1700e2.xml'
                     ),
                     expected=[
                         Expected(
@@ -14967,10 +14967,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700e2.v"
+                    name='QFE1700e2.v'
                 ),
             ],
-            name="QFE1700e2"
+            name='QFE1700e2'
         ),
         TestGroup(
             annotation=[
@@ -14986,13 +14986,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700e.xsd"
+                        href='../msData/element/QFE1700e.xsd'
                     ),
                 ],
                 expected=[
@@ -15004,12 +15004,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700e3"
+                name='QFE1700e3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700e3.xml"
+                        href='../msData/element/QFE1700e3.xml'
                     ),
                     expected=[
                         Expected(
@@ -15020,10 +15020,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700e3.i"
+                    name='QFE1700e3.i'
                 ),
             ],
-            name="QFE1700e3"
+            name='QFE1700e3'
         ),
         TestGroup(
             annotation=[
@@ -15039,13 +15039,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700f.xsd"
+                        href='../msData/element/QFE1700f.xsd'
                     ),
                 ],
                 expected=[
@@ -15057,12 +15057,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700f1"
+                name='QFE1700f1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700f1.xml"
+                        href='../msData/element/QFE1700f1.xml'
                     ),
                     expected=[
                         Expected(
@@ -15073,10 +15073,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700f1.v"
+                    name='QFE1700f1.v'
                 ),
             ],
-            name="QFE1700f1"
+            name='QFE1700f1'
         ),
         TestGroup(
             annotation=[
@@ -15092,13 +15092,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700f.xsd"
+                        href='../msData/element/QFE1700f.xsd'
                     ),
                 ],
                 expected=[
@@ -15110,12 +15110,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700f2"
+                name='QFE1700f2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700f2.xml"
+                        href='../msData/element/QFE1700f2.xml'
                     ),
                     expected=[
                         Expected(
@@ -15126,10 +15126,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700f2.v"
+                    name='QFE1700f2.v'
                 ),
             ],
-            name="QFE1700f2"
+            name='QFE1700f2'
         ),
         TestGroup(
             annotation=[
@@ -15145,13 +15145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700f.xsd"
+                        href='../msData/element/QFE1700f.xsd'
                     ),
                 ],
                 expected=[
@@ -15163,12 +15163,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700f3"
+                name='QFE1700f3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700f3.xml"
+                        href='../msData/element/QFE1700f3.xml'
                     ),
                     expected=[
                         Expected(
@@ -15179,10 +15179,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700f3.i"
+                    name='QFE1700f3.i'
                 ),
             ],
-            name="QFE1700f3"
+            name='QFE1700f3'
         ),
         TestGroup(
             annotation=[
@@ -15198,13 +15198,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700g.xsd"
+                        href='../msData/element/QFE1700g.xsd'
                     ),
                 ],
                 expected=[
@@ -15216,12 +15216,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700g1"
+                name='QFE1700g1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700g1.xml"
+                        href='../msData/element/QFE1700g1.xml'
                     ),
                     expected=[
                         Expected(
@@ -15232,10 +15232,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700g1.i"
+                    name='QFE1700g1.i'
                 ),
             ],
-            name="QFE1700g1"
+            name='QFE1700g1'
         ),
         TestGroup(
             annotation=[
@@ -15251,13 +15251,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/QFE1700g.xsd"
+                        href='../msData/element/QFE1700g.xsd'
                     ),
                 ],
                 expected=[
@@ -15269,12 +15269,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="QFE1700g2"
+                name='QFE1700g2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/QFE1700g2.xml"
+                        href='../msData/element/QFE1700g2.xml'
                     ),
                     expected=[
                         Expected(
@@ -15285,10 +15285,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="QFE1700g2.v"
+                    name='QFE1700g2.v'
                 ),
             ],
-            name="QFE1700g2"
+            name='QFE1700g2'
         ),
         TestGroup(
             annotation=[
@@ -15296,7 +15296,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: derivaton by restriction when derived particle is a substitution group head",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: derivaton by restriction when derived particle is a substitution group head',
                             ]
                         ),
                     ]
@@ -15304,13 +15304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ025.xsd"
+                        href='../msData/element/elemZ025.xsd'
                     ),
                 ],
                 expected=[
@@ -15322,9 +15322,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ025"
+                name='elemZ025'
             ),
-            name="elemZ025"
+            name='elemZ025'
         ),
         TestGroup(
             annotation=[
@@ -15332,7 +15332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: derivaton by restriction when base is a substitution group head",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: derivaton by restriction when base is a substitution group head',
                             ]
                         ),
                     ]
@@ -15340,13 +15340,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ026.xsd"
+                        href='../msData/element/elemZ026.xsd'
                     ),
                 ],
                 expected=[
@@ -15357,7 +15357,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 4),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4146"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4146'
                 ),
                 prior=[
                     Prior(
@@ -15365,9 +15365,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ026"
+                name='elemZ026'
             ),
-            name="elemZ026"
+            name='elemZ026'
         ),
         TestGroup(
             annotation=[
@@ -15375,7 +15375,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: valid substitutionGroup restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: valid substitutionGroup restriction',
                             ]
                         ),
                     ]
@@ -15383,13 +15383,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ027a.xsd"
+                        href='../msData/element/elemZ027a.xsd'
                     ),
                 ],
                 expected=[
@@ -15401,9 +15401,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ027_a"
+                name='elemZ027_a'
             ),
-            name="elemZ027_a"
+            name='elemZ027_a'
         ),
         TestGroup(
             annotation=[
@@ -15411,7 +15411,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: valid substitutionGroup restriction",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: valid substitutionGroup restriction',
                             ]
                         ),
                     ]
@@ -15419,13 +15419,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ027b.xsd"
+                        href='../msData/element/elemZ027b.xsd'
                     ),
                 ],
                 expected=[
@@ -15437,9 +15437,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ027_b"
+                name='elemZ027_b'
             ),
-            name="elemZ027_b"
+            name='elemZ027_b'
         ),
         TestGroup(
             annotation=[
@@ -15455,13 +15455,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ027c.xsd"
+                        href='../msData/element/elemZ027c.xsd'
                     ),
                 ],
                 expected=[
@@ -15472,7 +15472,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 6, 21),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4680"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4680'
                 ),
                 prior=[
                     Prior(
@@ -15480,9 +15480,9 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ027_c"
+                name='elemZ027_c'
             ),
-            name="elemZ027_c"
+            name='elemZ027_c'
         ),
         TestGroup(
             annotation=[
@@ -15490,7 +15490,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Order independent checking for substitution group choice restrictions(1)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Order independent checking for substitution group choice restrictions(1)',
                             ]
                         ),
                     ]
@@ -15498,13 +15498,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ027e.xsd"
+                        href='../msData/element/elemZ027e.xsd'
                     ),
                 ],
                 expected=[
@@ -15516,9 +15516,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ027_e"
+                name='elemZ027_e'
             ),
-            name="elemZ027_e"
+            name='elemZ027_e'
         ),
         TestGroup(
             annotation=[
@@ -15526,7 +15526,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Order independent checking for substitution group choice restrictions(2)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: Order independent checking for substitution group choice restrictions(2)',
                             ]
                         ),
                     ]
@@ -15534,13 +15534,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ027f.xsd"
+                        href='../msData/element/elemZ027f.xsd'
                     ),
                 ],
                 expected=[
@@ -15552,9 +15552,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ027_f"
+                name='elemZ027_f'
             ),
-            name="elemZ027_f"
+            name='elemZ027_f'
         ),
         TestGroup(
             annotation=[
@@ -15562,7 +15562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(1)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(1)',
                             ]
                         ),
                     ]
@@ -15570,13 +15570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028a.xsd"
+                        href='../msData/element/elemZ028a.xsd'
                     ),
                 ],
                 expected=[
@@ -15588,9 +15588,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ028a"
+                name='elemZ028a'
             ),
-            name="elemZ028a"
+            name='elemZ028a'
         ),
         TestGroup(
             annotation=[
@@ -15598,7 +15598,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(2)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(2)',
                             ]
                         ),
                     ]
@@ -15606,13 +15606,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028b.xsd"
+                        href='../msData/element/elemZ028b.xsd'
                     ),
                 ],
                 expected=[
@@ -15624,9 +15624,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ028b"
+                name='elemZ028b'
             ),
-            name="elemZ028b"
+            name='elemZ028b'
         ),
         TestGroup(
             annotation=[
@@ -15634,12 +15634,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(3)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(3)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that all these schemas violate UPA, so marked invalid, and&#10;instance test, if any, disabled",
+                                'TSTF ruled that all these schemas violate UPA, so marked invalid, and\ninstance test, if any, disabled',
                             ]
                         ),
                     ]
@@ -15647,13 +15647,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028c.xsd"
+                        href='../msData/element/elemZ028c.xsd'
                     ),
                 ],
                 expected=[
@@ -15664,22 +15664,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 13),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ028c"
+                name='elemZ028c'
             ),
-            name="elemZ028c"
+            name='elemZ028c'
         ),
         TestGroup(
             annotation=[
@@ -15687,12 +15687,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(4)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(4)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that all these schemas violate UPA, so marked invalid, and&#10;instance test, if any, disabled",
+                                'TSTF ruled that all these schemas violate UPA, so marked invalid, and\ninstance test, if any, disabled',
                             ]
                         ),
                     ]
@@ -15700,13 +15700,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028d.xsd"
+                        href='../msData/element/elemZ028d.xsd'
                     ),
                 ],
                 expected=[
@@ -15717,22 +15717,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 13),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ028d"
+                name='elemZ028d'
             ),
-            name="elemZ028d"
+            name='elemZ028d'
         ),
         TestGroup(
             annotation=[
@@ -15740,7 +15740,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(5)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(5)',
                             ]
                         ),
                     ]
@@ -15748,13 +15748,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028e.xsd"
+                        href='../msData/element/elemZ028e.xsd'
                     ),
                 ],
                 expected=[
@@ -15766,9 +15766,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ028e"
+                name='elemZ028e'
             ),
-            name="elemZ028e"
+            name='elemZ028e'
         ),
         TestGroup(
             annotation=[
@@ -15776,12 +15776,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(6)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(6)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that all these schemas violate UPA, so marked invalid, and&#10;instance test, if any, disabled",
+                                'TSTF ruled that all these schemas violate UPA, so marked invalid, and\ninstance test, if any, disabled',
                             ]
                         ),
                     ]
@@ -15789,13 +15789,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028f.xsd"
+                        href='../msData/element/elemZ028f.xsd'
                     ),
                 ],
                 expected=[
@@ -15806,22 +15806,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 13),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ028f1"
+                name='elemZ028f1'
             ),
-            name="elemZ028f1"
+            name='elemZ028f1'
         ),
         TestGroup(
             annotation=[
@@ -15829,12 +15829,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(7)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(7)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that all these schemas violate UPA, so marked invalid, and&#10;instance test, if any, disabled",
+                                'TSTF ruled that all these schemas violate UPA, so marked invalid, and\ninstance test, if any, disabled',
                             ]
                         ),
                     ]
@@ -15842,13 +15842,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028f.xsd"
+                        href='../msData/element/elemZ028f.xsd'
                     ),
                 ],
                 expected=[
@@ -15859,22 +15859,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 13),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ028f2"
+                name='elemZ028f2'
             ),
-            name="elemZ028f2"
+            name='elemZ028f2'
         ),
         TestGroup(
             annotation=[
@@ -15882,12 +15882,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(8)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : Derivation involving more than one substitution group head in a choice(8)',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that all these schemas violate UPA, so marked invalid, and&#10;instance test, if any, disabled",
+                                'TSTF ruled that all these schemas violate UPA, so marked invalid, and\ninstance test, if any, disabled',
                             ]
                         ),
                     ]
@@ -15895,13 +15895,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ028f.xsd"
+                        href='../msData/element/elemZ028f.xsd'
                     ),
                 ],
                 expected=[
@@ -15912,22 +15912,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2009, 1, 13),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4058'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ028f3"
+                name='elemZ028f3'
             ),
-            name="elemZ028f3"
+            name='elemZ028f3'
         ),
         TestGroup(
             annotation=[
@@ -15935,7 +15935,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: an element can have a default value constraints and xsi:nil=true",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: an element can have a default value constraints and xsi:nil=true',
                             ]
                         ),
                     ]
@@ -15943,13 +15943,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ029.xsd"
+                        href='../msData/element/elemZ029.xsd'
                     ),
                 ],
                 expected=[
@@ -15961,12 +15961,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ029"
+                name='elemZ029'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ029.xml"
+                        href='../msData/element/elemZ029.xml'
                     ),
                     expected=[
                         Expected(
@@ -15977,10 +15977,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ029.v"
+                    name='elemZ029.v'
                 ),
             ],
-            name="elemZ029"
+            name='elemZ029'
         ),
         TestGroup(
             annotation=[
@@ -15988,7 +15988,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: empty value of the id attribute should not be allowed",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: empty value of the id attribute should not be allowed',
                             ]
                         ),
                     ]
@@ -15996,13 +15996,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ030.xsd"
+                        href='../msData/element/elemZ030.xsd'
                     ),
                 ],
                 expected=[
@@ -16014,9 +16014,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ030"
+                name='elemZ030'
             ),
-            name="elemZ030"
+            name='elemZ030'
         ),
         TestGroup(
             annotation=[
@@ -16024,17 +16024,17 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: minOccurs and maxOccurs should be stored as Decimal and not Int32",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: minOccurs and maxOccurs should be stored as Decimal and not Int32',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF thinks WG needs to decide what to do in cases where minimum&#10;implementation requirements are exceeded in tests",
+                                'TSTF thinks WG needs to decide what to do in cases where minimum\nimplementation requirements are exceeded in tests',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "This test depends on implementation-defined limits on support&#10;for large integers",
+                                'This test depends on implementation-defined limits on support\nfor large integers',
                             ]
                         ),
                     ]
@@ -16042,13 +16042,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ031.xsd"
+                        href='../msData/element/elemZ031.xsd'
                     ),
                 ],
                 expected=[
@@ -16059,27 +16059,27 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 4, 2),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059'
                 ),
                 prior=[
                     Prior(
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2009, 1, 13),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4059'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="elemZ031"
+                name='elemZ031'
             ),
-            name="elemZ031"
+            name='elemZ031'
         ),
         TestGroup(
             annotation=[
@@ -16087,12 +16087,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: attribute and element declarations can not have a value constraint if it type is ID",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: attribute and element declarations can not have a value constraint if it type is ID',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Allowed in XSD 1.1 - MHK",
+                                'Allowed in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -16100,16 +16100,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ032a.xsd"
+                        href='../msData/element/elemZ032a.xsd'
                     ),
                 ],
                 expected=[
@@ -16130,9 +16130,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ032a"
+                name='elemZ032a'
             ),
-            name="elemZ032a"
+            name='elemZ032a'
         ),
         TestGroup(
             annotation=[
@@ -16140,12 +16140,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: attribute and element declarations can not have a value constraint if it type is derived from ID",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: attribute and element declarations can not have a value constraint if it type is derived from ID',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Allowed in XSD 1.1 - MHK",
+                                'Allowed in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -16153,16 +16153,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/element/elemZ032b.xsd"
+                        href='../msData/element/elemZ032b.xsd'
                     ),
                 ],
                 expected=[
@@ -16183,9 +16183,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="elemZ032b"
+                name='elemZ032b'
             ),
-            name="elemZ032b"
+            name='elemZ032b'
         ),
         TestGroup(
             annotation=[
@@ -16193,7 +16193,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: test laxly validate an element with no element declaration having xsi:nill(2)",
+                                'TEST :3.3.2 XML Representation of Element Declaration Schema Components : XSD: test laxly validate an element with no element declaration having xsi:nill(2)',
                             ]
                         ),
                     ]
@@ -16201,13 +16201,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cElement_Declarations'
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/element/elemZ033b.xml"
+                        href='../msData/element/elemZ033b.xml'
                     ),
                     expected=[
                         Expected(
@@ -16218,15 +16218,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="elemZ033b.v"
+                    name='elemZ033b.v'
                 ),
             ],
-            name="elemZ033b"
+            name='elemZ033b'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Element2006-07-15",
+    contributor='Microsoft',
+    name='MS-Element2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

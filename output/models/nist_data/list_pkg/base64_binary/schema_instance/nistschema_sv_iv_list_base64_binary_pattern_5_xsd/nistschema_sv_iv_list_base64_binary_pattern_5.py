@@ -15,5 +15,5 @@ class NistschemaSvIvListBase64BinaryPattern5:
         metadata={
             "pattern": r"[a-zA-Z0-9+/]{36} [a-zA-Z0-9+/]{52} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{56} [a-zA-Z0-9+/]{40} [a-zA-Z0-9+/]{56}",
             "tokens": True,
-        }
+        },
     )

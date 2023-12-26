@@ -4,5 +4,5 @@ from output.models.sun_data.elem_decl.type_def.type_def00402m.type_def00402m_xsd
 
 obj = Root(
     global_value=True,
-    local=Decimal("1.1")
+    local=Decimal('1.1')
 )

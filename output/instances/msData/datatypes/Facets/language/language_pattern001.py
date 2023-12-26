@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.language.language_pattern001_xsd.lan
 
 
 obj = Test(
-    foo="en-xx"
+    foo='en-xx'
 )

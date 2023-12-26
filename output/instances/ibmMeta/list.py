@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#list-datatypes",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#list-datatypes',
                     },
                     content=[
-                        "list",
+                        'list',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "test Units of length for list datatype.",
+                                'test Units of length for list datatype.',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"
+                    href='http://www.w3.org/TR/xmlschema11-2/#list-datatypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xsd"
+                        href='../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d2_4_1_2v01s"
+                name='d2_4_1_2v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xml"
+                        href='../ibmData/valid/D2_4_1_2/d2_4_1_2v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d2_4_1_2v01i"
+                    name='d2_4_1_2v01i'
                 ),
             ],
-            name="d2_4_1_2v01",
+            name='d2_4_1_2v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Lists cannot be bounded",
+                                'Lists cannot be bounded',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#list-datatypes"
+                    href='http://www.w3.org/TR/xmlschema11-2/#list-datatypes'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-ListBounds'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D2_4_1_2/d2_4_1_2si01.xsd"
+                        href='../ibmData/schema_invalid/D2_4_1_2/d2_4_1_2si01.xsd'
                     ),
                 ],
                 expected=[
@@ -125,17 +125,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d2_4_1_2si01s"
+                name='d2_4_1_2si01s'
             ),
-            name="d2_4_1_2si01",
+            name='d2_4_1_2si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="list",
+    contributor='IBM',
+    name='list',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -57,7 +57,7 @@ class Foo:
                     "process_contents": "skip",
                 },
             ),
-        }
+        },
     )
 
 

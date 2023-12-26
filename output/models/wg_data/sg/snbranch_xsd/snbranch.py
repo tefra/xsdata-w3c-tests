@@ -6,7 +6,7 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    choice: List[Union[object, str]] = field(
+    choice: List[Union[str, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -48,7 +48,7 @@ class T:
                 },
             ),
             "max_occurs": 10,
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
@@ -56,7 +56,7 @@ class T:
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
-        }
+        },
     )
 
 
@@ -70,7 +70,7 @@ class A:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -84,7 +84,7 @@ class B:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -98,7 +98,7 @@ class C:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -112,7 +112,7 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -126,7 +126,7 @@ class N:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -140,7 +140,7 @@ class N1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -154,7 +154,7 @@ class S:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -168,7 +168,7 @@ class S1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 

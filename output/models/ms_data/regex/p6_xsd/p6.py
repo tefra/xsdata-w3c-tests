@@ -10,7 +10,7 @@ class Regex:
             "type": "Attribute",
             "max_exclusive": 10,
             "pattern": r"\-[0-9]*",
-        }
+        },
     )
 
 
@@ -25,5 +25,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

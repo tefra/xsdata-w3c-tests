@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern4(
-    value="tdata_also_seri"
+    value='tdata_also_seri'
 )

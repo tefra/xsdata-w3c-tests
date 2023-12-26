@@ -15,5 +15,5 @@ class NistschemaSvIvListUnsignedBytePattern5:
         metadata={
             "pattern": r"\d{1} \d{2} \d{3} \d{1} \d{2} \d{3} \d{1}",
             "tokens": True,
-        }
+        },
     )

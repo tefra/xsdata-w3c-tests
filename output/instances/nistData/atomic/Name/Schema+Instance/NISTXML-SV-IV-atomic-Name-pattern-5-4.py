@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern5(
-    value="_computer_these:through-build_da"
+    value='_computer_these:through-build_da'
 )

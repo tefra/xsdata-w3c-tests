@@ -15,19 +15,19 @@ class Root:
         metadata={
             "name": "aa111a2Aa",
             "type": "Attribute",
-        }
+        },
     )
     aa22_b3c: Optional[int] = field(
         default=None,
         metadata={
             "name": "aa22B3c",
             "type": "Attribute",
-        }
+        },
     )
     aa3_4: Optional[int] = field(
         default=None,
         metadata={
             "name": "aa3-4_",
             "type": "Attribute",
-        }
+        },
     )

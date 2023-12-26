@@ -5,9 +5,9 @@ from output.models.ms_data.particles.particles_ja009_xsd.particles_ja009 import 
 obj = Doc(
     elem=R(
         e1=[
-            " abc ",
-            " abc ",
-            " abc ",
+            ' abc ',
+            ' abc ',
+            ' abc ',
         ]
     )
 )

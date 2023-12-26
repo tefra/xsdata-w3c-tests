@@ -16,7 +16,7 @@ class FooType:
             "required": True,
             "min_inclusive": Decimal("1.1"),
             "max_inclusive": Decimal("7.7"),
-        }
+        },
     )
 
 

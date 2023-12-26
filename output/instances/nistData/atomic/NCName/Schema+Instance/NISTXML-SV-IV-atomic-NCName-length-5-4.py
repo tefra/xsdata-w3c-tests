@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength5(
-    value="lthe.the_these_and-a_target.service_high-provides.prototypes-lif"
+    value='lthe.the_these_and-a_target.service_high-provides.prototypes-lif'
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.hex_binary.schema_instance.nistschema_sv_iv_
 
 
 obj = NistschemaSvIvAtomicHexBinaryPattern5(
-    value="6672626F676B666A6977666876747279757376786F686D616D76676C7171"
+    value='6672626F676B666A6977666876747279757376786F686D616D76676C7171'
 )

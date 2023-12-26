@@ -19,7 +19,7 @@ class Root:
             "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "optional",
-        }
+        },
     )
     eld_time_etzone_optional_fderived_required: List[str] = field(
         default_factory=list,
@@ -30,7 +30,7 @@ class Root:
             "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "required",
-        }
+        },
     )
     eld_time_etzone_optional_fderived_prohibited: List[str] = field(
         default_factory=list,
@@ -41,7 +41,7 @@ class Root:
             "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "prohibited",
-        }
+        },
     )
     eld_time_etzone_optional_tderived_optional: List[str] = field(
         default_factory=list,
@@ -52,5 +52,5 @@ class Root:
             "min_occurs": 1,
             "pattern": r"[2][0][0][0-9][-][0-1][1-2][-][0-2][1-8][T]*.*",
             "explicit_timezone": "optional",
-        }
+        },
     )

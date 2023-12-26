@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength5(
-    value="global:and_can.enterprises.file:interacting-U:must.and_with.SOC."
+    value='global:and_can.enterprises.file:interacting-U:must.and_with.SOC.'
 )

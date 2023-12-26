@@ -11,7 +11,7 @@ class T:
         metadata={
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
-        }
+        },
     )
     e1: Optional[int] = field(
         default=None,
@@ -19,7 +19,7 @@ class T:
             "type": "Element",
             "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
             "required": True,
-        }
+        },
     )
 
 
@@ -33,7 +33,7 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 

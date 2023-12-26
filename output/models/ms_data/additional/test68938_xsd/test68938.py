@@ -14,5 +14,5 @@ class Foo:
             "required": True,
             "total_digits": 5,
             "fraction_digits": 2,
-        }
+        },
     )

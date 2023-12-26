@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern5(
-    value="mmore-s:software:and:each_a:to-f"
+    value='mmore-s:software:and:each_a:to-f'
 )

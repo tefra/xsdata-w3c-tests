@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMaxLength4(
-    value="retrieves-them-repository.and-XSL-FO:development-inte"
+    value='retrieves-them-repository.and-XSL-FO:development-inte'
 )

@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_ik004_xsd.particles_ik004 import 
 
 obj = Doc(
     elem=R(
-        c1_or_c2="test"
+        c1_or_c2='test'
     )
 )

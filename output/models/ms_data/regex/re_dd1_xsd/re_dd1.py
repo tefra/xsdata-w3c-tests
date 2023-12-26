@@ -9,7 +9,7 @@ class Regex:
         metadata={
             "type": "Attribute",
             "pattern": r"P\p{Nd}{4}Y\p{Nd}{2}M",
-        }
+        },
     )
 
 
@@ -24,5 +24,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

@@ -7,9 +7,7 @@ class A:
     class Meta:
         name = "a"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
 
 
 @dataclass
@@ -22,7 +20,7 @@ class Item:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,5 +43,5 @@ class Root:
                     "type": Item,
                 },
             ),
-        }
+        },
     )

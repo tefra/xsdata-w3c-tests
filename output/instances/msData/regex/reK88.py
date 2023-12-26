@@ -5,16 +5,16 @@ from output.models.ms_data.regex.re_k88_xsd.re_k88 import Regex
 obj = Doc(
     elem=[
         Regex(
-            att="a"
+            att='a'
         ),
         Regex(
-            att="&amp;"
+            att='&'
         ),
         Regex(
-            att="́"
+            att='́'
         ),
         Regex(
-            att="𐀀"
+            att='𐀀'
         ),
     ]
 )

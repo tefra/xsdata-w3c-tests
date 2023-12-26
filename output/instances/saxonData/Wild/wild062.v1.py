@@ -5,9 +5,9 @@ from xsdata.models.datatype import XmlDate
 
 obj = Doc(
     e=XmlDate(2008, 11, 3),
-    f="",
+    f='',
     local_element=AnyElement(
-        qname="g",
-        text="12:20:02"
+        qname='g',
+        text='12:20:02'
     )
 )

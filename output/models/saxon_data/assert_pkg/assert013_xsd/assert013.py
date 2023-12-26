@@ -12,14 +12,14 @@ class DatedEvent:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     event: Optional[XmlDateTime] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -9,8 +9,8 @@ obj = Root(
         y=2,
         z=1,
         any_element=AnyElement(
-            qname="as",
-            text="km"
+            qname='as',
+            text='km'
         )
     )
 )

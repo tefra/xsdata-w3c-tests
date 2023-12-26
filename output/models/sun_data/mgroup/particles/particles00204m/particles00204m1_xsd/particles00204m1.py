@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "particles"
 
-    date_or_marked_or_num: List[Union[bool, int, XmlDate]] = field(
+    date_or_marked_or_num: List[Union[XmlDate, bool, int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -33,5 +33,5 @@ class A:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )

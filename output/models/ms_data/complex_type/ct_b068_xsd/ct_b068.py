@@ -23,21 +23,21 @@ class FooType:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     attr_test: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest",
             "type": "Attribute",
-        }
+        },
     )
     attr_test2: Optional[object] = field(
         default=None,
         metadata={
             "name": "attrTest2",
             "type": "Attribute",
-        }
+        },
     )
 
 

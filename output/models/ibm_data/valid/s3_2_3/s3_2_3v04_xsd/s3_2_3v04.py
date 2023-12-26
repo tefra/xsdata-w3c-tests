@@ -15,7 +15,7 @@ class Type1:
             "type": "Element",
             "namespace": "http://www.schemaTest.org/schema11_S3_2_3",
             "required": True,
-        }
+        },
     )
     element2: Optional[int] = field(
         default=None,
@@ -23,7 +23,7 @@ class Type1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

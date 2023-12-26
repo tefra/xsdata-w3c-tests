@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength2(
-    value="interoperability_reference.to:specific"
+    value='interoperability_reference.to:specific'
 )

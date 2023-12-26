@@ -12,5 +12,5 @@ class Test:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

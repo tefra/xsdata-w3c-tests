@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength2(
-    value="global_application-creation:a-a_reposi"
+    value='global_application-creation:a-a_reposi'
 )

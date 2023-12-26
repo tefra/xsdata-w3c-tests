@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringWhiteSpace2(
-    value="rary Using the simplicity of HTML with more advanced concepts from the publishin"
+    value='rary Using the simplicity of HTML with more advanced concepts from the publishin'
 )

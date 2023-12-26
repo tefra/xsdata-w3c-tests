@@ -13,13 +13,13 @@ class BCt:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att2: object = field(
         default="bar",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

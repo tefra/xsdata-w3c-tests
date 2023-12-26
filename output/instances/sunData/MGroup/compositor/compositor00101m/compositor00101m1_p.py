@@ -6,5 +6,5 @@ from xsdata.models.datatype import XmlTime
 obj = A(
     date=XmlDate(2002, 4, 29),
     time=XmlTime(12, 30, 0, 0),
-    name="J. Lee"
+    name='J. Lee'
 )

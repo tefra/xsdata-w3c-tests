@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMinLength4(
-    value="that-groups:systems_software.find_data.addition.will-SMEs-tha"
+    value='that-groups:systems_software.find_data.addition.will-SMEs-tha'
 )

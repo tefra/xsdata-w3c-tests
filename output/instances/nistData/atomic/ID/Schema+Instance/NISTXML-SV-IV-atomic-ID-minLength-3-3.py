@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength3(
-        value="jcan_role_own_libraries-for-involved_this.will_business-and."
+        value='jcan_role_own_libraries-for-involved_this.will_business-and.'
     )
 )

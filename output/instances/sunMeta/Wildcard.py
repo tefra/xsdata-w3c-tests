@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a wildcard schema component (anyAttribute)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a wildcard schema component (anyAttribute).'
                                 ),
                             ]
                         ),
@@ -38,13 +38,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -56,12 +56,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m1"
+                name='annotation00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m1_p.xml"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -72,10 +72,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m1"
+            name='annotation00101m1'
         ),
         TestGroup(
             annotation=[
@@ -84,12 +84,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a wildcard schema component (anyAttribute).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a wildcard schema component (anyAttribute).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -98,13 +98,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m2.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -116,9 +116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m2"
+                name='annotation00101m2'
             ),
-            name="annotation00101m2"
+            name='annotation00101m2'
         ),
         TestGroup(
             annotation=[
@@ -127,12 +127,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a wildcard schema component (anyAttribute) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a wildcard schema component (anyAttribute)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a wildcard schema component (anyAttribute).'
                                 ),
                             ]
                         ),
@@ -141,13 +141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m3.xsd'
                     ),
                 ],
                 expected=[
@@ -159,12 +159,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m3"
+                name='annotation00101m3'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m3_p.xml"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m3_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -175,10 +175,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m3"
+            name='annotation00101m3'
         ),
         TestGroup(
             annotation=[
@@ -187,12 +187,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a wildcard schema component (anyAttribute) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a wildcard schema component (anyAttribute).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a wildcard schema component (anyAttribute).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -201,13 +201,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m4.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m4.xsd'
                     ),
                 ],
                 expected=[
@@ -219,9 +219,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m4"
+                name='annotation00101m4'
             ),
-            name="annotation00101m4"
+            name='annotation00101m4'
         ),
         TestGroup(
             annotation=[
@@ -230,12 +230,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for a wildcard schema component (any) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted  annotation for a wildcard schema component (any) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a wildcard schema component (any)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a wildcard schema component (any).'
                                 ),
                             ]
                         ),
@@ -244,13 +244,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m5.xsd'
                     ),
                 ],
                 expected=[
@@ -262,12 +262,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m5"
+                name='annotation00101m5'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m5_p.xml"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m5_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -278,10 +278,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m5"
+            name='annotation00101m5'
         ),
         TestGroup(
             annotation=[
@@ -290,12 +290,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for a wildcard schema component (any) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='human-targeted double annotation for a wildcard schema component (any) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for a wildcard schema component (any).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the human-targeted annotation \n                             is provided for a wildcard schema component (any).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -304,13 +304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m6.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m6.xsd'
                     ),
                 ],
                 expected=[
@@ -322,9 +322,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m6"
+                name='annotation00101m6'
             ),
-            name="annotation00101m6"
+            name='annotation00101m6'
         ),
         TestGroup(
             annotation=[
@@ -333,12 +333,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for a wildcard schema component (any) (valid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted  annotation for a wildcard schema component (any) (valid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a wildcard schema component (any)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a wildcard schema component (any).'
                                 ),
                             ]
                         ),
@@ -347,13 +347,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m7.xsd'
                     ),
                 ],
                 expected=[
@@ -365,12 +365,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m7"
+                name='annotation00101m7'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m7_p.xml"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m7_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -381,10 +381,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="annotation00101m7"
+            name='annotation00101m7'
         ),
         TestGroup(
             annotation=[
@@ -393,12 +393,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for a wildcard schema component (any) (invalid schema)"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='machine-targeted double annotation for a wildcard schema component (any) (invalid schema)'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for a wildcard schema component (any).&#10;                             The annotation is specified twice."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Annotations provide for human- and machine-targeted \n                             annotations of schema components.\n                              In the test the machine-targeted annotation \n                             is provided for a wildcard schema component (any).\n                             The annotation is specified twice.'
                                 ),
                             ]
                         ),
@@ -407,13 +407,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/annotation/annotation00101m/annotation00101m8.xsd"
+                        href='../sunData/Wildcard/annotation/annotation00101m/annotation00101m8.xsd'
                     ),
                 ],
                 expected=[
@@ -425,9 +425,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="annotation00101m8"
+                name='annotation00101m8'
             ),
-            name="annotation00101m8"
+            name='annotation00101m8'
         ),
         TestGroup(
             annotation=[
@@ -436,12 +436,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='##any' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                1. (any) have any namespace or are not namespace qualified;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                1. (any) have any namespace or are not namespace qualified;'
                                 ),
                             ]
                         ),
@@ -450,13 +450,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -468,12 +468,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00101m1"
+                name='nsConstraint00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -484,11 +484,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -499,10 +499,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00101m1"
+            name='nsconstraint00101m1'
         ),
         TestGroup(
             annotation=[
@@ -511,12 +511,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="default value of 'namespace' is '##any' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                1. (any) have any namespace or are not namespace qualified;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                1. (any) have any namespace or are not namespace qualified;'
                                 ),
                             ]
                         ),
@@ -525,13 +525,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -543,12 +543,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00101m2"
+                name='nsConstraint00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -559,11 +559,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00101m/nsConstraint00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -574,10 +574,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00101m2"
+            name='nsconstraint00101m2'
         ),
         TestGroup(
             annotation=[
@@ -586,12 +586,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='##any' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                1. (any) have any namespace or are not namespace qualified;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                1. (any) have any namespace or are not namespace qualified;'
                                 ),
                             ]
                         ),
@@ -600,13 +600,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -618,12 +618,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00102m1"
+                name='nsConstraint00102m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -634,10 +634,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="nsconstraint00102m1"
+            name='nsconstraint00102m1'
         ),
         TestGroup(
             annotation=[
@@ -646,12 +646,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="default value of 'namespace' is '##any' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                1. (any) have any namespace or are not namespace qualified;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                1. (any) have any namespace or are not namespace qualified;'
                                 ),
                             ]
                         ),
@@ -660,13 +660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -678,12 +678,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00102m2"
+                name='nsConstraint00102m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00102m/nsConstraint00102m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -694,10 +694,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="nsconstraint00102m2"
+            name='nsconstraint00102m2'
         ),
         TestGroup(
             annotation=[
@@ -706,12 +706,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='##other' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                2. (not and a namespace name) have any namespace other than the specified namespace&#10;                                    name;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                2. (not and a namespace name) have any namespace other than the specified namespace\n                                    name;'
                                 ),
                             ]
                         ),
@@ -720,13 +720,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -738,12 +738,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00201m1"
+                name='nsConstraint00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -754,11 +754,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00201m/nsConstraint00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -769,10 +769,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00201m1"
+            name='nsconstraint00201m1'
         ),
         TestGroup(
             annotation=[
@@ -781,12 +781,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='##other' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                                2. (not and a namespace name) have any namespace other than the specified namespace&#10;                                    name;"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                                2. (not and a namespace name) have any namespace other than the specified namespace\n                                    name;'
                                 ),
                             ]
                         ),
@@ -795,13 +795,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -813,12 +813,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00202m1"
+                name='nsConstraint00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -829,11 +829,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00202m/nsConstraint00202m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -844,10 +844,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00202m1"
+            name='nsconstraint00202m1'
         ),
         TestGroup(
             annotation=[
@@ -856,12 +856,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='ns_test1 ns_test2' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                             &#10;                                4. (a set whose members are either namespace names or *absent*) have any of the specified&#10;                                   namespaces and/or, if *absent* is included in the set, are unqualified."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                             \n                                4. (a set whose members are either namespace names or *absent*) have any of the specified\n                                   namespaces and/or, if *absent* is included in the set, are unqualified.'
                                 ),
                             ]
                         ),
@@ -870,13 +870,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -888,12 +888,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00301m1"
+                name='nsConstraint00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -904,11 +904,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00301m/nsConstraint00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -919,10 +919,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00301m1"
+            name='nsconstraint00301m1'
         ),
         TestGroup(
             annotation=[
@@ -931,12 +931,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="namespace='ns_test1 ns_test2' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{namespace constraint} provides for *validation* of attribute and element items that:&#10;                             &#10;                                4. (a set whose members are either namespace names or *absent*) have any of the specified&#10;                                   namespaces and/or, if *absent* is included in the set, are unqualified."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{namespace constraint} provides for *validation* of attribute and element items that:\n                             \n                                4. (a set whose members are either namespace names or *absent*) have any of the specified\n                                   namespaces and/or, if *absent* is included in the set, are unqualified.'
                                 ),
                             ]
                         ),
@@ -945,13 +945,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1.xsd"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1.xsd'
                     ),
                 ],
                 expected=[
@@ -963,12 +963,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="nsConstraint00302m1"
+                name='nsConstraint00302m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_p.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -979,11 +979,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_n.xml"
+                        href='../sunData/Wildcard/nsConstraint/nsConstraint00302m/nsConstraint00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -994,10 +994,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="nsconstraint00302m1"
+            name='nsconstraint00302m1'
         ),
         TestGroup(
             annotation=[
@@ -1006,12 +1006,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='strict' and the declaration is available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                strict&#10;                                    There must be a top-level declaration for the item available, or the item&#10;                                    must have an xsi:type, and the item must be *valid* as appropriate."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                strict\n                                    There must be a top-level declaration for the item available, or the item\n                                    must have an xsi:type, and the item must be *valid* as appropriate.'
                                 ),
                             ]
                         ),
@@ -1020,13 +1020,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00101m/psContents00101m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1038,12 +1038,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00101m1"
+                name='psContents00101m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1054,11 +1054,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00101m/psContents00101m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1069,10 +1069,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00101m1"
+            name='pscontents00101m1'
         ),
         TestGroup(
             annotation=[
@@ -1081,12 +1081,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='strict' and the declaration is not available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                strict&#10;                                    There must be a top-level declaration for the item available, or the item&#10;                                    must have an xsi:type, and the item must be *valid* as appropriate."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                strict\n                                    There must be a top-level declaration for the item available, or the item\n                                    must have an xsi:type, and the item must be *valid* as appropriate.'
                                 ),
                             ]
                         ),
@@ -1095,13 +1095,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00101m/psContents00101m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1113,12 +1113,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00101m2"
+                name='psContents00101m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00101m/psContents00101m2_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00101m/psContents00101m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1129,10 +1129,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00101m2"
+            name='pscontents00101m2'
         ),
         TestGroup(
             annotation=[
@@ -1141,12 +1141,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='strict' and the declaration is available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                strict&#10;                                    There must be a top-level declaration for the item available, or the item&#10;                                    must have an xsi:type, and the item must be *valid* as appropriate."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                strict\n                                    There must be a top-level declaration for the item available, or the item\n                                    must have an xsi:type, and the item must be *valid* as appropriate.'
                                 ),
                             ]
                         ),
@@ -1155,13 +1155,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00102m/psContents00102m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1173,12 +1173,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00102m1"
+                name='psContents00102m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1189,11 +1189,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00102m/psContents00102m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1204,10 +1204,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00102m1"
+            name='pscontents00102m1'
         ),
         TestGroup(
             annotation=[
@@ -1216,12 +1216,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='strict' and the declaration is not available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                strict&#10;                                    There must be a top-level declaration for the item available, or the item&#10;                                    must have an xsi:type, and the item must be *valid* as appropriate."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                strict\n                                    There must be a top-level declaration for the item available, or the item\n                                    must have an xsi:type, and the item must be *valid* as appropriate.'
                                 ),
                             ]
                         ),
@@ -1230,13 +1230,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00102m/psContents00102m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1248,12 +1248,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00102m2"
+                name='psContents00102m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00102m/psContents00102m2_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00102m/psContents00102m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1264,10 +1264,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00102m2"
+            name='pscontents00102m2'
         ),
         TestGroup(
             annotation=[
@@ -1276,12 +1276,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='skip' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                skip&#10;                                    No constraints at all: the item must simply be well-formed XML."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                skip\n                                    No constraints at all: the item must simply be well-formed XML.'
                                 ),
                             ]
                         ),
@@ -1290,13 +1290,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00201m/psContents00201m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1308,12 +1308,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00201m1"
+                name='psContents00201m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1324,11 +1324,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00201m/psContents00201m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1339,10 +1339,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00201m1"
+            name='pscontents00201m1'
         ),
         TestGroup(
             annotation=[
@@ -1351,12 +1351,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='skip' (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                skip&#10;                                    No constraints at all: the item must simply be well-formed XML."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                skip\n                                    No constraints at all: the item must simply be well-formed XML.'
                                 ),
                             ]
                         ),
@@ -1365,13 +1365,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00202m/psContents00202m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1383,12 +1383,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00202m1"
+                name='psContents00202m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00202m/psContents00202m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00202m/psContents00202m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1399,10 +1399,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
             ],
-            name="pscontents00202m1"
+            name='pscontents00202m1'
         ),
         TestGroup(
             annotation=[
@@ -1411,12 +1411,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='lax' and the declaration is available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                lax&#10;                                    If the item, or any items among its [children] if it's an element information&#10;                                    item, has a uniquely determined declaration available, it must be *valid* with&#10;                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                lax\n                                    If the item, or any items among its [children] if it's an element information\n                                    item, has a uniquely determined declaration available, it must be *valid* with\n                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
                                 ),
                             ]
                         ),
@@ -1425,13 +1425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1443,12 +1443,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00301m1"
+                name='psContents00301m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1459,11 +1459,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1474,10 +1474,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00301m1"
+            name='pscontents00301m1'
         ),
         TestGroup(
             annotation=[
@@ -1486,12 +1486,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='lax' and the declaration is not available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                lax&#10;                                    If the item, or any items among its [children] if it's an element information&#10;                                    item, has a uniquely determined declaration available, it must be *valid* with&#10;                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                lax\n                                    If the item, or any items among its [children] if it's an element information\n                                    item, has a uniquely determined declaration available, it must be *valid* with\n                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
                                 ),
                             ]
                         ),
@@ -1500,13 +1500,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1518,12 +1518,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00301m2"
+                name='psContents00301m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1534,11 +1534,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00301m/psContents00301m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1549,10 +1549,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00301m2"
+            name='pscontents00301m2'
         ),
         TestGroup(
             annotation=[
@@ -1561,12 +1561,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='lax' and the declaration is available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                lax&#10;                                    If the item, or any items among its [children] if it's an element information&#10;                                    item, has a uniquely determined declaration available, it must be *valid* with&#10;                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                lax\n                                    If the item, or any items among its [children] if it's an element information\n                                    item, has a uniquely determined declaration available, it must be *valid* with\n                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
                                 ),
                             ]
                         ),
@@ -1575,13 +1575,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m1.xsd'
                     ),
                 ],
                 expected=[
@@ -1593,12 +1593,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00302m1"
+                name='psContents00302m1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1609,11 +1609,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m1_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1624,10 +1624,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00302m1"
+            name='pscontents00302m1'
         ),
         TestGroup(
             annotation=[
@@ -1636,12 +1636,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
                                     text="processContents='lax' and the declaration is not available (valid schema)"
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="{process contents} controls the impact on *assessment* of the information items&#10;                              allowed by wildcards, as follows:&#10;                             &#10;                                lax&#10;                                    If the item, or any items among its [children] if it's an element information&#10;                                    item, has a uniquely determined declaration available, it must be *valid* with&#10;                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text="{process contents} controls the impact on *assessment* of the information items\n                              allowed by wildcards, as follows:\n                             \n                                lax\n                                    If the item, or any items among its [children] if it's an element information\n                                    item, has a uniquely determined declaration available, it must be *valid* with\n                                    respect to that definition, that is, *validate* where you can, don't worry when you can't."
                                 ),
                             ]
                         ),
@@ -1650,13 +1650,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards"
+                    href='http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#Wildcards'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2.xsd"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m2.xsd'
                     ),
                 ],
                 expected=[
@@ -1668,12 +1668,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="psContents00302m2"
+                name='psContents00302m2'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_p.xml"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_p.xml'
                     ),
                     expected=[
                         Expected(
@@ -1684,11 +1684,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Positive"
+                    name='Positive'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml"
+                        href='../sunData/Wildcard/psContents/psContents00302m/psContents00302m2_n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1699,15 +1699,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="Negative"
+                    name='Negative'
                 ),
             ],
-            name="pscontents00302m2"
+            name='pscontents00302m2'
         ),
     ],
-    contributor="SUN",
-    name="Wildcard",
+    contributor='SUN',
+    name='Wildcard',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

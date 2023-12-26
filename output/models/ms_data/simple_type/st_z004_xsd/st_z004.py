@@ -12,7 +12,7 @@ class Element1:
         metadata={
             "type": "Attribute",
             "pattern": r"(あ|ｱ)*",
-        }
+        },
     )
 
 
@@ -26,5 +26,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

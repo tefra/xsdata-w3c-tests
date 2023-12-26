@@ -52,7 +52,7 @@ class Nametest:
                     "namespace": "a",
                 },
             ),
-        }
+        },
     )
 
 

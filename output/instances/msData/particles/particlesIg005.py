@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     e2_or_e3_or_e4=AnyElement(
-        qname="{http://xsdtesting}e2",
-        text="a"
+        qname='{http://xsdtesting}e2',
+        text='a'
     )
 )

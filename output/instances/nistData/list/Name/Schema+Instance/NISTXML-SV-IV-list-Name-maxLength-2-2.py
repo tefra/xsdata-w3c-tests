@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameMaxLength2(
     value=[
-        "kpermitting_match-",
-        ":with.retrieval.le",
-        "_partnership.acces",
-        "gmanipulation-cont",
-        ":the_these.the.met",
-        ":revolution_indust",
+        'kpermitting_match-',
+        ':with.retrieval.le',
+        '_partnership.acces',
+        'gmanipulation-cont',
+        ':the_these.the.met',
+        ':revolution_indust',
     ]
 )

@@ -12,7 +12,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -26,40 +26,40 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "foo",
-        }
+        },
     )
     a_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "a",
-        }
+        },
     )
     b_element: List[object] = field(
         default_factory=list,
         metadata={
             "type": "Wildcard",
             "namespace": "b",
-        }
+        },
     )
     target_namespace_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-        }
+        },
     )
     local_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-        }
+        },
     )
     other_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )

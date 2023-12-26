@@ -12,24 +12,24 @@ class Test:
         metadata={
             "name": "complexAtt",
             "type": "Attribute",
-        }
+        },
     )
     global_att: Optional[int] = field(
         default=None,
         metadata={
             "name": "globalAtt",
             "type": "Attribute",
-        }
+        },
     )
     item1: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     item2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

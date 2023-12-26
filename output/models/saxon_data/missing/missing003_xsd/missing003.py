@@ -17,5 +17,5 @@ class Good:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

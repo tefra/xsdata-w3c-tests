@@ -17,5 +17,5 @@ class DKstra:
         metadata={
             "name": "A𰀀",
             "type": "Attribute",
-        }
+        },
     )

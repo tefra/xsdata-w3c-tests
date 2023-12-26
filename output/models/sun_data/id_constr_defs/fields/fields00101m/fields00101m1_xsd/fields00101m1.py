@@ -17,7 +17,7 @@ class People:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -26,17 +26,17 @@ class People:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         parent: Optional[str] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         birthday: Optional[XmlDate] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )

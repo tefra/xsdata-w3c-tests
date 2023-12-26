@@ -7,60 +7,60 @@ __NAMESPACE__ = "NISTSchema-SV-IV-list-hexBinary-enumeration-2-NS"
 
 class NistschemaSvIvListHexBinaryEnumeration2Type(Enum):
     VALUE_77796C6578706D6973756C6A666F6C666279637779726A6770746F6A726B636670766D686B637467786D73616E70796265766E6E71_7071766A766769616C6D6B6C717368766C6E766F67656E6D6367676D736964726D76727173736E68636661756C776C6561627274776672706B707379777077667163756D636D6E6B_6E646A676B6D69666878786568696264776D6F736F68796B757777636A6E7465766265696464716661636270666C6D73616A6D73766467776E657867646371_706A686E706A77717979707570666B7672677963717967676B646D79636877746C6275796A6E61657361656A6762707267627462_686769706D6C63666F646776756E6165627676667565677564776A6F6B737365676B686D6E69636A6F64736D716E727173716E75656269726E_726E627174726B6873_6C756173656A746D6F6A786164646D6D786C68646B68666B636B74797679636967_63746374706974656F6A6B69686F7377707472656975766B69716E6A796573616D636C63796D75686A74676C6479696D61_6F7874727166 = (
-            b"wylexpmisuljfolfbycwyrjgptojrkcfpvmhkctgxmsanpybevnnq",
-            b"pqvjvgialmklqshvlnvogenmcggmsidrmvrqssnhcfaulwleabrtwfrpkpsywpwfqcumcmnk",
-            b"ndjgkmifhxxehibdwmosohykuwwcjntevbeiddqfacbpflmsajmsvdgwnexgdcq",
-            b"pjhnpjwqyypupfkvrgycqyggkdmychwtlbuyjnaesaejgbprgbtb",
-            b"hgipmlcfodgvunaebvvfuegudwjokssegkhmnicjodsmqnrqsqnuebirn",
-            b"rnbqtrkhs",
-            b"luasejtmojxaddmmxlhdkhfkcktyvycig",
-            b"ctctpiteojkihoswptreiuvkiqnjyesamclcymuhjtgldyima",
-            b"oxtrqf",
-        )
+        b"wylexpmisuljfolfbycwyrjgptojrkcfpvmhkctgxmsanpybevnnq",
+        b"pqvjvgialmklqshvlnvogenmcggmsidrmvrqssnhcfaulwleabrtwfrpkpsywpwfqcumcmnk",
+        b"ndjgkmifhxxehibdwmosohykuwwcjntevbeiddqfacbpflmsajmsvdgwnexgdcq",
+        b"pjhnpjwqyypupfkvrgycqyggkdmychwtlbuyjnaesaejgbprgbtb",
+        b"hgipmlcfodgvunaebvvfuegudwjokssegkhmnicjodsmqnrqsqnuebirn",
+        b"rnbqtrkhs",
+        b"luasejtmojxaddmmxlhdkhfkcktyvycig",
+        b"ctctpiteojkihoswptreiuvkiqnjyesamclcymuhjtgldyima",
+        b"oxtrqf",
+    )
     VALUE_7775646170756274707863796A746363626363746F63776978636E6F6268787570736C78656D72786D6E68667778646D6A6D76786D72657767756E676B67_617672656B7674726A72716A6D7075666172_716674726D696A6B656B6A6764676A766D636A646E736E6D6F61636D70686A626B6D6764_6A64787076766E75626C686C6E79627572716771786E65637376756568776963_6D676D726A6A646F6975756975716B6D656D6679727372776365756A7570616C74676277676777_70656C6C757878736A676B75616D68786A667577726D62666668_666C6264706D667679716F6B6A6279716C7565746E666A716D_75777970776C617076777369697974777269786D757777756566786E747976627071_72777276777678616E6C6575726A7367746A757965656B6866706E6D706D6B63766A63747468796B7078726A67727477796E6F726972706A7374757277 = (
-            b"wudapubtpxcyjtccbcctocwixcnobhxupslxemrxmnhfwxdmjmvxmrewgungkg",
-            b"avrekvtrjrqjmpufar",
-            b"qftrmijkekjgdgjvmcjdnsnmoacmphjbkmgd",
-            b"jdxpvvnublhlnyburqgqxnecsvuehwic",
-            b"mgmrjjdoiuuiuqkmemfyrsrwceujupaltgbwggw",
-            b"pelluxxsjgkuamhxjfuwrmbffh",
-            b"flbdpmfvyqokjbyqluetnfjqm",
-            b"uwypwlapvwsiiytwrixmuwwuefxntyvbpq",
-            b"rwrvwvxanleurjsgtjuyeekhfpnmpmkcvjctthykpxrjgrtwynorirpjsturw",
-        )
+        b"wudapubtpxcyjtccbcctocwixcnobhxupslxemrxmnhfwxdmjmvxmrewgungkg",
+        b"avrekvtrjrqjmpufar",
+        b"qftrmijkekjgdgjvmcjdnsnmoacmphjbkmgd",
+        b"jdxpvvnublhlnyburqgqxnecsvuehwic",
+        b"mgmrjjdoiuuiuqkmemfyrsrwceujupaltgbwggw",
+        b"pelluxxsjgkuamhxjfuwrmbffh",
+        b"flbdpmfvyqokjbyqluetnfjqm",
+        b"uwypwlapvwsiiytwrixmuwwuefxntyvbpq",
+        b"rwrvwvxanleurjsgtjuyeekhfpnmpmkcvjctthykpxrjgrtwynorirpjsturw",
+    )
     VALUE_70686B62676D6163796D7761746674676F786C6E6F6967716366736D7173706E6868716D6863636966677471626C6D736165616C686D_79786E746F65636879666F69766D716D6E7474626B6A787671767968757165646A62766A6A68646C6571686C76_6F6D716F78686D636964766374706C75747472796C7663666C63686C7968767269777671796F79716162646B796C6A70657775696A67677078787674736669616D736E626175_646564696470777968636F7763797161646B6D6978786A6E707361746678717971716E6E797366646C6364777366697665796D786C75696E686E6377626C6E636F69_6B74717264656F776B786B716C746667747071666D6E6D736D666D7976656A68626B7073696D6165706966757876756F6362616C79747062696B737867_6969736574666862716C6E73766566746E76766F64627771676664666D7774 = (
-            b"phkbgmacymwatftgoxlnoigqcfsmqspnhhqmhccifgtqblmsaealhm",
-            b"yxntoechyfoivmqmnttbkjxvqvyhuqedjbvjjhdleqhlv",
-            b"omqoxhmcidvctpluttrylvcflchlyhvriwvqyoyqabdkyljpewuijggpxxvtsfiamsnbau",
-            b"dedidpwyhcowcyqadkmixxjnpsatfxqyqqnnysfdlcdwsfiveymxluinhncwblncoi",
-            b"ktqrdeowkxkqltfgtpqfmnmsmfmyvejhbkpsimaepifuxvuocbalytpbiksxg",
-            b"iisetfhbqlnsveftnvvodbwqgfdfmwt",
-        )
+        b"phkbgmacymwatftgoxlnoigqcfsmqspnhhqmhccifgtqblmsaealhm",
+        b"yxntoechyfoivmqmnttbkjxvqvyhuqedjbvjjhdleqhlv",
+        b"omqoxhmcidvctpluttrylvcflchlyhvriwvqyoyqabdkyljpewuijggpxxvtsfiamsnbau",
+        b"dedidpwyhcowcyqadkmixxjnpsatfxqyqqnnysfdlcdwsfiveymxluinhncwblncoi",
+        b"ktqrdeowkxkqltfgtpqfmnmsmfmyvejhbkpsimaepifuxvuocbalytpbiksxg",
+        b"iisetfhbqlnsveftnvvodbwqgfdfmwt",
+    )
     VALUE_6568676A62656165646E666C6E72626A6C706C796B6A6A746E70627372727571766F6E78666967757965797974656A73627072_637776796363676F7573636267796E656D66747567636161776475657279716D6C626C656179727161707472736F747367676D71636B656264786669726C63686F786C6B70706A6661_6C757466676B707079667564717967716579626367_6E6C6E756E6F6D61716576747478666E726B727074776A_6A787369626C64717568716977796E7062726E636B7666726B746F6E6B64796B7466777576756862666D617164617368666473746376676B_786C796B = (
-            b"ehgjbeaednflnrbjlplykjjtnpbsrruqvonxfiguyeyytejsbpr",
-            b"cwvyccgouscbgynemftugcaawdueryqmlbleayrqaptrsotsggmqckebdxfirlchoxlkppjfa",
-            b"lutfgkppyfudqygqeybcg",
-            b"nlnunomaqevttxfnrkrptwj",
-            b"jxsibldquhqiwynpbrnckvfrktonkdyktfwuvuhbfmaqdashfdstcvgk",
-            b"xlyk",
-        )
+        b"ehgjbeaednflnrbjlplykjjtnpbsrruqvonxfiguyeyytejsbpr",
+        b"cwvyccgouscbgynemftugcaawdueryqmlbleayrqaptrsotsggmqckebdxfirlchoxlkppjfa",
+        b"lutfgkppyfudqygqeybcg",
+        b"nlnunomaqevttxfnrkrptwj",
+        b"jxsibldquhqiwynpbrnckvfrktonkdyktfwuvuhbfmaqdashfdstcvgk",
+        b"xlyk",
+    )
     VALUE_6665617875777573626E696B6A7661786D756E6B716D616C716F6E657367746B6578756677786877646379746B756D69666565766971787677776772757762_737975636274696770786279736F6D786471787778616C67796E726F6D796771746B62696D796D74757477756A746B73696368666F62716E78676A6E7776_637661636B69616F6173756B6D6C6A7071_7163627376786A66_696D796574666D6A6968756F696375636178706C756A627565776362717277706A726C736D706570676E = (
-            b"feaxuwusbnikjvaxmunkqmalqonesgtkexufwxhwdcytkumifeeviqxvwwgruwb",
-            b"syucbtigpxbysomxdqxwxalgynromygqtkbimymtutwujtksichfobqnxgjnwv",
-            b"cvackiaoasukmljpq",
-            b"qcbsvxjf",
-            b"imyetfmjihuoicucaxplujbuewcbqrwpjrlsmpepgn",
-        )
+        b"feaxuwusbnikjvaxmunkqmalqonesgtkexufwxhwdcytkumifeeviqxvwwgruwb",
+        b"syucbtigpxbysomxdqxwxalgynromygqtkbimymtutwujtksichfobqnxgjnwv",
+        b"cvackiaoasukmljpq",
+        b"qcbsvxjf",
+        b"imyetfmjihuoicucaxplujbuewcbqrwpjrlsmpepgn",
+    )
     VALUE_6F_767574747678676F6B72_766A6171617165696461687565626D696A79696B786B6664696C776E6A706E75747469676C696574686562666769687169_666177696D697878706C64666F63616A6F6F6A6A6272797477737770_6D79766767636B78706B7471796877616D65766176656177786E676C73_74766571776F75726E6F6B617768766F7668636B6F636367626861677475786D736C68_6170717176727269_6464706973726D726F666873746C64797873757570687173686A6F6D7979716778636C70646376756F6275766D757372666E72646575 = (
-            b"o",
-            b"vuttvxgokr",
-            b"vjaqaqeidahuebmijyikxkfdilwnjpnuttigliethebfgihqi",
-            b"fawimixxpldfocajoojjbrytwswp",
-            b"myvggckxpktqyhwamevaveawxngls",
-            b"tveqwournokawhvovhckoccgbhagtuxmslh",
-            b"apqqvrri",
-            b"ddpisrmrofhstldyxsuuphqshjomyyqgxclpdcvuobuvmusrfnrdeu",
-        )
+        b"o",
+        b"vuttvxgokr",
+        b"vjaqaqeidahuebmijyikxkfdilwnjpnuttigliethebfgihqi",
+        b"fawimixxpldfocajoojjbrytwswp",
+        b"myvggckxpktqyhwamevaveawxngls",
+        b"tveqwournokawhvovhckoccgbhagtuxmslh",
+        b"apqqvrri",
+        b"ddpisrmrofhstldyxsuuphqshjomyyqgxclpdcvuobuvmusrfnrdeu",
+    )
 
 
 @dataclass
@@ -74,5 +74,5 @@ class NistschemaSvIvListHexBinaryEnumeration2:
         metadata={
             "required": True,
             "format": "base16",
-        }
+        },
     )

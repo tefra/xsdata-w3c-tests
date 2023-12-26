@@ -18,7 +18,7 @@ class B:
             "type": "Element",
             "namespace": "foo",
             "required": True,
-        }
+        },
     )
 
 
@@ -107,7 +107,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    choice: List[Union[EDr, EB, EDre, EDrr, EDe, EDee, EDer]] = field(
+    choice: List[Union[EDee, EDer, EDe, EDre, EDrr, EDr, EB]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -141,5 +141,5 @@ class Root:
                     "type": EB,
                 },
             ),
-        }
+        },
     )

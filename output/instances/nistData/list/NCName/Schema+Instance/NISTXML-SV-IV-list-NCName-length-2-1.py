@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameLength2(
     value=[
-        "din_networks.the.cr",
-        "bincluding_the-for.",
-        "sthe_a.prototype_ma",
-        "vsyntax_provides-us",
-        "xabout.benefits_ena",
-        "sis-conformance.is-",
+        'din_networks.the.cr',
+        'bincluding_the-for.',
+        'sthe_a.prototype_ma',
+        'vsyntax_provides-us',
+        'xabout.benefits_ena',
+        'sis-conformance.is-',
     ]
 )

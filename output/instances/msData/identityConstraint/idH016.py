@@ -14,7 +14,7 @@ obj = Root(
     ],
     kid=[
         Kid(
-            val="test"
+            val='test'
         ),
     ]
 )

@@ -12,7 +12,7 @@ class Bad:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -25,5 +25,5 @@ class Good:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

@@ -16,14 +16,14 @@ class C1:
             "type": "Attribute",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "required": True,
-        }
+        },
     )
     element1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-        }
+        },
     )
     element2: List[object] = field(
         default_factory=list,
@@ -31,12 +31,12 @@ class C1:
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
             "min_occurs": 1,
-        }
+        },
     )
     element_added: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xstest-tns/schema11_S3_4_2_4",
-        }
+        },
     )

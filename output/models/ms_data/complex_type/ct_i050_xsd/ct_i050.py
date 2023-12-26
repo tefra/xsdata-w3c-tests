@@ -14,7 +14,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     foo_ele2: Optional[int] = field(
         default=None,
@@ -23,7 +23,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class MyType(FooType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -60,5 +60,5 @@ class Root:
             "name": "fooTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )

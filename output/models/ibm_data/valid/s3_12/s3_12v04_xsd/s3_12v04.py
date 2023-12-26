@@ -9,15 +9,13 @@ class AnySimpleType:
     class Meta:
         name = "anySimpleType"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)
     type_value: Optional[str] = field(
         default=None,
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -26,9 +24,7 @@ class DoubleType(AnySimpleType):
     class Meta:
         name = "doubleType"
 
-    value: Optional[float] = field(
-        default=None
-    )
+    value: Optional[float] = field(default=None)
 
 
 @dataclass
@@ -36,9 +32,7 @@ class FloatType(AnySimpleType):
     class Meta:
         name = "floatType"
 
-    value: Optional[float] = field(
-        default=None
-    )
+    value: Optional[float] = field(default=None)
 
 
 @dataclass
@@ -54,5 +48,5 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )

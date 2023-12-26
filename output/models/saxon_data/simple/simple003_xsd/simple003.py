@@ -16,7 +16,7 @@ class Chap:
             "type": "Element",
             "namespace": "http://simple003.ly/",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -25,19 +25,19 @@ class Chap:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         nr: Optional[Decimal] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         ref: Optional[Decimal] = field(
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
 
 
@@ -61,12 +61,12 @@ class Doc:
                     "type": Chap,
                 },
             ),
-        }
+        },
     )
     date: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "pattern": r"2012.*",
-        }
+        },
     )

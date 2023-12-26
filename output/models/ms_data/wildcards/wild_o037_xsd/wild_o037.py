@@ -15,5 +15,5 @@ class Foo:
         metadata={
             "type": "Attributes",
             "namespace": "##local http://www.w3.org/1999/xhtml",
-        }
+        },
     )

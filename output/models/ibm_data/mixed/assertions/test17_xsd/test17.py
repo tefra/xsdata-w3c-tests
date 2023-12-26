@@ -9,28 +9,28 @@ class X:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -41,28 +41,28 @@ class Y:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -77,7 +77,7 @@ class Test:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     y: Optional[Y] = field(
         default=None,
@@ -85,5 +85,5 @@ class Test:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

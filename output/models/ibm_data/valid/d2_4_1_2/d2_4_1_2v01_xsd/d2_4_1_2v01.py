@@ -21,5 +21,5 @@ class Root:
             "max_length": 6,
             "pattern": r"123 (\d+\s)*456",
             "tokens": True,
-        }
+        },
     )

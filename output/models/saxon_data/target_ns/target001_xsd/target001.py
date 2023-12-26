@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://www.target001.com/",
-        }
+        },
     )
 
 
@@ -21,7 +21,7 @@ class R(B):
             "type": "Element",
             "namespace": "http://www.target001.com/",
             "required": True,
-        }
+        },
     )
 
 

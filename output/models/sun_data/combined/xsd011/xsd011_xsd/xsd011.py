@@ -15,7 +15,7 @@ class Nillable1:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class Nillable2:
             "min_length": 2,
             "nillable": True,
             "tokens": True,
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class NonNillable:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -56,7 +56,9 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    non_nillable_or_nillable1_or_nillable2: List[Union[int, NonNillable, Nillable1]] = field(
+    non_nillable_or_nillable1_or_nillable2: List[
+        Union[NonNillable, Nillable1, int]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -79,5 +81,5 @@ class Root:
                     "tokens": True,
                 },
             ),
-        }
+        },
     )

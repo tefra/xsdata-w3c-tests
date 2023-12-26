@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringPattern4(
-    value="89 Offer Street Dom , HI 17076"
+    value='89 Offer Street Dom , HI 17076'
 )

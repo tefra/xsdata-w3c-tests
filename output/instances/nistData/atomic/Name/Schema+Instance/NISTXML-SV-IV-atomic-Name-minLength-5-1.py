@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength5(
-    value="pconsortiums_known:the:the_market_include_the-revisions-role_mat"
+    value='pconsortiums_known:the:the_market_include_the-revisions-role_mat'
 )

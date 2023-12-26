@@ -15,7 +15,7 @@ class AddressType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     street: Optional[str] = field(
         default=None,
@@ -23,7 +23,7 @@ class AddressType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     city: Optional[str] = field(
         default=None,
@@ -31,7 +31,7 @@ class AddressType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     country: Optional[str] = field(
         default=None,
@@ -39,7 +39,7 @@ class AddressType:
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        }
+        },
     )
 
 
@@ -53,7 +53,7 @@ class CustomerComment:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -67,7 +67,7 @@ class ShipComment:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -78,7 +78,7 @@ class ItemsType:
         metadata={
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
-        }
+        },
     )
 
     @dataclass
@@ -90,7 +90,7 @@ class ItemsType:
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
-            }
+            },
         )
         quantity: Optional[int] = field(
             default=None,
@@ -99,7 +99,7 @@ class ItemsType:
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
                 "max_exclusive": 100,
-            }
+            },
         )
         usprice: Optional[Decimal] = field(
             default=None,
@@ -108,7 +108,7 @@ class ItemsType:
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
                 "required": True,
-            }
+            },
         )
         customer_comment_or_ship_comment_or_comment: List[str] = field(
             default_factory=list,
@@ -132,7 +132,7 @@ class ItemsType:
                     },
                 ),
                 "max_occurs": 2,
-            }
+            },
         )
         ship_date: Optional[XmlDate] = field(
             default=None,
@@ -140,7 +140,7 @@ class ItemsType:
                 "name": "shipDate",
                 "type": "Element",
                 "namespace": "http://www.example.com/IPO",
-            }
+            },
         )
         part_num: Optional[str] = field(
             default=None,
@@ -150,7 +150,7 @@ class ItemsType:
                 "namespace": "http://www.example.com/att",
                 "required": True,
                 "pattern": r"\d{3}-[A-Z]{2}",
-            }
+            },
         )
         weight_kg: Optional[Decimal] = field(
             default=None,
@@ -158,7 +158,7 @@ class ItemsType:
                 "name": "weightKg",
                 "type": "Attribute",
                 "namespace": "http://www.example.com/att",
-            }
+            },
         )
         ship_by: Optional[ItemShipBy] = field(
             default=None,
@@ -166,7 +166,7 @@ class ItemsType:
                 "name": "shipBy",
                 "type": "Attribute",
                 "namespace": "http://www.example.com/att",
-            }
+            },
         )
 
 
@@ -194,7 +194,7 @@ class PurchaseOrderType:
                 },
             ),
             "max_occurs": 2,
-        }
+        },
     )
     customer_comment_or_ship_comment_or_comment: Optional[str] = field(
         default=None,
@@ -217,7 +217,7 @@ class PurchaseOrderType:
                     "namespace": "http://www.example.com/IPO",
                 },
             ),
-        }
+        },
     )
     items: Optional[ItemsType] = field(
         default=None,
@@ -225,14 +225,14 @@ class PurchaseOrderType:
             "type": "Element",
             "namespace": "http://www.example.com/IPO",
             "required": True,
-        }
+        },
     )
     order_date: Optional[XmlDate] = field(
         default=None,
         metadata={
             "name": "orderDate",
             "type": "Attribute",
-        }
+        },
     )
 
 

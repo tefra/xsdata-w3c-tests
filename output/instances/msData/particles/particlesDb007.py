@@ -10,8 +10,8 @@ obj = Doc(
     ),
     elem2=Elem2(
         a1_or_a2=AnyElement(
-            qname="{http://xsdtesting}a1",
-            text=""
+            qname='{http://xsdtesting}a1',
+            text=''
         )
     )
 )

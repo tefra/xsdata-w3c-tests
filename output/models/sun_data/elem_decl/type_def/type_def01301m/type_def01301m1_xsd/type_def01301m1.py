@@ -15,7 +15,7 @@ class Inline:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -25,6 +25,4 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    value: Optional[object] = field(
-        default=None
-    )
+    value: Optional[object] = field(default=None)

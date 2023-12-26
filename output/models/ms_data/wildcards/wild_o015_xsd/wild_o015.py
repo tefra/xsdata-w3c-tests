@@ -15,5 +15,5 @@ class Foo:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )

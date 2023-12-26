@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.name.name_pattern001_xsd.name_patter
 
 
 obj = Test(
-    foo="abc"
+    foo='abc'
 )

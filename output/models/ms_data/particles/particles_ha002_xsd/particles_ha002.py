@@ -14,14 +14,14 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     e2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 

@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.g_month_day.schema_instance.nistschema_sv_
 
 obj = NistschemaSvIvListGMonthDayPattern1(
     value=[
-        "--01-08",
-        "--05-09",
-        "--02-27",
-        "--06-26",
-        "--10-10",
-        "--03-17",
-        "--04-13",
-        "--02-02",
-        "--11-16",
+        '--01-08',
+        '--05-09',
+        '--02-27',
+        '--06-26',
+        '--10-10',
+        '--03-17',
+        '--04-13',
+        '--02-02',
+        '--11-16',
     ]
 )

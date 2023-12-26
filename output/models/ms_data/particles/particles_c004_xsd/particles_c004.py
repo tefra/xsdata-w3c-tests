@@ -15,7 +15,7 @@ class Elem:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 100,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Doc:
         metadata={
             "type": "Element",
             "max_occurs": 100,
-        }
+        },
     )

@@ -15,7 +15,7 @@ obj = Root(
         DTimeStampEnumeration.VALUE_2001_01_01_T12_00_00_123_09_00,
     ],
     eld_time_stamp_pattern=[
-        "2009-01-01T12:00:00.123-09:00",
+        '2009-01-01T12:00:00.123-09:00',
     ],
     eld_time_stamp_min_max_inclusive=[
         XmlDateTime(2001, 1, 1, 12, 0, 0, 123000000, 540),

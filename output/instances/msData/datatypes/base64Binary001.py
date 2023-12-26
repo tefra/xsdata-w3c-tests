@@ -4,7 +4,7 @@ from output.models.ms_data.datatypes.base64_binary_xsd.base64_binary import Root
 
 obj = Root(
     complex_test=ComplexTest(
-        comp_foo=""
+        comp_foo=b''
     ),
-    simple_test=""
+    simple_test=b''
 )

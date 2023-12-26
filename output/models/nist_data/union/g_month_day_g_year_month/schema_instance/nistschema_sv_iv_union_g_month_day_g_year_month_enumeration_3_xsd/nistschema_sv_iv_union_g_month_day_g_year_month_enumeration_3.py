@@ -22,11 +22,15 @@ class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3Type(Enum):
 class NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3:
     class Meta:
         name = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-3"
-        namespace = "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-3-NS"
+        namespace = (
+            "NISTSchema-SV-IV-union-gMonthDay-gYearMonth-enumeration-3-NS"
+        )
 
-    value: Optional[NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3Type] = field(
+    value: Optional[
+        NistschemaSvIvUnionGMonthDayGYearMonthEnumeration3Type
+    ] = field(
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

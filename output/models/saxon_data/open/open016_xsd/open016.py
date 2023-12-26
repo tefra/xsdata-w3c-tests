@@ -12,18 +12,18 @@ class Doc:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     evidence: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     open_com_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )

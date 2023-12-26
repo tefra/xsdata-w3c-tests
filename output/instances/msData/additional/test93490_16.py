@@ -8,43 +8,43 @@ obj = MapInfo(
         SchemaType(
             any_element=[
                 AnyElement(
-                    qname="{http://www.w3.org/2001/XMLSchema}schema",
-                    text="",
+                    qname='{http://www.w3.org/2001/XMLSchema}schema',
+                    text='',
                     children=[
                         AnyElement(
-                            qname="{http://www.w3.org/2001/XMLSchema}import",
-                            text="",
+                            qname='{http://www.w3.org/2001/XMLSchema}import',
+                            text='',
                             attributes={
-                                "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-                                "schemaLocation": "test93490_16.xsd",
+                                'namespace': 'http://schemas.microsoft.com/office/excel/2003/xml',
+                                'schemaLocation': 'test93490_16.xsd',
                             }
                         ),
                         AnyElement(
-                            qname="{http://www.w3.org/2001/XMLSchema}element",
-                            text="",
+                            qname='{http://www.w3.org/2001/XMLSchema}element',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/2001/XMLSchema}complexType",
-                                    text="",
+                                    qname='{http://www.w3.org/2001/XMLSchema}complexType',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/2001/XMLSchema}all",
-                                            text="",
+                                            qname='{http://www.w3.org/2001/XMLSchema}all',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/2001/XMLSchema}element",
-                                                    text="",
+                                                    qname='{http://www.w3.org/2001/XMLSchema}element',
+                                                    text='',
                                                     attributes={
-                                                        "name": "NS2item1",
-                                                        "type": "{http://www.w3.org/2001/XMLSchema}string",
+                                                        'name': 'NS2item1',
+                                                        'type': '{http://www.w3.org/2001/XMLSchema}string',
                                                     }
                                                 ),
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/2001/XMLSchema}element",
-                                                    text="",
+                                                    qname='{http://www.w3.org/2001/XMLSchema}element',
+                                                    text='',
                                                     attributes={
-                                                        "name": "NS2item2",
-                                                        "type": "{http://www.w3.org/2001/XMLSchema}string",
+                                                        'name': 'NS2item2',
+                                                        'type': '{http://www.w3.org/2001/XMLSchema}string',
                                                     }
                                                 ),
                                             ]
@@ -53,23 +53,23 @@ obj = MapInfo(
                                 ),
                             ],
                             attributes={
-                                "name": "SAPCodeType",
+                                'name': 'SAPCodeType',
                             }
                         ),
                     ],
                     attributes={
-                        "targetNamespace": "http://www.mydefaultnamespace.com/SAP",
-                        "elementFormDefault": "qualified",
+                        'targetNamespace': 'http://www.mydefaultnamespace.com/SAP',
+                        'elementFormDefault': 'qualified',
                     }
                 ),
                 AnyElement(
-                    qname="a",
-                    text=""
+                    qname='a',
+                    text=''
                 ),
             ],
-            id="Schema3",
-            namespace="http://www.mydefaultnamespace.com/SAP"
+            id='Schema3',
+            namespace='http://www.mydefaultnamespace.com/SAP'
         ),
     ],
-    selection_namespaces="http://foo"
+    selection_namespaces='http://foo'
 )

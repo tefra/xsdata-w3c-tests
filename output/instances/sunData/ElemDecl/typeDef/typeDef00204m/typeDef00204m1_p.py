@@ -4,9 +4,9 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Root(
     any_element=AnyElement(
-        text="&#10;&#10;    true&#10;&#10;",
+        text='\n\n    true\n\n',
         attributes={
-            "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "ElemDecl/typeDef typeDef00204m.xsd",
+            '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'ElemDecl/typeDef typeDef00204m.xsd',
         }
     )
 )

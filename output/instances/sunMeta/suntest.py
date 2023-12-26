@@ -24,12 +24,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -39,7 +39,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/001/test.xsd"
+                        href='../sunData/combined/001/test.xsd'
                     ),
                 ],
                 expected=[
@@ -51,12 +51,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/001/test.1.v.xml"
+                        href='../sunData/combined/001/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -67,11 +67,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/001/test.2.n.xml"
+                        href='../sunData/combined/001/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
             ],
-            name="test001"
+            name='test001'
         ),
         TestGroup(
             annotation=[
@@ -94,12 +94,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -109,7 +109,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/002/test.xsd"
+                        href='../sunData/combined/002/test.xsd'
                     ),
                 ],
                 expected=[
@@ -121,12 +121,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/002/test.1.v.xml"
+                        href='../sunData/combined/002/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -137,11 +137,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/002/test.2.n.xml"
+                        href='../sunData/combined/002/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -152,11 +152,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/002/test.3.n.xml"
+                        href='../sunData/combined/002/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -167,11 +167,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/002/test.4.n.xml"
+                        href='../sunData/combined/002/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -182,11 +182,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/002/test.5.n.xml"
+                        href='../sunData/combined/002/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -197,10 +197,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
             ],
-            name="test002"
+            name='test002'
         ),
         TestGroup(
             annotation=[
@@ -209,12 +209,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -224,7 +224,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/003/test.xsd"
+                        href='../sunData/combined/003/test.xsd'
                     ),
                 ],
                 expected=[
@@ -236,12 +236,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/003/test.1.v.xml"
+                        href='../sunData/combined/003/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -252,11 +252,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/003/test.2.n.xml"
+                        href='../sunData/combined/003/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -267,11 +267,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/003/test.3.n.xml"
+                        href='../sunData/combined/003/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -282,11 +282,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/003/test.4.n.xml"
+                        href='../sunData/combined/003/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -297,11 +297,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/003/test.5.n.xml"
+                        href='../sunData/combined/003/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -312,10 +312,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
             ],
-            name="test003"
+            name='test003'
         ),
         TestGroup(
             annotation=[
@@ -324,12 +324,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -339,7 +339,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/004/test.xsd"
+                        href='../sunData/combined/004/test.xsd'
                     ),
                 ],
                 expected=[
@@ -351,12 +351,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/004/test.1.v.xml"
+                        href='../sunData/combined/004/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -367,11 +367,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/004/test.2.n.xml"
+                        href='../sunData/combined/004/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -382,11 +382,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/004/test.3.n.xml"
+                        href='../sunData/combined/004/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -397,11 +397,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/004/test.4.n.xml"
+                        href='../sunData/combined/004/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -412,11 +412,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/004/test.5.n.xml"
+                        href='../sunData/combined/004/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -427,10 +427,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
             ],
-            name="test004"
+            name='test004'
         ),
         TestGroup(
             annotation=[
@@ -439,12 +439,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -454,7 +454,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/005/test.xsd"
+                        href='../sunData/combined/005/test.xsd'
                     ),
                 ],
                 expected=[
@@ -466,12 +466,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/005/test.1.v.xml"
+                        href='../sunData/combined/005/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -482,11 +482,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/005/test.2.n.xml"
+                        href='../sunData/combined/005/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -497,11 +497,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/005/test.3.n.xml"
+                        href='../sunData/combined/005/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -512,11 +512,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/005/test.4.n.xml"
+                        href='../sunData/combined/005/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -527,11 +527,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/005/test.5.n.xml"
+                        href='../sunData/combined/005/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -542,10 +542,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
             ],
-            name="test005"
+            name='test005'
         ),
         TestGroup(
             annotation=[
@@ -554,12 +554,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -569,7 +569,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/006/test.xsd"
+                        href='../sunData/combined/006/test.xsd'
                     ),
                 ],
                 expected=[
@@ -581,12 +581,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.1.v.xml"
+                        href='../sunData/combined/006/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -597,11 +597,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.10.n.xml"
+                        href='../sunData/combined/006/test.10.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -612,11 +612,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.10.n"
+                    name='test.10.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.11.n.xml"
+                        href='../sunData/combined/006/test.11.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -627,11 +627,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.11.n"
+                    name='test.11.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.12.n.xml"
+                        href='../sunData/combined/006/test.12.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -642,11 +642,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.12.n"
+                    name='test.12.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.13.n.xml"
+                        href='../sunData/combined/006/test.13.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -657,11 +657,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.13.n"
+                    name='test.13.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.14.n.xml"
+                        href='../sunData/combined/006/test.14.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,11 +672,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.14.n"
+                    name='test.14.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.15.n.xml"
+                        href='../sunData/combined/006/test.15.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -687,11 +687,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.15.n"
+                    name='test.15.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.16.n.xml"
+                        href='../sunData/combined/006/test.16.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -702,11 +702,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.16.n"
+                    name='test.16.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.17.n.xml"
+                        href='../sunData/combined/006/test.17.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -717,11 +717,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.17.n"
+                    name='test.17.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.18.n.xml"
+                        href='../sunData/combined/006/test.18.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -732,11 +732,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.18.n"
+                    name='test.18.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.19.n.xml"
+                        href='../sunData/combined/006/test.19.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -747,11 +747,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.19.n"
+                    name='test.19.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.2.v.xml"
+                        href='../sunData/combined/006/test.2.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -762,11 +762,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.v"
+                    name='test.2.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.20.n.xml"
+                        href='../sunData/combined/006/test.20.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -777,11 +777,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.20.n"
+                    name='test.20.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.21.n.xml"
+                        href='../sunData/combined/006/test.21.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -792,11 +792,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.21.n"
+                    name='test.21.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.22.n.xml"
+                        href='../sunData/combined/006/test.22.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -807,11 +807,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.22.n"
+                    name='test.22.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.23.n.xml"
+                        href='../sunData/combined/006/test.23.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -822,11 +822,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.23.n"
+                    name='test.23.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.24.n.xml"
+                        href='../sunData/combined/006/test.24.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -837,11 +837,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.24.n"
+                    name='test.24.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.25.n.xml"
+                        href='../sunData/combined/006/test.25.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -852,11 +852,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.25.n"
+                    name='test.25.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.26.n.xml"
+                        href='../sunData/combined/006/test.26.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -867,11 +867,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.26.n"
+                    name='test.26.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.27.n.xml"
+                        href='../sunData/combined/006/test.27.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -882,11 +882,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.27.n"
+                    name='test.27.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.28.n.xml"
+                        href='../sunData/combined/006/test.28.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -897,11 +897,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.28.n"
+                    name='test.28.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.29.n.xml"
+                        href='../sunData/combined/006/test.29.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -912,11 +912,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.29.n"
+                    name='test.29.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.3.n.xml"
+                        href='../sunData/combined/006/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -927,11 +927,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.30.n.xml"
+                        href='../sunData/combined/006/test.30.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -942,11 +942,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.30.n"
+                    name='test.30.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.31.n.xml"
+                        href='../sunData/combined/006/test.31.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -957,11 +957,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.31.n"
+                    name='test.31.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.32.n.xml"
+                        href='../sunData/combined/006/test.32.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -972,11 +972,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.32.n"
+                    name='test.32.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.33.n.xml"
+                        href='../sunData/combined/006/test.33.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -987,11 +987,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.33.n"
+                    name='test.33.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.34.n.xml"
+                        href='../sunData/combined/006/test.34.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1002,11 +1002,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.34.n"
+                    name='test.34.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.4.n.xml"
+                        href='../sunData/combined/006/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1017,11 +1017,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.5.n.xml"
+                        href='../sunData/combined/006/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1032,11 +1032,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.6.n.xml"
+                        href='../sunData/combined/006/test.6.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1047,11 +1047,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.6.n"
+                    name='test.6.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.7.n.xml"
+                        href='../sunData/combined/006/test.7.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1062,11 +1062,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.7.n"
+                    name='test.7.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.8.n.xml"
+                        href='../sunData/combined/006/test.8.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1077,11 +1077,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.8.n"
+                    name='test.8.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/006/test.9.n.xml"
+                        href='../sunData/combined/006/test.9.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1092,10 +1092,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.9.n"
+                    name='test.9.n'
                 ),
             ],
-            name="test006"
+            name='test006'
         ),
         TestGroup(
             annotation=[
@@ -1104,12 +1104,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1119,7 +1119,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/007/test.xsd"
+                        href='../sunData/combined/007/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1131,12 +1131,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.1.v.xml"
+                        href='../sunData/combined/007/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1147,11 +1147,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.6.v.xml"
+                        href='../sunData/combined/007/test.6.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1162,11 +1162,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.6.v"
+                    name='test.6.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.2.n.xml"
+                        href='../sunData/combined/007/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1177,11 +1177,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.3.n.xml"
+                        href='../sunData/combined/007/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1192,11 +1192,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.4.n.xml"
+                        href='../sunData/combined/007/test.4.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1207,11 +1207,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.n"
+                    name='test.4.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.5.n.xml"
+                        href='../sunData/combined/007/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1222,11 +1222,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.7.n.xml"
+                        href='../sunData/combined/007/test.7.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1237,11 +1237,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.7.n"
+                    name='test.7.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/007/test.8.n.xml"
+                        href='../sunData/combined/007/test.8.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1252,10 +1252,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.8.n"
+                    name='test.8.n'
                 ),
             ],
-            name="test007"
+            name='test007'
         ),
         TestGroup(
             annotation=[
@@ -1264,12 +1264,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1279,7 +1279,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/008/test.xsd"
+                        href='../sunData/combined/008/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1291,12 +1291,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.1.n.xml"
+                        href='../sunData/combined/008/test.1.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1307,11 +1307,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.n"
+                    name='test.1.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.10.n.xml"
+                        href='../sunData/combined/008/test.10.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1322,11 +1322,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.10.n"
+                    name='test.10.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.11.n.xml"
+                        href='../sunData/combined/008/test.11.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1337,11 +1337,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.11.n"
+                    name='test.11.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.12.n.xml"
+                        href='../sunData/combined/008/test.12.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1352,11 +1352,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.12.n"
+                    name='test.12.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.5.n.xml"
+                        href='../sunData/combined/008/test.5.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1367,11 +1367,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.n"
+                    name='test.5.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.7.n.xml"
+                        href='../sunData/combined/008/test.7.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1382,11 +1382,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.7.n"
+                    name='test.7.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.8.n.xml"
+                        href='../sunData/combined/008/test.8.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1397,11 +1397,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.8.n"
+                    name='test.8.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.9.n.xml"
+                        href='../sunData/combined/008/test.9.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1412,11 +1412,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.9.n"
+                    name='test.9.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.2.v.xml"
+                        href='../sunData/combined/008/test.2.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1427,11 +1427,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.v"
+                    name='test.2.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.3.v.xml"
+                        href='../sunData/combined/008/test.3.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1442,11 +1442,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.v"
+                    name='test.3.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.4.v.xml"
+                        href='../sunData/combined/008/test.4.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1457,11 +1457,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.v"
+                    name='test.4.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/008/test.6.v.xml"
+                        href='../sunData/combined/008/test.6.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1472,10 +1472,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.6.v"
+                    name='test.6.v'
                 ),
             ],
-            name="test008"
+            name='test008'
         ),
         TestGroup(
             annotation=[
@@ -1484,12 +1484,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1499,7 +1499,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/009/test.xsd"
+                        href='../sunData/combined/009/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1511,12 +1511,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.13.n.xml"
+                        href='../sunData/combined/009/test.13.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1527,11 +1527,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.13.n"
+                    name='test.13.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.8.n.xml"
+                        href='../sunData/combined/009/test.8.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1542,11 +1542,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.8.n"
+                    name='test.8.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.1.v.xml"
+                        href='../sunData/combined/009/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1557,11 +1557,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.10.v.xml"
+                        href='../sunData/combined/009/test.10.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1572,11 +1572,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.10.v"
+                    name='test.10.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.11.v.xml"
+                        href='../sunData/combined/009/test.11.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1587,11 +1587,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.11.v"
+                    name='test.11.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.12.v.xml"
+                        href='../sunData/combined/009/test.12.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1602,11 +1602,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.12.v"
+                    name='test.12.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.2.v.xml"
+                        href='../sunData/combined/009/test.2.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1617,11 +1617,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.v"
+                    name='test.2.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.3.v.xml"
+                        href='../sunData/combined/009/test.3.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1632,11 +1632,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.v"
+                    name='test.3.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.4.v.xml"
+                        href='../sunData/combined/009/test.4.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1647,11 +1647,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.4.v"
+                    name='test.4.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.5.v.xml"
+                        href='../sunData/combined/009/test.5.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1662,11 +1662,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.5.v"
+                    name='test.5.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.6.v.xml"
+                        href='../sunData/combined/009/test.6.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1677,11 +1677,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.6.v"
+                    name='test.6.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.7.v.xml"
+                        href='../sunData/combined/009/test.7.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1692,11 +1692,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.7.v"
+                    name='test.7.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/009/test.9.v.xml"
+                        href='../sunData/combined/009/test.9.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1707,10 +1707,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.9.v"
+                    name='test.9.v'
                 ),
             ],
-            name="test009"
+            name='test009'
         ),
         TestGroup(
             annotation=[
@@ -1719,12 +1719,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1734,7 +1734,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.xsd"
+                        href='../sunData/combined/identity/IdentityTestSuite/001/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1746,12 +1746,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.1.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/001/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1762,11 +1762,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.2.n.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/001/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1777,10 +1777,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
             ],
-            name="identitytestsuitetest001"
+            name='identitytestsuitetest001'
         ),
         TestGroup(
             annotation=[
@@ -1789,12 +1789,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1804,7 +1804,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.xsd"
+                        href='../sunData/combined/identity/IdentityTestSuite/002/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1816,12 +1816,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.1.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/002/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1832,11 +1832,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.2.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/002/test.2.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1847,11 +1847,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.v"
+                    name='test.2.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.3.n.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/002/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1862,10 +1862,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
             ],
-            name="identitytestsuitetest002"
+            name='identitytestsuitetest002'
         ),
         TestGroup(
             annotation=[
@@ -1874,12 +1874,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1889,7 +1889,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.xsd"
+                        href='../sunData/combined/identity/IdentityTestSuite/003/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1901,12 +1901,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.1.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/003/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1917,11 +1917,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.2.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/003/test.2.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -1932,11 +1932,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.v"
+                    name='test.2.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.3.n.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/003/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -1947,10 +1947,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
             ],
-            name="identitytestsuitetest003"
+            name='identitytestsuitetest003'
         ),
         TestGroup(
             annotation=[
@@ -1959,12 +1959,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='test'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=""
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text=''
                                 ),
                             ]
                         ),
@@ -1974,7 +1974,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.xsd"
+                        href='../sunData/combined/identity/IdentityTestSuite/004/test.xsd'
                     ),
                 ],
                 expected=[
@@ -1986,12 +1986,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="test"
+                name='test'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.1.v.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/004/test.1.v.xml'
                     ),
                     expected=[
                         Expected(
@@ -2002,11 +2002,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.1.v"
+                    name='test.1.v'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.2.n.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/004/test.2.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2017,11 +2017,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.2.n"
+                    name='test.2.n'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.3.n.xml"
+                        href='../sunData/combined/identity/IdentityTestSuite/004/test.3.n.xml'
                     ),
                     expected=[
                         Expected(
@@ -2032,10 +2032,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="test.3.n"
+                    name='test.3.n'
                 ),
             ],
-            name="identitytestsuitetest004"
+            name='identitytestsuitetest004'
         ),
         TestGroup(
             annotation=[
@@ -2044,12 +2044,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc001.nogen"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc001.nogen'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints.'
                                 ),
                             ]
                         ),
@@ -2059,7 +2059,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc001/idc001.nogen.xsd"
+                        href='../sunData/combined/identity/idc001/idc001.nogen.xsd'
                     ),
                 ],
                 expected=[
@@ -2071,12 +2071,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc001.nogen"
+                name='idc001.nogen'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc001/idc001.nogen.n00.xml"
+                        href='../sunData/combined/identity/idc001/idc001.nogen.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2087,11 +2087,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc001.nogen.n00"
+                    name='idc001.nogen.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc001/idc001.nogen.v00.xml"
+                        href='../sunData/combined/identity/idc001/idc001.nogen.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2102,11 +2102,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc001.nogen.v00"
+                    name='idc001.nogen.v00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc001/idc001.nogen.v01.xml"
+                        href='../sunData/combined/identity/idc001/idc001.nogen.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2117,10 +2117,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc001.nogen.v01"
+                    name='idc001.nogen.v01'
                 ),
             ],
-            name="idc001.nogen"
+            name='idc001.nogen'
         ),
         TestGroup(
             annotation=[
@@ -2129,12 +2129,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc002.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc002.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to an undeclared key"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints. Reference to an undeclared key'
                                 ),
                             ]
                         ),
@@ -2144,7 +2144,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc002/idc002.e.xsd"
+                        href='../sunData/combined/identity/idc002/idc002.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2156,9 +2156,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc002.e"
+                name='idc002.e'
             ),
-            name="idc002.e"
+            name='idc002.e'
         ),
         TestGroup(
             annotation=[
@@ -2167,12 +2167,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc002b.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc002b.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to an undeclared key in an undeclared namespace."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints. Reference to an undeclared key in an undeclared namespace.'
                                 ),
                             ]
                         ),
@@ -2182,7 +2182,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc002b/idc002b.e.xsd"
+                        href='../sunData/combined/identity/idc002b/idc002b.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2194,9 +2194,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc002b.e"
+                name='idc002b.e'
             ),
-            name="idc002b.e"
+            name='idc002b.e'
         ),
         TestGroup(
             annotation=[
@@ -2205,12 +2205,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc003.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc003.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to non-key constraint."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints. Reference to non-key constraint.'
                                 ),
                             ]
                         ),
@@ -2220,7 +2220,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc003/idc003.e.xsd"
+                        href='../sunData/combined/identity/idc003/idc003.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2232,9 +2232,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc003.e"
+                name='idc003.e'
             ),
-            name="idc003.e"
+            name='idc003.e'
         ),
         TestGroup(
             annotation=[
@@ -2243,12 +2243,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc004.nogen"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc004.nogen'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints.'
                                 ),
                             ]
                         ),
@@ -2258,7 +2258,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.xsd"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.xsd'
                     ),
                 ],
                 expected=[
@@ -2270,12 +2270,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc004.nogen"
+                name='idc004.nogen'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n00.xml"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2286,11 +2286,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc004.nogen.n00"
+                    name='idc004.nogen.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n01.xml"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2301,11 +2301,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc004.nogen.n01"
+                    name='idc004.nogen.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n02.xml"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2316,11 +2316,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc004.nogen.n02"
+                    name='idc004.nogen.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n03.xml"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2331,11 +2331,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc004.nogen.n03"
+                    name='idc004.nogen.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc004/idc004.nogen.v00.xml"
+                        href='../sunData/combined/identity/idc004/idc004.nogen.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2346,10 +2346,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc004.nogen.v00"
+                    name='idc004.nogen.v00'
                 ),
             ],
-            name="idc004.nogen"
+            name='idc004.nogen'
         ),
         TestGroup(
             annotation=[
@@ -2358,12 +2358,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc004a.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc004a.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Key/keyref field size mismatch."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints. Key/keyref field size mismatch.'
                                 ),
                             ]
                         ),
@@ -2373,7 +2373,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc004a/idc004a.e.xsd"
+                        href='../sunData/combined/identity/idc004a/idc004a.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2385,9 +2385,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc004a.e"
+                name='idc004a.e'
             ),
-            name="idc004a.e"
+            name='idc004a.e'
         ),
         TestGroup(
             annotation=[
@@ -2396,12 +2396,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc005.nogen"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc005.nogen'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. very naive test of identity constraint."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='ID Constraints. very naive test of identity constraint.'
                                 ),
                             ]
                         ),
@@ -2411,7 +2411,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc005/idc005.nogen.xsd"
+                        href='../sunData/combined/identity/idc005/idc005.nogen.xsd'
                     ),
                 ],
                 expected=[
@@ -2423,12 +2423,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc005.nogen"
+                name='idc005.nogen'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc005/idc005.nogen.n00.xml"
+                        href='../sunData/combined/identity/idc005/idc005.nogen.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2439,11 +2439,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc005.nogen.n00"
+                    name='idc005.nogen.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc005/idc005.nogen.n01.xml"
+                        href='../sunData/combined/identity/idc005/idc005.nogen.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2454,11 +2454,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc005.nogen.n01"
+                    name='idc005.nogen.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc005/idc005.nogen.v00.xml"
+                        href='../sunData/combined/identity/idc005/idc005.nogen.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2469,10 +2469,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc005.nogen.v00"
+                    name='idc005.nogen.v00'
                 ),
             ],
-            name="idc005.nogen"
+            name='idc005.nogen'
         ),
         TestGroup(
             annotation=[
@@ -2481,11 +2481,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc006.nogen"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='idc006.nogen'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='ID Constaints. XPath engine test:  ".//a/*/b" and use of "." for both selector and field.'
                                 ),
                             ]
@@ -2496,7 +2496,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/identity/idc006/idc006.nogen.xsd"
+                        href='../sunData/combined/identity/idc006/idc006.nogen.xsd'
                     ),
                 ],
                 expected=[
@@ -2508,12 +2508,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="idc006.nogen"
+                name='idc006.nogen'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc006/idc006.nogen.n00.xml"
+                        href='../sunData/combined/identity/idc006/idc006.nogen.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2524,11 +2524,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc006.nogen.n00"
+                    name='idc006.nogen.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc006/idc006.nogen.n01.xml"
+                        href='../sunData/combined/identity/idc006/idc006.nogen.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2539,11 +2539,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc006.nogen.n01"
+                    name='idc006.nogen.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/identity/idc006/idc006.nogen.v00.xml"
+                        href='../sunData/combined/identity/idc006/idc006.nogen.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2554,10 +2554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="idc006.nogen.v00"
+                    name='idc006.nogen.v00'
                 ),
             ],
-            name="idc006.nogen"
+            name='idc006.nogen'
         ),
         TestGroup(
             annotation=[
@@ -2566,12 +2566,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd001"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd001'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='- use of elementFormDefault="unqualified"&#10;                                     - unusual minOccurs/maxOccurs (3 and 7 respectively)&#10;                                     - complexType with simpleContent, and restriction.&#10;                                     - simpleType within restriction.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='- use of elementFormDefault="unqualified"\n                                     - unusual minOccurs/maxOccurs (3 and 7 respectively)\n                                     - complexType with simpleContent, and restriction.\n                                     - simpleType within restriction.'
                                 ),
                             ]
                         ),
@@ -2581,7 +2581,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd001/xsd001.xsd"
+                        href='../sunData/combined/xsd001/xsd001.xsd'
                     ),
                 ],
                 expected=[
@@ -2593,12 +2593,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd001"
+                name='xsd001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n00.xml"
+                        href='../sunData/combined/xsd001/xsd001.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2609,11 +2609,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n00"
+                    name='xsd001.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n01.xml"
+                        href='../sunData/combined/xsd001/xsd001.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2624,11 +2624,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n01"
+                    name='xsd001.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n02.xml"
+                        href='../sunData/combined/xsd001/xsd001.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2639,11 +2639,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n02"
+                    name='xsd001.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n03.xml"
+                        href='../sunData/combined/xsd001/xsd001.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2654,11 +2654,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n03"
+                    name='xsd001.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n04.xml"
+                        href='../sunData/combined/xsd001/xsd001.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -2669,11 +2669,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n04"
+                    name='xsd001.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n05.xml"
+                        href='../sunData/combined/xsd001/xsd001.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -2684,11 +2684,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n05"
+                    name='xsd001.n05'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n06.xml"
+                        href='../sunData/combined/xsd001/xsd001.n06.xml'
                     ),
                     expected=[
                         Expected(
@@ -2699,11 +2699,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n06"
+                    name='xsd001.n06'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.n07.xml"
+                        href='../sunData/combined/xsd001/xsd001.n07.xml'
                     ),
                     expected=[
                         Expected(
@@ -2714,11 +2714,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.n07"
+                    name='xsd001.n07'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.v00.xml"
+                        href='../sunData/combined/xsd001/xsd001.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2729,11 +2729,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.v00"
+                    name='xsd001.v00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.v01.xml"
+                        href='../sunData/combined/xsd001/xsd001.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2744,11 +2744,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.v01"
+                    name='xsd001.v01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.v02.xml"
+                        href='../sunData/combined/xsd001/xsd001.v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2759,11 +2759,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.v02"
+                    name='xsd001.v02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd001/xsd001.v03.xml"
+                        href='../sunData/combined/xsd001/xsd001.v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -2774,10 +2774,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd001.v03"
+                    name='xsd001.v03'
                 ),
             ],
-            name="xsd001"
+            name='xsd001'
         ),
         TestGroup(
             annotation=[
@@ -2786,12 +2786,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd002"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd002'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='- use of elementFormDefault="unqualified".&#10;                                     - use of elementFormDefault and form attribute.&#10;                                     - implicit use of "ur-type" as the content model of element.'
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='- use of elementFormDefault="unqualified".\n                                     - use of elementFormDefault and form attribute.\n                                     - implicit use of "ur-type" as the content model of element.'
                                 ),
                             ]
                         ),
@@ -2801,7 +2801,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd002/xsd002.xsd"
+                        href='../sunData/combined/xsd002/xsd002.xsd'
                     ),
                 ],
                 expected=[
@@ -2813,12 +2813,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd002"
+                name='xsd002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd002/xsd002.n00.xml"
+                        href='../sunData/combined/xsd002/xsd002.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2829,11 +2829,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd002.n00"
+                    name='xsd002.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd002/xsd002.n01.xml"
+                        href='../sunData/combined/xsd002/xsd002.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2844,11 +2844,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd002.n01"
+                    name='xsd002.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd002/xsd002.n02.xml"
+                        href='../sunData/combined/xsd002/xsd002.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -2859,11 +2859,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd002.n02"
+                    name='xsd002.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd002/xsd002.v00.xml"
+                        href='../sunData/combined/xsd002/xsd002.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -2874,11 +2874,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd002.v00"
+                    name='xsd002.v00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd002/xsd002.v01.xml"
+                        href='../sunData/combined/xsd002/xsd002.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -2889,10 +2889,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd002.v01"
+                    name='xsd002.v01'
                 ),
             ],
-            name="xsd002"
+            name='xsd002'
         ),
         TestGroup(
             annotation=[
@@ -2901,12 +2901,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003-1.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd003-1.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Unable to redefine element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element redefinition. Unable to redefine element.'
                                 ),
                             ]
                         ),
@@ -2916,7 +2916,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd003/xsd003-1.e.xsd"
+                        href='../sunData/combined/xsd003/xsd003-1.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2928,9 +2928,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd003-1.e"
+                name='xsd003-1.e'
             ),
-            name="xsd003-1.e"
+            name='xsd003-1.e'
         ),
         TestGroup(
             annotation=[
@@ -2939,12 +2939,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003-2.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd003-2.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Unable to redefine element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element redefinition. Unable to redefine element.'
                                 ),
                             ]
                         ),
@@ -2954,7 +2954,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd003/xsd003-2.e.xsd"
+                        href='../sunData/combined/xsd003/xsd003-2.e.xsd'
                     ),
                 ],
                 expected=[
@@ -2966,9 +2966,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd003-2.e"
+                name='xsd003-2.e'
             ),
-            name="xsd003-2.e"
+            name='xsd003-2.e'
         ),
         TestGroup(
             annotation=[
@@ -2977,12 +2977,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003a"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd003a'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Test without redefinition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element redefinition. Test without redefinition.'
                                 ),
                             ]
                         ),
@@ -2992,7 +2992,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd003a/xsd003a.xsd"
+                        href='../sunData/combined/xsd003a/xsd003a.xsd'
                     ),
                 ],
                 expected=[
@@ -3004,12 +3004,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd003a"
+                name='xsd003a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd003a/xsd003a.v00.xml"
+                        href='../sunData/combined/xsd003a/xsd003a.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3020,10 +3020,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd003a.v00"
+                    name='xsd003a.v00'
                 ),
             ],
-            name="xsd003a"
+            name='xsd003a'
         ),
         TestGroup(
             annotation=[
@@ -3032,12 +3032,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003b.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd003b.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test with redefinition with self-reference.&#10;                             Undefined name. For some reason, this breaks MSV."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Test with redefinition with self-reference.\n                             Undefined name. For some reason, this breaks MSV.'
                                 ),
                             ]
                         ),
@@ -3047,7 +3047,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.e.xsd"
+                        href='../sunData/combined/xsd003b/xsd003b.e.xsd'
                     ),
                 ],
                 expected=[
@@ -3059,9 +3059,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd003b.e"
+                name='xsd003b.e'
             ),
-            name="xsd003b.e"
+            name='xsd003b.e'
         ),
         TestGroup(
             annotation=[
@@ -3070,12 +3070,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003b"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd003b'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Test with redefinition with self-reference.&#10;                             @add in xsd003b.n00.xml must be number."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Element redefinition. Test with redefinition with self-reference.\n                             @add in xsd003b.n00.xml must be number.'
                                 ),
                             ]
                         ),
@@ -3085,7 +3085,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.xsd"
+                        href='../sunData/combined/xsd003b/xsd003b.xsd'
                     ),
                 ],
                 expected=[
@@ -3097,12 +3097,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd003b"
+                name='xsd003b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.n00.xml"
+                        href='../sunData/combined/xsd003b/xsd003b.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3113,11 +3113,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd003b.n00"
+                    name='xsd003b.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.n01.xml"
+                        href='../sunData/combined/xsd003b/xsd003b.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3128,11 +3128,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd003b.n01"
+                    name='xsd003b.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.v00.xml"
+                        href='../sunData/combined/xsd003b/xsd003b.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3143,11 +3143,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd003b.v00"
+                    name='xsd003b.v00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd003b/xsd003b.v01.xml"
+                        href='../sunData/combined/xsd003b/xsd003b.v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3158,10 +3158,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd003b.v01"
+                    name='xsd003b.v01'
                 ),
             ],
-            name="xsd003b"
+            name='xsd003b'
         ),
         TestGroup(
             annotation=[
@@ -3170,12 +3170,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd004"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd004'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use of three different type of any element with different @namespace."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Use of three different type of any element with different @namespace.'
                                 ),
                             ]
                         ),
@@ -3185,7 +3185,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd004/xsd004.xsd"
+                        href='../sunData/combined/xsd004/xsd004.xsd'
                     ),
                 ],
                 expected=[
@@ -3197,12 +3197,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd004"
+                name='xsd004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n00.xml"
+                        href='../sunData/combined/xsd004/xsd004.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3213,11 +3213,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n00"
+                    name='xsd004.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n01.xml"
+                        href='../sunData/combined/xsd004/xsd004.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3228,11 +3228,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n01"
+                    name='xsd004.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n02.xml"
+                        href='../sunData/combined/xsd004/xsd004.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3243,11 +3243,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n02"
+                    name='xsd004.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n03.xml"
+                        href='../sunData/combined/xsd004/xsd004.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -3258,11 +3258,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n03"
+                    name='xsd004.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n04.xml"
+                        href='../sunData/combined/xsd004/xsd004.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -3273,11 +3273,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n04"
+                    name='xsd004.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n05.xml"
+                        href='../sunData/combined/xsd004/xsd004.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -3288,11 +3288,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n05"
+                    name='xsd004.n05'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n06.xml"
+                        href='../sunData/combined/xsd004/xsd004.n06.xml'
                     ),
                     expected=[
                         Expected(
@@ -3303,11 +3303,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n06"
+                    name='xsd004.n06'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n07.xml"
+                        href='../sunData/combined/xsd004/xsd004.n07.xml'
                     ),
                     expected=[
                         Expected(
@@ -3318,11 +3318,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n07"
+                    name='xsd004.n07'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n08.xml"
+                        href='../sunData/combined/xsd004/xsd004.n08.xml'
                     ),
                     expected=[
                         Expected(
@@ -3333,11 +3333,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n08"
+                    name='xsd004.n08'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n09.xml"
+                        href='../sunData/combined/xsd004/xsd004.n09.xml'
                     ),
                     expected=[
                         Expected(
@@ -3348,11 +3348,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n09"
+                    name='xsd004.n09'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n10.xml"
+                        href='../sunData/combined/xsd004/xsd004.n10.xml'
                     ),
                     expected=[
                         Expected(
@@ -3363,11 +3363,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n10"
+                    name='xsd004.n10'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n11.xml"
+                        href='../sunData/combined/xsd004/xsd004.n11.xml'
                     ),
                     expected=[
                         Expected(
@@ -3378,11 +3378,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n11"
+                    name='xsd004.n11'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.n12.xml"
+                        href='../sunData/combined/xsd004/xsd004.n12.xml'
                     ),
                     expected=[
                         Expected(
@@ -3393,11 +3393,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.n12"
+                    name='xsd004.n12'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd004/xsd004.v00.xml"
+                        href='../sunData/combined/xsd004/xsd004.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3408,10 +3408,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd004.v00"
+                    name='xsd004.v00'
                 ),
             ],
-            name="xsd004"
+            name='xsd004'
         ),
         TestGroup(
             annotation=[
@@ -3420,12 +3420,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd005"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd005'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Complex type derivation. Missing content model."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Complex type derivation. Missing content model.'
                                 ),
                             ]
                         ),
@@ -3435,7 +3435,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd005/xsd005.xsd"
+                        href='../sunData/combined/xsd005/xsd005.xsd'
                     ),
                 ],
                 expected=[
@@ -3447,12 +3447,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd005"
+                name='xsd005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n00.xml"
+                        href='../sunData/combined/xsd005/xsd005.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3463,11 +3463,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n00"
+                    name='xsd005.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n01.xml"
+                        href='../sunData/combined/xsd005/xsd005.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3478,11 +3478,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n01"
+                    name='xsd005.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n02.xml"
+                        href='../sunData/combined/xsd005/xsd005.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3493,11 +3493,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n02"
+                    name='xsd005.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n03.xml"
+                        href='../sunData/combined/xsd005/xsd005.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -3508,11 +3508,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n03"
+                    name='xsd005.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n04.xml"
+                        href='../sunData/combined/xsd005/xsd005.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -3523,11 +3523,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n04"
+                    name='xsd005.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n05.xml"
+                        href='../sunData/combined/xsd005/xsd005.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -3538,11 +3538,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n05"
+                    name='xsd005.n05'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.n06.xml"
+                        href='../sunData/combined/xsd005/xsd005.n06.xml'
                     ),
                     expected=[
                         Expected(
@@ -3553,11 +3553,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.n06"
+                    name='xsd005.n06'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd005/xsd005.v00.xml"
+                        href='../sunData/combined/xsd005/xsd005.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3568,10 +3568,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd005.v00"
+                    name='xsd005.v00'
                 ),
             ],
-            name="xsd005"
+            name='xsd005'
         ),
         TestGroup(
             annotation=[
@@ -3580,12 +3580,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd006"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd006'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="minOccurs/maxOccurs. Various combinations."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='minOccurs/maxOccurs. Various combinations.'
                                 ),
                             ]
                         ),
@@ -3595,7 +3595,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd006/xsd006.xsd"
+                        href='../sunData/combined/xsd006/xsd006.xsd'
                     ),
                 ],
                 expected=[
@@ -3607,12 +3607,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd006"
+                name='xsd006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n00.xml"
+                        href='../sunData/combined/xsd006/xsd006.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3623,11 +3623,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n00"
+                    name='xsd006.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n01.xml"
+                        href='../sunData/combined/xsd006/xsd006.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3638,11 +3638,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n01"
+                    name='xsd006.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n02.xml"
+                        href='../sunData/combined/xsd006/xsd006.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3653,11 +3653,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n02"
+                    name='xsd006.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n03.xml"
+                        href='../sunData/combined/xsd006/xsd006.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -3668,11 +3668,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n03"
+                    name='xsd006.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n04.xml"
+                        href='../sunData/combined/xsd006/xsd006.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -3683,11 +3683,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n04"
+                    name='xsd006.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n05.xml"
+                        href='../sunData/combined/xsd006/xsd006.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -3698,11 +3698,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n05"
+                    name='xsd006.n05'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n06.xml"
+                        href='../sunData/combined/xsd006/xsd006.n06.xml'
                     ),
                     expected=[
                         Expected(
@@ -3713,11 +3713,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n06"
+                    name='xsd006.n06'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n07.xml"
+                        href='../sunData/combined/xsd006/xsd006.n07.xml'
                     ),
                     expected=[
                         Expected(
@@ -3728,11 +3728,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n07"
+                    name='xsd006.n07'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n08.xml"
+                        href='../sunData/combined/xsd006/xsd006.n08.xml'
                     ),
                     expected=[
                         Expected(
@@ -3743,11 +3743,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n08"
+                    name='xsd006.n08'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n09.xml"
+                        href='../sunData/combined/xsd006/xsd006.n09.xml'
                     ),
                     expected=[
                         Expected(
@@ -3758,11 +3758,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n09"
+                    name='xsd006.n09'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n10.xml"
+                        href='../sunData/combined/xsd006/xsd006.n10.xml'
                     ),
                     expected=[
                         Expected(
@@ -3773,11 +3773,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n10"
+                    name='xsd006.n10'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.n11.xml"
+                        href='../sunData/combined/xsd006/xsd006.n11.xml'
                     ),
                     expected=[
                         Expected(
@@ -3788,11 +3788,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.n11"
+                    name='xsd006.n11'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd006/xsd006.v00.xml"
+                        href='../sunData/combined/xsd006/xsd006.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3803,10 +3803,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd006.v00"
+                    name='xsd006.v00'
                 ),
             ],
-            name="xsd006"
+            name='xsd006'
         ),
         TestGroup(
             annotation=[
@@ -3815,12 +3815,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd007.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd007.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic complexType derivation."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Cyclic complexType derivation.'
                                 ),
                             ]
                         ),
@@ -3830,7 +3830,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd007/xsd007.e.xsd"
+                        href='../sunData/combined/xsd007/xsd007.e.xsd'
                     ),
                 ],
                 expected=[
@@ -3842,9 +3842,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd007.e"
+                name='xsd007.e'
             ),
-            name="xsd007.e"
+            name='xsd007.e'
         ),
         TestGroup(
             annotation=[
@@ -3853,12 +3853,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd008"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd008'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Abstract element and element substitution group."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Abstract element and element substitution group.'
                                 ),
                             ]
                         ),
@@ -3868,7 +3868,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd008/xsd008.xsd"
+                        href='../sunData/combined/xsd008/xsd008.xsd'
                     ),
                 ],
                 expected=[
@@ -3880,12 +3880,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd008"
+                name='xsd008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd008/xsd008.n00.xml"
+                        href='../sunData/combined/xsd008/xsd008.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3896,11 +3896,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd008.n00"
+                    name='xsd008.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd008/xsd008.n01.xml"
+                        href='../sunData/combined/xsd008/xsd008.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -3911,11 +3911,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd008.n01"
+                    name='xsd008.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd008/xsd008.n02.xml"
+                        href='../sunData/combined/xsd008/xsd008.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -3926,11 +3926,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd008.n02"
+                    name='xsd008.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd008/xsd008.v00.xml"
+                        href='../sunData/combined/xsd008/xsd008.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -3941,10 +3941,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd008.v00"
+                    name='xsd008.v00'
                 ),
             ],
-            name="xsd008"
+            name='xsd008'
         ),
         TestGroup(
             annotation=[
@@ -3953,12 +3953,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd009.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd009.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic substitution group."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Cyclic substitution group.'
                                 ),
                             ]
                         ),
@@ -3968,7 +3968,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd009/xsd009.e.xsd"
+                        href='../sunData/combined/xsd009/xsd009.e.xsd'
                     ),
                 ],
                 expected=[
@@ -3980,9 +3980,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd009.e"
+                name='xsd009.e'
             ),
-            name="xsd009.e"
+            name='xsd009.e'
         ),
         TestGroup(
             annotation=[
@@ -3991,12 +3991,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd010.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd010.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic substitution group (3 hop cycle)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Cyclic substitution group (3 hop cycle).'
                                 ),
                             ]
                         ),
@@ -4006,7 +4006,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd010/xsd010.e.xsd"
+                        href='../sunData/combined/xsd010/xsd010.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4018,9 +4018,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd010.e"
+                name='xsd010.e'
             ),
-            name="xsd010.e"
+            name='xsd010.e'
         ),
         TestGroup(
             annotation=[
@@ -4029,12 +4029,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd011"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd011'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Nillable."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Nillable.'
                                 ),
                             ]
                         ),
@@ -4044,7 +4044,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd011/xsd011.xsd"
+                        href='../sunData/combined/xsd011/xsd011.xsd'
                     ),
                 ],
                 expected=[
@@ -4056,12 +4056,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd011"
+                name='xsd011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.n00.xml"
+                        href='../sunData/combined/xsd011/xsd011.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4072,11 +4072,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.n00"
+                    name='xsd011.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.n01.xml"
+                        href='../sunData/combined/xsd011/xsd011.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -4087,11 +4087,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.n01"
+                    name='xsd011.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.n02.xml"
+                        href='../sunData/combined/xsd011/xsd011.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -4102,11 +4102,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.n02"
+                    name='xsd011.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.n03.xml"
+                        href='../sunData/combined/xsd011/xsd011.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -4117,11 +4117,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.n03"
+                    name='xsd011.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.n04.xml"
+                        href='../sunData/combined/xsd011/xsd011.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -4132,11 +4132,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.n04"
+                    name='xsd011.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd011/xsd011.v00.xml"
+                        href='../sunData/combined/xsd011/xsd011.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4147,10 +4147,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd011.v00"
+                    name='xsd011.v00'
                 ),
             ],
-            name="xsd011"
+            name='xsd011'
         ),
         TestGroup(
             annotation=[
@@ -4159,12 +4159,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd012"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd012'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Mixed content model."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Mixed content model.'
                                 ),
                             ]
                         ),
@@ -4174,7 +4174,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd012/xsd012.xsd"
+                        href='../sunData/combined/xsd012/xsd012.xsd'
                     ),
                 ],
                 expected=[
@@ -4186,12 +4186,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd012"
+                name='xsd012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd012/xsd012.n00.xml"
+                        href='../sunData/combined/xsd012/xsd012.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4202,11 +4202,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd012.n00"
+                    name='xsd012.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd012/xsd012.v00.xml"
+                        href='../sunData/combined/xsd012/xsd012.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4217,10 +4217,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd012.v00"
+                    name='xsd012.v00'
                 ),
             ],
-            name="xsd012"
+            name='xsd012'
         ),
         TestGroup(
             annotation=[
@@ -4229,12 +4229,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd013.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd013.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared element.'
                                 ),
                             ]
                         ),
@@ -4244,7 +4244,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd013/xsd013.e.xsd"
+                        href='../sunData/combined/xsd013/xsd013.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4256,9 +4256,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd013.e"
+                name='xsd013.e'
             ),
-            name="xsd013.e"
+            name='xsd013.e'
         ),
         TestGroup(
             annotation=[
@@ -4267,12 +4267,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd014.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd014.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared element."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared element.'
                                 ),
                             ]
                         ),
@@ -4282,7 +4282,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd014/xsd014.e.xsd"
+                        href='../sunData/combined/xsd014/xsd014.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4294,9 +4294,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd014.e"
+                name='xsd014.e'
             ),
-            name="xsd014.e"
+            name='xsd014.e'
         ),
         TestGroup(
             annotation=[
@@ -4305,12 +4305,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd015.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd015.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference  to undeclared type (it may be simple or complex)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference  to undeclared type (it may be simple or complex).'
                                 ),
                             ]
                         ),
@@ -4320,7 +4320,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd015/xsd015.e.xsd"
+                        href='../sunData/combined/xsd015/xsd015.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4331,7 +4331,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2015, 8, 26),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085'
                 ),
                 prior=[
                     Prior(
@@ -4339,9 +4339,9 @@ obj = TestSet(
                         date=XmlDate(2005, 6, 21)
                     ),
                 ],
-                name="xsd015.e"
+                name='xsd015.e'
             ),
-            name="xsd015.e"
+            name='xsd015.e'
         ),
         TestGroup(
             annotation=[
@@ -4350,12 +4350,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd016.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd016.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference  to undeclared type (it may be simple or complex)."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference  to undeclared type (it may be simple or complex).'
                                 ),
                             ]
                         ),
@@ -4365,7 +4365,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd016/xsd016.e.xsd"
+                        href='../sunData/combined/xsd016/xsd016.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4376,7 +4376,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2015, 8, 26),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085'
                 ),
                 prior=[
                     Prior(
@@ -4384,9 +4384,9 @@ obj = TestSet(
                         date=XmlDate(2005, 6, 21)
                     ),
                 ],
-                name="xsd016.e"
+                name='xsd016.e'
             ),
-            name="xsd016.e"
+            name='xsd016.e'
         ),
         TestGroup(
             annotation=[
@@ -4395,12 +4395,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd017.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd017.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared complex type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared complex type.'
                                 ),
                             ]
                         ),
@@ -4410,7 +4410,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd017/xsd017.e.xsd"
+                        href='../sunData/combined/xsd017/xsd017.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4422,9 +4422,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd017.e"
+                name='xsd017.e'
             ),
-            name="xsd017.e"
+            name='xsd017.e'
         ),
         TestGroup(
             annotation=[
@@ -4433,12 +4433,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd018.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd018.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared complex type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared complex type.'
                                 ),
                             ]
                         ),
@@ -4448,7 +4448,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd018/xsd018.e.xsd"
+                        href='../sunData/combined/xsd018/xsd018.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4460,9 +4460,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd018.e"
+                name='xsd018.e'
             ),
-            name="xsd018.e"
+            name='xsd018.e'
         ),
         TestGroup(
             annotation=[
@@ -4471,12 +4471,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd019.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd019.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared simple type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared simple type.'
                                 ),
                             ]
                         ),
@@ -4486,7 +4486,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd019/xsd019.e.xsd"
+                        href='../sunData/combined/xsd019/xsd019.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4498,9 +4498,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd019.e"
+                name='xsd019.e'
             ),
-            name="xsd019.e"
+            name='xsd019.e'
         ),
         TestGroup(
             annotation=[
@@ -4509,12 +4509,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-2.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd020-2.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared attribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared attribute.'
                                 ),
                             ]
                         ),
@@ -4524,7 +4524,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd020/xsd020-2.e.xsd"
+                        href='../sunData/combined/xsd020/xsd020-2.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4536,9 +4536,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd020-2.e"
+                name='xsd020-2.e'
             ),
-            name="xsd020-2.e"
+            name='xsd020-2.e'
         ),
         TestGroup(
             annotation=[
@@ -4547,12 +4547,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-3.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd020-3.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared model group."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared model group.'
                                 ),
                             ]
                         ),
@@ -4562,7 +4562,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd020/xsd020-3.e.xsd"
+                        href='../sunData/combined/xsd020/xsd020-3.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4574,9 +4574,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd020-3.e"
+                name='xsd020-3.e'
             ),
-            name="xsd020-3.e"
+            name='xsd020-3.e'
         ),
         TestGroup(
             annotation=[
@@ -4585,12 +4585,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-4.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd020-4.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared attribute group."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared attribute group.'
                                 ),
                             ]
                         ),
@@ -4600,7 +4600,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd020/xsd020-4.e.xsd"
+                        href='../sunData/combined/xsd020/xsd020-4.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4612,9 +4612,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd020-4.e"
+                name='xsd020-4.e'
             ),
-            name="xsd020-4.e"
+            name='xsd020-4.e'
         ),
         TestGroup(
             annotation=[
@@ -4623,12 +4623,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd020.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared simple type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Reference to undeclared simple type.'
                                 ),
                             ]
                         ),
@@ -4638,7 +4638,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd020/xsd020.e.xsd"
+                        href='../sunData/combined/xsd020/xsd020.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4650,9 +4650,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd020.e"
+                name='xsd020.e'
             ),
-            name="xsd020.e"
+            name='xsd020.e'
         ),
         TestGroup(
             annotation=[
@@ -4661,12 +4661,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd021"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd021'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="anyOtherAttribute."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='anyOtherAttribute.'
                                 ),
                             ]
                         ),
@@ -4676,7 +4676,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd021/xsd021.xsd"
+                        href='../sunData/combined/xsd021/xsd021.xsd'
                     ),
                 ],
                 expected=[
@@ -4688,12 +4688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd021"
+                name='xsd021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n00.xml"
+                        href='../sunData/combined/xsd021/xsd021.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4704,11 +4704,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n00"
+                    name='xsd021.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n01.xml"
+                        href='../sunData/combined/xsd021/xsd021.n01.xml'
                     ),
                     expected=[
                         Expected(
@@ -4719,11 +4719,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n01"
+                    name='xsd021.n01'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n02.xml"
+                        href='../sunData/combined/xsd021/xsd021.n02.xml'
                     ),
                     expected=[
                         Expected(
@@ -4734,11 +4734,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n02"
+                    name='xsd021.n02'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n03.xml"
+                        href='../sunData/combined/xsd021/xsd021.n03.xml'
                     ),
                     expected=[
                         Expected(
@@ -4749,11 +4749,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n03"
+                    name='xsd021.n03'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n04.xml"
+                        href='../sunData/combined/xsd021/xsd021.n04.xml'
                     ),
                     expected=[
                         Expected(
@@ -4764,11 +4764,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n04"
+                    name='xsd021.n04'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n05.xml"
+                        href='../sunData/combined/xsd021/xsd021.n05.xml'
                     ),
                     expected=[
                         Expected(
@@ -4779,11 +4779,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n05"
+                    name='xsd021.n05'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n06.xml"
+                        href='../sunData/combined/xsd021/xsd021.n06.xml'
                     ),
                     expected=[
                         Expected(
@@ -4794,11 +4794,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n06"
+                    name='xsd021.n06'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n07.xml"
+                        href='../sunData/combined/xsd021/xsd021.n07.xml'
                     ),
                     expected=[
                         Expected(
@@ -4809,11 +4809,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n07"
+                    name='xsd021.n07'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n08.xml"
+                        href='../sunData/combined/xsd021/xsd021.n08.xml'
                     ),
                     expected=[
                         Expected(
@@ -4824,11 +4824,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n08"
+                    name='xsd021.n08'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n09.xml"
+                        href='../sunData/combined/xsd021/xsd021.n09.xml'
                     ),
                     expected=[
                         Expected(
@@ -4839,11 +4839,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n09"
+                    name='xsd021.n09'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n10.xml"
+                        href='../sunData/combined/xsd021/xsd021.n10.xml'
                     ),
                     expected=[
                         Expected(
@@ -4854,11 +4854,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n10"
+                    name='xsd021.n10'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.n11.xml"
+                        href='../sunData/combined/xsd021/xsd021.n11.xml'
                     ),
                     expected=[
                         Expected(
@@ -4869,11 +4869,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.n11"
+                    name='xsd021.n11'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd021/xsd021.v00.xml"
+                        href='../sunData/combined/xsd021/xsd021.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4884,10 +4884,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd021.v00"
+                    name='xsd021.v00'
                 ),
             ],
-            name="xsd021"
+            name='xsd021'
         ),
         TestGroup(
             annotation=[
@@ -4896,12 +4896,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd022"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd022'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Various forms of forward reference to the simple type."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Various forms of forward reference to the simple type.'
                                 ),
                             ]
                         ),
@@ -4911,7 +4911,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd022/xsd022.xsd"
+                        href='../sunData/combined/xsd022/xsd022.xsd'
                     ),
                 ],
                 expected=[
@@ -4923,12 +4923,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd022"
+                name='xsd022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd022/xsd022.n00.xml"
+                        href='../sunData/combined/xsd022/xsd022.n00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4939,11 +4939,11 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd022.n00"
+                    name='xsd022.n00'
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd022/xsd022.v00.xml"
+                        href='../sunData/combined/xsd022/xsd022.v00.xml'
                     ),
                     expected=[
                         Expected(
@@ -4954,10 +4954,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd022.v00"
+                    name='xsd022.v00'
                 ),
             ],
-            name="xsd022"
+            name='xsd022'
         ),
         TestGroup(
             annotation=[
@@ -4966,12 +4966,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd023.e"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd023.e'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type. Recursive definition."
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
+                                    text='Simple type. Recursive definition.'
                                 ),
                             ]
                         ),
@@ -4981,7 +4981,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd023/xsd023.e.xsd"
+                        href='../sunData/combined/xsd023/xsd023.e.xsd'
                     ),
                 ],
                 expected=[
@@ -4993,9 +4993,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd023.e"
+                name='xsd023.e'
             ),
-            name="xsd023.e"
+            name='xsd023.e'
         ),
         TestGroup(
             annotation=[
@@ -5004,11 +5004,11 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd024"
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title',
+                                    text='xsd024'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
+                                    qname='{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description',
                                     text='Use of the chameleon schema and "smart reference reparing"'
                                 ),
                             ]
@@ -5019,7 +5019,7 @@ obj = TestSet(
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../sunData/combined/xsd024/xsd024.xsd"
+                        href='../sunData/combined/xsd024/xsd024.xsd'
                     ),
                 ],
                 expected=[
@@ -5031,12 +5031,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2005, 6, 21)
                 ),
-                name="xsd024"
+                name='xsd024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../sunData/combined/xsd024/xsd024.xml"
+                        href='../sunData/combined/xsd024/xsd024.xml'
                     ),
                     expected=[
                         Expected(
@@ -5047,15 +5047,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2005, 6, 21)
                     ),
-                    name="xsd024.v00"
+                    name='xsd024.v00'
                 ),
             ],
-            name="xsd024"
+            name='xsd024'
         ),
     ],
-    contributor="SUN",
-    name="suntest",
+    contributor='SUN',
+    name='suntest',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

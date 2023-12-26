@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength2(
     value=[
-        "five_hampered:are_to:technical_indust",
-        "for_defines.be.also.discovery-match-b",
-        "are.for.testing_Markup-in.the.interna",
-        "individual:can-manipulation.improved.",
-        "way-The-to:into_the_upon.opportunity_",
-        "XML.documents-Pervasive:will_that_and",
-        "Conference.the.computing.of:XML:measu",
+        'five_hampered:are_to:technical_indust',
+        'for_defines.be.also.discovery-match-b',
+        'are.for.testing_Markup-in.the.interna',
+        'individual:can-manipulation.improved.',
+        'way-The-to:into_the_upon.opportunity_',
+        'XML.documents-Pervasive:will_that_and',
+        'Conference.the.computing.of:XML:measu',
     ]
 )

@@ -15,7 +15,7 @@ class A:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -55,7 +55,9 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    mixed_or_element_only: List[Union["Root.ElementOnly", "Root.Mixed"]] = field(
+    mixed_or_element_only: List[
+        Union["Root.Mixed", "Root.ElementOnly"]
+    ] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -69,7 +71,7 @@ class Root:
                     "type": Type["Root.ElementOnly"],
                 },
             ),
-        }
+        },
     )
 
     @dataclass
@@ -94,12 +96,12 @@ class Root:
                         "type": C,
                     },
                 ),
-            }
+            },
         )
 
     @dataclass
     class ElementOnly:
-        a_or_b_or_c: List[Union[C, B, A]] = field(
+        a_or_b_or_c: List[Union[A, B, C]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
@@ -117,5 +119,5 @@ class Root:
                         "type": C,
                     },
                 ),
-            }
+            },
         )

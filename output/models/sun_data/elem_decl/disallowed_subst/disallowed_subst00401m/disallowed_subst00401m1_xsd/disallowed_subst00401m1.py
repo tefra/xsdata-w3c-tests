@@ -14,7 +14,7 @@ class Head:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Member1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -42,7 +42,7 @@ class Member2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member2_or_member1_or_head: List[Union[Head, Member2, Member1]] = field(
+    member2_or_member1_or_head: List[Union[Member2, Member1, Head]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -70,5 +70,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

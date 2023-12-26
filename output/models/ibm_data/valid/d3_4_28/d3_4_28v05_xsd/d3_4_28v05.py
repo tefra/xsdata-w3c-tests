@@ -21,9 +21,7 @@ class ElEnumerationA:
         name = "elEnumerationA"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional[ElEnumerationAValue] = field(
-        default=None
-    )
+    value: Optional[ElEnumerationAValue] = field(default=None)
 
 
 @dataclass
@@ -32,9 +30,7 @@ class ElEnumerationB:
         name = "elEnumerationB"
         namespace = "http://xstest-tns/schema11_D3_4_28_v05"
 
-    value: Optional[ElEnumerationBValue] = field(
-        default=None
-    )
+    value: Optional[ElEnumerationBValue] = field(default=None)
 
 
 @dataclass
@@ -50,7 +46,7 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )
     el_enumeration_b: List[ElEnumerationBValue] = field(
         default_factory=list,
@@ -59,5 +55,5 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "max_occurs": 3,
-        }
+        },
     )

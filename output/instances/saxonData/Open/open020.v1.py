@@ -6,12 +6,12 @@ obj = Doc(
     open_com_element=AnyElement(
         children=[
             AnyElement(
-                qname="{http://open.com/}extra",
-                text="42"
+                qname='{http://open.com/}extra',
+                text='42'
             ),
             AnyElement(
-                qname="{http://open.com/}extra",
-                text="97"
+                qname='{http://open.com/}extra',
+                text='97'
             ),
         ]
     )

@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguagePattern5(
     value=[
-        "ET-USA",
-        "MN-USA",
-        "TK-USA",
-        "SM-USA",
-        "XH-USA",
-        "BI-USA",
-        "FI-USA",
-        "NL-USA",
+        'ET-USA',
+        'MN-USA',
+        'TK-USA',
+        'SM-USA',
+        'XH-USA',
+        'BI-USA',
+        'FI-USA',
+        'NL-USA',
     ]
 )

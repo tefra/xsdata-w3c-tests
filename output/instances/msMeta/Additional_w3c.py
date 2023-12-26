@@ -24,7 +24,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : include same schema twice with unique Ids",
+                                'TEST :Adhoc XSD: : include same schema twice with unique Ids',
                             ]
                         ),
                     ]
@@ -32,13 +32,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddA001v.xsd"
+                        href='../msData/additional/adhocAddA001v.xsd'
                     ),
                 ],
                 expected=[
@@ -50,9 +50,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addA001"
+                name='addA001'
             ),
-            name="addA001"
+            name='addA001'
         ),
         TestGroup(
             annotation=[
@@ -60,7 +60,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : include two schemas with same Ids",
+                                'TEST :Adhoc XSD: : include two schemas with same Ids',
                             ]
                         ),
                     ]
@@ -68,13 +68,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddA002e.xsd"
+                        href='../msData/additional/adhocAddA002e.xsd'
                     ),
                 ],
                 expected=[
@@ -86,9 +86,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addA002"
+                name='addA002'
             ),
-            name="addA002"
+            name='addA002'
         ),
         TestGroup(
             annotation=[
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD has element pointing to nonexistant type, XML uses xsi:type to access the same nonexistant type",
+                                'TEST :Adhoc XSD: : XSD has element pointing to nonexistant type, XML uses xsi:type to access the same nonexistant type',
                             ]
                         ),
                     ]
@@ -104,13 +104,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddA003e.xsd"
+                        href='../msData/additional/adhocAddA003e.xsd'
                     ),
                 ],
                 expected=[
@@ -122,9 +122,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addA003"
+                name='addA003'
             ),
-            name="addA003"
+            name='addA003'
         ),
         TestGroup(
             annotation=[
@@ -132,7 +132,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : substitution group usage in the same XSD file with instance XML",
+                                'TEST :Adhoc XSD: : substitution group usage in the same XSD file with instance XML',
                             ]
                         ),
                     ]
@@ -140,13 +140,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddB001.xsd"
+                        href='../msData/additional/adhocAddB001.xsd'
                     ),
                 ],
                 expected=[
@@ -158,12 +158,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addA005"
+                name='addA005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/adhocAddB001.xml"
+                        href='../msData/additional/adhocAddB001.xml'
                     ),
                     expected=[
                         Expected(
@@ -174,10 +174,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addA005.v"
+                    name='addA005.v'
                 ),
             ],
-            name="addA005"
+            name='addA005'
         ),
         TestGroup(
             annotation=[
@@ -185,7 +185,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : xsd: when both the imported and importing XSDs are added to schema collection, the instance XML uses substitution Element from the importing XSD to a root element declared in imported XSD.",
+                                'TEST :Adhoc XSD: : xsd: when both the imported and importing XSDs are added to schema collection, the instance XML uses substitution Element from the importing XSD to a root element declared in imported XSD.',
                             ]
                         ),
                     ]
@@ -193,13 +193,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/adhocAddB002.xml"
+                        href='../msData/additional/adhocAddB002.xml'
                     ),
                     expected=[
                         Expected(
@@ -210,10 +210,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addA006.v"
+                    name='addA006.v'
                 ),
             ],
-            name="addA006"
+            name='addA006'
         ),
         TestGroup(
             annotation=[
@@ -221,7 +221,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : uses substitution Element from the importing XSD",
+                                'TEST :Adhoc XSD: : uses substitution Element from the importing XSD',
                             ]
                         ),
                     ]
@@ -229,13 +229,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/adhocAddB003.xml"
+                        href='../msData/additional/adhocAddB003.xml'
                     ),
                     expected=[
                         Expected(
@@ -246,10 +246,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="adda007.v"
+                    name='adda007.v'
                 ),
             ],
-            name="adda007"
+            name='adda007'
         ),
         TestGroup(
             annotation=[
@@ -257,7 +257,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : uses substitution Element from the importing XSD(2)",
+                                'TEST :Adhoc XSD: : uses substitution Element from the importing XSD(2)',
                             ]
                         ),
                     ]
@@ -265,13 +265,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/adhocAddB004.xml"
+                        href='../msData/additional/adhocAddB004.xml'
                     ),
                     expected=[
                         Expected(
@@ -282,10 +282,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addA008.v"
+                    name='addA008.v'
                 ),
             ],
-            name="addA008"
+            name='addA008'
         ),
         TestGroup(
             annotation=[
@@ -293,7 +293,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : use of xml:base",
+                                'TEST :Adhoc XSD: : use of xml:base',
                             ]
                         ),
                     ]
@@ -301,13 +301,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddC001.xsd"
+                        href='../msData/additional/adhocAddC001.xsd'
                     ),
                 ],
                 expected=[
@@ -319,12 +319,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addC001"
+                name='addC001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/adhocAddC001.xml"
+                        href='../msData/additional/adhocAddC001.xml'
                     ),
                     expected=[
                         Expected(
@@ -335,10 +335,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addC001.v"
+                    name='addC001.v'
                 ),
             ],
-            name="addC001"
+            name='addC001'
         ),
         TestGroup(
             annotation=[
@@ -346,7 +346,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : xml prefix in path",
+                                'TEST :Adhoc XSD: : xml prefix in path',
                             ]
                         ),
                     ]
@@ -354,13 +354,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/adhocAddC002.xsd"
+                        href='../msData/additional/adhocAddC002.xsd'
                     ),
                 ],
                 expected=[
@@ -371,22 +371,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addC002"
+                name='addC002'
             ),
-            name="addC002"
+            name='addC002'
         ),
         TestGroup(
             annotation=[
@@ -402,13 +402,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test63972.xsd"
+                        href='../msData/additional/test63972.xsd'
                     ),
                 ],
                 expected=[
@@ -420,9 +420,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB001"
+                name='addB001'
             ),
-            name="addB001"
+            name='addB001'
         ),
         TestGroup(
             annotation=[
@@ -438,13 +438,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test63569.xsd"
+                        href='../msData/additional/test63569.xsd'
                     ),
                 ],
                 expected=[
@@ -456,12 +456,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB002"
+                name='addB002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test63569.xml"
+                        href='../msData/additional/test63569.xml'
                     ),
                     expected=[
                         Expected(
@@ -472,10 +472,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB002.i"
+                    name='addB002.i'
                 ),
             ],
-            name="addB002"
+            name='addB002'
         ),
         TestGroup(
             annotation=[
@@ -491,13 +491,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test63389.xsd"
+                        href='../msData/additional/test63389.xsd'
                     ),
                 ],
                 expected=[
@@ -509,12 +509,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB003"
+                name='addB003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test63389.xml"
+                        href='../msData/additional/test63389.xml'
                     ),
                     expected=[
                         Expected(
@@ -525,10 +525,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB003.i"
+                    name='addB003.i'
                 ),
             ],
-            name="addB003"
+            name='addB003'
         ),
         TestGroup(
             annotation=[
@@ -544,16 +544,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test64817a.xsd"
+                        href='../msData/additional/test64817a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/additional/test64817b.xsd"
+                        href='../msData/additional/test64817b.xsd'
                     ),
                 ],
                 expected=[
@@ -565,9 +565,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB004"
+                name='addB004'
             ),
-            name="addB004"
+            name='addB004'
         ),
         TestGroup(
             annotation=[
@@ -575,7 +575,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;60998&quot; title=&quot;xsd: E is drived by extention from B, and E should not allow 'all' as part of the extension&quot;",
+                                'TEST :Adhoc XSD: : id="60998" title="xsd: E is drived by extention from B, and E should not allow \'all\' as part of the extension"',
                             ]
                         ),
                     ]
@@ -583,13 +583,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test60998.xsd"
+                        href='../msData/additional/test60998.xsd'
                     ),
                 ],
                 expected=[
@@ -601,9 +601,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB005"
+                name='addB005'
             ),
-            name="addB005"
+            name='addB005'
         ),
         TestGroup(
             annotation=[
@@ -619,13 +619,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65809.xsd"
+                        href='../msData/additional/test65809.xsd'
                     ),
                 ],
                 expected=[
@@ -637,9 +637,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB006"
+                name='addB006'
             ),
-            name="addB006"
+            name='addB006'
         ),
         TestGroup(
             annotation=[
@@ -655,13 +655,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67023.xsd"
+                        href='../msData/additional/test67023.xsd'
                     ),
                 ],
                 expected=[
@@ -673,9 +673,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB007"
+                name='addB007'
             ),
-            name="addB007"
+            name='addB007'
         ),
         TestGroup(
             annotation=[
@@ -691,13 +691,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65472.xsd"
+                        href='../msData/additional/test65472.xsd'
                     ),
                 ],
                 expected=[
@@ -709,9 +709,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB008"
+                name='addB008'
             ),
-            name="addB008"
+            name='addB008'
         ),
         TestGroup(
             annotation=[
@@ -727,13 +727,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test66059.xsd"
+                        href='../msData/additional/test66059.xsd'
                     ),
                 ],
                 expected=[
@@ -745,9 +745,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB009"
+                name='addB009'
             ),
-            name="addB009"
+            name='addB009'
         ),
         TestGroup(
             annotation=[
@@ -763,13 +763,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test66531.xsd"
+                        href='../msData/additional/test66531.xsd'
                     ),
                 ],
                 expected=[
@@ -781,9 +781,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB010"
+                name='addB010'
             ),
-            name="addB010"
+            name='addB010'
         ),
         TestGroup(
             annotation=[
@@ -799,13 +799,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test66541.xsd"
+                        href='../msData/additional/test66541.xsd'
                     ),
                 ],
                 expected=[
@@ -817,12 +817,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB011"
+                name='addB011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test66541.xml"
+                        href='../msData/additional/test66541.xml'
                     ),
                     expected=[
                         Expected(
@@ -833,10 +833,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB011.i"
+                    name='addB011.i'
                 ),
             ],
-            name="addB011"
+            name='addB011'
         ),
         TestGroup(
             annotation=[
@@ -852,13 +852,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67500.xsd"
+                        href='../msData/additional/test67500.xsd'
                     ),
                 ],
                 expected=[
@@ -870,12 +870,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB012"
+                name='addB012'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test67500.xml"
+                        href='../msData/additional/test67500.xml'
                     ),
                     expected=[
                         Expected(
@@ -886,10 +886,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB012.v"
+                    name='addB012.v'
                 ),
             ],
-            name="addB012"
+            name='addB012'
         ),
         TestGroup(
             annotation=[
@@ -905,13 +905,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67514.xsd"
+                        href='../msData/additional/test67514.xsd'
                     ),
                 ],
                 expected=[
@@ -923,12 +923,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB013"
+                name='addB013'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test67514.xml"
+                        href='../msData/additional/test67514.xml'
                     ),
                     expected=[
                         Expected(
@@ -939,10 +939,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB013.i"
+                    name='addB013.i'
                 ),
             ],
-            name="addB013"
+            name='addB013'
         ),
         TestGroup(
             annotation=[
@@ -958,13 +958,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65699.xsd"
+                        href='../msData/additional/test65699.xsd'
                     ),
                 ],
                 expected=[
@@ -976,9 +976,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB014"
+                name='addB014'
             ),
-            name="addB014"
+            name='addB014'
         ),
         TestGroup(
             annotation=[
@@ -994,13 +994,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67279.xsd"
+                        href='../msData/additional/test67279.xsd'
                     ),
                 ],
                 expected=[
@@ -1012,9 +1012,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB016"
+                name='addB016'
             ),
-            name="addB016"
+            name='addB016'
         ),
         TestGroup(
             annotation=[
@@ -1030,13 +1030,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67339.xsd"
+                        href='../msData/additional/test67339.xsd'
                     ),
                 ],
                 expected=[
@@ -1048,9 +1048,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB017"
+                name='addB017'
             ),
-            name="addB017"
+            name='addB017'
         ),
         TestGroup(
             annotation=[
@@ -1066,13 +1066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68871.xsd"
+                        href='../msData/additional/test68871.xsd'
                     ),
                 ],
                 expected=[
@@ -1084,9 +1084,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB018"
+                name='addB018'
             ),
-            name="addB018"
+            name='addB018'
         ),
         TestGroup(
             annotation=[
@@ -1102,13 +1102,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68938.xsd"
+                        href='../msData/additional/test68938.xsd'
                     ),
                 ],
                 expected=[
@@ -1120,12 +1120,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB019"
+                name='addB019'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test68938.xml"
+                        href='../msData/additional/test68938.xml'
                     ),
                     expected=[
                         Expected(
@@ -1136,10 +1136,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB019.v"
+                    name='addB019.v'
                 ),
             ],
-            name="addB019"
+            name='addB019'
         ),
         TestGroup(
             annotation=[
@@ -1155,13 +1155,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68014.xsd"
+                        href='../msData/additional/test68014.xsd'
                     ),
                 ],
                 expected=[
@@ -1173,9 +1173,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB020"
+                name='addB020'
             ),
-            name="addB020"
+            name='addB020'
         ),
         TestGroup(
             annotation=[
@@ -1191,13 +1191,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68502.xsd"
+                        href='../msData/additional/test68502.xsd'
                     ),
                 ],
                 expected=[
@@ -1209,9 +1209,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB021"
+                name='addB021'
             ),
-            name="addB021"
+            name='addB021'
         ),
         TestGroup(
             annotation=[
@@ -1219,7 +1219,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Adhoc XSD: : id="68019" description="XSD: Test if minInclusive &gt;= maxExclusive"',
+                                'TEST :Adhoc XSD: : id="68019" description="XSD: Test if minInclusive >= maxExclusive"',
                             ]
                         ),
                     ]
@@ -1227,13 +1227,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68019_1.xsd"
+                        href='../msData/additional/test68019_1.xsd'
                     ),
                 ],
                 expected=[
@@ -1245,9 +1245,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB021a"
+                name='addB021a'
             ),
-            name="addB021a"
+            name='addB021a'
         ),
         TestGroup(
             annotation=[
@@ -1255,7 +1255,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Adhoc XSD: : id="68019" description="XSD: Test if minInclusive &gt;= maxExclusive"',
+                                'TEST :Adhoc XSD: : id="68019" description="XSD: Test if minInclusive >= maxExclusive"',
                             ]
                         ),
                     ]
@@ -1263,13 +1263,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test68019_2.xsd"
+                        href='../msData/additional/test68019_2.xsd'
                     ),
                 ],
                 expected=[
@@ -1281,9 +1281,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB022"
+                name='addB022'
             ),
-            name="addB022"
+            name='addB022'
         ),
         TestGroup(
             annotation=[
@@ -1299,13 +1299,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69283.xsd"
+                        href='../msData/additional/test69283.xsd'
                     ),
                 ],
                 expected=[
@@ -1317,9 +1317,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB023"
+                name='addB023'
             ),
-            name="addB023"
+            name='addB023'
         ),
         TestGroup(
             annotation=[
@@ -1327,7 +1327,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;69275&quot; Test when pattern facet has value='\p{IsCJKRadicalsSupplement}' or '\p{IsCJKUnifiedIdeographsExtensionA}'.",
+                                'TEST :Adhoc XSD: : id="69275" Test when pattern facet has value=\'\\p{IsCJKRadicalsSupplement}\' or \'\\p{IsCJKUnifiedIdeographsExtensionA}\'.',
                             ]
                         ),
                     ]
@@ -1335,13 +1335,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69275.xsd"
+                        href='../msData/additional/test69275.xsd'
                     ),
                 ],
                 expected=[
@@ -1353,9 +1353,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB024"
+                name='addB024'
             ),
-            name="addB024"
+            name='addB024'
         ),
         TestGroup(
             annotation=[
@@ -1363,7 +1363,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: NMTOKENS and restriction by pattern",
+                                'TEST :Adhoc XSD: : XSD: NMTOKENS and restriction by pattern',
                             ]
                         ),
                     ]
@@ -1371,13 +1371,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69961_1.xsd"
+                        href='../msData/additional/test69961_1.xsd'
                     ),
                 ],
                 expected=[
@@ -1389,9 +1389,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB025"
+                name='addB025'
             ),
-            name="addB025"
+            name='addB025'
         ),
         TestGroup(
             annotation=[
@@ -1399,7 +1399,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: IDREFS and restriction by pattern",
+                                'TEST :Adhoc XSD: : XSD: IDREFS and restriction by pattern',
                             ]
                         ),
                     ]
@@ -1407,13 +1407,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69961_2.xsd"
+                        href='../msData/additional/test69961_2.xsd'
                     ),
                 ],
                 expected=[
@@ -1425,9 +1425,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB026"
+                name='addB026'
             ),
-            name="addB026"
+            name='addB026'
         ),
         TestGroup(
             annotation=[
@@ -1435,7 +1435,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: ENTITIES and restriction by pattern",
+                                'TEST :Adhoc XSD: : XSD: ENTITIES and restriction by pattern',
                             ]
                         ),
                     ]
@@ -1443,13 +1443,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69961_3.xsd"
+                        href='../msData/additional/test69961_3.xsd'
                     ),
                 ],
                 expected=[
@@ -1461,9 +1461,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB027"
+                name='addB027'
             ),
-            name="addB027"
+            name='addB027'
         ),
         TestGroup(
             annotation=[
@@ -1471,7 +1471,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: xsi:type when derived from xsi:type",
+                                'TEST :Adhoc XSD: : XSD: xsi:type when derived from xsi:type',
                             ]
                         ),
                     ]
@@ -1479,13 +1479,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69846.xsd"
+                        href='../msData/additional/test69846.xsd'
                     ),
                 ],
                 expected=[
@@ -1497,12 +1497,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB028"
+                name='addB028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test69846.xml"
+                        href='../msData/additional/test69846.xml'
                     ),
                     expected=[
                         Expected(
@@ -1513,10 +1513,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB028.v"
+                    name='addB028.v'
                 ),
             ],
-            name="addB028"
+            name='addB028'
         ),
         TestGroup(
             annotation=[
@@ -1524,7 +1524,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: element block support",
+                                'TEST :Adhoc XSD: : XSD: element block support',
                             ]
                         ),
                     ]
@@ -1532,13 +1532,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69527.xsd"
+                        href='../msData/additional/test69527.xsd'
                     ),
                 ],
                 expected=[
@@ -1550,9 +1550,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB029"
+                name='addB029'
             ),
-            name="addB029"
+            name='addB029'
         ),
         TestGroup(
             annotation=[
@@ -1560,7 +1560,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: order of redefine in schema",
+                                'TEST :Adhoc XSD: : XSD: order of redefine in schema',
                             ]
                         ),
                     ]
@@ -1568,13 +1568,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69855.xsd"
+                        href='../msData/additional/test69855.xsd'
                     ),
                 ],
                 expected=[
@@ -1586,9 +1586,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB030"
+                name='addB030'
             ),
-            name="addB030"
+            name='addB030'
         ),
         TestGroup(
             annotation=[
@@ -1596,7 +1596,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : another test",
+                                'TEST :Adhoc XSD: : another test',
                             ]
                         ),
                     ]
@@ -1604,13 +1604,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test69277.xsd"
+                        href='../msData/additional/test69277.xsd'
                     ),
                 ],
                 expected=[
@@ -1622,12 +1622,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB31"
+                name='addB31'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test69277.xml"
+                        href='../msData/additional/test69277.xml'
                     ),
                     expected=[
                         Expected(
@@ -1638,10 +1638,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB31.v"
+                    name='addB31.v'
                 ),
             ],
-            name="addB31"
+            name='addB31'
         ),
         TestGroup(
             annotation=[
@@ -1657,13 +1657,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test67764.xsd"
+                        href='../msData/additional/test67764.xsd'
                     ),
                 ],
                 expected=[
@@ -1675,9 +1675,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB32"
+                name='addB32'
             ),
-            name="addB32"
+            name='addB32'
         ),
         TestGroup(
             annotation=[
@@ -1693,13 +1693,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test71774.xsd"
+                        href='../msData/additional/test71774.xsd'
                     ),
                 ],
                 expected=[
@@ -1711,9 +1711,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB033"
+                name='addB033'
             ),
-            name="addB033"
+            name='addB033'
         ),
         TestGroup(
             annotation=[
@@ -1729,13 +1729,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test71818.xsd"
+                        href='../msData/additional/test71818.xsd'
                     ),
                 ],
                 expected=[
@@ -1747,12 +1747,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB034"
+                name='addB034'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test71818.xml"
+                        href='../msData/additional/test71818.xml'
                     ),
                     expected=[
                         Expected(
@@ -1763,10 +1763,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB034.v"
+                    name='addB034.v'
                 ),
             ],
-            name="addB034"
+            name='addB034'
         ),
         TestGroup(
             annotation=[
@@ -1782,13 +1782,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test71395.xsd"
+                        href='../msData/additional/test71395.xsd'
                     ),
                 ],
                 expected=[
@@ -1800,9 +1800,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB035"
+                name='addB035'
             ),
-            name="addB035"
+            name='addB035'
         ),
         TestGroup(
             annotation=[
@@ -1818,13 +1818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test71847.xsd"
+                        href='../msData/additional/test71847.xsd'
                     ),
                 ],
                 expected=[
@@ -1836,9 +1836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB036"
+                name='addB036'
             ),
-            name="addB036"
+            name='addB036'
         ),
         TestGroup(
             annotation=[
@@ -1854,13 +1854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test70130.xsd"
+                        href='../msData/additional/test70130.xsd'
                     ),
                 ],
                 expected=[
@@ -1872,12 +1872,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB037"
+                name='addB037'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test70130.xml"
+                        href='../msData/additional/test70130.xml'
                     ),
                     expected=[
                         Expected(
@@ -1888,10 +1888,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB037.i"
+                    name='addB037.i'
                 ),
             ],
-            name="addB037"
+            name='addB037'
         ),
         TestGroup(
             annotation=[
@@ -1907,16 +1907,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72049_a.xsd"
+                        href='../msData/additional/test72049_a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/additional/test72049_b.xsd"
+                        href='../msData/additional/test72049_b.xsd'
                     ),
                 ],
                 expected=[
@@ -1928,12 +1928,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB040"
+                name='addB040'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72049.xml"
+                        href='../msData/additional/test72049.xml'
                     ),
                     expected=[
                         Expected(
@@ -1944,10 +1944,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB040.v"
+                    name='addB040.v'
                 ),
             ],
-            name="addB040"
+            name='addB040'
         ),
         TestGroup(
             annotation=[
@@ -1963,13 +1963,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72405.xsd"
+                        href='../msData/additional/test72405.xsd'
                     ),
                 ],
                 expected=[
@@ -1981,9 +1981,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB041"
+                name='addB041'
             ),
-            name="addB041"
+            name='addB041'
         ),
         TestGroup(
             annotation=[
@@ -1991,7 +1991,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;72481&quot; description=&quot;'choice/' is unsatisfiable&quot;",
+                                'TEST :Adhoc XSD: : id="72481" description="\'choice/\' is unsatisfiable"',
                             ]
                         ),
                     ]
@@ -1999,13 +1999,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72481.xsd"
+                        href='../msData/additional/test72481.xsd'
                     ),
                 ],
                 expected=[
@@ -2017,9 +2017,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB042"
+                name='addB042'
             ),
-            name="addB042"
+            name='addB042'
         ),
         TestGroup(
             annotation=[
@@ -2027,7 +2027,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;72530&quot; description=&quot;'XSD - Duplicate IDs with one of them is in simpleContent extension&quot;",
+                                'TEST :Adhoc XSD: : id="72530" description="\'XSD - Duplicate IDs with one of them is in simpleContent extension"',
                             ]
                         ),
                     ]
@@ -2035,13 +2035,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72530.xsd"
+                        href='../msData/additional/test72530.xsd'
                     ),
                 ],
                 expected=[
@@ -2053,9 +2053,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB043"
+                name='addB043'
             ),
-            name="addB043"
+            name='addB043'
         ),
         TestGroup(
             annotation=[
@@ -2063,7 +2063,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;72793&quot; description=&quot;xsd: top level attribute should prohibig 'form' attribute&quot;",
+                                'TEST :Adhoc XSD: : id="72793" description="xsd: top level attribute should prohibig \'form\' attribute"',
                             ]
                         ),
                     ]
@@ -2071,13 +2071,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72793.xsd"
+                        href='../msData/additional/test72793.xsd'
                     ),
                 ],
                 expected=[
@@ -2089,9 +2089,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB044"
+                name='addB044'
             ),
-            name="addB044"
+            name='addB044'
         ),
         TestGroup(
             annotation=[
@@ -2107,13 +2107,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72794.xsd"
+                        href='../msData/additional/test72794.xsd'
                     ),
                 ],
                 expected=[
@@ -2125,9 +2125,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB045"
+                name='addB045'
             ),
-            name="addB045"
+            name='addB045'
         ),
         TestGroup(
             annotation=[
@@ -2143,13 +2143,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72097.xsd"
+                        href='../msData/additional/test72097.xsd'
                     ),
                 ],
                 expected=[
@@ -2161,12 +2161,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB046"
+                name='addB046'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72097.xml"
+                        href='../msData/additional/test72097.xml'
                     ),
                     expected=[
                         Expected(
@@ -2177,10 +2177,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB046.v"
+                    name='addB046.v'
                 ),
             ],
-            name="addB046"
+            name='addB046'
         ),
         TestGroup(
             annotation=[
@@ -2196,13 +2196,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72597.xsd"
+                        href='../msData/additional/test72597.xsd'
                     ),
                 ],
                 expected=[
@@ -2214,12 +2214,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB047"
+                name='addB047'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72597.xml"
+                        href='../msData/additional/test72597.xml'
                     ),
                     expected=[
                         Expected(
@@ -2230,10 +2230,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB047.v"
+                    name='addB047.v'
                 ),
             ],
-            name="addB047"
+            name='addB047'
         ),
         TestGroup(
             annotation=[
@@ -2251,7 +2251,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Oops, 2010-01-22 change was mistaken, should have been instance&#10;invalid, schema restored to validity, instance made invalid",
+                                'Oops, 2010-01-22 change was mistaken, should have been instance\ninvalid, schema restored to validity, instance made invalid',
                             ]
                         ),
                     ]
@@ -2259,13 +2259,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72232_1.xsd"
+                        href='../msData/additional/test72232_1.xsd'
                     ),
                 ],
                 expected=[
@@ -2276,30 +2276,30 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 6, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076'
                 ),
                 prior=[
                     Prior(
                         status=Status.STABLE,
                         date=XmlDate(2010, 1, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076'
                     ),
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB049"
+                name='addB049'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72232_1.xml"
+                        href='../msData/additional/test72232_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -2309,23 +2309,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 6, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4076'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB049.v"
+                    name='addB049.v'
                 ),
             ],
-            name="addB049"
+            name='addB049'
         ),
         TestGroup(
             annotation=[
@@ -2341,13 +2341,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72232_2.xsd"
+                        href='../msData/additional/test72232_2.xsd'
                     ),
                 ],
                 expected=[
@@ -2359,12 +2359,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB050"
+                name='addB050'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72232_2.xml"
+                        href='../msData/additional/test72232_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -2375,10 +2375,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB050.i"
+                    name='addB050.i'
                 ),
             ],
-            name="addB050"
+            name='addB050'
         ),
         TestGroup(
             annotation=[
@@ -2386,7 +2386,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;72070&quot; description=&quot;xsd: test setting finalDefault to 'list'&quot;",
+                                'TEST :Adhoc XSD: : id="72070" description="xsd: test setting finalDefault to \'list\'"',
                             ]
                         ),
                     ]
@@ -2394,13 +2394,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72070.xsd"
+                        href='../msData/additional/test72070.xsd'
                     ),
                 ],
                 expected=[
@@ -2412,9 +2412,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB051"
+                name='addB051'
             ),
-            name="addB051"
+            name='addB051'
         ),
         TestGroup(
             annotation=[
@@ -2422,7 +2422,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;72070&quot; description=&quot;test setting finalDefault to 'list'&quot;",
+                                'TEST :Adhoc XSD: : id="72070" description="test setting finalDefault to \'list\'"',
                             ]
                         ),
                     ]
@@ -2430,13 +2430,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72070_b.xsd"
+                        href='../msData/additional/test72070_b.xsd'
                     ),
                 ],
                 expected=[
@@ -2448,9 +2448,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB051b"
+                name='addB051b'
             ),
-            name="addB051b"
+            name='addB051b'
         ),
         TestGroup(
             annotation=[
@@ -2466,13 +2466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72233.xsd"
+                        href='../msData/additional/test72233.xsd'
                     ),
                 ],
                 expected=[
@@ -2484,9 +2484,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB052"
+                name='addB052'
             ),
-            name="addB052"
+            name='addB052'
         ),
         TestGroup(
             annotation=[
@@ -2502,13 +2502,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73457.xsd"
+                        href='../msData/additional/test73457.xsd'
                     ),
                 ],
                 expected=[
@@ -2520,9 +2520,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB053"
+                name='addB053'
             ),
-            name="addB053"
+            name='addB053'
         ),
         TestGroup(
             annotation=[
@@ -2538,13 +2538,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test70948.xsd"
+                        href='../msData/additional/test70948.xsd'
                     ),
                 ],
                 expected=[
@@ -2556,12 +2556,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB054"
+                name='addB054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test70948.xml"
+                        href='../msData/additional/test70948.xml'
                     ),
                     expected=[
                         Expected(
@@ -2572,10 +2572,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB054.v"
+                    name='addB054.v'
                 ),
             ],
-            name="addB054"
+            name='addB054'
         ),
         TestGroup(
             annotation=[
@@ -2591,13 +2591,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73402.xsd"
+                        href='../msData/additional/test73402.xsd'
                     ),
                 ],
                 expected=[
@@ -2609,9 +2609,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB055"
+                name='addB055'
             ),
-            name="addB055"
+            name='addB055'
         ),
         TestGroup(
             annotation=[
@@ -2619,7 +2619,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;73715&quot; description=&quot;xsd: Regular Expression: preprocess pattern '\\c' should match '\c'&quot;",
+                                'TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression: preprocess pattern \'\\\\c\' should match \'\\c\'"',
                             ]
                         ),
                     ]
@@ -2627,13 +2627,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73715.xsd"
+                        href='../msData/additional/test73715.xsd'
                     ),
                 ],
                 expected=[
@@ -2645,12 +2645,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB056"
+                name='addB056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73715v.xml"
+                        href='../msData/additional/test73715v.xml'
                     ),
                     expected=[
                         Expected(
@@ -2661,10 +2661,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB056.v"
+                    name='addB056.v'
                 ),
             ],
-            name="addB056"
+            name='addB056'
         ),
         TestGroup(
             annotation=[
@@ -2672,7 +2672,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;73715&quot; description=&quot;xsd: Regular Expression: preprocess pattern '\\c' should match '\c'&quot;",
+                                'TEST :Adhoc XSD: : id="73715" description="xsd: Regular Expression: preprocess pattern \'\\\\c\' should match \'\\c\'"',
                             ]
                         ),
                     ]
@@ -2680,13 +2680,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73715.xsd"
+                        href='../msData/additional/test73715.xsd'
                     ),
                 ],
                 expected=[
@@ -2698,12 +2698,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB057"
+                name='addB057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73715i.xml"
+                        href='../msData/additional/test73715i.xml'
                     ),
                     expected=[
                         Expected(
@@ -2714,10 +2714,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB057.i"
+                    name='addB057.i'
                 ),
             ],
-            name="addB057"
+            name='addB057'
         ),
         TestGroup(
             annotation=[
@@ -2725,7 +2725,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;73665&quot; description=&quot;xsd: Regular Expression: test checking for '\C' non-character correctly, test with value='?'&quot;",
+                                'TEST :Adhoc XSD: : id="73665" description="xsd: Regular Expression: test checking for \'\\C\' non-character correctly, test with value=\'?\'"',
                             ]
                         ),
                     ]
@@ -2733,13 +2733,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73665.xsd"
+                        href='../msData/additional/test73665.xsd'
                     ),
                 ],
                 expected=[
@@ -2751,12 +2751,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB058"
+                name='addB058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73665.xml"
+                        href='../msData/additional/test73665.xml'
                     ),
                     expected=[
                         Expected(
@@ -2767,10 +2767,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB058.v"
+                    name='addB058.v'
                 ),
             ],
-            name="addB058"
+            name='addB058'
         ),
         TestGroup(
             annotation=[
@@ -2778,7 +2778,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;73666&quot; description=&quot;xsd: Regular Expression: test pattern '(\n|\s)+b' and value ' b'&quot;",
+                                'TEST :Adhoc XSD: : id="73666" description="xsd: Regular Expression: test pattern \'(\\n|\\s)+b\' and value \' b\'"',
                             ]
                         ),
                     ]
@@ -2786,13 +2786,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73666.xsd"
+                        href='../msData/additional/test73666.xsd'
                     ),
                 ],
                 expected=[
@@ -2804,12 +2804,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB059"
+                name='addB059'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73666.xml"
+                        href='../msData/additional/test73666.xml'
                     ),
                     expected=[
                         Expected(
@@ -2820,10 +2820,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB059.v"
+                    name='addB059.v'
                 ),
             ],
-            name="addB059"
+            name='addB059'
         ),
         TestGroup(
             annotation=[
@@ -2831,7 +2831,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : 72685 - XmlSchema: IDREFS are not allowed to have pattern facet",
+                                'TEST :Adhoc XSD: : 72685 - XmlSchema: IDREFS are not allowed to have pattern facet',
                             ]
                         ),
                     ]
@@ -2839,13 +2839,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72685a.xsd"
+                        href='../msData/additional/test72685a.xsd'
                     ),
                 ],
                 expected=[
@@ -2857,9 +2857,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB060"
+                name='addB060'
             ),
-            name="addB060"
+            name='addB060'
         ),
         TestGroup(
             annotation=[
@@ -2867,7 +2867,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : 72685 - XmlSchema: NMTOKENS are not allowed to have pattern facet",
+                                'TEST :Adhoc XSD: : 72685 - XmlSchema: NMTOKENS are not allowed to have pattern facet',
                             ]
                         ),
                     ]
@@ -2875,13 +2875,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72685b.xsd"
+                        href='../msData/additional/test72685b.xsd'
                     ),
                 ],
                 expected=[
@@ -2893,9 +2893,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB061"
+                name='addB061'
             ),
-            name="addB061"
+            name='addB061'
         ),
         TestGroup(
             annotation=[
@@ -2903,7 +2903,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : 72685 - XmlSchema: ENTITIES are not allowed to have pattern facet",
+                                'TEST :Adhoc XSD: : 72685 - XmlSchema: ENTITIES are not allowed to have pattern facet',
                             ]
                         ),
                     ]
@@ -2911,13 +2911,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test72685c.xsd"
+                        href='../msData/additional/test72685c.xsd'
                     ),
                 ],
                 expected=[
@@ -2929,9 +2929,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB062"
+                name='addB062'
             ),
-            name="addB062"
+            name='addB062'
         ),
         TestGroup(
             annotation=[
@@ -2939,7 +2939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : 72702 - test using or validating a not-wellformed XSD",
+                                'TEST :Adhoc XSD: : 72702 - test using or validating a not-wellformed XSD',
                             ]
                         ),
                     ]
@@ -2947,13 +2947,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72702.xml"
+                        href='../msData/additional/test72702.xml'
                     ),
                     expected=[
                         Expected(
@@ -2964,10 +2964,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB063.i"
+                    name='addB063.i'
                 ),
             ],
-            name="addB063"
+            name='addB063'
         ),
         TestGroup(
             annotation=[
@@ -2983,13 +2983,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73722.xsd"
+                        href='../msData/additional/test73722.xsd'
                     ),
                 ],
                 expected=[
@@ -3000,22 +3000,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB064"
+                name='addB064'
             ),
-            name="addB064"
+            name='addB064'
         ),
         TestGroup(
             annotation=[
@@ -3031,13 +3031,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73826.xsd"
+                        href='../msData/additional/test73826.xsd'
                     ),
                 ],
                 expected=[
@@ -3049,12 +3049,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB065"
+                name='addB065'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73826.xml"
+                        href='../msData/additional/test73826.xml'
                     ),
                     expected=[
                         Expected(
@@ -3065,10 +3065,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB065.i"
+                    name='addB065.i'
                 ),
             ],
-            name="addB065"
+            name='addB065'
         ),
         TestGroup(
             annotation=[
@@ -3084,13 +3084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73850.xsd"
+                        href='../msData/additional/test73850.xsd'
                     ),
                 ],
                 expected=[
@@ -3102,12 +3102,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB066"
+                name='addB066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73850.xml"
+                        href='../msData/additional/test73850.xml'
                     ),
                     expected=[
                         Expected(
@@ -3118,10 +3118,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB066.i"
+                    name='addB066.i'
                 ),
             ],
-            name="addB066"
+            name='addB066'
         ),
         TestGroup(
             annotation=[
@@ -3137,13 +3137,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73986.xsd"
+                        href='../msData/additional/test73986.xsd'
                     ),
                 ],
                 expected=[
@@ -3155,12 +3155,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB067"
+                name='addB067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73986.xml"
+                        href='../msData/additional/test73986.xml'
                     ),
                     expected=[
                         Expected(
@@ -3171,10 +3171,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB067.v"
+                    name='addB067.v'
                 ),
             ],
-            name="addB067"
+            name='addB067'
         ),
         TestGroup(
             annotation=[
@@ -3187,7 +3187,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "TSTF ruled that 1.0 says all QNames satisfy all length-related tests",
+                                'TSTF ruled that 1.0 says all QNames satisfy all length-related tests',
                             ]
                         ),
                     ]
@@ -3195,13 +3195,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test73986.xsd"
+                        href='../msData/additional/test73986.xsd'
                     ),
                 ],
                 expected=[
@@ -3213,12 +3213,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB068"
+                name='addB068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73986_2.xml"
+                        href='../msData/additional/test73986_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -3228,23 +3228,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 13),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4049"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4049'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2007, 2, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4122"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4122'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB068.i"
+                    name='addB068.i'
                 ),
             ],
-            name="addB068"
+            name='addB068'
         ),
         TestGroup(
             annotation=[
@@ -3260,13 +3260,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test63950.xsd"
+                        href='../msData/additional/test63950.xsd'
                     ),
                 ],
                 expected=[
@@ -3278,12 +3278,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB069"
+                name='addB069'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test63950.xml"
+                        href='../msData/additional/test63950.xml'
                     ),
                     expected=[
                         Expected(
@@ -3294,10 +3294,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB069.i"
+                    name='addB069.i'
                 ),
             ],
-            name="addB069"
+            name='addB069'
         ),
         TestGroup(
             annotation=[
@@ -3313,13 +3313,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test64982.xsd"
+                        href='../msData/additional/test64982.xsd'
                     ),
                 ],
                 expected=[
@@ -3331,9 +3331,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB070"
+                name='addB070'
             ),
-            name="addB070"
+            name='addB070'
         ),
         TestGroup(
             annotation=[
@@ -3349,13 +3349,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test64756.xsd"
+                        href='../msData/additional/test64756.xsd'
                     ),
                 ],
                 expected=[
@@ -3367,9 +3367,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB070a"
+                name='addB070a'
             ),
-            name="addB070a"
+            name='addB070a'
         ),
         TestGroup(
             annotation=[
@@ -3385,13 +3385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65026.xsd"
+                        href='../msData/additional/test65026.xsd'
                     ),
                 ],
                 expected=[
@@ -3402,22 +3402,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB071"
+                name='addB071'
             ),
-            name="addB071"
+            name='addB071'
         ),
         TestGroup(
             annotation=[
@@ -3433,13 +3433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test74789_a.xsd"
+                        href='../msData/additional/test74789_a.xsd'
                     ),
                 ],
                 expected=[
@@ -3451,9 +3451,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB072"
+                name='addB072'
             ),
-            name="addB072"
+            name='addB072'
         ),
         TestGroup(
             annotation=[
@@ -3469,13 +3469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test74789_a1.xsd"
+                        href='../msData/additional/test74789_a1.xsd'
                     ),
                 ],
                 expected=[
@@ -3487,9 +3487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB073"
+                name='addB073'
             ),
-            name="addB073"
+            name='addB073'
         ),
         TestGroup(
             annotation=[
@@ -3505,13 +3505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test75564.xsd"
+                        href='../msData/additional/test75564.xsd'
                     ),
                 ],
                 expected=[
@@ -3523,12 +3523,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB075"
+                name='addB075'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test75564.xml"
+                        href='../msData/additional/test75564.xml'
                     ),
                     expected=[
                         Expected(
@@ -3539,10 +3539,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB075.i"
+                    name='addB075.i'
                 ),
             ],
-            name="addB075"
+            name='addB075'
         ),
         TestGroup(
             annotation=[
@@ -3558,13 +3558,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB076.xsd"
+                        href='../msData/additional/addB076.xsd'
                     ),
                 ],
                 expected=[
@@ -3576,12 +3576,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB076"
+                name='addB076'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB076.xml"
+                        href='../msData/additional/addB076.xml'
                     ),
                     expected=[
                         Expected(
@@ -3592,10 +3592,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB076.v"
+                    name='addB076.v'
                 ),
             ],
-            name="addB076"
+            name='addB076'
         ),
         TestGroup(
             annotation=[
@@ -3611,13 +3611,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB077.xsd"
+                        href='../msData/additional/addB077.xsd'
                     ),
                 ],
                 expected=[
@@ -3629,9 +3629,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB077"
+                name='addB077'
             ),
-            name="addB077"
+            name='addB077'
         ),
         TestGroup(
             annotation=[
@@ -3652,16 +3652,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB078.xsd"
+                        href='../msData/additional/addB078.xsd'
                     ),
                 ],
                 expected=[
@@ -3681,22 +3681,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 1, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB078"
+                name='addB078'
             ),
-            name="addB078"
+            name='addB078'
         ),
         TestGroup(
             annotation=[
@@ -3717,16 +3717,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB078.xsd"
+                        href='../msData/additional/addB078.xsd'
                     ),
                 ],
                 expected=[
@@ -3746,22 +3746,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 1, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB078A"
+                name='addB078A'
             ),
-            name="addB078A"
+            name='addB078A'
         ),
         TestGroup(
             annotation=[
@@ -3782,16 +3782,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB078.xsd"
+                        href='../msData/additional/addB078.xsd'
                     ),
                 ],
                 expected=[
@@ -3811,22 +3811,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 1, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB078B"
+                name='addB078B'
             ),
-            name="addB078B"
+            name='addB078B'
         ),
         TestGroup(
             annotation=[
@@ -3842,13 +3842,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB079.xsd"
+                        href='../msData/additional/addB079.xsd'
                     ),
                 ],
                 expected=[
@@ -3860,9 +3860,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB079"
+                name='addB079'
             ),
-            name="addB079"
+            name='addB079'
         ),
         TestGroup(
             annotation=[
@@ -3878,13 +3878,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB080.xsd"
+                        href='../msData/additional/addB080.xsd'
                     ),
                 ],
                 expected=[
@@ -3896,12 +3896,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB080"
+                name='addB080'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB080.xml"
+                        href='../msData/additional/addB080.xml'
                     ),
                     expected=[
                         Expected(
@@ -3912,10 +3912,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB080.i"
+                    name='addB080.i'
                 ),
             ],
-            name="addB080"
+            name='addB080'
         ),
         TestGroup(
             annotation=[
@@ -3931,13 +3931,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB081.xsd"
+                        href='../msData/additional/addB081.xsd'
                     ),
                 ],
                 expected=[
@@ -3949,9 +3949,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB081"
+                name='addB081'
             ),
-            name="addB081"
+            name='addB081'
         ),
         TestGroup(
             annotation=[
@@ -3967,13 +3967,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB082.xsd"
+                        href='../msData/additional/addB082.xsd'
                     ),
                 ],
                 expected=[
@@ -3985,9 +3985,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB082"
+                name='addB082'
             ),
-            name="addB082"
+            name='addB082'
         ),
         TestGroup(
             annotation=[
@@ -3995,7 +3995,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61316&quot; description=&quot;test 'group' with more than one particle (choice | sequence| all) as child&quot;",
+                                'TEST :Adhoc XSD: : id="61316" description="test \'group\' with more than one particle (choice | sequence| all) as child"',
                             ]
                         ),
                     ]
@@ -4003,13 +4003,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB083.xsd"
+                        href='../msData/additional/addB083.xsd'
                     ),
                 ],
                 expected=[
@@ -4021,9 +4021,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB083"
+                name='addB083'
             ),
-            name="addB083"
+            name='addB083'
         ),
         TestGroup(
             annotation=[
@@ -4039,13 +4039,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB084.xsd"
+                        href='../msData/additional/addB084.xsd'
                     ),
                 ],
                 expected=[
@@ -4057,12 +4057,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB084"
+                name='addB084'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB084.xml"
+                        href='../msData/additional/addB084.xml'
                     ),
                     expected=[
                         Expected(
@@ -4073,10 +4073,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB084.v"
+                    name='addB084.v'
                 ),
             ],
-            name="addB084"
+            name='addB084'
         ),
         TestGroup(
             annotation=[
@@ -4092,13 +4092,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB085.xsd"
+                        href='../msData/additional/addB085.xsd'
                     ),
                 ],
                 expected=[
@@ -4110,9 +4110,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB085"
+                name='addB085'
             ),
-            name="addB085"
+            name='addB085'
         ),
         TestGroup(
             annotation=[
@@ -4128,13 +4128,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB087.xsd"
+                        href='../msData/additional/addB087.xsd'
                     ),
                 ],
                 expected=[
@@ -4146,12 +4146,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB087"
+                name='addB087'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB087.xml"
+                        href='../msData/additional/addB087.xml'
                     ),
                     expected=[
                         Expected(
@@ -4162,10 +4162,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB087.i"
+                    name='addB087.i'
                 ),
             ],
-            name="addB087"
+            name='addB087'
         ),
         TestGroup(
             annotation=[
@@ -4181,13 +4181,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB088.xsd"
+                        href='../msData/additional/addB088.xsd'
                     ),
                 ],
                 expected=[
@@ -4199,12 +4199,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB088"
+                name='addB088'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB088.xml"
+                        href='../msData/additional/addB088.xml'
                     ),
                     expected=[
                         Expected(
@@ -4215,10 +4215,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB088.v"
+                    name='addB088.v'
                 ),
             ],
-            name="addB088"
+            name='addB088'
         ),
         TestGroup(
             annotation=[
@@ -4226,7 +4226,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61896&quot; description=&quot;xsd: extension with 'all' as a base type&quot;",
+                                'TEST :Adhoc XSD: : id="61896" description="xsd: extension with \'all\' as a base type"',
                             ]
                         ),
                     ]
@@ -4234,13 +4234,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB089.xsd"
+                        href='../msData/additional/addB089.xsd'
                     ),
                 ],
                 expected=[
@@ -4252,9 +4252,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB089"
+                name='addB089'
             ),
-            name="addB089"
+            name='addB089'
         ),
         TestGroup(
             annotation=[
@@ -4262,7 +4262,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61911&quot; description=&quot;xsd: extension: when 'choice' is extented from 'any', the one of the item in 'choice' should satisfy the content model.&quot;",
+                                'TEST :Adhoc XSD: : id="61911" description="xsd: extension: when \'choice\' is extented from \'any\', the one of the item in \'choice\' should satisfy the content model."',
                             ]
                         ),
                     ]
@@ -4270,13 +4270,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB090.xsd"
+                        href='../msData/additional/addB090.xsd'
                     ),
                 ],
                 expected=[
@@ -4288,12 +4288,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB090"
+                name='addB090'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB090.xml"
+                        href='../msData/additional/addB090.xml'
                     ),
                     expected=[
                         Expected(
@@ -4304,10 +4304,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB090.v"
+                    name='addB090.v'
                 ),
             ],
-            name="addB090"
+            name='addB090'
         ),
         TestGroup(
             annotation=[
@@ -4315,7 +4315,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61964&quot; description=&quot;xsd: point less occurance should be ignored, the particle containing sequence is min=max=1, and 'sequence' has only one child&quot;",
+                                'TEST :Adhoc XSD: : id="61964" description="xsd: point less occurance should be ignored, the particle containing sequence is min=max=1, and \'sequence\' has only one child"',
                             ]
                         ),
                     ]
@@ -4323,13 +4323,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB091.xsd"
+                        href='../msData/additional/addB091.xsd'
                     ),
                 ],
                 expected=[
@@ -4341,9 +4341,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB091"
+                name='addB091'
             ),
-            name="addB091"
+            name='addB091'
         ),
         TestGroup(
             annotation=[
@@ -4351,7 +4351,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;62136&quot; description=&quot;xsd: in an 'all' group, when element is declared as minOccurs=0, maxOccurs=0, it should not be able to appear in instant XML.&quot;",
+                                'TEST :Adhoc XSD: : id="62136" description="xsd: in an \'all\' group, when element is declared as minOccurs=0, maxOccurs=0, it should not be able to appear in instant XML."',
                             ]
                         ),
                     ]
@@ -4359,13 +4359,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB092.xsd"
+                        href='../msData/additional/addB092.xsd'
                     ),
                 ],
                 expected=[
@@ -4377,12 +4377,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB092"
+                name='addB092'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB092.xml"
+                        href='../msData/additional/addB092.xml'
                     ),
                     expected=[
                         Expected(
@@ -4393,10 +4393,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB092.i"
+                    name='addB092.i'
                 ),
             ],
-            name="addB092"
+            name='addB092'
         ),
         TestGroup(
             annotation=[
@@ -4412,13 +4412,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB093.xsd"
+                        href='../msData/additional/addB093.xsd'
                     ),
                 ],
                 expected=[
@@ -4430,9 +4430,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB093"
+                name='addB093'
             ),
-            name="addB093"
+            name='addB093'
         ),
         TestGroup(
             annotation=[
@@ -4448,13 +4448,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB094.xsd"
+                        href='../msData/additional/addB094.xsd'
                     ),
                 ],
                 expected=[
@@ -4466,9 +4466,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB094"
+                name='addB094'
             ),
-            name="addB094"
+            name='addB094'
         ),
         TestGroup(
             annotation=[
@@ -4476,12 +4476,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;60947&quot; description=&quot;xsd: particle(s) under model group 'all' cannot have maxOccurs &gt; 1, this is not enforced when there are other sibling in the same group&quot;",
+                                'TEST :Adhoc XSD: : id="60947" description="xsd: particle(s) under model group \'all\' cannot have maxOccurs > 1, this is not enforced when there are other sibling in the same group"',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "In XSD 1.1 this schema become legal: a particle within xs:all can now have maxOccurs gt 1 - MHK",
+                                'In XSD 1.1 this schema become legal: a particle within xs:all can now have maxOccurs gt 1 - MHK',
                             ]
                         ),
                     ]
@@ -4489,16 +4489,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB095.xsd"
+                        href='../msData/additional/addB095.xsd'
                     ),
                 ],
                 expected=[
@@ -4519,9 +4519,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB095"
+                name='addB095'
             ),
-            name="addB095"
+            name='addB095'
         ),
         TestGroup(
             annotation=[
@@ -4529,7 +4529,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61053&quot; description=&quot;xsd: test 'group' reference is used, and content model is explicitly declared using 'sequence'.&quot;",
+                                'TEST :Adhoc XSD: : id="61053" description="xsd: test \'group\' reference is used, and content model is explicitly declared using \'sequence\'."',
                             ]
                         ),
                     ]
@@ -4537,13 +4537,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB096.xsd"
+                        href='../msData/additional/addB096.xsd'
                     ),
                 ],
                 expected=[
@@ -4555,12 +4555,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB096"
+                name='addB096'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB096.xml"
+                        href='../msData/additional/addB096.xml'
                     ),
                     expected=[
                         Expected(
@@ -4571,10 +4571,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB096.v"
+                    name='addB096.v'
                 ),
             ],
-            name="addB096"
+            name='addB096'
         ),
         TestGroup(
             annotation=[
@@ -4582,7 +4582,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;61104&quot; description=&quot;test minOccur=absent, maxOccur='0' on a 'group' decl is incorrect&quot;",
+                                'TEST :Adhoc XSD: : id="61104" description="test minOccur=absent, maxOccur=\'0\' on a \'group\' decl is incorrect"',
                             ]
                         ),
                     ]
@@ -4590,13 +4590,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB097.xsd"
+                        href='../msData/additional/addB097.xsd'
                     ),
                 ],
                 expected=[
@@ -4608,9 +4608,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB097"
+                name='addB097'
             ),
-            name="addB097"
+            name='addB097'
         ),
         TestGroup(
             annotation=[
@@ -4626,13 +4626,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB098.xsd"
+                        href='../msData/additional/addB098.xsd'
                     ),
                 ],
                 expected=[
@@ -4644,12 +4644,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB098"
+                name='addB098'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB098.xml"
+                        href='../msData/additional/addB098.xml'
                     ),
                     expected=[
                         Expected(
@@ -4660,10 +4660,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB098.i"
+                    name='addB098.i'
                 ),
             ],
-            name="addB098"
+            name='addB098'
         ),
         TestGroup(
             annotation=[
@@ -4679,13 +4679,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB099.xsd"
+                        href='../msData/additional/addB099.xsd'
                     ),
                 ],
                 expected=[
@@ -4697,9 +4697,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB099"
+                name='addB099'
             ),
-            name="addB099"
+            name='addB099'
         ),
         TestGroup(
             annotation=[
@@ -4715,13 +4715,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB100.xsd"
+                        href='../msData/additional/addB100.xsd'
                     ),
                 ],
                 expected=[
@@ -4733,9 +4733,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB100"
+                name='addB100'
             ),
-            name="addB100"
+            name='addB100'
         ),
         TestGroup(
             annotation=[
@@ -4743,7 +4743,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;60467&quot; description=&quot;XSD: extension whose base is the same ncName as its parent's ncName when outside of redefine&quot;",
+                                'TEST :Adhoc XSD: : id="60467" description="XSD: extension whose base is the same ncName as its parent\'s ncName when outside of redefine"',
                             ]
                         ),
                     ]
@@ -4751,13 +4751,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB101.xsd"
+                        href='../msData/additional/addB101.xsd'
                     ),
                 ],
                 expected=[
@@ -4769,9 +4769,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB101"
+                name='addB101'
             ),
-            name="addB101"
+            name='addB101'
         ),
         TestGroup(
             annotation=[
@@ -4779,7 +4779,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;60941&quot; description=&quot;xsd: particle validation rules: test when group's minOccurs=2 and the instant XML has only one sequence of group&quot;",
+                                'TEST :Adhoc XSD: : id="60941" description="xsd: particle validation rules: test when group\'s minOccurs=2 and the instant XML has only one sequence of group"',
                             ]
                         ),
                     ]
@@ -4787,13 +4787,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB102.xsd"
+                        href='../msData/additional/addB102.xsd'
                     ),
                 ],
                 expected=[
@@ -4805,12 +4805,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB102"
+                name='addB102'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB102.xml"
+                        href='../msData/additional/addB102.xml'
                     ),
                     expected=[
                         Expected(
@@ -4821,10 +4821,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB102.i"
+                    name='addB102.i'
                 ),
             ],
-            name="addB102"
+            name='addB102'
         ),
         TestGroup(
             annotation=[
@@ -4840,13 +4840,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB103.xsd"
+                        href='../msData/additional/addB103.xsd'
                     ),
                 ],
                 expected=[
@@ -4858,9 +4858,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB103"
+                name='addB103'
             ),
-            name="addB103"
+            name='addB103'
         ),
         TestGroup(
             annotation=[
@@ -4868,7 +4868,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : test attribute normalization of fixed value of an attribute value",
+                                'TEST :Adhoc XSD: : test attribute normalization of fixed value of an attribute value',
                             ]
                         ),
                     ]
@@ -4876,13 +4876,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB104.xsd"
+                        href='../msData/additional/addB104.xsd'
                     ),
                 ],
                 expected=[
@@ -4894,12 +4894,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB104"
+                name='addB104'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB104.xml"
+                        href='../msData/additional/addB104.xml'
                     ),
                     expected=[
                         Expected(
@@ -4910,10 +4910,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB104.v"
+                    name='addB104.v'
                 ),
             ],
-            name="addB104"
+            name='addB104'
         ),
         TestGroup(
             annotation=[
@@ -4929,13 +4929,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB105.xsd"
+                        href='../msData/additional/addB105.xsd'
                     ),
                 ],
                 expected=[
@@ -4947,12 +4947,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB105"
+                name='addB105'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB105.xml"
+                        href='../msData/additional/addB105.xml'
                     ),
                     expected=[
                         Expected(
@@ -4963,10 +4963,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB105.i"
+                    name='addB105.i'
                 ),
             ],
-            name="addB105"
+            name='addB105'
         ),
         TestGroup(
             annotation=[
@@ -4974,7 +4974,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : xsd: QName of types should be pass to appliaction after normalization, we should discard leading and trailing spaces.",
+                                'TEST :Adhoc XSD: : xsd: QName of types should be pass to appliaction after normalization, we should discard leading and trailing spaces.',
                             ]
                         ),
                     ]
@@ -4982,13 +4982,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB106.xsd"
+                        href='../msData/additional/addB106.xsd'
                     ),
                 ],
                 expected=[
@@ -5000,9 +5000,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB106"
+                name='addB106'
             ),
-            name="addB106"
+            name='addB106'
         ),
         TestGroup(
             annotation=[
@@ -5018,13 +5018,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB107.xsd"
+                        href='../msData/additional/addB107.xsd'
                     ),
                 ],
                 expected=[
@@ -5036,9 +5036,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB107"
+                name='addB107'
             ),
-            name="addB107"
+            name='addB107'
         ),
         TestGroup(
             annotation=[
@@ -5046,7 +5046,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : check that the local fixed value must be the same as the global fixed value",
+                                'TEST :Adhoc XSD: : check that the local fixed value must be the same as the global fixed value',
                             ]
                         ),
                     ]
@@ -5054,13 +5054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB108.xsd"
+                        href='../msData/additional/addB108.xsd'
                     ),
                 ],
                 expected=[
@@ -5072,9 +5072,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB108"
+                name='addB108'
             ),
-            name="addB108"
+            name='addB108'
         ),
         TestGroup(
             annotation=[
@@ -5082,7 +5082,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : check that the local fixed value must be the same as the global fixed value",
+                                'TEST :Adhoc XSD: : check that the local fixed value must be the same as the global fixed value',
                             ]
                         ),
                     ]
@@ -5090,13 +5090,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB109.xsd"
+                        href='../msData/additional/addB109.xsd'
                     ),
                 ],
                 expected=[
@@ -5108,12 +5108,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB109"
+                name='addB109'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB109.xml"
+                        href='../msData/additional/addB109.xml'
                     ),
                     expected=[
                         Expected(
@@ -5124,10 +5124,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB109.i"
+                    name='addB109.i'
                 ),
             ],
-            name="addB109"
+            name='addB109'
         ),
         TestGroup(
             annotation=[
@@ -5143,13 +5143,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65911_1.xsd"
+                        href='../msData/additional/test65911_1.xsd'
                     ),
                 ],
                 expected=[
@@ -5161,9 +5161,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB110"
+                name='addB110'
             ),
-            name="addB110"
+            name='addB110'
         ),
         TestGroup(
             annotation=[
@@ -5179,13 +5179,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65911_2.xsd"
+                        href='../msData/additional/test65911_2.xsd'
                     ),
                 ],
                 expected=[
@@ -5197,9 +5197,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB111"
+                name='addB111'
             ),
-            name="addB111"
+            name='addB111'
         ),
         TestGroup(
             annotation=[
@@ -5215,13 +5215,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test65911_3.xsd"
+                        href='../msData/additional/test65911_3.xsd'
                     ),
                 ],
                 expected=[
@@ -5233,9 +5233,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB112"
+                name='addB112'
             ),
-            name="addB112"
+            name='addB112'
         ),
         TestGroup(
             annotation=[
@@ -5251,13 +5251,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB113.xsd"
+                        href='../msData/additional/addB113.xsd'
                     ),
                 ],
                 expected=[
@@ -5269,9 +5269,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB113"
+                name='addB113'
             ),
-            name="addB113"
+            name='addB113'
         ),
         TestGroup(
             annotation=[
@@ -5287,13 +5287,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB114.xsd"
+                        href='../msData/additional/addB114.xsd'
                     ),
                 ],
                 expected=[
@@ -5305,12 +5305,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB114"
+                name='addB114'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB114.xml"
+                        href='../msData/additional/addB114.xml'
                     ),
                     expected=[
                         Expected(
@@ -5321,10 +5321,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB114.i"
+                    name='addB114.i'
                 ),
             ],
-            name="addB114"
+            name='addB114'
         ),
         TestGroup(
             annotation=[
@@ -5340,13 +5340,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB115.xsd"
+                        href='../msData/additional/addB115.xsd'
                     ),
                 ],
                 expected=[
@@ -5358,12 +5358,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB115"
+                name='addB115'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB115.xml"
+                        href='../msData/additional/addB115.xml'
                     ),
                     expected=[
                         Expected(
@@ -5374,10 +5374,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB115.i"
+                    name='addB115.i'
                 ),
             ],
-            name="addB115"
+            name='addB115'
         ),
         TestGroup(
             annotation=[
@@ -5385,7 +5385,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;75092&quot; description=&quot;xsd: 'any' with processContents=strict: should allow valid content item which has xsi:type.&quot;",
+                                'TEST :Adhoc XSD: : id="75092" description="xsd: \'any\' with processContents=strict: should allow valid content item which has xsi:type."',
                             ]
                         ),
                     ]
@@ -5393,13 +5393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test75092.xsd"
+                        href='../msData/additional/test75092.xsd'
                     ),
                 ],
                 expected=[
@@ -5411,12 +5411,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB116"
+                name='addB116'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test75092.xml"
+                        href='../msData/additional/test75092.xml'
                     ),
                     expected=[
                         Expected(
@@ -5427,10 +5427,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB116.v"
+                    name='addB116.v'
                 ),
             ],
-            name="addB116"
+            name='addB116'
         ),
         TestGroup(
             annotation=[
@@ -5446,13 +5446,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test75083.xsd"
+                        href='../msData/additional/test75083.xsd'
                     ),
                 ],
                 expected=[
@@ -5464,9 +5464,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB117"
+                name='addB117'
             ),
-            name="addB117"
+            name='addB117'
         ),
         TestGroup(
             annotation=[
@@ -5474,12 +5474,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;74966&quot; description=&quot;xsd: particle derivation by restrrction of 'choice' {1,1} to {0,1} should be invalid&quot;",
+                                'TEST :Adhoc XSD: : id="74966" description="xsd: particle derivation by restrrction of \'choice\' {1,1} to {0,1} should be invalid"',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Invalid restriction which becomes valid in XSD 1.1 - MHK",
+                                'Invalid restriction which becomes valid in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -5487,16 +5487,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test74966.xsd"
+                        href='../msData/additional/test74966.xsd'
                     ),
                 ],
                 expected=[
@@ -5517,9 +5517,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB118"
+                name='addB118'
             ),
-            name="addB118"
+            name='addB118'
         ),
         TestGroup(
             annotation=[
@@ -5535,13 +5535,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test73456.xml"
+                        href='../msData/additional/test73456.xml'
                     ),
                     expected=[
                         Expected(
@@ -5552,10 +5552,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB120.i"
+                    name='addB120.i'
                 ),
             ],
-            name="addB120"
+            name='addB120'
         ),
         TestGroup(
             annotation=[
@@ -5568,7 +5568,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Ambiguity between wildcard particle and element particle: invalid in XSD 1.0, valid in XSD 1.1 - MHK",
+                                'Ambiguity between wildcard particle and element particle: invalid in XSD 1.0, valid in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -5576,16 +5576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB121.xsd"
+                        href='../msData/additional/addB121.xsd'
                     ),
                 ],
                 expected=[
@@ -5606,9 +5606,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB121"
+                name='addB121'
             ),
-            name="addB121"
+            name='addB121'
         ),
         TestGroup(
             annotation=[
@@ -5624,13 +5624,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB122.xsd"
+                        href='../msData/additional/addB122.xsd'
                     ),
                 ],
                 expected=[
@@ -5642,12 +5642,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB122"
+                name='addB122'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB122.xml"
+                        href='../msData/additional/addB122.xml'
                     ),
                     expected=[
                         Expected(
@@ -5658,10 +5658,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB122.v"
+                    name='addB122.v'
                 ),
             ],
-            name="addB122"
+            name='addB122'
         ),
         TestGroup(
             annotation=[
@@ -5677,13 +5677,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test79416.xsd"
+                        href='../msData/additional/test79416.xsd'
                     ),
                 ],
                 expected=[
@@ -5695,12 +5695,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB123"
+                name='addB123'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test79416.xml"
+                        href='../msData/additional/test79416.xml'
                     ),
                     expected=[
                         Expected(
@@ -5711,10 +5711,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB123.i"
+                    name='addB123.i'
                 ),
             ],
-            name="addB123"
+            name='addB123'
         ),
         TestGroup(
             annotation=[
@@ -5730,13 +5730,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test79253.xml"
+                        href='../msData/additional/test79253.xml'
                     ),
                     expected=[
                         Expected(
@@ -5747,10 +5747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB124.i"
+                    name='addB124.i'
                 ),
             ],
-            name="addB124"
+            name='addB124'
         ),
         TestGroup(
             annotation=[
@@ -5766,13 +5766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test78898.xsd"
+                        href='../msData/additional/test78898.xsd'
                     ),
                 ],
                 expected=[
@@ -5784,12 +5784,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB125"
+                name='addB125'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test78898.xml"
+                        href='../msData/additional/test78898.xml'
                     ),
                     expected=[
                         Expected(
@@ -5800,10 +5800,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB125.v"
+                    name='addB125.v'
                 ),
             ],
-            name="addB125"
+            name='addB125'
         ),
         TestGroup(
             annotation=[
@@ -5811,7 +5811,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\p{IsLatin-1Supplement}, \p{IsLatinExtended-A}, or \p{IsLatinExtended-B}"',
+                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\\p{IsLatin-1Supplement}, \\p{IsLatinExtended-A}, or \\p{IsLatinExtended-B}"',
                             ]
                         ),
                     ]
@@ -5819,13 +5819,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/regexp_IsLatin-1S_44242.xsd"
+                        href='../msData/additional/regexp_IsLatin-1S_44242.xsd'
                     ),
                 ],
                 expected=[
@@ -5837,9 +5837,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB126"
+                name='addB126'
             ),
-            name="addB126"
+            name='addB126'
         ),
         TestGroup(
             annotation=[
@@ -5847,7 +5847,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\p{IsLatin-1Supplement}, \p{IsLatinExtended-A}, or \p{IsLatinExtended-B}"',
+                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\\p{IsLatin-1Supplement}, \\p{IsLatinExtended-A}, or \\p{IsLatinExtended-B}"',
                             ]
                         ),
                     ]
@@ -5855,13 +5855,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/regexp_IsLatinExd-A_44243.xsd"
+                        href='../msData/additional/regexp_IsLatinExd-A_44243.xsd'
                     ),
                 ],
                 expected=[
@@ -5873,9 +5873,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB127"
+                name='addB127'
             ),
-            name="addB127"
+            name='addB127'
         ),
         TestGroup(
             annotation=[
@@ -5883,7 +5883,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\p{IsLatin-1Supplement}, \p{IsLatinExtended-A}, or \p{IsLatinExtended-B}"',
+                                'TEST :Adhoc XSD: : id="78456" description="XSD with pattern value=\\p{IsLatin-1Supplement}, \\p{IsLatinExtended-A}, or \\p{IsLatinExtended-B}"',
                             ]
                         ),
                     ]
@@ -5891,13 +5891,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/regexp_IsLatinExd-B_44244.xsd"
+                        href='../msData/additional/regexp_IsLatinExd-B_44244.xsd'
                     ),
                 ],
                 expected=[
@@ -5909,9 +5909,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB128"
+                name='addB128'
             ),
-            name="addB128"
+            name='addB128'
         ),
         TestGroup(
             annotation=[
@@ -5927,13 +5927,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test74834.xsd"
+                        href='../msData/additional/test74834.xsd'
                     ),
                 ],
                 expected=[
@@ -5945,12 +5945,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB129"
+                name='addB129'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test74834.xml"
+                        href='../msData/additional/test74834.xml'
                     ),
                     expected=[
                         Expected(
@@ -5961,10 +5961,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB129.v"
+                    name='addB129.v'
                 ),
             ],
-            name="addB129"
+            name='addB129'
         ),
         TestGroup(
             annotation=[
@@ -5980,13 +5980,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test78126.xsd"
+                        href='../msData/additional/test78126.xsd'
                     ),
                 ],
                 expected=[
@@ -5998,12 +5998,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB130"
+                name='addB130'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test78126.xml"
+                        href='../msData/additional/test78126.xml'
                     ),
                     expected=[
                         Expected(
@@ -6014,10 +6014,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB130.v"
+                    name='addB130.v'
                 ),
             ],
-            name="addB130"
+            name='addB130'
         ),
         TestGroup(
             annotation=[
@@ -6025,7 +6025,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;76423&quot; description=&quot;test validation of keys when default namespace is '' and more than one key is defined&quot;",
+                                'TEST :Adhoc XSD: : id="76423" description="test validation of keys when default namespace is \'\' and more than one key is defined"',
                             ]
                         ),
                     ]
@@ -6033,13 +6033,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test76423.xsd"
+                        href='../msData/additional/test76423.xsd'
                     ),
                 ],
                 expected=[
@@ -6051,12 +6051,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB131"
+                name='addB131'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test76423.xml"
+                        href='../msData/additional/test76423.xml'
                     ),
                     expected=[
                         Expected(
@@ -6067,10 +6067,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB131.v"
+                    name='addB131.v'
                 ),
             ],
-            name="addB131"
+            name='addB131'
         ),
         TestGroup(
             annotation=[
@@ -6086,16 +6086,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test66745_a.xsd"
+                        href='../msData/additional/test66745_a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/additional/test66745_b.xsd"
+                        href='../msData/additional/test66745_b.xsd'
                     ),
                 ],
                 expected=[
@@ -6107,12 +6107,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB132"
+                name='addB132'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test66745.xml"
+                        href='../msData/additional/test66745.xml'
                     ),
                     expected=[
                         Expected(
@@ -6123,10 +6123,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB132.v"
+                    name='addB132.v'
                 ),
             ],
-            name="addB132"
+            name='addB132'
         ),
         TestGroup(
             annotation=[
@@ -6142,13 +6142,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test72131.xml"
+                        href='../msData/additional/test72131.xml'
                     ),
                     expected=[
                         Expected(
@@ -6159,10 +6159,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB134.v"
+                    name='addB134.v'
                 ),
             ],
-            name="addB134"
+            name='addB134'
         ),
         TestGroup(
             annotation=[
@@ -6178,13 +6178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test81662.xsd"
+                        href='../msData/additional/test81662.xsd'
                     ),
                 ],
                 expected=[
@@ -6196,12 +6196,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB135"
+                name='addB135'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test81662.xml"
+                        href='../msData/additional/test81662.xml'
                     ),
                     expected=[
                         Expected(
@@ -6212,10 +6212,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB135.v"
+                    name='addB135.v'
                 ),
             ],
-            name="addB135"
+            name='addB135'
         ),
         TestGroup(
             annotation=[
@@ -6231,13 +6231,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test84188.xsd"
+                        href='../msData/additional/test84188.xsd'
                     ),
                 ],
                 expected=[
@@ -6249,12 +6249,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB136"
+                name='addB136'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test84188.xml"
+                        href='../msData/additional/test84188.xml'
                     ),
                     expected=[
                         Expected(
@@ -6265,10 +6265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB136.v"
+                    name='addB136.v'
                 ),
             ],
-            name="addB136"
+            name='addB136'
         ),
         TestGroup(
             annotation=[
@@ -6276,7 +6276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;84517&quot; description=&quot;xsd: simpleType should not be able to restrict anyType *(or) attribute should not allow type='xsd:anyType'&quot;",
+                                'TEST :Adhoc XSD: : id="84517" description="xsd: simpleType should not be able to restrict anyType *(or) attribute should not allow type=\'xsd:anyType\'"',
                             ]
                         ),
                     ]
@@ -6284,13 +6284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test84517.xsd"
+                        href='../msData/additional/test84517.xsd'
                     ),
                 ],
                 expected=[
@@ -6302,9 +6302,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB137"
+                name='addB137'
             ),
-            name="addB137"
+            name='addB137'
         ),
         TestGroup(
             annotation=[
@@ -6312,7 +6312,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;84002&quot; description=&quot;validating an XSD with empty value in a nsmespace declaration, xmlns=''&quot;",
+                                'TEST :Adhoc XSD: : id="84002" description="validating an XSD with empty value in a nsmespace declaration, xmlns=\'\'"',
                             ]
                         ),
                     ]
@@ -6320,13 +6320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test84002_a.xml"
+                        href='../msData/additional/test84002_a.xml'
                     ),
                     expected=[
                         Expected(
@@ -6337,10 +6337,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB138.i"
+                    name='addB138.i'
                 ),
             ],
-            name="addB138"
+            name='addB138'
         ),
         TestGroup(
             annotation=[
@@ -6348,7 +6348,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;84002&quot; description=&quot;validating an XSD with empty value in a nsmespace declaration, xmlns=''&quot;",
+                                'TEST :Adhoc XSD: : id="84002" description="validating an XSD with empty value in a nsmespace declaration, xmlns=\'\'"',
                             ]
                         ),
                     ]
@@ -6356,13 +6356,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test84002_b.xml"
+                        href='../msData/additional/test84002_b.xml'
                     ),
                     expected=[
                         Expected(
@@ -6373,10 +6373,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB139.i"
+                    name='addB139.i'
                 ),
             ],
-            name="addB139"
+            name='addB139'
         ),
         TestGroup(
             annotation=[
@@ -6384,7 +6384,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;78000&quot; description=&quot;any and processContents='skip'&quot;",
+                                'TEST :Adhoc XSD: : id="78000" description="any and processContents=\'skip\'"',
                             ]
                         ),
                     ]
@@ -6392,16 +6392,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test78000a.xsd"
+                        href='../msData/additional/test78000a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/additional/test78000b.xsd"
+                        href='../msData/additional/test78000b.xsd'
                     ),
                 ],
                 expected=[
@@ -6413,12 +6413,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB140"
+                name='addB140'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test78000.xml"
+                        href='../msData/additional/test78000.xml'
                     ),
                     expected=[
                         Expected(
@@ -6429,10 +6429,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB140.v"
+                    name='addB140.v'
                 ),
             ],
-            name="addB140"
+            name='addB140'
         ),
         TestGroup(
             annotation=[
@@ -6440,7 +6440,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Base types of list and union types should be anySimpleType",
+                                'TEST :Adhoc XSD: : Base types of list and union types should be anySimpleType',
                             ]
                         ),
                     ]
@@ -6448,13 +6448,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test82919.xsd"
+                        href='../msData/additional/test82919.xsd'
                     ),
                 ],
                 expected=[
@@ -6466,9 +6466,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB141"
+                name='addB141'
             ),
-            name="addB141"
+            name='addB141'
         ),
         TestGroup(
             annotation=[
@@ -6484,13 +6484,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test84613.xml"
+                        href='../msData/additional/test84613.xml'
                     ),
                     expected=[
                         Expected(
@@ -6501,10 +6501,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB142.i"
+                    name='addB142.i'
                 ),
             ],
-            name="addB142"
+            name='addB142'
         ),
         TestGroup(
             annotation=[
@@ -6512,7 +6512,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : id=&quot;83452&quot; description=&quot;Invalid lexical hexBinary value of 'abcde' should be rejected, hexBinary should be even in length.&quot;",
+                                'TEST :Adhoc XSD: : id="83452" description="Invalid lexical hexBinary value of \'abcde\' should be rejected, hexBinary should be even in length."',
                             ]
                         ),
                     ]
@@ -6520,13 +6520,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test83452.xsd"
+                        href='../msData/additional/test83452.xsd'
                     ),
                 ],
                 expected=[
@@ -6538,12 +6538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB143"
+                name='addB143'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test83452.xml"
+                        href='../msData/additional/test83452.xml'
                     ),
                     expected=[
                         Expected(
@@ -6554,10 +6554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB143.i"
+                    name='addB143.i'
                 ),
             ],
-            name="addB143"
+            name='addB143'
         ),
         TestGroup(
             annotation=[
@@ -6573,13 +6573,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test82731.xsd"
+                        href='../msData/additional/test82731.xsd'
                     ),
                 ],
                 expected=[
@@ -6591,9 +6591,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB144"
+                name='addB144'
             ),
-            name="addB144"
+            name='addB144'
         ),
         TestGroup(
             annotation=[
@@ -6606,7 +6606,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Added a wrapper element in response to bug 10100 because ID-valued elements are not allowed at the outermost level - MHK 2010-07-10",
+                                'Added a wrapper element in response to bug 10100 because ID-valued elements are not allowed at the outermost level - MHK 2010-07-10',
                             ]
                         ),
                     ]
@@ -6614,13 +6614,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test87395.xsd"
+                        href='../msData/additional/test87395.xsd'
                     ),
                 ],
                 expected=[
@@ -6632,12 +6632,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB145"
+                name='addB145'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test87395.xml"
+                        href='../msData/additional/test87395.xml'
                     ),
                     expected=[
                         Expected(
@@ -6648,10 +6648,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB145.v"
+                    name='addB145.v'
                 ),
             ],
-            name="addB145"
+            name='addB145'
         ),
         TestGroup(
             annotation=[
@@ -6659,7 +6659,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Whitespace is collapsed for element with type xs:anySimpleType",
+                                'TEST :Adhoc XSD: : Whitespace is collapsed for element with type xs:anySimpleType',
                             ]
                         ),
                     ]
@@ -6667,13 +6667,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test93160.xsd"
+                        href='../msData/additional/test93160.xsd'
                     ),
                 ],
                 expected=[
@@ -6685,12 +6685,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="test93160"
+                name='test93160'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93160.xml"
+                        href='../msData/additional/test93160.xml'
                     ),
                     expected=[
                         Expected(
@@ -6701,10 +6701,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="test93160.i"
+                    name='test93160.i'
                 ),
             ],
-            name="test93160"
+            name='test93160'
         ),
         TestGroup(
             annotation=[
@@ -6720,13 +6720,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test94188.xsd"
+                        href='../msData/additional/test94188.xsd'
                     ),
                 ],
                 expected=[
@@ -6738,9 +6738,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB147"
+                name='addB147'
             ),
-            name="addB147"
+            name='addB147'
         ),
         TestGroup(
             annotation=[
@@ -6756,13 +6756,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test93276.xsd"
+                        href='../msData/additional/test93276.xsd'
                     ),
                 ],
                 expected=[
@@ -6774,12 +6774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB148"
+                name='addB148'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93276.xml"
+                        href='../msData/additional/test93276.xml'
                     ),
                     expected=[
                         Expected(
@@ -6790,10 +6790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB148.v"
+                    name='addB148.v'
                 ),
             ],
-            name="addB148"
+            name='addB148'
         ),
         TestGroup(
             annotation=[
@@ -6809,13 +6809,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test97822.xsd"
+                        href='../msData/additional/test97822.xsd'
                     ),
                 ],
                 expected=[
@@ -6827,12 +6827,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB149"
+                name='addB149'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test97822.xml"
+                        href='../msData/additional/test97822.xml'
                     ),
                     expected=[
                         Expected(
@@ -6843,10 +6843,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB149.i"
+                    name='addB149.i'
                 ),
             ],
-            name="addB149"
+            name='addB149'
         ),
         TestGroup(
             annotation=[
@@ -6862,13 +6862,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test93568.xsd"
+                        href='../msData/additional/test93568.xsd'
                     ),
                 ],
                 expected=[
@@ -6880,9 +6880,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB150"
+                name='addB150'
             ),
-            name="addB150"
+            name='addB150'
         ),
         TestGroup(
             annotation=[
@@ -6898,13 +6898,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test99762.xsd"
+                        href='../msData/additional/test99762.xsd'
                     ),
                 ],
                 expected=[
@@ -6916,9 +6916,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB151"
+                name='addB151'
             ),
-            name="addB151"
+            name='addB151'
         ),
         TestGroup(
             annotation=[
@@ -6931,7 +6931,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "Ambiguity between element particle and wildcard particle. Illegal in XSD 1.0, legal in XSD 1.1 - MHK",
+                                'Ambiguity between element particle and wildcard particle. Illegal in XSD 1.0, legal in XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -6939,16 +6939,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test86490_a.xsd"
+                        href='../msData/additional/test86490_a.xsd'
                     ),
                 ],
                 expected=[
@@ -6969,9 +6969,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB153"
+                name='addB153'
             ),
-            name="addB153"
+            name='addB153'
         ),
         TestGroup(
             annotation=[
@@ -6987,13 +6987,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_1.xml"
+                        href='../msData/additional/test93490_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7004,10 +7004,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB155.v"
+                    name='addB155.v'
                 ),
             ],
-            name="addB155"
+            name='addB155'
         ),
         TestGroup(
             annotation=[
@@ -7020,7 +7020,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See also bug 9158 and 15863",
+                                'See also bug 9158 and 15863',
                             ]
                         ),
                     ]
@@ -7028,13 +7028,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_2.xml"
+                        href='../msData/additional/test93490_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7053,23 +7053,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                     ),
                     prior=[
                         Prior(
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2010, 1, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB156.i"
+                    name='addB156.i'
                 ),
             ],
-            name="addB156"
+            name='addB156'
         ),
         TestGroup(
             annotation=[
@@ -7085,13 +7085,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_3.xml"
+                        href='../msData/additional/test93490_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -7102,10 +7102,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB157.v"
+                    name='addB157.v'
                 ),
             ],
-            name="addB157"
+            name='addB157'
         ),
         TestGroup(
             annotation=[
@@ -7118,7 +7118,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "See also bug 9158 and 15863",
+                                'See also bug 9158 and 15863',
                             ]
                         ),
                     ]
@@ -7126,13 +7126,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_4.xml"
+                        href='../msData/additional/test93490_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -7151,23 +7151,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                     ),
                     prior=[
                         Prior(
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2010, 1, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB158.i"
+                    name='addB158.i'
                 ),
             ],
-            name="addB158"
+            name='addB158'
         ),
         TestGroup(
             annotation=[
@@ -7183,13 +7183,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_5.xml"
+                        href='../msData/additional/test93490_5.xml'
                     ),
                     expected=[
                         Expected(
@@ -7199,7 +7199,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.QUERIED,
                         date=XmlDate(2010, 7, 9),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                     ),
                     prior=[
                         Prior(
@@ -7207,10 +7207,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB159.i"
+                    name='addB159.i'
                 ),
             ],
-            name="addB159"
+            name='addB159'
         ),
         TestGroup(
             annotation=[
@@ -7226,13 +7226,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_6.xml"
+                        href='../msData/additional/test93490_6.xml'
                     ),
                     expected=[
                         Expected(
@@ -7243,10 +7243,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB160.v"
+                    name='addB160.v'
                 ),
             ],
-            name="addB160"
+            name='addB160'
         ),
         TestGroup(
             annotation=[
@@ -7262,13 +7262,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_7.xml"
+                        href='../msData/additional/test93490_7.xml'
                     ),
                     expected=[
                         Expected(
@@ -7279,10 +7279,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB161.i"
+                    name='addB161.i'
                 ),
             ],
-            name="addB161"
+            name='addB161'
         ),
         TestGroup(
             annotation=[
@@ -7298,13 +7298,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_8.xml"
+                        href='../msData/additional/test93490_8.xml'
                     ),
                     expected=[
                         Expected(
@@ -7314,7 +7314,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.QUERIED,
                         date=XmlDate(2010, 7, 9),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                     ),
                     prior=[
                         Prior(
@@ -7322,10 +7322,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB162.i"
+                    name='addB162.i'
                 ),
             ],
-            name="addB162"
+            name='addB162'
         ),
         TestGroup(
             annotation=[
@@ -7341,13 +7341,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_9.xml"
+                        href='../msData/additional/test93490_9.xml'
                     ),
                     expected=[
                         Expected(
@@ -7358,10 +7358,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB163.v"
+                    name='addB163.v'
                 ),
             ],
-            name="addB163"
+            name='addB163'
         ),
         TestGroup(
             annotation=[
@@ -7377,13 +7377,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_10.xml"
+                        href='../msData/additional/test93490_10.xml'
                     ),
                     expected=[
                         Expected(
@@ -7394,10 +7394,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB164.i"
+                    name='addB164.i'
                 ),
             ],
-            name="addB164"
+            name='addB164'
         ),
         TestGroup(
             annotation=[
@@ -7413,13 +7413,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_11.xml"
+                        href='../msData/additional/test93490_11.xml'
                     ),
                     expected=[
                         Expected(
@@ -7430,10 +7430,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB165.v"
+                    name='addB165.v'
                 ),
             ],
-            name="addB165"
+            name='addB165'
         ),
         TestGroup(
             annotation=[
@@ -7449,13 +7449,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_12.xml"
+                        href='../msData/additional/test93490_12.xml'
                     ),
                     expected=[
                         Expected(
@@ -7465,7 +7465,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.QUERIED,
                         date=XmlDate(2010, 7, 9),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4078'
                     ),
                     prior=[
                         Prior(
@@ -7473,10 +7473,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB166.i"
+                    name='addB166.i'
                 ),
             ],
-            name="addB166"
+            name='addB166'
         ),
         TestGroup(
             annotation=[
@@ -7489,7 +7489,7 @@ obj = TestSet(
                         ),
                         Documentation(
                             content=[
-                                "WG decided that although perhaps misleading, this test is OK",
+                                'WG decided that although perhaps misleading, this test is OK',
                             ]
                         ),
                     ]
@@ -7497,13 +7497,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_13.xml"
+                        href='../msData/additional/test93490_13.xml'
                     ),
                     expected=[
                         Expected(
@@ -7513,23 +7513,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4124"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4124'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4124"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4124'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB167.i"
+                    name='addB167.i'
                 ),
             ],
-            name="addB167"
+            name='addB167'
         ),
         TestGroup(
             annotation=[
@@ -7545,13 +7545,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_14.xml"
+                        href='../msData/additional/test93490_14.xml'
                     ),
                     expected=[
                         Expected(
@@ -7562,10 +7562,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB168.v"
+                    name='addB168.v'
                 ),
             ],
-            name="addB168"
+            name='addB168'
         ),
         TestGroup(
             annotation=[
@@ -7581,13 +7581,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_15.xml"
+                        href='../msData/additional/test93490_15.xml'
                     ),
                     expected=[
                         Expected(
@@ -7598,10 +7598,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB169.v"
+                    name='addB169.v'
                 ),
             ],
-            name="addB169"
+            name='addB169'
         ),
         TestGroup(
             annotation=[
@@ -7617,13 +7617,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test93490_16.xsd"
+                        href='../msData/additional/test93490_16.xsd'
                     ),
                 ],
                 expected=[
@@ -7635,12 +7635,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB169.1"
+                name='addB169.1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test93490_16.xml"
+                        href='../msData/additional/test93490_16.xml'
                     ),
                     expected=[
                         Expected(
@@ -7651,10 +7651,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB169.1.v"
+                    name='addB169.1.v'
                 ),
             ],
-            name="addB169.1"
+            name='addB169.1'
         ),
         TestGroup(
             annotation=[
@@ -7670,13 +7670,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7688,12 +7688,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB170"
+                name='addB170'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_1.xml"
+                        href='../msData/additional/test102433_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -7704,10 +7704,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB170.i"
+                    name='addB170.i'
                 ),
             ],
-            name="addB170"
+            name='addB170'
         ),
         TestGroup(
             annotation=[
@@ -7723,13 +7723,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7741,12 +7741,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB171"
+                name='addB171'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_2.xml"
+                        href='../msData/additional/test102433_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -7757,10 +7757,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB171.i"
+                    name='addB171.i'
                 ),
             ],
-            name="addB171"
+            name='addB171'
         ),
         TestGroup(
             annotation=[
@@ -7776,13 +7776,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7794,12 +7794,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB172"
+                name='addB172'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_3.xml"
+                        href='../msData/additional/test102433_3.xml'
                     ),
                     expected=[
                         Expected(
@@ -7810,10 +7810,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB172.i"
+                    name='addB172.i'
                 ),
             ],
-            name="addB172"
+            name='addB172'
         ),
         TestGroup(
             annotation=[
@@ -7829,13 +7829,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7847,12 +7847,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB173"
+                name='addB173'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_4.xml"
+                        href='../msData/additional/test102433_4.xml'
                     ),
                     expected=[
                         Expected(
@@ -7863,10 +7863,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB173.i"
+                    name='addB173.i'
                 ),
             ],
-            name="addB173"
+            name='addB173'
         ),
         TestGroup(
             annotation=[
@@ -7882,13 +7882,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7900,12 +7900,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB174"
+                name='addB174'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_5.xml"
+                        href='../msData/additional/test102433_5.xml'
                     ),
                     expected=[
                         Expected(
@@ -7916,10 +7916,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB174.v"
+                    name='addB174.v'
                 ),
             ],
-            name="addB174"
+            name='addB174'
         ),
         TestGroup(
             annotation=[
@@ -7935,13 +7935,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102433.xsd"
+                        href='../msData/additional/test102433.xsd'
                     ),
                 ],
                 expected=[
@@ -7953,12 +7953,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB175"
+                name='addB175'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102433_6.xml"
+                        href='../msData/additional/test102433_6.xml'
                     ),
                     expected=[
                         Expected(
@@ -7969,10 +7969,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB175.i"
+                    name='addB175.i'
                 ),
             ],
-            name="addB175"
+            name='addB175'
         ),
         TestGroup(
             annotation=[
@@ -7988,13 +7988,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102850_1.xsd"
+                        href='../msData/additional/test102850_1.xsd'
                     ),
                 ],
                 expected=[
@@ -8006,12 +8006,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB176"
+                name='addB176'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test102850_1.xml"
+                        href='../msData/additional/test102850_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8022,10 +8022,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB176.v"
+                    name='addB176.v'
                 ),
             ],
-            name="addB176"
+            name='addB176'
         ),
         TestGroup(
             annotation=[
@@ -8041,13 +8041,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102850_2.xsd"
+                        href='../msData/additional/test102850_2.xsd'
                     ),
                 ],
                 expected=[
@@ -8059,9 +8059,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB177"
+                name='addB177'
             ),
-            name="addB177"
+            name='addB177'
         ),
         TestGroup(
             annotation=[
@@ -8077,13 +8077,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test102850_3.xsd"
+                        href='../msData/additional/test102850_3.xsd'
                     ),
                 ],
                 expected=[
@@ -8095,9 +8095,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB178"
+                name='addB178'
             ),
-            name="addB178"
+            name='addB178'
         ),
         TestGroup(
             annotation=[
@@ -8105,7 +8105,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Circualr substitutionGroup declarations",
+                                'TEST :Adhoc XSD: : Circualr substitutionGroup declarations',
                             ]
                         ),
                     ]
@@ -8113,13 +8113,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test111869.xsd"
+                        href='../msData/additional/test111869.xsd'
                     ),
                 ],
                 expected=[
@@ -8131,9 +8131,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB180"
+                name='addB180'
             ),
-            name="addB180"
+            name='addB180'
         ),
         TestGroup(
             annotation=[
@@ -8149,13 +8149,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test109017.xml"
+                        href='../msData/additional/test109017.xml'
                     ),
                     expected=[
                         Expected(
@@ -8166,10 +8166,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB181.i"
+                    name='addB181.i'
                 ),
             ],
-            name="addB181"
+            name='addB181'
         ),
         TestGroup(
             annotation=[
@@ -8185,13 +8185,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test111871.xsd"
+                        href='../msData/additional/test111871.xsd'
                     ),
                 ],
                 expected=[
@@ -8203,12 +8203,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB182"
+                name='addB182'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test111871.xml"
+                        href='../msData/additional/test111871.xml'
                     ),
                     expected=[
                         Expected(
@@ -8219,10 +8219,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB182.v"
+                    name='addB182.v'
                 ),
             ],
-            name="addB182"
+            name='addB182'
         ),
         TestGroup(
             annotation=[
@@ -8230,7 +8230,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: fixed/default values should not be compared as strings to determine valid derivations",
+                                'TEST :Adhoc XSD: : XSD: fixed/default values should not be compared as strings to determine valid derivations',
                             ]
                         ),
                     ]
@@ -8238,13 +8238,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test113911.xsd"
+                        href='../msData/additional/test113911.xsd'
                     ),
                 ],
                 expected=[
@@ -8256,9 +8256,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB183"
+                name='addB183'
             ),
-            name="addB183"
+            name='addB183'
         ),
         TestGroup(
             annotation=[
@@ -8266,7 +8266,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : mixed addition of schemas into SchemaCache.",
+                                'TEST :Adhoc XSD: : mixed addition of schemas into SchemaCache.',
                             ]
                         ),
                     ]
@@ -8274,13 +8274,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test113285.xsd"
+                        href='../msData/additional/test113285.xsd'
                     ),
                 ],
                 expected=[
@@ -8292,9 +8292,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB184"
+                name='addB184'
             ),
-            name="addB184"
+            name='addB184'
         ),
         TestGroup(
             annotation=[
@@ -8302,7 +8302,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: Support user specified schema for http://www.w3.org/XML/1998/namespace namespace",
+                                'TEST :Adhoc XSD: : XSD: Support user specified schema for http://www.w3.org/XML/1998/namespace namespace',
                             ]
                         ),
                     ]
@@ -8310,13 +8310,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test264908_1.xsd"
+                        href='../msData/additional/test264908_1.xsd'
                     ),
                 ],
                 expected=[
@@ -8328,12 +8328,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB187"
+                name='addB187'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test264908_1.xml"
+                        href='../msData/additional/test264908_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -8344,10 +8344,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB187.v"
+                    name='addB187.v'
                 ),
             ],
-            name="addB187"
+            name='addB187'
         ),
         TestGroup(
             annotation=[
@@ -8355,7 +8355,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: Support user specified schema for http://www.w3.org/XML/1998/namespace namespace",
+                                'TEST :Adhoc XSD: : XSD: Support user specified schema for http://www.w3.org/XML/1998/namespace namespace',
                             ]
                         ),
                     ]
@@ -8363,13 +8363,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test264908_1.xsd"
+                        href='../msData/additional/test264908_1.xsd'
                     ),
                 ],
                 expected=[
@@ -8381,12 +8381,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB188"
+                name='addB188'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test264908_1i.xml"
+                        href='../msData/additional/test264908_1i.xml'
                     ),
                     expected=[
                         Expected(
@@ -8397,10 +8397,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB188.i"
+                    name='addB188.i'
                 ),
             ],
-            name="addB188"
+            name='addB188'
         ),
         TestGroup(
             annotation=[
@@ -8408,12 +8408,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: During validation of an element schemas in schemaLocation and noNamespaceSchemaLocation hints should be compiled together",
+                                'TEST :Adhoc XSD: : XSD: During validation of an element schemas in schemaLocation and noNamespaceSchemaLocation hints should be compiled together',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF agreed that an un-imported NS used in a QName is a schema error",
+                                'TSTF agreed that an un-imported NS used in a QName is a schema error',
                             ]
                         ),
                     ]
@@ -8421,13 +8421,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/addB191.xml"
+                        href='../msData/additional/addB191.xml'
                     ),
                     expected=[
                         Expected(
@@ -8437,23 +8437,23 @@ obj = TestSet(
                     current=Current(
                         status=Status.STABLE,
                         date=XmlDate(2008, 11, 25),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                     ),
                     prior=[
                         Prior(
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 14),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
+                            bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057'
                         ),
                         Prior(
                             status=Status.ACCEPTED,
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="addB191.v"
+                    name='addB191.v'
                 ),
             ],
-            name="addB191"
+            name='addB191'
         ),
         TestGroup(
             annotation=[
@@ -8461,7 +8461,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: whitespace facet should be applied while parsing the name attribute in the schema",
+                                'TEST :Adhoc XSD: : XSD: whitespace facet should be applied while parsing the name attribute in the schema',
                             ]
                         ),
                     ]
@@ -8469,13 +8469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB193.xsd"
+                        href='../msData/additional/addB193.xsd'
                     ),
                 ],
                 expected=[
@@ -8487,9 +8487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB193"
+                name='addB193'
             ),
-            name="addB193"
+            name='addB193'
         ),
         TestGroup(
             annotation=[
@@ -8497,12 +8497,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : XSD: test unique id in the document",
+                                'TEST :Adhoc XSD: : XSD: test unique id in the document',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Fixed schema doc so namespace URIs and sys/pub ids are all alphanum",
+                                'Fixed schema doc so namespace URIs and sys/pub ids are all alphanum',
                             ]
                         ),
                     ]
@@ -8510,13 +8510,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/addB194.xsd"
+                        href='../msData/additional/addB194.xsd'
                     ),
                 ],
                 expected=[
@@ -8527,22 +8527,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6247"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6247'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2008, 11, 25),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6247"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6247'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addB194"
+                name='addB194'
             ),
-            name="addB194"
+            name='addB194'
         ),
         TestGroup(
             annotation=[
@@ -8550,7 +8550,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(1)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(1)',
                             ]
                         ),
                     ]
@@ -8558,13 +8558,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed1.xsd"
+                        href='../msData/additional/fixed1.xsd'
                     ),
                 ],
                 expected=[
@@ -8576,12 +8576,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196a"
+                name='addB196a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1a.xml"
+                        href='../msData/additional/fixed1a.xml'
                     ),
                     expected=[
                         Expected(
@@ -8592,10 +8592,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196a.v"
+                    name='addB196a.v'
                 ),
             ],
-            name="addB196a"
+            name='addB196a'
         ),
         TestGroup(
             annotation=[
@@ -8603,7 +8603,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(2)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(2)',
                             ]
                         ),
                     ]
@@ -8611,13 +8611,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed1.xsd"
+                        href='../msData/additional/fixed1.xsd'
                     ),
                 ],
                 expected=[
@@ -8629,12 +8629,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196b"
+                name='addB196b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1b.xml"
+                        href='../msData/additional/fixed1b.xml'
                     ),
                     expected=[
                         Expected(
@@ -8645,10 +8645,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196b.i"
+                    name='addB196b.i'
                 ),
             ],
-            name="addB196b"
+            name='addB196b'
         ),
         TestGroup(
             annotation=[
@@ -8656,7 +8656,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(3)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(3)',
                             ]
                         ),
                     ]
@@ -8664,13 +8664,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed1.xsd"
+                        href='../msData/additional/fixed1.xsd'
                     ),
                 ],
                 expected=[
@@ -8682,12 +8682,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196c"
+                name='addB196c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1c.xml"
+                        href='../msData/additional/fixed1c.xml'
                     ),
                     expected=[
                         Expected(
@@ -8698,10 +8698,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196c.v"
+                    name='addB196c.v'
                 ),
             ],
-            name="addB196c"
+            name='addB196c'
         ),
         TestGroup(
             annotation=[
@@ -8709,7 +8709,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(4)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(4)',
                             ]
                         ),
                     ]
@@ -8717,13 +8717,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed1.xsd"
+                        href='../msData/additional/fixed1.xsd'
                     ),
                 ],
                 expected=[
@@ -8735,12 +8735,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196d"
+                name='addB196d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1d.xml"
+                        href='../msData/additional/fixed1d.xml'
                     ),
                     expected=[
                         Expected(
@@ -8751,10 +8751,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196d.i"
+                    name='addB196d.i'
                 ),
             ],
-            name="addB196d"
+            name='addB196d'
         ),
         TestGroup(
             annotation=[
@@ -8762,7 +8762,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(5)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(5)',
                             ]
                         ),
                     ]
@@ -8770,13 +8770,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -8788,12 +8788,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196e"
+                name='addB196e'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1a.xml"
+                        href='../msData/additional/fixed1a.xml'
                     ),
                     expected=[
                         Expected(
@@ -8804,10 +8804,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196e.i"
+                    name='addB196e.i'
                 ),
             ],
-            name="addB196e"
+            name='addB196e'
         ),
         TestGroup(
             annotation=[
@@ -8815,7 +8815,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(6)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(6)',
                             ]
                         ),
                     ]
@@ -8823,13 +8823,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -8841,12 +8841,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196f"
+                name='addB196f'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1b.xml"
+                        href='../msData/additional/fixed1b.xml'
                     ),
                     expected=[
                         Expected(
@@ -8857,10 +8857,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196f.v"
+                    name='addB196f.v'
                 ),
             ],
-            name="addB196f"
+            name='addB196f'
         ),
         TestGroup(
             annotation=[
@@ -8868,7 +8868,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(7)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(7)',
                             ]
                         ),
                     ]
@@ -8876,13 +8876,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -8894,12 +8894,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196g"
+                name='addB196g'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1c.xml"
+                        href='../msData/additional/fixed1c.xml'
                     ),
                     expected=[
                         Expected(
@@ -8910,10 +8910,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196g.i"
+                    name='addB196g.i'
                 ),
             ],
-            name="addB196g"
+            name='addB196g'
         ),
         TestGroup(
             annotation=[
@@ -8921,7 +8921,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(8)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(8)',
                             ]
                         ),
                     ]
@@ -8929,13 +8929,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -8947,12 +8947,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196h"
+                name='addB196h'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed1d.xml"
+                        href='../msData/additional/fixed1d.xml'
                     ),
                     expected=[
                         Expected(
@@ -8963,10 +8963,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196h.v"
+                    name='addB196h.v'
                 ),
             ],
-            name="addB196h"
+            name='addB196h'
         ),
         TestGroup(
             annotation=[
@@ -8974,7 +8974,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(9)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(9)',
                             ]
                         ),
                     ]
@@ -8982,13 +8982,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -9000,12 +9000,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196i"
+                name='addB196i'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed2a.xml"
+                        href='../msData/additional/fixed2a.xml'
                     ),
                     expected=[
                         Expected(
@@ -9016,10 +9016,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196i.i"
+                    name='addB196i.i'
                 ),
             ],
-            name="addB196i"
+            name='addB196i'
         ),
         TestGroup(
             annotation=[
@@ -9027,7 +9027,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(10)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(10)',
                             ]
                         ),
                     ]
@@ -9035,13 +9035,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -9053,12 +9053,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196j"
+                name='addB196j'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed2b.xml"
+                        href='../msData/additional/fixed2b.xml'
                     ),
                     expected=[
                         Expected(
@@ -9069,10 +9069,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196j.i"
+                    name='addB196j.i'
                 ),
             ],
-            name="addB196j"
+            name='addB196j'
         ),
         TestGroup(
             annotation=[
@@ -9080,7 +9080,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(11)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(11)',
                             ]
                         ),
                     ]
@@ -9088,13 +9088,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -9106,12 +9106,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196k"
+                name='addB196k'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed3a.xml"
+                        href='../msData/additional/fixed3a.xml'
                     ),
                     expected=[
                         Expected(
@@ -9122,10 +9122,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196k.i"
+                    name='addB196k.i'
                 ),
             ],
-            name="addB196k"
+            name='addB196k'
         ),
         TestGroup(
             annotation=[
@@ -9133,7 +9133,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(12)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with fixed value(12)',
                             ]
                         ),
                     ]
@@ -9141,13 +9141,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/fixed2.xsd"
+                        href='../msData/additional/fixed2.xsd'
                     ),
                 ],
                 expected=[
@@ -9159,12 +9159,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB196l"
+                name='addB196l'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/fixed3b.xml"
+                        href='../msData/additional/fixed3b.xml'
                     ),
                     expected=[
                         Expected(
@@ -9175,10 +9175,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB196l.i"
+                    name='addB196l.i'
                 ),
             ],
-            name="addB196l"
+            name='addB196l'
         ),
         TestGroup(
             annotation=[
@@ -9186,7 +9186,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(1)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(1)',
                             ]
                         ),
                     ]
@@ -9194,13 +9194,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum1.xsd"
+                        href='../msData/additional/enum1.xsd'
                     ),
                 ],
                 expected=[
@@ -9212,12 +9212,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197a"
+                name='addB197a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1a.xml"
+                        href='../msData/additional/enum1a.xml'
                     ),
                     expected=[
                         Expected(
@@ -9228,10 +9228,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197a.v"
+                    name='addB197a.v'
                 ),
             ],
-            name="addB197a"
+            name='addB197a'
         ),
         TestGroup(
             annotation=[
@@ -9239,7 +9239,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(2)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(2)',
                             ]
                         ),
                     ]
@@ -9247,13 +9247,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum1.xsd"
+                        href='../msData/additional/enum1.xsd'
                     ),
                 ],
                 expected=[
@@ -9265,12 +9265,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197b"
+                name='addB197b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1b.xml"
+                        href='../msData/additional/enum1b.xml'
                     ),
                     expected=[
                         Expected(
@@ -9281,10 +9281,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197b.i"
+                    name='addB197b.i'
                 ),
             ],
-            name="addB197b"
+            name='addB197b'
         ),
         TestGroup(
             annotation=[
@@ -9292,7 +9292,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(3)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(3)',
                             ]
                         ),
                     ]
@@ -9300,13 +9300,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum1.xsd"
+                        href='../msData/additional/enum1.xsd'
                     ),
                 ],
                 expected=[
@@ -9318,12 +9318,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197c"
+                name='addB197c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1c.xml"
+                        href='../msData/additional/enum1c.xml'
                     ),
                     expected=[
                         Expected(
@@ -9334,10 +9334,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197c.v"
+                    name='addB197c.v'
                 ),
             ],
-            name="addB197c"
+            name='addB197c'
         ),
         TestGroup(
             annotation=[
@@ -9345,7 +9345,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(4)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(4)',
                             ]
                         ),
                     ]
@@ -9353,13 +9353,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum1.xsd"
+                        href='../msData/additional/enum1.xsd'
                     ),
                 ],
                 expected=[
@@ -9371,12 +9371,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197d"
+                name='addB197d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1d.xml"
+                        href='../msData/additional/enum1d.xml'
                     ),
                     expected=[
                         Expected(
@@ -9387,10 +9387,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197d.i"
+                    name='addB197d.i'
                 ),
             ],
-            name="addB197d"
+            name='addB197d'
         ),
         TestGroup(
             annotation=[
@@ -9398,7 +9398,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(5)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(5)',
                             ]
                         ),
                     ]
@@ -9406,13 +9406,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum2.xsd"
+                        href='../msData/additional/enum2.xsd'
                     ),
                 ],
                 expected=[
@@ -9424,12 +9424,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197e"
+                name='addB197e'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1a.xml"
+                        href='../msData/additional/enum1a.xml'
                     ),
                     expected=[
                         Expected(
@@ -9440,10 +9440,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197e.i"
+                    name='addB197e.i'
                 ),
             ],
-            name="addB197e"
+            name='addB197e'
         ),
         TestGroup(
             annotation=[
@@ -9451,7 +9451,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(6)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with enumeration value(6)',
                             ]
                         ),
                     ]
@@ -9459,13 +9459,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/enum2.xsd"
+                        href='../msData/additional/enum2.xsd'
                     ),
                 ],
                 expected=[
@@ -9477,12 +9477,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB197f"
+                name='addB197f'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/enum1c.xml"
+                        href='../msData/additional/enum1c.xml'
                     ),
                     expected=[
                         Expected(
@@ -9493,10 +9493,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB197f.i"
+                    name='addB197f.i'
                 ),
             ],
-            name="addB197f"
+            name='addB197f'
         ),
         TestGroup(
             annotation=[
@@ -9504,7 +9504,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with maxLength facet(1)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with maxLength facet(1)',
                             ]
                         ),
                     ]
@@ -9512,13 +9512,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/maxLength.xsd"
+                        href='../msData/additional/maxLength.xsd'
                     ),
                 ],
                 expected=[
@@ -9530,12 +9530,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB198a"
+                name='addB198a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/maxLength1.xml"
+                        href='../msData/additional/maxLength1.xml'
                     ),
                     expected=[
                         Expected(
@@ -9546,10 +9546,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB198a.i"
+                    name='addB198a.i'
                 ),
             ],
-            name="addB198a"
+            name='addB198a'
         ),
         TestGroup(
             annotation=[
@@ -9557,7 +9557,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with maxLength facet(2)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with maxLength facet(2)',
                             ]
                         ),
                     ]
@@ -9565,13 +9565,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/maxLength.xsd"
+                        href='../msData/additional/maxLength.xsd'
                     ),
                 ],
                 expected=[
@@ -9583,12 +9583,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB198b"
+                name='addB198b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/maxLength2.xml"
+                        href='../msData/additional/maxLength2.xml'
                     ),
                     expected=[
                         Expected(
@@ -9599,10 +9599,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB198b.i"
+                    name='addB198b.i'
                 ),
             ],
-            name="addB198b"
+            name='addB198b'
         ),
         TestGroup(
             annotation=[
@@ -9610,7 +9610,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with minLength facet(1)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with minLength facet(1)',
                             ]
                         ),
                     ]
@@ -9618,13 +9618,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/minLength.xsd"
+                        href='../msData/additional/minLength.xsd'
                     ),
                 ],
                 expected=[
@@ -9636,12 +9636,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB198c"
+                name='addB198c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/minLength1.xml"
+                        href='../msData/additional/minLength1.xml'
                     ),
                     expected=[
                         Expected(
@@ -9652,10 +9652,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB198c.v"
+                    name='addB198c.v'
                 ),
             ],
-            name="addB198c"
+            name='addB198c'
         ),
         TestGroup(
             annotation=[
@@ -9663,7 +9663,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with minLength facet(2)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with minLength facet(2)',
                             ]
                         ),
                     ]
@@ -9671,13 +9671,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/minLength.xsd"
+                        href='../msData/additional/minLength.xsd'
                     ),
                 ],
                 expected=[
@@ -9689,12 +9689,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB198d"
+                name='addB198d'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/minLength2.xml"
+                        href='../msData/additional/minLength2.xml'
                     ),
                     expected=[
                         Expected(
@@ -9705,10 +9705,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB198d.v"
+                    name='addB198d.v'
                 ),
             ],
-            name="addB198d"
+            name='addB198d'
         ),
         TestGroup(
             annotation=[
@@ -9716,7 +9716,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test with xsi type",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test with xsi type',
                             ]
                         ),
                     ]
@@ -9724,13 +9724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/xsiType.xml"
+                        href='../msData/additional/xsiType.xml'
                     ),
                     expected=[
                         Expected(
@@ -9741,10 +9741,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB199.i"
+                    name='addB199.i'
                 ),
             ],
-            name="addB199"
+            name='addB199'
         ),
         TestGroup(
             annotation=[
@@ -9752,7 +9752,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(1)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(1)',
                             ]
                         ),
                     ]
@@ -9760,13 +9760,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/idc.xsd"
+                        href='../msData/additional/idc.xsd'
                     ),
                 ],
                 expected=[
@@ -9778,12 +9778,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB200a"
+                name='addB200a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/idc1.xml"
+                        href='../msData/additional/idc1.xml'
                     ),
                     expected=[
                         Expected(
@@ -9794,10 +9794,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB200a.i"
+                    name='addB200a.i'
                 ),
             ],
-            name="addB200a"
+            name='addB200a'
         ),
         TestGroup(
             annotation=[
@@ -9805,7 +9805,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(2)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(2)',
                             ]
                         ),
                     ]
@@ -9813,13 +9813,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/idc.xsd"
+                        href='../msData/additional/idc.xsd'
                     ),
                 ],
                 expected=[
@@ -9831,12 +9831,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB200b"
+                name='addB200b'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/idc2.xml"
+                        href='../msData/additional/idc2.xml'
                     ),
                     expected=[
                         Expected(
@@ -9847,10 +9847,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB200b.i"
+                    name='addB200b.i'
                 ),
             ],
-            name="addB200b"
+            name='addB200b'
         ),
         TestGroup(
             annotation=[
@@ -9858,7 +9858,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(3)",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test identity constraints(3)',
                             ]
                         ),
                     ]
@@ -9866,13 +9866,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/idc.xsd"
+                        href='../msData/additional/idc.xsd'
                     ),
                 ],
                 expected=[
@@ -9884,12 +9884,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB200c"
+                name='addB200c'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/idc3.xml"
+                        href='../msData/additional/idc3.xml'
                     ),
                     expected=[
                         Expected(
@@ -9900,10 +9900,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB200c.i"
+                    name='addB200c.i'
                 ),
             ],
-            name="addB200c"
+            name='addB200c'
         ),
         TestGroup(
             annotation=[
@@ -9911,7 +9911,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test namespace decl",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test namespace decl',
                             ]
                         ),
                     ]
@@ -9919,13 +9919,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/ns.xsd"
+                        href='../msData/additional/ns.xsd'
                     ),
                 ],
                 expected=[
@@ -9937,12 +9937,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addB201"
+                name='addB201'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/ns.xml"
+                        href='../msData/additional/ns.xml'
                     ),
                     expected=[
                         Expected(
@@ -9953,10 +9953,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB201.i"
+                    name='addB201.i'
                 ),
             ],
-            name="addB201"
+            name='addB201'
         ),
         TestGroup(
             annotation=[
@@ -9964,7 +9964,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing - hexbin",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing - hexbin',
                             ]
                         ),
                     ]
@@ -9972,13 +9972,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/hexbin.xml"
+                        href='../msData/additional/hexbin.xml'
                     ),
                     expected=[
                         Expected(
@@ -9989,10 +9989,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB202a.i"
+                    name='addB202a.i'
                 ),
             ],
-            name="addB202a"
+            name='addB202a'
         ),
         TestGroup(
             annotation=[
@@ -10000,7 +10000,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing -datetime",
+                                'TEST :Adhoc XSD: : zero width unicode characeter test datatype parsing -datetime',
                             ]
                         ),
                     ]
@@ -10008,13 +10008,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/datetime.xml"
+                        href='../msData/additional/datetime.xml'
                     ),
                     expected=[
                         Expected(
@@ -10025,10 +10025,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addB202b.i"
+                    name='addB202b.i'
                 ),
             ],
-            name="addB202b"
+            name='addB202b'
         ),
         TestGroup(
             annotation=[
@@ -10036,7 +10036,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd without targetNamespace",
+                                'TEST :Adhoc XSD: : xsd 1.0 Prima: the po.xml and po.xsd without targetNamespace',
                             ]
                         ),
                     ]
@@ -10044,13 +10044,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/po1.xsd"
+                        href='../msData/additional/po1.xsd'
                     ),
                 ],
                 expected=[
@@ -10062,12 +10062,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addD001"
+                name='addD001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/po1.xml"
+                        href='../msData/additional/po1.xml'
                     ),
                     expected=[
                         Expected(
@@ -10078,10 +10078,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addD001.v"
+                    name='addD001.v'
                 ),
             ],
-            name="addD001"
+            name='addD001'
         ),
         TestGroup(
             annotation=[
@@ -10097,13 +10097,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/po.xsd"
+                        href='../msData/additional/po.xsd'
                     ),
                 ],
                 expected=[
@@ -10115,12 +10115,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addD002"
+                name='addD002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/po.xml"
+                        href='../msData/additional/po.xml'
                     ),
                     expected=[
                         Expected(
@@ -10131,10 +10131,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addD002.v"
+                    name='addD002.v'
                 ),
             ],
-            name="addD002"
+            name='addD002'
         ),
         TestGroup(
             annotation=[
@@ -10150,13 +10150,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/xsd.xsd"
+                        href='../msData/additional/xsd.xsd'
                     ),
                 ],
                 expected=[
@@ -10167,22 +10167,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4228'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="addD003"
+                name='addD003'
             ),
-            name="addD003"
+            name='addD003'
         ),
         TestGroup(
             annotation=[
@@ -10190,7 +10190,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a simplify version of ipo.xml without the xsi:type",
+                                'TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a simplify version of ipo.xml without the xsi:type',
                             ]
                         ),
                     ]
@@ -10198,13 +10198,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/ipo_s1.xsd"
+                        href='../msData/additional/ipo_s1.xsd'
                     ),
                 ],
                 expected=[
@@ -10216,12 +10216,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addD004"
+                name='addD004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/ipo_s1.xml"
+                        href='../msData/additional/ipo_s1.xml'
                     ),
                     expected=[
                         Expected(
@@ -10232,10 +10232,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addD004.v"
+                    name='addD004.v'
                 ),
             ],
-            name="addD004"
+            name='addD004'
         ),
         TestGroup(
             annotation=[
@@ -10243,7 +10243,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a simplify version of ipo.xml with the xsi:type",
+                                'TEST :Adhoc XSD: : SAMPLE: xsd 1.0 Sturcture spec : the ipo.xsd with a simplify version of ipo.xml with the xsi:type',
                             ]
                         ),
                     ]
@@ -10251,13 +10251,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/ipo.xsd"
+                        href='../msData/additional/ipo.xsd'
                     ),
                 ],
                 expected=[
@@ -10269,12 +10269,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="addD004a"
+                name='addD004a'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/ipo.xml"
+                        href='../msData/additional/ipo.xml'
                     ),
                     expected=[
                         Expected(
@@ -10285,10 +10285,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="addD004a.v"
+                    name='addD004a.v'
                 ),
             ],
-            name="addD004a"
+            name='addD004a'
         ),
         TestGroup(
             annotation=[
@@ -10296,7 +10296,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with no end tag",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with no end tag',
                             ]
                         ),
                     ]
@@ -10304,13 +10304,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault001.xsd"
+                        href='../msData/additional/isdefault001.xsd'
                     ),
                 ],
                 expected=[
@@ -10322,12 +10322,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault001"
+                name='isDefault001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault001.xml"
+                        href='../msData/additional/isdefault001.xml'
                     ),
                     expected=[
                         Expected(
@@ -10338,10 +10338,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault001.v"
+                    name='isDefault001.v'
                 ),
             ],
-            name="isDefault001"
+            name='isDefault001'
         ),
         TestGroup(
             annotation=[
@@ -10349,7 +10349,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with start and end tag",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with start and end tag',
                             ]
                         ),
                     ]
@@ -10357,13 +10357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault001.xsd"
+                        href='../msData/additional/isdefault001.xsd'
                     ),
                 ],
                 expected=[
@@ -10375,12 +10375,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault002"
+                name='isDefault002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault002.xml"
+                        href='../msData/additional/isdefault002.xml'
                     ),
                     expected=[
                         Expected(
@@ -10391,10 +10391,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault002.v"
+                    name='isDefault002.v'
                 ),
             ],
-            name="isDefault002"
+            name='isDefault002'
         ),
         TestGroup(
             annotation=[
@@ -10402,7 +10402,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with fixed value already present",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) for Empty Element with fixed value already present',
                             ]
                         ),
                     ]
@@ -10410,13 +10410,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault001.xsd"
+                        href='../msData/additional/isdefault001.xsd'
                     ),
                 ],
                 expected=[
@@ -10428,12 +10428,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault003"
+                name='isDefault003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault003.xml"
+                        href='../msData/additional/isdefault003.xml'
                     ),
                     expected=[
                         Expected(
@@ -10444,10 +10444,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault003.v"
+                    name='isDefault003.v'
                 ),
             ],
-            name="isDefault003"
+            name='isDefault003'
         ),
         TestGroup(
             annotation=[
@@ -10455,7 +10455,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) for Element with invalid value",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) for Element with invalid value',
                             ]
                         ),
                     ]
@@ -10463,13 +10463,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault001.xsd"
+                        href='../msData/additional/isdefault001.xsd'
                     ),
                 ],
                 expected=[
@@ -10481,12 +10481,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault004"
+                name='isDefault004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault004.xml"
+                        href='../msData/additional/isdefault004.xml'
                     ),
                     expected=[
                         Expected(
@@ -10497,10 +10497,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault004.i"
+                    name='isDefault004.i'
                 ),
             ],
-            name="isDefault004"
+            name='isDefault004'
         ),
         TestGroup(
             annotation=[
@@ -10508,7 +10508,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with no end tags",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with no end tags',
                             ]
                         ),
                     ]
@@ -10516,13 +10516,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10534,12 +10534,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault005"
+                name='isDefault005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault005.xml"
+                        href='../msData/additional/isdefault005.xml'
                     ),
                     expected=[
                         Expected(
@@ -10550,10 +10550,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault005.v"
+                    name='isDefault005.v'
                 ),
             ],
-            name="isDefault005"
+            name='isDefault005'
         ),
         TestGroup(
             annotation=[
@@ -10561,7 +10561,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with start and end tags",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with start and end tags',
                             ]
                         ),
                     ]
@@ -10569,13 +10569,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10587,12 +10587,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault006"
+                name='isDefault006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault006.xml"
+                        href='../msData/additional/isdefault006.xml'
                     ),
                     expected=[
                         Expected(
@@ -10603,10 +10603,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault006.v"
+                    name='isDefault006.v'
                 ),
             ],
-            name="isDefault006"
+            name='isDefault006'
         ),
         TestGroup(
             annotation=[
@@ -10614,7 +10614,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with fixed values present",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with fixed values present',
                             ]
                         ),
                     ]
@@ -10622,13 +10622,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10640,12 +10640,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault007"
+                name='isDefault007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault007.xml"
+                        href='../msData/additional/isdefault007.xml'
                     ),
                     expected=[
                         Expected(
@@ -10656,10 +10656,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault007.v"
+                    name='isDefault007.v'
                 ),
             ],
-            name="isDefault007"
+            name='isDefault007'
         ),
         TestGroup(
             annotation=[
@@ -10667,7 +10667,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with invalid values",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with invalid values',
                             ]
                         ),
                     ]
@@ -10675,13 +10675,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10693,12 +10693,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault008"
+                name='isDefault008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault008.xml"
+                        href='../msData/additional/isdefault008.xml'
                     ),
                     expected=[
                         Expected(
@@ -10709,10 +10709,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault008.i"
+                    name='isDefault008.i'
                 ),
             ],
-            name="isDefault008"
+            name='isDefault008'
         ),
         TestGroup(
             annotation=[
@@ -10720,7 +10720,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value(1)",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value(1)',
                             ]
                         ),
                     ]
@@ -10728,13 +10728,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10746,12 +10746,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault009"
+                name='isDefault009'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault009.xml"
+                        href='../msData/additional/isdefault009.xml'
                     ),
                     expected=[
                         Expected(
@@ -10762,10 +10762,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault009.i"
+                    name='isDefault009.i'
                 ),
             ],
-            name="isDefault009"
+            name='isDefault009'
         ),
         TestGroup(
             annotation=[
@@ -10773,7 +10773,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value (2)",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value (2)',
                             ]
                         ),
                     ]
@@ -10781,13 +10781,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10799,12 +10799,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault010"
+                name='isDefault010'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault010.xml"
+                        href='../msData/additional/isdefault010.xml'
                     ),
                     expected=[
                         Expected(
@@ -10815,10 +10815,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault010.i"
+                    name='isDefault010.i'
                 ),
             ],
-            name="isDefault010"
+            name='isDefault010'
         ),
         TestGroup(
             annotation=[
@@ -10826,7 +10826,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value(3)",
+                                'TEST :Adhoc XSD: : Check IsDefault(fixed) a sequence with elements with one invalid value(3)',
                             ]
                         ),
                     ]
@@ -10834,13 +10834,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault002.xsd"
+                        href='../msData/additional/isdefault002.xsd'
                     ),
                 ],
                 expected=[
@@ -10852,12 +10852,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault011"
+                name='isDefault011'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault011.xml"
+                        href='../msData/additional/isdefault011.xml'
                     ),
                     expected=[
                         Expected(
@@ -10868,10 +10868,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault011.i"
+                    name='isDefault011.i'
                 ),
             ],
-            name="isDefault011"
+            name='isDefault011'
         ),
         TestGroup(
             annotation=[
@@ -10879,7 +10879,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with no end tag",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with no end tag',
                             ]
                         ),
                     ]
@@ -10887,13 +10887,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault003.xsd"
+                        href='../msData/additional/isdefault003.xsd'
                     ),
                 ],
                 expected=[
@@ -10905,12 +10905,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault021"
+                name='isDefault021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault021.xml"
+                        href='../msData/additional/isdefault021.xml'
                     ),
                     expected=[
                         Expected(
@@ -10921,10 +10921,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault021.v"
+                    name='isDefault021.v'
                 ),
             ],
-            name="isDefault021"
+            name='isDefault021'
         ),
         TestGroup(
             annotation=[
@@ -10932,7 +10932,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with start and end tag",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with start and end tag',
                             ]
                         ),
                     ]
@@ -10940,13 +10940,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault003.xsd"
+                        href='../msData/additional/isdefault003.xsd'
                     ),
                 ],
                 expected=[
@@ -10958,12 +10958,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault022"
+                name='isDefault022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault022.xml"
+                        href='../msData/additional/isdefault022.xml'
                     ),
                     expected=[
                         Expected(
@@ -10974,10 +10974,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault022.v"
+                    name='isDefault022.v'
                 ),
             ],
-            name="isDefault022"
+            name='isDefault022'
         ),
         TestGroup(
             annotation=[
@@ -10985,7 +10985,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with fixed value already present",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) for Empty Element with fixed value already present',
                             ]
                         ),
                     ]
@@ -10993,13 +10993,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault003.xsd"
+                        href='../msData/additional/isdefault003.xsd'
                     ),
                 ],
                 expected=[
@@ -11011,12 +11011,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault023"
+                name='isDefault023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault023.xml"
+                        href='../msData/additional/isdefault023.xml'
                     ),
                     expected=[
                         Expected(
@@ -11027,10 +11027,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault023.v"
+                    name='isDefault023.v'
                 ),
             ],
-            name="isDefault023"
+            name='isDefault023'
         ),
         TestGroup(
             annotation=[
@@ -11038,7 +11038,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) for Element with invalid value",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) for Element with invalid value',
                             ]
                         ),
                     ]
@@ -11046,13 +11046,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault003.xsd"
+                        href='../msData/additional/isdefault003.xsd'
                     ),
                 ],
                 expected=[
@@ -11064,12 +11064,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault024"
+                name='isDefault024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault024.xml"
+                        href='../msData/additional/isdefault024.xml'
                     ),
                     expected=[
                         Expected(
@@ -11080,10 +11080,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault024.v"
+                    name='isDefault024.v'
                 ),
             ],
-            name="isDefault024"
+            name='isDefault024'
         ),
         TestGroup(
             annotation=[
@@ -11091,7 +11091,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with no end tags",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with no end tags',
                             ]
                         ),
                     ]
@@ -11099,13 +11099,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault004.xsd"
+                        href='../msData/additional/isdefault004.xsd'
                     ),
                 ],
                 expected=[
@@ -11117,12 +11117,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault025"
+                name='isDefault025'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault025.xml"
+                        href='../msData/additional/isdefault025.xml'
                     ),
                     expected=[
                         Expected(
@@ -11133,10 +11133,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault025.v"
+                    name='isDefault025.v'
                 ),
             ],
-            name="isDefault025"
+            name='isDefault025'
         ),
         TestGroup(
             annotation=[
@@ -11144,7 +11144,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with start and end tags",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with start and end tags',
                             ]
                         ),
                     ]
@@ -11152,13 +11152,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault004.xsd"
+                        href='../msData/additional/isdefault004.xsd'
                     ),
                 ],
                 expected=[
@@ -11170,12 +11170,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault026"
+                name='isDefault026'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault026.xml"
+                        href='../msData/additional/isdefault026.xml'
                     ),
                     expected=[
                         Expected(
@@ -11186,10 +11186,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault026.v"
+                    name='isDefault026.v'
                 ),
             ],
-            name="isDefault026"
+            name='isDefault026'
         ),
         TestGroup(
             annotation=[
@@ -11197,7 +11197,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with fixed values present",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with fixed values present',
                             ]
                         ),
                     ]
@@ -11205,13 +11205,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault004.xsd"
+                        href='../msData/additional/isdefault004.xsd'
                     ),
                 ],
                 expected=[
@@ -11223,12 +11223,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault027"
+                name='isDefault027'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault027.xml"
+                        href='../msData/additional/isdefault027.xml'
                     ),
                     expected=[
                         Expected(
@@ -11239,10 +11239,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault027.v"
+                    name='isDefault027.v'
                 ),
             ],
-            name="isDefault027"
+            name='isDefault027'
         ),
         TestGroup(
             annotation=[
@@ -11250,7 +11250,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with invalid values",
+                                'TEST :Adhoc XSD: : Check IsDefault(default) a sequence with elements with invalid values',
                             ]
                         ),
                     ]
@@ -11258,13 +11258,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault004.xsd"
+                        href='../msData/additional/isdefault004.xsd'
                     ),
                 ],
                 expected=[
@@ -11276,12 +11276,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault028"
+                name='isDefault028'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault028.xml"
+                        href='../msData/additional/isdefault028.xml'
                     ),
                     expected=[
                         Expected(
@@ -11292,10 +11292,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault028.v"
+                    name='isDefault028.v'
                 ),
             ],
-            name="isDefault028"
+            name='isDefault028'
         ),
         TestGroup(
             annotation=[
@@ -11303,7 +11303,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace',
                             ]
                         ),
                     ]
@@ -11311,13 +11311,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11329,12 +11329,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault051"
+                name='isDefault051'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault051.xml"
+                        href='../msData/additional/isdefault051.xml'
                     ),
                     expected=[
                         Expected(
@@ -11345,10 +11345,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault051.v"
+                    name='isDefault051.v'
                 ),
             ],
-            name="isDefault051"
+            name='isDefault051'
         ),
         TestGroup(
             annotation=[
@@ -11356,7 +11356,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(1)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(1)',
                             ]
                         ),
                     ]
@@ -11364,13 +11364,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11382,12 +11382,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault052"
+                name='isDefault052'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault052.xml"
+                        href='../msData/additional/isdefault052.xml'
                     ),
                     expected=[
                         Expected(
@@ -11398,10 +11398,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault052.i"
+                    name='isDefault052.i'
                 ),
             ],
-            name="isDefault052"
+            name='isDefault052'
         ),
         TestGroup(
             annotation=[
@@ -11409,7 +11409,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(2)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(2)',
                             ]
                         ),
                     ]
@@ -11417,13 +11417,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11435,12 +11435,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault053"
+                name='isDefault053'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault053.xml"
+                        href='../msData/additional/isdefault053.xml'
                     ),
                     expected=[
                         Expected(
@@ -11451,10 +11451,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault053.i"
+                    name='isDefault053.i'
                 ),
             ],
-            name="isDefault053"
+            name='isDefault053'
         ),
         TestGroup(
             annotation=[
@@ -11462,7 +11462,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(3)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema has no targetNamespace, one invalid(3)',
                             ]
                         ),
                     ]
@@ -11470,13 +11470,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11488,12 +11488,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault054"
+                name='isDefault054'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault054.xml"
+                        href='../msData/additional/isdefault054.xml'
                     ),
                     expected=[
                         Expected(
@@ -11504,10 +11504,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault054.i"
+                    name='isDefault054.i'
                 ),
             ],
-            name="isDefault054"
+            name='isDefault054'
         ),
         TestGroup(
             annotation=[
@@ -11515,7 +11515,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root element(empty element no end tag), schema has no targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root element(empty element no end tag), schema has no targetNamespace',
                             ]
                         ),
                     ]
@@ -11523,13 +11523,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11541,12 +11541,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault055"
+                name='isDefault055'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault055.xml"
+                        href='../msData/additional/isdefault055.xml'
                     ),
                     expected=[
                         Expected(
@@ -11557,10 +11557,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault055.v"
+                    name='isDefault055.v'
                 ),
             ],
-            name="isDefault055"
+            name='isDefault055'
         ),
         TestGroup(
             annotation=[
@@ -11568,7 +11568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root element (empty element WITH end tag), schema has no targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root element (empty element WITH end tag), schema has no targetNamespace',
                             ]
                         ),
                     ]
@@ -11576,13 +11576,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault051.xsd"
+                        href='../msData/additional/isdefault051.xsd'
                     ),
                 ],
                 expected=[
@@ -11594,12 +11594,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault056"
+                name='isDefault056'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault056.xml"
+                        href='../msData/additional/isdefault056.xml'
                     ),
                     expected=[
                         Expected(
@@ -11610,10 +11610,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault056.v"
+                    name='isDefault056.v'
                 ),
             ],
-            name="isDefault056"
+            name='isDefault056'
         ),
         TestGroup(
             annotation=[
@@ -11621,7 +11621,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all attributes, schema has no targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all attributes, schema has no targetNamespace',
                             ]
                         ),
                     ]
@@ -11629,13 +11629,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault052.xsd"
+                        href='../msData/additional/isdefault052.xsd'
                     ),
                 ],
                 expected=[
@@ -11647,12 +11647,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault057"
+                name='isDefault057'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault057.xml"
+                        href='../msData/additional/isdefault057.xml'
                     ),
                     expected=[
                         Expected(
@@ -11663,10 +11663,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault057.v"
+                    name='isDefault057.v'
                 ),
             ],
-            name="isDefault057"
+            name='isDefault057'
         ),
         TestGroup(
             annotation=[
@@ -11674,7 +11674,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no attributes, schema has no targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no attributes, schema has no targetNamespace',
                             ]
                         ),
                     ]
@@ -11682,13 +11682,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault052.xsd"
+                        href='../msData/additional/isdefault052.xsd'
                     ),
                 ],
                 expected=[
@@ -11700,12 +11700,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault058"
+                name='isDefault058'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault058.xml"
+                        href='../msData/additional/isdefault058.xml'
                     ),
                     expected=[
                         Expected(
@@ -11716,10 +11716,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault058.v"
+                    name='isDefault058.v'
                 ),
             ],
-            name="isDefault058"
+            name='isDefault058'
         ),
         TestGroup(
             annotation=[
@@ -11727,7 +11727,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace',
                             ]
                         ),
                     ]
@@ -11735,13 +11735,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -11753,12 +11753,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault061"
+                name='isDefault061'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault061.xml"
+                        href='../msData/additional/isdefault061.xml'
                     ),
                     expected=[
                         Expected(
@@ -11769,10 +11769,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault061.v"
+                    name='isDefault061.v'
                 ),
             ],
-            name="isDefault061"
+            name='isDefault061'
         ),
         TestGroup(
             annotation=[
@@ -11780,7 +11780,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(1)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(1)',
                             ]
                         ),
                     ]
@@ -11788,13 +11788,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -11806,12 +11806,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault062"
+                name='isDefault062'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault062.xml"
+                        href='../msData/additional/isdefault062.xml'
                     ),
                     expected=[
                         Expected(
@@ -11822,10 +11822,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault062.i"
+                    name='isDefault062.i'
                 ),
             ],
-            name="isDefault062"
+            name='isDefault062'
         ),
         TestGroup(
             annotation=[
@@ -11833,7 +11833,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(2)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(2)',
                             ]
                         ),
                     ]
@@ -11841,13 +11841,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -11859,12 +11859,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault063"
+                name='isDefault063'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault063.xml"
+                        href='../msData/additional/isdefault063.xml'
                     ),
                     expected=[
                         Expected(
@@ -11875,10 +11875,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault063.i"
+                    name='isDefault063.i'
                 ),
             ],
-            name="isDefault063"
+            name='isDefault063'
         ),
         TestGroup(
             annotation=[
@@ -11886,7 +11886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(3)",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) attributes on root element, schema HAS targetNamespace, one invalid(3)',
                             ]
                         ),
                     ]
@@ -11894,13 +11894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -11912,12 +11912,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault064"
+                name='isDefault064'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault064.xml"
+                        href='../msData/additional/isdefault064.xml'
                     ),
                     expected=[
                         Expected(
@@ -11928,10 +11928,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault064.i"
+                    name='isDefault064.i'
                 ),
             ],
-            name="isDefault064"
+            name='isDefault064'
         ),
         TestGroup(
             annotation=[
@@ -11939,7 +11939,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root element(empty element no end tag), schema HAS targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) No attributes on root element(empty element no end tag), schema HAS targetNamespace',
                             ]
                         ),
                     ]
@@ -11947,13 +11947,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -11965,12 +11965,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault065"
+                name='isDefault065'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault065.xml"
+                        href='../msData/additional/isdefault065.xml'
                     ),
                     expected=[
                         Expected(
@@ -11981,10 +11981,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault065.v"
+                    name='isDefault065.v'
                 ),
             ],
-            name="isDefault065"
+            name='isDefault065'
         ),
         TestGroup(
             annotation=[
@@ -11992,7 +11992,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root element (empty element WITH end tag), schema HAS targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) no attributes on root element (empty element WITH end tag), schema HAS targetNamespace',
                             ]
                         ),
                     ]
@@ -12000,13 +12000,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault061.xsd"
+                        href='../msData/additional/isdefault061.xsd'
                     ),
                 ],
                 expected=[
@@ -12018,12 +12018,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault066"
+                name='isDefault066'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault066.xml"
+                        href='../msData/additional/isdefault066.xml'
                     ),
                     expected=[
                         Expected(
@@ -12034,10 +12034,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault066.v"
+                    name='isDefault066.v'
                 ),
             ],
-            name="isDefault066"
+            name='isDefault066'
         ),
         TestGroup(
             annotation=[
@@ -12045,7 +12045,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all attributes, schema HAS targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with all attributes, schema HAS targetNamespace',
                             ]
                         ),
                     ]
@@ -12053,13 +12053,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault062.xsd"
+                        href='../msData/additional/isdefault062.xsd'
                     ),
                 ],
                 expected=[
@@ -12071,12 +12071,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault067"
+                name='isDefault067'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault067.xml"
+                        href='../msData/additional/isdefault067.xml'
                     ),
                     expected=[
                         Expected(
@@ -12087,10 +12087,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault067.v"
+                    name='isDefault067.v'
                 ),
             ],
-            name="isDefault067"
+            name='isDefault067'
         ),
         TestGroup(
             annotation=[
@@ -12098,7 +12098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no attributes, schema HAS targetNamespace",
+                                'TEST :Adhoc XSD: : Attributes: IsDefault(fixed) Local Element with no attributes, schema HAS targetNamespace',
                             ]
                         ),
                     ]
@@ -12106,13 +12106,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault062.xsd"
+                        href='../msData/additional/isdefault062.xsd'
                     ),
                 ],
                 expected=[
@@ -12124,12 +12124,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault068"
+                name='isDefault068'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault068.xml"
+                        href='../msData/additional/isdefault068.xml'
                     ),
                     expected=[
                         Expected(
@@ -12140,10 +12140,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault068.v"
+                    name='isDefault068.v'
                 ),
             ],
-            name="isDefault068"
+            name='isDefault068'
         ),
         TestGroup(
             annotation=[
@@ -12151,7 +12151,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema.",
+                                'TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema.',
                             ]
                         ),
                     ]
@@ -12159,13 +12159,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test95960_1.xsd"
+                        href='../msData/additional/test95960_1.xsd'
                     ),
                 ],
                 expected=[
@@ -12177,12 +12177,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault060_1"
+                name='isDefault060_1'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/test95960_1.xml"
+                        href='../msData/additional/test95960_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -12193,10 +12193,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault060_1.v"
+                    name='isDefault060_1.v'
                 ),
             ],
-            name="isDefault060_1"
+            name='isDefault060_1'
         ),
         TestGroup(
             annotation=[
@@ -12204,7 +12204,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema(2).",
+                                'TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema(2).',
                             ]
                         ),
                         Documentation(
@@ -12217,16 +12217,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test95960_2.xsd"
+                        href='../msData/additional/test95960_2.xsd'
                     ),
                 ],
                 expected=[
@@ -12246,22 +12246,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 1, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="isDefault060_2"
+                name='isDefault060_2'
             ),
-            name="isDefault060_2"
+            name='isDefault060_2'
         ),
         TestGroup(
             annotation=[
@@ -12269,7 +12269,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema(3).",
+                                'TEST :Adhoc XSD: : test empty element typed as xsd:int with default value set in schema(3).',
                             ]
                         ),
                         Documentation(
@@ -12282,16 +12282,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/test95960_2.xsd"
+                        href='../msData/additional/test95960_2.xsd'
                     ),
                 ],
                 expected=[
@@ -12311,22 +12311,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2010, 1, 22),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4077'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="isDefault069"
+                name='isDefault069'
             ),
-            name="isDefault069"
+            name='isDefault069'
         ),
         TestGroup(
             annotation=[
@@ -12334,7 +12334,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : element of type xs:anyType with value not matching the fixed value in the schema should error(invalid)",
+                                'TEST :Adhoc XSD: : element of type xs:anyType with value not matching the fixed value in the schema should error(invalid)',
                             ]
                         ),
                     ]
@@ -12342,13 +12342,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault070.xsd"
+                        href='../msData/additional/isdefault070.xsd'
                     ),
                 ],
                 expected=[
@@ -12360,12 +12360,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault070"
+                name='isDefault070'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault070.xml"
+                        href='../msData/additional/isdefault070.xml'
                     ),
                     expected=[
                         Expected(
@@ -12376,10 +12376,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault070.i"
+                    name='isDefault070.i'
                 ),
             ],
-            name="isDefault070"
+            name='isDefault070'
         ),
         TestGroup(
             annotation=[
@@ -12387,7 +12387,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : element of type xs:anyType with value not matching the fixed value in the schema should error(valid)",
+                                'TEST :Adhoc XSD: : element of type xs:anyType with value not matching the fixed value in the schema should error(valid)',
                             ]
                         ),
                     ]
@@ -12395,13 +12395,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault070.xsd"
+                        href='../msData/additional/isdefault070.xsd'
                     ),
                 ],
                 expected=[
@@ -12413,12 +12413,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault071"
+                name='isDefault071'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault071.xml"
+                        href='../msData/additional/isdefault071.xml'
                     ),
                     expected=[
                         Expected(
@@ -12429,10 +12429,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault071.v"
+                    name='isDefault071.v'
                 ),
             ],
-            name="isDefault071"
+            name='isDefault071'
         ),
         TestGroup(
             annotation=[
@@ -12448,13 +12448,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault072.xsd"
+                        href='../msData/additional/isdefault072.xsd'
                     ),
                 ],
                 expected=[
@@ -12466,12 +12466,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault072"
+                name='isDefault072'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault072.xml"
+                        href='../msData/additional/isdefault072.xml'
                     ),
                     expected=[
                         Expected(
@@ -12482,10 +12482,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault072.v"
+                    name='isDefault072.v'
                 ),
             ],
-            name="isDefault072"
+            name='isDefault072'
         ),
         TestGroup(
             annotation=[
@@ -12493,7 +12493,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : element of type xs:anyType with a default and fixed value",
+                                'TEST :Adhoc XSD: : element of type xs:anyType with a default and fixed value',
                             ]
                         ),
                     ]
@@ -12501,13 +12501,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault073.xsd"
+                        href='../msData/additional/isdefault073.xsd'
                     ),
                 ],
                 expected=[
@@ -12519,12 +12519,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault073"
+                name='isDefault073'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault073.xml"
+                        href='../msData/additional/isdefault073.xml'
                     ),
                     expected=[
                         Expected(
@@ -12535,10 +12535,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault073.v"
+                    name='isDefault073.v'
                 ),
             ],
-            name="isDefault073"
+            name='isDefault073'
         ),
         TestGroup(
             annotation=[
@@ -12546,7 +12546,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : attribute of type xs:anySimpleType with a default and fixed value",
+                                'TEST :Adhoc XSD: : attribute of type xs:anySimpleType with a default and fixed value',
                             ]
                         ),
                     ]
@@ -12554,13 +12554,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault074.xsd"
+                        href='../msData/additional/isdefault074.xsd'
                     ),
                 ],
                 expected=[
@@ -12572,12 +12572,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault074"
+                name='isDefault074'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault074.xml"
+                        href='../msData/additional/isdefault074.xml'
                     ),
                     expected=[
                         Expected(
@@ -12588,10 +12588,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault074.v"
+                    name='isDefault074.v'
                 ),
             ],
-            name="isDefault074"
+            name='isDefault074'
         ),
         TestGroup(
             annotation=[
@@ -12599,7 +12599,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : default value on mixed content",
+                                'TEST :Adhoc XSD: : default value on mixed content',
                             ]
                         ),
                     ]
@@ -12607,13 +12607,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault075.xsd"
+                        href='../msData/additional/isdefault075.xsd'
                     ),
                 ],
                 expected=[
@@ -12625,12 +12625,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault075"
+                name='isDefault075'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault075.xml"
+                        href='../msData/additional/isdefault075.xml'
                     ),
                     expected=[
                         Expected(
@@ -12641,10 +12641,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault075.v"
+                    name='isDefault075.v'
                 ),
             ],
-            name="isDefault075"
+            name='isDefault075'
         ),
         TestGroup(
             annotation=[
@@ -12652,7 +12652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : fixed value on mixed content",
+                                'TEST :Adhoc XSD: : fixed value on mixed content',
                             ]
                         ),
                     ]
@@ -12660,13 +12660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault076.xsd"
+                        href='../msData/additional/isdefault076.xsd'
                     ),
                 ],
                 expected=[
@@ -12678,12 +12678,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault076"
+                name='isDefault076'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault075.xml"
+                        href='../msData/additional/isdefault075.xml'
                     ),
                     expected=[
                         Expected(
@@ -12694,10 +12694,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault076.v"
+                    name='isDefault076.v'
                 ),
             ],
-            name="isDefault076"
+            name='isDefault076'
         ),
         TestGroup(
             annotation=[
@@ -12705,7 +12705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : fixed value on mixed content with invalid value in XML",
+                                'TEST :Adhoc XSD: : fixed value on mixed content with invalid value in XML',
                             ]
                         ),
                     ]
@@ -12713,13 +12713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault076.xsd"
+                        href='../msData/additional/isdefault076.xsd'
                     ),
                 ],
                 expected=[
@@ -12731,12 +12731,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault077"
+                name='isDefault077'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault076.xml"
+                        href='../msData/additional/isdefault076.xml'
                     ),
                     expected=[
                         Expected(
@@ -12747,10 +12747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault077.i"
+                    name='isDefault077.i'
                 ),
             ],
-            name="isDefault077"
+            name='isDefault077'
         ),
         TestGroup(
             annotation=[
@@ -12758,7 +12758,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : map xml namespace in the instance to be able to insert default attributes from xml namespace",
+                                'TEST :Adhoc XSD: : map xml namespace in the instance to be able to insert default attributes from xml namespace',
                             ]
                         ),
                     ]
@@ -12766,13 +12766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault078.xsd"
+                        href='../msData/additional/isdefault078.xsd'
                     ),
                 ],
                 expected=[
@@ -12784,12 +12784,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault078"
+                name='isDefault078'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault078.xml"
+                        href='../msData/additional/isdefault078.xml'
                     ),
                     expected=[
                         Expected(
@@ -12800,10 +12800,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault078.v"
+                    name='isDefault078.v'
                 ),
             ],
-            name="isDefault078"
+            name='isDefault078'
         ),
         TestGroup(
             annotation=[
@@ -12819,13 +12819,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/isdefault079.xsd"
+                        href='../msData/additional/isdefault079.xsd'
                     ),
                 ],
                 expected=[
@@ -12837,12 +12837,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="isDefault079"
+                name='isDefault079'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/isdefault079.xml"
+                        href='../msData/additional/isdefault079.xml'
                     ),
                     expected=[
                         Expected(
@@ -12853,10 +12853,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="isDefault079.v"
+                    name='isDefault079.v'
                 ),
             ],
-            name="isDefault079"
+            name='isDefault079'
         ),
         TestGroup(
             annotation=[
@@ -12864,7 +12864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element : membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element : membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -12872,13 +12872,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType001.xsd"
+                        href='../msData/additional/memberType001.xsd'
                     ),
                 ],
                 expected=[
@@ -12890,12 +12890,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType001"
+                name='memberType001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType001.xml"
+                        href='../msData/additional/memberType001.xml'
                     ),
                     expected=[
                         Expected(
@@ -12906,10 +12906,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType001.v"
+                    name='memberType001.v'
                 ),
             ],
-            name="memberType001"
+            name='memberType001'
         ),
         TestGroup(
             annotation=[
@@ -12917,7 +12917,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -12925,13 +12925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType001.xsd"
+                        href='../msData/additional/memberType001.xsd'
                     ),
                 ],
                 expected=[
@@ -12943,12 +12943,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType002"
+                name='memberType002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType002.xml"
+                        href='../msData/additional/memberType002.xml'
                     ),
                     expected=[
                         Expected(
@@ -12959,10 +12959,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType002.v"
+                    name='memberType002.v'
                 ),
             ],
-            name="memberType002"
+            name='memberType002'
         ),
         TestGroup(
             annotation=[
@@ -12970,7 +12970,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attribute: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Attribute: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -12978,13 +12978,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType002.xsd"
+                        href='../msData/additional/memberType002.xsd'
                     ),
                 ],
                 expected=[
@@ -12996,12 +12996,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType003"
+                name='memberType003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType003.xml"
+                        href='../msData/additional/memberType003.xml'
                     ),
                     expected=[
                         Expected(
@@ -13012,10 +13012,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType003.v"
+                    name='memberType003.v'
                 ),
             ],
-            name="memberType003"
+            name='memberType003'
         ),
         TestGroup(
             annotation=[
@@ -13023,7 +13023,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element with default value: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element with default value: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -13031,13 +13031,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType003.xsd"
+                        href='../msData/additional/memberType003.xsd'
                     ),
                 ],
                 expected=[
@@ -13049,12 +13049,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType004"
+                name='memberType004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType004.xml"
+                        href='../msData/additional/memberType004.xml'
                     ),
                     expected=[
                         Expected(
@@ -13065,10 +13065,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType004.v"
+                    name='memberType004.v'
                 ),
             ],
-            name="memberType004"
+            name='memberType004'
         ),
         TestGroup(
             annotation=[
@@ -13076,7 +13076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attribute with default value: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Attribute with default value: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -13084,13 +13084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType004.xsd"
+                        href='../msData/additional/memberType004.xsd'
                     ),
                 ],
                 expected=[
@@ -13102,12 +13102,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType005"
+                name='memberType005'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType005.xml"
+                        href='../msData/additional/memberType005.xml'
                     ),
                     expected=[
                         Expected(
@@ -13118,10 +13118,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType005.v"
+                    name='memberType005.v'
                 ),
             ],
-            name="memberType005"
+            name='memberType005'
         ),
         TestGroup(
             annotation=[
@@ -13129,7 +13129,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element with xsi:type: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element with xsi:type: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -13137,13 +13137,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType001.xsd"
+                        href='../msData/additional/memberType001.xsd'
                     ),
                 ],
                 expected=[
@@ -13155,12 +13155,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType006"
+                name='memberType006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType006.xml"
+                        href='../msData/additional/memberType006.xml'
                     ),
                     expected=[
                         Expected(
@@ -13171,10 +13171,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType006.v"
+                    name='memberType006.v'
                 ),
             ],
-            name="memberType006"
+            name='memberType006'
         ),
         TestGroup(
             annotation=[
@@ -13182,7 +13182,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element with xsi:type: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element with xsi:type: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -13190,13 +13190,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType001.xsd"
+                        href='../msData/additional/memberType001.xsd'
                     ),
                 ],
                 expected=[
@@ -13208,12 +13208,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType007"
+                name='memberType007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType007.xml"
+                        href='../msData/additional/memberType007.xml'
                     ),
                     expected=[
                         Expected(
@@ -13224,10 +13224,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType007.v"
+                    name='memberType007.v'
                 ),
             ],
-            name="memberType007"
+            name='memberType007'
         ),
         TestGroup(
             annotation=[
@@ -13235,7 +13235,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element with default value and xsi:type: membertype of union(bool,int,string)",
+                                'TEST :Adhoc XSD: : Element with default value and xsi:type: membertype of union(bool,int,string)',
                             ]
                         ),
                     ]
@@ -13243,13 +13243,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType003.xsd"
+                        href='../msData/additional/memberType003.xsd'
                     ),
                 ],
                 expected=[
@@ -13261,12 +13261,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType008"
+                name='memberType008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType008.xml"
+                        href='../msData/additional/memberType008.xml'
                     ),
                     expected=[
                         Expected(
@@ -13277,10 +13277,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType008.v"
+                    name='memberType008.v'
                 ),
             ],
-            name="memberType008"
+            name='memberType008'
         ),
         TestGroup(
             annotation=[
@@ -13288,7 +13288,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element of union of user defined typees(mybool,myint,mystring)",
+                                'TEST :Adhoc XSD: : Element of union of user defined typees(mybool,myint,mystring)',
                             ]
                         ),
                     ]
@@ -13296,13 +13296,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType021.xsd"
+                        href='../msData/additional/memberType021.xsd'
                     ),
                 ],
                 expected=[
@@ -13314,12 +13314,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType021"
+                name='memberType021'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType021.xml"
+                        href='../msData/additional/memberType021.xml'
                     ),
                     expected=[
                         Expected(
@@ -13330,10 +13330,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType021.v"
+                    name='memberType021.v'
                 ),
             ],
-            name="memberType021"
+            name='memberType021'
         ),
         TestGroup(
             annotation=[
@@ -13341,7 +13341,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Element of union of user defined typees(mybool,myint,mystring) with default value",
+                                'TEST :Adhoc XSD: : Element of union of user defined typees(mybool,myint,mystring) with default value',
                             ]
                         ),
                     ]
@@ -13349,13 +13349,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType022.xsd"
+                        href='../msData/additional/memberType022.xsd'
                     ),
                 ],
                 expected=[
@@ -13367,12 +13367,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType022"
+                name='memberType022'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType022.xml"
+                        href='../msData/additional/memberType022.xml'
                     ),
                     expected=[
                         Expected(
@@ -13383,10 +13383,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType022.v"
+                    name='memberType022.v'
                 ),
             ],
-            name="memberType022"
+            name='memberType022'
         ),
         TestGroup(
             annotation=[
@@ -13394,7 +13394,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attribute of union of user defined typees(mybool,myint,mystring)",
+                                'TEST :Adhoc XSD: : Attribute of union of user defined typees(mybool,myint,mystring)',
                             ]
                         ),
                     ]
@@ -13402,13 +13402,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType023.xsd"
+                        href='../msData/additional/memberType023.xsd'
                     ),
                 ],
                 expected=[
@@ -13420,12 +13420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType023"
+                name='memberType023'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType023.xml"
+                        href='../msData/additional/memberType023.xml'
                     ),
                     expected=[
                         Expected(
@@ -13436,10 +13436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType023.v"
+                    name='memberType023.v'
                 ),
             ],
-            name="memberType023"
+            name='memberType023'
         ),
         TestGroup(
             annotation=[
@@ -13447,7 +13447,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Adhoc XSD: : Attribute of union of user defined typees(mybool,myint,mystring) with default value",
+                                'TEST :Adhoc XSD: : Attribute of union of user defined typees(mybool,myint,mystring) with default value',
                             ]
                         ),
                     ]
@@ -13455,13 +13455,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href=""
+                    href=''
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/additional/memberType024.xsd"
+                        href='../msData/additional/memberType024.xsd'
                     ),
                 ],
                 expected=[
@@ -13473,12 +13473,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="memberType024"
+                name='memberType024'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/additional/memberType024.xml"
+                        href='../msData/additional/memberType024.xml'
                     ),
                     expected=[
                         Expected(
@@ -13489,15 +13489,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="memberType024.v"
+                    name='memberType024.v'
                 ),
             ],
-            name="memberType024"
+            name='memberType024'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Additional2006-07-15",
+    contributor='Microsoft',
+    name='MS-Additional2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

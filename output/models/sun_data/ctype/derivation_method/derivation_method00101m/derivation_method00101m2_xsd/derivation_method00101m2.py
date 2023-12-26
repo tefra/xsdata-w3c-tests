@@ -18,7 +18,7 @@ class B1(A):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

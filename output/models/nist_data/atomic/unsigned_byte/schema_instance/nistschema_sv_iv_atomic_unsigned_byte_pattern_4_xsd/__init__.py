@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.unsigned_byte.schema_instance.nistschema_sv_iv_atomic_unsigned_byte_pattern_4_xsd.nistschema_sv_iv_atomic_unsigned_byte_pattern_4 import NistschemaSvIvAtomicUnsignedBytePattern4
+from output.models.nist_data.atomic.unsigned_byte.schema_instance.nistschema_sv_iv_atomic_unsigned_byte_pattern_4_xsd.nistschema_sv_iv_atomic_unsigned_byte_pattern_4 import (
+    NistschemaSvIvAtomicUnsignedBytePattern4,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicUnsignedBytePattern4",

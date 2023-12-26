@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenMaxLength3(
-    value="and:available_a:suite"
+    value='and:available_a:suite'
 )

@@ -19,7 +19,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "format": "base64",
-        }
+        },
     )
 
 

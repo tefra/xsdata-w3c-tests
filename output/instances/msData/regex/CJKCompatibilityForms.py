@@ -2,5 +2,5 @@ from output.models.ms_data.regex.cjkcompatibility_forms_xsd.cjkcompatibility_for
 
 
 obj = Doc(
-    value="︰︱︲︳︴︵︶︷︸︹︺︻︼︽︾︿﹀﹁﹂﹃﹄﹅﹆﹇﹈﹉﹊﹋﹌﹍﹎﹏"
+    value='︰︱︲︳︴︵︶︷︸︹︺︻︼︽︾︿﹀﹁﹂﹃﹄﹅﹆﹇﹈﹉﹊﹋﹌﹍﹎﹏'
 )

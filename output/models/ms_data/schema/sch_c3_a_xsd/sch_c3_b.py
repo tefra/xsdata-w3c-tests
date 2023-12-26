@@ -13,7 +13,7 @@ class CtB:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     b2: Optional[int] = field(
         default=None,
@@ -21,7 +21,7 @@ class CtB:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

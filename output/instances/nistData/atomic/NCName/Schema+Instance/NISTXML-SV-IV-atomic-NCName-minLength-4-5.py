@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength4(
-    value="_for-for.offer-languages_would-diagnostic.maintained.for.effort-"
+    value='_for-for.offer-languages_would-diagnostic.maintained.for.effort-'
 )

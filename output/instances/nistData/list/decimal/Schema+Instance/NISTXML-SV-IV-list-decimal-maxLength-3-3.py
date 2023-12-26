@@ -4,11 +4,11 @@ from output.models.nist_data.list_pkg.decimal.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListDecimalMaxLength3(
     value=[
-        Decimal("594567881.936831664"),
-        Decimal("464617633.852312573"),
-        Decimal("737475323.034224624"),
-        Decimal("327829878.558407896"),
-        Decimal("216523451.894813842"),
-        Decimal("272285665.416928821"),
+        Decimal('594567881.936831664'),
+        Decimal('464617633.852312573'),
+        Decimal('737475323.034224624'),
+        Decimal('327829878.558407896'),
+        Decimal('216523451.894813842'),
+        Decimal('272285665.416928821'),
     ]
 )

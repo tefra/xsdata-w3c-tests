@@ -4,12 +4,12 @@ from output.models.ms_data.element.elem_r004_xsd.elem_r004 import Usaddress
 
 obj = PurchaseOrder(
     ship_to=Usaddress(
-        name="Alice Smith",
-        street="123 Maple Street"
+        name='Alice Smith',
+        street='123 Maple Street'
     ),
     bill_to=Usaddress(
-        name="Robert Smith",
-        street="8 Oak Avenue"
+        name='Robert Smith',
+        street='8 Oak Avenue'
     ),
-    comment="Hurry, my lawn is going wild!"
+    comment='Hurry, my lawn is going wild!'
 )

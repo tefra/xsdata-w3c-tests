@@ -13,7 +13,7 @@ class Global1:
         default="",
         metadata={
             "pattern": r"false",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class Global2:
         default="",
         metadata={
             "pattern": r"false",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

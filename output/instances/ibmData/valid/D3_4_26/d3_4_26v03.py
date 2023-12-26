@@ -4,7 +4,7 @@ from xsdata.models.datatype import XmlDuration
 
 obj = Root(
     ely_mdunion_a=[
-        "Computer",
+        'Computer',
         XmlDuration("P12Y34M"),
     ],
     ely_mdunion_b=[
@@ -14,6 +14,6 @@ obj = Root(
     ely_mdunion_c=[
         XmlDuration("P35Y3M"),
         1,
-        "once",
+        'once',
     ]
 )

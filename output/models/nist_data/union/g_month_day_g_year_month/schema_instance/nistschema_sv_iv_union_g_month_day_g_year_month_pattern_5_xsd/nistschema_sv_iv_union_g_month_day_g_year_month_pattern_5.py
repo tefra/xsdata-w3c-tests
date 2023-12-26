@@ -13,5 +13,5 @@ class NistschemaSvIvUnionGMonthDayGYearMonthPattern5:
         default="",
         metadata={
             "pattern": r"19\d\d-\d9",
-        }
+        },
     )

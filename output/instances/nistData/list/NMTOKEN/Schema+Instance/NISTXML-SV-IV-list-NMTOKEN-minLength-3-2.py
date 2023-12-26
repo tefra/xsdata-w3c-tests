@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength3(
     value=[
-        "gain.wir",
-        "Markup.t",
-        "XML-rela",
-        "and_indu",
-        "provides",
-        "for_disc",
-        "standard",
-        "and:must",
+        'gain.wir',
+        'Markup.t',
+        'XML-rela',
+        'and_indu',
+        'provides',
+        'for_disc',
+        'standard',
+        'and:must',
     ]
 )

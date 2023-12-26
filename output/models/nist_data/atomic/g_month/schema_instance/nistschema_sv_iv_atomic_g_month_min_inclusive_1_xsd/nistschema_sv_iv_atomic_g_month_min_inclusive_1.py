@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicGMonthMinInclusive1:
         metadata={
             "required": True,
             "min_inclusive": XmlPeriod("--01"),
-        }
+        },
     )

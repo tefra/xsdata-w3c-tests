@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMinLength4(
-    value="r defining data  known as HTML  has led to the creation of the world s first digital library  Using the simplicity of HTML with more advanced concepts from the publishing community has led to the creation of a second-generation Internet language called the Extensible Markup Language  XML   which is rapid"
+    value='r defining data  known as HTML  has led to the creation of the world s first digital library  Using the simplicity of HTML with more advanced concepts from the publishing community has led to the creation of a second-generation Internet language called the Extensible Markup Language  XML   which is rapid'
 )

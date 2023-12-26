@@ -6,7 +6,7 @@ obj = Doc(
     elem=AttRef(
         foo=123,
         foo_attributes={
-            "{foo}a": "b",
+            '{foo}a': 'b',
         }
     )
 )

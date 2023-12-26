@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern3(
-    value=":a-a.and_s-for-used_means-high_we"
+    value=':a-a.and_s-for-used_means-high_we'
 )

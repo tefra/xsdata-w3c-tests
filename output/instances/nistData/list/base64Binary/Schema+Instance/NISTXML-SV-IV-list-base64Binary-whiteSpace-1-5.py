@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.base64_binary.schema_instance.nistschema_s
 
 obj = NistschemaSvIvListBase64BinaryWhiteSpace1(
     value=[
-        b"tnvxdpufyhxepmmkyauymvxetyxofsjtpqfwqncmmrpofedspkctlkpicpvftwu",
-        b"wlvaaymqckwrldxvcldxskuhsvewafogclflcjwlmydpsyubaxbdnjclklasnny",
-        b"rnkdwiiotauwgkrbmtfyuhggbetuvtthenvyxleinxbbtspvjqecgwfookwakbt",
-        b"cgtodawoopwkeaselgqcoxbfopxxybjputkcgygafjmtgxewivnfmwlkwnhxdcr",
-        b"ytcurwfyqyqeviokjoladyiwhvslkmxpwdgjmetlhrvmbrvrovaboqnestlhvhs",
-        b"iunpkvuugvbkgvgcxrhfumfuroyvumagrtjpsblnlooflcejftrcjflbqbqfjnm",
-        b"cvwxxdehvnjqqvvlkyycnbbfdnakhciqdqdmsbepthgfulgjpitmiwbbwnwmkrd",
+        b'tnvxdpufyhxepmmkyauymvxetyxofsjtpqfwqncmmrpofedspkctlkpicpvftwu',
+        b'wlvaaymqckwrldxvcldxskuhsvewafogclflcjwlmydpsyubaxbdnjclklasnny',
+        b'rnkdwiiotauwgkrbmtfyuhggbetuvtthenvyxleinxbbtspvjqecgwfookwakbt',
+        b'cgtodawoopwkeaselgqcoxbfopxxybjputkcgygafjmtgxewivnfmwlkwnhxdcr',
+        b'ytcurwfyqyqeviokjoladyiwhvslkmxpwdgjmetlhrvmbrvrovaboqnestlhvhs',
+        b'iunpkvuugvbkgvgcxrhfumfuroyvumagrtjpsblnlooflcejftrcjflbqbqfjnm',
+        b'cvwxxdehvnjqqvvlkyycnbbfdnakhciqdqdmsbepthgfulgjpitmiwbbwnwmkrd',
     ]
 )

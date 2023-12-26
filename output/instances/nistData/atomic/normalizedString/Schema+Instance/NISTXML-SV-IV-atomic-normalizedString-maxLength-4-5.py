@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMaxLength4(
-    value="f the most popular languages in the world  XML is being incorporated into web pages and applications alike  particularly in those involved in electronic commerce applications  It is a language that describes information in a way that allows computers to exchange and"
+    value='f the most popular languages in the world  XML is being incorporated into web pages and applications alike  particularly in those involved in electronic commerce applications  It is a language that describes information in a way that allows computers to exchange and'
 )

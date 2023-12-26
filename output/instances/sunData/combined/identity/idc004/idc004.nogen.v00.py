@@ -8,27 +8,27 @@ obj = Root(
     state=[
         State(
             code=[
-                "CA",
+                'CA',
             ],
             vehicle=[
                 Vehicle(
                     plate_number=123,
-                    state="CA"
+                    state='CA'
                 ),
                 Vehicle(
                     plate_number=456,
-                    state="CA"
+                    state='CA'
                 ),
             ],
             person=[
                 Person(
                     car=[
                         Person.Car(
-                            reg_state="CA",
+                            reg_state='CA',
                             reg_plate=123
                         ),
                         Person.Car(
-                            reg_state="NY",
+                            reg_state='NY',
                             reg_plate=123
                         ),
                     ]
@@ -37,12 +37,12 @@ obj = Root(
         ),
         State(
             code=[
-                "NY",
+                'NY',
             ],
             vehicle=[
                 Vehicle(
                     plate_number=123,
-                    state="NY"
+                    state='NY'
                 ),
             ]
         ),

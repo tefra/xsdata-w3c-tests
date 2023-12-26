@@ -12,42 +12,42 @@ class Root:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     language: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     ncname: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     idref: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     idrefs: List[str] = field(
         default_factory=list,
@@ -55,14 +55,14 @@ class Root:
             "type": "Element",
             "required": True,
             "tokens": True,
-        }
+        },
     )
     nmtoken: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     nmtokens: List[str] = field(
         default_factory=list,
@@ -70,5 +70,5 @@ class Root:
             "type": "Element",
             "required": True,
             "tokens": True,
-        }
+        },
     )

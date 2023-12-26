@@ -12,12 +12,12 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     att: str = field(
         init=False,
         default="Ѐfixed",
         metadata={
             "type": "Attribute",
-        }
+        },
     )

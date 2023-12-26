@@ -14,7 +14,7 @@ class Elem1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Elem2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -53,7 +53,7 @@ class RootType:
                     "namespace": "http://xstest-tns/ibms3_3_6_v01",
                 },
             ),
-        }
+        },
     )
 
 

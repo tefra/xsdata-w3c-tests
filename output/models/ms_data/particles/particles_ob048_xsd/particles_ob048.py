@@ -11,7 +11,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "foo bar",
-        }
+        },
     )
 
 
@@ -22,7 +22,7 @@ class R(B):
         metadata={
             "type": "Wildcard",
             "namespace": "bar",
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

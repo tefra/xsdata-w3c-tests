@@ -16,5 +16,5 @@ class NistschemaSvIvListQnameLength1:
         metadata={
             "length": 5,
             "tokens": True,
-        }
+        },
     )

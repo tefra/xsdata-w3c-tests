@@ -11,13 +11,13 @@ class RootType:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     attr: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

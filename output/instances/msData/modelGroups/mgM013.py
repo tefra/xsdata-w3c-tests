@@ -8,8 +8,8 @@ obj = Doc(
     any_element=AnyElement(
         children=[
             Foo(
-                e1="",
-                e2=""
+                e1='',
+                e2=''
             ),
             Global(
 

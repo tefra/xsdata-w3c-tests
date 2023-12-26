@@ -15,5 +15,5 @@ class NistschemaSvIvListGMonthPattern1:
         metadata={
             "pattern": r"--\d9 --\d4 --\d0 --0\d --\d3 --\d8 --0\d --\d1",
             "tokens": True,
-        }
+        },
     )

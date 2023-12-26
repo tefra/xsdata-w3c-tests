@@ -13,7 +13,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     date: Optional[XmlDate] = field(
         default=None,
@@ -21,7 +21,7 @@ class A:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -36,5 +36,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

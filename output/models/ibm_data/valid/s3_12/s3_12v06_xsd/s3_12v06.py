@@ -14,14 +14,14 @@ class ChildTypeBase:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     dob: Optional[object] = field(
         default=None,
         metadata={
             "name": "DOB",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -35,7 +35,7 @@ class ChildTypeDerived(ChildTypeBase):
         metadata={
             "name": "DOB",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -49,14 +49,14 @@ class CtBase:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     number_of_children: Optional[int] = field(
         default=None,
         metadata={
             "name": "numberOfChildren",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -71,7 +71,7 @@ class CtAlt1(CtBase):
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -93,5 +93,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )

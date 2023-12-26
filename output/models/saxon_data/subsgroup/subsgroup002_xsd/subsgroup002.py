@@ -25,7 +25,7 @@ class Back:
                     "type": str,
                 },
             ),
-        }
+        },
     )
 
 
@@ -52,7 +52,7 @@ class Body:
                     "type": str,
                 },
             ),
-        }
+        },
     )
 
 
@@ -65,7 +65,7 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -79,12 +79,12 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     back: Optional[Back] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

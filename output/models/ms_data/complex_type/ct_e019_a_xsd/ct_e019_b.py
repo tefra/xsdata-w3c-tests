@@ -13,7 +13,7 @@ class Mytype1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     attr_test1: Optional[int] = field(
         default=None,
@@ -21,7 +21,7 @@ class Mytype1:
             "name": "attrTest1",
             "type": "Attribute",
             "namespace": "a",
-        }
+        },
     )
     attr_test2: Optional[str] = field(
         default=None,
@@ -29,7 +29,7 @@ class Mytype1:
             "name": "attrTest2",
             "type": "Attribute",
             "namespace": "a",
-        }
+        },
     )
 
 

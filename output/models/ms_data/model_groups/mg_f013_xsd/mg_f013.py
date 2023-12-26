@@ -12,7 +12,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     b_or_b2: Optional[str] = field(
         default=None,
@@ -30,7 +30,7 @@ class Foo:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     c: Optional[bool] = field(
         default=None,
@@ -38,7 +38,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     a: Optional[int] = field(
         default=None,
@@ -46,7 +46,7 @@ class Foo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     w3_org_1999_xhtml_element: List[object] = field(
         default_factory=list,
@@ -54,7 +54,7 @@ class Foo:
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
             "process_contents": "skip",
-        }
+        },
     )
 
 

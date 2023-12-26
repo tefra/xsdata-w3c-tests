@@ -6,66 +6,66 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     any_element=[
         E1(
-            a1="abc",
-            a2="abc"
+            a1='abc',
+            a2='abc'
         ),
         AnyElement(
-            qname="{ns-b}e1",
-            text="",
+            qname='{ns-b}e1',
+            text='',
             children=[
                 AnyElement(
-                    qname="a1",
-                    text="0"
+                    qname='a1',
+                    text='0'
                 ),
                 AnyElement(
-                    qname="a2",
-                    text="true"
+                    qname='a2',
+                    text='true'
                 ),
             ]
         ),
         AnyElement(
-            qname="e1",
-            text="",
+            qname='e1',
+            text='',
             children=[
                 AnyElement(
-                    qname="a1",
-                    text="123"
+                    qname='a1',
+                    text='123'
                 ),
                 AnyElement(
-                    qname="a2",
-                    text="123"
+                    qname='a2',
+                    text='123'
                 ),
             ]
         ),
         E1(
-            a1="abc",
-            a2="abc"
+            a1='abc',
+            a2='abc'
         ),
         AnyElement(
-            qname="{ns-b}e1",
-            text="",
+            qname='{ns-b}e1',
+            text='',
             children=[
                 AnyElement(
-                    qname="a1",
-                    text="0"
+                    qname='a1',
+                    text='0'
                 ),
                 AnyElement(
-                    qname="a2",
-                    text="true"
+                    qname='a2',
+                    text='true'
                 ),
             ]
         ),
         AnyElement(
-            qname="e1",
-            text="",
+            qname='e1',
+            text='',
             children=[
                 AnyElement(
-                    qname="a1",
-                    text="123"
+                    qname='a1',
+                    text='123'
                 ),
                 AnyElement(
-                    qname="a2",
-                    text="123"
+                    qname='a2',
+                    text='123'
                 ),
             ]
         ),

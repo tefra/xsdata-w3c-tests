@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t_or_u: List[Union[Decimal, str]] = field(
+    t_or_u: List[Union[str, Decimal]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -25,7 +25,7 @@ class Root:
                     "type": Decimal,
                 },
             ),
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class T:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -53,5 +53,5 @@ class U:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

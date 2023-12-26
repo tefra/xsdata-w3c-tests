@@ -14,21 +14,21 @@ class EventType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     scope: Optional[ScopeType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -38,21 +38,21 @@ class PropertyType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     scope: Optional[ScopeType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     type_value: Optional[str] = field(
         default=None,
@@ -60,7 +60,7 @@ class PropertyType:
             "name": "type",
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 
@@ -71,7 +71,7 @@ class EventsType:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -81,26 +81,26 @@ class ClassType:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     property: List[PropertyType] = field(
         default_factory=list,
         metadata={
             "type": "Element",
-        }
+        },
     )
     name: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
     inherits: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -112,7 +112,7 @@ class JsmlDocumentType:
             "name": "class",
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 

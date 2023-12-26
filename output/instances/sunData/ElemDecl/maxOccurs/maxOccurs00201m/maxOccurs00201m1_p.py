@@ -6,7 +6,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     local=Local(
         any_element=AnyElement(
-            text="2"
+            text='2'
         )
     )
 )

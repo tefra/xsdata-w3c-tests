@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration',
                     },
                     content=[
-                        "yearMonthDuration.",
+                        'yearMonthDuration.',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType yearMonthDuration and its facets and its use in elements ",
+                                'Tests the simpleType yearMonthDuration and its facets and its use in elements ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v01s"
+                name='d3_4_26v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v01i"
+                    name='d3_4_26v01i'
                 ),
             ],
-            name="d3_4_26v01",
+            name='d3_4_26v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType decimal and its facets and its use in attributes ",
+                                'Tests the simpleType decimal and its facets and its use in attributes ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v02s"
+                name='d3_4_26v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,10 +141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v02i"
+                    name='d3_4_26v02i'
                 ),
             ],
-            name="d3_4_26v02",
+            name='d3_4_26v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -155,7 +155,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests yearMonthDuration used in unions ",
+                                'Tests yearMonthDuration used in unions ',
                             ]
                         ),
                     ]
@@ -163,16 +163,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v03.xsd'
                     ),
                 ],
                 expected=[
@@ -184,12 +184,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v03s"
+                name='d3_4_26v03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v03.xml'
                     ),
                     expected=[
                         Expected(
@@ -200,10 +200,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v03i"
+                    name='d3_4_26v03i'
                 ),
             ],
-            name="d3_4_26v03",
+            name='d3_4_26v03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -214,7 +214,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ",
+                                'Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ',
                             ]
                         ),
                     ]
@@ -222,16 +222,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v04.xsd'
                     ),
                 ],
                 expected=[
@@ -243,12 +243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v04s"
+                name='d3_4_26v04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v04.xml'
                     ),
                     expected=[
                         Expected(
@@ -259,10 +259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v04i"
+                    name='d3_4_26v04i'
                 ),
             ],
-            name="d3_4_26v04",
+            name='d3_4_26v04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ",
+                                'Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ',
                             ]
                         ),
                     ]
@@ -281,16 +281,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v05.xsd'
                     ),
                 ],
                 expected=[
@@ -302,12 +302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v05s"
+                name='d3_4_26v05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v05.xml'
                     ),
                     expected=[
                         Expected(
@@ -318,10 +318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v05i"
+                    name='d3_4_26v05i'
                 ),
             ],
-            name="d3_4_26v05",
+            name='d3_4_26v05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -332,7 +332,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Pattern is a valid facet for yearMonthDuration ",
+                                'Pattern is a valid facet for yearMonthDuration ',
                             ]
                         ),
                     ]
@@ -340,16 +340,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xsd"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v06.xsd'
                     ),
                 ],
                 expected=[
@@ -361,12 +361,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26v06s"
+                name='d3_4_26v06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xml"
+                        href='../ibmData/valid/D3_4_26/d3_4_26v06.xml'
                     ),
                     expected=[
                         Expected(
@@ -377,10 +377,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26v06i"
+                    name='d3_4_26v06i'
                 ),
             ],
-            name="d3_4_26v06",
+            name='d3_4_26v06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -391,7 +391,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Invalid yearMonthDuration values ",
+                                'Invalid yearMonthDuration values ',
                             ]
                         ),
                     ]
@@ -399,16 +399,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd'
                     ),
                 ],
                 expected=[
@@ -420,12 +420,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii01s"
+                name='d3_4_26ii01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml'
                     ),
                     expected=[
                         Expected(
@@ -436,10 +436,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii01i"
+                    name='d3_4_26ii01i'
                 ),
             ],
-            name="d3_4_26ii01",
+            name='d3_4_26ii01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -450,7 +450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Invalid yearMonthDuration enumeration values  ",
+                                'Invalid yearMonthDuration enumeration values  ',
                             ]
                         ),
                     ]
@@ -458,16 +458,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd'
                     ),
                 ],
                 expected=[
@@ -479,12 +479,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii02s"
+                name='d3_4_26ii02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml'
                     ),
                     expected=[
                         Expected(
@@ -495,10 +495,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii02i"
+                    name='d3_4_26ii02i'
                 ),
             ],
-            name="d3_4_26ii02",
+            name='d3_4_26ii02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -509,7 +509,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Invalid yearMonthDuration Min/Max Inclusive ",
+                                'Invalid yearMonthDuration Min/Max Inclusive ',
                             ]
                         ),
                     ]
@@ -517,16 +517,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd'
                     ),
                 ],
                 expected=[
@@ -538,12 +538,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii03s"
+                name='d3_4_26ii03s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml'
                     ),
                     expected=[
                         Expected(
@@ -554,10 +554,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii03i"
+                    name='d3_4_26ii03i'
                 ),
             ],
-            name="d3_4_26ii03",
+            name='d3_4_26ii03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -568,7 +568,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Invalid yearMonthDuration Min/Max Exclusive ",
+                                'Invalid yearMonthDuration Min/Max Exclusive ',
                             ]
                         ),
                     ]
@@ -576,16 +576,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd'
                     ),
                 ],
                 expected=[
@@ -597,12 +597,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii04s"
+                name='d3_4_26ii04s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml'
                     ),
                     expected=[
                         Expected(
@@ -613,10 +613,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii04i"
+                    name='d3_4_26ii04i'
                 ),
             ],
-            name="d3_4_26ii04",
+            name='d3_4_26ii04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -627,7 +627,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Invalid values of yearMonthDuration and invalid instance of its facets used in attributes ",
+                                'Invalid values of yearMonthDuration and invalid instance of its facets used in attributes ',
                             ]
                         ),
                     ]
@@ -635,16 +635,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd'
                     ),
                 ],
                 expected=[
@@ -656,12 +656,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii05s"
+                name='d3_4_26ii05s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml'
                     ),
                     expected=[
                         Expected(
@@ -672,10 +672,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii05i"
+                    name='d3_4_26ii05i'
                 ),
             ],
-            name="d3_4_26ii05",
+            name='d3_4_26ii05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -686,7 +686,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests yearMonthDuration used in unions ",
+                                'Tests yearMonthDuration used in unions ',
                             ]
                         ),
                     ]
@@ -694,16 +694,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd'
                     ),
                 ],
                 expected=[
@@ -715,12 +715,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii06s"
+                name='d3_4_26ii06s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml'
                     ),
                     expected=[
                         Expected(
@@ -731,10 +731,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii06i"
+                    name='d3_4_26ii06i'
                 ),
             ],
-            name="d3_4_26ii06",
+            name='d3_4_26ii06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -745,7 +745,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes",
+                                'Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes',
                             ]
                         ),
                     ]
@@ -753,16 +753,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd'
                     ),
                 ],
                 expected=[
@@ -774,12 +774,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26ii07s"
+                name='d3_4_26ii07s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml"
+                        href='../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml'
                     ),
                     expected=[
                         Expected(
@@ -790,10 +790,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_4_26ii07i"
+                    name='d3_4_26ii07i'
                 ),
             ],
-            name="d3_4_26ii07",
+            name='d3_4_26ii07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -804,7 +804,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "length is an invalid facet for yearMonthDuration ",
+                                'length is an invalid facet for yearMonthDuration ',
                             ]
                         ),
                     ]
@@ -812,16 +812,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si01.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si01.xsd'
                     ),
                 ],
                 expected=[
@@ -833,9 +833,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si01s"
+                name='d3_4_26si01s'
             ),
-            name="d3_4_26si01",
+            name='d3_4_26si01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -846,7 +846,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "(min|max)? (Inclusive|Exclusive) are not of the base type specification  ",
+                                '(min|max)? (Inclusive|Exclusive) are not of the base type specification  ',
                             ]
                         ),
                     ]
@@ -854,16 +854,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si02.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si02.xsd'
                     ),
                 ],
                 expected=[
@@ -875,9 +875,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si02s"
+                name='d3_4_26si02s'
             ),
-            name="d3_4_26si02",
+            name='d3_4_26si02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -888,7 +888,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive) ",
+                                'min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive) ',
                             ]
                         ),
                     ]
@@ -896,16 +896,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si03.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si03.xsd'
                     ),
                 ],
                 expected=[
@@ -917,9 +917,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si03s"
+                name='d3_4_26si03s'
             ),
-            name="d3_4_26si03",
+            name='d3_4_26si03',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -930,7 +930,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType ",
+                                'Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType ',
                             ]
                         ),
                     ]
@@ -938,16 +938,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si04.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si04.xsd'
                     ),
                 ],
                 expected=[
@@ -959,9 +959,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si04s"
+                name='d3_4_26si04s'
             ),
-            name="d3_4_26si04",
+            name='d3_4_26si04',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -972,7 +972,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The value of minInclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
+                                'The value of minInclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type',
                             ]
                         ),
                     ]
@@ -980,16 +980,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si05.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si05.xsd'
                     ),
                 ],
                 expected=[
@@ -1001,9 +1001,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si05s"
+                name='d3_4_26si05s'
             ),
-            name="d3_4_26si05",
+            name='d3_4_26si05',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1014,7 +1014,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
+                                'The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type',
                             ]
                         ),
                     ]
@@ -1022,16 +1022,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si06.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si06.xsd'
                     ),
                 ],
                 expected=[
@@ -1043,9 +1043,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si06s"
+                name='d3_4_26si06s'
             ),
-            name="d3_4_26si06",
+            name='d3_4_26si06',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1056,7 +1056,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
+                                'The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type',
                             ]
                         ),
                     ]
@@ -1064,16 +1064,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si07.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si07.xsd'
                     ),
                 ],
                 expected=[
@@ -1085,9 +1085,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si07s"
+                name='d3_4_26si07s'
             ),
-            name="d3_4_26si07",
+            name='d3_4_26si07',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1098,7 +1098,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The value of maxExclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
+                                'The value of maxExclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type',
                             ]
                         ),
                     ]
@@ -1106,16 +1106,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si08.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si08.xsd'
                     ),
                 ],
                 expected=[
@@ -1127,9 +1127,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si08s"
+                name='d3_4_26si08s'
             ),
-            name="d3_4_26si08",
+            name='d3_4_26si08',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1140,7 +1140,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Enumeration values are incorrect yearMonthDuration values ",
+                                'Enumeration values are incorrect yearMonthDuration values ',
                             ]
                         ),
                     ]
@@ -1148,16 +1148,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si09.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si09.xsd'
                     ),
                 ],
                 expected=[
@@ -1169,9 +1169,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si09s"
+                name='d3_4_26si09s'
             ),
-            name="d3_4_26si09",
+            name='d3_4_26si09',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1182,7 +1182,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "The value of whiteSpace facet can only be collapse ",
+                                'The value of whiteSpace facet can only be collapse ',
                             ]
                         ),
                     ]
@@ -1190,16 +1190,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si10.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si10.xsd'
                     ),
                 ],
                 expected=[
@@ -1211,9 +1211,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si10s"
+                name='d3_4_26si10s'
             ),
-            name="d3_4_26si10",
+            name='d3_4_26si10',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1224,7 +1224,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type",
+                                'Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type',
                             ]
                         ),
                     ]
@@ -1232,16 +1232,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si11.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si11.xsd'
                     ),
                 ],
                 expected=[
@@ -1253,9 +1253,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si11s"
+                name='d3_4_26si11s'
             ),
-            name="d3_4_26si11",
+            name='d3_4_26si11',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -1266,7 +1266,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Tests negative boundary values and equality.&#10; (min)(Inclusive|Exclusive) &gt; (max)(Inclusive|Exclusive) ",
+                                'Tests negative boundary values and equality.\n (min)(Inclusive|Exclusive) > (max)(Inclusive|Exclusive) ',
                             ]
                         ),
                     ]
@@ -1274,16 +1274,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
+                    href='http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si12.xsd"
+                        href='../ibmData/schema_invalid/D3_4_26/d3_4_26si12.xsd'
                     ),
                 ],
                 expected=[
@@ -1295,17 +1295,17 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_4_26si12s"
+                name='d3_4_26si12s'
             ),
-            name="d3_4_26si12",
+            name='d3_4_26si12',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="yearMonthDuration",
+    contributor='IBM',
+    name='yearMonthDuration',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

@@ -8,24 +8,24 @@ obj = Doc(
         Elem(
             any_element=[
                 AnyElement(
-                    qname="b",
-                    text=""
+                    qname='b',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{http://foo}b",
-                    text=""
+                    qname='{http://foo}b',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{xmlns}b",
-                    text=""
+                    qname='{xmlns}b',
+                    text=''
                 ),
                 AnyElement(
-                    qname="b",
-                    text=""
+                    qname='b',
+                    text=''
                 ),
                 AnyElement(
-                    qname="b",
-                    text=""
+                    qname='b',
+                    text=''
                 ),
             ]
         ),

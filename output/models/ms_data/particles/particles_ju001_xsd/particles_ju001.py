@@ -14,7 +14,7 @@ class B:
                 "##local ##targetNamespace foo http://importedXSD bar"
             ),
             "max_occurs": 4,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class R(B):
             "namespace": "",
             "min_occurs": 2,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -43,5 +43,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

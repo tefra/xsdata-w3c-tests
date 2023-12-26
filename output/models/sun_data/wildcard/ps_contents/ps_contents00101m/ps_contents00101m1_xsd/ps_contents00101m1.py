@@ -16,7 +16,7 @@ class A:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Date:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

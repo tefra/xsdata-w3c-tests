@@ -13,7 +13,7 @@ class A:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -27,7 +27,7 @@ class B:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class C:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

@@ -5,12 +5,12 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     test3=DerivedElement(
-        qname="test3",
+        qname='test3',
         value=RCa(
             x=[
-                "",
+                '',
             ]
         ),
-        type="R-CA"
+        type='R-CA'
     )
 )

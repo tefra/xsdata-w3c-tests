@@ -12,7 +12,7 @@ class Root:
             "min_occurs": 2,
             "max_occurs": 4,
             "sequence": 1,
-        }
+        },
     )
     b: List[object] = field(
         default_factory=list,
@@ -21,5 +21,5 @@ class Root:
             "namespace": "",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )

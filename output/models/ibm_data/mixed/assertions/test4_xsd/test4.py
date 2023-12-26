@@ -13,7 +13,7 @@ class Phonebill:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     rent: Optional[int] = field(
         default=None,
@@ -21,12 +21,12 @@ class Phonebill:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     cust_id: Optional[str] = field(
         default=None,
         metadata={
             "name": "custId",
             "type": "Attribute",
-        }
+        },
     )

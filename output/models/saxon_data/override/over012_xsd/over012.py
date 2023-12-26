@@ -12,19 +12,19 @@ class StructuredDate:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     month: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     day: Optional[int] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

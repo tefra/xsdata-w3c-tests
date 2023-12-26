@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength5(
-    value="kis.the-with_a.competence:used-collaborate_technologies-informat"
+    value='kis.the-with_a.competence:used-collaborate_technologies-informat'
 )

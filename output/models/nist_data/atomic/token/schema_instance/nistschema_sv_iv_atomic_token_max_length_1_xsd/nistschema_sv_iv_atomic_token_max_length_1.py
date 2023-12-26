@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicTokenMaxLength1:
         metadata={
             "required": True,
             "max_length": 0,
-        }
+        },
     )

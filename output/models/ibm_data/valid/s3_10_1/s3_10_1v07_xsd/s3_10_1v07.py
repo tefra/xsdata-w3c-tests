@@ -15,7 +15,7 @@ class T:
             "type": "Wildcard",
             "namespace": "a",
             "process_contents": "skip",
-        }
+        },
     )
 
 
@@ -29,7 +29,7 @@ class X:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 

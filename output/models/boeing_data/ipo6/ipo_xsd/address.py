@@ -13,5 +13,5 @@ class Salutation:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

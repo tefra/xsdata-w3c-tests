@@ -3,11 +3,11 @@ from output.models.nist_data.list_pkg.byte.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListBytePattern1(
     value=[
-        "-114",
-        "-67",
-        "-2",
-        "4",
-        "64",
-        "115",
+        '-114',
+        '-67',
+        '-2',
+        '4',
+        '64',
+        '115',
     ]
 )

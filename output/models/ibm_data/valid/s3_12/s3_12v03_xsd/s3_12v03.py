@@ -14,7 +14,7 @@ class TitleType:
         metadata={
             "name": "type",
             "type": "Attribute",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -22,7 +22,7 @@ class TitleType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -39,7 +39,7 @@ class Root:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 5,
-        }
+        },
     )
 
     @dataclass
@@ -49,7 +49,7 @@ class Root:
             metadata={
                 "name": "type",
                 "type": "Attribute",
-            }
+            },
         )
 
     @dataclass
@@ -59,5 +59,5 @@ class Root:
             metadata={
                 "name": "type",
                 "type": "Attribute",
-            }
+            },
         )

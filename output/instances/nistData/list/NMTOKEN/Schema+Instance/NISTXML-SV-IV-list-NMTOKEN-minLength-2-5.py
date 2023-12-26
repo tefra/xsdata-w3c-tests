@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength2(
     value=[
-        "particular:Advanc",
-        "the.and:A.Advance",
-        "community.of-rece",
-        "such.to:Styleshee",
-        "organization_soft",
-        "ensure.testing-wo",
-        "pervasive:for-for",
-        "Work.to.will_comm",
+        'particular:Advanc',
+        'the.and:A.Advance',
+        'community.of-rece',
+        'such.to:Styleshee',
+        'organization_soft',
+        'ensure.testing-wo',
+        'pervasive:for-for',
+        'Work.to.will_comm',
     ]
 )

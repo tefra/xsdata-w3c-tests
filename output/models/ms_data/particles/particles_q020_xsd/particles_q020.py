@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
-from output.models.ms_data.particles.particles_q020_xsd.particles_q020_imp import Bar
+from output.models.ms_data.particles.particles_q020_xsd.particles_q020_imp import (
+    Bar,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -12,7 +14,7 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     other_element: List[object] = field(
         default_factory=list,
@@ -20,7 +22,7 @@ class B:
             "type": "Wildcard",
             "namespace": "##other",
             "max_occurs": 4,
-        }
+        },
     )
 
 
@@ -31,7 +33,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     bar: List[Bar] = field(
         default_factory=list,
@@ -39,7 +41,7 @@ class R:
             "type": "Element",
             "namespace": "foo",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -54,5 +56,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

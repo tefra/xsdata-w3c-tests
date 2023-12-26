@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
-        }
+        },
     )
     a: List[object] = field(
         default_factory=list,
@@ -17,28 +17,28 @@ class B:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     b: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     c: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     d: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 

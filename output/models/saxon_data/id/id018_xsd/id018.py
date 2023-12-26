@@ -11,13 +11,13 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     entity: str = field(
         default="entity1 entity2",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -31,5 +31,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

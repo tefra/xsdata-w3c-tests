@@ -18,7 +18,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
     test_gyear_month: List[XmlPeriod] = field(
         default_factory=list,
@@ -27,7 +27,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
     test_gmonth_day: List[XmlPeriod] = field(
         default_factory=list,
@@ -36,7 +36,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
     test_gday: List[XmlPeriod] = field(
         default_factory=list,
@@ -45,7 +45,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
     test_gmonth: List[XmlPeriod] = field(
         default_factory=list,
@@ -54,7 +54,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
     test_gyear: List[XmlPeriod] = field(
         default_factory=list,
@@ -63,7 +63,7 @@ class Root:
             "type": "Element",
             "min_occurs": 2,
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -77,7 +77,7 @@ class TestDate:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -91,7 +91,7 @@ class TestGday:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -105,7 +105,7 @@ class TestGmonth:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -119,7 +119,7 @@ class TestGmonthDay:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -133,7 +133,7 @@ class TestGyear:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -147,5 +147,5 @@ class TestGyearMonth:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

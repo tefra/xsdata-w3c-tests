@@ -15,19 +15,19 @@ class Root:
         metadata={
             "name": "str00Aー",
             "type": "Attribute",
-        }
+        },
     )
     str10: Optional[str] = field(
         default=None,
         metadata={
             "name": "str10-ヽ",
             "type": "Attribute",
-        }
+        },
     )
     str20: Optional[str] = field(
         default=None,
         metadata={
             "name": "str20ヾ",
             "type": "Attribute",
-        }
+        },
     )

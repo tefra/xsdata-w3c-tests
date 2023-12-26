@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.normalized_string.schema_instance.nistschema
 
 
 obj = NistschemaSvIvAtomicNormalizedStringMinLength4(
-    value="The advent of Internet-enabled browsers and a first-generation language fo"
+    value='The advent of Internet-enabled browsers and a first-generation language fo'
 )

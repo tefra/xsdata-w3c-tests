@@ -11,5 +11,5 @@ class Root:
         metadata={
             "required": True,
             "length": 5,
-        }
+        },
     )

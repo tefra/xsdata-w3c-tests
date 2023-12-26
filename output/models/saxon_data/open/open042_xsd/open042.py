@@ -13,7 +13,7 @@ class Beta:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )
 
 
@@ -40,5 +40,5 @@ class Doc:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )

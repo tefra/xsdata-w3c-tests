@@ -24,5 +24,5 @@ class NistschemaSvIvAtomicGMonthEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

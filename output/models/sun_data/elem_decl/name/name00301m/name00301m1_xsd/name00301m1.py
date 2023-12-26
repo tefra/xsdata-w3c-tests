@@ -16,7 +16,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -32,7 +32,7 @@ class Type1:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -48,5 +48,5 @@ class Type2:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

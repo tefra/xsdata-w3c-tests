@@ -12,14 +12,14 @@ class CtA:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     a2: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
 
 
@@ -33,7 +33,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

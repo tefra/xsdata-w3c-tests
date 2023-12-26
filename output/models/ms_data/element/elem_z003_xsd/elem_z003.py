@@ -100,7 +100,7 @@ class Container1:
     class Meta:
         name = "CONTAINER"
 
-    choice: List[Union[A, D, C, F, G, B, E]] = field(
+    choice: List[Union[G, F, E, D, C, B, A]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -141,7 +141,7 @@ class Container1:
                     "namespace": "http://www.microsoft.com/schema/1",
                 },
             ),
-        }
+        },
     )
 
 

@@ -21,7 +21,7 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )
 
 
@@ -36,5 +36,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

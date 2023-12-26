@@ -16,14 +16,14 @@ class NsAAft:
             "namespace": "",
             "min_occurs": 1,
             "max_occurs": 10,
-        }
+        },
     )
     y: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -45,7 +45,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    a_or_abc: Optional[Union[Abc, str]] = field(
+    a_or_abc: Optional[Union[str, Abc]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -61,7 +61,7 @@ class Foo:
                     "namespace": "ns-a",
                 },
             ),
-        }
+        },
     )
 
 

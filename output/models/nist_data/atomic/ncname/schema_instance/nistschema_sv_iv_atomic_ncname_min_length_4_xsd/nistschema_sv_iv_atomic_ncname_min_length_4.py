@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNcnameMinLength4:
         metadata={
             "required": True,
             "min_length": 60,
-        }
+        },
     )

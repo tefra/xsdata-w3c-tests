@@ -24,5 +24,5 @@ class NistschemaSvIvAtomicGYearEnumeration3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

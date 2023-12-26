@@ -25,5 +25,5 @@ class Root:
                     "type": QName,
                 },
             ),
-        }
+        },
     )

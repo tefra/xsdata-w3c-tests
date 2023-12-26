@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameLength2(
-    value="mlack_documents.by_repository.is.standards.that.be-and-discus"
+    value='mlack_documents.by_repository.is.standards.that.be-and-discus'
 )

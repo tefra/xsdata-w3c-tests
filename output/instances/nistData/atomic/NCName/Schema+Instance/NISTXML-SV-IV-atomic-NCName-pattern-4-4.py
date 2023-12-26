@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnamePattern4(
-    value="_a_and_with.t"
+    value='_a_and_with.t'
 )

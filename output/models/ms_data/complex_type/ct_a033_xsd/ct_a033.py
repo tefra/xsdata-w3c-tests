@@ -13,7 +13,7 @@ class FooType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMinLength2(
-    value="hif.testability_partnership-manipulation.transforming_allow-as:"
+    value='hif.testability_partnership-manipulation.transforming_allow-as:'
 )

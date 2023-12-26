@@ -15,7 +15,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     e2: Optional["T.E2"] = field(
         default=None,
@@ -23,7 +23,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     e3: Optional["T.E3"] = field(
         default=None,
@@ -31,7 +31,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
     e4: Optional["T.E4"] = field(
         default=None,
@@ -39,7 +39,7 @@ class T:
             "type": "Element",
             "namespace": "a",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -49,7 +49,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##other",
-            }
+            },
         )
 
     @dataclass
@@ -59,7 +59,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##targetNamespace",
-            }
+            },
         )
 
     @dataclass
@@ -69,7 +69,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##local",
-            }
+            },
         )
 
     @dataclass
@@ -79,7 +79,7 @@ class T:
             metadata={
                 "type": "Attributes",
                 "namespace": "##any",
-            }
+            },
         )
 
 

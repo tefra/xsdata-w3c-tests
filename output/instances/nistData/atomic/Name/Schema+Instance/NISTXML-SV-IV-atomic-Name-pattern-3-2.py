@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNamePattern3(
-    value="_the.the-a:raised-to-review-to-hi"
+    value='_the.the-a:raised-to-review-to-hi'
 )

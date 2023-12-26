@@ -13,7 +13,7 @@ class Foo:
             "name": "myEle1",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     my_ele2: Optional[int] = field(
         default=None,
@@ -21,7 +21,7 @@ class Foo:
             "name": "myEle2",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     my_ele3: Optional[int] = field(
         default=None,
@@ -29,14 +29,14 @@ class Foo:
             "name": "myEle3",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     any_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,14 +52,14 @@ class FooType(Foo):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 

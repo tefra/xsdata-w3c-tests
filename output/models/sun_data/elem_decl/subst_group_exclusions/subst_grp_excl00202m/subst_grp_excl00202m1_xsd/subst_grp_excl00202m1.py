@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/substGroupExclusions",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/substGroupExclusions",
-        }
+        },
     )
 
 
@@ -46,7 +46,7 @@ class Member3(HeadType):
         metadata={
             "name": "Nose",
             "type": "Element",
-        }
+        },
     )
 
 
@@ -56,7 +56,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/substGroupExclusions"
 
-    member3_or_member1_or_head: List[Union[Member3, Head, Member1]] = field(
+    member3_or_member1_or_head: List[Union[Member3, Member1, Head]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -74,5 +74,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

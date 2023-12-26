@@ -3,14 +3,14 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguageWhiteSpace1(
     value=[
-        "FO",
-        "PT",
-        "ZH",
-        "UZ",
-        "VO",
-        "TI",
-        "VI",
-        "SR",
-        "LN",
+        'FO',
+        'PT',
+        'ZH',
+        'UZ',
+        'VO',
+        'TI',
+        'VI',
+        'SR',
+        'LN',
     ]
 )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.string.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicStringMaxLength4(
-    value="The advent of Internet-enabled browsers and a&#10;first"
+    value='The advent of Internet-enabled browsers and a\nfirst'
 )

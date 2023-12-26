@@ -5,8 +5,8 @@ from output.models.ms_data.particles.particles_ju001_xsd.particles_ju001 import 
 obj = Doc(
     elem=R(
         e1=[
-            "",
-            "",
+            '',
+            '',
         ]
     )
 )

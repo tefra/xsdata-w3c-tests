@@ -11,7 +11,7 @@ class Foo:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -24,13 +24,13 @@ class TestElem(Foo):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     age: Optional[int] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     att_fix: int = field(
         init=False,
@@ -38,7 +38,7 @@ class TestElem(Foo):
         metadata={
             "name": "attFix",
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -53,7 +53,7 @@ class DocElem:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 

@@ -5,7 +5,7 @@ from output.models.ms_data.regex.re_dg1_xsd.re_dg1 import Regex
 obj = Doc(
     elem=[
         Regex(
-            att="1999-12-12"
+            att='1999-12-12'
         ),
     ]
 )

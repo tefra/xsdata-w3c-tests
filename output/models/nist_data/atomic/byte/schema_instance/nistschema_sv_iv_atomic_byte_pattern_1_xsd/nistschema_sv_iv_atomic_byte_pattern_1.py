@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicBytePattern1:
         metadata={
             "required": True,
             "pattern": r"\-\d{3}",
-        }
+        },
     )

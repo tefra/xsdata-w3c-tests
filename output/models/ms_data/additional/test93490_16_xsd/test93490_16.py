@@ -18,7 +18,7 @@ class SchemaType:
             "type": "Wildcard",
             "namespace": "##any",
             "process_contents": "skip",
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
@@ -27,7 +27,7 @@ class SchemaType:
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
             "required": True,
-        }
+        },
     )
     namespace: Optional[str] = field(
         default=None,
@@ -36,7 +36,7 @@ class SchemaType:
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
             "required": True,
-        }
+        },
     )
     schema_ref: Optional[str] = field(
         default=None,
@@ -44,7 +44,7 @@ class SchemaType:
             "name": "SchemaRef",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-        }
+        },
     )
 
 
@@ -62,7 +62,7 @@ class MapInfoType:
             "type": "Element",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
             "min_occurs": 1,
-        }
+        },
     )
     hide_inactive_list_border: MapInfoTypeHideInactiveListBorder = field(
         default=MapInfoTypeHideInactiveListBorder.FALSE,
@@ -70,7 +70,7 @@ class MapInfoType:
             "name": "HideInactiveListBorder",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-        }
+        },
     )
     selection_namespaces: Optional[str] = field(
         default=None,
@@ -78,7 +78,7 @@ class MapInfoType:
             "name": "SelectionNamespaces",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-        }
+        },
     )
     hide_single_mapped_cell_border: TruefalseType = field(
         default=TruefalseType.TRUE,
@@ -86,7 +86,7 @@ class MapInfoType:
             "name": "HideSingleMappedCellBorder",
             "type": "Attribute",
             "namespace": "http://schemas.microsoft.com/office/excel/2003/xml",
-        }
+        },
     )
 
 

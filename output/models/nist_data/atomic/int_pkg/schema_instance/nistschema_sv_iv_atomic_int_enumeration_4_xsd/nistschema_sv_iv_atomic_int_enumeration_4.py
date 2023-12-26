@@ -26,5 +26,5 @@ class NistschemaSvIvAtomicIntEnumeration4:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

@@ -5,11 +5,11 @@ from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_i
 obj = Out(
     any_element=NistschemaSvIvListIdLength1(
         value=[
-            "dvia.areas.technolog",
-            "tbased.exchange_proc",
-            "xto-under-with_in-ho",
-            "nsoftware-build_spec",
-            "dof.by-cross-over_mo",
+            'dvia.areas.technolog',
+            'tbased.exchange_proc',
+            'xto-under-with_in-ho',
+            'nsoftware-build_spec',
+            'dof.by-cross-over_mo',
         ]
     )
 )

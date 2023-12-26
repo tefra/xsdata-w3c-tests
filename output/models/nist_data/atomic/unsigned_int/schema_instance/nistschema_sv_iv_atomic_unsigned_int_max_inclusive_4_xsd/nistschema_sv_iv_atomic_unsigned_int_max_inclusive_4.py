@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicUnsignedIntMaxInclusive4:
         metadata={
             "required": True,
             "max_inclusive": 3479012164,
-        }
+        },
     )

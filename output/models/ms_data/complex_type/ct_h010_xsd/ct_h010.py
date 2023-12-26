@@ -14,7 +14,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_element2: Optional[str] = field(
         default=None,
@@ -23,7 +23,7 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_element3: Optional[str] = field(
         default=None,
@@ -32,14 +32,14 @@ class MyType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     local_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={
             "type": "Attributes",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -55,35 +55,35 @@ class FooType(MyType):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     my_attr1: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr1",
             "type": "Attribute",
-        }
+        },
     )
     my_attr2: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr2",
             "type": "Attribute",
-        }
+        },
     )
     my_attr3: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr3",
             "type": "Attribute",
-        }
+        },
     )
     my_attr4: Optional[object] = field(
         default=None,
         metadata={
             "name": "myAttr4",
             "type": "Attribute",
-        }
+        },
     )
 
 

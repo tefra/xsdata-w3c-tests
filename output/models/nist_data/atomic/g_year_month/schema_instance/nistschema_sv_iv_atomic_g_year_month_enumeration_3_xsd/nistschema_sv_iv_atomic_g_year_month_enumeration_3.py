@@ -24,5 +24,5 @@ class NistschemaSvIvAtomicGYearMonthEnumeration3:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

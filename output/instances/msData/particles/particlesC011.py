@@ -8,16 +8,16 @@ obj = Doc(
         AnyType(
             xslt_element=[
                 AnyElement(
-                    qname="{http://xslt}a",
-                    text=""
+                    qname='{http://xslt}a',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{http://xslt}a",
-                    text=""
+                    qname='{http://xslt}a',
+                    text=''
                 ),
                 AnyElement(
-                    qname="{http://xslt}a",
-                    text=""
+                    qname='{http://xslt}a',
+                    text=''
                 ),
             ]
         ),

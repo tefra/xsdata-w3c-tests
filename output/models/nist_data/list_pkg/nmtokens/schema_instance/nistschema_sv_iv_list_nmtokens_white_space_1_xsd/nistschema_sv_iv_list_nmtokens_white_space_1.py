@@ -16,5 +16,5 @@ class NistschemaSvIvListNmtokensWhiteSpace1:
             "required": True,
             "white_space": "collapse",
             "tokens": True,
-        }
+        },
     )

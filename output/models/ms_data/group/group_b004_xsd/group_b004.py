@@ -14,7 +14,7 @@ class ComplexType:
             "namespace": "",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
     r2: List[object] = field(
         default_factory=list,
@@ -23,7 +23,7 @@ class ComplexType:
             "namespace": "",
             "max_occurs": 4,
             "sequence": 1,
-        }
+        },
     )
     r3: List[object] = field(
         default_factory=list,
@@ -32,7 +32,7 @@ class ComplexType:
             "namespace": "",
             "max_occurs": 2,
             "sequence": 1,
-        }
+        },
     )
 
 
@@ -52,5 +52,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

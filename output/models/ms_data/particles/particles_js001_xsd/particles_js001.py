@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 from typing import Optional
-from output.models.ms_data.particles.particles_js001_xsd.particles_js001_imp import ImpElem1
+from output.models.ms_data.particles.particles_js001_xsd.particles_js001_imp import (
+    ImpElem1,
+)
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -12,7 +14,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
-        }
+        },
     )
 
 
@@ -25,7 +27,7 @@ class R(B):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -41,5 +43,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

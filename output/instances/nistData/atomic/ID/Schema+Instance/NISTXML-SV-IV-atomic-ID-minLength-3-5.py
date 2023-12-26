@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdMinLength3(
-        value="ffor_specifications.divisions_without.from.this.rapid_with_res"
+        value='ffor_specifications.divisions_without.from.this.rapid_with_res'
     )
 )

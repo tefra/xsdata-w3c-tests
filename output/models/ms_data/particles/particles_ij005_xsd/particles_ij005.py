@@ -26,13 +26,13 @@ class Foo:
                 },
             ),
             "max_occurs": 5,
-        }
+        },
     )
 
 
 @dataclass
 class B:
-    c1_or_c2: Optional[Union[object, Foo]] = field(
+    c1_or_c2: Optional[Union[Foo, object]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -48,7 +48,7 @@ class B:
                     "namespace": "http://xsdtesting",
                 },
             ),
-        }
+        },
     )
 
 
@@ -81,5 +81,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

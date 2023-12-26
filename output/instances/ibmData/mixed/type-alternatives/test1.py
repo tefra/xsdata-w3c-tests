@@ -9,21 +9,21 @@ obj = Shapes(
             a=10,
             b=10,
             c=10,
-            kind="square",
+            kind='square',
             d=10
         ),
         Quadrilateral(
             a=10,
             b=8,
             c=10,
-            kind="rectangle",
+            kind='rectangle',
             d=8
         ),
         Triangular(
             a=5,
             b=10,
             c=15,
-            kind="triangle"
+            kind='triangle'
         ),
     ]
 )

@@ -16,7 +16,7 @@ class Foo:
         metadata={
             "type": "Attributes",
             "namespace": "あ",
-        }
+        },
     )
 
 
@@ -36,5 +36,5 @@ class Bar:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

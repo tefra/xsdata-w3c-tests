@@ -21,10 +21,10 @@ obj = TestSet(
             appinfo_or_documentation=[
                 Documentation(
                     other_attributes={
-                        "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#float",
+                        '{http://www.w3.org/1999/xlink}href': 'http://www.w3.org/TR/xmlschema11-2/#float',
                     },
                     content=[
-                        "float ",
+                        'float ',
                     ]
                 ),
             ]
@@ -37,7 +37,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "Valid test for +0 and -0 bound checking ",
+                                'Valid test for +0 and -0 bound checking ',
                             ]
                         ),
                     ]
@@ -45,16 +45,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#float"
+                    href='http://www.w3.org/TR/xmlschema11-2/#float'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_3_5/d3_3_5v01.xsd"
+                        href='../ibmData/valid/D3_3_5/d3_3_5v01.xsd'
                     ),
                 ],
                 expected=[
@@ -66,12 +66,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_3_5v01s"
+                name='d3_3_5v01s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_5/d3_3_5v01.xml"
+                        href='../ibmData/valid/D3_3_5/d3_3_5v01.xml'
                     ),
                     expected=[
                         Expected(
@@ -82,10 +82,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_5v01i"
+                    name='d3_3_5v01i'
                 ),
             ],
-            name="d3_3_5v01",
+            name='d3_3_5v01',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -96,7 +96,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "lexical representation +INF for float  ",
+                                'lexical representation +INF for float  ',
                             ]
                         ),
                     ]
@@ -104,16 +104,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-2/#float"
+                    href='http://www.w3.org/TR/xmlschema11-2/#float'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/valid/D3_3_5/d3_3_5v02.xsd"
+                        href='../ibmData/valid/D3_3_5/d3_3_5v02.xsd'
                     ),
                 ],
                 expected=[
@@ -125,12 +125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 12, 1)
                 ),
-                name="d3_3_5v02s"
+                name='d3_3_5v02s'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../ibmData/valid/D3_3_5/d3_3_5v02.xml"
+                        href='../ibmData/valid/D3_3_5/d3_3_5v02.xml'
                     ),
                     expected=[
                         Expected(
@@ -141,18 +141,18 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 12, 1)
                     ),
-                    name="d3_3_5v02i"
+                    name='d3_3_5v02i'
                 ),
             ],
-            name="d3_3_5v02",
+            name='d3_3_5v02',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="float",
+    contributor='IBM',
+    name='float',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

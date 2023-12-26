@@ -3,9 +3,9 @@ from output.models.ibm_data.instance_invalid.s3_4_2_4.s3_4_2_4ii06_xsd.s3_4_2_4i
 
 obj = Root(
     default_attr=False,
-    element1="",
+    element1='',
     element2=[
-        "",
+        '',
     ],
-    element_added=""
+    element_added=''
 )

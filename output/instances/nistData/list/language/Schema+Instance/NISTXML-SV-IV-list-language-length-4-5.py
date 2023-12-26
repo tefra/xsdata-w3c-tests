@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguageLength4(
     value=[
-        "KN-USA",
-        "KO-USA",
-        "KS-USA",
-        "KU-USA",
-        "KY-USA",
-        "LA-USA",
-        "LN-USA",
-        "LO-USA",
+        'KN-USA',
+        'KO-USA',
+        'KS-USA',
+        'KU-USA',
+        'KY-USA',
+        'LA-USA',
+        'LN-USA',
+        'LO-USA',
     ]
 )

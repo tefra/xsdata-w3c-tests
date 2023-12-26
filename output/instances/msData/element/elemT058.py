@@ -10,23 +10,23 @@ obj = Root(
     test2=A.VALUE_1,
     test3=A.VALUE_1,
     test4=DerivedElement(
-        qname="test4",
+        qname='test4',
         value=RCa(
             x=[
-                "",
+                '',
             ]
         ),
-        type="R-CA"
+        type='R-CA'
     ),
     test5=DerivedElement(
-        qname="test5",
+        qname='test5',
         value=ECa(
             x=[
-                "",
+                '',
             ],
-            y="",
-            z=""
+            y='',
+            z=''
         ),
-        type="E-CA"
+        type='E-CA'
     )
 )

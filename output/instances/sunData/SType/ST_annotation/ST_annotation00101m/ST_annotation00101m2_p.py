@@ -3,8 +3,8 @@ from output.models.sun_data.stype.st_annotation.st_annotation00101m.st_annotatio
 
 obj = Test(
     value=[
-        "a",
-        "b",
-        "c",
+        'a',
+        'b',
+        'c',
     ]
 )

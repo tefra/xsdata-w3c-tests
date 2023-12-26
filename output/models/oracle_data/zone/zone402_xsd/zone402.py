@@ -12,5 +12,5 @@ class Doc:
         default=None,
         metadata={
             "max_inclusive": XmlDateTime(0, 1, 1, 12, 0, 0),
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.int_pkg.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicIntPattern1(
-    value="-2126241225"
+    value='-2126241225'
 )

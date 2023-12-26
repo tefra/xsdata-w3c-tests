@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_pattern_1_xsd.nistschema_sv_iv_atomic_negative_integer_pattern_1 import NistschemaSvIvAtomicNegativeIntegerPattern1
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_pattern_1_xsd.nistschema_sv_iv_atomic_negative_integer_pattern_1 import (
+    NistschemaSvIvAtomicNegativeIntegerPattern1,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicNegativeIntegerPattern1",

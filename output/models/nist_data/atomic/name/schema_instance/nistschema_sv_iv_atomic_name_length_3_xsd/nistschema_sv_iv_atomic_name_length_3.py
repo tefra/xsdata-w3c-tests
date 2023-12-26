@@ -14,5 +14,5 @@ class NistschemaSvIvAtomicNameLength3:
         metadata={
             "required": True,
             "length": 60,
-        }
+        },
     )

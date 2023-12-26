@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameLength5(
-    value="dmanipulation.on-data_made-supply.will-a:to:implementations-tool"
+    value='dmanipulation.on-data_made-supply.will-a:to:implementations-tool'
 )

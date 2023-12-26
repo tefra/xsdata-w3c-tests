@@ -11,7 +11,7 @@ obj = Root(
             att=5
         ),
         Ct(
-            att="abc"
+            att='abc'
         ),
     ]
 )

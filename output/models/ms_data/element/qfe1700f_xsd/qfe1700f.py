@@ -13,7 +13,7 @@ class Uid:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Root:
             "type": "Element",
             "min_occurs": 1,
             "nillable": True,
-        }
+        },
     )

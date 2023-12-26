@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameWhiteSpace1(
-    value="gfact:foster:own.and.inte"
+    value='gfact:foster:own.and.inte'
 )

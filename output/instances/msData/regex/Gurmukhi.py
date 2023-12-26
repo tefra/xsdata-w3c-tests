@@ -2,5 +2,5 @@ from output.models.ms_data.regex.gurmukhi_xsd.gurmukhi import Doc
 
 
 obj = Doc(
-    value="਀ਁਂਃ਄ਅਆਇਈਉਊ਋਌਍਎ਏਐ਑਒ਓਔਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨ਩ਪਫਬਭਮਯਰ਱ਲਲ਼਴ਵਸ਼਷ਸਹ਺਻਼਽ਾਿੀੁੂ੃੄੅੆ੇੈ੉੊ੋੌ੍੎੏੐ੑ੒੓੔੕੖੗੘ਖ਼ਗ਼ਜ਼ੜ੝ਫ਼੟੠੡੢੣੤੥੦੧੨੩੪੫੬੭੮੯ੰੱੲੳੴੵ੶੷੸੹੺੻੼੽੾੿"
+    value='\u0a00ਁਂਃ\u0a04ਅਆਇਈਉਊ\u0a0b\u0a0c\u0a0d\u0a0eਏਐ\u0a11\u0a12ਓਔਕਖਗਘਙਚਛਜਝਞਟਠਡਢਣਤਥਦਧਨ\u0a29ਪਫਬਭਮਯਰ\u0a31ਲਲ਼\u0a34ਵਸ਼\u0a37ਸਹ\u0a3a\u0a3b਼\u0a3dਾਿੀੁੂ\u0a43\u0a44\u0a45\u0a46ੇੈ\u0a49\u0a4aੋੌ੍\u0a4e\u0a4f\u0a50ੑ\u0a52\u0a53\u0a54\u0a55\u0a56\u0a57\u0a58ਖ਼ਗ਼ਜ਼ੜ\u0a5dਫ਼\u0a5f\u0a60\u0a61\u0a62\u0a63\u0a64\u0a65੦੧੨੩੪੫੬੭੮੯ੰੱੲੳੴੵ੶\u0a77\u0a78\u0a79\u0a7a\u0a7b\u0a7c\u0a7d\u0a7e\u0a7f'
 )

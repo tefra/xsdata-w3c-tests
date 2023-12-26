@@ -7,5 +7,5 @@ obj = Example(
         100,
         50,
     ],
-    kind="NNI"
+    kind='NNI'
 )

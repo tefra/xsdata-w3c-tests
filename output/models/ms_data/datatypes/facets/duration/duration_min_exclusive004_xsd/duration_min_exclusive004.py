@@ -16,7 +16,7 @@ class FooType:
             "required": True,
             "min_exclusive": XmlDuration("P1Y1MT1H"),
             "max_inclusive": XmlDuration("P2Y3MT2H"),
-        }
+        },
     )
 
 

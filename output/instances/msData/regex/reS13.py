@@ -5,7 +5,7 @@ from output.models.ms_data.regex.re_s13_xsd.re_s13 import Regex
 obj = Doc(
     elem=[
         Regex(
-            att="๐"
+            att='๐'
         ),
     ]
 )

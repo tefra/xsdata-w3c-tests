@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.language.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListLanguageLength3(
     value=[
-        "BE-USA",
-        "BG-USA",
-        "BH-USA",
-        "BI-USA",
-        "BN-USA",
-        "BO-USA",
-        "BR-USA",
+        'BE-USA',
+        'BG-USA',
+        'BH-USA',
+        'BI-USA',
+        'BN-USA',
+        'BO-USA',
+        'BR-USA',
     ]
 )

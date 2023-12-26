@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMinLength4(
-    value="oavailable.the-create-systems-annual.basis-exchange-issues_a"
+    value='oavailable.the-create-systems-annual.basis-exchange-issues_a'
 )

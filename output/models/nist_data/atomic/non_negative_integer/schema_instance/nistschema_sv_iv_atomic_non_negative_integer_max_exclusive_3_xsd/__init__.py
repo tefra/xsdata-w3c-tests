@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.non_negative_integer.schema_instance.nistschema_sv_iv_atomic_non_negative_integer_max_exclusive_3_xsd.nistschema_sv_iv_atomic_non_negative_integer_max_exclusive_3 import NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive3
+from output.models.nist_data.atomic.non_negative_integer.schema_instance.nistschema_sv_iv_atomic_non_negative_integer_max_exclusive_3_xsd.nistschema_sv_iv_atomic_non_negative_integer_max_exclusive_3 import (
+    NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive3,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicNonNegativeIntegerMaxExclusive3",

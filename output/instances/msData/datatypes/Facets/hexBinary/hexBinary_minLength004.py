@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.hex_binary.hex_binary_min_length004_
 
 
 obj = Test(
-    foo=b"\xab\xcd\xef\x124"
+    foo=b'\xab\xcd\xef\x124'
 )

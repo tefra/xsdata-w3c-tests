@@ -15,7 +15,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -25,6 +25,7 @@ class TheType:
     :ivar any_attributes: This is a wildcard schema component
         (anyAttribute).
     """
+
     class Meta:
         name = "theType"
 
@@ -33,5 +34,5 @@ class TheType:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )

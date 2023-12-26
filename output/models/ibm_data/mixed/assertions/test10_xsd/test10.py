@@ -12,14 +12,14 @@ class BaseType:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     must_understand: Optional[str] = field(
         default=None,
         metadata={
             "name": "mustUnderstand",
             "type": "Attribute",
-        }
+        },
     )
 
 

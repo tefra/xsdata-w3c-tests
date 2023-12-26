@@ -15,5 +15,5 @@ class NistschemaSvIvAtomicShortMinExclusive2:
         metadata={
             "required": True,
             "min_exclusive": 16190,
-        }
+        },
     )

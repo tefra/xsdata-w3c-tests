@@ -13,12 +13,12 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     list_of_ids_attr: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Attribute",
             "tokens": True,
-        }
+        },
     )

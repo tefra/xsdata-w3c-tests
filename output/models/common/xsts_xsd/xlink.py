@@ -41,6 +41,7 @@ class ArcType:
     :ivar from_value:
     :ivar to: from and to have default behavior when values are missing
     """
+
     class Meta:
         name = "arcType"
 
@@ -52,7 +53,7 @@ class ArcType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     arcrole: Optional[str] = field(
         default=None,
@@ -60,28 +61,28 @@ class ArcType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     title: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     show: Optional[ShowType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     actuate: Optional[ActuateType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     from_value: Optional[str] = field(
         default=None,
@@ -89,14 +90,14 @@ class ArcType:
             "name": "from",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     to: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
 
 
@@ -109,6 +110,7 @@ class Extended:
     abstract. The intention is that by simply declaring elements with
     these as their substitutionGroup, all the right things will happen.
     """
+
     class Meta:
         name = "extended"
 
@@ -120,7 +122,7 @@ class Extended:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     role: Optional[str] = field(
         default=None,
@@ -128,14 +130,14 @@ class Extended:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     title: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
 
 
@@ -149,6 +151,7 @@ class LocatorType:
     :ivar label: label is not required, but locators have no particular
         XLink function if they are not labeled.
     """
+
     class Meta:
         name = "locatorType"
 
@@ -160,7 +163,7 @@ class LocatorType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     href: Optional[str] = field(
         default=None,
@@ -168,7 +171,7 @@ class LocatorType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     role: Optional[str] = field(
         default=None,
@@ -176,21 +179,21 @@ class LocatorType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     title: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     label: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
 
 
@@ -207,7 +210,7 @@ class ResourceType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     role: Optional[str] = field(
         default=None,
@@ -215,21 +218,21 @@ class ResourceType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     title: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     label: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -237,7 +240,7 @@ class ResourceType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -247,6 +250,7 @@ class Simple:
     Intended for use as the type of user-declared elements to make them simple
     links.
     """
+
     class Meta:
         name = "simple"
 
@@ -257,14 +261,14 @@ class Simple:
             "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     href: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     role: Optional[str] = field(
         default=None,
@@ -272,7 +276,7 @@ class Simple:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     arcrole: Optional[str] = field(
         default=None,
@@ -280,28 +284,28 @@ class Simple:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "min_length": 1,
-        }
+        },
     )
     title: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     show: Optional[ShowType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     actuate: Optional[ActuateType] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -309,7 +313,7 @@ class Simple:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -322,6 +326,7 @@ class TitleEltType:
         is provided here for convenience.
     :ivar content:
     """
+
     class Meta:
         name = "titleEltType"
 
@@ -333,14 +338,14 @@ class TitleEltType:
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
-        }
+        },
     )
     lang: Optional[Union[str, LangValue]] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://www.w3.org/XML/1998/namespace",
-        }
+        },
     )
     content: List[object] = field(
         default_factory=list,
@@ -348,5 +353,5 @@ class TitleEltType:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern4(
-    value="pvertical_on_industry-and-an"
+    value='pvertical_on_industry-and-an'
 )

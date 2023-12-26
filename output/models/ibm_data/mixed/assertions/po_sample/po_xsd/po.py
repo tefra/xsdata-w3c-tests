@@ -1,7 +1,9 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import List, Optional
-from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import Poitems
+from output.models.ibm_data.mixed.assertions.po_sample.po_xsd.product import (
+    Poitems,
+)
 
 
 @dataclass
@@ -14,14 +16,14 @@ class Address:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     street2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     city: Optional[str] = field(
         default=None,
@@ -30,7 +32,7 @@ class Address:
             "namespace": "",
             "min_length": 3,
             "max_length": 30,
-        }
+        },
     )
     zipcode: Optional[str] = field(
         default=None,
@@ -39,7 +41,7 @@ class Address:
             "namespace": "",
             "min_length": 3,
             "max_length": 30,
-        }
+        },
     )
     state: Optional[str] = field(
         default=None,
@@ -48,7 +50,7 @@ class Address:
             "namespace": "",
             "min_length": 3,
             "max_length": 30,
-        }
+        },
     )
     country: Optional[str] = field(
         default=None,
@@ -57,7 +59,7 @@ class Address:
             "namespace": "",
             "min_length": 3,
             "max_length": 30,
-        }
+        },
     )
 
 
@@ -93,7 +95,7 @@ class Buyer:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -114,7 +116,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     billing_address: Optional[Address] = field(
         default=None,
@@ -123,7 +125,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     shipping_address: Optional[Address] = field(
         default=None,
@@ -132,7 +134,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     email: Optional[str] = field(
         default=None,
@@ -141,7 +143,7 @@ class Order1(PoBusinessRules):
             "namespace": "",
             "required": True,
             "pattern": r".*@.*\..*",
-        }
+        },
     )
     items: Optional[Poitems] = field(
         default=None,
@@ -149,7 +151,7 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     tax: Optional[Decimal] = field(
         default=None,
@@ -158,7 +160,7 @@ class Order1(PoBusinessRules):
             "namespace": "",
             "required": True,
             "min_inclusive": Decimal("0"),
-        }
+        },
     )
     bill_amount: Optional[Decimal] = field(
         default=None,
@@ -168,7 +170,7 @@ class Order1(PoBusinessRules):
             "namespace": "",
             "required": True,
             "min_inclusive": Decimal("0"),
-        }
+        },
     )
     currency: Optional[str] = field(
         default=None,
@@ -176,14 +178,14 @@ class Order1(PoBusinessRules):
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     id: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "required": True,
-        }
+        },
     )
 
 

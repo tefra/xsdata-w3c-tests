@@ -15,5 +15,5 @@ class NistschemaSvIvListGDayPattern4:
         metadata={
             "pattern": r"---1\d ---2\d ---\d7 ---2\d ---\d6",
             "tokens": True,
-        }
+        },
     )

@@ -14,7 +14,7 @@ class TypeType:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Type0:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -44,7 +44,7 @@ class Root:
             "name": "_-.",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     value_0: Optional[int] = field(
         default=None,
@@ -52,5 +52,5 @@ class Root:
             "name": "_-0.",
             "type": "Element",
             "required": True,
-        }
+        },
     )

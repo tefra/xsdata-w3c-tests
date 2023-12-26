@@ -14,7 +14,7 @@ class AnyTypeElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class DefaultTypeElement:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -38,7 +38,9 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    any_type_element_or_default_type_element: Optional[Union[AnyTypeElement, DefaultTypeElement]] = field(
+    any_type_element_or_default_type_element: Optional[
+        Union[AnyTypeElement, DefaultTypeElement]
+    ] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -52,5 +54,5 @@ class Root:
                     "type": DefaultTypeElement,
                 },
             ),
-        }
+        },
     )

@@ -15,7 +15,7 @@ class Mixed:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-        }
+        },
     )
 
 
@@ -37,7 +37,7 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
     d1_or_d2: Optional[object] = field(
         default=None,
@@ -55,7 +55,7 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -69,7 +69,7 @@ class NotMixed(Mixed):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -90,5 +90,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

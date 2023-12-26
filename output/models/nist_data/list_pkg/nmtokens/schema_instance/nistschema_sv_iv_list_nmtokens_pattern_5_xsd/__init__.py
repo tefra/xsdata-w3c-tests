@@ -1,4 +1,6 @@
-from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_list_nmtokens_pattern_5_xsd.nistschema_sv_iv_list_nmtokens_pattern_5 import NistschemaSvIvListNmtokensPattern5
+from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_list_nmtokens_pattern_5_xsd.nistschema_sv_iv_list_nmtokens_pattern_5 import (
+    NistschemaSvIvListNmtokensPattern5,
+)
 
 __all__ = [
     "NistschemaSvIvListNmtokensPattern5",

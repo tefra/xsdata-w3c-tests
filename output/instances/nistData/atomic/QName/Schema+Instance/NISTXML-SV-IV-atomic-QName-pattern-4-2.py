@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.qname.schema_instance.nistschema_sv_iv_atomi
 
 
 obj = NistschemaSvIvAtomicQnamePattern4(
-    value="qg_o:oboth.to.location-that.of.sy"
+    value='qg_o:oboth.to.location-that.of.sy'
 )

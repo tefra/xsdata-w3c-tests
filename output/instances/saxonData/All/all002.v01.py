@@ -6,14 +6,14 @@ from output.models.saxon_data.all.all002_xsd.all002 import Doc
 
 obj = Doc(
     a=[
-        "",
-        "",
-        "",
-        "",
+        '',
+        '',
+        '',
+        '',
     ],
     b=[
-        "",
-        "",
+        '',
+        '',
     ],
     c_or_c=[
         C2(

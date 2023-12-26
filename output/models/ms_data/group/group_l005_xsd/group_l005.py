@@ -23,7 +23,7 @@ class Elem:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -37,5 +37,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

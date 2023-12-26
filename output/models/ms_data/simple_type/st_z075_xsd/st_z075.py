@@ -20,5 +20,5 @@ class Doc:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

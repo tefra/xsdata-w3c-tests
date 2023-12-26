@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.name.schema_instance.nistschema_sv_iv_atomic
 
 
 obj = NistschemaSvIvAtomicNameMaxLength5(
-    value="gand.sense_of:academia_the-the.the:to_and_ensure-for.eliminat"
+    value='gand.sense_of:academia_the-the.the:to_and_ensure-for.eliminat'
 )

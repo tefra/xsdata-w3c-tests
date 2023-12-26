@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenLength3(
-    value="robust_build:EC:used:success:international.individual-suc"
+    value='robust_build:EC:used:success:international.individual-suc'
 )

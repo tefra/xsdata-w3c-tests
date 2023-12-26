@@ -11,14 +11,14 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -29,14 +29,14 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -52,5 +52,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

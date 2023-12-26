@@ -9,7 +9,7 @@ class T:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 

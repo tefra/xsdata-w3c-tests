@@ -9,7 +9,7 @@ obj = Root(
             pid=[
                 UidValue.SMALL,
             ],
-            val="1"
+            val='1'
         ),
     ]
 )

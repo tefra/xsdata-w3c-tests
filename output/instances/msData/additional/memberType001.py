@@ -5,6 +5,6 @@ obj = Root(
     e=[
         True,
         5,
-        "abc",
+        'abc',
     ]
 )

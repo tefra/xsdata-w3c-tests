@@ -11,13 +11,13 @@ class Rtype:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     val: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class T:
     class Meta:
         name = "t"
 
-    r2_or_r: Optional[Union[R, R2]] = field(
+    r2_or_r: Optional[Union[R2, R]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -52,7 +52,7 @@ class T:
                     "type": R,
                 },
             ),
-        }
+        },
     )
 
 
@@ -66,5 +66,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -11,7 +11,7 @@ class FooTest:
         default_factory=list,
         metadata={
             "tokens": True,
-        }
+        },
     )
 
 
@@ -27,5 +27,5 @@ class Root:
             "type": "Element",
             "required": True,
             "tokens": True,
-        }
+        },
     )

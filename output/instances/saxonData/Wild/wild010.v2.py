@@ -4,7 +4,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Eden(
     any_element=AnyElement(
-        qname="{http://eve.com/}eve",
-        text=""
+        qname='{http://eve.com/}eve',
+        text=''
     )
 )

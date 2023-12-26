@@ -16,5 +16,5 @@ class NistschemaSvIvAtomicQnameMinLength1:
         metadata={
             "required": True,
             "min_length": 1,
-        }
+        },
     )

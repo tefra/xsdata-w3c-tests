@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.nmtoken.schema_instance.nistschema_sv_iv_ato
 
 
 obj = NistschemaSvIvAtomicNmtokenPattern4(
-    value="web.in_DOM-precise_languages.Erro"
+    value='web.in_DOM-precise_languages.Erro'
 )

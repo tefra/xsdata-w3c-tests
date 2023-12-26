@@ -26,7 +26,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     ely_mdenumeration: List[YMdenumeration] = field(
         default_factory=list,
@@ -35,7 +35,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     ely_mdmin_max_inclusive: List[XmlDuration] = field(
         default_factory=list,
@@ -46,7 +46,7 @@ class Root:
             "min_occurs": 1,
             "min_inclusive": XmlDuration("-P2D"),
             "max_inclusive": XmlDuration("P2D"),
-        }
+        },
     )
     ely_mdmin_max_exclusive: List[XmlDuration] = field(
         default_factory=list,
@@ -57,5 +57,5 @@ class Root:
             "min_occurs": 1,
             "min_exclusive": XmlDuration("-P2D"),
             "max_exclusive": XmlDuration("P2D"),
-        }
+        },
     )

@@ -23,7 +23,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: group with an id",
+                                'TEST :Syntax Checking (id, ref) : Test id: group with an id',
                             ]
                         ),
                     ]
@@ -31,13 +31,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA001.xsd"
+                        href='../msData/group/groupA001.xsd'
                     ),
                 ],
                 expected=[
@@ -49,9 +49,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA001"
+                name='groupA001'
             ),
-            name="groupA001"
+            name='groupA001'
         ),
         TestGroup(
             annotation=[
@@ -59,7 +59,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: group without an id",
+                                'TEST :Syntax Checking (id, ref) : Test id: group without an id',
                             ]
                         ),
                     ]
@@ -67,13 +67,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA002.xsd"
+                        href='../msData/group/groupA002.xsd'
                     ),
                 ],
                 expected=[
@@ -85,9 +85,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA002"
+                name='groupA002'
             ),
-            name="groupA002"
+            name='groupA002'
         ),
         TestGroup(
             annotation=[
@@ -95,7 +95,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two global groups with same id",
+                                'TEST :Syntax Checking (id, ref) : Test id: two global groups with same id',
                             ]
                         ),
                     ]
@@ -103,13 +103,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA003.xsd"
+                        href='../msData/group/groupA003.xsd'
                     ),
                 ],
                 expected=[
@@ -121,9 +121,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA003"
+                name='groupA003'
             ),
-            name="groupA003"
+            name='groupA003'
         ),
         TestGroup(
             annotation=[
@@ -131,7 +131,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType",
+                                'TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType',
                             ]
                         ),
                     ]
@@ -139,13 +139,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA004.xsd"
+                        href='../msData/group/groupA004.xsd'
                     ),
                 ],
                 expected=[
@@ -157,9 +157,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA004"
+                name='groupA004'
             ),
-            name="groupA004"
+            name='groupA004'
         ),
         TestGroup(
             annotation=[
@@ -167,7 +167,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice",
+                                'TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice',
                             ]
                         ),
                     ]
@@ -175,13 +175,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA005.xsd"
+                        href='../msData/group/groupA005.xsd'
                     ),
                 ],
                 expected=[
@@ -193,9 +193,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA005"
+                name='groupA005'
             ),
-            name="groupA005"
+            name='groupA005'
         ),
         TestGroup(
             annotation=[
@@ -203,7 +203,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine",
+                                'TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine',
                             ]
                         ),
                     ]
@@ -211,13 +211,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA006.xsd"
+                        href='../msData/group/groupA006.xsd'
                     ),
                 ],
                 expected=[
@@ -229,9 +229,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA006"
+                name='groupA006'
             ),
-            name="groupA006"
+            name='groupA006'
         ),
         TestGroup(
             annotation=[
@@ -239,7 +239,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported",
+                                'TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported',
                             ]
                         ),
                     ]
@@ -247,13 +247,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA007.xsd"
+                        href='../msData/group/groupA007.xsd'
                     ),
                 ],
                 expected=[
@@ -265,9 +265,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA007"
+                name='groupA007'
             ),
-            name="groupA007"
+            name='groupA007'
         ),
         TestGroup(
             annotation=[
@@ -275,7 +275,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd",
+                                'TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd',
                             ]
                         ),
                     ]
@@ -283,13 +283,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA008.xsd"
+                        href='../msData/group/groupA008.xsd'
                     ),
                 ],
                 expected=[
@@ -301,9 +301,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA008"
+                name='groupA008'
             ),
-            name="groupA008"
+            name='groupA008'
         ),
         TestGroup(
             annotation=[
@@ -319,13 +319,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA009.xsd"
+                        href='../msData/group/groupA009.xsd'
                     ),
                 ],
                 expected=[
@@ -337,9 +337,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA009"
+                name='groupA009'
             ),
-            name="groupA009"
+            name='groupA009'
         ),
         TestGroup(
             annotation=[
@@ -355,13 +355,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA010.xsd"
+                        href='../msData/group/groupA010.xsd'
                     ),
                 ],
                 expected=[
@@ -373,9 +373,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA010"
+                name='groupA010'
             ),
-            name="groupA010"
+            name='groupA010'
         ),
         TestGroup(
             annotation=[
@@ -391,13 +391,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA011.xsd"
+                        href='../msData/group/groupA011.xsd'
                     ),
                 ],
                 expected=[
@@ -409,9 +409,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA011"
+                name='groupA011'
             ),
-            name="groupA011"
+            name='groupA011'
         ),
         TestGroup(
             annotation=[
@@ -427,13 +427,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupA012.xsd"
+                        href='../msData/group/groupA012.xsd'
                     ),
                 ],
                 expected=[
@@ -445,9 +445,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupA012"
+                name='groupA012'
             ),
-            name="groupA012"
+            name='groupA012'
         ),
         TestGroup(
             annotation=[
@@ -463,13 +463,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB001.xsd"
+                        href='../msData/group/groupB001.xsd'
                     ),
                 ],
                 expected=[
@@ -481,9 +481,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB001"
+                name='groupB001'
             ),
-            name="groupB001"
+            name='groupB001'
         ),
         TestGroup(
             annotation=[
@@ -499,13 +499,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB002.xsd"
+                        href='../msData/group/groupB002.xsd'
                     ),
                 ],
                 expected=[
@@ -517,12 +517,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB002v"
+                name='groupB002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB002.xml"
+                        href='../msData/group/groupB002.xml'
                     ),
                     expected=[
                         Expected(
@@ -533,10 +533,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB002v.v"
+                    name='groupB002v.v'
                 ),
             ],
-            name="groupB002v"
+            name='groupB002v'
         ),
         TestGroup(
             annotation=[
@@ -552,13 +552,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB003.xsd"
+                        href='../msData/group/groupB003.xsd'
                     ),
                 ],
                 expected=[
@@ -570,12 +570,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB003v"
+                name='groupB003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB003.xml"
+                        href='../msData/group/groupB003.xml'
                     ),
                     expected=[
                         Expected(
@@ -586,10 +586,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB003v.v"
+                    name='groupB003v.v'
                 ),
             ],
-            name="groupB003v"
+            name='groupB003v'
         ),
         TestGroup(
             annotation=[
@@ -605,13 +605,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB004.xsd"
+                        href='../msData/group/groupB004.xsd'
                     ),
                 ],
                 expected=[
@@ -623,12 +623,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB004v"
+                name='groupB004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB004.xml"
+                        href='../msData/group/groupB004.xml'
                     ),
                     expected=[
                         Expected(
@@ -639,10 +639,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB004v.v"
+                    name='groupB004v.v'
                 ),
             ],
-            name="groupB004v"
+            name='groupB004v'
         ),
         TestGroup(
             annotation=[
@@ -658,13 +658,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB005.xsd"
+                        href='../msData/group/groupB005.xsd'
                     ),
                 ],
                 expected=[
@@ -676,12 +676,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB005v"
+                name='groupB005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB005.xml"
+                        href='../msData/group/groupB005.xml'
                     ),
                     expected=[
                         Expected(
@@ -692,10 +692,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB005v.v"
+                    name='groupB005v.v'
                 ),
             ],
-            name="groupB005v"
+            name='groupB005v'
         ),
         TestGroup(
             annotation=[
@@ -711,13 +711,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB006.xsd"
+                        href='../msData/group/groupB006.xsd'
                     ),
                 ],
                 expected=[
@@ -729,12 +729,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB006v"
+                name='groupB006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB006.xml"
+                        href='../msData/group/groupB006.xml'
                     ),
                     expected=[
                         Expected(
@@ -745,10 +745,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB006v.v"
+                    name='groupB006v.v'
                 ),
             ],
-            name="groupB006v"
+            name='groupB006v'
         ),
         TestGroup(
             annotation=[
@@ -764,13 +764,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB007.xsd"
+                        href='../msData/group/groupB007.xsd'
                     ),
                 ],
                 expected=[
@@ -782,9 +782,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB007"
+                name='groupB007'
             ),
-            name="groupB007"
+            name='groupB007'
         ),
         TestGroup(
             annotation=[
@@ -800,13 +800,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB008.xsd"
+                        href='../msData/group/groupB008.xsd'
                     ),
                 ],
                 expected=[
@@ -818,9 +818,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB008"
+                name='groupB008'
             ),
-            name="groupB008"
+            name='groupB008'
         ),
         TestGroup(
             annotation=[
@@ -828,7 +828,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from imported xsd&quot;",
+                                'TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref=\'global group from imported xsd"',
                             ]
                         ),
                     ]
@@ -836,13 +836,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB009.xsd"
+                        href='../msData/group/groupB009.xsd'
                     ),
                 ],
                 expected=[
@@ -854,12 +854,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB009v"
+                name='groupB009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB009.xml"
+                        href='../msData/group/groupB009.xml'
                     ),
                     expected=[
                         Expected(
@@ -870,10 +870,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB009v.v"
+                    name='groupB009v.v'
                 ),
             ],
-            name="groupB009v"
+            name='groupB009v'
         ),
         TestGroup(
             annotation=[
@@ -881,7 +881,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from included xsd&quot;",
+                                'TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref=\'global group from included xsd"',
                             ]
                         ),
                     ]
@@ -889,13 +889,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB010.xsd"
+                        href='../msData/group/groupB010.xsd'
                     ),
                 ],
                 expected=[
@@ -907,12 +907,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB010v"
+                name='groupB010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupB010.xml"
+                        href='../msData/group/groupB010.xml'
                     ),
                     expected=[
                         Expected(
@@ -923,10 +923,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupB010v.v"
+                    name='groupB010v.v'
                 ),
             ],
-            name="groupB010v"
+            name='groupB010v'
         ),
         TestGroup(
             annotation=[
@@ -942,13 +942,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB011.xsd"
+                        href='../msData/group/groupB011.xsd'
                     ),
                 ],
                 expected=[
@@ -960,9 +960,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB011"
+                name='groupB011'
             ),
-            name="groupB011"
+            name='groupB011'
         ),
         TestGroup(
             annotation=[
@@ -978,13 +978,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB012.xsd"
+                        href='../msData/group/groupB012.xsd'
                     ),
                 ],
                 expected=[
@@ -996,9 +996,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB012"
+                name='groupB012'
             ),
-            name="groupB012"
+            name='groupB012'
         ),
         TestGroup(
             annotation=[
@@ -1014,13 +1014,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB013.xsd"
+                        href='../msData/group/groupB013.xsd'
                     ),
                 ],
                 expected=[
@@ -1032,9 +1032,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB013"
+                name='groupB013'
             ),
-            name="groupB013"
+            name='groupB013'
         ),
         TestGroup(
             annotation=[
@@ -1050,13 +1050,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB014.xsd"
+                        href='../msData/group/groupB014.xsd'
                     ),
                 ],
                 expected=[
@@ -1068,9 +1068,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB014"
+                name='groupB014'
             ),
-            name="groupB014"
+            name='groupB014'
         ),
         TestGroup(
             annotation=[
@@ -1086,13 +1086,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB015.xsd"
+                        href='../msData/group/groupB015.xsd'
                     ),
                 ],
                 expected=[
@@ -1104,9 +1104,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB015"
+                name='groupB015'
             ),
-            name="groupB015"
+            name='groupB015'
         ),
         TestGroup(
             annotation=[
@@ -1122,13 +1122,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB016.xsd"
+                        href='../msData/group/groupB016.xsd'
                     ),
                 ],
                 expected=[
@@ -1140,9 +1140,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB016"
+                name='groupB016'
             ),
-            name="groupB016"
+            name='groupB016'
         ),
         TestGroup(
             annotation=[
@@ -1150,7 +1150,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction",
+                                'TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction',
                             ]
                         ),
                     ]
@@ -1158,13 +1158,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB017.xsd"
+                        href='../msData/group/groupB017.xsd'
                     ),
                 ],
                 expected=[
@@ -1176,9 +1176,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB017"
+                name='groupB017'
             ),
-            name="groupB017"
+            name='groupB017'
         ),
         TestGroup(
             annotation=[
@@ -1186,7 +1186,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines",
+                                'TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines',
                             ]
                         ),
                     ]
@@ -1194,13 +1194,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupB018.xsd"
+                        href='../msData/group/groupB018.xsd'
                     ),
                 ],
                 expected=[
@@ -1212,9 +1212,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupB018"
+                name='groupB018'
             ),
-            name="groupB018"
+            name='groupB018'
         ),
         TestGroup(
             annotation=[
@@ -1222,7 +1222,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: two global groups with same name",
+                                'TEST :Syntax Checking (id, ref) : Test name: two global groups with same name',
                             ]
                         ),
                     ]
@@ -1230,13 +1230,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC001.xsd"
+                        href='../msData/group/groupC001.xsd'
                     ),
                 ],
                 expected=[
@@ -1248,9 +1248,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC001"
+                name='groupC001'
             ),
-            name="groupC001"
+            name='groupC001'
         ),
         TestGroup(
             annotation=[
@@ -1258,7 +1258,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: group without an name",
+                                'TEST :Syntax Checking (id, ref) : Test name: group without an name',
                             ]
                         ),
                     ]
@@ -1266,13 +1266,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC002.xsd"
+                        href='../msData/group/groupC002.xsd'
                     ),
                 ],
                 expected=[
@@ -1284,9 +1284,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC002"
+                name='groupC002'
             ),
-            name="groupC002"
+            name='groupC002'
         ),
         TestGroup(
             annotation=[
@@ -1294,7 +1294,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine",
+                                'TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine',
                             ]
                         ),
                     ]
@@ -1302,13 +1302,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC003.xsd"
+                        href='../msData/group/groupC003.xsd'
                     ),
                 ],
                 expected=[
@@ -1320,9 +1320,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC003"
+                name='groupC003'
             ),
-            name="groupC003"
+            name='groupC003'
         ),
         TestGroup(
             annotation=[
@@ -1330,7 +1330,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension",
+                                'TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension',
                             ]
                         ),
                     ]
@@ -1338,13 +1338,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC004.xsd"
+                        href='../msData/group/groupC004.xsd'
                     ),
                 ],
                 expected=[
@@ -1356,9 +1356,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC004"
+                name='groupC004'
             ),
-            name="groupC004"
+            name='groupC004'
         ),
         TestGroup(
             annotation=[
@@ -1366,7 +1366,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction",
+                                'TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction',
                             ]
                         ),
                     ]
@@ -1374,13 +1374,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC005.xsd"
+                        href='../msData/group/groupC005.xsd'
                     ),
                 ],
                 expected=[
@@ -1392,9 +1392,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC005"
+                name='groupC005'
             ),
-            name="groupC005"
+            name='groupC005'
         ),
         TestGroup(
             annotation=[
@@ -1402,7 +1402,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence",
+                                'TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence',
                             ]
                         ),
                     ]
@@ -1410,13 +1410,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC006.xsd"
+                        href='../msData/group/groupC006.xsd'
                     ),
                 ],
                 expected=[
@@ -1428,9 +1428,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC006"
+                name='groupC006'
             ),
-            name="groupC006"
+            name='groupC006'
         ),
         TestGroup(
             annotation=[
@@ -1438,7 +1438,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice",
+                                'TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice',
                             ]
                         ),
                     ]
@@ -1446,13 +1446,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC007.xsd"
+                        href='../msData/group/groupC007.xsd'
                     ),
                 ],
                 expected=[
@@ -1464,9 +1464,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC007"
+                name='groupC007'
             ),
-            name="groupC007"
+            name='groupC007'
         ),
         TestGroup(
             annotation=[
@@ -1474,7 +1474,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType",
+                                'TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType',
                             ]
                         ),
                     ]
@@ -1482,13 +1482,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC008.xsd"
+                        href='../msData/group/groupC008.xsd'
                     ),
                 ],
                 expected=[
@@ -1500,9 +1500,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC008"
+                name='groupC008'
             ),
-            name="groupC008"
+            name='groupC008'
         ),
         TestGroup(
             annotation=[
@@ -1518,13 +1518,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC009.xsd"
+                        href='../msData/group/groupC009.xsd'
                     ),
                 ],
                 expected=[
@@ -1536,9 +1536,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC009"
+                name='groupC009'
             ),
-            name="groupC009"
+            name='groupC009'
         ),
         TestGroup(
             annotation=[
@@ -1554,13 +1554,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC010.xsd"
+                        href='../msData/group/groupC010.xsd'
                     ),
                 ],
                 expected=[
@@ -1572,9 +1572,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC010"
+                name='groupC010'
             ),
-            name="groupC010"
+            name='groupC010'
         ),
         TestGroup(
             annotation=[
@@ -1590,13 +1590,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC011.xsd"
+                        href='../msData/group/groupC011.xsd'
                     ),
                 ],
                 expected=[
@@ -1608,9 +1608,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC011"
+                name='groupC011'
             ),
-            name="groupC011"
+            name='groupC011'
         ),
         TestGroup(
             annotation=[
@@ -1626,13 +1626,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupC012.xsd"
+                        href='../msData/group/groupC012.xsd'
                     ),
                 ],
                 expected=[
@@ -1644,9 +1644,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupC012"
+                name='groupC012'
             ),
-            name="groupC012"
+            name='groupC012'
         ),
         TestGroup(
             annotation=[
@@ -1662,13 +1662,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupD001.xsd"
+                        href='../msData/group/groupD001.xsd'
                     ),
                 ],
                 expected=[
@@ -1680,9 +1680,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupD001"
+                name='groupD001'
             ),
-            name="groupD001"
+            name='groupD001'
         ),
         TestGroup(
             annotation=[
@@ -1698,13 +1698,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupD002.xsd"
+                        href='../msData/group/groupD002.xsd'
                     ),
                 ],
                 expected=[
@@ -1716,9 +1716,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupD002"
+                name='groupD002'
             ),
-            name="groupD002"
+            name='groupD002'
         ),
         TestGroup(
             annotation=[
@@ -1734,13 +1734,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupD003.xsd"
+                        href='../msData/group/groupD003.xsd'
                     ),
                 ],
                 expected=[
@@ -1752,9 +1752,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupD003"
+                name='groupD003'
             ),
-            name="groupD003"
+            name='groupD003'
         ),
         TestGroup(
             annotation=[
@@ -1770,13 +1770,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupD004.xsd"
+                        href='../msData/group/groupD004.xsd'
                     ),
                 ],
                 expected=[
@@ -1788,9 +1788,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupD004"
+                name='groupD004'
             ),
-            name="groupD004"
+            name='groupD004'
         ),
         TestGroup(
             annotation=[
@@ -1798,7 +1798,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1806,13 +1806,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupE002.xsd"
+                        href='../msData/group/groupE002.xsd'
                     ),
                 ],
                 expected=[
@@ -1824,9 +1824,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupE002"
+                name='groupE002'
             ),
-            name="groupE002"
+            name='groupE002'
         ),
         TestGroup(
             annotation=[
@@ -1834,7 +1834,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1842,13 +1842,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupE003.xsd"
+                        href='../msData/group/groupE003.xsd'
                     ),
                 ],
                 expected=[
@@ -1860,12 +1860,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupE003v"
+                name='groupE003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupE003.xml"
+                        href='../msData/group/groupE003.xml'
                     ),
                     expected=[
                         Expected(
@@ -1876,10 +1876,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupE003v.i"
+                    name='groupE003v.i'
                 ),
             ],
-            name="groupE003v"
+            name='groupE003v'
         ),
         TestGroup(
             annotation=[
@@ -1887,7 +1887,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1895,13 +1895,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupE004.xsd"
+                        href='../msData/group/groupE004.xsd'
                     ),
                 ],
                 expected=[
@@ -1913,12 +1913,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupE004v"
+                name='groupE004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupE004.xml"
+                        href='../msData/group/groupE004.xml'
                     ),
                     expected=[
                         Expected(
@@ -1929,10 +1929,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupE004v.v"
+                    name='groupE004v.v'
                 ),
             ],
-            name="groupE004v"
+            name='groupE004v'
         ),
         TestGroup(
             annotation=[
@@ -1940,7 +1940,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -1948,13 +1948,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupE005.xsd"
+                        href='../msData/group/groupE005.xsd'
                     ),
                 ],
                 expected=[
@@ -1966,12 +1966,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupE005v"
+                name='groupE005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupE005.xml"
+                        href='../msData/group/groupE005.xml'
                     ),
                     expected=[
                         Expected(
@@ -1982,10 +1982,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupE005v.i"
+                    name='groupE005v.i'
                 ),
             ],
-            name="groupE005v"
+            name='groupE005v'
         ),
         TestGroup(
             annotation=[
@@ -1993,7 +1993,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2001,13 +2001,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF001.xsd"
+                        href='../msData/group/groupF001.xsd'
                     ),
                 ],
                 expected=[
@@ -2019,12 +2019,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF001v"
+                name='groupF001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF001.xml"
+                        href='../msData/group/groupF001.xml'
                     ),
                     expected=[
                         Expected(
@@ -2035,10 +2035,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF001v.v"
+                    name='groupF001v.v'
                 ),
             ],
-            name="groupF001v"
+            name='groupF001v'
         ),
         TestGroup(
             annotation=[
@@ -2046,7 +2046,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2054,13 +2054,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF002.xsd"
+                        href='../msData/group/groupF002.xsd'
                     ),
                 ],
                 expected=[
@@ -2072,12 +2072,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF002v"
+                name='groupF002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF002.xml"
+                        href='../msData/group/groupF002.xml'
                     ),
                     expected=[
                         Expected(
@@ -2088,10 +2088,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF002v.v"
+                    name='groupF002v.v'
                 ),
             ],
-            name="groupF002v"
+            name='groupF002v'
         ),
         TestGroup(
             annotation=[
@@ -2099,7 +2099,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2107,13 +2107,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF003.xsd"
+                        href='../msData/group/groupF003.xsd'
                     ),
                 ],
                 expected=[
@@ -2125,12 +2125,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF003v"
+                name='groupF003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF003.xml"
+                        href='../msData/group/groupF003.xml'
                     ),
                     expected=[
                         Expected(
@@ -2141,10 +2141,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF003v.i"
+                    name='groupF003v.i'
                 ),
             ],
-            name="groupF003v"
+            name='groupF003v'
         ),
         TestGroup(
             annotation=[
@@ -2152,7 +2152,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2160,13 +2160,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF004.xsd"
+                        href='../msData/group/groupF004.xsd'
                     ),
                 ],
                 expected=[
@@ -2178,12 +2178,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF004v"
+                name='groupF004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF004.xml"
+                        href='../msData/group/groupF004.xml'
                     ),
                     expected=[
                         Expected(
@@ -2194,10 +2194,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF004v.v"
+                    name='groupF004v.v'
                 ),
             ],
-            name="groupF004v"
+            name='groupF004v'
         ),
         TestGroup(
             annotation=[
@@ -2205,7 +2205,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2213,13 +2213,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF005.xsd"
+                        href='../msData/group/groupF005.xsd'
                     ),
                 ],
                 expected=[
@@ -2231,12 +2231,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF005v"
+                name='groupF005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF005.xml"
+                        href='../msData/group/groupF005.xml'
                     ),
                     expected=[
                         Expected(
@@ -2247,10 +2247,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF005v.v"
+                    name='groupF005v.v'
                 ),
             ],
-            name="groupF005v"
+            name='groupF005v'
         ),
         TestGroup(
             annotation=[
@@ -2258,7 +2258,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2266,13 +2266,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF006.xsd"
+                        href='../msData/group/groupF006.xsd'
                     ),
                 ],
                 expected=[
@@ -2284,12 +2284,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF006v"
+                name='groupF006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF006.xml"
+                        href='../msData/group/groupF006.xml'
                     ),
                     expected=[
                         Expected(
@@ -2300,10 +2300,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF006v.i"
+                    name='groupF006v.i'
                 ),
             ],
-            name="groupF006v"
+            name='groupF006v'
         ),
         TestGroup(
             annotation=[
@@ -2311,7 +2311,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -2319,13 +2319,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF007.xsd"
+                        href='../msData/group/groupF007.xsd'
                     ),
                 ],
                 expected=[
@@ -2337,12 +2337,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF007v"
+                name='groupF007v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF007.xml"
+                        href='../msData/group/groupF007.xml'
                     ),
                     expected=[
                         Expected(
@@ -2353,10 +2353,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF007v.v"
+                    name='groupF007v.v'
                 ),
             ],
-            name="groupF007v"
+            name='groupF007v'
         ),
         TestGroup(
             annotation=[
@@ -2364,7 +2364,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -2372,13 +2372,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF008.xsd"
+                        href='../msData/group/groupF008.xsd'
                     ),
                 ],
                 expected=[
@@ -2390,12 +2390,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF008v"
+                name='groupF008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF008.xml"
+                        href='../msData/group/groupF008.xml'
                     ),
                     expected=[
                         Expected(
@@ -2406,10 +2406,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF008v.i"
+                    name='groupF008v.i'
                 ),
             ],
-            name="groupF008v"
+            name='groupF008v'
         ),
         TestGroup(
             annotation=[
@@ -2417,7 +2417,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999',
                             ]
                         ),
                     ]
@@ -2425,13 +2425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF009.xsd"
+                        href='../msData/group/groupF009.xsd'
                     ),
                 ],
                 expected=[
@@ -2443,12 +2443,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF009v"
+                name='groupF009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF009.xml"
+                        href='../msData/group/groupF009.xml'
                     ),
                     expected=[
                         Expected(
@@ -2459,10 +2459,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF009v.v"
+                    name='groupF009v.v'
                 ),
             ],
-            name="groupF009v"
+            name='groupF009v'
         ),
         TestGroup(
             annotation=[
@@ -2470,7 +2470,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2478,13 +2478,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF010.xsd"
+                        href='../msData/group/groupF010.xsd'
                     ),
                 ],
                 expected=[
@@ -2496,12 +2496,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF010v"
+                name='groupF010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF010.xml"
+                        href='../msData/group/groupF010.xml'
                     ),
                     expected=[
                         Expected(
@@ -2512,10 +2512,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF010v.i"
+                    name='groupF010v.i'
                 ),
             ],
-            name="groupF010v"
+            name='groupF010v'
         ),
         TestGroup(
             annotation=[
@@ -2523,7 +2523,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2531,13 +2531,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF011.xsd"
+                        href='../msData/group/groupF011.xsd'
                     ),
                 ],
                 expected=[
@@ -2549,12 +2549,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF011v"
+                name='groupF011v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF011.xml"
+                        href='../msData/group/groupF011.xml'
                     ),
                     expected=[
                         Expected(
@@ -2565,10 +2565,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF011v.v"
+                    name='groupF011v.v'
                 ),
             ],
-            name="groupF011v"
+            name='groupF011v'
         ),
         TestGroup(
             annotation=[
@@ -2576,7 +2576,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -2584,13 +2584,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF012.xsd"
+                        href='../msData/group/groupF012.xsd'
                     ),
                 ],
                 expected=[
@@ -2602,12 +2602,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF012v"
+                name='groupF012v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF012.xml"
+                        href='../msData/group/groupF012.xml'
                     ),
                     expected=[
                         Expected(
@@ -2618,10 +2618,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF012v.i"
+                    name='groupF012v.i'
                 ),
             ],
-            name="groupF012v"
+            name='groupF012v'
         ),
         TestGroup(
             annotation=[
@@ -2629,7 +2629,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2637,13 +2637,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF013.xsd"
+                        href='../msData/group/groupF013.xsd'
                     ),
                 ],
                 expected=[
@@ -2655,12 +2655,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF013v"
+                name='groupF013v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF013.xml"
+                        href='../msData/group/groupF013.xml'
                     ),
                     expected=[
                         Expected(
@@ -2671,10 +2671,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF013v.i"
+                    name='groupF013v.i'
                 ),
             ],
-            name="groupF013v"
+            name='groupF013v'
         ),
         TestGroup(
             annotation=[
@@ -2682,7 +2682,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2690,13 +2690,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF014.xsd"
+                        href='../msData/group/groupF014.xsd'
                     ),
                 ],
                 expected=[
@@ -2708,12 +2708,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF014v"
+                name='groupF014v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF014.xml"
+                        href='../msData/group/groupF014.xml'
                     ),
                     expected=[
                         Expected(
@@ -2724,10 +2724,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF014v.v"
+                    name='groupF014v.v'
                 ),
             ],
-            name="groupF014v"
+            name='groupF014v'
         ),
         TestGroup(
             annotation=[
@@ -2735,7 +2735,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -2743,13 +2743,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF015.xsd"
+                        href='../msData/group/groupF015.xsd'
                     ),
                 ],
                 expected=[
@@ -2761,12 +2761,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF015v"
+                name='groupF015v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF015.xml"
+                        href='../msData/group/groupF015.xml'
                     ),
                     expected=[
                         Expected(
@@ -2777,10 +2777,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF015v.i"
+                    name='groupF015v.i'
                 ),
             ],
-            name="groupF015v"
+            name='groupF015v'
         ),
         TestGroup(
             annotation=[
@@ -2788,7 +2788,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -2796,13 +2796,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF016.xsd"
+                        href='../msData/group/groupF016.xsd'
                     ),
                 ],
                 expected=[
@@ -2814,12 +2814,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF016v"
+                name='groupF016v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF016.xml"
+                        href='../msData/group/groupF016.xml'
                     ),
                     expected=[
                         Expected(
@@ -2830,10 +2830,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF016v.i"
+                    name='groupF016v.i'
                 ),
             ],
-            name="groupF016v"
+            name='groupF016v'
         ),
         TestGroup(
             annotation=[
@@ -2841,7 +2841,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -2849,13 +2849,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF017.xsd"
+                        href='../msData/group/groupF017.xsd'
                     ),
                 ],
                 expected=[
@@ -2867,12 +2867,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF017v"
+                name='groupF017v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF017.xml"
+                        href='../msData/group/groupF017.xml'
                     ),
                     expected=[
                         Expected(
@@ -2883,10 +2883,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF017v.v"
+                    name='groupF017v.v'
                 ),
             ],
-            name="groupF017v"
+            name='groupF017v'
         ),
         TestGroup(
             annotation=[
@@ -2894,7 +2894,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -2902,13 +2902,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF018.xsd"
+                        href='../msData/group/groupF018.xsd'
                     ),
                 ],
                 expected=[
@@ -2920,12 +2920,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF018v"
+                name='groupF018v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF018.xml"
+                        href='../msData/group/groupF018.xml'
                     ),
                     expected=[
                         Expected(
@@ -2936,10 +2936,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF018v.v"
+                    name='groupF018v.v'
                 ),
             ],
-            name="groupF018v"
+            name='groupF018v'
         ),
         TestGroup(
             annotation=[
@@ -2947,7 +2947,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -2955,13 +2955,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF019.xsd"
+                        href='../msData/group/groupF019.xsd'
                     ),
                 ],
                 expected=[
@@ -2973,12 +2973,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF019v"
+                name='groupF019v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF019.xml"
+                        href='../msData/group/groupF019.xml'
                     ),
                     expected=[
                         Expected(
@@ -2989,10 +2989,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF019v.i"
+                    name='groupF019v.i'
                 ),
             ],
-            name="groupF019v"
+            name='groupF019v'
         ),
         TestGroup(
             annotation=[
@@ -3000,7 +3000,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -3008,13 +3008,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF020.xsd"
+                        href='../msData/group/groupF020.xsd'
                     ),
                 ],
                 expected=[
@@ -3026,9 +3026,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF020"
+                name='groupF020'
             ),
-            name="groupF020"
+            name='groupF020'
         ),
         TestGroup(
             annotation=[
@@ -3036,7 +3036,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -3044,13 +3044,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF021.xsd"
+                        href='../msData/group/groupF021.xsd'
                     ),
                 ],
                 expected=[
@@ -3062,12 +3062,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF021v"
+                name='groupF021v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupF021.xml"
+                        href='../msData/group/groupF021.xml'
                     ),
                     expected=[
                         Expected(
@@ -3078,10 +3078,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupF021v.v"
+                    name='groupF021v.v'
                 ),
             ],
-            name="groupF021v"
+            name='groupF021v'
         ),
         TestGroup(
             annotation=[
@@ -3089,7 +3089,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -3097,13 +3097,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF022.xsd"
+                        href='../msData/group/groupF022.xsd'
                     ),
                 ],
                 expected=[
@@ -3115,9 +3115,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF022"
+                name='groupF022'
             ),
-            name="groupF022"
+            name='groupF022'
         ),
         TestGroup(
             annotation=[
@@ -3125,7 +3125,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -3133,13 +3133,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF023.xsd"
+                        href='../msData/group/groupF023.xsd'
                     ),
                 ],
                 expected=[
@@ -3151,9 +3151,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF023"
+                name='groupF023'
             ),
-            name="groupF023"
+            name='groupF023'
         ),
         TestGroup(
             annotation=[
@@ -3161,7 +3161,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -3169,13 +3169,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF024.xsd"
+                        href='../msData/group/groupF024.xsd'
                     ),
                 ],
                 expected=[
@@ -3187,9 +3187,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF024"
+                name='groupF024'
             ),
-            name="groupF024"
+            name='groupF024'
         ),
         TestGroup(
             annotation=[
@@ -3197,7 +3197,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -3205,13 +3205,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupF025.xsd"
+                        href='../msData/group/groupF025.xsd'
                     ),
                 ],
                 expected=[
@@ -3223,9 +3223,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupF025"
+                name='groupF025'
             ),
-            name="groupF025"
+            name='groupF025'
         ),
         TestGroup(
             annotation=[
@@ -3233,7 +3233,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3241,13 +3241,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupG002.xsd"
+                        href='../msData/group/groupG002.xsd'
                     ),
                 ],
                 expected=[
@@ -3259,9 +3259,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupG002"
+                name='groupG002'
             ),
-            name="groupG002"
+            name='groupG002'
         ),
         TestGroup(
             annotation=[
@@ -3269,7 +3269,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3277,13 +3277,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupG003.xsd"
+                        href='../msData/group/groupG003.xsd'
                     ),
                 ],
                 expected=[
@@ -3295,12 +3295,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupG003v"
+                name='groupG003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupG003.xml"
+                        href='../msData/group/groupG003.xml'
                     ),
                     expected=[
                         Expected(
@@ -3311,10 +3311,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupG003v.i"
+                    name='groupG003v.i'
                 ),
             ],
-            name="groupG003v"
+            name='groupG003v'
         ),
         TestGroup(
             annotation=[
@@ -3322,7 +3322,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3330,13 +3330,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupG004.xsd"
+                        href='../msData/group/groupG004.xsd'
                     ),
                 ],
                 expected=[
@@ -3348,12 +3348,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupG004v"
+                name='groupG004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupG004.xml"
+                        href='../msData/group/groupG004.xml'
                     ),
                     expected=[
                         Expected(
@@ -3364,10 +3364,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupG004v.v"
+                    name='groupG004v.v'
                 ),
             ],
-            name="groupG004v"
+            name='groupG004v'
         ),
         TestGroup(
             annotation=[
@@ -3375,7 +3375,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3383,13 +3383,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupG005.xsd"
+                        href='../msData/group/groupG005.xsd'
                     ),
                 ],
                 expected=[
@@ -3401,12 +3401,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupG005v"
+                name='groupG005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupG005.xml"
+                        href='../msData/group/groupG005.xml'
                     ),
                     expected=[
                         Expected(
@@ -3417,10 +3417,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupG005v.i"
+                    name='groupG005v.i'
                 ),
             ],
-            name="groupG005v"
+            name='groupG005v'
         ),
         TestGroup(
             annotation=[
@@ -3428,7 +3428,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3436,13 +3436,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH001.xsd"
+                        href='../msData/group/groupH001.xsd'
                     ),
                 ],
                 expected=[
@@ -3454,12 +3454,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH001v"
+                name='groupH001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH001.xml"
+                        href='../msData/group/groupH001.xml'
                     ),
                     expected=[
                         Expected(
@@ -3470,10 +3470,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH001v.v"
+                    name='groupH001v.v'
                 ),
             ],
-            name="groupH001v"
+            name='groupH001v'
         ),
         TestGroup(
             annotation=[
@@ -3481,7 +3481,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3489,13 +3489,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH002.xsd"
+                        href='../msData/group/groupH002.xsd'
                     ),
                 ],
                 expected=[
@@ -3507,12 +3507,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH002v"
+                name='groupH002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH002.xml"
+                        href='../msData/group/groupH002.xml'
                     ),
                     expected=[
                         Expected(
@@ -3523,10 +3523,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH002v.v"
+                    name='groupH002v.v'
                 ),
             ],
-            name="groupH002v"
+            name='groupH002v'
         ),
         TestGroup(
             annotation=[
@@ -3534,7 +3534,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3542,13 +3542,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH003.xsd"
+                        href='../msData/group/groupH003.xsd'
                     ),
                 ],
                 expected=[
@@ -3560,12 +3560,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH003v"
+                name='groupH003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH003.xml"
+                        href='../msData/group/groupH003.xml'
                     ),
                     expected=[
                         Expected(
@@ -3576,10 +3576,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH003v.i"
+                    name='groupH003v.i'
                 ),
             ],
-            name="groupH003v"
+            name='groupH003v'
         ),
         TestGroup(
             annotation=[
@@ -3587,7 +3587,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -3595,13 +3595,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH004.xsd"
+                        href='../msData/group/groupH004.xsd'
                     ),
                 ],
                 expected=[
@@ -3613,12 +3613,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH004v"
+                name='groupH004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH004.xml"
+                        href='../msData/group/groupH004.xml'
                     ),
                     expected=[
                         Expected(
@@ -3629,10 +3629,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH004v.v"
+                    name='groupH004v.v'
                 ),
             ],
-            name="groupH004v"
+            name='groupH004v'
         ),
         TestGroup(
             annotation=[
@@ -3640,7 +3640,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -3648,13 +3648,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH005.xsd"
+                        href='../msData/group/groupH005.xsd'
                     ),
                 ],
                 expected=[
@@ -3666,12 +3666,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH005v"
+                name='groupH005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH005.xml"
+                        href='../msData/group/groupH005.xml'
                     ),
                     expected=[
                         Expected(
@@ -3682,10 +3682,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH005v.v"
+                    name='groupH005v.v'
                 ),
             ],
-            name="groupH005v"
+            name='groupH005v'
         ),
         TestGroup(
             annotation=[
@@ -3693,7 +3693,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -3701,13 +3701,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH006.xsd"
+                        href='../msData/group/groupH006.xsd'
                     ),
                 ],
                 expected=[
@@ -3719,12 +3719,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH006v"
+                name='groupH006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH006.xml"
+                        href='../msData/group/groupH006.xml'
                     ),
                     expected=[
                         Expected(
@@ -3735,10 +3735,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH006v.i"
+                    name='groupH006v.i'
                 ),
             ],
-            name="groupH006v"
+            name='groupH006v'
         ),
         TestGroup(
             annotation=[
@@ -3746,7 +3746,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -3754,13 +3754,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH007.xsd"
+                        href='../msData/group/groupH007.xsd'
                     ),
                 ],
                 expected=[
@@ -3772,9 +3772,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH007v"
+                name='groupH007v'
             ),
-            name="groupH007v"
+            name='groupH007v'
         ),
         TestGroup(
             annotation=[
@@ -3782,7 +3782,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -3790,13 +3790,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH008.xsd"
+                        href='../msData/group/groupH008.xsd'
                     ),
                 ],
                 expected=[
@@ -3808,12 +3808,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH008v"
+                name='groupH008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH008.xml"
+                        href='../msData/group/groupH008.xml'
                     ),
                     expected=[
                         Expected(
@@ -3824,10 +3824,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH008v.i"
+                    name='groupH008v.i'
                 ),
             ],
-            name="groupH008v"
+            name='groupH008v'
         ),
         TestGroup(
             annotation=[
@@ -3835,7 +3835,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999',
                             ]
                         ),
                     ]
@@ -3843,13 +3843,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH009.xsd"
+                        href='../msData/group/groupH009.xsd'
                     ),
                 ],
                 expected=[
@@ -3861,12 +3861,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH009v"
+                name='groupH009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH009.xml"
+                        href='../msData/group/groupH009.xml'
                     ),
                     expected=[
                         Expected(
@@ -3877,10 +3877,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH009v.v"
+                    name='groupH009v.v'
                 ),
             ],
-            name="groupH009v"
+            name='groupH009v'
         ),
         TestGroup(
             annotation=[
@@ -3888,7 +3888,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3896,13 +3896,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH010.xsd"
+                        href='../msData/group/groupH010.xsd'
                     ),
                 ],
                 expected=[
@@ -3914,12 +3914,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH010v"
+                name='groupH010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH010.xml"
+                        href='../msData/group/groupH010.xml'
                     ),
                     expected=[
                         Expected(
@@ -3930,10 +3930,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH010v.i"
+                    name='groupH010v.i'
                 ),
             ],
-            name="groupH010v"
+            name='groupH010v'
         ),
         TestGroup(
             annotation=[
@@ -3941,7 +3941,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -3949,13 +3949,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH011.xsd"
+                        href='../msData/group/groupH011.xsd'
                     ),
                 ],
                 expected=[
@@ -3967,12 +3967,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH011v"
+                name='groupH011v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH011.xml"
+                        href='../msData/group/groupH011.xml'
                     ),
                     expected=[
                         Expected(
@@ -3983,10 +3983,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH011v.v"
+                    name='groupH011v.v'
                 ),
             ],
-            name="groupH011v"
+            name='groupH011v'
         ),
         TestGroup(
             annotation=[
@@ -3994,7 +3994,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4002,13 +4002,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH012.xsd"
+                        href='../msData/group/groupH012.xsd'
                     ),
                 ],
                 expected=[
@@ -4020,12 +4020,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH012v"
+                name='groupH012v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH012.xml"
+                        href='../msData/group/groupH012.xml'
                     ),
                     expected=[
                         Expected(
@@ -4036,10 +4036,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH012v.i"
+                    name='groupH012v.i'
                 ),
             ],
-            name="groupH012v"
+            name='groupH012v'
         ),
         TestGroup(
             annotation=[
@@ -4047,7 +4047,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -4055,13 +4055,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH013.xsd"
+                        href='../msData/group/groupH013.xsd'
                     ),
                 ],
                 expected=[
@@ -4073,12 +4073,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH013v"
+                name='groupH013v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH013.xml"
+                        href='../msData/group/groupH013.xml'
                     ),
                     expected=[
                         Expected(
@@ -4089,10 +4089,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH013v.i"
+                    name='groupH013v.i'
                 ),
             ],
-            name="groupH013v"
+            name='groupH013v'
         ),
         TestGroup(
             annotation=[
@@ -4100,7 +4100,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -4108,13 +4108,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH014.xsd"
+                        href='../msData/group/groupH014.xsd'
                     ),
                 ],
                 expected=[
@@ -4126,12 +4126,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH014v"
+                name='groupH014v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH014.xml"
+                        href='../msData/group/groupH014.xml'
                     ),
                     expected=[
                         Expected(
@@ -4142,10 +4142,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH014v.v"
+                    name='groupH014v.v'
                 ),
             ],
-            name="groupH014v"
+            name='groupH014v'
         ),
         TestGroup(
             annotation=[
@@ -4153,7 +4153,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -4161,13 +4161,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH015.xsd"
+                        href='../msData/group/groupH015.xsd'
                     ),
                 ],
                 expected=[
@@ -4179,12 +4179,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH015v"
+                name='groupH015v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH015.xml"
+                        href='../msData/group/groupH015.xml'
                     ),
                     expected=[
                         Expected(
@@ -4195,10 +4195,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH015v.i"
+                    name='groupH015v.i'
                 ),
             ],
-            name="groupH015v"
+            name='groupH015v'
         ),
         TestGroup(
             annotation=[
@@ -4206,7 +4206,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -4214,13 +4214,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH016.xsd"
+                        href='../msData/group/groupH016.xsd'
                     ),
                 ],
                 expected=[
@@ -4232,12 +4232,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH016v"
+                name='groupH016v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH016.xml"
+                        href='../msData/group/groupH016.xml'
                     ),
                     expected=[
                         Expected(
@@ -4248,10 +4248,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH016v.i"
+                    name='groupH016v.i'
                 ),
             ],
-            name="groupH016v"
+            name='groupH016v'
         ),
         TestGroup(
             annotation=[
@@ -4259,7 +4259,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -4267,13 +4267,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH017.xsd"
+                        href='../msData/group/groupH017.xsd'
                     ),
                 ],
                 expected=[
@@ -4285,12 +4285,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH017v"
+                name='groupH017v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH017.xml"
+                        href='../msData/group/groupH017.xml'
                     ),
                     expected=[
                         Expected(
@@ -4301,10 +4301,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH017v.v"
+                    name='groupH017v.v'
                 ),
             ],
-            name="groupH017v"
+            name='groupH017v'
         ),
         TestGroup(
             annotation=[
@@ -4312,7 +4312,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -4320,13 +4320,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH018.xsd"
+                        href='../msData/group/groupH018.xsd'
                     ),
                 ],
                 expected=[
@@ -4338,12 +4338,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH018v"
+                name='groupH018v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH018.xml"
+                        href='../msData/group/groupH018.xml'
                     ),
                     expected=[
                         Expected(
@@ -4354,10 +4354,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH018v.v"
+                    name='groupH018v.v'
                 ),
             ],
-            name="groupH018v"
+            name='groupH018v'
         ),
         TestGroup(
             annotation=[
@@ -4365,7 +4365,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -4373,13 +4373,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH019.xsd"
+                        href='../msData/group/groupH019.xsd'
                     ),
                 ],
                 expected=[
@@ -4391,12 +4391,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH019v"
+                name='groupH019v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupH019.xml"
+                        href='../msData/group/groupH019.xml'
                     ),
                     expected=[
                         Expected(
@@ -4407,10 +4407,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupH019v.i"
+                    name='groupH019v.i'
                 ),
             ],
-            name="groupH019v"
+            name='groupH019v'
         ),
         TestGroup(
             annotation=[
@@ -4418,7 +4418,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -4426,13 +4426,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH020.xsd"
+                        href='../msData/group/groupH020.xsd'
                     ),
                 ],
                 expected=[
@@ -4444,9 +4444,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH020"
+                name='groupH020'
             ),
-            name="groupH020"
+            name='groupH020'
         ),
         TestGroup(
             annotation=[
@@ -4454,12 +4454,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "Invalid restriction, which becomes valid with XSD 1.1 - MHK",
+                                'Invalid restriction, which becomes valid with XSD 1.1 - MHK',
                             ]
                         ),
                     ]
@@ -4467,16 +4467,16 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH021.xsd"
+                        href='../msData/group/groupH021.xsd'
                     ),
                 ],
                 expected=[
@@ -4497,9 +4497,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH021v"
+                name='groupH021v'
             ),
-            name="groupH021v"
+            name='groupH021v'
         ),
         TestGroup(
             annotation=[
@@ -4507,7 +4507,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -4515,13 +4515,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH022.xsd"
+                        href='../msData/group/groupH022.xsd'
                     ),
                 ],
                 expected=[
@@ -4533,9 +4533,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH022"
+                name='groupH022'
             ),
-            name="groupH022"
+            name='groupH022'
         ),
         TestGroup(
             annotation=[
@@ -4543,7 +4543,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -4551,13 +4551,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH023.xsd"
+                        href='../msData/group/groupH023.xsd'
                     ),
                 ],
                 expected=[
@@ -4569,9 +4569,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH023"
+                name='groupH023'
             ),
-            name="groupH023"
+            name='groupH023'
         ),
         TestGroup(
             annotation=[
@@ -4579,7 +4579,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -4587,13 +4587,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH024.xsd"
+                        href='../msData/group/groupH024.xsd'
                     ),
                 ],
                 expected=[
@@ -4605,9 +4605,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH024"
+                name='groupH024'
             ),
-            name="groupH024"
+            name='groupH024'
         ),
         TestGroup(
             annotation=[
@@ -4615,7 +4615,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -4623,13 +4623,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupH025.xsd"
+                        href='../msData/group/groupH025.xsd'
                     ),
                 ],
                 expected=[
@@ -4641,9 +4641,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupH025"
+                name='groupH025'
             ),
-            name="groupH025"
+            name='groupH025'
         ),
         TestGroup(
             annotation=[
@@ -4651,7 +4651,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4659,13 +4659,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupI002.xsd"
+                        href='../msData/group/groupI002.xsd'
                     ),
                 ],
                 expected=[
@@ -4677,9 +4677,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupI002"
+                name='groupI002'
             ),
-            name="groupI002"
+            name='groupI002'
         ),
         TestGroup(
             annotation=[
@@ -4687,7 +4687,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4695,13 +4695,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupI003.xsd"
+                        href='../msData/group/groupI003.xsd'
                     ),
                 ],
                 expected=[
@@ -4713,12 +4713,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupI003v"
+                name='groupI003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupI003.xml"
+                        href='../msData/group/groupI003.xml'
                     ),
                     expected=[
                         Expected(
@@ -4729,10 +4729,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupI003v.i"
+                    name='groupI003v.i'
                 ),
             ],
-            name="groupI003v"
+            name='groupI003v'
         ),
         TestGroup(
             annotation=[
@@ -4740,7 +4740,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4748,13 +4748,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupI004.xsd"
+                        href='../msData/group/groupI004.xsd'
                     ),
                 ],
                 expected=[
@@ -4766,12 +4766,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupI004v"
+                name='groupI004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupI004.xml"
+                        href='../msData/group/groupI004.xml'
                     ),
                     expected=[
                         Expected(
@@ -4782,10 +4782,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupI004v.v"
+                    name='groupI004v.v'
                 ),
             ],
-            name="groupI004v"
+            name='groupI004v'
         ),
         TestGroup(
             annotation=[
@@ -4793,7 +4793,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4801,13 +4801,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupI005.xsd"
+                        href='../msData/group/groupI005.xsd'
                     ),
                 ],
                 expected=[
@@ -4819,12 +4819,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupI005v"
+                name='groupI005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupI005.xml"
+                        href='../msData/group/groupI005.xml'
                     ),
                     expected=[
                         Expected(
@@ -4835,10 +4835,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupI005v.i"
+                    name='groupI005v.i'
                 ),
             ],
-            name="groupI005v"
+            name='groupI005v'
         ),
         TestGroup(
             annotation=[
@@ -4846,7 +4846,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4854,13 +4854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ001.xsd"
+                        href='../msData/group/groupJ001.xsd'
                     ),
                 ],
                 expected=[
@@ -4872,12 +4872,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ001v"
+                name='groupJ001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ001.xml"
+                        href='../msData/group/groupJ001.xml'
                     ),
                     expected=[
                         Expected(
@@ -4888,10 +4888,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ001v.v"
+                    name='groupJ001v.v'
                 ),
             ],
-            name="groupJ001v"
+            name='groupJ001v'
         ),
         TestGroup(
             annotation=[
@@ -4899,7 +4899,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4907,13 +4907,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ002.xsd"
+                        href='../msData/group/groupJ002.xsd'
                     ),
                 ],
                 expected=[
@@ -4925,12 +4925,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ002v"
+                name='groupJ002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ002.xml"
+                        href='../msData/group/groupJ002.xml'
                     ),
                     expected=[
                         Expected(
@@ -4941,10 +4941,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ002v.v"
+                    name='groupJ002v.v'
                 ),
             ],
-            name="groupJ002v"
+            name='groupJ002v'
         ),
         TestGroup(
             annotation=[
@@ -4952,7 +4952,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -4960,13 +4960,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ003.xsd"
+                        href='../msData/group/groupJ003.xsd'
                     ),
                 ],
                 expected=[
@@ -4978,12 +4978,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ003v"
+                name='groupJ003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ003.xml"
+                        href='../msData/group/groupJ003.xml'
                     ),
                     expected=[
                         Expected(
@@ -4994,10 +4994,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ003v.i"
+                    name='groupJ003v.i'
                 ),
             ],
-            name="groupJ003v"
+            name='groupJ003v'
         ),
         TestGroup(
             annotation=[
@@ -5005,7 +5005,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5013,13 +5013,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ004.xsd"
+                        href='../msData/group/groupJ004.xsd'
                     ),
                 ],
                 expected=[
@@ -5031,12 +5031,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ004v"
+                name='groupJ004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ004.xml"
+                        href='../msData/group/groupJ004.xml'
                     ),
                     expected=[
                         Expected(
@@ -5047,10 +5047,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ004v.v"
+                    name='groupJ004v.v'
                 ),
             ],
-            name="groupJ004v"
+            name='groupJ004v'
         ),
         TestGroup(
             annotation=[
@@ -5058,7 +5058,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5066,13 +5066,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ005.xsd"
+                        href='../msData/group/groupJ005.xsd'
                     ),
                 ],
                 expected=[
@@ -5084,12 +5084,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ005v"
+                name='groupJ005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ005.xml"
+                        href='../msData/group/groupJ005.xml'
                     ),
                     expected=[
                         Expected(
@@ -5100,10 +5100,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ005v.v"
+                    name='groupJ005v.v'
                 ),
             ],
-            name="groupJ005v"
+            name='groupJ005v'
         ),
         TestGroup(
             annotation=[
@@ -5111,7 +5111,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5119,13 +5119,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ006.xsd"
+                        href='../msData/group/groupJ006.xsd'
                     ),
                 ],
                 expected=[
@@ -5137,12 +5137,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ006v"
+                name='groupJ006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ006.xml"
+                        href='../msData/group/groupJ006.xml'
                     ),
                     expected=[
                         Expected(
@@ -5153,10 +5153,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ006v.i"
+                    name='groupJ006v.i'
                 ),
             ],
-            name="groupJ006v"
+            name='groupJ006v'
         ),
         TestGroup(
             annotation=[
@@ -5164,7 +5164,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -5172,13 +5172,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ007.xsd"
+                        href='../msData/group/groupJ007.xsd'
                     ),
                 ],
                 expected=[
@@ -5190,12 +5190,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ007v"
+                name='groupJ007v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ007.xml"
+                        href='../msData/group/groupJ007.xml'
                     ),
                     expected=[
                         Expected(
@@ -5206,10 +5206,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ007v.v"
+                    name='groupJ007v.v'
                 ),
             ],
-            name="groupJ007v"
+            name='groupJ007v'
         ),
         TestGroup(
             annotation=[
@@ -5217,7 +5217,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -5225,13 +5225,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ008.xsd"
+                        href='../msData/group/groupJ008.xsd'
                     ),
                 ],
                 expected=[
@@ -5243,12 +5243,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ008v"
+                name='groupJ008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ008.xml"
+                        href='../msData/group/groupJ008.xml'
                     ),
                     expected=[
                         Expected(
@@ -5259,10 +5259,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ008v.i"
+                    name='groupJ008v.i'
                 ),
             ],
-            name="groupJ008v"
+            name='groupJ008v'
         ),
         TestGroup(
             annotation=[
@@ -5270,7 +5270,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999',
                             ]
                         ),
                     ]
@@ -5278,13 +5278,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ009.xsd"
+                        href='../msData/group/groupJ009.xsd'
                     ),
                 ],
                 expected=[
@@ -5296,12 +5296,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ009v"
+                name='groupJ009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ009.xml"
+                        href='../msData/group/groupJ009.xml'
                     ),
                     expected=[
                         Expected(
@@ -5312,10 +5312,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ009v.v"
+                    name='groupJ009v.v'
                 ),
             ],
-            name="groupJ009v"
+            name='groupJ009v'
         ),
         TestGroup(
             annotation=[
@@ -5323,7 +5323,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5331,13 +5331,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ010.xsd"
+                        href='../msData/group/groupJ010.xsd'
                     ),
                 ],
                 expected=[
@@ -5349,12 +5349,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ010v"
+                name='groupJ010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ010.xml"
+                        href='../msData/group/groupJ010.xml'
                     ),
                     expected=[
                         Expected(
@@ -5365,10 +5365,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ010v.i"
+                    name='groupJ010v.i'
                 ),
             ],
-            name="groupJ010v"
+            name='groupJ010v'
         ),
         TestGroup(
             annotation=[
@@ -5376,7 +5376,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5384,13 +5384,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ011.xsd"
+                        href='../msData/group/groupJ011.xsd'
                     ),
                 ],
                 expected=[
@@ -5402,12 +5402,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ011v"
+                name='groupJ011v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ011.xml"
+                        href='../msData/group/groupJ011.xml'
                     ),
                     expected=[
                         Expected(
@@ -5418,10 +5418,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ011v.v"
+                    name='groupJ011v.v'
                 ),
             ],
-            name="groupJ011v"
+            name='groupJ011v'
         ),
         TestGroup(
             annotation=[
@@ -5429,7 +5429,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -5437,13 +5437,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ012.xsd"
+                        href='../msData/group/groupJ012.xsd'
                     ),
                 ],
                 expected=[
@@ -5455,12 +5455,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ012v"
+                name='groupJ012v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ012.xml"
+                        href='../msData/group/groupJ012.xml'
                     ),
                     expected=[
                         Expected(
@@ -5471,10 +5471,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ012v.i"
+                    name='groupJ012v.i'
                 ),
             ],
-            name="groupJ012v"
+            name='groupJ012v'
         ),
         TestGroup(
             annotation=[
@@ -5482,7 +5482,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5490,13 +5490,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ013.xsd"
+                        href='../msData/group/groupJ013.xsd'
                     ),
                 ],
                 expected=[
@@ -5508,12 +5508,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ013v"
+                name='groupJ013v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ013.xml"
+                        href='../msData/group/groupJ013.xml'
                     ),
                     expected=[
                         Expected(
@@ -5524,10 +5524,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ013v.i"
+                    name='groupJ013v.i'
                 ),
             ],
-            name="groupJ013v"
+            name='groupJ013v'
         ),
         TestGroup(
             annotation=[
@@ -5535,7 +5535,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5543,13 +5543,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ014.xsd"
+                        href='../msData/group/groupJ014.xsd'
                     ),
                 ],
                 expected=[
@@ -5561,12 +5561,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ014v"
+                name='groupJ014v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ014.xml"
+                        href='../msData/group/groupJ014.xml'
                     ),
                     expected=[
                         Expected(
@@ -5577,10 +5577,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ014v.v"
+                    name='groupJ014v.v'
                 ),
             ],
-            name="groupJ014v"
+            name='groupJ014v'
         ),
         TestGroup(
             annotation=[
@@ -5588,7 +5588,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5596,13 +5596,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ015.xsd"
+                        href='../msData/group/groupJ015.xsd'
                     ),
                 ],
                 expected=[
@@ -5614,12 +5614,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ015v"
+                name='groupJ015v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ015.xml"
+                        href='../msData/group/groupJ015.xml'
                     ),
                     expected=[
                         Expected(
@@ -5630,10 +5630,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ015v.i"
+                    name='groupJ015v.i'
                 ),
             ],
-            name="groupJ015v"
+            name='groupJ015v'
         ),
         TestGroup(
             annotation=[
@@ -5641,7 +5641,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -5649,13 +5649,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ016.xsd"
+                        href='../msData/group/groupJ016.xsd'
                     ),
                 ],
                 expected=[
@@ -5667,12 +5667,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ016v"
+                name='groupJ016v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ016.xml"
+                        href='../msData/group/groupJ016.xml'
                     ),
                     expected=[
                         Expected(
@@ -5683,10 +5683,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ016v.i"
+                    name='groupJ016v.i'
                 ),
             ],
-            name="groupJ016v"
+            name='groupJ016v'
         ),
         TestGroup(
             annotation=[
@@ -5694,7 +5694,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -5702,13 +5702,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ017.xsd"
+                        href='../msData/group/groupJ017.xsd'
                     ),
                 ],
                 expected=[
@@ -5720,12 +5720,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ017v"
+                name='groupJ017v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ017.xml"
+                        href='../msData/group/groupJ017.xml'
                     ),
                     expected=[
                         Expected(
@@ -5736,10 +5736,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ017v.v"
+                    name='groupJ017v.v'
                 ),
             ],
-            name="groupJ017v"
+            name='groupJ017v'
         ),
         TestGroup(
             annotation=[
@@ -5747,7 +5747,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -5755,13 +5755,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ018.xsd"
+                        href='../msData/group/groupJ018.xsd'
                     ),
                 ],
                 expected=[
@@ -5773,12 +5773,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ018v"
+                name='groupJ018v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ018.xml"
+                        href='../msData/group/groupJ018.xml'
                     ),
                     expected=[
                         Expected(
@@ -5789,10 +5789,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ018v.v"
+                    name='groupJ018v.v'
                 ),
             ],
-            name="groupJ018v"
+            name='groupJ018v'
         ),
         TestGroup(
             annotation=[
@@ -5800,7 +5800,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -5808,13 +5808,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ019.xsd"
+                        href='../msData/group/groupJ019.xsd'
                     ),
                 ],
                 expected=[
@@ -5826,12 +5826,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ019v"
+                name='groupJ019v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ019.xml"
+                        href='../msData/group/groupJ019.xml'
                     ),
                     expected=[
                         Expected(
@@ -5842,10 +5842,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ019v.i"
+                    name='groupJ019v.i'
                 ),
             ],
-            name="groupJ019v"
+            name='groupJ019v'
         ),
         TestGroup(
             annotation=[
@@ -5853,7 +5853,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -5861,13 +5861,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ020.xsd"
+                        href='../msData/group/groupJ020.xsd'
                     ),
                 ],
                 expected=[
@@ -5879,9 +5879,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ020"
+                name='groupJ020'
             ),
-            name="groupJ020"
+            name='groupJ020'
         ),
         TestGroup(
             annotation=[
@@ -5889,7 +5889,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -5897,13 +5897,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ021.xsd"
+                        href='../msData/group/groupJ021.xsd'
                     ),
                 ],
                 expected=[
@@ -5915,12 +5915,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ021v"
+                name='groupJ021v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupJ021.xml"
+                        href='../msData/group/groupJ021.xml'
                     ),
                     expected=[
                         Expected(
@@ -5931,10 +5931,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupJ021v.v"
+                    name='groupJ021v.v'
                 ),
             ],
-            name="groupJ021v"
+            name='groupJ021v'
         ),
         TestGroup(
             annotation=[
@@ -5942,7 +5942,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -5950,13 +5950,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ022.xsd"
+                        href='../msData/group/groupJ022.xsd'
                     ),
                 ],
                 expected=[
@@ -5968,9 +5968,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ022"
+                name='groupJ022'
             ),
-            name="groupJ022"
+            name='groupJ022'
         ),
         TestGroup(
             annotation=[
@@ -5978,7 +5978,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -5986,13 +5986,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ023.xsd"
+                        href='../msData/group/groupJ023.xsd'
                     ),
                 ],
                 expected=[
@@ -6004,9 +6004,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ023"
+                name='groupJ023'
             ),
-            name="groupJ023"
+            name='groupJ023'
         ),
         TestGroup(
             annotation=[
@@ -6014,7 +6014,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -6022,13 +6022,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ024.xsd"
+                        href='../msData/group/groupJ024.xsd'
                     ),
                 ],
                 expected=[
@@ -6040,9 +6040,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ024"
+                name='groupJ024'
             ),
-            name="groupJ024"
+            name='groupJ024'
         ),
         TestGroup(
             annotation=[
@@ -6050,7 +6050,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -6058,13 +6058,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupJ025.xsd"
+                        href='../msData/group/groupJ025.xsd'
                     ),
                 ],
                 expected=[
@@ -6076,9 +6076,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupJ025"
+                name='groupJ025'
             ),
-            name="groupJ025"
+            name='groupJ025'
         ),
         TestGroup(
             annotation=[
@@ -6086,7 +6086,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6094,13 +6094,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupK002.xsd"
+                        href='../msData/group/groupK002.xsd'
                     ),
                 ],
                 expected=[
@@ -6112,9 +6112,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupK002"
+                name='groupK002'
             ),
-            name="groupK002"
+            name='groupK002'
         ),
         TestGroup(
             annotation=[
@@ -6122,7 +6122,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6130,13 +6130,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupK003.xsd"
+                        href='../msData/group/groupK003.xsd'
                     ),
                 ],
                 expected=[
@@ -6148,12 +6148,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupK003v"
+                name='groupK003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupK003.xml"
+                        href='../msData/group/groupK003.xml'
                     ),
                     expected=[
                         Expected(
@@ -6164,10 +6164,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupK003v.i"
+                    name='groupK003v.i'
                 ),
             ],
-            name="groupK003v"
+            name='groupK003v'
         ),
         TestGroup(
             annotation=[
@@ -6175,7 +6175,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6183,13 +6183,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupK004.xsd"
+                        href='../msData/group/groupK004.xsd'
                     ),
                 ],
                 expected=[
@@ -6201,12 +6201,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupK004v"
+                name='groupK004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupK004.xml"
+                        href='../msData/group/groupK004.xml'
                     ),
                     expected=[
                         Expected(
@@ -6217,10 +6217,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupK004v.v"
+                    name='groupK004v.v'
                 ),
             ],
-            name="groupK004v"
+            name='groupK004v'
         ),
         TestGroup(
             annotation=[
@@ -6228,7 +6228,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6236,13 +6236,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupK005.xsd"
+                        href='../msData/group/groupK005.xsd'
                     ),
                 ],
                 expected=[
@@ -6254,12 +6254,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupK005v"
+                name='groupK005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupK005.xml"
+                        href='../msData/group/groupK005.xml'
                     ),
                     expected=[
                         Expected(
@@ -6270,10 +6270,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupK005v.i"
+                    name='groupK005v.i'
                 ),
             ],
-            name="groupK005v"
+            name='groupK005v'
         ),
         TestGroup(
             annotation=[
@@ -6281,7 +6281,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6289,13 +6289,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL001.xsd"
+                        href='../msData/group/groupL001.xsd'
                     ),
                 ],
                 expected=[
@@ -6307,12 +6307,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL001v"
+                name='groupL001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL001.xml"
+                        href='../msData/group/groupL001.xml'
                     ),
                     expected=[
                         Expected(
@@ -6323,10 +6323,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL001v.v"
+                    name='groupL001v.v'
                 ),
             ],
-            name="groupL001v"
+            name='groupL001v'
         ),
         TestGroup(
             annotation=[
@@ -6334,7 +6334,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6342,13 +6342,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL002.xsd"
+                        href='../msData/group/groupL002.xsd'
                     ),
                 ],
                 expected=[
@@ -6360,12 +6360,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL002v"
+                name='groupL002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL002.xml"
+                        href='../msData/group/groupL002.xml'
                     ),
                     expected=[
                         Expected(
@@ -6376,10 +6376,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL002v.v"
+                    name='groupL002v.v'
                 ),
             ],
-            name="groupL002v"
+            name='groupL002v'
         ),
         TestGroup(
             annotation=[
@@ -6387,7 +6387,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6395,13 +6395,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL003.xsd"
+                        href='../msData/group/groupL003.xsd'
                     ),
                 ],
                 expected=[
@@ -6413,12 +6413,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL003v"
+                name='groupL003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL003.xml"
+                        href='../msData/group/groupL003.xml'
                     ),
                     expected=[
                         Expected(
@@ -6429,10 +6429,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL003v.i"
+                    name='groupL003v.i'
                 ),
             ],
-            name="groupL003v"
+            name='groupL003v'
         ),
         TestGroup(
             annotation=[
@@ -6440,7 +6440,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6448,13 +6448,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL004.xsd"
+                        href='../msData/group/groupL004.xsd'
                     ),
                 ],
                 expected=[
@@ -6466,12 +6466,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL004v"
+                name='groupL004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL004.xml"
+                        href='../msData/group/groupL004.xml'
                     ),
                     expected=[
                         Expected(
@@ -6482,10 +6482,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL004v.v"
+                    name='groupL004v.v'
                 ),
             ],
-            name="groupL004v"
+            name='groupL004v'
         ),
         TestGroup(
             annotation=[
@@ -6493,7 +6493,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6501,13 +6501,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL005.xsd"
+                        href='../msData/group/groupL005.xsd'
                     ),
                 ],
                 expected=[
@@ -6519,12 +6519,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL005v"
+                name='groupL005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL005.xml"
+                        href='../msData/group/groupL005.xml'
                     ),
                     expected=[
                         Expected(
@@ -6535,10 +6535,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL005v.v"
+                    name='groupL005v.v'
                 ),
             ],
-            name="groupL005v"
+            name='groupL005v'
         ),
         TestGroup(
             annotation=[
@@ -6546,7 +6546,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6554,13 +6554,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL006.xsd"
+                        href='../msData/group/groupL006.xsd'
                     ),
                 ],
                 expected=[
@@ -6572,12 +6572,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL006v"
+                name='groupL006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL006.xml"
+                        href='../msData/group/groupL006.xml'
                     ),
                     expected=[
                         Expected(
@@ -6588,10 +6588,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL006v.i"
+                    name='groupL006v.i'
                 ),
             ],
-            name="groupL006v"
+            name='groupL006v'
         ),
         TestGroup(
             annotation=[
@@ -6599,7 +6599,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -6607,13 +6607,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL007.xsd"
+                        href='../msData/group/groupL007.xsd'
                     ),
                 ],
                 expected=[
@@ -6625,12 +6625,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL007"
+                name='groupL007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL007.xml"
+                        href='../msData/group/groupL007.xml'
                     ),
                     expected=[
                         Expected(
@@ -6641,10 +6641,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL007.v"
+                    name='groupL007.v'
                 ),
             ],
-            name="groupL007"
+            name='groupL007'
         ),
         TestGroup(
             annotation=[
@@ -6652,7 +6652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -6660,13 +6660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL008.xsd"
+                        href='../msData/group/groupL008.xsd'
                     ),
                 ],
                 expected=[
@@ -6678,12 +6678,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL008v"
+                name='groupL008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL008.xml"
+                        href='../msData/group/groupL008.xml'
                     ),
                     expected=[
                         Expected(
@@ -6694,10 +6694,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL008v.i"
+                    name='groupL008v.i'
                 ),
             ],
-            name="groupL008v"
+            name='groupL008v'
         ),
         TestGroup(
             annotation=[
@@ -6705,7 +6705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999',
                             ]
                         ),
                     ]
@@ -6713,13 +6713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL009.xsd"
+                        href='../msData/group/groupL009.xsd'
                     ),
                 ],
                 expected=[
@@ -6731,12 +6731,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL009v"
+                name='groupL009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL009.xml"
+                        href='../msData/group/groupL009.xml'
                     ),
                     expected=[
                         Expected(
@@ -6747,10 +6747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL009v.v"
+                    name='groupL009v.v'
                 ),
             ],
-            name="groupL009v"
+            name='groupL009v'
         ),
         TestGroup(
             annotation=[
@@ -6758,7 +6758,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6766,13 +6766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL010.xsd"
+                        href='../msData/group/groupL010.xsd'
                     ),
                 ],
                 expected=[
@@ -6784,12 +6784,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL010v"
+                name='groupL010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL010.xml"
+                        href='../msData/group/groupL010.xml'
                     ),
                     expected=[
                         Expected(
@@ -6800,10 +6800,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL010v.i"
+                    name='groupL010v.i'
                 ),
             ],
-            name="groupL010v"
+            name='groupL010v'
         ),
         TestGroup(
             annotation=[
@@ -6811,7 +6811,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6819,13 +6819,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL011.xsd"
+                        href='../msData/group/groupL011.xsd'
                     ),
                 ],
                 expected=[
@@ -6837,12 +6837,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL011v"
+                name='groupL011v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL011.xml"
+                        href='../msData/group/groupL011.xml'
                     ),
                     expected=[
                         Expected(
@@ -6853,10 +6853,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL011v.v"
+                    name='groupL011v.v'
                 ),
             ],
-            name="groupL011v"
+            name='groupL011v'
         ),
         TestGroup(
             annotation=[
@@ -6864,7 +6864,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -6872,13 +6872,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL012.xsd"
+                        href='../msData/group/groupL012.xsd'
                     ),
                 ],
                 expected=[
@@ -6890,12 +6890,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL012v"
+                name='groupL012v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL012.xml"
+                        href='../msData/group/groupL012.xml'
                     ),
                     expected=[
                         Expected(
@@ -6906,10 +6906,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL012v.i"
+                    name='groupL012v.i'
                 ),
             ],
-            name="groupL012v"
+            name='groupL012v'
         ),
         TestGroup(
             annotation=[
@@ -6917,7 +6917,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6925,13 +6925,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL013.xsd"
+                        href='../msData/group/groupL013.xsd'
                     ),
                 ],
                 expected=[
@@ -6943,12 +6943,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL013v"
+                name='groupL013v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL013.xml"
+                        href='../msData/group/groupL013.xml'
                     ),
                     expected=[
                         Expected(
@@ -6959,10 +6959,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL013v.i"
+                    name='groupL013v.i'
                 ),
             ],
-            name="groupL013v"
+            name='groupL013v'
         ),
         TestGroup(
             annotation=[
@@ -6970,7 +6970,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -6978,13 +6978,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL014.xsd"
+                        href='../msData/group/groupL014.xsd'
                     ),
                 ],
                 expected=[
@@ -6996,12 +6996,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL014v"
+                name='groupL014v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL014.xml"
+                        href='../msData/group/groupL014.xml'
                     ),
                     expected=[
                         Expected(
@@ -7012,10 +7012,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL014v.v"
+                    name='groupL014v.v'
                 ),
             ],
-            name="groupL014v"
+            name='groupL014v'
         ),
         TestGroup(
             annotation=[
@@ -7023,7 +7023,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -7031,13 +7031,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL015.xsd"
+                        href='../msData/group/groupL015.xsd'
                     ),
                 ],
                 expected=[
@@ -7049,12 +7049,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL015v"
+                name='groupL015v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL015.xml"
+                        href='../msData/group/groupL015.xml'
                     ),
                     expected=[
                         Expected(
@@ -7065,10 +7065,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL015v.i"
+                    name='groupL015v.i'
                 ),
             ],
-            name="groupL015v"
+            name='groupL015v'
         ),
         TestGroup(
             annotation=[
@@ -7076,7 +7076,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -7084,13 +7084,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL016.xsd"
+                        href='../msData/group/groupL016.xsd'
                     ),
                 ],
                 expected=[
@@ -7102,12 +7102,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL016v"
+                name='groupL016v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL016.xml"
+                        href='../msData/group/groupL016.xml'
                     ),
                     expected=[
                         Expected(
@@ -7118,10 +7118,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL016v.i"
+                    name='groupL016v.i'
                 ),
             ],
-            name="groupL016v"
+            name='groupL016v'
         ),
         TestGroup(
             annotation=[
@@ -7129,7 +7129,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -7137,13 +7137,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL017.xsd"
+                        href='../msData/group/groupL017.xsd'
                     ),
                 ],
                 expected=[
@@ -7155,12 +7155,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL017v"
+                name='groupL017v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL017.xml"
+                        href='../msData/group/groupL017.xml'
                     ),
                     expected=[
                         Expected(
@@ -7171,10 +7171,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL017v.v"
+                    name='groupL017v.v'
                 ),
             ],
-            name="groupL017v"
+            name='groupL017v'
         ),
         TestGroup(
             annotation=[
@@ -7182,7 +7182,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -7190,13 +7190,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL018.xsd"
+                        href='../msData/group/groupL018.xsd'
                     ),
                 ],
                 expected=[
@@ -7208,12 +7208,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL018v"
+                name='groupL018v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL018.xml"
+                        href='../msData/group/groupL018.xml'
                     ),
                     expected=[
                         Expected(
@@ -7224,10 +7224,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL018v.v"
+                    name='groupL018v.v'
                 ),
             ],
-            name="groupL018v"
+            name='groupL018v'
         ),
         TestGroup(
             annotation=[
@@ -7235,7 +7235,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -7243,13 +7243,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL019.xsd"
+                        href='../msData/group/groupL019.xsd'
                     ),
                 ],
                 expected=[
@@ -7261,12 +7261,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL019v"
+                name='groupL019v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL019.xml"
+                        href='../msData/group/groupL019.xml'
                     ),
                     expected=[
                         Expected(
@@ -7277,10 +7277,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL019v.i"
+                    name='groupL019v.i'
                 ),
             ],
-            name="groupL019v"
+            name='groupL019v'
         ),
         TestGroup(
             annotation=[
@@ -7288,7 +7288,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -7296,13 +7296,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL020.xsd"
+                        href='../msData/group/groupL020.xsd'
                     ),
                 ],
                 expected=[
@@ -7314,9 +7314,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL020"
+                name='groupL020'
             ),
-            name="groupL020"
+            name='groupL020'
         ),
         TestGroup(
             annotation=[
@@ -7324,7 +7324,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -7332,13 +7332,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL021.xsd"
+                        href='../msData/group/groupL021.xsd'
                     ),
                 ],
                 expected=[
@@ -7350,12 +7350,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL021v"
+                name='groupL021v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupL021.xml"
+                        href='../msData/group/groupL021.xml'
                     ),
                     expected=[
                         Expected(
@@ -7366,10 +7366,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupL021v.v"
+                    name='groupL021v.v'
                 ),
             ],
-            name="groupL021v"
+            name='groupL021v'
         ),
         TestGroup(
             annotation=[
@@ -7377,7 +7377,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -7385,13 +7385,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL022.xsd"
+                        href='../msData/group/groupL022.xsd'
                     ),
                 ],
                 expected=[
@@ -7403,9 +7403,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL022"
+                name='groupL022'
             ),
-            name="groupL022"
+            name='groupL022'
         ),
         TestGroup(
             annotation=[
@@ -7413,7 +7413,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -7421,13 +7421,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL023.xsd"
+                        href='../msData/group/groupL023.xsd'
                     ),
                 ],
                 expected=[
@@ -7439,9 +7439,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL023"
+                name='groupL023'
             ),
-            name="groupL023"
+            name='groupL023'
         ),
         TestGroup(
             annotation=[
@@ -7449,7 +7449,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -7457,13 +7457,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL024.xsd"
+                        href='../msData/group/groupL024.xsd'
                     ),
                 ],
                 expected=[
@@ -7475,9 +7475,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL024"
+                name='groupL024'
             ),
-            name="groupL024"
+            name='groupL024'
         ),
         TestGroup(
             annotation=[
@@ -7485,7 +7485,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -7493,13 +7493,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupL025.xsd"
+                        href='../msData/group/groupL025.xsd'
                     ),
                 ],
                 expected=[
@@ -7511,9 +7511,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupL025"
+                name='groupL025'
             ),
-            name="groupL025"
+            name='groupL025'
         ),
         TestGroup(
             annotation=[
@@ -7521,7 +7521,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7529,13 +7529,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupM002.xsd"
+                        href='../msData/group/groupM002.xsd'
                     ),
                 ],
                 expected=[
@@ -7547,9 +7547,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupM002"
+                name='groupM002'
             ),
-            name="groupM002"
+            name='groupM002'
         ),
         TestGroup(
             annotation=[
@@ -7557,7 +7557,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7565,13 +7565,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupM003.xsd"
+                        href='../msData/group/groupM003.xsd'
                     ),
                 ],
                 expected=[
@@ -7583,12 +7583,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupM003v"
+                name='groupM003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupM003.xml"
+                        href='../msData/group/groupM003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7599,10 +7599,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupM003v.i"
+                    name='groupM003v.i'
                 ),
             ],
-            name="groupM003v"
+            name='groupM003v'
         ),
         TestGroup(
             annotation=[
@@ -7610,7 +7610,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7618,13 +7618,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupM004.xsd"
+                        href='../msData/group/groupM004.xsd'
                     ),
                 ],
                 expected=[
@@ -7636,12 +7636,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupM004v"
+                name='groupM004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupM004.xml"
+                        href='../msData/group/groupM004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7652,10 +7652,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupM004v.v"
+                    name='groupM004v.v'
                 ),
             ],
-            name="groupM004v"
+            name='groupM004v'
         ),
         TestGroup(
             annotation=[
@@ -7663,7 +7663,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7671,13 +7671,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupM005.xsd"
+                        href='../msData/group/groupM005.xsd'
                     ),
                 ],
                 expected=[
@@ -7689,12 +7689,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupM005v"
+                name='groupM005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupM005.xml"
+                        href='../msData/group/groupM005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7705,10 +7705,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupM005v.i"
+                    name='groupM005v.i'
                 ),
             ],
-            name="groupM005v"
+            name='groupM005v'
         ),
         TestGroup(
             annotation=[
@@ -7716,7 +7716,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7724,13 +7724,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN001.xsd"
+                        href='../msData/group/groupN001.xsd'
                     ),
                 ],
                 expected=[
@@ -7742,12 +7742,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN001v"
+                name='groupN001v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN001.xml"
+                        href='../msData/group/groupN001.xml'
                     ),
                     expected=[
                         Expected(
@@ -7758,10 +7758,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN001v.v"
+                    name='groupN001v.v'
                 ),
             ],
-            name="groupN001v"
+            name='groupN001v'
         ),
         TestGroup(
             annotation=[
@@ -7769,7 +7769,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7777,13 +7777,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN002.xsd"
+                        href='../msData/group/groupN002.xsd'
                     ),
                 ],
                 expected=[
@@ -7795,12 +7795,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN002v"
+                name='groupN002v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN002.xml"
+                        href='../msData/group/groupN002.xml'
                     ),
                     expected=[
                         Expected(
@@ -7811,10 +7811,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN002v.v"
+                    name='groupN002v.v'
                 ),
             ],
-            name="groupN002v"
+            name='groupN002v'
         ),
         TestGroup(
             annotation=[
@@ -7822,7 +7822,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -7830,13 +7830,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN003.xsd"
+                        href='../msData/group/groupN003.xsd'
                     ),
                 ],
                 expected=[
@@ -7848,12 +7848,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN003v"
+                name='groupN003v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN003.xml"
+                        href='../msData/group/groupN003.xml'
                     ),
                     expected=[
                         Expected(
@@ -7864,10 +7864,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN003v.i"
+                    name='groupN003v.i'
                 ),
             ],
-            name="groupN003v"
+            name='groupN003v'
         ),
         TestGroup(
             annotation=[
@@ -7875,7 +7875,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -7883,13 +7883,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN004.xsd"
+                        href='../msData/group/groupN004.xsd'
                     ),
                 ],
                 expected=[
@@ -7901,12 +7901,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN004v"
+                name='groupN004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN004.xml"
+                        href='../msData/group/groupN004.xml'
                     ),
                     expected=[
                         Expected(
@@ -7917,10 +7917,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN004v.v"
+                    name='groupN004v.v'
                 ),
             ],
-            name="groupN004v"
+            name='groupN004v'
         ),
         TestGroup(
             annotation=[
@@ -7928,7 +7928,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -7936,13 +7936,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN005.xsd"
+                        href='../msData/group/groupN005.xsd'
                     ),
                 ],
                 expected=[
@@ -7954,12 +7954,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN005v"
+                name='groupN005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN005.xml"
+                        href='../msData/group/groupN005.xml'
                     ),
                     expected=[
                         Expected(
@@ -7970,10 +7970,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN005v.v"
+                    name='groupN005v.v'
                 ),
             ],
-            name="groupN005v"
+            name='groupN005v'
         ),
         TestGroup(
             annotation=[
@@ -7981,7 +7981,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -7989,13 +7989,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN006.xsd"
+                        href='../msData/group/groupN006.xsd'
                     ),
                 ],
                 expected=[
@@ -8007,12 +8007,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN006v"
+                name='groupN006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN006.xml"
+                        href='../msData/group/groupN006.xml'
                     ),
                     expected=[
                         Expected(
@@ -8023,10 +8023,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN006v.i"
+                    name='groupN006v.i'
                 ),
             ],
-            name="groupN006v"
+            name='groupN006v'
         ),
         TestGroup(
             annotation=[
@@ -8034,7 +8034,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -8042,13 +8042,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN007.xsd"
+                        href='../msData/group/groupN007.xsd'
                     ),
                 ],
                 expected=[
@@ -8060,12 +8060,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN007v"
+                name='groupN007v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN007.xml"
+                        href='../msData/group/groupN007.xml'
                     ),
                     expected=[
                         Expected(
@@ -8076,10 +8076,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN007v.v"
+                    name='groupN007v.v'
                 ),
             ],
-            name="groupN007v"
+            name='groupN007v'
         ),
         TestGroup(
             annotation=[
@@ -8087,7 +8087,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -8095,13 +8095,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN008.xsd"
+                        href='../msData/group/groupN008.xsd'
                     ),
                 ],
                 expected=[
@@ -8113,12 +8113,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN008v"
+                name='groupN008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN008.xml"
+                        href='../msData/group/groupN008.xml'
                     ),
                     expected=[
                         Expected(
@@ -8129,10 +8129,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN008v.i"
+                    name='groupN008v.i'
                 ),
             ],
-            name="groupN008v"
+            name='groupN008v'
         ),
         TestGroup(
             annotation=[
@@ -8140,7 +8140,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999',
                             ]
                         ),
                     ]
@@ -8148,13 +8148,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN009.xsd"
+                        href='../msData/group/groupN009.xsd'
                     ),
                 ],
                 expected=[
@@ -8166,12 +8166,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN009v"
+                name='groupN009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN009.xml"
+                        href='../msData/group/groupN009.xml'
                     ),
                     expected=[
                         Expected(
@@ -8182,10 +8182,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN009v.v"
+                    name='groupN009v.v'
                 ),
             ],
-            name="groupN009v"
+            name='groupN009v'
         ),
         TestGroup(
             annotation=[
@@ -8193,7 +8193,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -8201,13 +8201,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN010.xsd"
+                        href='../msData/group/groupN010.xsd'
                     ),
                 ],
                 expected=[
@@ -8219,12 +8219,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN010v"
+                name='groupN010v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN010.xml"
+                        href='../msData/group/groupN010.xml'
                     ),
                     expected=[
                         Expected(
@@ -8235,10 +8235,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN010v.i"
+                    name='groupN010v.i'
                 ),
             ],
-            name="groupN010v"
+            name='groupN010v'
         ),
         TestGroup(
             annotation=[
@@ -8246,7 +8246,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -8254,13 +8254,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN011.xsd"
+                        href='../msData/group/groupN011.xsd'
                     ),
                 ],
                 expected=[
@@ -8272,12 +8272,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN011v"
+                name='groupN011v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN011.xml"
+                        href='../msData/group/groupN011.xml'
                     ),
                     expected=[
                         Expected(
@@ -8288,10 +8288,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN011v.v"
+                    name='groupN011v.v'
                 ),
             ],
-            name="groupN011v"
+            name='groupN011v'
         ),
         TestGroup(
             annotation=[
@@ -8299,7 +8299,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent',
                             ]
                         ),
                     ]
@@ -8307,13 +8307,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN012.xsd"
+                        href='../msData/group/groupN012.xsd'
                     ),
                 ],
                 expected=[
@@ -8325,12 +8325,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN012v"
+                name='groupN012v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN012.xml"
+                        href='../msData/group/groupN012.xml'
                     ),
                     expected=[
                         Expected(
@@ -8341,10 +8341,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN012v.i"
+                    name='groupN012v.i'
                 ),
             ],
-            name="groupN012v"
+            name='groupN012v'
         ),
         TestGroup(
             annotation=[
@@ -8352,7 +8352,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -8360,13 +8360,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN013.xsd"
+                        href='../msData/group/groupN013.xsd'
                     ),
                 ],
                 expected=[
@@ -8378,12 +8378,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN013v"
+                name='groupN013v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN013.xml"
+                        href='../msData/group/groupN013.xml'
                     ),
                     expected=[
                         Expected(
@@ -8394,10 +8394,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN013v.i"
+                    name='groupN013v.i'
                 ),
             ],
-            name="groupN013v"
+            name='groupN013v'
         ),
         TestGroup(
             annotation=[
@@ -8405,7 +8405,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -8413,13 +8413,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN014.xsd"
+                        href='../msData/group/groupN014.xsd'
                     ),
                 ],
                 expected=[
@@ -8431,12 +8431,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN014v"
+                name='groupN014v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN014.xml"
+                        href='../msData/group/groupN014.xml'
                     ),
                     expected=[
                         Expected(
@@ -8447,10 +8447,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN014v.v"
+                    name='groupN014v.v'
                 ),
             ],
-            name="groupN014v"
+            name='groupN014v'
         ),
         TestGroup(
             annotation=[
@@ -8458,7 +8458,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -8466,13 +8466,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN015.xsd"
+                        href='../msData/group/groupN015.xsd'
                     ),
                 ],
                 expected=[
@@ -8484,12 +8484,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN015v"
+                name='groupN015v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN015.xml"
+                        href='../msData/group/groupN015.xml'
                     ),
                     expected=[
                         Expected(
@@ -8500,10 +8500,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN015v.i"
+                    name='groupN015v.i'
                 ),
             ],
-            name="groupN015v"
+            name='groupN015v'
         ),
         TestGroup(
             annotation=[
@@ -8511,7 +8511,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -8519,13 +8519,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN016.xsd"
+                        href='../msData/group/groupN016.xsd'
                     ),
                 ],
                 expected=[
@@ -8537,12 +8537,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN016v"
+                name='groupN016v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN016.xml"
+                        href='../msData/group/groupN016.xml'
                     ),
                     expected=[
                         Expected(
@@ -8553,10 +8553,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN016v.i"
+                    name='groupN016v.i'
                 ),
             ],
-            name="groupN016v"
+            name='groupN016v'
         ),
         TestGroup(
             annotation=[
@@ -8564,7 +8564,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -8572,13 +8572,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN017.xsd"
+                        href='../msData/group/groupN017.xsd'
                     ),
                 ],
                 expected=[
@@ -8590,12 +8590,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN017v"
+                name='groupN017v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN017.xml"
+                        href='../msData/group/groupN017.xml'
                     ),
                     expected=[
                         Expected(
@@ -8606,10 +8606,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN017v.v"
+                    name='groupN017v.v'
                 ),
             ],
-            name="groupN017v"
+            name='groupN017v'
         ),
         TestGroup(
             annotation=[
@@ -8617,7 +8617,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -8625,13 +8625,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN018.xsd"
+                        href='../msData/group/groupN018.xsd'
                     ),
                 ],
                 expected=[
@@ -8643,12 +8643,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN018v"
+                name='groupN018v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN018.xml"
+                        href='../msData/group/groupN018.xml'
                     ),
                     expected=[
                         Expected(
@@ -8659,10 +8659,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN018v.v"
+                    name='groupN018v.v'
                 ),
             ],
-            name="groupN018v"
+            name='groupN018v'
         ),
         TestGroup(
             annotation=[
@@ -8670,7 +8670,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2',
                             ]
                         ),
                     ]
@@ -8678,13 +8678,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN019.xsd"
+                        href='../msData/group/groupN019.xsd'
                     ),
                 ],
                 expected=[
@@ -8696,12 +8696,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN019v"
+                name='groupN019v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN019.xml"
+                        href='../msData/group/groupN019.xml'
                     ),
                     expected=[
                         Expected(
@@ -8712,10 +8712,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN019v.i"
+                    name='groupN019v.i'
                 ),
             ],
-            name="groupN019v"
+            name='groupN019v'
         ),
         TestGroup(
             annotation=[
@@ -8723,7 +8723,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -8731,13 +8731,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN020.xsd"
+                        href='../msData/group/groupN020.xsd'
                     ),
                 ],
                 expected=[
@@ -8749,9 +8749,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN020"
+                name='groupN020'
             ),
-            name="groupN020"
+            name='groupN020'
         ),
         TestGroup(
             annotation=[
@@ -8759,7 +8759,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded',
                             ]
                         ),
                     ]
@@ -8767,13 +8767,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN021.xsd"
+                        href='../msData/group/groupN021.xsd'
                     ),
                 ],
                 expected=[
@@ -8785,12 +8785,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN021v"
+                name='groupN021v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupN021.xml"
+                        href='../msData/group/groupN021.xml'
                     ),
                     expected=[
                         Expected(
@@ -8801,10 +8801,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupN021v.v"
+                    name='groupN021v.v'
                 ),
             ],
-            name="groupN021v"
+            name='groupN021v'
         ),
         TestGroup(
             annotation=[
@@ -8812,7 +8812,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1',
                             ]
                         ),
                     ]
@@ -8820,13 +8820,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN022.xsd"
+                        href='../msData/group/groupN022.xsd'
                     ),
                 ],
                 expected=[
@@ -8838,9 +8838,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN022"
+                name='groupN022'
             ),
-            name="groupN022"
+            name='groupN022'
         ),
         TestGroup(
             annotation=[
@@ -8848,7 +8848,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0',
                             ]
                         ),
                     ]
@@ -8856,13 +8856,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN023.xsd"
+                        href='../msData/group/groupN023.xsd'
                     ),
                 ],
                 expected=[
@@ -8874,9 +8874,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN023"
+                name='groupN023'
             ),
-            name="groupN023"
+            name='groupN023'
         ),
         TestGroup(
             annotation=[
@@ -8884,7 +8884,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1',
                             ]
                         ),
                     ]
@@ -8892,13 +8892,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN024.xsd"
+                        href='../msData/group/groupN024.xsd'
                     ),
                 ],
                 expected=[
@@ -8910,9 +8910,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN024"
+                name='groupN024'
             ),
-            name="groupN024"
+            name='groupN024'
         ),
         TestGroup(
             annotation=[
@@ -8920,7 +8920,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1",
+                                'TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1',
                             ]
                         ),
                     ]
@@ -8928,13 +8928,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupN025.xsd"
+                        href='../msData/group/groupN025.xsd'
                     ),
                 ],
                 expected=[
@@ -8946,9 +8946,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupN025"
+                name='groupN025'
             ),
-            name="groupN025"
+            name='groupN025'
         ),
         TestGroup(
             annotation=[
@@ -8956,7 +8956,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node',
                             ]
                         ),
                     ]
@@ -8964,13 +8964,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO001.xsd"
+                        href='../msData/group/groupO001.xsd'
                     ),
                 ],
                 expected=[
@@ -8982,9 +8982,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO001"
+                name='groupO001'
             ),
-            name="groupO001"
+            name='groupO001'
         ),
         TestGroup(
             annotation=[
@@ -8992,7 +8992,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes',
                             ]
                         ),
                     ]
@@ -9000,13 +9000,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO002.xsd"
+                        href='../msData/group/groupO002.xsd'
                     ),
                 ],
                 expected=[
@@ -9018,9 +9018,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO002"
+                name='groupO002'
             ),
-            name="groupO002"
+            name='groupO002'
         ),
         TestGroup(
             annotation=[
@@ -9028,7 +9028,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation',
                             ]
                         ),
                     ]
@@ -9036,13 +9036,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO003.xsd"
+                        href='../msData/group/groupO003.xsd'
                     ),
                 ],
                 expected=[
@@ -9054,9 +9054,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO003"
+                name='groupO003'
             ),
-            name="groupO003"
+            name='groupO003'
         ),
         TestGroup(
             annotation=[
@@ -9064,7 +9064,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by all",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by all',
                             ]
                         ),
                     ]
@@ -9072,13 +9072,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO004.xsd"
+                        href='../msData/group/groupO004.xsd'
                     ),
                 ],
                 expected=[
@@ -9090,12 +9090,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO004v"
+                name='groupO004v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO004.xml"
+                        href='../msData/group/groupO004.xml'
                     ),
                     expected=[
                         Expected(
@@ -9106,10 +9106,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO004v.v"
+                    name='groupO004v.v'
                 ),
             ],
-            name="groupO004v"
+            name='groupO004v'
         ),
         TestGroup(
             annotation=[
@@ -9117,7 +9117,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all",
+                                'TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all',
                             ]
                         ),
                     ]
@@ -9125,13 +9125,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO005.xsd"
+                        href='../msData/group/groupO005.xsd'
                     ),
                 ],
                 expected=[
@@ -9143,12 +9143,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO005v"
+                name='groupO005v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO005.xml"
+                        href='../msData/group/groupO005.xml'
                     ),
                     expected=[
                         Expected(
@@ -9159,10 +9159,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO005v.i"
+                    name='groupO005v.i'
                 ),
             ],
-            name="groupO005v"
+            name='groupO005v'
         ),
         TestGroup(
             annotation=[
@@ -9170,7 +9170,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice',
                             ]
                         ),
                     ]
@@ -9178,13 +9178,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO006.xsd"
+                        href='../msData/group/groupO006.xsd'
                     ),
                 ],
                 expected=[
@@ -9196,12 +9196,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO006v"
+                name='groupO006v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO006.xml"
+                        href='../msData/group/groupO006.xml'
                     ),
                     expected=[
                         Expected(
@@ -9212,10 +9212,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO006v.v"
+                    name='groupO006v.v'
                 ),
             ],
-            name="groupO006v"
+            name='groupO006v'
         ),
         TestGroup(
             annotation=[
@@ -9223,7 +9223,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice",
+                                'TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice',
                             ]
                         ),
                     ]
@@ -9231,13 +9231,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO007.xsd"
+                        href='../msData/group/groupO007.xsd'
                     ),
                 ],
                 expected=[
@@ -9249,12 +9249,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO007v"
+                name='groupO007v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO007.xml"
+                        href='../msData/group/groupO007.xml'
                     ),
                     expected=[
                         Expected(
@@ -9265,10 +9265,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO007v.i"
+                    name='groupO007v.i'
                 ),
             ],
-            name="groupO007v"
+            name='groupO007v'
         ),
         TestGroup(
             annotation=[
@@ -9276,7 +9276,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence',
                             ]
                         ),
                     ]
@@ -9284,13 +9284,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO008.xsd"
+                        href='../msData/group/groupO008.xsd'
                     ),
                 ],
                 expected=[
@@ -9302,12 +9302,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO008v"
+                name='groupO008v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO008.xml"
+                        href='../msData/group/groupO008.xml'
                     ),
                     expected=[
                         Expected(
@@ -9318,10 +9318,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO008v.v"
+                    name='groupO008v.v'
                 ),
             ],
-            name="groupO008v"
+            name='groupO008v'
         ),
         TestGroup(
             annotation=[
@@ -9329,7 +9329,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence",
+                                'TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence',
                             ]
                         ),
                     ]
@@ -9337,13 +9337,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO009.xsd"
+                        href='../msData/group/groupO009.xsd'
                     ),
                 ],
                 expected=[
@@ -9355,12 +9355,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO009v"
+                name='groupO009v'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/group/groupO009.xml"
+                        href='../msData/group/groupO009.xml'
                     ),
                     expected=[
                         Expected(
@@ -9371,10 +9371,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="groupO009v.i"
+                    name='groupO009v.i'
                 ),
             ],
-            name="groupO009v"
+            name='groupO009v'
         ),
         TestGroup(
             annotation=[
@@ -9382,7 +9382,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by element",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by element',
                             ]
                         ),
                     ]
@@ -9390,13 +9390,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO010.xsd"
+                        href='../msData/group/groupO010.xsd'
                     ),
                 ],
                 expected=[
@@ -9408,9 +9408,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO010"
+                name='groupO010'
             ),
-            name="groupO010"
+            name='groupO010'
         ),
         TestGroup(
             annotation=[
@@ -9418,7 +9418,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType',
                             ]
                         ),
                     ]
@@ -9426,13 +9426,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO011.xsd"
+                        href='../msData/group/groupO011.xsd'
                     ),
                 ],
                 expected=[
@@ -9444,9 +9444,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO011"
+                name='groupO011'
             ),
-            name="groupO011"
+            name='groupO011'
         ),
         TestGroup(
             annotation=[
@@ -9454,7 +9454,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType',
                             ]
                         ),
                     ]
@@ -9462,13 +9462,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO012.xsd"
+                        href='../msData/group/groupO012.xsd'
                     ),
                 ],
                 expected=[
@@ -9480,9 +9480,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO012"
+                name='groupO012'
             ),
-            name="groupO012"
+            name='groupO012'
         ),
         TestGroup(
             annotation=[
@@ -9490,7 +9490,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl",
+                                'TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl',
                             ]
                         ),
                     ]
@@ -9498,13 +9498,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO013.xsd"
+                        href='../msData/group/groupO013.xsd'
                     ),
                 ],
                 expected=[
@@ -9516,9 +9516,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO013"
+                name='groupO013'
             ),
-            name="groupO013"
+            name='groupO013'
         ),
         TestGroup(
             annotation=[
@@ -9526,7 +9526,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group",
+                                'TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group',
                             ]
                         ),
                     ]
@@ -9534,13 +9534,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO014.xsd"
+                        href='../msData/group/groupO014.xsd'
                     ),
                 ],
                 expected=[
@@ -9552,9 +9552,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO014"
+                name='groupO014'
             ),
-            name="groupO014"
+            name='groupO014'
         ),
         TestGroup(
             annotation=[
@@ -9562,7 +9562,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice',
                             ]
                         ),
                     ]
@@ -9570,13 +9570,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO015.xsd"
+                        href='../msData/group/groupO015.xsd'
                     ),
                 ],
                 expected=[
@@ -9588,9 +9588,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO015"
+                name='groupO015'
             ),
-            name="groupO015"
+            name='groupO015'
         ),
         TestGroup(
             annotation=[
@@ -9598,7 +9598,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence',
                             ]
                         ),
                     ]
@@ -9606,13 +9606,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO016.xsd"
+                        href='../msData/group/groupO016.xsd'
                     ),
                 ],
                 expected=[
@@ -9624,9 +9624,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO016"
+                name='groupO016'
             ),
-            name="groupO016"
+            name='groupO016'
         ),
         TestGroup(
             annotation=[
@@ -9634,7 +9634,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence',
                             ]
                         ),
                     ]
@@ -9642,13 +9642,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO017.xsd"
+                        href='../msData/group/groupO017.xsd'
                     ),
                 ],
                 expected=[
@@ -9660,9 +9660,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO017"
+                name='groupO017'
             ),
-            name="groupO017"
+            name='groupO017'
         ),
         TestGroup(
             annotation=[
@@ -9670,7 +9670,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all',
                             ]
                         ),
                     ]
@@ -9678,13 +9678,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO018.xsd"
+                        href='../msData/group/groupO018.xsd'
                     ),
                 ],
                 expected=[
@@ -9696,9 +9696,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO018"
+                name='groupO018'
             ),
-            name="groupO018"
+            name='groupO018'
         ),
         TestGroup(
             annotation=[
@@ -9706,7 +9706,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all',
                             ]
                         ),
                     ]
@@ -9714,13 +9714,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO019.xsd"
+                        href='../msData/group/groupO019.xsd'
                     ),
                 ],
                 expected=[
@@ -9732,9 +9732,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO019"
+                name='groupO019'
             ),
-            name="groupO019"
+            name='groupO019'
         ),
         TestGroup(
             annotation=[
@@ -9742,7 +9742,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all',
                             ]
                         ),
                     ]
@@ -9750,13 +9750,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO020.xsd"
+                        href='../msData/group/groupO020.xsd'
                     ),
                 ],
                 expected=[
@@ -9768,9 +9768,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO020"
+                name='groupO020'
             ),
-            name="groupO020"
+            name='groupO020'
         ),
         TestGroup(
             annotation=[
@@ -9778,7 +9778,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice',
                             ]
                         ),
                     ]
@@ -9786,13 +9786,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO021.xsd"
+                        href='../msData/group/groupO021.xsd'
                     ),
                 ],
                 expected=[
@@ -9804,9 +9804,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO021"
+                name='groupO021'
             ),
-            name="groupO021"
+            name='groupO021'
         ),
         TestGroup(
             annotation=[
@@ -9814,7 +9814,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence",
+                                'TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence',
                             ]
                         ),
                     ]
@@ -9822,13 +9822,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO022.xsd"
+                        href='../msData/group/groupO022.xsd'
                     ),
                 ],
                 expected=[
@@ -9840,9 +9840,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO022"
+                name='groupO022'
             ),
-            name="groupO022"
+            name='groupO022'
         ),
         TestGroup(
             annotation=[
@@ -9850,7 +9850,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType",
+                                'TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType',
                             ]
                         ),
                     ]
@@ -9858,13 +9858,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO023.xsd"
+                        href='../msData/group/groupO023.xsd'
                     ),
                 ],
                 expected=[
@@ -9876,9 +9876,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO023"
+                name='groupO023'
             ),
-            name="groupO023"
+            name='groupO023'
         ),
         TestGroup(
             annotation=[
@@ -9886,7 +9886,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is element",
+                                'TEST :Syntax Checking (id, ref) : Test parent: parent is element',
                             ]
                         ),
                     ]
@@ -9894,13 +9894,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO024.xsd"
+                        href='../msData/group/groupO024.xsd'
                     ),
                 ],
                 expected=[
@@ -9912,9 +9912,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO024"
+                name='groupO024'
             ),
-            name="groupO024"
+            name='groupO024'
         ),
         TestGroup(
             annotation=[
@@ -9922,7 +9922,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup",
+                                'TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup',
                             ]
                         ),
                     ]
@@ -9930,13 +9930,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO025.xsd"
+                        href='../msData/group/groupO025.xsd'
                     ),
                 ],
                 expected=[
@@ -9948,9 +9948,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO025"
+                name='groupO025'
             ),
-            name="groupO025"
+            name='groupO025'
         ),
         TestGroup(
             annotation=[
@@ -9958,7 +9958,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is any",
+                                'TEST :Syntax Checking (id, ref) : Test parent: parent is any',
                             ]
                         ),
                     ]
@@ -9966,13 +9966,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO026.xsd"
+                        href='../msData/group/groupO026.xsd'
                     ),
                 ],
                 expected=[
@@ -9984,9 +9984,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO026"
+                name='groupO026'
             ),
-            name="groupO026"
+            name='groupO026'
         ),
         TestGroup(
             annotation=[
@@ -9994,7 +9994,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Syntax Checking (id, ref) : Test parent: parent is group",
+                                'TEST :Syntax Checking (id, ref) : Test parent: parent is group',
                             ]
                         ),
                     ]
@@ -10002,13 +10002,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/group/groupO027.xsd"
+                        href='../msData/group/groupO027.xsd'
                     ),
                 ],
                 expected=[
@@ -10020,14 +10020,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="groupO027"
+                name='groupO027'
             ),
-            name="groupO027"
+            name='groupO027'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Group2006-07-15",
+    contributor='Microsoft',
+    name='MS-Group2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

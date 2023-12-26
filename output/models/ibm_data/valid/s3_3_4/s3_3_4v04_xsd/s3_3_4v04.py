@@ -15,5 +15,5 @@ class Root:
         default=Entities.ASD_QWE,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

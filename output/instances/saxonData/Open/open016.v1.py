@@ -4,5 +4,5 @@ from xsdata.models.datatype import XmlDate
 
 obj = Doc(
     value=XmlDate(2009, 12, 12),
-    evidence="none"
+    evidence='none'
 )

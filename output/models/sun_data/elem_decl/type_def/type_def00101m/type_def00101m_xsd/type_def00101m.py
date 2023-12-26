@@ -14,5 +14,5 @@ class Answer:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

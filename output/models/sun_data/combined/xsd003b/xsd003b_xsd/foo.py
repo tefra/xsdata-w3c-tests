@@ -22,21 +22,21 @@ class ComplexType:
             "name": "in",
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     root: List["Root"] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     out: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
     g_att: Optional[SimpleType] = field(
         default=None,
@@ -44,20 +44,20 @@ class ComplexType:
             "name": "gAtt",
             "type": "Attribute",
             "namespace": "foo",
-        }
+        },
     )
     add: Optional[Decimal] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
     tail: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "foo",
-        }
+        },
     )
 
 

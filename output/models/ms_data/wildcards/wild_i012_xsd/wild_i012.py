@@ -15,7 +15,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,7 +30,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
-        }
+        },
     )
     a_element: List[object] = field(
         default_factory=list,
@@ -38,5 +38,5 @@ class Foo:
             "type": "Wildcard",
             "namespace": "A",
             "max_occurs": 2,
-        }
+        },
     )

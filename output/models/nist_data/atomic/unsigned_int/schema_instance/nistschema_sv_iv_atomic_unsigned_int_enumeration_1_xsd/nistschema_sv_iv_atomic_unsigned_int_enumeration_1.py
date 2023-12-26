@@ -25,5 +25,5 @@ class NistschemaSvIvAtomicUnsignedIntEnumeration1:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )

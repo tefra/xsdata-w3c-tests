@@ -14,7 +14,7 @@ class Head:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -28,7 +28,7 @@ class Member1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -52,5 +52,5 @@ class Root:
                     "type": Head,
                 },
             ),
-        }
+        },
     )

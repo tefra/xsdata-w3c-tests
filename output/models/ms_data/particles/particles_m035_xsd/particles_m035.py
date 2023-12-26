@@ -32,7 +32,7 @@ class B:
                     "namespace": "",
                 },
             ),
-        }
+        },
     )
 
 
@@ -53,5 +53,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

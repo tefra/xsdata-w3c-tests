@@ -15,7 +15,7 @@ class Bar:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace http://www.w3.org/1999/xhtml",
-        }
+        },
     )

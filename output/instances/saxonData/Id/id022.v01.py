@@ -5,18 +5,18 @@ from output.models.saxon_data.id.id022_xsd.id022 import Para
 obj = Doc(
     para=[
         Para(
-            key="alpha"
+            key='alpha'
         ),
         Para(
-            key="beta",
+            key='beta',
             ref=[
-                "alpha",
+                'alpha',
             ]
         ),
         Para(
-            key="gamma",
+            key='gamma',
             ref=[
-                "beta",
+                'beta',
             ]
         ),
     ]

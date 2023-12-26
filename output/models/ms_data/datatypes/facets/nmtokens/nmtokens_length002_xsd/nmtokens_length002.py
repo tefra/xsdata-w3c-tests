@@ -13,7 +13,7 @@ class FooType:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -22,7 +22,7 @@ class FooType:
             default="",
             metadata={
                 "required": True,
-            }
+            },
         )
         attr_test: List[str] = field(
             default_factory=list,
@@ -31,7 +31,7 @@ class FooType:
                 "type": "Attribute",
                 "length": 2,
                 "tokens": True,
-            }
+            },
         )
 
 

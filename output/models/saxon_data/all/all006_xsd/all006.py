@@ -12,7 +12,7 @@ class C1:
         default="",
         metadata={
             "pattern": r".*:00",
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class A:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class B:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -51,7 +51,7 @@ class C2:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -65,26 +65,26 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     b: Optional[XmlTime] = field(
         default=None,
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )
     target_namespace_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
-        }
+        },
     )
     other_ns_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "http://other.ns/",
-        }
+        },
     )

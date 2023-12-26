@@ -6,30 +6,30 @@ from output.models.ms_data.identity_constraint.id_h028_xsd.id_h028 import Uidtyp
 obj = Root(
     uid=[
         Uidtype(
-            iid="1"
+            iid='1'
         ),
         Uidtype(
-            iid="11"
+            iid='11'
         ),
         Uidtype(
-            iid="111"
+            iid='111'
         ),
         Uidtype(
-            iid="1.0"
+            iid='1.0'
         ),
     ],
     kid=[
         Kid(
-            val="1"
+            val='1'
         ),
         Kid(
-            val="11"
+            val='11'
         ),
         Kid(
-            val="111"
+            val='111'
         ),
         Kid(
-            val="1.0"
+            val='1.0'
         ),
     ]
 )

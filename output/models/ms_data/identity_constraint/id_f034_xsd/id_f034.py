@@ -13,7 +13,7 @@ class Tabletype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c: Optional["Tabletype.C"] = field(
         default=None,
@@ -21,7 +21,7 @@ class Tabletype:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
     @dataclass
@@ -30,7 +30,7 @@ class Tabletype:
             default=None,
             metadata={
                 "type": "Attribute",
-            }
+            },
         )
         content: List[object] = field(
             default_factory=list,
@@ -38,7 +38,7 @@ class Tabletype:
                 "type": "Wildcard",
                 "namespace": "##any",
                 "mixed": True,
-            }
+            },
         )
 
 
@@ -58,5 +58,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -4,12 +4,12 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = DerivedElement(
-    qname="{pSubstitutions}e",
+    qname='{pSubstitutions}e',
     value=B(
         c=[
             1,
         ],
         d=XmlDate(2002, 4, 15)
     ),
-    type="{pSubstitutions}B"
+    type='{pSubstitutions}B'
 )

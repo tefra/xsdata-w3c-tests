@@ -11,14 +11,14 @@ class B:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     f: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -32,14 +32,14 @@ class Base:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     f: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 

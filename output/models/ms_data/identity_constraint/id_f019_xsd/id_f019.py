@@ -12,14 +12,14 @@ class T:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     row: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
 
 
@@ -33,5 +33,5 @@ class Root:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

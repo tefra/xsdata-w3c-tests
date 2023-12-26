@@ -15,13 +15,13 @@ class Ttype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "required": True,
-        }
+        },
     )
     col: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -36,13 +36,13 @@ class Utype:
             "type": "Element",
             "namespace": "myNS.tempuri.org",
             "required": True,
-        }
+        },
     )
     width: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -66,7 +66,7 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t_or_u: List[Union[U, T]] = field(
+    t_or_u: List[Union[T, U]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -80,5 +80,5 @@ class Root:
                     "type": U,
                 },
             ),
-        }
+        },
     )

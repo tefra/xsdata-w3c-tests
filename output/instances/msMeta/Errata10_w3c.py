@@ -23,7 +23,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E0-23 Clarification: test that facet fractionDigits can be added to all numeric datatypes as long as value is 0 (except for decimal which takes any value)",
+                                'TEST :Primer Errata : E0-23 Clarification: test that facet fractionDigits can be added to all numeric datatypes as long as value is 0 (except for decimal which takes any value)',
                             ]
                         ),
                     ]
@@ -31,13 +31,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errA001.xsd"
+                        href='../msData/errata10/errA001.xsd'
                     ),
                 ],
                 expected=[
@@ -49,12 +49,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errA001"
+                name='errA001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errA001.xml"
+                        href='../msData/errata10/errA001.xml'
                     ),
                     expected=[
                         Expected(
@@ -65,10 +65,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errA001.v"
+                    name='errA001.v'
                 ),
             ],
-            name="errA001"
+            name='errA001'
         ),
         TestGroup(
             annotation=[
@@ -76,7 +76,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E0-10 Error, E1-11 Error: test that ##other namespace is any namespace other than the target namespace",
+                                'TEST :Primer Errata : E0-10 Error, E1-11 Error: test that ##other namespace is any namespace other than the target namespace',
                             ]
                         ),
                     ]
@@ -84,19 +84,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errA002.xsd"
+                        href='../msData/errata10/errA002.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/errata10/errA002a.xsd"
+                        href='../msData/errata10/errA002a.xsd'
                     ),
                     SchemaDocument(
-                        href="../msData/errata10/errA002b.xsd"
+                        href='../msData/errata10/errA002b.xsd'
                     ),
                 ],
                 expected=[
@@ -108,12 +108,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errA002"
+                name='errA002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errA002.xml"
+                        href='../msData/errata10/errA002.xml'
                     ),
                     expected=[
                         Expected(
@@ -124,10 +124,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errA002.i"
+                    name='errA002.i'
                 ),
             ],
-            name="errA002"
+            name='errA002'
         ),
         TestGroup(
             annotation=[
@@ -135,7 +135,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E0-15 Error, E2-12 Error: test lexical representation of gMonth",
+                                'TEST :Primer Errata : E0-15 Error, E2-12 Error: test lexical representation of gMonth',
                             ]
                         ),
                     ]
@@ -143,13 +143,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errA003.xsd"
+                        href='../msData/errata10/errA003.xsd'
                     ),
                 ],
                 expected=[
@@ -161,12 +161,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errA003"
+                name='errA003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errA003.xml"
+                        href='../msData/errata10/errA003.xml'
                     ),
                     expected=[
                         Expected(
@@ -177,10 +177,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errA003.v"
+                    name='errA003.v'
                 ),
             ],
-            name="errA003"
+            name='errA003'
         ),
         TestGroup(
             annotation=[
@@ -188,7 +188,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-40 Clarification: test that anySimpleType whitespace normalization is set to preserve",
+                                'TEST :Primer Errata : E1-40 Clarification: test that anySimpleType whitespace normalization is set to preserve',
                             ]
                         ),
                     ]
@@ -196,13 +196,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC001.xsd"
+                        href='../msData/errata10/errC001.xsd'
                     ),
                 ],
                 expected=[
@@ -214,12 +214,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC001"
+                name='errC001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errC001.xml"
+                        href='../msData/errata10/errC001.xml'
                     ),
                     expected=[
                         Expected(
@@ -230,10 +230,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errC001.v"
+                    name='errC001.v'
                 ),
             ],
-            name="errC001"
+            name='errC001'
         ),
         TestGroup(
             annotation=[
@@ -249,13 +249,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC002.xsd"
+                        href='../msData/errata10/errC002.xsd'
                     ),
                 ],
                 expected=[
@@ -267,9 +267,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC002"
+                name='errC002'
             ),
-            name="errC002"
+            name='errC002'
         ),
         TestGroup(
             annotation=[
@@ -277,7 +277,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-3 Error: change representation of Model Group Definition",
+                                'TEST :Primer Errata : E1-3 Error: change representation of Model Group Definition',
                             ]
                         ),
                     ]
@@ -285,13 +285,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC003.xsd"
+                        href='../msData/errata10/errC003.xsd'
                     ),
                 ],
                 expected=[
@@ -303,9 +303,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC003"
+                name='errC003'
             ),
-            name="errC003"
+            name='errC003'
         ),
         TestGroup(
             annotation=[
@@ -313,7 +313,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-16 Error: public attribute is now optional and has a value space of token",
+                                'TEST :Primer Errata : E1-16 Error: public attribute is now optional and has a value space of token',
                             ]
                         ),
                     ]
@@ -321,13 +321,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC004.xsd"
+                        href='../msData/errata10/errC004.xsd'
                     ),
                 ],
                 expected=[
@@ -339,9 +339,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC004"
+                name='errC004'
             ),
-            name="errC004"
+            name='errC004'
         ),
         TestGroup(
             annotation=[
@@ -349,7 +349,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true",
+                                'TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true',
                             ]
                         ),
                     ]
@@ -357,13 +357,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC005.xsd"
+                        href='../msData/errata10/errC005.xsd'
                     ),
                 ],
                 expected=[
@@ -375,9 +375,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC005"
+                name='errC005'
             ),
-            name="errC005"
+            name='errC005'
         ),
         TestGroup(
             annotation=[
@@ -385,7 +385,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true",
+                                'TEST :Primer Errata : E1-13 Error: local element must not have abstract attribute with value true',
                             ]
                         ),
                     ]
@@ -393,13 +393,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC006.xsd"
+                        href='../msData/errata10/errC006.xsd'
                     ),
                 ],
                 expected=[
@@ -411,9 +411,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC006"
+                name='errC006'
             ),
-            name="errC006"
+            name='errC006'
         ),
         TestGroup(
             annotation=[
@@ -421,7 +421,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type need to be lax",
+                                'TEST :Primer Errata : E1-22 Error: R-117 Process contents for ur-type need to be lax',
                             ]
                         ),
                     ]
@@ -429,13 +429,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC007.xsd"
+                        href='../msData/errata10/errC007.xsd'
                     ),
                 ],
                 expected=[
@@ -447,12 +447,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC007"
+                name='errC007'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errC007.xml"
+                        href='../msData/errata10/errC007.xml'
                     ),
                     expected=[
                         Expected(
@@ -463,10 +463,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errC007.v"
+                    name='errC007.v'
                 ),
             ],
-            name="errC007"
+            name='errC007'
         ),
         TestGroup(
             annotation=[
@@ -474,7 +474,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:any",
+                                'TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:any',
                             ]
                         ),
                     ]
@@ -482,13 +482,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC008.xsd"
+                        href='../msData/errata10/errC008.xsd'
                     ),
                 ],
                 expected=[
@@ -500,9 +500,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC008"
+                name='errC008'
             ),
-            name="errC008"
+            name='errC008'
         ),
         TestGroup(
             annotation=[
@@ -510,7 +510,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:anyAttribute",
+                                'TEST :Primer Errata : Errata E1-21 - processContents of restriction must be identical or stronger than that of base,xs:anyAttribute',
                             ]
                         ),
                     ]
@@ -518,13 +518,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errC009.xsd"
+                        href='../msData/errata10/errC009.xsd'
                     ),
                 ],
                 expected=[
@@ -536,9 +536,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errC009"
+                name='errC009'
             ),
-            name="errC009"
+            name='errC009'
         ),
         TestGroup(
             annotation=[
@@ -554,13 +554,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE001.xsd"
+                        href='../msData/errata10/errE001.xsd'
                     ),
                 ],
                 expected=[
@@ -572,12 +572,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errE001"
+                name='errE001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE001.xml"
+                        href='../msData/errata10/errE001.xml'
                     ),
                     expected=[
                         Expected(
@@ -588,10 +588,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errE001.v"
+                    name='errE001.v'
                 ),
             ],
-            name="errE001"
+            name='errE001'
         ),
         TestGroup(
             annotation=[
@@ -607,13 +607,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE002.xsd"
+                        href='../msData/errata10/errE002.xsd'
                     ),
                 ],
                 expected=[
@@ -625,12 +625,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errE002"
+                name='errE002'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE002.xml"
+                        href='../msData/errata10/errE002.xml'
                     ),
                     expected=[
                         Expected(
@@ -641,10 +641,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errE002.v"
+                    name='errE002.v'
                 ),
             ],
-            name="errE002"
+            name='errE002'
         ),
         TestGroup(
             annotation=[
@@ -652,7 +652,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E2-25 Error: test support for the new language pattern ([a-zA-Z]{1,8})-([a-zA-Z0-9]{1,8})*",
+                                'TEST :Primer Errata : E2-25 Error: test support for the new language pattern ([a-zA-Z]{1,8})-([a-zA-Z0-9]{1,8})*',
                             ]
                         ),
                     ]
@@ -660,13 +660,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE003.xsd"
+                        href='../msData/errata10/errE003.xsd'
                     ),
                 ],
                 expected=[
@@ -678,12 +678,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errE003"
+                name='errE003'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE003.xml"
+                        href='../msData/errata10/errE003.xml'
                     ),
                     expected=[
                         Expected(
@@ -694,10 +694,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errE003.v"
+                    name='errE003.v'
                 ),
             ],
-            name="errE003"
+            name='errE003'
         ),
         TestGroup(
             annotation=[
@@ -713,13 +713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE004.xsd"
+                        href='../msData/errata10/errE004.xsd'
                     ),
                 ],
                 expected=[
@@ -731,12 +731,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errE004"
+                name='errE004'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE004.xml"
+                        href='../msData/errata10/errE004.xml'
                     ),
                     expected=[
                         Expected(
@@ -747,10 +747,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errE004.i"
+                    name='errE004.i'
                 ),
             ],
-            name="errE004"
+            name='errE004'
         ),
         TestGroup(
             annotation=[
@@ -758,7 +758,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth, gMonthDay, gDay, gMonth and gYear permit an optional, trailing time zone specification.",
+                                'TEST :Primer Errata : E2-22 Clarification: test date, gYearMonth, gMonthDay, gDay, gMonth and gYear permit an optional, trailing time zone specification.',
                             ]
                         ),
                     ]
@@ -766,13 +766,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE006.xsd"
+                        href='../msData/errata10/errE006.xsd'
                     ),
                 ],
                 expected=[
@@ -780,12 +780,12 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID
                     ),
                 ],
-                name="errE006"
+                name='errE006'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE006.xml"
+                        href='../msData/errata10/errE006.xml'
                     ),
                     expected=[
                         Expected(
@@ -795,7 +795,7 @@ obj = TestSet(
                     current=Current(
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 12),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901'
                     ),
                     prior=[
                         Prior(
@@ -803,10 +803,10 @@ obj = TestSet(
                             date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="errE006.v"
+                    name='errE006.v'
                 ),
             ],
-            name="errE006"
+            name='errE006'
         ),
         TestGroup(
             annotation=[
@@ -814,7 +814,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : E2-17 Error: Do not allow carriage return in token values",
+                                'TEST :Primer Errata : E2-17 Error: Do not allow carriage return in token values',
                             ]
                         ),
                     ]
@@ -822,13 +822,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errE008.xsd"
+                        href='../msData/errata10/errE008.xsd'
                     ),
                 ],
                 expected=[
@@ -840,12 +840,12 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="errE008"
+                name='errE008'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errE008.xml"
+                        href='../msData/errata10/errE008.xml'
                     ),
                     expected=[
                         Expected(
@@ -856,10 +856,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errE008.v"
+                    name='errE008.v'
                 ),
             ],
-            name="errE008"
+            name='errE008'
         ),
         TestGroup(
             annotation=[
@@ -867,7 +867,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Primer Errata : Errata E2-35: length facet is now allowed with either minLength or maxLength if they are specified in different derivation steps",
+                                'TEST :Primer Errata : Errata E2-35: length facet is now allowed with either minLength or maxLength if they are specified in different derivation steps',
                             ]
                         ),
                     ]
@@ -875,13 +875,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/2004/03/xmlschema-errata"
+                    href='http://www.w3.org/2004/03/xmlschema-errata'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/errata10/errF001.xsd"
+                        href='../msData/errata10/errF001.xsd'
                     ),
                 ],
                 expected=[
@@ -892,7 +892,7 @@ obj = TestSet(
                 current=Current(
                     status=Status.QUERIED,
                     date=XmlDate(2007, 6, 21),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4681"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4681'
                 ),
                 prior=[
                     Prior(
@@ -900,12 +900,12 @@ obj = TestSet(
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="errF001"
+                name='errF001'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../msData/errata10/errF001.xml"
+                        href='../msData/errata10/errF001.xml'
                     ),
                     expected=[
                         Expected(
@@ -916,15 +916,15 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
-                    name="errF001.i"
+                    name='errF001.i'
                 ),
             ],
-            name="errF001"
+            name='errF001'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Errata102006-07-15",
+    contributor='Microsoft',
+    name='MS-Errata102006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

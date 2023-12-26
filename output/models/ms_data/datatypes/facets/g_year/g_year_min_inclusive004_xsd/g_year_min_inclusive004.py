@@ -16,7 +16,7 @@ class FooType:
             "required": True,
             "min_inclusive": XmlPeriod("1998"),
             "max_inclusive": XmlPeriod("2002"),
-        }
+        },
     )
 
 

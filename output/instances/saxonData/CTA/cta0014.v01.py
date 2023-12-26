@@ -10,15 +10,15 @@ obj = Doc(
     event=[
         Event(
             when=XmlDate(2010, 10, 16),
-            type_value="date"
+            type_value='date'
         ),
         Event(
             when=XmlTime(12, 12, 12, 0),
-            type_value="time"
+            type_value='time'
         ),
         Event(
             when=XmlDateTime(2010, 10, 16, 13, 13, 0),
-            type_value="dateTime"
+            type_value='dateTime'
         ),
         Event(
             when=XmlPeriod("2010-10")

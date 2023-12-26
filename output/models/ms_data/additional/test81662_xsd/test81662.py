@@ -12,13 +12,13 @@ class Ct1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
     element1: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
 
 
@@ -31,14 +31,14 @@ class Ct2:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     any_element: Optional[object] = field(
         default=None,
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -64,7 +64,7 @@ class Ct3:
             ),
             "min_occurs": 2,
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -89,7 +89,7 @@ class Ct4:
                 },
             ),
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -102,7 +102,7 @@ class Ct5:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
@@ -110,7 +110,7 @@ class Ct5:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 3,
-        }
+        },
     )
 
 
@@ -123,7 +123,7 @@ class Ct6:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     any_element: List[object] = field(
         default_factory=list,
@@ -131,7 +131,7 @@ class Ct6:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 2,
-        }
+        },
     )
 
 
@@ -145,7 +145,7 @@ class Element1:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -159,7 +159,7 @@ class Element2:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -173,7 +173,7 @@ class Element3:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -187,40 +187,40 @@ class Test:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     e2: List[Ct2] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     e3: List[Ct3] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     e4: List[Ct4] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     e5: List[Ct5] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )
     e6: List[Ct6] = field(
         default_factory=list,
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

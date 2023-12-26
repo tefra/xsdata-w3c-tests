@@ -15,5 +15,5 @@ class Root:
         metadata={
             "name": "testAttr",
             "type": "Attribute",
-        }
+        },
     )

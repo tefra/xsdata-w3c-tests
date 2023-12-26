@@ -12,7 +12,7 @@ class HeadType:
             "name": "Ear",
             "type": "Element",
             "namespace": "ElemDecl/abstract",
-        }
+        },
     )
     eye: Optional[object] = field(
         default=None,
@@ -20,7 +20,7 @@ class HeadType:
             "name": "Eye",
             "type": "Element",
             "namespace": "ElemDecl/abstract",
-        }
+        },
     )
 
 
@@ -41,5 +41,5 @@ class Root:
         metadata={
             "name": "Member1",
             "type": "Element",
-        }
+        },
     )

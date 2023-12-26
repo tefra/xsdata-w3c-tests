@@ -20,46 +20,46 @@ obj = TestSet(
                 Documentation(
                     content=[
                         AnyElement(
-                            qname="{http://www.w3.org/1999/xhtml}div",
-                            text="",
+                            qname='{http://www.w3.org/1999/xhtml}div',
+                            text='',
                             children=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}p",
-                                    text="A set of tests on changes to substition-group behavior,&#10;     constructed by hand, as a contribution to the XML Schema 1.1&#10;     test suite.&#10;    "
+                                    qname='{http://www.w3.org/1999/xhtml}p',
+                                    text='A set of tests on changes to substition-group behavior,\n     constructed by hand, as a contribution to the XML Schema 1.1\n     test suite.\n    '
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}p",
-                                    text="Revisions:"
+                                    qname='{http://www.w3.org/1999/xhtml}p',
+                                    text='Revisions:'
                                 ),
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}ul",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}ul',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}li",
-                                            text="2010-06-17 : CMSMcQ : add test groups &#10;      ",
+                                            qname='{http://www.w3.org/1999/xhtml}li',
+                                            text='2010-06-17 : CMSMcQ : add test groups \n      ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="sg-abstract-upa",
-                                                    tail=" etc. for&#10;      checking the changes defining abstract elements as members&#10;      of substitution groups.&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='sg-abstract-upa',
+                                                    tail=' etc. for\n      checking the changes defining abstract elements as members\n      of substitution groups.\n     ',
                                                     attributes={
-                                                        "href": "#sg-abstract-upa",
+                                                        'href': '#sg-abstract-upa',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}li",
-                                            text="2010-06-16 : CMSMcQ : correct error in test of content &#10;      model competition:  the negative wildcard does compete&#10;      with n, but the element wins (UPA has been weakened in 1.1).&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}li',
+                                            text='2010-06-16 : CMSMcQ : correct error in test of content \n      model competition:  the negative wildcard does compete\n      with n, but the element wins (UPA has been weakened in 1.1).\n     '
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}li",
-                                            text="2010-06-16 : CMSMcQ : move this catalog into &#10;      the dev.w3.org directory structure in directory wgMeta.  Change&#10;      locations of DTD, stylesheet, etc. accordingly.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}li',
+                                            text='2010-06-16 : CMSMcQ : move this catalog into \n      the dev.w3.org directory structure in directory wgMeta.  Change\n      locations of DTD, stylesheet, etc. accordingly.\n     '
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}li",
-                                            text="2010-06-10 : CMSMcQ : create this test catalog,&#10;                               using XHTML modularization driver.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}li',
+                                            text='2010-06-10 : CMSMcQ : create this test catalog,\n                               using XHTML modularization driver.\n     '
                                         ),
                                     ]
                                 ),
@@ -78,55 +78,55 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="&#10;      In section ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='\n      In section ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="G.1.3 Changes to content models",
-                                                    tail=", XSD 1.1 says&#10;      (in list item 3):&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='G.1.3 Changes to content models',
+                                                    tail=', XSD 1.1 says\n      (in list item 3):\n     ',
                                                     attributes={
-                                                        "href": "http://www.w3.org/TR/xmlschema11-1/#ch_models",
+                                                        'href': 'http://www.w3.org/TR/xmlschema11-1/#ch_models',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}blockquote",
-                                            text="",
+                                            qname='{http://www.w3.org/1999/xhtml}blockquote',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}p",
-                                                    text="Finally, the keyword ##definedSibling can be used to exclude&#10;       all elements explicitly mentioned in a content model (and all&#10;       elements substitutable for those elements)."
+                                                    qname='{http://www.w3.org/1999/xhtml}p',
+                                                    text='Finally, the keyword ##definedSibling can be used to exclude\n       all elements explicitly mentioned in a content model (and all\n       elements substitutable for those elements).'
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="   &#10;      So we test the following interactions of definedSibling&#10;      and substitution groups, in schemas with some subset of&#10;      elements e, s, n, s1, n1, s2, n2, with s1 substitutable &#10;      ('s') for s, and s2 for s1, but n1 and n2 ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text="   \n      So we test the following interactions of definedSibling\n      and substitution groups, in schemas with some subset of\n      elements e, s, n, s1, n1, s2, n2, with s1 substitutable \n      ('s') for s, and s2 for s1, but n1 and n2 ",
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}em",
-                                                    text="not",
-                                                    tail="&#10;      substitutable for n (or anything else).  Elements n and s are&#10;      siblings, together with a negative wildcard (no positive &#10;      wildcard is possible) which has the keyword #definedSibling.&#10;     "
+                                                    qname='{http://www.w3.org/1999/xhtml}em',
+                                                    text='not',
+                                                    tail='\n      substitutable for n (or anything else).  Elements n and s are\n      siblings, together with a negative wildcard (no positive \n      wildcard is possible) which has the keyword #definedSibling.\n     '
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}ol",
-                                            text="",
+                                            qname='{http://www.w3.org/1999/xhtml}ol',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}li",
-                                                    text="A negative wildcard excludes s1 but not n1."
+                                                    qname='{http://www.w3.org/1999/xhtml}li',
+                                                    text='A negative wildcard excludes s1 but not n1.'
                                                 ),
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}li",
-                                                    text="A negative wildcard competes with n but not s,&#10;       but the result is the same in either case, since&#10;       when elements and wildcards compete, the element&#10;       wins."
+                                                    qname='{http://www.w3.org/1999/xhtml}li',
+                                                    text='A negative wildcard competes with n but not s,\n       but the result is the same in either case, since\n       when elements and wildcards compete, the element\n       wins.'
                                                 ),
                                             ]
                                         ),
@@ -141,12 +141,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="&#10;      In this test set, we exercise the fact that a&#10;      negative wildcard excludes s1 but not n1.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='\n      In this test set, we exercise the fact that a\n      negative wildcard excludes s1 but not n1.\n     '
                                         ),
                                     ]
                                 ),
@@ -157,13 +157,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/snneg.xsd"
+                        href='../wgData/sg/snneg.xsd'
                     ),
                 ],
                 expected=[
@@ -177,123 +177,123 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="snneg"
+                name='snneg'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sn.xml"
+                        href='../wgData/sg/sn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="sn",
+                    name='sn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/s1n.xml"
+                        href='../wgData/sg/s1n.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="s1n",
+                    name='s1n',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sn1.xml"
+                        href='../wgData/sg/sn1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sn1",
+                    name='sn1',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sne.xml"
+                        href='../wgData/sg/sne.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="sne",
+                    name='sne',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snn.xml"
+                        href='../wgData/sg/snn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="snn",
+                    name='snn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sns.xml"
+                        href='../wgData/sg/sns.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sns",
+                    name='sns',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snn1.xml"
+                        href='../wgData/sg/snn1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="snn1",
+                    name='snn1',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sns1.xml"
+                        href='../wgData/sg/sns1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sns1",
+                    name='sns1',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
             ],
-            name="sg-and-defined-Sibling-1",
+            name='sg-and-defined-Sibling-1',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -306,12 +306,12 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="&#10;      Negative wildcard excludes s1 but not n1.&#10;      (Second time around).&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='\n      Negative wildcard excludes s1 but not n1.\n      (Second time around).\n     '
                                         ),
                                     ]
                                 ),
@@ -322,13 +322,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/negsn.xsd"
+                        href='../wgData/sg/negsn.xsd'
                     ),
                 ],
                 expected=[
@@ -345,81 +345,81 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="negsn"
+                name='negsn'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/esn.xml"
+                        href='../wgData/sg/esn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="esn",
+                    name='esn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/nsn.xml"
+                        href='../wgData/sg/nsn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="nsn",
+                    name='nsn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/ssn.xml"
+                        href='../wgData/sg/ssn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="ssn",
+                    name='ssn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/n1sn.xml"
+                        href='../wgData/sg/n1sn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="n1sn",
+                    name='n1sn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/s1sn.xml"
+                        href='../wgData/sg/s1sn.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="s1sn",
+                    name='s1sn',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
             ],
-            name="sg-and-defined-Sibling-2",
+            name='sg-and-defined-Sibling-2',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -432,20 +432,20 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="A negative wildcard competes with n, but not s."
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='A negative wildcard competes with n, but not s.'
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="But elements outrank wildcards, so there's no conflict &#10;      in either case."
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text="But elements outrank wildcards, so there's no conflict \n      in either case."
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="This test defines a content model beginning with s, n&#10;      and continuing with any of (negative-wildcard, a),&#10;      (s, b), or (n, c).  &#10;      The instance tests have element sequences beginning&#10;      with s and n, continuing with one of s1, n1, e,&#10;      and ending with one of a, b, c.  &#10;      The sequences with s1 test the processor's handling&#10;      of the competition between s1 and the negative wildcard.&#10;      The other tests are present primarily for symmetry.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text="This test defines a content model beginning with s, n\n      and continuing with any of (negative-wildcard, a),\n      (s, b), or (n, c).  \n      The instance tests have element sequences beginning\n      with s and n, continuing with one of s1, n1, e,\n      and ending with one of a, b, c.  \n      The sequences with s1 test the processor's handling\n      of the competition between s1 and the negative wildcard.\n      The other tests are present primarily for symmetry.\n     "
                                         ),
                                     ]
                                 ),
@@ -456,13 +456,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/snbranch.xsd"
+                        href='../wgData/sg/snbranch.xsd'
                     ),
                 ],
                 expected=[
@@ -479,137 +479,137 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="snbranch"
+                name='snbranch'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sns1a.xml"
+                        href='../wgData/sg/sns1a.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sns1a",
+                    name='sns1a',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sns1b.xml"
+                        href='../wgData/sg/sns1b.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="sns1b",
+                    name='sns1b',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sns1c.xml"
+                        href='../wgData/sg/sns1c.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sns1c",
+                    name='sns1c',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snn1a.xml"
+                        href='../wgData/sg/snn1a.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="snn1a",
+                    name='snn1a',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snn1b.xml"
+                        href='../wgData/sg/snn1b.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="snn1b",
+                    name='snn1b',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snn1c.xml"
+                        href='../wgData/sg/snn1c.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="snn1c",
+                    name='snn1c',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snea.xml"
+                        href='../wgData/sg/snea.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="snea",
+                    name='snea',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/sneb.xml"
+                        href='../wgData/sg/sneb.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="sneb",
+                    name='sneb',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/snec.xml"
+                        href='../wgData/sg/snec.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="snec",
+                    name='snec',
                     version=[
                         KnownToken.VALUE_1_1,
                     ]
                 ),
             ],
-            name="sg-and-defined-Sibling-3",
+            name='sg-and-defined-Sibling-3',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -622,54 +622,54 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="&#10;      In section ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='\n      In section ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="G.1.9 Element declarations",
-                                                    tail=", XSD 1.1 says&#10;      (in list item 3):&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='G.1.9 Element declarations',
+                                                    tail=', XSD 1.1 says\n      (in list item 3):\n     ',
                                                     attributes={
-                                                        "href": "http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl",
+                                                        'href': 'http://www.w3.org/TR/xmlschema11-1/#ch_elemdecl',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}blockquote",
-                                            text="",
+                                            qname='{http://www.w3.org/1999/xhtml}blockquote',
+                                            text='',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}p",
-                                                    text="Abstract elements may now appear in substitution groups."
+                                                    qname='{http://www.w3.org/1999/xhtml}p',
+                                                    text='Abstract elements may now appear in substitution groups.'
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="This change was adopted to resolve bug &#10;      ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='This change was adopted to resolve bug \n      ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="4337 &#10;       Substitution group and abstract",
-                                                    tail=", which pointed out some&#10;      uncertainty about whether particular content models did or did&#10;      not violate the UPA and EDC constraints.",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='4337 \n       Substitution group and abstract',
+                                                    tail=', which pointed out some\n      uncertainty about whether particular content models did or did\n      not violate the UPA and EDC constraints.',
                                                     attributes={
-                                                        "href": "http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337",
+                                                        'href': 'http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="Because no element in a document instance is locally valid&#10;      against an abstract element declaration, this change does not&#10;      mean that abstract elements can now be instantiated in a valid&#10;      instance document.  Instead, the effect is to make clear that&#10;      abstract element declarations are considered when deciding&#10;      whether a content model violates constraints defined in terms of&#10;      elements' substitution groups.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text="Because no element in a document instance is locally valid\n      against an abstract element declaration, this change does not\n      mean that abstract elements can now be instantiated in a valid\n      instance document.  Instead, the effect is to make clear that\n      abstract element declarations are considered when deciding\n      whether a content model violates constraints defined in terms of\n      elements' substitution groups.\n     "
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="This test group illustrates the violation of the Unique&#10;      Particle Attribution constraint by a competition between a&#10;      local element declaration and an abstract global element&#10;      declaration which is substitutable for another.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='This test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     '
                                         ),
                                     ]
                                 ),
@@ -680,19 +680,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"
+                    href='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/upa.xsd"
+                        href='../wgData/sg/upa.xsd'
                     ),
                 ],
                 expected=[
@@ -709,53 +709,53 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="schemaTest"
+                name='schemaTest'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1.xml"
+                        href='../wgData/sg/e1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="e1.xml",
+                    name='e1.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1token.xml"
+                        href='../wgData/sg/e1token.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="e1token.xml",
+                    name='e1token.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1short.xml"
+                        href='../wgData/sg/e1short.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1short.xml",
+                    name='e1short.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="sg-abstract-upa",
+            name='sg-abstract-upa',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -768,60 +768,60 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="For context see test group&#10;      ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='For context see test group\n      ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="sg-abstract-upa",
-                                                    tail=" above.&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='sg-abstract-upa',
+                                                    tail=' above.\n     ',
                                                     attributes={
-                                                        "href": "#sg-abstact-upa",
+                                                        'href': '#sg-abstact-upa',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="Like ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='Like ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="sg-abstract-upa",
-                                                    tail=",&#10;      this test group illustrates the violation of the Unique&#10;      Particle Attribution constraint by a competition between a&#10;      local element declaration and an abstract global element&#10;      declaration which is substitutable for another.&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='sg-abstract-upa',
+                                                    tail=',\n      this test group illustrates the violation of the Unique\n      Particle Attribution constraint by a competition between a\n      local element declaration and an abstract global element\n      declaration which is substitutable for another.\n     ',
                                                     attributes={
-                                                        "href": "#sg-abstact-upa",
+                                                        'href': '#sg-abstact-upa',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="In this case, however, the top-level ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='In this case, however, the top-level ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}tt",
-                                                    text="e1",
-                                                    tail="&#10;      and the local "
+                                                    qname='{http://www.w3.org/1999/xhtml}tt',
+                                                    text='e1',
+                                                    tail='\n      and the local '
                                                 ),
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}tt",
-                                                    text="e1",
-                                                    tail=" have different types.&#10;      If a 1.0 processor ignores the global "
+                                                    qname='{http://www.w3.org/1999/xhtml}tt',
+                                                    text='e1',
+                                                    tail=' have different types.\n      If a 1.0 processor ignores the global '
                                                 ),
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}tt",
-                                                    text="e1",
-                                                    tail=" on&#10;      the grounds that it's not a member of the actual&#10;      substitution group of "
+                                                    qname='{http://www.w3.org/1999/xhtml}tt',
+                                                    text='e1',
+                                                    tail=" on\n      the grounds that it's not a member of the actual\n      substitution group of "
                                                 ),
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}tt",
-                                                    text="e",
-                                                    tail=", then it will accept&#10;      this schema, and validate the instances as shown.&#10;      A 1.1 processor must reject the schema; it violates&#10;      both UPA and EDC.&#10;     "
+                                                    qname='{http://www.w3.org/1999/xhtml}tt',
+                                                    text='e',
+                                                    tail=', then it will accept\n      this schema, and validate the instances as shown.\n      A 1.1 processor must reject the schema; it violates\n      both UPA and EDC.\n     '
                                                 ),
                                             ]
                                         ),
@@ -834,22 +834,22 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"
+                    href='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
+                    href='http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/upa2.xsd"
+                        href='../wgData/sg/upa2.xsd'
                     ),
                 ],
                 expected=[
@@ -866,67 +866,67 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="schemaTest"
+                name='schemaTest'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1.xml"
+                        href='../wgData/sg/e1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1.xml",
+                    name='e1.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1.xml"
+                        href='../wgData/sg/e1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="e1bis.xml",
+                    name='e1bis.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1token.xml"
+                        href='../wgData/sg/e1token.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1token.xml",
+                    name='e1token.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1short.xml"
+                        href='../wgData/sg/e1short.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="e1short.xml",
+                    name='e1short.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="sg-abstract-upa2",
+            name='sg-abstract-upa2',
             version=[
                 KnownToken.VALUE_1_0,
                 KnownToken.VALUE_1_1,
@@ -939,30 +939,30 @@ obj = TestSet(
                         Documentation(
                             content=[
                                 AnyElement(
-                                    qname="{http://www.w3.org/1999/xhtml}div",
-                                    text="",
+                                    qname='{http://www.w3.org/1999/xhtml}div',
+                                    text='',
                                     children=[
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="For context see test group&#10;      ",
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='For context see test group\n      ',
                                             children=[
                                                 AnyElement(
-                                                    qname="{http://www.w3.org/1999/xhtml}a",
-                                                    text="sg-abstract-upa",
-                                                    tail=" above.&#10;     ",
+                                                    qname='{http://www.w3.org/1999/xhtml}a',
+                                                    text='sg-abstract-upa',
+                                                    tail=' above.\n     ',
                                                     attributes={
-                                                        "href": "#sg-abstact-upa",
+                                                        'href': '#sg-abstact-upa',
                                                     }
                                                 ),
                                             ]
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="The schema in this test group illustrates the violation of&#10;      the Element Declarations Consistent constraint by an abstract&#10;      top-level element.  XSD 1.0 processors which treat abstract&#10;      elements as not part of any actual substitution group will&#10;      accept the schema and validate the instances accordingly.&#10;     "
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='The schema in this test group illustrates the violation of\n      the Element Declarations Consistent constraint by an abstract\n      top-level element.  XSD 1.0 processors which treat abstract\n      elements as not part of any actual substitution group will\n      accept the schema and validate the instances accordingly.\n     '
                                         ),
                                         AnyElement(
-                                            qname="{http://www.w3.org/1999/xhtml}p",
-                                            text="XSD 1.1 processors must reject the schema."
+                                            qname='{http://www.w3.org/1999/xhtml}p',
+                                            text='XSD 1.1 processors must reject the schema.'
                                         ),
                                     ]
                                 ),
@@ -973,19 +973,19 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed"
+                    href='../XSD1_1TestCategories.xhtml#xsd1_1-SubstitutionGroups-AbstrElemAllowed'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337"
+                    href='http://www.w3.org/Bugs/Public/show_bug.cgi?id=4337'
                 ),
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cos-element-consistent'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../wgData/sg/edc.xsd"
+                        href='../wgData/sg/edc.xsd'
                     ),
                 ],
                 expected=[
@@ -1002,186 +1002,186 @@ obj = TestSet(
                         ]
                     ),
                 ],
-                name="schemaTest"
+                name='schemaTest'
             ),
             instance_test=[
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/ee1s.xml"
+                        href='../wgData/sg/ee1s.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="ee1s.xml",
+                    name='ee1s.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/ee1t.xml"
+                        href='../wgData/sg/ee1t.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="ee1t.xml",
+                    name='ee1t.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/ee1i.xml"
+                        href='../wgData/sg/ee1i.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    name="ee1i.xml",
+                    name='ee1i.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1se1s.xml"
+                        href='../wgData/sg/e1se1s.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1se1s.xml",
+                    name='e1se1s.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1se1t.xml"
+                        href='../wgData/sg/e1se1t.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1se1t.xml",
+                    name='e1se1t.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1se1.xml"
+                        href='../wgData/sg/e1se1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1se1i.xml",
+                    name='e1se1i.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ite1s.xml"
+                        href='../wgData/sg/e1ite1s.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ite1s.xml",
+                    name='e1ite1s.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ite1t.xml"
+                        href='../wgData/sg/e1ite1t.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ite1t.xml",
+                    name='e1ite1t.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ite1.xml"
+                        href='../wgData/sg/e1ite1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ite1i.xml",
+                    name='e1ite1i.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ie1s.xml"
+                        href='../wgData/sg/e1ie1s.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ie1s.xml",
+                    name='e1ie1s.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ie1t.xml"
+                        href='../wgData/sg/e1ie1t.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ie1t.xml",
+                    name='e1ie1t.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
                 InstanceTest(
                     instance_document=InstanceDocument(
-                        href="../wgData/sg/e1ie1.xml"
+                        href='../wgData/sg/e1ie1.xml'
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID
                         ),
                     ],
-                    name="e1ie1i.xml",
+                    name='e1ie1i.xml',
                     version=[
                         KnownToken.VALUE_1_0,
                     ]
                 ),
             ],
-            name="sg-abstract-edc",
+            name='sg-abstract-edc',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="C. M. Sperberg-McQueen",
-    name="substitution-groups",
+    contributor='C. M. Sperberg-McQueen',
+    name='substitution-groups',
     version=[
         KnownToken.VALUE_1_1,
     ]

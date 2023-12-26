@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNamePattern2(
     value=[
-        ":with.to:meet.appropriate_semantic",
-        "xrepository:as:will_provides_nature_systems:with.sign",
-        "imethods.computing.life.correctness:and:documents:into:fi",
-        "ibandwi",
-        "pboth:information:law:t",
+        ':with.to:meet.appropriate_semantic',
+        'xrepository:as:will_provides_nature_systems:with.sign',
+        'imethods.computing.life.correctness:and:documents:into:fi',
+        'ibandwi',
+        'pboth:information:law:t',
     ]
 )

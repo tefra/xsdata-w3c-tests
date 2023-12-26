@@ -14,11 +14,11 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )
     bar: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
-        }
+        },
     )

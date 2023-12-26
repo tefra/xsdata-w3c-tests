@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenMinLength2(
     value=[
-        "key_Conformance:compatibility",
-        "the.OASIS.the-automatic:busin",
-        "joint.by.the-reputation:relat",
-        "to:community_The.within_softw",
-        "their:documents.resource.part",
-        "ultimate_processors_EXiST.com",
-        "software:The:a:widespread:dai",
+        'key_Conformance:compatibility',
+        'the.OASIS.the-automatic:busin',
+        'joint.by.the-reputation:relat',
+        'to:community_The.within_softw',
+        'their:documents.resource.part',
+        'ultimate_processors_EXiST.com',
+        'software:The:a:widespread:dai',
     ]
 )

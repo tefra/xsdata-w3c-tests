@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.nmtokens.schema_instance.nistschema_sv_iv_
 
 obj = NistschemaSvIvListNmtokensPattern2(
     value=[
-        "in:match.specific-and.the_match:define_international.which-the:s",
-        "between:stimulus:chains:semantics:back-distributed.law-locati",
-        "are:and.",
-        "metrology_XML.subject.rev",
-        "deployed-simpl",
-        "these-on-software_that:Computing_interoperability.the",
-        "effort:of_co",
-        "measurement_to-choic",
+        'in:match.specific-and.the_match:define_international.which-the:s',
+        'between:stimulus:chains:semantics:back-distributed.law-locati',
+        'are:and.',
+        'metrology_XML.subject.rev',
+        'deployed-simpl',
+        'these-on-software_that:Computing_interoperability.the',
+        'effort:of_co',
+        'measurement_to-choic',
     ]
 )

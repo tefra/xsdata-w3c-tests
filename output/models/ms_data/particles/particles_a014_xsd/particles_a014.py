@@ -13,7 +13,7 @@ class Elem:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 1000000,
-        }
+        },
     )
 
 
@@ -28,5 +28,5 @@ class Doc:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

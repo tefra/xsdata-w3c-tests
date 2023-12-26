@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.g_year_month.schema_instance.nistschema_sv_i
 
 
 obj = NistschemaSvIvAtomicGYearMonthPattern3(
-    value="1876-05"
+    value='1876-05'
 )

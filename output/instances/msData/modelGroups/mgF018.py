@@ -3,26 +3,26 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    s1="",
-    s2="",
-    s3="",
-    s4="",
+    s1='',
+    s2='',
+    s3='',
+    s4='',
     any_element=[
         AnyElement(
-            qname="{http://n1}foo",
-            text=""
+            qname='{http://n1}foo',
+            text=''
         ),
         AnyElement(
-            qname="{http://n2}foo",
-            text=""
+            qname='{http://n2}foo',
+            text=''
         ),
         AnyElement(
-            qname="{http://n3}foo",
-            text=""
+            qname='{http://n3}foo',
+            text=''
         ),
         AnyElement(
-            qname="{http://n4}foo",
-            text=""
+            qname='{http://n4}foo',
+            text=''
         ),
     ]
 )

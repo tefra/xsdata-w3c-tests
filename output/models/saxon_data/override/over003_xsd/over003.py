@@ -11,7 +11,7 @@ class Para:
         metadata={
             "required": True,
             "pattern": r"[0-9]+-[0-9]+-[0-9]+",
-        }
+        },
     )
 
 
@@ -25,5 +25,5 @@ class Para2:
         metadata={
             "required": True,
             "pattern": r"[0-9]+-[0-9]+-[0-9]+",
-        }
+        },
     )

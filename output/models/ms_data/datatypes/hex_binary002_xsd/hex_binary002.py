@@ -15,7 +15,7 @@ class ComplexfooType:
             "required": True,
             "tokens": True,
             "format": "base16",
-        }
+        },
     )
 
 
@@ -29,7 +29,7 @@ class SimpleTest:
         metadata={
             "tokens": True,
             "format": "base16",
-        }
+        },
     )
 
 
@@ -50,7 +50,7 @@ class Root:
             "name": "complexTest",
             "type": "Element",
             "required": True,
-        }
+        },
     )
     simple_test: List[bytes] = field(
         default_factory=list,
@@ -60,5 +60,5 @@ class Root:
             "required": True,
             "tokens": True,
             "format": "base16",
-        }
+        },
     )

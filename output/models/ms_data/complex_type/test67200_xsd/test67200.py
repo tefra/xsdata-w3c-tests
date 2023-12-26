@@ -24,5 +24,5 @@ class TypeA(TypeAbstract):
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

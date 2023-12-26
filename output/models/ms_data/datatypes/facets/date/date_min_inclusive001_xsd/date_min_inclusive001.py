@@ -15,7 +15,7 @@ class FooType:
             "namespace": "",
             "required": True,
             "min_inclusive": XmlDate(1999, 1, 31),
-        }
+        },
     )
 
 

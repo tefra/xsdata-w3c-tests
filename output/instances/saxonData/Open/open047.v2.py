@@ -4,12 +4,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     a=[
-        "",
+        '',
     ],
     b=23,
-    d="",
+    d='',
     any_element=AnyElement(
-        qname="{http://closed.com/}x",
-        text=""
+        qname='{http://closed.com/}x',
+        text=''
     )
 )

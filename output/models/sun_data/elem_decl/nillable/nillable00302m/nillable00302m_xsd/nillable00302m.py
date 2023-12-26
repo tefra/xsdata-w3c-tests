@@ -17,5 +17,5 @@ class Root:
             "name": "Local",
             "type": "Element",
             "namespace": "",
-        }
+        },
     )

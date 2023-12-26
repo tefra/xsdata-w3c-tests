@@ -21,7 +21,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Empty annotation in schema element",
+                                'TEST :Annotation Tests : Empty annotation in schema element',
                             ]
                         ),
                     ]
@@ -29,13 +29,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA001.xsd"
+                        href='../msData/annotations/annotA001.xsd'
                     ),
                 ],
                 expected=[
@@ -47,9 +47,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA001"
+                name='annotA001'
             ),
-            name="annotA001"
+            name='annotA001'
         ),
         TestGroup(
             annotation=[
@@ -57,7 +57,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element",
+                                'TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element',
                             ]
                         ),
                     ]
@@ -65,13 +65,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA002.xsd"
+                        href='../msData/annotations/annotA002.xsd'
                     ),
                 ],
                 expected=[
@@ -83,9 +83,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA002"
+                name='annotA002'
             ),
-            name="annotA002"
+            name='annotA002'
         ),
         TestGroup(
             annotation=[
@@ -93,7 +93,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in any, sequence Element",
+                                'TEST :Annotation Tests : Basic annotation in any, sequence Element',
                             ]
                         ),
                     ]
@@ -101,13 +101,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA003.xsd"
+                        href='../msData/annotations/annotA003.xsd'
                     ),
                 ],
                 expected=[
@@ -119,9 +119,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA003"
+                name='annotA003'
             ),
-            name="annotA003"
+            name='annotA003'
         ),
         TestGroup(
             annotation=[
@@ -129,7 +129,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element",
+                                'TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element',
                             ]
                         ),
                     ]
@@ -137,13 +137,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA004.xsd"
+                        href='../msData/annotations/annotA004.xsd'
                     ),
                 ],
                 expected=[
@@ -155,9 +155,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA004"
+                name='annotA004'
             ),
-            name="annotA004"
+            name='annotA004'
         ),
         TestGroup(
             annotation=[
@@ -165,7 +165,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in appinfo element",
+                                'TEST :Annotation Tests : Basic annotation in appinfo element',
                             ]
                         ),
                     ]
@@ -173,13 +173,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA005.xsd"
+                        href='../msData/annotations/annotA005.xsd'
                     ),
                 ],
                 expected=[
@@ -191,9 +191,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA005"
+                name='annotA005'
             ),
-            name="annotA005"
+            name='annotA005'
         ),
         TestGroup(
             annotation=[
@@ -201,7 +201,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in attribute element",
+                                'TEST :Annotation Tests : Basic annotation in attribute element',
                             ]
                         ),
                     ]
@@ -209,13 +209,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA006.xsd"
+                        href='../msData/annotations/annotA006.xsd'
                     ),
                 ],
                 expected=[
@@ -227,9 +227,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA006"
+                name='annotA006'
             ),
-            name="annotA006"
+            name='annotA006'
         ),
         TestGroup(
             annotation=[
@@ -237,7 +237,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in attributeGroup element",
+                                'TEST :Annotation Tests : Basic annotation in attributeGroup element',
                             ]
                         ),
                     ]
@@ -245,13 +245,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA007.xsd"
+                        href='../msData/annotations/annotA007.xsd'
                     ),
                 ],
                 expected=[
@@ -263,9 +263,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA007"
+                name='annotA007'
             ),
-            name="annotA007"
+            name='annotA007'
         ),
         TestGroup(
             annotation=[
@@ -273,7 +273,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in choice element",
+                                'TEST :Annotation Tests : Basic annotation in choice element',
                             ]
                         ),
                     ]
@@ -281,13 +281,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA008.xsd"
+                        href='../msData/annotations/annotA008.xsd'
                     ),
                 ],
                 expected=[
@@ -299,9 +299,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA008"
+                name='annotA008'
             ),
-            name="annotA008"
+            name='annotA008'
         ),
         TestGroup(
             annotation=[
@@ -309,7 +309,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in complexContent element",
+                                'TEST :Annotation Tests : Basic annotation in complexContent element',
                             ]
                         ),
                     ]
@@ -317,13 +317,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA009.xsd"
+                        href='../msData/annotations/annotA009.xsd'
                     ),
                 ],
                 expected=[
@@ -335,9 +335,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA009"
+                name='annotA009'
             ),
-            name="annotA009"
+            name='annotA009'
         ),
         TestGroup(
             annotation=[
@@ -345,7 +345,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in documentation element",
+                                'TEST :Annotation Tests : Basic annotation in documentation element',
                             ]
                         ),
                     ]
@@ -353,13 +353,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA010.xsd"
+                        href='../msData/annotations/annotA010.xsd'
                     ),
                 ],
                 expected=[
@@ -371,9 +371,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA010"
+                name='annotA010'
             ),
-            name="annotA010"
+            name='annotA010'
         ),
         TestGroup(
             annotation=[
@@ -381,7 +381,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in field element",
+                                'TEST :Annotation Tests : Basic annotation in field element',
                             ]
                         ),
                     ]
@@ -389,13 +389,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA011.xsd"
+                        href='../msData/annotations/annotA011.xsd'
                     ),
                 ],
                 expected=[
@@ -407,9 +407,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA011"
+                name='annotA011'
             ),
-            name="annotA011"
+            name='annotA011'
         ),
         TestGroup(
             annotation=[
@@ -417,7 +417,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in group element",
+                                'TEST :Annotation Tests : Basic annotation in group element',
                             ]
                         ),
                     ]
@@ -425,13 +425,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA012.xsd"
+                        href='../msData/annotations/annotA012.xsd'
                     ),
                 ],
                 expected=[
@@ -443,9 +443,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA012"
+                name='annotA012'
             ),
-            name="annotA012"
+            name='annotA012'
         ),
         TestGroup(
             annotation=[
@@ -453,7 +453,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in import element",
+                                'TEST :Annotation Tests : Basic annotation in import element',
                             ]
                         ),
                     ]
@@ -461,13 +461,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA013.xsd"
+                        href='../msData/annotations/annotA013.xsd'
                     ),
                 ],
                 expected=[
@@ -479,9 +479,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA013"
+                name='annotA013'
             ),
-            name="annotA013"
+            name='annotA013'
         ),
         TestGroup(
             annotation=[
@@ -489,7 +489,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in include element",
+                                'TEST :Annotation Tests : Basic annotation in include element',
                             ]
                         ),
                     ]
@@ -497,13 +497,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA014.xsd"
+                        href='../msData/annotations/annotA014.xsd'
                     ),
                 ],
                 expected=[
@@ -515,9 +515,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA014"
+                name='annotA014'
             ),
-            name="annotA014"
+            name='annotA014'
         ),
         TestGroup(
             annotation=[
@@ -525,7 +525,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in key element",
+                                'TEST :Annotation Tests : Basic annotation in key element',
                             ]
                         ),
                     ]
@@ -533,13 +533,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA015.xsd"
+                        href='../msData/annotations/annotA015.xsd'
                     ),
                 ],
                 expected=[
@@ -551,9 +551,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA015"
+                name='annotA015'
             ),
-            name="annotA015"
+            name='annotA015'
         ),
         TestGroup(
             annotation=[
@@ -561,7 +561,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in keyref element",
+                                'TEST :Annotation Tests : Basic annotation in keyref element',
                             ]
                         ),
                     ]
@@ -569,13 +569,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA016.xsd"
+                        href='../msData/annotations/annotA016.xsd'
                     ),
                 ],
                 expected=[
@@ -587,9 +587,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA016"
+                name='annotA016'
             ),
-            name="annotA016"
+            name='annotA016'
         ),
         TestGroup(
             annotation=[
@@ -597,7 +597,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in list element",
+                                'TEST :Annotation Tests : Basic annotation in list element',
                             ]
                         ),
                     ]
@@ -605,13 +605,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA017.xsd"
+                        href='../msData/annotations/annotA017.xsd'
                     ),
                 ],
                 expected=[
@@ -623,9 +623,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA017"
+                name='annotA017'
             ),
-            name="annotA017"
+            name='annotA017'
         ),
         TestGroup(
             annotation=[
@@ -633,7 +633,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in notation element",
+                                'TEST :Annotation Tests : Basic annotation in notation element',
                             ]
                         ),
                     ]
@@ -641,13 +641,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA018.xsd"
+                        href='../msData/annotations/annotA018.xsd'
                     ),
                 ],
                 expected=[
@@ -659,9 +659,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA018"
+                name='annotA018'
             ),
-            name="annotA018"
+            name='annotA018'
         ),
         TestGroup(
             annotation=[
@@ -669,7 +669,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in redefine element",
+                                'TEST :Annotation Tests : Basic annotation in redefine element',
                             ]
                         ),
                     ]
@@ -677,13 +677,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA019.xsd"
+                        href='../msData/annotations/annotA019.xsd'
                     ),
                 ],
                 expected=[
@@ -695,9 +695,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA019"
+                name='annotA019'
             ),
-            name="annotA019"
+            name='annotA019'
         ),
         TestGroup(
             annotation=[
@@ -705,7 +705,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in restriction, simpleType element",
+                                'TEST :Annotation Tests : Basic annotation in restriction, simpleType element',
                             ]
                         ),
                     ]
@@ -713,13 +713,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA020.xsd"
+                        href='../msData/annotations/annotA020.xsd'
                     ),
                 ],
                 expected=[
@@ -731,9 +731,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA020"
+                name='annotA020'
             ),
-            name="annotA020"
+            name='annotA020'
         ),
         TestGroup(
             annotation=[
@@ -741,7 +741,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in selector element",
+                                'TEST :Annotation Tests : Basic annotation in selector element',
                             ]
                         ),
                     ]
@@ -749,13 +749,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA021.xsd"
+                        href='../msData/annotations/annotA021.xsd'
                     ),
                 ],
                 expected=[
@@ -767,9 +767,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA021"
+                name='annotA021'
             ),
-            name="annotA021"
+            name='annotA021'
         ),
         TestGroup(
             annotation=[
@@ -777,7 +777,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in union element",
+                                'TEST :Annotation Tests : Basic annotation in union element',
                             ]
                         ),
                     ]
@@ -785,13 +785,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA022.xsd"
+                        href='../msData/annotations/annotA022.xsd'
                     ),
                 ],
                 expected=[
@@ -803,9 +803,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA022"
+                name='annotA022'
             ),
-            name="annotA022"
+            name='annotA022'
         ),
         TestGroup(
             annotation=[
@@ -813,7 +813,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Basic annotation in unique element",
+                                'TEST :Annotation Tests : Basic annotation in unique element',
                             ]
                         ),
                     ]
@@ -821,13 +821,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotA023.xsd"
+                        href='../msData/annotations/annotA023.xsd'
                     ),
                 ],
                 expected=[
@@ -839,9 +839,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotA023"
+                name='annotA023'
             ),
-            name="annotA023"
+            name='annotA023'
         ),
         TestGroup(
             annotation=[
@@ -849,7 +849,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Annotation within Annotation",
+                                'TEST :Annotation Tests : Annotation within Annotation',
                             ]
                         ),
                     ]
@@ -857,13 +857,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB001.xsd"
+                        href='../msData/annotations/annotB001.xsd'
                     ),
                 ],
                 expected=[
@@ -875,9 +875,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB001"
+                name='annotB001'
             ),
-            name="annotB001"
+            name='annotB001'
         ),
         TestGroup(
             annotation=[
@@ -885,7 +885,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation with appinfo's source=&quot;&quot;",
+                                'TEST :Annotation Tests : Declare annotation with appinfo\'s source=""',
                             ]
                         ),
                     ]
@@ -893,13 +893,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB002.xsd"
+                        href='../msData/annotations/annotB002.xsd'
                     ),
                 ],
                 expected=[
@@ -911,9 +911,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB002"
+                name='annotB002'
             ),
-            name="annotB002"
+            name='annotB002'
         ),
         TestGroup(
             annotation=[
@@ -921,7 +921,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation with documentation's source=&quot;&quot;",
+                                'TEST :Annotation Tests : Declare annotation with documentation\'s source=""',
                             ]
                         ),
                     ]
@@ -929,13 +929,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB003.xsd"
+                        href='../msData/annotations/annotB003.xsd'
                     ),
                 ],
                 expected=[
@@ -947,9 +947,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB003"
+                name='annotB003'
             ),
-            name="annotB003"
+            name='annotB003'
         ),
         TestGroup(
             annotation=[
@@ -957,7 +957,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the all Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the all Element',
                             ]
                         ),
                     ]
@@ -965,13 +965,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB004.xsd"
+                        href='../msData/annotations/annotB004.xsd'
                     ),
                 ],
                 expected=[
@@ -983,9 +983,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB004"
+                name='annotB004'
             ),
-            name="annotB004"
+            name='annotB004'
         ),
         TestGroup(
             annotation=[
@@ -993,7 +993,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the annotation Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the annotation Element',
                             ]
                         ),
                     ]
@@ -1001,13 +1001,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB005.xsd"
+                        href='../msData/annotations/annotB005.xsd'
                     ),
                 ],
                 expected=[
@@ -1019,9 +1019,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB005"
+                name='annotB005'
             ),
-            name="annotB005"
+            name='annotB005'
         ),
         TestGroup(
             annotation=[
@@ -1029,7 +1029,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the any Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the any Element',
                             ]
                         ),
                     ]
@@ -1037,13 +1037,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB006.xsd"
+                        href='../msData/annotations/annotB006.xsd'
                     ),
                 ],
                 expected=[
@@ -1055,9 +1055,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB006"
+                name='annotB006'
             ),
-            name="annotB006"
+            name='annotB006'
         ),
         TestGroup(
             annotation=[
@@ -1065,7 +1065,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element',
                             ]
                         ),
                     ]
@@ -1073,13 +1073,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB007.xsd"
+                        href='../msData/annotations/annotB007.xsd'
                     ),
                 ],
                 expected=[
@@ -1091,9 +1091,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB007"
+                name='annotB007'
             ),
-            name="annotB007"
+            name='annotB007'
         ),
         TestGroup(
             annotation=[
@@ -1101,7 +1101,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the appInfo Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the appInfo Element',
                             ]
                         ),
                     ]
@@ -1109,13 +1109,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB008.xsd"
+                        href='../msData/annotations/annotB008.xsd'
                     ),
                 ],
                 expected=[
@@ -1127,9 +1127,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB008"
+                name='annotB008'
             ),
-            name="annotB008"
+            name='annotB008'
         ),
         TestGroup(
             annotation=[
@@ -1137,7 +1137,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the attribute Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the attribute Element',
                             ]
                         ),
                     ]
@@ -1145,13 +1145,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB009.xsd"
+                        href='../msData/annotations/annotB009.xsd'
                     ),
                 ],
                 expected=[
@@ -1163,9 +1163,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB009"
+                name='annotB009'
             ),
-            name="annotB009"
+            name='annotB009'
         ),
         TestGroup(
             annotation=[
@@ -1173,7 +1173,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element',
                             ]
                         ),
                     ]
@@ -1181,13 +1181,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB010.xsd"
+                        href='../msData/annotations/annotB010.xsd'
                     ),
                 ],
                 expected=[
@@ -1199,9 +1199,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB010"
+                name='annotB010'
             ),
-            name="annotB010"
+            name='annotB010'
         ),
         TestGroup(
             annotation=[
@@ -1209,7 +1209,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the choice Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the choice Element',
                             ]
                         ),
                     ]
@@ -1217,13 +1217,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB011.xsd"
+                        href='../msData/annotations/annotB011.xsd'
                     ),
                 ],
                 expected=[
@@ -1235,9 +1235,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB011"
+                name='annotB011'
             ),
-            name="annotB011"
+            name='annotB011'
         ),
         TestGroup(
             annotation=[
@@ -1245,7 +1245,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the complexContent Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the complexContent Element',
                             ]
                         ),
                     ]
@@ -1253,13 +1253,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB012.xsd"
+                        href='../msData/annotations/annotB012.xsd'
                     ),
                 ],
                 expected=[
@@ -1271,9 +1271,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB012"
+                name='annotB012'
             ),
-            name="annotB012"
+            name='annotB012'
         ),
         TestGroup(
             annotation=[
@@ -1281,7 +1281,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the complexType Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the complexType Element',
                             ]
                         ),
                     ]
@@ -1289,13 +1289,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB013.xsd"
+                        href='../msData/annotations/annotB013.xsd'
                     ),
                 ],
                 expected=[
@@ -1307,9 +1307,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB013"
+                name='annotB013'
             ),
-            name="annotB013"
+            name='annotB013'
         ),
         TestGroup(
             annotation=[
@@ -1317,7 +1317,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the documentation Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the documentation Element',
                             ]
                         ),
                     ]
@@ -1325,13 +1325,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB014.xsd"
+                        href='../msData/annotations/annotB014.xsd'
                     ),
                 ],
                 expected=[
@@ -1343,9 +1343,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB014"
+                name='annotB014'
             ),
-            name="annotB014"
+            name='annotB014'
         ),
         TestGroup(
             annotation=[
@@ -1353,7 +1353,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the element Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the element Element',
                             ]
                         ),
                     ]
@@ -1361,13 +1361,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB015.xsd"
+                        href='../msData/annotations/annotB015.xsd'
                     ),
                 ],
                 expected=[
@@ -1379,9 +1379,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB015"
+                name='annotB015'
             ),
-            name="annotB015"
+            name='annotB015'
         ),
         TestGroup(
             annotation=[
@@ -1389,7 +1389,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the extension Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the extension Element',
                             ]
                         ),
                     ]
@@ -1397,13 +1397,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB016.xsd"
+                        href='../msData/annotations/annotB016.xsd'
                     ),
                 ],
                 expected=[
@@ -1415,9 +1415,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB016"
+                name='annotB016'
             ),
-            name="annotB016"
+            name='annotB016'
         ),
         TestGroup(
             annotation=[
@@ -1425,7 +1425,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the field Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the field Element',
                             ]
                         ),
                     ]
@@ -1433,13 +1433,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB017.xsd"
+                        href='../msData/annotations/annotB017.xsd'
                     ),
                 ],
                 expected=[
@@ -1451,9 +1451,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB017"
+                name='annotB017'
             ),
-            name="annotB017"
+            name='annotB017'
         ),
         TestGroup(
             annotation=[
@@ -1461,7 +1461,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the group Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the group Element',
                             ]
                         ),
                     ]
@@ -1469,13 +1469,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB018.xsd"
+                        href='../msData/annotations/annotB018.xsd'
                     ),
                 ],
                 expected=[
@@ -1487,9 +1487,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB018"
+                name='annotB018'
             ),
-            name="annotB018"
+            name='annotB018'
         ),
         TestGroup(
             annotation=[
@@ -1497,7 +1497,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the import Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the import Element',
                             ]
                         ),
                     ]
@@ -1505,13 +1505,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB019.xsd"
+                        href='../msData/annotations/annotB019.xsd'
                     ),
                 ],
                 expected=[
@@ -1523,9 +1523,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB019"
+                name='annotB019'
             ),
-            name="annotB019"
+            name='annotB019'
         ),
         TestGroup(
             annotation=[
@@ -1533,7 +1533,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the include Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the include Element',
                             ]
                         ),
                     ]
@@ -1541,13 +1541,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB020.xsd"
+                        href='../msData/annotations/annotB020.xsd'
                     ),
                 ],
                 expected=[
@@ -1559,9 +1559,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB020"
+                name='annotB020'
             ),
-            name="annotB020"
+            name='annotB020'
         ),
         TestGroup(
             annotation=[
@@ -1569,7 +1569,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the key Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the key Element',
                             ]
                         ),
                     ]
@@ -1577,13 +1577,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB021.xsd"
+                        href='../msData/annotations/annotB021.xsd'
                     ),
                 ],
                 expected=[
@@ -1595,9 +1595,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB021"
+                name='annotB021'
             ),
-            name="annotB021"
+            name='annotB021'
         ),
         TestGroup(
             annotation=[
@@ -1605,7 +1605,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the keyRef Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the keyRef Element',
                             ]
                         ),
                     ]
@@ -1613,13 +1613,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB022.xsd"
+                        href='../msData/annotations/annotB022.xsd'
                     ),
                 ],
                 expected=[
@@ -1631,9 +1631,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB022"
+                name='annotB022'
             ),
-            name="annotB022"
+            name='annotB022'
         ),
         TestGroup(
             annotation=[
@@ -1641,7 +1641,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the list Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the list Element',
                             ]
                         ),
                     ]
@@ -1649,13 +1649,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB023.xsd"
+                        href='../msData/annotations/annotB023.xsd'
                     ),
                 ],
                 expected=[
@@ -1667,9 +1667,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB023"
+                name='annotB023'
             ),
-            name="annotB023"
+            name='annotB023'
         ),
         TestGroup(
             annotation=[
@@ -1677,7 +1677,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the Notation Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the Notation Element',
                             ]
                         ),
                     ]
@@ -1685,13 +1685,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB024.xsd"
+                        href='../msData/annotations/annotB024.xsd'
                     ),
                 ],
                 expected=[
@@ -1703,9 +1703,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB024"
+                name='annotB024'
             ),
-            name="annotB024"
+            name='annotB024'
         ),
         TestGroup(
             annotation=[
@@ -1713,12 +1713,12 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the redefine Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the redefine Element',
                             ]
                         ),
                         Documentation(
                             content=[
-                                "TSTF and author agree this is valid",
+                                'TSTF and author agree this is valid',
                             ]
                         ),
                     ]
@@ -1726,13 +1726,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB025.xsd"
+                        href='../msData/annotations/annotB025.xsd'
                     ),
                 ],
                 expected=[
@@ -1743,22 +1743,22 @@ obj = TestSet(
                 current=Current(
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"
+                    bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991'
                 ),
                 prior=[
                     Prior(
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"
+                        bugzilla='http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991'
                     ),
                     Prior(
                         status=Status.ACCEPTED,
                         date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="annotB025"
+                name='annotB025'
             ),
-            name="annotB025"
+            name='annotB025'
         ),
         TestGroup(
             annotation=[
@@ -1766,7 +1766,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the restriction Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the restriction Element',
                             ]
                         ),
                     ]
@@ -1774,13 +1774,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB026.xsd"
+                        href='../msData/annotations/annotB026.xsd'
                     ),
                 ],
                 expected=[
@@ -1792,9 +1792,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB026"
+                name='annotB026'
             ),
-            name="annotB026"
+            name='annotB026'
         ),
         TestGroup(
             annotation=[
@@ -1802,7 +1802,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the schema Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the schema Element',
                             ]
                         ),
                     ]
@@ -1810,13 +1810,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB027.xsd"
+                        href='../msData/annotations/annotB027.xsd'
                     ),
                 ],
                 expected=[
@@ -1828,9 +1828,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB027"
+                name='annotB027'
             ),
-            name="annotB027"
+            name='annotB027'
         ),
         TestGroup(
             annotation=[
@@ -1838,7 +1838,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the selector Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the selector Element',
                             ]
                         ),
                     ]
@@ -1846,13 +1846,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB028.xsd"
+                        href='../msData/annotations/annotB028.xsd'
                     ),
                 ],
                 expected=[
@@ -1864,9 +1864,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB028"
+                name='annotB028'
             ),
-            name="annotB028"
+            name='annotB028'
         ),
         TestGroup(
             annotation=[
@@ -1874,7 +1874,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the sequence Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the sequence Element',
                             ]
                         ),
                     ]
@@ -1882,13 +1882,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB029.xsd"
+                        href='../msData/annotations/annotB029.xsd'
                     ),
                 ],
                 expected=[
@@ -1900,9 +1900,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB029"
+                name='annotB029'
             ),
-            name="annotB029"
+            name='annotB029'
         ),
         TestGroup(
             annotation=[
@@ -1910,7 +1910,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the simpleContent Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the simpleContent Element',
                             ]
                         ),
                     ]
@@ -1918,13 +1918,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB030.xsd"
+                        href='../msData/annotations/annotB030.xsd'
                     ),
                 ],
                 expected=[
@@ -1936,9 +1936,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB030"
+                name='annotB030'
             ),
-            name="annotB030"
+            name='annotB030'
         ),
         TestGroup(
             annotation=[
@@ -1946,7 +1946,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the simpleType Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the simpleType Element',
                             ]
                         ),
                     ]
@@ -1954,13 +1954,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB031.xsd"
+                        href='../msData/annotations/annotB031.xsd'
                     ),
                 ],
                 expected=[
@@ -1972,9 +1972,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB031"
+                name='annotB031'
             ),
-            name="annotB031"
+            name='annotB031'
         ),
         TestGroup(
             annotation=[
@@ -1982,7 +1982,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the union Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the union Element',
                             ]
                         ),
                     ]
@@ -1990,13 +1990,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB032.xsd"
+                        href='../msData/annotations/annotB032.xsd'
                     ),
                 ],
                 expected=[
@@ -2008,9 +2008,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB032"
+                name='annotB032'
             ),
-            name="annotB032"
+            name='annotB032'
         ),
         TestGroup(
             annotation=[
@@ -2018,7 +2018,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare annotation twice under the unique Element",
+                                'TEST :Annotation Tests : Declare annotation twice under the unique Element',
                             ]
                         ),
                     ]
@@ -2026,13 +2026,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotB033.xsd"
+                        href='../msData/annotations/annotB033.xsd'
                     ),
                 ],
                 expected=[
@@ -2044,9 +2044,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotB033"
+                name='annotB033'
             ),
-            name="annotB033"
+            name='annotB033'
         ),
         TestGroup(
             annotation=[
@@ -2054,7 +2054,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content &lt;b/&gt; tags",
+                                'TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content <b/> tags',
                             ]
                         ),
                     ]
@@ -2062,13 +2062,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotC001.xsd"
+                        href='../msData/annotations/annotC001.xsd'
                     ),
                 ],
                 expected=[
@@ -2080,9 +2080,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotC001"
+                name='annotC001'
             ),
-            name="annotC001"
+            name='annotC001'
         ),
         TestGroup(
             annotation=[
@@ -2090,7 +2090,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags",
+                                'TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags',
                             ]
                         ),
                     ]
@@ -2098,13 +2098,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotC002.xsd"
+                        href='../msData/annotations/annotC002.xsd'
                     ),
                 ],
                 expected=[
@@ -2116,9 +2116,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotC002"
+                name='annotC002'
             ),
-            name="annotC002"
+            name='annotC002'
         ),
         TestGroup(
             annotation=[
@@ -2126,7 +2126,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/",
+                                'TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/',
                             ]
                         ),
                     ]
@@ -2134,13 +2134,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotC003.xsd"
+                        href='../msData/annotations/annotC003.xsd'
                     ),
                 ],
                 expected=[
@@ -2152,9 +2152,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotC003"
+                name='annotC003'
             ),
-            name="annotC003"
+            name='annotC003'
         ),
         TestGroup(
             annotation=[
@@ -2162,7 +2162,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content",
+                                'TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content',
                             ]
                         ),
                     ]
@@ -2170,13 +2170,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotC004.xsd"
+                        href='../msData/annotations/annotC004.xsd'
                     ),
                 ],
                 expected=[
@@ -2188,9 +2188,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotC004"
+                name='annotC004'
             ),
-            name="annotC004"
+            name='annotC004'
         ),
         TestGroup(
             annotation=[
@@ -2198,7 +2198,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with two appinfos with text",
+                                'TEST :Annotation Tests : Declare Annotation with two appinfos with text',
                             ]
                         ),
                     ]
@@ -2206,13 +2206,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotC005.xsd"
+                        href='../msData/annotations/annotC005.xsd'
                     ),
                 ],
                 expected=[
@@ -2224,9 +2224,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotC005"
+                name='annotC005'
             ),
-            name="annotC005"
+            name='annotC005'
         ),
         TestGroup(
             annotation=[
@@ -2234,7 +2234,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content &lt;b/&gt; tags",
+                                'TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content <b/> tags',
                             ]
                         ),
                     ]
@@ -2242,13 +2242,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotD001.xsd"
+                        href='../msData/annotations/annotD001.xsd'
                     ),
                 ],
                 expected=[
@@ -2260,9 +2260,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotD001"
+                name='annotD001'
             ),
-            name="annotD001"
+            name='annotD001'
         ),
         TestGroup(
             annotation=[
@@ -2270,7 +2270,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags",
+                                'TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags',
                             ]
                         ),
                     ]
@@ -2278,13 +2278,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotD002.xsd"
+                        href='../msData/annotations/annotD002.xsd'
                     ),
                 ],
                 expected=[
@@ -2296,9 +2296,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotD002"
+                name='annotD002'
             ),
-            name="annotD002"
+            name='annotD002'
         ),
         TestGroup(
             annotation=[
@@ -2306,7 +2306,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/",
+                                'TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/',
                             ]
                         ),
                     ]
@@ -2314,13 +2314,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotD003.xsd"
+                        href='../msData/annotations/annotD003.xsd'
                     ),
                 ],
                 expected=[
@@ -2332,9 +2332,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotD003"
+                name='annotD003'
             ),
-            name="annotD003"
+            name='annotD003'
         ),
         TestGroup(
             annotation=[
@@ -2342,7 +2342,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content",
+                                'TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content',
                             ]
                         ),
                     ]
@@ -2350,13 +2350,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotD004.xsd"
+                        href='../msData/annotations/annotD004.xsd'
                     ),
                 ],
                 expected=[
@@ -2368,9 +2368,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotD004"
+                name='annotD004'
             ),
-            name="annotD004"
+            name='annotD004'
         ),
         TestGroup(
             annotation=[
@@ -2378,7 +2378,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with two documentations with text",
+                                'TEST :Annotation Tests : Declare Annotation with two documentations with text',
                             ]
                         ),
                     ]
@@ -2386,13 +2386,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotD005.xsd"
+                        href='../msData/annotations/annotD005.xsd'
                     ),
                 ],
                 expected=[
@@ -2404,9 +2404,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotD005"
+                name='annotD005'
             ),
-            name="annotD005"
+            name='annotD005'
         ),
         TestGroup(
             annotation=[
@@ -2414,7 +2414,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text",
+                                'TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text',
                             ]
                         ),
                     ]
@@ -2422,13 +2422,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotE001.xsd"
+                        href='../msData/annotations/annotE001.xsd'
                     ),
                 ],
                 expected=[
@@ -2440,9 +2440,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotE001"
+                name='annotE001'
             ),
-            name="annotE001"
+            name='annotE001'
         ),
         TestGroup(
             annotation=[
@@ -2450,7 +2450,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML",
+                                'TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML',
                             ]
                         ),
                     ]
@@ -2458,13 +2458,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotE002.xsd"
+                        href='../msData/annotations/annotE002.xsd'
                     ),
                 ],
                 expected=[
@@ -2476,9 +2476,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotE002"
+                name='annotE002'
             ),
-            name="annotE002"
+            name='annotE002'
         ),
         TestGroup(
             annotation=[
@@ -2494,13 +2494,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF001.xsd"
+                        href='../msData/annotations/annotF001.xsd'
                     ),
                 ],
                 expected=[
@@ -2512,9 +2512,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF001"
+                name='annotF001'
             ),
-            name="annotF001"
+            name='annotF001'
         ),
         TestGroup(
             annotation=[
@@ -2530,13 +2530,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF002.xsd"
+                        href='../msData/annotations/annotF002.xsd'
                     ),
                 ],
                 expected=[
@@ -2548,9 +2548,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF002"
+                name='annotF002'
             ),
-            name="annotF002"
+            name='annotF002'
         ),
         TestGroup(
             annotation=[
@@ -2566,13 +2566,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF003.xsd"
+                        href='../msData/annotations/annotF003.xsd'
                     ),
                 ],
                 expected=[
@@ -2584,9 +2584,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF003"
+                name='annotF003'
             ),
-            name="annotF003"
+            name='annotF003'
         ),
         TestGroup(
             annotation=[
@@ -2602,13 +2602,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF004.xsd"
+                        href='../msData/annotations/annotF004.xsd'
                     ),
                 ],
                 expected=[
@@ -2620,9 +2620,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF004"
+                name='annotF004'
             ),
-            name="annotF004"
+            name='annotF004'
         ),
         TestGroup(
             annotation=[
@@ -2638,13 +2638,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF005.xsd"
+                        href='../msData/annotations/annotF005.xsd'
                     ),
                 ],
                 expected=[
@@ -2656,9 +2656,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF005"
+                name='annotF005'
             ),
-            name="annotF005"
+            name='annotF005'
         ),
         TestGroup(
             annotation=[
@@ -2674,13 +2674,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF006.xsd"
+                        href='../msData/annotations/annotF006.xsd'
                     ),
                 ],
                 expected=[
@@ -2692,9 +2692,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF006"
+                name='annotF006'
             ),
-            name="annotF006"
+            name='annotF006'
         ),
         TestGroup(
             annotation=[
@@ -2710,13 +2710,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF007.xsd"
+                        href='../msData/annotations/annotF007.xsd'
                     ),
                 ],
                 expected=[
@@ -2728,9 +2728,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF007"
+                name='annotF007'
             ),
-            name="annotF007"
+            name='annotF007'
         ),
         TestGroup(
             annotation=[
@@ -2738,7 +2738,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\MIME\Database\Rfc1766",
+                                'TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\\MIME\\Database\\Rfc1766',
                             ]
                         ),
                     ]
@@ -2746,13 +2746,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF008.xsd"
+                        href='../msData/annotations/annotF008.xsd'
                     ),
                 ],
                 expected=[
@@ -2764,9 +2764,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF008"
+                name='annotF008'
             ),
-            name="annotF008"
+            name='annotF008'
         ),
         TestGroup(
             annotation=[
@@ -2782,13 +2782,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotF009.xsd"
+                        href='../msData/annotations/annotF009.xsd'
                     ),
                 ],
                 expected=[
@@ -2800,9 +2800,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotF009"
+                name='annotF009'
             ),
-            name="annotF009"
+            name='annotF009'
         ),
         TestGroup(
             annotation=[
@@ -2810,7 +2810,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : ID attribute in annotation",
+                                'TEST :Annotation Tests : ID attribute in annotation',
                             ]
                         ),
                     ]
@@ -2818,13 +2818,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotZ001.xsd"
+                        href='../msData/annotations/annotZ001.xsd'
                     ),
                 ],
                 expected=[
@@ -2836,9 +2836,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotZ001"
+                name='annotZ001'
             ),
-            name="annotZ001"
+            name='annotZ001'
         ),
         TestGroup(
             annotation=[
@@ -2846,7 +2846,7 @@ obj = TestSet(
                     appinfo_or_documentation=[
                         Documentation(
                             content=[
-                                "TEST :Annotation Tests : large number of annotation elements",
+                                'TEST :Annotation Tests : large number of annotation elements',
                             ]
                         ),
                     ]
@@ -2854,13 +2854,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotZ002.xsd"
+                        href='../msData/annotations/annotZ002.xsd'
                     ),
                 ],
                 expected=[
@@ -2872,9 +2872,9 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotZ002"
+                name='annotZ002'
             ),
-            name="annotZ002"
+            name='annotZ002'
         ),
         TestGroup(
             annotation=[
@@ -2890,13 +2890,13 @@ obj = TestSet(
             ],
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
+                    href='http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../msData/annotations/annotZ004.xsd"
+                        href='../msData/annotations/annotZ004.xsd'
                     ),
                 ],
                 expected=[
@@ -2908,14 +2908,14 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2006, 7, 16)
                 ),
-                name="annotZ004"
+                name='annotZ004'
             ),
-            name="annotZ004"
+            name='annotZ004'
         ),
     ],
-    contributor="Microsoft",
-    name="MS-Annotations2006-07-15",
+    contributor='Microsoft',
+    name='MS-Annotations2006-07-15',
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd',
     }
 )

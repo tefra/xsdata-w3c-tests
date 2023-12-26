@@ -7,25 +7,25 @@ obj = Root(
     dept=[
         DeptType(
             deptno=10,
-            dname="Accounting",
-            loc="Dallas"
+            dname='Accounting',
+            loc='Dallas'
         ),
         DeptType(
             deptno=20,
-            dname="Production",
-            loc="New York"
+            dname='Production',
+            loc='New York'
         ),
     ],
     employee=[
         EmployeeType(
             empno=1001,
-            ename="Jag",
+            ename='Jag',
             sal=2500.0,
             deptno=10
         ),
         EmployeeType(
             empno=1002,
-            ename="Win",
+            ename='Win',
             sal=2600.0,
             deptno=20
         ),

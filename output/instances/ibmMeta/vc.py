@@ -20,16 +20,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test1.xsd"
+                        href='../ibmData/mixed/VC/test1.xsd'
                     ),
                 ],
                 expected=[
@@ -41,7 +41,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_001_1"
+                name='vc_001_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -50,14 +50,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.&#10;&#9;&#9;       ",
+                                        '\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test1_1.xml"
+                        href='../ibmData/mixed/VC/test1_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -68,7 +68,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_001_2"
+                    name='vc_001_2'
                 ),
                 InstanceTest(
                     annotation=[
@@ -76,14 +76,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;&#9;&#9;          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.&#10;&#9;&#9;&#9;      The instance test fails because, assertion in this example is "false" and that been included&#10;&#9;&#9;&#9;      in validation episode.&#10;&#9;&#9;       ',
+                                        '\n\t\t          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.\n\t\t\t      The instance test fails because, assertion in this example is "false" and that been included\n\t\t\t      in validation episode.\n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test1_2.xml"
+                        href='../ibmData/mixed/VC/test1_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -94,10 +94,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_001_3"
+                    name='vc_001_3'
                 ),
             ],
-            name="vc_001",
+            name='vc_001',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -105,16 +105,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test2.xsd"
+                        href='../ibmData/mixed/VC/test2.xsd'
                     ),
                 ],
                 expected=[
@@ -126,7 +126,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_003_1"
+                name='vc_003_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -135,14 +135,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;&#9;&#9;          Run instance test in XSD 1.1 mode. The validation fails (due to a different element&#10;&#9;&#9;&#9;&#9;  declaration been selected, whose assertion failure causes validation episode to fail).&#10;&#9;&#9;       ",
+                                        '\n\t\t          Run instance test in XSD 1.1 mode. The validation fails (due to a different element\n\t\t\t\t  declaration been selected, whose assertion failure causes validation episode to fail).\n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test2.xml"
+                        href='../ibmData/mixed/VC/test2.xml'
                     ),
                     expected=[
                         Expected(
@@ -153,10 +153,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_003_2"
+                    name='vc_003_2'
                 ),
             ],
-            name="vc_003",
+            name='vc_003',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -164,16 +164,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test3.xsd"
+                        href='../ibmData/mixed/VC/test3.xsd'
                     ),
                 ],
                 expected=[
@@ -185,7 +185,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_005_1"
+                name='vc_005_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -194,14 +194,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail&#10;&#9;&#9;&#9;&#9;  causing failure of validation episode. The facet &quot;totalDigits&quot; won't be functional since it&#10;&#9;&#9;&#9;&#9;  only works in XSD 1.0 mode.&#10;&#9;&#9;       ",
+                                        '\n                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail\n\t\t\t\t  causing failure of validation episode. The facet "totalDigits" won\'t be functional since it\n\t\t\t\t  only works in XSD 1.0 mode.\n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test3.xml"
+                        href='../ibmData/mixed/VC/test3.xml'
                     ),
                     expected=[
                         Expected(
@@ -212,10 +212,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_005_2"
+                    name='vc_005_2'
                 ),
             ],
-            name="vc_005",
+            name='vc_005',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -223,16 +223,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test4.xsd"
+                        href='../ibmData/mixed/VC/test4.xsd'
                     ),
                 ],
                 expected=[
@@ -244,7 +244,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_007_1"
+                name='vc_007_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -253,14 +253,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and&#10;&#9;&#9;&#9;&#9;  assertion failure occurs causing failure of validation episode.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ',
+                                        '\n                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and\n\t\t\t\t  assertion failure occurs causing failure of validation episode.\t\t\t\t  \n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test4_1.xml"
+                        href='../ibmData/mixed/VC/test4_1.xml'
                     ),
                     expected=[
                         Expected(
@@ -271,7 +271,7 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_007_2"
+                    name='vc_007_2'
                 ),
                 InstanceTest(
                     annotation=[
@@ -279,14 +279,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        '&#10;                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and&#10;                  validation episode succeeds, since an assertion is also true.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ',
+                                        '\n                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and\n                  validation episode succeeds, since an assertion is also true.\t\t\t\t  \n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test4_2.xml"
+                        href='../ibmData/mixed/VC/test4_2.xml'
                     ),
                     expected=[
                         Expected(
@@ -297,10 +297,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_007_3"
+                    name='vc_007_3'
                 ),
             ],
-            name="vc_007",
+            name='vc_007',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -308,16 +308,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test5_1.xsd"
+                        href='../ibmData/mixed/VC/test5_1.xsd'
                     ),
                 ],
                 expected=[
@@ -329,7 +329,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_008_1"
+                name='vc_008_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -338,14 +338,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check&#10;                  [vc:typeAvailable=&quot;xs:int&quot;] succeeds but [vc:typeAvailable=&quot;my:myInt&quot;] doesn't. This test results&#10;                  in validation success.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ",
+                                        '\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="my:myInt"] doesn\'t. This test results\n                  in validation success.\t\t\t\t  \n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test5.xml"
+                        href='../ibmData/mixed/VC/test5.xml'
                     ),
                     expected=[
                         Expected(
@@ -356,10 +356,10 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_008_2"
+                    name='vc_008_2'
                 ),
             ],
-            name="vc_008",
+            name='vc_008',
             version=[
                 KnownToken.VALUE_1_1,
             ]
@@ -367,16 +367,16 @@ obj = TestSet(
         TestGroup(
             documentation_reference=[
                 DocumentationReference(
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
+                    href='http://www.w3.org/TR/xmlschema11-1/#cip'
                 ),
                 DocumentationReference(
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
+                    href='../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version'
                 ),
             ],
             schema_test=SchemaTest(
                 schema_document=[
                     SchemaDocument(
-                        href="../ibmData/mixed/VC/test6.xsd"
+                        href='../ibmData/mixed/VC/test6.xsd'
                     ),
                 ],
                 expected=[
@@ -388,7 +388,7 @@ obj = TestSet(
                     status=Status.ACCEPTED,
                     date=XmlDate(2010, 10, 20)
                 ),
-                name="vc_009_1"
+                name='vc_009_1'
             ),
             instance_test=[
                 InstanceTest(
@@ -397,14 +397,14 @@ obj = TestSet(
                             appinfo_or_documentation=[
                                 Documentation(
                                     content=[
-                                        "&#10;                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check&#10;                  [vc:typeAvailable=&quot;xs:int&quot;] succeeds but [vc:typeAvailable=&quot;xs:int my:myInt&quot;] doesn't. This test results&#10;                  in validation success.  &#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ",
+                                        '\n                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check\n                  [vc:typeAvailable="xs:int"] succeeds but [vc:typeAvailable="xs:int my:myInt"] doesn\'t. This test results\n                  in validation success.  \t\t\t\t  \n\t\t       ',
                                     ]
                                 ),
                             ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        href="../ibmData/mixed/VC/test6.xml"
+                        href='../ibmData/mixed/VC/test6.xml'
                     ),
                     expected=[
                         Expected(
@@ -415,22 +415,22 @@ obj = TestSet(
                         status=Status.ACCEPTED,
                         date=XmlDate(2010, 10, 20)
                     ),
-                    name="vc_009_2"
+                    name='vc_009_2'
                 ),
             ],
-            name="vc_009",
+            name='vc_009',
             version=[
                 KnownToken.VALUE_1_1,
             ]
         ),
     ],
-    contributor="IBM",
-    name="VC",
+    contributor='IBM',
+    name='VC',
     version=[
         KnownToken.VALUE_1_0,
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
+        '{http://www.w3.org/2001/XMLSchema-instance}schemaLocation': 'http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd',
     }
 )

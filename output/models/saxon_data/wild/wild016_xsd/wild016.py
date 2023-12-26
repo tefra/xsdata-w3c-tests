@@ -9,7 +9,7 @@ class B:
         metadata={
             "type": "Attributes",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -20,7 +20,7 @@ class E(B):
         metadata={
             "type": "Attributes",
             "namespace": "http://abel.com/ http://adam.com/",
-        }
+        },
     )
 
 

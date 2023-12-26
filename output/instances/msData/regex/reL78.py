@@ -5,7 +5,7 @@ from output.models.ms_data.regex.re_l78_xsd.re_l78 import Regex
 obj = Doc(
     elem=[
         Regex(
-            att=""
+            att='\ue000\uf8ff'
         ),
     ]
 )

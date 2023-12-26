@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.ncname.schema_instance.nistschema_sv_iv_li
 
 obj = NistschemaSvIvListNcnameWhiteSpace1(
     value=[
-        "_and-enough_to_and",
-        "eindustry.testing.",
-        "vrevolution_utilit",
-        "bto_engineering.cr",
-        "_these-the.particu",
-        "ycomputing-cost-ty",
-        "ps.well.directions",
-        "xtheir.annual.and_",
+        '_and-enough_to_and',
+        'eindustry.testing.',
+        'vrevolution_utilit',
+        'bto_engineering.cr',
+        '_these-the.particu',
+        'ycomputing-cost-ty',
+        'ps.well.directions',
+        'xtheir.annual.and_',
     ]
 )

@@ -11,14 +11,14 @@ class Para:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
     id: str = field(
         init=False,
         default="para001",
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -32,5 +32,5 @@ class Doc:
         metadata={
             "type": "Element",
             "min_occurs": 1,
-        }
+        },
     )

@@ -15,7 +15,7 @@ class CtA:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
     a2: Optional[bool] = field(
         default=None,
@@ -23,7 +23,7 @@ class CtA:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
 
 
@@ -38,7 +38,7 @@ class CtB:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
     b2: Optional[int] = field(
         default=None,
@@ -46,7 +46,7 @@ class CtB:
             "type": "Element",
             "namespace": "ns-a",
             "required": True,
-        }
+        },
     )
 
 
@@ -61,7 +61,7 @@ class CtC:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
     c2: Optional[int] = field(
         default=None,
@@ -69,7 +69,7 @@ class CtC:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -84,7 +84,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 

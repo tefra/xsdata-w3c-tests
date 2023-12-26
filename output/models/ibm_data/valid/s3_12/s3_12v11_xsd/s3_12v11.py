@@ -17,7 +17,7 @@ class Root:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
 
     @dataclass
@@ -28,12 +28,12 @@ class Root:
                 "type": "Element",
                 "namespace": "",
                 "required": True,
-            }
+            },
         )
         end_time: Optional[int] = field(
             default=None,
             metadata={
                 "name": "end-time",
                 "type": "Attribute",
-            }
+            },
         )

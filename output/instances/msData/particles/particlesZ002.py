@@ -9,9 +9,9 @@ obj = Doc(
 
     ),
     elem2=Derived2(
-        bar="123"
+        bar='123'
     ),
     elem3=Derived3(
-        foo="123"
+        foo='123'
     )
 )

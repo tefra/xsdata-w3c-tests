@@ -14,7 +14,7 @@ class E:
         metadata={
             "required": True,
             "pattern": r"true",
-        }
+        },
     )
 
 
@@ -29,5 +29,5 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

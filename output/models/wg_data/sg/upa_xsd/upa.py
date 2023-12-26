@@ -22,7 +22,7 @@ class T:
                     "namespace": "http://www.w3.org/XML/2008/xsdl-exx/ns1",
                 },
             ),
-        }
+        },
     )
 
 
@@ -36,7 +36,7 @@ class E:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 

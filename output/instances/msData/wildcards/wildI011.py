@@ -6,12 +6,12 @@ obj = Foo(
     other_element=AnyElement(
         children=[
             AnyElement(
-                qname="{A}b",
-                text="test"
+                qname='{A}b',
+                text='test'
             ),
             AnyElement(
-                qname="{A}b",
-                text="test"
+                qname='{A}b',
+                text='test'
             ),
         ]
     )

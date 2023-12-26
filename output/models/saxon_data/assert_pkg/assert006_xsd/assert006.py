@@ -12,5 +12,5 @@ class Outer:
         metadata={
             "type": "Element",
             "max_occurs": 4,
-        }
+        },
     )

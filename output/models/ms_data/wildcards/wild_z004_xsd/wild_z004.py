@@ -15,7 +15,7 @@ class CtypeFoo:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )
 
 
@@ -30,5 +30,5 @@ class RootElem:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.nist_data.atomic.ncname.schema_instance.nistschema_sv_iv_atom
 
 
 obj = NistschemaSvIvAtomicNcnameMaxLength2(
-    value="iof-a_of_methods-profil"
+    value='iof-a_of_methods-profil'
 )

@@ -3,12 +3,12 @@ from output.models.nist_data.list_pkg.nmtoken.schema_instance.nistschema_sv_iv_l
 
 obj = NistschemaSvIvListNmtokenLength3(
     value=[
-        "understand:desktop-ma",
-        "Markup.NSRL_systems_a",
-        "that-repository_base_",
-        "and:Internet:applicat",
-        "other_partnership-rev",
-        "the.file_a:and_influe",
-        "retrieve_participate:",
+        'understand:desktop-ma',
+        'Markup.NSRL_systems_a',
+        'that-repository_base_',
+        'and:Internet:applicat',
+        'other_partnership-rev',
+        'the.file_a:and_influe',
+        'retrieve_participate:',
     ]
 )

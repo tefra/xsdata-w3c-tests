@@ -12,7 +12,7 @@ class Global1:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -25,7 +25,7 @@ class Global2:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )
 
 
@@ -39,5 +39,5 @@ class Root:
         default="",
         metadata={
             "required": True,
-        }
+        },
     )

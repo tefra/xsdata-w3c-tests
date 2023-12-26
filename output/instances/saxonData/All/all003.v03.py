@@ -5,24 +5,24 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     content=[
         AnyElement(
-            qname="a",
-            text="",
-            tail="banana"
+            qname='a',
+            text='',
+            tail='banana'
         ),
         AnyElement(
-            qname="b",
-            text="",
-            tail="custard"
+            qname='b',
+            text='',
+            tail='custard'
         ),
         AnyElement(
-            qname="c",
-            text="",
-            tail="mango"
+            qname='c',
+            text='',
+            tail='mango'
         ),
         AnyElement(
-            qname="d",
-            text="",
-            tail="pineapples and cream"
+            qname='d',
+            text='',
+            tail='pineapples and cream'
         ),
     ]
 )

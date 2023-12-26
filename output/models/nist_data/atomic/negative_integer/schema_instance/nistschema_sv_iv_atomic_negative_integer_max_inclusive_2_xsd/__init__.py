@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_max_inclusive_2_xsd.nistschema_sv_iv_atomic_negative_integer_max_inclusive_2 import NistschemaSvIvAtomicNegativeIntegerMaxInclusive2
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_max_inclusive_2_xsd.nistschema_sv_iv_atomic_negative_integer_max_inclusive_2 import (
+    NistschemaSvIvAtomicNegativeIntegerMaxInclusive2,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicNegativeIntegerMaxInclusive2",

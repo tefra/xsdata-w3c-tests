@@ -4,6 +4,6 @@ from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_i
 
 obj = Out(
     any_element=NistschemaSvIvAtomicIdLength2(
-        value="bindustries_in-of_structure_means-revolutionize_to-networ"
+        value='bindustries_in-of_structure_means-revolutionize_to-networ'
     )
 )

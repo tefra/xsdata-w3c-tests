@@ -16,5 +16,5 @@ class NistschemaSvIvListGMonthDayLength2:
         metadata={
             "length": 6,
             "tokens": True,
-        }
+        },
     )

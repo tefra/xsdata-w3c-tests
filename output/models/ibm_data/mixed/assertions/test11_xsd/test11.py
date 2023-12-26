@@ -14,5 +14,5 @@ class X:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

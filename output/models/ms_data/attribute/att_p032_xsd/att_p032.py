@@ -14,7 +14,7 @@ class AttRef:
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     red_att: str = field(
         init=False,
@@ -23,7 +23,7 @@ class AttRef:
             "name": "redAtt",
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     inc_att: str = field(
         init=False,
@@ -32,7 +32,7 @@ class AttRef:
             "name": "incAtt",
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     imp_att: str = field(
         init=False,
@@ -41,7 +41,7 @@ class AttRef:
             "name": "impAtt",
             "type": "Attribute",
             "namespace": "http://importedXSD",
-        }
+        },
     )
 
 
@@ -56,14 +56,14 @@ class Red:
             "name": "redCTAtt",
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
     xx: Optional[object] = field(
         default=None,
         metadata={
             "type": "Attribute",
             "namespace": "http://xsdtesting",
-        }
+        },
     )
 
 
@@ -78,5 +78,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.normalized_string.normalized_string_
 
 
 obj = Test(
-    foo="abc"
+    foo='abc'
 )

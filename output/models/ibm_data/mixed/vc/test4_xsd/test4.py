@@ -11,13 +11,13 @@ class TestV2:
         default=None,
         metadata={
             "required": True,
-        }
+        },
     )
     v2: Optional[bool] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 

@@ -3,10 +3,10 @@ from output.models.nist_data.list_pkg.name.schema_instance.nistschema_sv_iv_list
 
 obj = NistschemaSvIvListNameLength1(
     value=[
-        "uthe.documents.devices.a",
-        "shelp-standardization:ha",
-        "qa-any_a.that.of:criteri",
-        "golder.influence.on:proj",
-        ":these:the_and-industry:",
+        'uthe.documents.devices.a',
+        'shelp-standardization:ha',
+        'qa-any_a.that.of:criteri',
+        'golder.influence.on:proj',
+        ':these:the_and-industry:',
     ]
 )

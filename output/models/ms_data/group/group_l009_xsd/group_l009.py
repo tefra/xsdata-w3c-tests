@@ -24,7 +24,7 @@ class Elem:
                 },
             ),
             "max_occurs": 99999999999999,
-        }
+        },
     )
 
 
@@ -38,5 +38,5 @@ class Doc:
         metadata={
             "type": "Element",
             "required": True,
-        }
+        },
     )

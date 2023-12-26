@@ -14,5 +14,5 @@ class Iid:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

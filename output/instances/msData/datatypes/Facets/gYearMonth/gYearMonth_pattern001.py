@@ -2,5 +2,5 @@ from output.models.ms_data.datatypes.facets.g_year_month.g_year_month_pattern001
 
 
 obj = Test(
-    foo="2001-03"
+    foo='2001-03'
 )

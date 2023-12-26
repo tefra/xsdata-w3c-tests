@@ -1,4 +1,6 @@
-from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_min_inclusive_4_xsd.nistschema_sv_iv_atomic_negative_integer_min_inclusive_4 import NistschemaSvIvAtomicNegativeIntegerMinInclusive4
+from output.models.nist_data.atomic.negative_integer.schema_instance.nistschema_sv_iv_atomic_negative_integer_min_inclusive_4_xsd.nistschema_sv_iv_atomic_negative_integer_min_inclusive_4 import (
+    NistschemaSvIvAtomicNegativeIntegerMinInclusive4,
+)
 
 __all__ = [
     "NistschemaSvIvAtomicNegativeIntegerMinInclusive4",

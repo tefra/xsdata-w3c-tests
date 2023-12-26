@@ -13,7 +13,7 @@ class TypeType:
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -26,7 +26,7 @@ class DerivedType(TypeType):
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )
 
 
@@ -43,5 +43,5 @@ class Root:
             "type": "Element",
             "namespace": "",
             "required": True,
-        }
+        },
     )

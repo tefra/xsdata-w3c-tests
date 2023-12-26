@@ -3,13 +3,13 @@ from output.models.nist_data.list_pkg.g_day.schema_instance.nistschema_sv_iv_lis
 
 obj = NistschemaSvIvListGDayPattern1(
     value=[
-        "---17",
-        "---23",
-        "---09",
-        "---18",
-        "---08",
-        "---08",
-        "---02",
-        "---01",
+        '---17',
+        '---23',
+        '---09',
+        '---18',
+        '---08',
+        '---08',
+        '---02',
+        '---01',
     ]
 )

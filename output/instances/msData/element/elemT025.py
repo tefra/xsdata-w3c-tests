@@ -5,14 +5,14 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     test2=DerivedElement(
-        qname="test2",
+        qname='test2',
         value=ECa(
             x=[
-                "",
+                '',
             ],
-            y="",
-            z=""
+            y='',
+            z=''
         ),
-        type="E-CA"
+        type='E-CA'
     )
 )

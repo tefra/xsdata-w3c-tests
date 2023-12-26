@@ -8,8 +8,8 @@ obj = Doc(
         AnyType(
             foo_bar_target_namespace_element=[
                 AnyElement(
-                    qname="{bar}bar",
-                    text=""
+                    qname='{bar}bar',
+                    text=''
                 ),
             ]
         ),

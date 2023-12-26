@@ -10,11 +10,11 @@ class Example:
             "type": "Element",
             "namespace": "",
             "min_occurs": 1,
-        }
+        },
     )
     kind: Optional[str] = field(
         default=None,
         metadata={
             "type": "Attribute",
-        }
+        },
     )

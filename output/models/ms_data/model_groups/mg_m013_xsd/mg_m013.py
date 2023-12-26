@@ -12,7 +12,7 @@ class Doc:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
 
 
@@ -26,14 +26,14 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
     e2: Optional[object] = field(
         default=None,
         metadata={
             "type": "Element",
             "namespace": "",
-        }
+        },
     )
 
 
@@ -47,5 +47,5 @@ class Global:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
-        }
+        },
     )
